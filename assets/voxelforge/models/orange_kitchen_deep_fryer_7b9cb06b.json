@@ -1,0 +1,2493 @@
+{
+  "credit": "VoxelForge",
+  "textures": {
+    "main": "voxelforge:item/orange_kitchen_deep_fryer_7b9cb06b/main"
+  },
+  "elements": [
+    {
+      "name": "stainless_cabinet",
+      "from": [
+        0,
+        0,
+        0
+      ],
+      "to": [
+        16,
+        14,
+        16
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            12,
+            4,
+            16,
+            7.5
+          ],
+          "texture": "#main"
+        },
+        "south": {
+          "uv": [
+            4,
+            4,
+            8,
+            7.5
+          ],
+          "texture": "#main"
+        },
+        "east": {
+          "uv": [
+            0,
+            4,
+            4,
+            7.5
+          ],
+          "texture": "#main"
+        },
+        "west": {
+          "uv": [
+            8,
+            4,
+            12,
+            7.5
+          ],
+          "texture": "#main"
+        },
+        "up": {
+          "uv": [
+            4,
+            0,
+            8,
+            4
+          ],
+          "texture": "#main"
+        },
+        "down": {
+          "uv": [
+            8,
+            0,
+            12,
+            4
+          ],
+          "texture": "#main"
+        }
+      }
+    },
+    {
+      "name": "cooktop_front_lip",
+      "from": [
+        0,
+        14,
+        0
+      ],
+      "to": [
+        16,
+        16,
+        1
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            4.5,
+            7.75,
+            8.5,
+            8.25
+          ],
+          "texture": "#main"
+        },
+        "south": {
+          "uv": [
+            0.25,
+            7.75,
+            4.25,
+            8.25
+          ],
+          "texture": "#main"
+        },
+        "east": {
+          "uv": [
+            0,
+            7.75,
+            0.25,
+            8.25
+          ],
+          "texture": "#main"
+        },
+        "west": {
+          "uv": [
+            4.25,
+            7.75,
+            4.5,
+            8.25
+          ],
+          "texture": "#main"
+        },
+        "up": {
+          "uv": [
+            0.25,
+            7.5,
+            4.25,
+            7.75
+          ],
+          "texture": "#main"
+        },
+        "down": {
+          "uv": [
+            4.25,
+            7.5,
+            8.25,
+            7.75
+          ],
+          "texture": "#main"
+        }
+      }
+    },
+    {
+      "name": "cooktop_rear_lip",
+      "from": [
+        0,
+        14,
+        15
+      ],
+      "to": [
+        16,
+        16,
+        16
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            4.5,
+            7.75,
+            8.5,
+            8.25
+          ],
+          "texture": "#main"
+        },
+        "south": {
+          "uv": [
+            0.25,
+            7.75,
+            4.25,
+            8.25
+          ],
+          "texture": "#main"
+        },
+        "east": {
+          "uv": [
+            0,
+            7.75,
+            0.25,
+            8.25
+          ],
+          "texture": "#main"
+        },
+        "west": {
+          "uv": [
+            4.25,
+            7.75,
+            4.5,
+            8.25
+          ],
+          "texture": "#main"
+        },
+        "up": {
+          "uv": [
+            0.25,
+            7.5,
+            4.25,
+            7.75
+          ],
+          "texture": "#main"
+        },
+        "down": {
+          "uv": [
+            4.25,
+            7.5,
+            8.25,
+            7.75
+          ],
+          "texture": "#main"
+        }
+      }
+    },
+    {
+      "name": "cooktop_left_rail",
+      "from": [
+        0,
+        14,
+        1
+      ],
+      "to": [
+        1,
+        16,
+        15
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            15.75,
+            11,
+            16,
+            11.5
+          ],
+          "texture": "#main"
+        },
+        "south": {
+          "uv": [
+            12,
+            11,
+            12.25,
+            11.5
+          ],
+          "texture": "#main"
+        },
+        "east": {
+          "uv": [
+            8.5,
+            11,
+            12,
+            11.5
+          ],
+          "texture": "#main"
+        },
+        "west": {
+          "uv": [
+            12.25,
+            11,
+            15.75,
+            11.5
+          ],
+          "texture": "#main"
+        },
+        "up": {
+          "uv": [
+            12,
+            7.5,
+            12.25,
+            11
+          ],
+          "texture": "#main"
+        },
+        "down": {
+          "uv": [
+            12.25,
+            7.5,
+            12.5,
+            11
+          ],
+          "texture": "#main"
+        }
+      }
+    },
+    {
+      "name": "cooktop_right_rail",
+      "from": [
+        15,
+        14,
+        1
+      ],
+      "to": [
+        16,
+        16,
+        15
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            15.75,
+            11,
+            16,
+            11.5
+          ],
+          "texture": "#main"
+        },
+        "south": {
+          "uv": [
+            12,
+            11,
+            12.25,
+            11.5
+          ],
+          "texture": "#main"
+        },
+        "east": {
+          "uv": [
+            8.5,
+            11,
+            12,
+            11.5
+          ],
+          "texture": "#main"
+        },
+        "west": {
+          "uv": [
+            12.25,
+            11,
+            15.75,
+            11.5
+          ],
+          "texture": "#main"
+        },
+        "up": {
+          "uv": [
+            12,
+            7.5,
+            12.25,
+            11
+          ],
+          "texture": "#main"
+        },
+        "down": {
+          "uv": [
+            12.25,
+            7.5,
+            12.5,
+            11
+          ],
+          "texture": "#main"
+        }
+      }
+    },
+    {
+      "name": "central_vat_divider",
+      "from": [
+        7.5,
+        14,
+        1
+      ],
+      "to": [
+        8.5,
+        16,
+        15
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            15.75,
+            11,
+            16,
+            11.5
+          ],
+          "texture": "#main"
+        },
+        "south": {
+          "uv": [
+            12,
+            11,
+            12.25,
+            11.5
+          ],
+          "texture": "#main"
+        },
+        "east": {
+          "uv": [
+            8.5,
+            11,
+            12,
+            11.5
+          ],
+          "texture": "#main"
+        },
+        "west": {
+          "uv": [
+            12.25,
+            11,
+            15.75,
+            11.5
+          ],
+          "texture": "#main"
+        },
+        "up": {
+          "uv": [
+            12,
+            7.5,
+            12.25,
+            11
+          ],
+          "texture": "#main"
+        },
+        "down": {
+          "uv": [
+            12.25,
+            7.5,
+            12.5,
+            11
+          ],
+          "texture": "#main"
+        }
+      }
+    },
+    {
+      "name": "left_recessed_oil",
+      "from": [
+        1.5,
+        14,
+        2
+      ],
+      "to": [
+        7.5,
+        14.25,
+        14
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            7.5,
+            14.5,
+            9,
+            14.75
+          ],
+          "texture": "#main"
+        },
+        "south": {
+          "uv": [
+            3,
+            14.5,
+            4.5,
+            14.75
+          ],
+          "texture": "#main"
+        },
+        "east": {
+          "uv": [
+            0,
+            14.5,
+            3,
+            14.75
+          ],
+          "texture": "#main"
+        },
+        "west": {
+          "uv": [
+            4.5,
+            14.5,
+            7.5,
+            14.75
+          ],
+          "texture": "#main"
+        },
+        "up": {
+          "uv": [
+            3,
+            11.5,
+            4.5,
+            14.5
+          ],
+          "texture": "#main"
+        },
+        "down": {
+          "uv": [
+            4.5,
+            11.5,
+            6,
+            14.5
+          ],
+          "texture": "#main"
+        }
+      }
+    },
+    {
+      "name": "right_recessed_oil",
+      "from": [
+        8.5,
+        14,
+        2
+      ],
+      "to": [
+        14.5,
+        14.25,
+        14
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            7.5,
+            14.5,
+            9,
+            14.75
+          ],
+          "texture": "#main"
+        },
+        "south": {
+          "uv": [
+            3,
+            14.5,
+            4.5,
+            14.75
+          ],
+          "texture": "#main"
+        },
+        "east": {
+          "uv": [
+            0,
+            14.5,
+            3,
+            14.75
+          ],
+          "texture": "#main"
+        },
+        "west": {
+          "uv": [
+            4.5,
+            14.5,
+            7.5,
+            14.75
+          ],
+          "texture": "#main"
+        },
+        "up": {
+          "uv": [
+            3,
+            11.5,
+            4.5,
+            14.5
+          ],
+          "texture": "#main"
+        },
+        "down": {
+          "uv": [
+            4.5,
+            11.5,
+            6,
+            14.5
+          ],
+          "texture": "#main"
+        }
+      }
+    },
+    {
+      "name": "left_basket_mesh_floor",
+      "from": [
+        2,
+        16,
+        4
+      ],
+      "to": [
+        7,
+        16.5,
+        13
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            14.75,
+            13.75,
+            16,
+            14
+          ],
+          "texture": "#main"
+        },
+        "south": {
+          "uv": [
+            11.25,
+            13.75,
+            12.5,
+            14
+          ],
+          "texture": "#main"
+        },
+        "east": {
+          "uv": [
+            9,
+            13.75,
+            11.25,
+            14
+          ],
+          "texture": "#main"
+        },
+        "west": {
+          "uv": [
+            12.5,
+            13.75,
+            14.75,
+            14
+          ],
+          "texture": "#main"
+        },
+        "up": {
+          "uv": [
+            11.25,
+            11.5,
+            12.5,
+            13.75
+          ],
+          "texture": "#main"
+        },
+        "down": {
+          "uv": [
+            12.5,
+            11.5,
+            13.75,
+            13.75
+          ],
+          "texture": "#main"
+        }
+      }
+    },
+    {
+      "name": "right_basket_mesh_floor",
+      "from": [
+        9,
+        16,
+        4
+      ],
+      "to": [
+        14,
+        16.5,
+        13
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            14.75,
+            13.75,
+            16,
+            14
+          ],
+          "texture": "#main"
+        },
+        "south": {
+          "uv": [
+            11.25,
+            13.75,
+            12.5,
+            14
+          ],
+          "texture": "#main"
+        },
+        "east": {
+          "uv": [
+            9,
+            13.75,
+            11.25,
+            14
+          ],
+          "texture": "#main"
+        },
+        "west": {
+          "uv": [
+            12.5,
+            13.75,
+            14.75,
+            14
+          ],
+          "texture": "#main"
+        },
+        "up": {
+          "uv": [
+            11.25,
+            11.5,
+            12.5,
+            13.75
+          ],
+          "texture": "#main"
+        },
+        "down": {
+          "uv": [
+            12.5,
+            11.5,
+            13.75,
+            13.75
+          ],
+          "texture": "#main"
+        }
+      }
+    },
+    {
+      "name": "left_basket_outer_top_wire",
+      "from": [
+        2,
+        19,
+        4
+      ],
+      "to": [
+        2.5,
+        19.5,
+        13
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            8.25,
+            10.5,
+            8.5,
+            10.75
+          ],
+          "texture": "#main"
+        },
+        "south": {
+          "uv": [
+            5.75,
+            10.5,
+            6,
+            10.75
+          ],
+          "texture": "#main"
+        },
+        "east": {
+          "uv": [
+            3.5,
+            10.5,
+            5.75,
+            10.75
+          ],
+          "texture": "#main"
+        },
+        "west": {
+          "uv": [
+            6,
+            10.5,
+            8.25,
+            10.75
+          ],
+          "texture": "#main"
+        },
+        "up": {
+          "uv": [
+            5.75,
+            8.25,
+            6,
+            10.5
+          ],
+          "texture": "#main"
+        },
+        "down": {
+          "uv": [
+            6,
+            8.25,
+            6.25,
+            10.5
+          ],
+          "texture": "#main"
+        }
+      }
+    },
+    {
+      "name": "left_basket_inner_top_wire",
+      "from": [
+        6.5,
+        19,
+        4
+      ],
+      "to": [
+        7,
+        19.5,
+        13
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            8.25,
+            10.5,
+            8.5,
+            10.75
+          ],
+          "texture": "#main"
+        },
+        "south": {
+          "uv": [
+            5.75,
+            10.5,
+            6,
+            10.75
+          ],
+          "texture": "#main"
+        },
+        "east": {
+          "uv": [
+            3.5,
+            10.5,
+            5.75,
+            10.75
+          ],
+          "texture": "#main"
+        },
+        "west": {
+          "uv": [
+            6,
+            10.5,
+            8.25,
+            10.75
+          ],
+          "texture": "#main"
+        },
+        "up": {
+          "uv": [
+            5.75,
+            8.25,
+            6,
+            10.5
+          ],
+          "texture": "#main"
+        },
+        "down": {
+          "uv": [
+            6,
+            8.25,
+            6.25,
+            10.5
+          ],
+          "texture": "#main"
+        }
+      }
+    },
+    {
+      "name": "right_basket_inner_top_wire",
+      "from": [
+        9,
+        19,
+        4
+      ],
+      "to": [
+        9.5,
+        19.5,
+        13
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            8.25,
+            10.5,
+            8.5,
+            10.75
+          ],
+          "texture": "#main"
+        },
+        "south": {
+          "uv": [
+            5.75,
+            10.5,
+            6,
+            10.75
+          ],
+          "texture": "#main"
+        },
+        "east": {
+          "uv": [
+            3.5,
+            10.5,
+            5.75,
+            10.75
+          ],
+          "texture": "#main"
+        },
+        "west": {
+          "uv": [
+            6,
+            10.5,
+            8.25,
+            10.75
+          ],
+          "texture": "#main"
+        },
+        "up": {
+          "uv": [
+            5.75,
+            8.25,
+            6,
+            10.5
+          ],
+          "texture": "#main"
+        },
+        "down": {
+          "uv": [
+            6,
+            8.25,
+            6.25,
+            10.5
+          ],
+          "texture": "#main"
+        }
+      }
+    },
+    {
+      "name": "right_basket_outer_top_wire",
+      "from": [
+        13.5,
+        19,
+        4
+      ],
+      "to": [
+        14,
+        19.5,
+        13
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            8.25,
+            10.5,
+            8.5,
+            10.75
+          ],
+          "texture": "#main"
+        },
+        "south": {
+          "uv": [
+            5.75,
+            10.5,
+            6,
+            10.75
+          ],
+          "texture": "#main"
+        },
+        "east": {
+          "uv": [
+            3.5,
+            10.5,
+            5.75,
+            10.75
+          ],
+          "texture": "#main"
+        },
+        "west": {
+          "uv": [
+            6,
+            10.5,
+            8.25,
+            10.75
+          ],
+          "texture": "#main"
+        },
+        "up": {
+          "uv": [
+            5.75,
+            8.25,
+            6,
+            10.5
+          ],
+          "texture": "#main"
+        },
+        "down": {
+          "uv": [
+            6,
+            8.25,
+            6.25,
+            10.5
+          ],
+          "texture": "#main"
+        }
+      }
+    },
+    {
+      "name": "left_basket_front_top_wire",
+      "from": [
+        2,
+        19,
+        4
+      ],
+      "to": [
+        7,
+        19.5,
+        4.5
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            1.75,
+            8.5,
+            3,
+            8.75
+          ],
+          "texture": "#main"
+        },
+        "south": {
+          "uv": [
+            0.25,
+            8.5,
+            1.5,
+            8.75
+          ],
+          "texture": "#main"
+        },
+        "east": {
+          "uv": [
+            0,
+            8.5,
+            0.25,
+            8.75
+          ],
+          "texture": "#main"
+        },
+        "west": {
+          "uv": [
+            1.5,
+            8.5,
+            1.75,
+            8.75
+          ],
+          "texture": "#main"
+        },
+        "up": {
+          "uv": [
+            0.25,
+            8.25,
+            1.5,
+            8.5
+          ],
+          "texture": "#main"
+        },
+        "down": {
+          "uv": [
+            1.5,
+            8.25,
+            2.75,
+            8.5
+          ],
+          "texture": "#main"
+        }
+      }
+    },
+    {
+      "name": "left_basket_rear_top_wire",
+      "from": [
+        2,
+        19,
+        12.5
+      ],
+      "to": [
+        7,
+        19.5,
+        13
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            1.75,
+            8.5,
+            3,
+            8.75
+          ],
+          "texture": "#main"
+        },
+        "south": {
+          "uv": [
+            0.25,
+            8.5,
+            1.5,
+            8.75
+          ],
+          "texture": "#main"
+        },
+        "east": {
+          "uv": [
+            0,
+            8.5,
+            0.25,
+            8.75
+          ],
+          "texture": "#main"
+        },
+        "west": {
+          "uv": [
+            1.5,
+            8.5,
+            1.75,
+            8.75
+          ],
+          "texture": "#main"
+        },
+        "up": {
+          "uv": [
+            0.25,
+            8.25,
+            1.5,
+            8.5
+          ],
+          "texture": "#main"
+        },
+        "down": {
+          "uv": [
+            1.5,
+            8.25,
+            2.75,
+            8.5
+          ],
+          "texture": "#main"
+        }
+      }
+    },
+    {
+      "name": "right_basket_front_top_wire",
+      "from": [
+        9,
+        19,
+        4
+      ],
+      "to": [
+        14,
+        19.5,
+        4.5
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            1.75,
+            8.5,
+            3,
+            8.75
+          ],
+          "texture": "#main"
+        },
+        "south": {
+          "uv": [
+            0.25,
+            8.5,
+            1.5,
+            8.75
+          ],
+          "texture": "#main"
+        },
+        "east": {
+          "uv": [
+            0,
+            8.5,
+            0.25,
+            8.75
+          ],
+          "texture": "#main"
+        },
+        "west": {
+          "uv": [
+            1.5,
+            8.5,
+            1.75,
+            8.75
+          ],
+          "texture": "#main"
+        },
+        "up": {
+          "uv": [
+            0.25,
+            8.25,
+            1.5,
+            8.5
+          ],
+          "texture": "#main"
+        },
+        "down": {
+          "uv": [
+            1.5,
+            8.25,
+            2.75,
+            8.5
+          ],
+          "texture": "#main"
+        }
+      }
+    },
+    {
+      "name": "right_basket_rear_top_wire",
+      "from": [
+        9,
+        19,
+        12.5
+      ],
+      "to": [
+        14,
+        19.5,
+        13
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            1.75,
+            8.5,
+            3,
+            8.75
+          ],
+          "texture": "#main"
+        },
+        "south": {
+          "uv": [
+            0.25,
+            8.5,
+            1.5,
+            8.75
+          ],
+          "texture": "#main"
+        },
+        "east": {
+          "uv": [
+            0,
+            8.5,
+            0.25,
+            8.75
+          ],
+          "texture": "#main"
+        },
+        "west": {
+          "uv": [
+            1.5,
+            8.5,
+            1.75,
+            8.75
+          ],
+          "texture": "#main"
+        },
+        "up": {
+          "uv": [
+            0.25,
+            8.25,
+            1.5,
+            8.5
+          ],
+          "texture": "#main"
+        },
+        "down": {
+          "uv": [
+            1.5,
+            8.25,
+            2.75,
+            8.5
+          ],
+          "texture": "#main"
+        }
+      }
+    },
+    {
+      "name": "left_basket_front_outer_post",
+      "from": [
+        2,
+        16.5,
+        4
+      ],
+      "to": [
+        2.5,
+        19,
+        4.5
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            0.75,
+            9,
+            1,
+            9.75
+          ],
+          "texture": "#main"
+        },
+        "south": {
+          "uv": [
+            0.25,
+            9,
+            0.5,
+            9.75
+          ],
+          "texture": "#main"
+        },
+        "east": {
+          "uv": [
+            0,
+            9,
+            0.25,
+            9.75
+          ],
+          "texture": "#main"
+        },
+        "west": {
+          "uv": [
+            0.5,
+            9,
+            0.75,
+            9.75
+          ],
+          "texture": "#main"
+        },
+        "up": {
+          "uv": [
+            0.25,
+            8.75,
+            0.5,
+            9
+          ],
+          "texture": "#main"
+        },
+        "down": {
+          "uv": [
+            0.5,
+            8.75,
+            0.75,
+            9
+          ],
+          "texture": "#main"
+        }
+      }
+    },
+    {
+      "name": "left_basket_front_inner_post",
+      "from": [
+        6.5,
+        16.5,
+        4
+      ],
+      "to": [
+        7,
+        19,
+        4.5
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            0.75,
+            9,
+            1,
+            9.75
+          ],
+          "texture": "#main"
+        },
+        "south": {
+          "uv": [
+            0.25,
+            9,
+            0.5,
+            9.75
+          ],
+          "texture": "#main"
+        },
+        "east": {
+          "uv": [
+            0,
+            9,
+            0.25,
+            9.75
+          ],
+          "texture": "#main"
+        },
+        "west": {
+          "uv": [
+            0.5,
+            9,
+            0.75,
+            9.75
+          ],
+          "texture": "#main"
+        },
+        "up": {
+          "uv": [
+            0.25,
+            8.75,
+            0.5,
+            9
+          ],
+          "texture": "#main"
+        },
+        "down": {
+          "uv": [
+            0.5,
+            8.75,
+            0.75,
+            9
+          ],
+          "texture": "#main"
+        }
+      }
+    },
+    {
+      "name": "left_basket_rear_outer_post",
+      "from": [
+        2,
+        16.5,
+        12.5
+      ],
+      "to": [
+        2.5,
+        19,
+        13
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            0.75,
+            9,
+            1,
+            9.75
+          ],
+          "texture": "#main"
+        },
+        "south": {
+          "uv": [
+            0.25,
+            9,
+            0.5,
+            9.75
+          ],
+          "texture": "#main"
+        },
+        "east": {
+          "uv": [
+            0,
+            9,
+            0.25,
+            9.75
+          ],
+          "texture": "#main"
+        },
+        "west": {
+          "uv": [
+            0.5,
+            9,
+            0.75,
+            9.75
+          ],
+          "texture": "#main"
+        },
+        "up": {
+          "uv": [
+            0.25,
+            8.75,
+            0.5,
+            9
+          ],
+          "texture": "#main"
+        },
+        "down": {
+          "uv": [
+            0.5,
+            8.75,
+            0.75,
+            9
+          ],
+          "texture": "#main"
+        }
+      }
+    },
+    {
+      "name": "left_basket_rear_inner_post",
+      "from": [
+        6.5,
+        16.5,
+        12.5
+      ],
+      "to": [
+        7,
+        19,
+        13
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            0.75,
+            9,
+            1,
+            9.75
+          ],
+          "texture": "#main"
+        },
+        "south": {
+          "uv": [
+            0.25,
+            9,
+            0.5,
+            9.75
+          ],
+          "texture": "#main"
+        },
+        "east": {
+          "uv": [
+            0,
+            9,
+            0.25,
+            9.75
+          ],
+          "texture": "#main"
+        },
+        "west": {
+          "uv": [
+            0.5,
+            9,
+            0.75,
+            9.75
+          ],
+          "texture": "#main"
+        },
+        "up": {
+          "uv": [
+            0.25,
+            8.75,
+            0.5,
+            9
+          ],
+          "texture": "#main"
+        },
+        "down": {
+          "uv": [
+            0.5,
+            8.75,
+            0.75,
+            9
+          ],
+          "texture": "#main"
+        }
+      }
+    },
+    {
+      "name": "right_basket_front_inner_post",
+      "from": [
+        9,
+        16.5,
+        4
+      ],
+      "to": [
+        9.5,
+        19,
+        4.5
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            0.75,
+            9,
+            1,
+            9.75
+          ],
+          "texture": "#main"
+        },
+        "south": {
+          "uv": [
+            0.25,
+            9,
+            0.5,
+            9.75
+          ],
+          "texture": "#main"
+        },
+        "east": {
+          "uv": [
+            0,
+            9,
+            0.25,
+            9.75
+          ],
+          "texture": "#main"
+        },
+        "west": {
+          "uv": [
+            0.5,
+            9,
+            0.75,
+            9.75
+          ],
+          "texture": "#main"
+        },
+        "up": {
+          "uv": [
+            0.25,
+            8.75,
+            0.5,
+            9
+          ],
+          "texture": "#main"
+        },
+        "down": {
+          "uv": [
+            0.5,
+            8.75,
+            0.75,
+            9
+          ],
+          "texture": "#main"
+        }
+      }
+    },
+    {
+      "name": "right_basket_front_outer_post",
+      "from": [
+        13.5,
+        16.5,
+        4
+      ],
+      "to": [
+        14,
+        19,
+        4.5
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            0.75,
+            9,
+            1,
+            9.75
+          ],
+          "texture": "#main"
+        },
+        "south": {
+          "uv": [
+            0.25,
+            9,
+            0.5,
+            9.75
+          ],
+          "texture": "#main"
+        },
+        "east": {
+          "uv": [
+            0,
+            9,
+            0.25,
+            9.75
+          ],
+          "texture": "#main"
+        },
+        "west": {
+          "uv": [
+            0.5,
+            9,
+            0.75,
+            9.75
+          ],
+          "texture": "#main"
+        },
+        "up": {
+          "uv": [
+            0.25,
+            8.75,
+            0.5,
+            9
+          ],
+          "texture": "#main"
+        },
+        "down": {
+          "uv": [
+            0.5,
+            8.75,
+            0.75,
+            9
+          ],
+          "texture": "#main"
+        }
+      }
+    },
+    {
+      "name": "right_basket_rear_inner_post",
+      "from": [
+        9,
+        16.5,
+        12.5
+      ],
+      "to": [
+        9.5,
+        19,
+        13
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            0.75,
+            9,
+            1,
+            9.75
+          ],
+          "texture": "#main"
+        },
+        "south": {
+          "uv": [
+            0.25,
+            9,
+            0.5,
+            9.75
+          ],
+          "texture": "#main"
+        },
+        "east": {
+          "uv": [
+            0,
+            9,
+            0.25,
+            9.75
+          ],
+          "texture": "#main"
+        },
+        "west": {
+          "uv": [
+            0.5,
+            9,
+            0.75,
+            9.75
+          ],
+          "texture": "#main"
+        },
+        "up": {
+          "uv": [
+            0.25,
+            8.75,
+            0.5,
+            9
+          ],
+          "texture": "#main"
+        },
+        "down": {
+          "uv": [
+            0.5,
+            8.75,
+            0.75,
+            9
+          ],
+          "texture": "#main"
+        }
+      }
+    },
+    {
+      "name": "right_basket_rear_outer_post",
+      "from": [
+        13.5,
+        16.5,
+        12.5
+      ],
+      "to": [
+        14,
+        19,
+        13
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            0.75,
+            9,
+            1,
+            9.75
+          ],
+          "texture": "#main"
+        },
+        "south": {
+          "uv": [
+            0.25,
+            9,
+            0.5,
+            9.75
+          ],
+          "texture": "#main"
+        },
+        "east": {
+          "uv": [
+            0,
+            9,
+            0.25,
+            9.75
+          ],
+          "texture": "#main"
+        },
+        "west": {
+          "uv": [
+            0.5,
+            9,
+            0.75,
+            9.75
+          ],
+          "texture": "#main"
+        },
+        "up": {
+          "uv": [
+            0.25,
+            8.75,
+            0.5,
+            9
+          ],
+          "texture": "#main"
+        },
+        "down": {
+          "uv": [
+            0.5,
+            8.75,
+            0.75,
+            9
+          ],
+          "texture": "#main"
+        }
+      }
+    },
+    {
+      "name": "left_lift_handle_shaft",
+      "from": [
+        4,
+        19,
+        -1
+      ],
+      "to": [
+        5,
+        19.5,
+        4
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            2.75,
+            11,
+            3,
+            11.25
+          ],
+          "texture": "#main"
+        },
+        "south": {
+          "uv": [
+            1.25,
+            11,
+            1.5,
+            11.25
+          ],
+          "texture": "#main"
+        },
+        "east": {
+          "uv": [
+            0,
+            11,
+            1.25,
+            11.25
+          ],
+          "texture": "#main"
+        },
+        "west": {
+          "uv": [
+            1.5,
+            11,
+            2.75,
+            11.25
+          ],
+          "texture": "#main"
+        },
+        "up": {
+          "uv": [
+            1.25,
+            9.75,
+            1.5,
+            11
+          ],
+          "texture": "#main"
+        },
+        "down": {
+          "uv": [
+            1.5,
+            9.75,
+            1.75,
+            11
+          ],
+          "texture": "#main"
+        }
+      }
+    },
+    {
+      "name": "right_lift_handle_shaft",
+      "from": [
+        11,
+        19,
+        -1
+      ],
+      "to": [
+        12,
+        19.5,
+        4
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            2.75,
+            11,
+            3,
+            11.25
+          ],
+          "texture": "#main"
+        },
+        "south": {
+          "uv": [
+            1.25,
+            11,
+            1.5,
+            11.25
+          ],
+          "texture": "#main"
+        },
+        "east": {
+          "uv": [
+            0,
+            11,
+            1.25,
+            11.25
+          ],
+          "texture": "#main"
+        },
+        "west": {
+          "uv": [
+            1.5,
+            11,
+            2.75,
+            11.25
+          ],
+          "texture": "#main"
+        },
+        "up": {
+          "uv": [
+            1.25,
+            9.75,
+            1.5,
+            11
+          ],
+          "texture": "#main"
+        },
+        "down": {
+          "uv": [
+            1.5,
+            9.75,
+            1.75,
+            11
+          ],
+          "texture": "#main"
+        }
+      }
+    },
+    {
+      "name": "left_black_lift_grip",
+      "from": [
+        3,
+        18.75,
+        -2
+      ],
+      "to": [
+        6,
+        19.75,
+        0
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            10.75,
+            14.5,
+            11.5,
+            14.75
+          ],
+          "texture": "#main"
+        },
+        "south": {
+          "uv": [
+            9.5,
+            14.5,
+            10.25,
+            14.75
+          ],
+          "texture": "#main"
+        },
+        "east": {
+          "uv": [
+            9,
+            14.5,
+            9.5,
+            14.75
+          ],
+          "texture": "#main"
+        },
+        "west": {
+          "uv": [
+            10.25,
+            14.5,
+            10.75,
+            14.75
+          ],
+          "texture": "#main"
+        },
+        "up": {
+          "uv": [
+            9.5,
+            14,
+            10.25,
+            14.5
+          ],
+          "texture": "#main"
+        },
+        "down": {
+          "uv": [
+            10.25,
+            14,
+            11,
+            14.5
+          ],
+          "texture": "#main"
+        }
+      }
+    },
+    {
+      "name": "right_black_lift_grip",
+      "from": [
+        10,
+        18.75,
+        -2
+      ],
+      "to": [
+        13,
+        19.75,
+        0
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            10.75,
+            14.5,
+            11.5,
+            14.75
+          ],
+          "texture": "#main"
+        },
+        "south": {
+          "uv": [
+            9.5,
+            14.5,
+            10.25,
+            14.75
+          ],
+          "texture": "#main"
+        },
+        "east": {
+          "uv": [
+            9,
+            14.5,
+            9.5,
+            14.75
+          ],
+          "texture": "#main"
+        },
+        "west": {
+          "uv": [
+            10.25,
+            14.5,
+            10.75,
+            14.75
+          ],
+          "texture": "#main"
+        },
+        "up": {
+          "uv": [
+            9.5,
+            14,
+            10.25,
+            14.5
+          ],
+          "texture": "#main"
+        },
+        "down": {
+          "uv": [
+            10.25,
+            14,
+            11,
+            14.5
+          ],
+          "texture": "#main"
+        }
+      }
+    },
+    {
+      "name": "left_red_heat_dial",
+      "from": [
+        3.5,
+        10.5,
+        -0.75
+      ],
+      "to": [
+        5.5,
+        12.5,
+        0.25
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            12.5,
+            14.25,
+            13,
+            14.75
+          ],
+          "texture": "#main"
+        },
+        "south": {
+          "uv": [
+            11.75,
+            14.25,
+            12.25,
+            14.75
+          ],
+          "texture": "#main"
+        },
+        "east": {
+          "uv": [
+            11.5,
+            14.25,
+            11.75,
+            14.75
+          ],
+          "texture": "#main"
+        },
+        "west": {
+          "uv": [
+            12.25,
+            14.25,
+            12.5,
+            14.75
+          ],
+          "texture": "#main"
+        },
+        "up": {
+          "uv": [
+            11.75,
+            14,
+            12.25,
+            14.25
+          ],
+          "texture": "#main"
+        },
+        "down": {
+          "uv": [
+            12.25,
+            14,
+            12.75,
+            14.25
+          ],
+          "texture": "#main"
+        }
+      }
+    },
+    {
+      "name": "right_red_heat_dial",
+      "from": [
+        10.5,
+        10.5,
+        -0.75
+      ],
+      "to": [
+        12.5,
+        12.5,
+        0.25
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            12.5,
+            14.25,
+            13,
+            14.75
+          ],
+          "texture": "#main"
+        },
+        "south": {
+          "uv": [
+            11.75,
+            14.25,
+            12.25,
+            14.75
+          ],
+          "texture": "#main"
+        },
+        "east": {
+          "uv": [
+            11.5,
+            14.25,
+            11.75,
+            14.75
+          ],
+          "texture": "#main"
+        },
+        "west": {
+          "uv": [
+            12.25,
+            14.25,
+            12.5,
+            14.75
+          ],
+          "texture": "#main"
+        },
+        "up": {
+          "uv": [
+            11.75,
+            14,
+            12.25,
+            14.25
+          ],
+          "texture": "#main"
+        },
+        "down": {
+          "uv": [
+            12.25,
+            14,
+            12.75,
+            14.25
+          ],
+          "texture": "#main"
+        }
+      }
+    },
+    {
+      "name": "central_power_switch",
+      "from": [
+        7.5,
+        10.75,
+        -0.5
+      ],
+      "to": [
+        8.5,
+        11.75,
+        0
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            13.75,
+            14.25,
+            14,
+            14.5
+          ],
+          "texture": "#main"
+        },
+        "south": {
+          "uv": [
+            13.25,
+            14.25,
+            13.5,
+            14.5
+          ],
+          "texture": "#main"
+        },
+        "east": {
+          "uv": [
+            13,
+            14.25,
+            13.25,
+            14.5
+          ],
+          "texture": "#main"
+        },
+        "west": {
+          "uv": [
+            13.5,
+            14.25,
+            13.75,
+            14.5
+          ],
+          "texture": "#main"
+        },
+        "up": {
+          "uv": [
+            13.25,
+            14,
+            13.5,
+            14.25
+          ],
+          "texture": "#main"
+        },
+        "down": {
+          "uv": [
+            13.5,
+            14,
+            13.75,
+            14.25
+          ],
+          "texture": "#main"
+        }
+      }
+    },
+    {
+      "name": "rear_splash_guard",
+      "from": [
+        0,
+        16,
+        15
+      ],
+      "to": [
+        16,
+        20,
+        16
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            4.5,
+            15,
+            8.5,
+            16
+          ],
+          "texture": "#main"
+        },
+        "south": {
+          "uv": [
+            0.25,
+            15,
+            4.25,
+            16
+          ],
+          "texture": "#main"
+        },
+        "east": {
+          "uv": [
+            0,
+            15,
+            0.25,
+            16
+          ],
+          "texture": "#main"
+        },
+        "west": {
+          "uv": [
+            4.25,
+            15,
+            4.5,
+            16
+          ],
+          "texture": "#main"
+        },
+        "up": {
+          "uv": [
+            0.25,
+            14.75,
+            4.25,
+            15
+          ],
+          "texture": "#main"
+        },
+        "down": {
+          "uv": [
+            4.25,
+            14.75,
+            8.25,
+            15
+          ],
+          "texture": "#main"
+        }
+      }
+    }
+  ],
+  "display": {
+    "gui": {
+      "rotation": [
+        30,
+        225,
+        0
+      ],
+      "translation": [
+        0,
+        -0.786355,
+        -0.286618
+      ],
+      "scale": [
+        0.454002,
+        0.454002,
+        0.454002
+      ]
+    },
+    "ground": {
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "translation": [
+        0,
+        3,
+        0
+      ],
+      "scale": [
+        0.25,
+        0.25,
+        0.25
+      ]
+    },
+    "fixed": {
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "translation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        0.5,
+        0.5,
+        0.5
+      ]
+    },
+    "head": {
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "translation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    "thirdperson_righthand": {
+      "rotation": [
+        75,
+        45,
+        0
+      ],
+      "translation": [
+        0,
+        2.5,
+        0
+      ],
+      "scale": [
+        0.375,
+        0.375,
+        0.375
+      ]
+    },
+    "thirdperson_lefthand": {
+      "rotation": [
+        75,
+        45,
+        0
+      ],
+      "translation": [
+        0,
+        2.5,
+        0
+      ],
+      "scale": [
+        0.375,
+        0.375,
+        0.375
+      ]
+    },
+    "firstperson_righthand": {
+      "rotation": [
+        0,
+        45,
+        0
+      ],
+      "translation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        0.4,
+        0.4,
+        0.4
+      ]
+    },
+    "firstperson_lefthand": {
+      "rotation": [
+        0,
+        45,
+        0
+      ],
+      "translation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        0.4,
+        0.4,
+        0.4
+      ]
+    }
+  },
+  "gui_light": "side"
+}

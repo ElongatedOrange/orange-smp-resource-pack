@@ -1,0 +1,2430 @@
+{
+  "id": "3d9a2e50-bd28-4fc9-9ee9-dd5448b5e76e",
+  "kind": "model",
+  "spec": {
+    "name": "Orange Kitchen Mature chilli Crop",
+    "description": "An airy, branching chilli plant rooted at y0, with narrow pointed leaves, four hanging tapered chillies and a small upright growing tip. Three deep red fruits and one orange ripening fruit give a clear harvest-ready silhouette. No pot or soil; all geometry stays inside the requested crop bounds.",
+    "palette": [
+      "#243E20",
+      "#365B28",
+      "#4F7935",
+      "#709447",
+      "#94AF60",
+      "#681E19",
+      "#96291F",
+      "#BE3A25",
+      "#DD5734",
+      "#EE8050",
+      "#AA491F",
+      "#D76A27",
+      "#EC903A",
+      "#F5B653"
+    ],
+    "display": {
+      "gui": {
+        "rotation": [
+          30,
+          225,
+          0
+        ],
+        "translation": [
+          0,
+          0.291963,
+          -0.730171
+        ],
+        "scale": [
+          0.85,
+          0.85,
+          0.85
+        ]
+      }
+    },
+    "textures": [
+      {
+        "id": "main",
+        "width": 64,
+        "height": 64,
+        "background": "#00000000",
+        "commands": [
+          {
+            "op": "rect",
+            "x": 0,
+            "y": 1,
+            "w": 4,
+            "h": 14,
+            "color": "#4F7935",
+            "seed": 0,
+            "density": 0
+          },
+          {
+            "op": "rect",
+            "x": 1,
+            "y": 0,
+            "w": 1,
+            "h": 1,
+            "color": "#709447",
+            "seed": 0,
+            "density": 0
+          },
+          {
+            "op": "rect",
+            "x": 2,
+            "y": 0,
+            "w": 1,
+            "h": 1,
+            "color": "#365B28",
+            "seed": 0,
+            "density": 0
+          },
+          {
+            "op": "rect",
+            "x": 4,
+            "y": 1,
+            "w": 4,
+            "h": 7,
+            "color": "#4F7935",
+            "seed": 0,
+            "density": 0
+          },
+          {
+            "op": "rect",
+            "x": 5,
+            "y": 0,
+            "w": 1,
+            "h": 1,
+            "color": "#709447",
+            "seed": 0,
+            "density": 0
+          },
+          {
+            "op": "rect",
+            "x": 6,
+            "y": 0,
+            "w": 1,
+            "h": 1,
+            "color": "#365B28",
+            "seed": 0,
+            "density": 0
+          },
+          {
+            "op": "rect",
+            "x": 8,
+            "y": 1,
+            "w": 4,
+            "h": 6,
+            "color": "#4F7935",
+            "seed": 0,
+            "density": 0
+          },
+          {
+            "op": "rect",
+            "x": 9,
+            "y": 0,
+            "w": 1,
+            "h": 1,
+            "color": "#709447",
+            "seed": 0,
+            "density": 0
+          },
+          {
+            "op": "rect",
+            "x": 10,
+            "y": 0,
+            "w": 1,
+            "h": 1,
+            "color": "#365B28",
+            "seed": 0,
+            "density": 0
+          },
+          {
+            "op": "rect",
+            "x": 0,
+            "y": 18,
+            "w": 10,
+            "h": 1,
+            "color": "#365B28",
+            "seed": 0,
+            "density": 0
+          },
+          {
+            "op": "rect",
+            "x": 2,
+            "y": 16,
+            "w": 3,
+            "h": 2,
+            "color": "#4F7935",
+            "seed": 0,
+            "density": 0
+          },
+          {
+            "op": "rect",
+            "x": 5,
+            "y": 16,
+            "w": 3,
+            "h": 2,
+            "color": "#365B28",
+            "seed": 0,
+            "density": 0
+          },
+          {
+            "op": "rect",
+            "x": 10,
+            "y": 17,
+            "w": 6,
+            "h": 1,
+            "color": "#365B28",
+            "seed": 0,
+            "density": 0
+          },
+          {
+            "op": "rect",
+            "x": 11,
+            "y": 16,
+            "w": 2,
+            "h": 1,
+            "color": "#709447",
+            "seed": 0,
+            "density": 0
+          },
+          {
+            "op": "rect",
+            "x": 13,
+            "y": 16,
+            "w": 2,
+            "h": 1,
+            "color": "#365B28",
+            "seed": 0,
+            "density": 0
+          },
+          {
+            "op": "rect",
+            "x": 16,
+            "y": 19,
+            "w": 10,
+            "h": 1,
+            "color": "#365B28",
+            "seed": 0,
+            "density": 0
+          },
+          {
+            "op": "rect",
+            "x": 19,
+            "y": 16,
+            "w": 2,
+            "h": 3,
+            "color": "#4F7935",
+            "seed": 0,
+            "density": 0
+          },
+          {
+            "op": "rect",
+            "x": 21,
+            "y": 16,
+            "w": 2,
+            "h": 3,
+            "color": "#365B28",
+            "seed": 0,
+            "density": 0
+          },
+          {
+            "op": "rect",
+            "x": 26,
+            "y": 18,
+            "w": 6,
+            "h": 1,
+            "color": "#365B28",
+            "seed": 0,
+            "density": 0
+          },
+          {
+            "op": "rect",
+            "x": 28,
+            "y": 16,
+            "w": 1,
+            "h": 2,
+            "color": "#709447",
+            "seed": 0,
+            "density": 0
+          },
+          {
+            "op": "rect",
+            "x": 29,
+            "y": 16,
+            "w": 1,
+            "h": 2,
+            "color": "#365B28",
+            "seed": 0,
+            "density": 0
+          },
+          {
+            "op": "rect",
+            "x": 32,
+            "y": 18,
+            "w": 10,
+            "h": 1,
+            "color": "#365B28",
+            "seed": 0,
+            "density": 0
+          },
+          {
+            "op": "rect",
+            "x": 34,
+            "y": 16,
+            "w": 3,
+            "h": 2,
+            "color": "#4F7935",
+            "seed": 0,
+            "density": 0
+          },
+          {
+            "op": "rect",
+            "x": 37,
+            "y": 16,
+            "w": 3,
+            "h": 2,
+            "color": "#365B28",
+            "seed": 0,
+            "density": 0
+          },
+          {
+            "op": "rect",
+            "x": 42,
+            "y": 17,
+            "w": 6,
+            "h": 1,
+            "color": "#365B28",
+            "seed": 0,
+            "density": 0
+          },
+          {
+            "op": "rect",
+            "x": 43,
+            "y": 16,
+            "w": 2,
+            "h": 1,
+            "color": "#709447",
+            "seed": 0,
+            "density": 0
+          },
+          {
+            "op": "rect",
+            "x": 45,
+            "y": 16,
+            "w": 2,
+            "h": 1,
+            "color": "#365B28",
+            "seed": 0,
+            "density": 0
+          },
+          {
+            "op": "rect",
+            "x": 48,
+            "y": 17,
+            "w": 4,
+            "h": 2,
+            "color": "#4F7935",
+            "seed": 0,
+            "density": 0
+          },
+          {
+            "op": "rect",
+            "x": 49,
+            "y": 16,
+            "w": 1,
+            "h": 1,
+            "color": "#94AF60",
+            "seed": 0,
+            "density": 0
+          },
+          {
+            "op": "rect",
+            "x": 50,
+            "y": 16,
+            "w": 1,
+            "h": 1,
+            "color": "#365B28",
+            "seed": 0,
+            "density": 0
+          },
+          {
+            "op": "rect",
+            "x": 52,
+            "y": 17,
+            "w": 4,
+            "h": 1,
+            "color": "#4F7935",
+            "seed": 0,
+            "density": 0
+          },
+          {
+            "op": "rect",
+            "x": 53,
+            "y": 16,
+            "w": 1,
+            "h": 1,
+            "color": "#94AF60",
+            "seed": 0,
+            "density": 0
+          },
+          {
+            "op": "rect",
+            "x": 54,
+            "y": 16,
+            "w": 1,
+            "h": 1,
+            "color": "#365B28",
+            "seed": 0,
+            "density": 0
+          },
+          {
+            "op": "rect",
+            "x": 0,
+            "y": 26,
+            "w": 8,
+            "h": 3,
+            "color": "#BE3A25",
+            "seed": 0,
+            "density": 0
+          },
+          {
+            "op": "rect",
+            "x": 2,
+            "y": 24,
+            "w": 2,
+            "h": 2,
+            "color": "#96291F",
+            "seed": 0,
+            "density": 0
+          },
+          {
+            "op": "rect",
+            "x": 4,
+            "y": 24,
+            "w": 2,
+            "h": 2,
+            "color": "#96291F",
+            "seed": 0,
+            "density": 0
+          },
+          {
+            "op": "rect",
+            "x": 8,
+            "y": 25,
+            "w": 4,
+            "h": 2,
+            "color": "#BE3A25",
+            "seed": 0,
+            "density": 0
+          },
+          {
+            "op": "rect",
+            "x": 9,
+            "y": 24,
+            "w": 1,
+            "h": 1,
+            "color": "#BE3A25",
+            "seed": 0,
+            "density": 0
+          },
+          {
+            "op": "rect",
+            "x": 10,
+            "y": 24,
+            "w": 1,
+            "h": 1,
+            "color": "#96291F",
+            "seed": 0,
+            "density": 0
+          },
+          {
+            "op": "rect",
+            "x": 12,
+            "y": 25,
+            "w": 4,
+            "h": 1,
+            "color": "#BE3A25",
+            "seed": 0,
+            "density": 0
+          },
+          {
+            "op": "rect",
+            "x": 13,
+            "y": 24,
+            "w": 1,
+            "h": 1,
+            "color": "#BE3A25",
+            "seed": 0,
+            "density": 0
+          },
+          {
+            "op": "rect",
+            "x": 14,
+            "y": 24,
+            "w": 1,
+            "h": 1,
+            "color": "#681E19",
+            "seed": 0,
+            "density": 0
+          },
+          {
+            "op": "rect",
+            "x": 16,
+            "y": 26,
+            "w": 8,
+            "h": 1,
+            "color": "#365B28",
+            "seed": 0,
+            "density": 0
+          },
+          {
+            "op": "rect",
+            "x": 18,
+            "y": 24,
+            "w": 2,
+            "h": 2,
+            "color": "#4F7935",
+            "seed": 0,
+            "density": 0
+          },
+          {
+            "op": "rect",
+            "x": 20,
+            "y": 24,
+            "w": 2,
+            "h": 2,
+            "color": "#243E20",
+            "seed": 0,
+            "density": 0
+          },
+          {
+            "op": "rect",
+            "x": 24,
+            "y": 26,
+            "w": 8,
+            "h": 3,
+            "color": "#D76A27",
+            "seed": 0,
+            "density": 0
+          },
+          {
+            "op": "rect",
+            "x": 26,
+            "y": 24,
+            "w": 2,
+            "h": 2,
+            "color": "#AA491F",
+            "seed": 0,
+            "density": 0
+          },
+          {
+            "op": "rect",
+            "x": 28,
+            "y": 24,
+            "w": 2,
+            "h": 2,
+            "color": "#AA491F",
+            "seed": 0,
+            "density": 0
+          },
+          {
+            "op": "rect",
+            "x": 32,
+            "y": 25,
+            "w": 4,
+            "h": 2,
+            "color": "#D76A27",
+            "seed": 0,
+            "density": 0
+          },
+          {
+            "op": "rect",
+            "x": 33,
+            "y": 24,
+            "w": 1,
+            "h": 1,
+            "color": "#D76A27",
+            "seed": 0,
+            "density": 0
+          },
+          {
+            "op": "rect",
+            "x": 34,
+            "y": 24,
+            "w": 1,
+            "h": 1,
+            "color": "#AA491F",
+            "seed": 0,
+            "density": 0
+          },
+          {
+            "op": "rect",
+            "x": 36,
+            "y": 25,
+            "w": 4,
+            "h": 1,
+            "color": "#D76A27",
+            "seed": 0,
+            "density": 0
+          },
+          {
+            "op": "rect",
+            "x": 37,
+            "y": 24,
+            "w": 1,
+            "h": 1,
+            "color": "#D76A27",
+            "seed": 0,
+            "density": 0
+          },
+          {
+            "op": "rect",
+            "x": 38,
+            "y": 24,
+            "w": 1,
+            "h": 1,
+            "color": "#AA491F",
+            "seed": 0,
+            "density": 0
+          },
+          {
+            "op": "rect",
+            "x": 0,
+            "y": 1,
+            "w": 1,
+            "h": 14,
+            "color": "#365B28",
+            "seed": 0,
+            "density": 0
+          },
+          {
+            "op": "rect",
+            "x": 3,
+            "y": 1,
+            "w": 1,
+            "h": 14,
+            "color": "#365B28",
+            "seed": 0,
+            "density": 0
+          },
+          {
+            "op": "rect",
+            "x": 1,
+            "y": 2,
+            "w": 1,
+            "h": 6,
+            "color": "#709447",
+            "seed": 0,
+            "density": 0
+          },
+          {
+            "op": "rect",
+            "x": 0,
+            "y": 12,
+            "w": 4,
+            "h": 3,
+            "color": "#365B28",
+            "seed": 0,
+            "density": 0
+          },
+          {
+            "op": "rect",
+            "x": 0,
+            "y": 14,
+            "w": 1,
+            "h": 1,
+            "color": "#243E20",
+            "seed": 0,
+            "density": 0
+          },
+          {
+            "op": "rect",
+            "x": 3,
+            "y": 13,
+            "w": 1,
+            "h": 2,
+            "color": "#243E20",
+            "seed": 0,
+            "density": 0
+          },
+          {
+            "op": "rect",
+            "x": 2,
+            "y": 8,
+            "w": 2,
+            "h": 2,
+            "color": "#365B28",
+            "seed": 0,
+            "density": 0
+          },
+          {
+            "op": "rect",
+            "x": 4,
+            "y": 1,
+            "w": 1,
+            "h": 7,
+            "color": "#365B28",
+            "seed": 0,
+            "density": 0
+          },
+          {
+            "op": "rect",
+            "x": 7,
+            "y": 1,
+            "w": 1,
+            "h": 7,
+            "color": "#365B28",
+            "seed": 0,
+            "density": 0
+          },
+          {
+            "op": "rect",
+            "x": 5,
+            "y": 1,
+            "w": 1,
+            "h": 4,
+            "color": "#709447",
+            "seed": 0,
+            "density": 0
+          },
+          {
+            "op": "rect",
+            "x": 4,
+            "y": 6,
+            "w": 4,
+            "h": 2,
+            "color": "#365B28",
+            "seed": 0,
+            "density": 0
+          },
+          {
+            "op": "rect",
+            "x": 7,
+            "y": 7,
+            "w": 1,
+            "h": 1,
+            "color": "#243E20",
+            "seed": 0,
+            "density": 0
+          },
+          {
+            "op": "rect",
+            "x": 8,
+            "y": 1,
+            "w": 1,
+            "h": 6,
+            "color": "#365B28",
+            "seed": 0,
+            "density": 0
+          },
+          {
+            "op": "rect",
+            "x": 11,
+            "y": 1,
+            "w": 1,
+            "h": 6,
+            "color": "#365B28",
+            "seed": 0,
+            "density": 0
+          },
+          {
+            "op": "rect",
+            "x": 9,
+            "y": 1,
+            "w": 1,
+            "h": 3,
+            "color": "#709447",
+            "seed": 0,
+            "density": 0
+          },
+          {
+            "op": "rect",
+            "x": 8,
+            "y": 5,
+            "w": 4,
+            "h": 2,
+            "color": "#365B28",
+            "seed": 0,
+            "density": 0
+          },
+          {
+            "op": "rect",
+            "x": 11,
+            "y": 6,
+            "w": 1,
+            "h": 1,
+            "color": "#243E20",
+            "seed": 0,
+            "density": 0
+          },
+          {
+            "op": "rect",
+            "x": 2,
+            "y": 17,
+            "w": 3,
+            "h": 1,
+            "color": "#709447",
+            "seed": 0,
+            "density": 0
+          },
+          {
+            "op": "rect",
+            "x": 2,
+            "y": 16,
+            "w": 1,
+            "h": 1,
+            "color": "#709447",
+            "seed": 0,
+            "density": 0
+          },
+          {
+            "op": "rect",
+            "x": 5,
+            "y": 17,
+            "w": 3,
+            "h": 1,
+            "color": "#4F7935",
+            "seed": 0,
+            "density": 0
+          },
+          {
+            "op": "rect",
+            "x": 2,
+            "y": 18,
+            "w": 3,
+            "h": 1,
+            "color": "#4F7935",
+            "seed": 0,
+            "density": 0
+          },
+          {
+            "op": "rect",
+            "x": 7,
+            "y": 18,
+            "w": 3,
+            "h": 1,
+            "color": "#243E20",
+            "seed": 0,
+            "density": 0
+          },
+          {
+            "op": "rect",
+            "x": 11,
+            "y": 17,
+            "w": 2,
+            "h": 1,
+            "color": "#4F7935",
+            "seed": 0,
+            "density": 0
+          },
+          {
+            "op": "rect",
+            "x": 14,
+            "y": 17,
+            "w": 2,
+            "h": 1,
+            "color": "#243E20",
+            "seed": 0,
+            "density": 0
+          },
+          {
+            "op": "rect",
+            "x": 19,
+            "y": 16,
+            "w": 1,
+            "h": 3,
+            "color": "#709447",
+            "seed": 0,
+            "density": 0
+          },
+          {
+            "op": "rect",
+            "x": 20,
+            "y": 17,
+            "w": 1,
+            "h": 1,
+            "color": "#709447",
+            "seed": 0,
+            "density": 0
+          },
+          {
+            "op": "rect",
+            "x": 21,
+            "y": 16,
+            "w": 1,
+            "h": 3,
+            "color": "#4F7935",
+            "seed": 0,
+            "density": 0
+          },
+          {
+            "op": "rect",
+            "x": 19,
+            "y": 19,
+            "w": 2,
+            "h": 1,
+            "color": "#4F7935",
+            "seed": 0,
+            "density": 0
+          },
+          {
+            "op": "rect",
+            "x": 24,
+            "y": 19,
+            "w": 2,
+            "h": 1,
+            "color": "#243E20",
+            "seed": 0,
+            "density": 0
+          },
+          {
+            "op": "rect",
+            "x": 28,
+            "y": 18,
+            "w": 1,
+            "h": 1,
+            "color": "#4F7935",
+            "seed": 0,
+            "density": 0
+          },
+          {
+            "op": "rect",
+            "x": 31,
+            "y": 18,
+            "w": 1,
+            "h": 1,
+            "color": "#243E20",
+            "seed": 0,
+            "density": 0
+          },
+          {
+            "op": "rect",
+            "x": 34,
+            "y": 17,
+            "w": 3,
+            "h": 1,
+            "color": "#709447",
+            "seed": 0,
+            "density": 0
+          },
+          {
+            "op": "rect",
+            "x": 35,
+            "y": 16,
+            "w": 1,
+            "h": 1,
+            "color": "#709447",
+            "seed": 0,
+            "density": 0
+          },
+          {
+            "op": "rect",
+            "x": 37,
+            "y": 17,
+            "w": 3,
+            "h": 1,
+            "color": "#4F7935",
+            "seed": 0,
+            "density": 0
+          },
+          {
+            "op": "rect",
+            "x": 34,
+            "y": 18,
+            "w": 3,
+            "h": 1,
+            "color": "#4F7935",
+            "seed": 0,
+            "density": 0
+          },
+          {
+            "op": "rect",
+            "x": 39,
+            "y": 18,
+            "w": 3,
+            "h": 1,
+            "color": "#243E20",
+            "seed": 0,
+            "density": 0
+          },
+          {
+            "op": "rect",
+            "x": 43,
+            "y": 17,
+            "w": 2,
+            "h": 1,
+            "color": "#4F7935",
+            "seed": 0,
+            "density": 0
+          },
+          {
+            "op": "rect",
+            "x": 46,
+            "y": 17,
+            "w": 2,
+            "h": 1,
+            "color": "#243E20",
+            "seed": 0,
+            "density": 0
+          },
+          {
+            "op": "rect",
+            "x": 49,
+            "y": 17,
+            "w": 1,
+            "h": 2,
+            "color": "#709447",
+            "seed": 0,
+            "density": 0
+          },
+          {
+            "op": "rect",
+            "x": 51,
+            "y": 17,
+            "w": 1,
+            "h": 2,
+            "color": "#365B28",
+            "seed": 0,
+            "density": 0
+          },
+          {
+            "op": "rect",
+            "x": 53,
+            "y": 17,
+            "w": 1,
+            "h": 1,
+            "color": "#709447",
+            "seed": 0,
+            "density": 0
+          },
+          {
+            "op": "rect",
+            "x": 55,
+            "y": 17,
+            "w": 1,
+            "h": 1,
+            "color": "#365B28",
+            "seed": 0,
+            "density": 0
+          },
+          {
+            "op": "rect",
+            "x": 0,
+            "y": 26,
+            "w": 1,
+            "h": 3,
+            "color": "#96291F",
+            "seed": 0,
+            "density": 0
+          },
+          {
+            "op": "rect",
+            "x": 4,
+            "y": 26,
+            "w": 4,
+            "h": 3,
+            "color": "#96291F",
+            "seed": 0,
+            "density": 0
+          },
+          {
+            "op": "rect",
+            "x": 4,
+            "y": 27,
+            "w": 1,
+            "h": 2,
+            "color": "#BE3A25",
+            "seed": 0,
+            "density": 0
+          },
+          {
+            "op": "rect",
+            "x": 7,
+            "y": 26,
+            "w": 1,
+            "h": 2,
+            "color": "#681E19",
+            "seed": 0,
+            "density": 0
+          },
+          {
+            "op": "rect",
+            "x": 2,
+            "y": 24,
+            "w": 2,
+            "h": 1,
+            "color": "#681E19",
+            "seed": 0,
+            "density": 0
+          },
+          {
+            "op": "rect",
+            "x": 2,
+            "y": 25,
+            "w": 1,
+            "h": 1,
+            "color": "#BE3A25",
+            "seed": 0,
+            "density": 0
+          },
+          {
+            "op": "rect",
+            "x": 4,
+            "y": 25,
+            "w": 1,
+            "h": 1,
+            "color": "#BE3A25",
+            "seed": 0,
+            "density": 0
+          },
+          {
+            "op": "rect",
+            "x": 2,
+            "y": 26,
+            "w": 2,
+            "h": 1,
+            "color": "#DD5734",
+            "seed": 0,
+            "density": 0
+          },
+          {
+            "op": "rect",
+            "x": 2,
+            "y": 27,
+            "w": 1,
+            "h": 2,
+            "color": "#DD5734",
+            "seed": 0,
+            "density": 0
+          },
+          {
+            "op": "rect",
+            "x": 2,
+            "y": 26,
+            "w": 1,
+            "h": 1,
+            "color": "#EE8050",
+            "seed": 0,
+            "density": 0
+          },
+          {
+            "op": "rect",
+            "x": 8,
+            "y": 25,
+            "w": 1,
+            "h": 2,
+            "color": "#96291F",
+            "seed": 0,
+            "density": 0
+          },
+          {
+            "op": "rect",
+            "x": 11,
+            "y": 25,
+            "w": 1,
+            "h": 2,
+            "color": "#96291F",
+            "seed": 0,
+            "density": 0
+          },
+          {
+            "op": "rect",
+            "x": 9,
+            "y": 25,
+            "w": 1,
+            "h": 1,
+            "color": "#DD5734",
+            "seed": 0,
+            "density": 0
+          },
+          {
+            "op": "rect",
+            "x": 12,
+            "y": 25,
+            "w": 1,
+            "h": 1,
+            "color": "#96291F",
+            "seed": 0,
+            "density": 0
+          },
+          {
+            "op": "rect",
+            "x": 15,
+            "y": 25,
+            "w": 1,
+            "h": 1,
+            "color": "#681E19",
+            "seed": 0,
+            "density": 0
+          },
+          {
+            "op": "rect",
+            "x": 18,
+            "y": 24,
+            "w": 1,
+            "h": 2,
+            "color": "#709447",
+            "seed": 0,
+            "density": 0
+          },
+          {
+            "op": "rect",
+            "x": 19,
+            "y": 25,
+            "w": 1,
+            "h": 1,
+            "color": "#709447",
+            "seed": 0,
+            "density": 0
+          },
+          {
+            "op": "rect",
+            "x": 18,
+            "y": 26,
+            "w": 2,
+            "h": 1,
+            "color": "#4F7935",
+            "seed": 0,
+            "density": 0
+          },
+          {
+            "op": "rect",
+            "x": 22,
+            "y": 26,
+            "w": 2,
+            "h": 1,
+            "color": "#243E20",
+            "seed": 0,
+            "density": 0
+          },
+          {
+            "op": "rect",
+            "x": 24,
+            "y": 26,
+            "w": 1,
+            "h": 3,
+            "color": "#AA491F",
+            "seed": 0,
+            "density": 0
+          },
+          {
+            "op": "rect",
+            "x": 28,
+            "y": 26,
+            "w": 4,
+            "h": 3,
+            "color": "#AA491F",
+            "seed": 0,
+            "density": 0
+          },
+          {
+            "op": "rect",
+            "x": 28,
+            "y": 27,
+            "w": 1,
+            "h": 2,
+            "color": "#D76A27",
+            "seed": 0,
+            "density": 0
+          },
+          {
+            "op": "rect",
+            "x": 31,
+            "y": 26,
+            "w": 1,
+            "h": 1,
+            "color": "#96291F",
+            "seed": 0,
+            "density": 0
+          },
+          {
+            "op": "rect",
+            "x": 26,
+            "y": 24,
+            "w": 2,
+            "h": 1,
+            "color": "#96291F",
+            "seed": 0,
+            "density": 0
+          },
+          {
+            "op": "rect",
+            "x": 26,
+            "y": 25,
+            "w": 1,
+            "h": 1,
+            "color": "#D76A27",
+            "seed": 0,
+            "density": 0
+          },
+          {
+            "op": "rect",
+            "x": 28,
+            "y": 25,
+            "w": 1,
+            "h": 1,
+            "color": "#D76A27",
+            "seed": 0,
+            "density": 0
+          },
+          {
+            "op": "rect",
+            "x": 26,
+            "y": 26,
+            "w": 2,
+            "h": 1,
+            "color": "#EC903A",
+            "seed": 0,
+            "density": 0
+          },
+          {
+            "op": "rect",
+            "x": 26,
+            "y": 27,
+            "w": 1,
+            "h": 2,
+            "color": "#EC903A",
+            "seed": 0,
+            "density": 0
+          },
+          {
+            "op": "rect",
+            "x": 26,
+            "y": 26,
+            "w": 1,
+            "h": 1,
+            "color": "#F5B653",
+            "seed": 0,
+            "density": 0
+          },
+          {
+            "op": "rect",
+            "x": 32,
+            "y": 25,
+            "w": 1,
+            "h": 2,
+            "color": "#AA491F",
+            "seed": 0,
+            "density": 0
+          },
+          {
+            "op": "rect",
+            "x": 35,
+            "y": 25,
+            "w": 1,
+            "h": 2,
+            "color": "#AA491F",
+            "seed": 0,
+            "density": 0
+          },
+          {
+            "op": "rect",
+            "x": 33,
+            "y": 25,
+            "w": 1,
+            "h": 1,
+            "color": "#EC903A",
+            "seed": 0,
+            "density": 0
+          },
+          {
+            "op": "rect",
+            "x": 36,
+            "y": 25,
+            "w": 1,
+            "h": 1,
+            "color": "#AA491F",
+            "seed": 0,
+            "density": 0
+          },
+          {
+            "op": "rect",
+            "x": 39,
+            "y": 25,
+            "w": 1,
+            "h": 1,
+            "color": "#96291F",
+            "seed": 0,
+            "density": 0
+          }
+        ]
+      }
+    ],
+    "elements": [
+      {
+        "name": "central_stem",
+        "from": [
+          7.5,
+          0,
+          7.5
+        ],
+        "to": [
+          8.5,
+          14,
+          8.5
+        ],
+        "texture": "main",
+        "uv": [
+          0,
+          0
+        ],
+        "bone": "",
+        "origin": [
+          8,
+          0,
+          8
+        ],
+        "axis": "y",
+        "angle": 0
+      },
+      {
+        "name": "left_fork",
+        "from": [
+          7.5,
+          5,
+          7.5
+        ],
+        "to": [
+          8.5,
+          12,
+          8.5
+        ],
+        "texture": "main",
+        "uv": [
+          4,
+          0
+        ],
+        "bone": "",
+        "origin": [
+          8,
+          5,
+          8
+        ],
+        "axis": "z",
+        "angle": 22.5
+      },
+      {
+        "name": "right_fork",
+        "from": [
+          7.5,
+          6,
+          7.5
+        ],
+        "to": [
+          8.5,
+          13,
+          8.5
+        ],
+        "texture": "main",
+        "uv": [
+          4,
+          0
+        ],
+        "bone": "",
+        "origin": [
+          8,
+          6,
+          8
+        ],
+        "axis": "z",
+        "angle": -22.5
+      },
+      {
+        "name": "rear_fork",
+        "from": [
+          7.5,
+          7,
+          7.5
+        ],
+        "to": [
+          8.5,
+          13,
+          8.5
+        ],
+        "texture": "main",
+        "uv": [
+          8,
+          0
+        ],
+        "bone": "",
+        "origin": [
+          8,
+          7,
+          8
+        ],
+        "axis": "x",
+        "angle": 45
+      },
+      {
+        "name": "front_fork",
+        "from": [
+          7.5,
+          7,
+          7.5
+        ],
+        "to": [
+          8.5,
+          13,
+          8.5
+        ],
+        "texture": "main",
+        "uv": [
+          8,
+          0
+        ],
+        "bone": "",
+        "origin": [
+          8,
+          7,
+          8
+        ],
+        "axis": "x",
+        "angle": -45
+      },
+      {
+        "name": "left_leaf_blade",
+        "from": [
+          3.5,
+          11.25,
+          7
+        ],
+        "to": [
+          6.5,
+          11.75,
+          9
+        ],
+        "texture": "main",
+        "uv": [
+          0,
+          16
+        ],
+        "uvSize": [
+          3,
+          1,
+          2
+        ],
+        "bone": "",
+        "origin": [
+          6,
+          11.5,
+          8
+        ],
+        "axis": "y",
+        "angle": 0
+      },
+      {
+        "name": "left_leaf_point",
+        "from": [
+          2,
+          11.3,
+          7.5
+        ],
+        "to": [
+          3.75,
+          11.7,
+          8.5
+        ],
+        "texture": "main",
+        "uv": [
+          10,
+          16
+        ],
+        "uvSize": [
+          2,
+          1,
+          1
+        ],
+        "bone": "",
+        "origin": [
+          3.75,
+          11.5,
+          8
+        ],
+        "axis": "y",
+        "angle": 0
+      },
+      {
+        "name": "right_leaf_blade",
+        "from": [
+          9.5,
+          12.25,
+          7
+        ],
+        "to": [
+          12.5,
+          12.75,
+          9
+        ],
+        "texture": "main",
+        "uv": [
+          0,
+          16
+        ],
+        "uvSize": [
+          3,
+          1,
+          2
+        ],
+        "bone": "",
+        "origin": [
+          10,
+          12.5,
+          8
+        ],
+        "axis": "y",
+        "angle": 0
+      },
+      {
+        "name": "right_leaf_point",
+        "from": [
+          12.25,
+          12.3,
+          7.5
+        ],
+        "to": [
+          14,
+          12.7,
+          8.5
+        ],
+        "texture": "main",
+        "uv": [
+          10,
+          16
+        ],
+        "uvSize": [
+          2,
+          1,
+          1
+        ],
+        "bone": "",
+        "origin": [
+          12.25,
+          12.5,
+          8
+        ],
+        "axis": "y",
+        "angle": 0
+      },
+      {
+        "name": "rear_leaf_blade",
+        "from": [
+          7,
+          11.25,
+          10
+        ],
+        "to": [
+          9,
+          11.75,
+          12.5
+        ],
+        "texture": "main",
+        "uv": [
+          16,
+          16
+        ],
+        "uvSize": [
+          2,
+          1,
+          3
+        ],
+        "bone": "",
+        "origin": [
+          8,
+          11.5,
+          10
+        ],
+        "axis": "y",
+        "angle": 0
+      },
+      {
+        "name": "rear_leaf_point",
+        "from": [
+          7.5,
+          11.3,
+          12.25
+        ],
+        "to": [
+          8.5,
+          11.7,
+          14
+        ],
+        "texture": "main",
+        "uv": [
+          26,
+          16
+        ],
+        "uvSize": [
+          1,
+          1,
+          2
+        ],
+        "bone": "",
+        "origin": [
+          8,
+          11.5,
+          12.25
+        ],
+        "axis": "y",
+        "angle": 0
+      },
+      {
+        "name": "front_leaf_blade",
+        "from": [
+          7,
+          11.25,
+          3.5
+        ],
+        "to": [
+          9,
+          11.75,
+          6
+        ],
+        "texture": "main",
+        "uv": [
+          16,
+          16
+        ],
+        "uvSize": [
+          2,
+          1,
+          3
+        ],
+        "bone": "",
+        "origin": [
+          8,
+          11.5,
+          6
+        ],
+        "axis": "y",
+        "angle": 0
+      },
+      {
+        "name": "front_leaf_point",
+        "from": [
+          7.5,
+          11.3,
+          2
+        ],
+        "to": [
+          8.5,
+          11.7,
+          3.75
+        ],
+        "texture": "main",
+        "uv": [
+          26,
+          16
+        ],
+        "uvSize": [
+          1,
+          1,
+          2
+        ],
+        "bone": "",
+        "origin": [
+          8,
+          11.5,
+          3.75
+        ],
+        "axis": "y",
+        "angle": 0
+      },
+      {
+        "name": "upper_left_leaf_blade",
+        "from": [
+          5.5,
+          13,
+          6.75
+        ],
+        "to": [
+          8.25,
+          13.5,
+          8.25
+        ],
+        "texture": "main",
+        "uv": [
+          32,
+          16
+        ],
+        "uvSize": [
+          3,
+          1,
+          2
+        ],
+        "bone": "",
+        "origin": [
+          8,
+          13.25,
+          8
+        ],
+        "axis": "y",
+        "angle": 0
+      },
+      {
+        "name": "upper_left_leaf_point",
+        "from": [
+          4.25,
+          13.1,
+          7
+        ],
+        "to": [
+          5.75,
+          13.4,
+          8
+        ],
+        "texture": "main",
+        "uv": [
+          42,
+          16
+        ],
+        "uvSize": [
+          2,
+          1,
+          1
+        ],
+        "bone": "",
+        "origin": [
+          5.75,
+          13.25,
+          7.5
+        ],
+        "axis": "y",
+        "angle": 0
+      },
+      {
+        "name": "upper_right_leaf_blade",
+        "from": [
+          7.75,
+          13.75,
+          7.75
+        ],
+        "to": [
+          10.5,
+          14.25,
+          9.25
+        ],
+        "texture": "main",
+        "uv": [
+          32,
+          16
+        ],
+        "uvSize": [
+          3,
+          1,
+          2
+        ],
+        "bone": "",
+        "origin": [
+          8,
+          14,
+          8
+        ],
+        "axis": "y",
+        "angle": 0
+      },
+      {
+        "name": "upper_right_leaf_point",
+        "from": [
+          10.25,
+          13.85,
+          8
+        ],
+        "to": [
+          11.75,
+          14.15,
+          9
+        ],
+        "texture": "main",
+        "uv": [
+          42,
+          16
+        ],
+        "uvSize": [
+          2,
+          1,
+          1
+        ],
+        "bone": "",
+        "origin": [
+          10.25,
+          14,
+          8.5
+        ],
+        "axis": "y",
+        "angle": 0
+      },
+      {
+        "name": "left_chilli_calyx",
+        "from": [
+          4.75,
+          10.75,
+          7.25
+        ],
+        "to": [
+          6.25,
+          11.25,
+          8.75
+        ],
+        "texture": "main",
+        "uv": [
+          16,
+          24
+        ],
+        "uvSize": [
+          2,
+          1,
+          2
+        ],
+        "bone": "",
+        "origin": [
+          5.5,
+          11,
+          8
+        ],
+        "axis": "y",
+        "angle": 0
+      },
+      {
+        "name": "left_chilli_shoulder",
+        "from": [
+          4.75,
+          8,
+          7.25
+        ],
+        "to": [
+          6.25,
+          10.75,
+          8.75
+        ],
+        "texture": "main",
+        "uv": [
+          0,
+          24
+        ],
+        "uvSize": [
+          2,
+          3,
+          2
+        ],
+        "bone": "",
+        "origin": [
+          5.5,
+          10.75,
+          8
+        ],
+        "axis": "y",
+        "angle": 0
+      },
+      {
+        "name": "left_chilli_taper",
+        "from": [
+          4.75,
+          6.25,
+          7.5
+        ],
+        "to": [
+          5.75,
+          8.25,
+          8.5
+        ],
+        "texture": "main",
+        "uv": [
+          8,
+          24
+        ],
+        "uvSize": [
+          1,
+          2,
+          1
+        ],
+        "bone": "",
+        "origin": [
+          5.25,
+          8.25,
+          8
+        ],
+        "axis": "y",
+        "angle": 0
+      },
+      {
+        "name": "left_chilli_point",
+        "from": [
+          4.5,
+          5.5,
+          7.75
+        ],
+        "to": [
+          5,
+          6.5,
+          8.25
+        ],
+        "texture": "main",
+        "uv": [
+          12,
+          24
+        ],
+        "uvSize": [
+          1,
+          1,
+          1
+        ],
+        "bone": "",
+        "origin": [
+          4.75,
+          6.5,
+          8
+        ],
+        "axis": "y",
+        "angle": 0
+      },
+      {
+        "name": "right_chilli_calyx",
+        "from": [
+          9.75,
+          11.75,
+          7.25
+        ],
+        "to": [
+          11.25,
+          12.25,
+          8.75
+        ],
+        "texture": "main",
+        "uv": [
+          16,
+          24
+        ],
+        "uvSize": [
+          2,
+          1,
+          2
+        ],
+        "bone": "",
+        "origin": [
+          10.5,
+          12,
+          8
+        ],
+        "axis": "y",
+        "angle": 0
+      },
+      {
+        "name": "right_chilli_shoulder",
+        "from": [
+          9.75,
+          9,
+          7.25
+        ],
+        "to": [
+          11.25,
+          11.75,
+          8.75
+        ],
+        "texture": "main",
+        "uv": [
+          24,
+          24
+        ],
+        "uvSize": [
+          2,
+          3,
+          2
+        ],
+        "bone": "",
+        "origin": [
+          10.5,
+          11.75,
+          8
+        ],
+        "axis": "y",
+        "angle": 0
+      },
+      {
+        "name": "right_chilli_taper",
+        "from": [
+          10.25,
+          7.25,
+          7.5
+        ],
+        "to": [
+          11.25,
+          9.25,
+          8.5
+        ],
+        "texture": "main",
+        "uv": [
+          32,
+          24
+        ],
+        "uvSize": [
+          1,
+          2,
+          1
+        ],
+        "bone": "",
+        "origin": [
+          10.75,
+          9.25,
+          8
+        ],
+        "axis": "y",
+        "angle": 0
+      },
+      {
+        "name": "right_chilli_point",
+        "from": [
+          11,
+          6.5,
+          7.75
+        ],
+        "to": [
+          11.5,
+          7.5,
+          8.25
+        ],
+        "texture": "main",
+        "uv": [
+          36,
+          24
+        ],
+        "uvSize": [
+          1,
+          1,
+          1
+        ],
+        "bone": "",
+        "origin": [
+          11.25,
+          7.5,
+          8
+        ],
+        "axis": "y",
+        "angle": 0
+      },
+      {
+        "name": "front_chilli_calyx",
+        "from": [
+          7.25,
+          10.75,
+          3.25
+        ],
+        "to": [
+          8.75,
+          11.25,
+          4.75
+        ],
+        "texture": "main",
+        "uv": [
+          16,
+          24
+        ],
+        "uvSize": [
+          2,
+          1,
+          2
+        ],
+        "bone": "",
+        "origin": [
+          8,
+          11,
+          4
+        ],
+        "axis": "y",
+        "angle": 0
+      },
+      {
+        "name": "front_chilli_shoulder",
+        "from": [
+          7.25,
+          8,
+          3.25
+        ],
+        "to": [
+          8.75,
+          10.75,
+          4.75
+        ],
+        "texture": "main",
+        "uv": [
+          0,
+          24
+        ],
+        "uvSize": [
+          2,
+          3,
+          2
+        ],
+        "bone": "",
+        "origin": [
+          8,
+          10.75,
+          4
+        ],
+        "axis": "y",
+        "angle": 0
+      },
+      {
+        "name": "front_chilli_taper",
+        "from": [
+          7.5,
+          6.25,
+          3.25
+        ],
+        "to": [
+          8.5,
+          8.25,
+          4.25
+        ],
+        "texture": "main",
+        "uv": [
+          8,
+          24
+        ],
+        "uvSize": [
+          1,
+          2,
+          1
+        ],
+        "bone": "",
+        "origin": [
+          8,
+          8.25,
+          3.75
+        ],
+        "axis": "y",
+        "angle": 0
+      },
+      {
+        "name": "front_chilli_point",
+        "from": [
+          7.75,
+          5.5,
+          3
+        ],
+        "to": [
+          8.25,
+          6.5,
+          3.5
+        ],
+        "texture": "main",
+        "uv": [
+          12,
+          24
+        ],
+        "uvSize": [
+          1,
+          1,
+          1
+        ],
+        "bone": "",
+        "origin": [
+          8,
+          6.5,
+          3.25
+        ],
+        "axis": "y",
+        "angle": 0
+      },
+      {
+        "name": "rear_chilli_calyx",
+        "from": [
+          7.25,
+          10.75,
+          11.25
+        ],
+        "to": [
+          8.75,
+          11.25,
+          12.75
+        ],
+        "texture": "main",
+        "uv": [
+          16,
+          24
+        ],
+        "uvSize": [
+          2,
+          1,
+          2
+        ],
+        "bone": "",
+        "origin": [
+          8,
+          11,
+          12
+        ],
+        "axis": "y",
+        "angle": 0
+      },
+      {
+        "name": "rear_chilli_shoulder",
+        "from": [
+          7.25,
+          8,
+          11.25
+        ],
+        "to": [
+          8.75,
+          10.75,
+          12.75
+        ],
+        "texture": "main",
+        "uv": [
+          0,
+          24
+        ],
+        "uvSize": [
+          2,
+          3,
+          2
+        ],
+        "bone": "",
+        "origin": [
+          8,
+          10.75,
+          12
+        ],
+        "axis": "y",
+        "angle": 0
+      },
+      {
+        "name": "rear_chilli_taper",
+        "from": [
+          7.5,
+          6.25,
+          11.75
+        ],
+        "to": [
+          8.5,
+          8.25,
+          12.75
+        ],
+        "texture": "main",
+        "uv": [
+          8,
+          24
+        ],
+        "uvSize": [
+          1,
+          2,
+          1
+        ],
+        "bone": "",
+        "origin": [
+          8,
+          8.25,
+          12.25
+        ],
+        "axis": "y",
+        "angle": 0
+      },
+      {
+        "name": "rear_chilli_point",
+        "from": [
+          7.75,
+          5.5,
+          12.5
+        ],
+        "to": [
+          8.25,
+          6.5,
+          13
+        ],
+        "texture": "main",
+        "uv": [
+          12,
+          24
+        ],
+        "uvSize": [
+          1,
+          1,
+          1
+        ],
+        "bone": "",
+        "origin": [
+          8,
+          6.5,
+          12.75
+        ],
+        "axis": "y",
+        "angle": 0
+      },
+      {
+        "name": "apical_leaf_base",
+        "from": [
+          7.5,
+          14,
+          7.75
+        ],
+        "to": [
+          8.5,
+          15.25,
+          8.25
+        ],
+        "texture": "main",
+        "uv": [
+          48,
+          16
+        ],
+        "uvSize": [
+          1,
+          2,
+          1
+        ],
+        "bone": "",
+        "origin": [
+          8,
+          14,
+          8
+        ],
+        "axis": "z",
+        "angle": -22.5
+      },
+      {
+        "name": "apical_leaf_point",
+        "from": [
+          7.75,
+          15,
+          7.8
+        ],
+        "to": [
+          8.25,
+          15.75,
+          8.2
+        ],
+        "texture": "main",
+        "uv": [
+          52,
+          16
+        ],
+        "uvSize": [
+          1,
+          1,
+          1
+        ],
+        "bone": "",
+        "origin": [
+          8,
+          14,
+          8
+        ],
+        "axis": "z",
+        "angle": -22.5
+      }
+    ],
+    "bones": [],
+    "animation": null,
+    "sound": null
+  },
+  "prompt": "Orange SMP Kitchen cohesive premium Minecraft vanilla voxel art. Appetizing recognizable silhouette and deliberate connected pixel shading, material detail and highlights. No plain untextured cubes, random noise, letters or scenery. Use ONE well-mapped 64x64 atlas; per-face UV islands, not repeated generic material tiles. Keep texture palette cohesive: warm golden bread, fresh greens, ivory rice, rich salmon, warm ceramics. Geometry should be carefully stepped and rounded where appropriate, with purposeful tiny details. 20-55 cuboids as appropriate, stay within Java model bounds -16..32. Item ground bottom y0. Strong inventory readability. A mature planted chilli crop with botanically recognizable growth: appropriate leaves/stems, ripe edible parts and realistic species-specific plant silhouette in Minecraft cuboids. Airy gaps, layered leaf shapes, leaf veins, natural plant clusters. NOT a generic tomato bush recolored. Rooted at y0, x2..14,z2..14,y0..16. No pot or dirt block. All growth-stage variants will be based on this model.",
+  "style": "Vanilla",
+  "resolution": 64,
+  "createdAt": "2026-09-21T21:42:06.379Z",
+  "updatedAt": "2026-09-21T21:46:16.815Z",
+  "revision": 2,
+  "source": "codex",
+  "bindings": {
+    "javaTexture": "",
+    "bedrockTexture": "",
+    "glyph": 57344
+  }
+}

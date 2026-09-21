@@ -1,0 +1,2327 @@
+{
+  "credit": "VoxelForge",
+  "textures": {
+    "main": "voxelforge:item/chicken_burger_silhouette_e535c12e/main"
+  },
+  "elements": [
+    {
+      "name": "bottom_bun_rounded_base",
+      "from": [
+        3,
+        0,
+        4
+      ],
+      "to": [
+        13,
+        2,
+        12
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            6.5,
+            2,
+            9,
+            2.5
+          ],
+          "texture": "#main"
+        },
+        "south": {
+          "uv": [
+            2,
+            2,
+            4.5,
+            2.5
+          ],
+          "texture": "#main"
+        },
+        "east": {
+          "uv": [
+            0,
+            2,
+            2,
+            2.5
+          ],
+          "texture": "#main"
+        },
+        "west": {
+          "uv": [
+            4.5,
+            2,
+            6.5,
+            2.5
+          ],
+          "texture": "#main"
+        },
+        "up": {
+          "uv": [
+            2,
+            0,
+            4.5,
+            2
+          ],
+          "texture": "#main"
+        },
+        "down": {
+          "uv": [
+            4.5,
+            0,
+            7,
+            2
+          ],
+          "texture": "#main"
+        }
+      }
+    },
+    {
+      "name": "bottom_bun_cut_surface",
+      "from": [
+        2,
+        1.5,
+        3
+      ],
+      "to": [
+        14,
+        2.5,
+        13
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            8,
+            5,
+            11,
+            5.25
+          ],
+          "texture": "#main"
+        },
+        "south": {
+          "uv": [
+            2.5,
+            5,
+            5.5,
+            5.25
+          ],
+          "texture": "#main"
+        },
+        "east": {
+          "uv": [
+            0,
+            5,
+            2.5,
+            5.25
+          ],
+          "texture": "#main"
+        },
+        "west": {
+          "uv": [
+            5.5,
+            5,
+            8,
+            5.25
+          ],
+          "texture": "#main"
+        },
+        "up": {
+          "uv": [
+            2.5,
+            2.5,
+            5.5,
+            5
+          ],
+          "texture": "#main"
+        },
+        "down": {
+          "uv": [
+            5.5,
+            2.5,
+            8.5,
+            5
+          ],
+          "texture": "#main"
+        }
+      }
+    },
+    {
+      "name": "fried_chicken_thick_center",
+      "from": [
+        2,
+        2.5,
+        3
+      ],
+      "to": [
+        14,
+        5,
+        13
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            8,
+            7.75,
+            11,
+            8.5
+          ],
+          "texture": "#main"
+        },
+        "south": {
+          "uv": [
+            2.5,
+            7.75,
+            5.5,
+            8.5
+          ],
+          "texture": "#main"
+        },
+        "east": {
+          "uv": [
+            0,
+            7.75,
+            2.5,
+            8.5
+          ],
+          "texture": "#main"
+        },
+        "west": {
+          "uv": [
+            5.5,
+            7.75,
+            8,
+            8.5
+          ],
+          "texture": "#main"
+        },
+        "up": {
+          "uv": [
+            2.5,
+            5.25,
+            5.5,
+            7.75
+          ],
+          "texture": "#main"
+        },
+        "down": {
+          "uv": [
+            5.5,
+            5.25,
+            8.5,
+            7.75
+          ],
+          "texture": "#main"
+        }
+      }
+    },
+    {
+      "name": "lettuce_folded_center",
+      "from": [
+        2,
+        5,
+        3
+      ],
+      "to": [
+        14,
+        5.75,
+        13
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            8,
+            11,
+            11,
+            11.25
+          ],
+          "texture": "#main"
+        },
+        "south": {
+          "uv": [
+            2.5,
+            11,
+            5.5,
+            11.25
+          ],
+          "texture": "#main"
+        },
+        "east": {
+          "uv": [
+            0,
+            11,
+            2.5,
+            11.25
+          ],
+          "texture": "#main"
+        },
+        "west": {
+          "uv": [
+            5.5,
+            11,
+            8,
+            11.25
+          ],
+          "texture": "#main"
+        },
+        "up": {
+          "uv": [
+            2.5,
+            8.5,
+            5.5,
+            11
+          ],
+          "texture": "#main"
+        },
+        "down": {
+          "uv": [
+            5.5,
+            8.5,
+            8.5,
+            11
+          ],
+          "texture": "#main"
+        }
+      }
+    },
+    {
+      "name": "upper_bun_broad_dome",
+      "from": [
+        2,
+        6,
+        3
+      ],
+      "to": [
+        14,
+        8,
+        13
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            8,
+            13.75,
+            11,
+            14.25
+          ],
+          "texture": "#main"
+        },
+        "south": {
+          "uv": [
+            2.5,
+            13.75,
+            5.5,
+            14.25
+          ],
+          "texture": "#main"
+        },
+        "east": {
+          "uv": [
+            0,
+            13.75,
+            2.5,
+            14.25
+          ],
+          "texture": "#main"
+        },
+        "west": {
+          "uv": [
+            5.5,
+            13.75,
+            8,
+            14.25
+          ],
+          "texture": "#main"
+        },
+        "up": {
+          "uv": [
+            2.5,
+            11.25,
+            5.5,
+            13.75
+          ],
+          "texture": "#main"
+        },
+        "down": {
+          "uv": [
+            5.5,
+            11.25,
+            8.5,
+            13.75
+          ],
+          "texture": "#main"
+        }
+      }
+    },
+    {
+      "name": "upper_bun_raised_cap",
+      "from": [
+        4,
+        8,
+        4.5
+      ],
+      "to": [
+        12,
+        9,
+        11.5
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            5.5,
+            15.75,
+            7.5,
+            16
+          ],
+          "texture": "#main"
+        },
+        "south": {
+          "uv": [
+            1.75,
+            15.75,
+            3.75,
+            16
+          ],
+          "texture": "#main"
+        },
+        "east": {
+          "uv": [
+            0,
+            15.75,
+            1.75,
+            16
+          ],
+          "texture": "#main"
+        },
+        "west": {
+          "uv": [
+            3.75,
+            15.75,
+            5.5,
+            16
+          ],
+          "texture": "#main"
+        },
+        "up": {
+          "uv": [
+            1.75,
+            14,
+            3.75,
+            15.75
+          ],
+          "texture": "#main"
+        },
+        "down": {
+          "uv": [
+            3.75,
+            14,
+            5.75,
+            15.75
+          ],
+          "texture": "#main"
+        }
+      }
+    },
+    {
+      "name": "upper_bun_soft_crown",
+      "from": [
+        5,
+        9,
+        5.5
+      ],
+      "to": [
+        11,
+        9.5,
+        10.5
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            12,
+            15.5,
+            13.5,
+            15.75
+          ],
+          "texture": "#main"
+        },
+        "south": {
+          "uv": [
+            9.25,
+            15.5,
+            10.75,
+            15.75
+          ],
+          "texture": "#main"
+        },
+        "east": {
+          "uv": [
+            8,
+            15.5,
+            9.25,
+            15.75
+          ],
+          "texture": "#main"
+        },
+        "west": {
+          "uv": [
+            10.75,
+            15.5,
+            12,
+            15.75
+          ],
+          "texture": "#main"
+        },
+        "up": {
+          "uv": [
+            9.25,
+            14.25,
+            10.75,
+            15.5
+          ],
+          "texture": "#main"
+        },
+        "down": {
+          "uv": [
+            10.75,
+            14.25,
+            12.25,
+            15.5
+          ],
+          "texture": "#main"
+        }
+      }
+    },
+    {
+      "name": "upper_bun_front_round",
+      "from": [
+        4,
+        6,
+        2
+      ],
+      "to": [
+        12,
+        8,
+        3
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            13.5,
+            0.25,
+            15.5,
+            0.75
+          ],
+          "texture": "#main"
+        },
+        "south": {
+          "uv": [
+            11.25,
+            0.25,
+            13.25,
+            0.75
+          ],
+          "texture": "#main"
+        },
+        "east": {
+          "uv": [
+            11,
+            0.25,
+            11.25,
+            0.75
+          ],
+          "texture": "#main"
+        },
+        "west": {
+          "uv": [
+            13.25,
+            0.25,
+            13.5,
+            0.75
+          ],
+          "texture": "#main"
+        },
+        "up": {
+          "uv": [
+            11.25,
+            0,
+            13.25,
+            0.25
+          ],
+          "texture": "#main"
+        },
+        "down": {
+          "uv": [
+            13.25,
+            0,
+            15.25,
+            0.25
+          ],
+          "texture": "#main"
+        }
+      }
+    },
+    {
+      "name": "upper_bun_back_round",
+      "from": [
+        4,
+        6,
+        13
+      ],
+      "to": [
+        12,
+        8,
+        14
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            13.5,
+            0.25,
+            15.5,
+            0.75
+          ],
+          "texture": "#main"
+        },
+        "south": {
+          "uv": [
+            11.25,
+            0.25,
+            13.25,
+            0.75
+          ],
+          "texture": "#main"
+        },
+        "east": {
+          "uv": [
+            11,
+            0.25,
+            11.25,
+            0.75
+          ],
+          "texture": "#main"
+        },
+        "west": {
+          "uv": [
+            13.25,
+            0.25,
+            13.5,
+            0.75
+          ],
+          "texture": "#main"
+        },
+        "up": {
+          "uv": [
+            11.25,
+            0,
+            13.25,
+            0.25
+          ],
+          "texture": "#main"
+        },
+        "down": {
+          "uv": [
+            13.25,
+            0,
+            15.25,
+            0.25
+          ],
+          "texture": "#main"
+        }
+      }
+    },
+    {
+      "name": "upper_bun_left_round",
+      "from": [
+        1,
+        6,
+        5
+      ],
+      "to": [
+        2,
+        8,
+        11
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            14.25,
+            2.25,
+            14.5,
+            2.75
+          ],
+          "texture": "#main"
+        },
+        "south": {
+          "uv": [
+            12.5,
+            2.25,
+            12.75,
+            2.75
+          ],
+          "texture": "#main"
+        },
+        "east": {
+          "uv": [
+            11,
+            2.25,
+            12.5,
+            2.75
+          ],
+          "texture": "#main"
+        },
+        "west": {
+          "uv": [
+            12.75,
+            2.25,
+            14.25,
+            2.75
+          ],
+          "texture": "#main"
+        },
+        "up": {
+          "uv": [
+            12.5,
+            0.75,
+            12.75,
+            2.25
+          ],
+          "texture": "#main"
+        },
+        "down": {
+          "uv": [
+            12.75,
+            0.75,
+            13,
+            2.25
+          ],
+          "texture": "#main"
+        }
+      }
+    },
+    {
+      "name": "upper_bun_right_round",
+      "from": [
+        14,
+        6,
+        5
+      ],
+      "to": [
+        15,
+        8,
+        11
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            14.25,
+            2.25,
+            14.5,
+            2.75
+          ],
+          "texture": "#main"
+        },
+        "south": {
+          "uv": [
+            12.5,
+            2.25,
+            12.75,
+            2.75
+          ],
+          "texture": "#main"
+        },
+        "east": {
+          "uv": [
+            11,
+            2.25,
+            12.5,
+            2.75
+          ],
+          "texture": "#main"
+        },
+        "west": {
+          "uv": [
+            12.75,
+            2.25,
+            14.25,
+            2.75
+          ],
+          "texture": "#main"
+        },
+        "up": {
+          "uv": [
+            12.5,
+            0.75,
+            12.75,
+            2.25
+          ],
+          "texture": "#main"
+        },
+        "down": {
+          "uv": [
+            12.75,
+            0.75,
+            13,
+            2.25
+          ],
+          "texture": "#main"
+        }
+      }
+    },
+    {
+      "name": "bottom_bun_front_round",
+      "from": [
+        4,
+        1,
+        2
+      ],
+      "to": [
+        12,
+        2,
+        3
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            13.5,
+            3,
+            15.5,
+            3.25
+          ],
+          "texture": "#main"
+        },
+        "south": {
+          "uv": [
+            11.25,
+            3,
+            13.25,
+            3.25
+          ],
+          "texture": "#main"
+        },
+        "east": {
+          "uv": [
+            11,
+            3,
+            11.25,
+            3.25
+          ],
+          "texture": "#main"
+        },
+        "west": {
+          "uv": [
+            13.25,
+            3,
+            13.5,
+            3.25
+          ],
+          "texture": "#main"
+        },
+        "up": {
+          "uv": [
+            11.25,
+            2.75,
+            13.25,
+            3
+          ],
+          "texture": "#main"
+        },
+        "down": {
+          "uv": [
+            13.25,
+            2.75,
+            15.25,
+            3
+          ],
+          "texture": "#main"
+        }
+      }
+    },
+    {
+      "name": "bottom_bun_back_round",
+      "from": [
+        4,
+        1,
+        13
+      ],
+      "to": [
+        12,
+        2,
+        14
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            13.5,
+            3,
+            15.5,
+            3.25
+          ],
+          "texture": "#main"
+        },
+        "south": {
+          "uv": [
+            11.25,
+            3,
+            13.25,
+            3.25
+          ],
+          "texture": "#main"
+        },
+        "east": {
+          "uv": [
+            11,
+            3,
+            11.25,
+            3.25
+          ],
+          "texture": "#main"
+        },
+        "west": {
+          "uv": [
+            13.25,
+            3,
+            13.5,
+            3.25
+          ],
+          "texture": "#main"
+        },
+        "up": {
+          "uv": [
+            11.25,
+            2.75,
+            13.25,
+            3
+          ],
+          "texture": "#main"
+        },
+        "down": {
+          "uv": [
+            13.25,
+            2.75,
+            15.25,
+            3
+          ],
+          "texture": "#main"
+        }
+      }
+    },
+    {
+      "name": "bottom_bun_left_round",
+      "from": [
+        1,
+        1.5,
+        5
+      ],
+      "to": [
+        2,
+        2.5,
+        11
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            14.25,
+            4.75,
+            14.5,
+            5
+          ],
+          "texture": "#main"
+        },
+        "south": {
+          "uv": [
+            12.5,
+            4.75,
+            12.75,
+            5
+          ],
+          "texture": "#main"
+        },
+        "east": {
+          "uv": [
+            11,
+            4.75,
+            12.5,
+            5
+          ],
+          "texture": "#main"
+        },
+        "west": {
+          "uv": [
+            12.75,
+            4.75,
+            14.25,
+            5
+          ],
+          "texture": "#main"
+        },
+        "up": {
+          "uv": [
+            12.5,
+            3.25,
+            12.75,
+            4.75
+          ],
+          "texture": "#main"
+        },
+        "down": {
+          "uv": [
+            12.75,
+            3.25,
+            13,
+            4.75
+          ],
+          "texture": "#main"
+        }
+      }
+    },
+    {
+      "name": "bottom_bun_right_round",
+      "from": [
+        14,
+        1.5,
+        5
+      ],
+      "to": [
+        15,
+        2.5,
+        11
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            14.25,
+            4.75,
+            14.5,
+            5
+          ],
+          "texture": "#main"
+        },
+        "south": {
+          "uv": [
+            12.5,
+            4.75,
+            12.75,
+            5
+          ],
+          "texture": "#main"
+        },
+        "east": {
+          "uv": [
+            11,
+            4.75,
+            12.5,
+            5
+          ],
+          "texture": "#main"
+        },
+        "west": {
+          "uv": [
+            12.75,
+            4.75,
+            14.25,
+            5
+          ],
+          "texture": "#main"
+        },
+        "up": {
+          "uv": [
+            12.5,
+            3.25,
+            12.75,
+            4.75
+          ],
+          "texture": "#main"
+        },
+        "down": {
+          "uv": [
+            12.75,
+            3.25,
+            13,
+            4.75
+          ],
+          "texture": "#main"
+        }
+      }
+    },
+    {
+      "name": "chicken_front_crag",
+      "from": [
+        4,
+        2.75,
+        1.5
+      ],
+      "to": [
+        7,
+        4.75,
+        3.5
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            12.75,
+            5.5,
+            13.5,
+            6
+          ],
+          "texture": "#main"
+        },
+        "south": {
+          "uv": [
+            11.5,
+            5.5,
+            12.25,
+            6
+          ],
+          "texture": "#main"
+        },
+        "east": {
+          "uv": [
+            11,
+            5.5,
+            11.5,
+            6
+          ],
+          "texture": "#main"
+        },
+        "west": {
+          "uv": [
+            12.25,
+            5.5,
+            12.75,
+            6
+          ],
+          "texture": "#main"
+        },
+        "up": {
+          "uv": [
+            11.5,
+            5,
+            12.25,
+            5.5
+          ],
+          "texture": "#main"
+        },
+        "down": {
+          "uv": [
+            12.25,
+            5,
+            13,
+            5.5
+          ],
+          "texture": "#main"
+        }
+      }
+    },
+    {
+      "name": "chicken_back_crag",
+      "from": [
+        9,
+        3,
+        12.5
+      ],
+      "to": [
+        12,
+        5,
+        14.5
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            12.75,
+            5.5,
+            13.5,
+            6
+          ],
+          "texture": "#main"
+        },
+        "south": {
+          "uv": [
+            11.5,
+            5.5,
+            12.25,
+            6
+          ],
+          "texture": "#main"
+        },
+        "east": {
+          "uv": [
+            11,
+            5.5,
+            11.5,
+            6
+          ],
+          "texture": "#main"
+        },
+        "west": {
+          "uv": [
+            12.25,
+            5.5,
+            12.75,
+            6
+          ],
+          "texture": "#main"
+        },
+        "up": {
+          "uv": [
+            11.5,
+            5,
+            12.25,
+            5.5
+          ],
+          "texture": "#main"
+        },
+        "down": {
+          "uv": [
+            12.25,
+            5,
+            13,
+            5.5
+          ],
+          "texture": "#main"
+        }
+      }
+    },
+    {
+      "name": "chicken_left_crag",
+      "from": [
+        0.5,
+        2.75,
+        7
+      ],
+      "to": [
+        2.5,
+        4.75,
+        10
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            15.5,
+            5.75,
+            16,
+            6.25
+          ],
+          "texture": "#main"
+        },
+        "south": {
+          "uv": [
+            14.25,
+            5.75,
+            14.75,
+            6.25
+          ],
+          "texture": "#main"
+        },
+        "east": {
+          "uv": [
+            13.5,
+            5.75,
+            14.25,
+            6.25
+          ],
+          "texture": "#main"
+        },
+        "west": {
+          "uv": [
+            14.75,
+            5.75,
+            15.5,
+            6.25
+          ],
+          "texture": "#main"
+        },
+        "up": {
+          "uv": [
+            14.25,
+            5,
+            14.75,
+            5.75
+          ],
+          "texture": "#main"
+        },
+        "down": {
+          "uv": [
+            14.75,
+            5,
+            15.25,
+            5.75
+          ],
+          "texture": "#main"
+        }
+      }
+    },
+    {
+      "name": "chicken_right_crag",
+      "from": [
+        13.5,
+        3,
+        5
+      ],
+      "to": [
+        15.5,
+        5,
+        8
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            15.5,
+            5.75,
+            16,
+            6.25
+          ],
+          "texture": "#main"
+        },
+        "south": {
+          "uv": [
+            14.25,
+            5.75,
+            14.75,
+            6.25
+          ],
+          "texture": "#main"
+        },
+        "east": {
+          "uv": [
+            13.5,
+            5.75,
+            14.25,
+            6.25
+          ],
+          "texture": "#main"
+        },
+        "west": {
+          "uv": [
+            14.75,
+            5.75,
+            15.5,
+            6.25
+          ],
+          "texture": "#main"
+        },
+        "up": {
+          "uv": [
+            14.25,
+            5,
+            14.75,
+            5.75
+          ],
+          "texture": "#main"
+        },
+        "down": {
+          "uv": [
+            14.75,
+            5,
+            15.25,
+            5.75
+          ],
+          "texture": "#main"
+        }
+      }
+    },
+    {
+      "name": "lettuce_front_left_ruffle",
+      "from": [
+        2.5,
+        5,
+        1.5
+      ],
+      "to": [
+        6.5,
+        5.5,
+        3.5
+      ],
+      "rotation": {
+        "origin": [
+          4.5,
+          5.25,
+          3.5
+        ],
+        "axis": "x",
+        "angle": -22.5,
+        "rescale": false
+      },
+      "faces": {
+        "north": {
+          "uv": [
+            13,
+            6.75,
+            14,
+            7
+          ],
+          "texture": "#main"
+        },
+        "south": {
+          "uv": [
+            11.5,
+            6.75,
+            12.5,
+            7
+          ],
+          "texture": "#main"
+        },
+        "east": {
+          "uv": [
+            11,
+            6.75,
+            11.5,
+            7
+          ],
+          "texture": "#main"
+        },
+        "west": {
+          "uv": [
+            12.5,
+            6.75,
+            13,
+            7
+          ],
+          "texture": "#main"
+        },
+        "up": {
+          "uv": [
+            11.5,
+            6.25,
+            12.5,
+            6.75
+          ],
+          "texture": "#main"
+        },
+        "down": {
+          "uv": [
+            12.5,
+            6.25,
+            13.5,
+            6.75
+          ],
+          "texture": "#main"
+        }
+      }
+    },
+    {
+      "name": "lettuce_front_right_ruffle",
+      "from": [
+        8,
+        5,
+        1.5
+      ],
+      "to": [
+        12,
+        5.5,
+        3.5
+      ],
+      "rotation": {
+        "origin": [
+          10,
+          5.25,
+          3.5
+        ],
+        "axis": "x",
+        "angle": 22.5,
+        "rescale": false
+      },
+      "faces": {
+        "north": {
+          "uv": [
+            13,
+            9.25,
+            14,
+            9.5
+          ],
+          "texture": "#main"
+        },
+        "south": {
+          "uv": [
+            11.5,
+            9.25,
+            12.5,
+            9.5
+          ],
+          "texture": "#main"
+        },
+        "east": {
+          "uv": [
+            11,
+            9.25,
+            11.5,
+            9.5
+          ],
+          "texture": "#main"
+        },
+        "west": {
+          "uv": [
+            12.5,
+            9.25,
+            13,
+            9.5
+          ],
+          "texture": "#main"
+        },
+        "up": {
+          "uv": [
+            11.5,
+            8.75,
+            12.5,
+            9.25
+          ],
+          "texture": "#main"
+        },
+        "down": {
+          "uv": [
+            12.5,
+            8.75,
+            13.5,
+            9.25
+          ],
+          "texture": "#main"
+        }
+      }
+    },
+    {
+      "name": "lettuce_back_left_ruffle",
+      "from": [
+        3.5,
+        5,
+        12.5
+      ],
+      "to": [
+        7.5,
+        5.5,
+        14.5
+      ],
+      "rotation": {
+        "origin": [
+          5.5,
+          5.25,
+          12.5
+        ],
+        "axis": "x",
+        "angle": 22.5,
+        "rescale": false
+      },
+      "faces": {
+        "north": {
+          "uv": [
+            13,
+            6.75,
+            14,
+            7
+          ],
+          "texture": "#main"
+        },
+        "south": {
+          "uv": [
+            11.5,
+            6.75,
+            12.5,
+            7
+          ],
+          "texture": "#main"
+        },
+        "east": {
+          "uv": [
+            11,
+            6.75,
+            11.5,
+            7
+          ],
+          "texture": "#main"
+        },
+        "west": {
+          "uv": [
+            12.5,
+            6.75,
+            13,
+            7
+          ],
+          "texture": "#main"
+        },
+        "up": {
+          "uv": [
+            11.5,
+            6.25,
+            12.5,
+            6.75
+          ],
+          "texture": "#main"
+        },
+        "down": {
+          "uv": [
+            12.5,
+            6.25,
+            13.5,
+            6.75
+          ],
+          "texture": "#main"
+        }
+      }
+    },
+    {
+      "name": "lettuce_back_right_ruffle",
+      "from": [
+        9,
+        5,
+        12.5
+      ],
+      "to": [
+        13,
+        5.5,
+        14.5
+      ],
+      "rotation": {
+        "origin": [
+          11,
+          5.25,
+          12.5
+        ],
+        "axis": "x",
+        "angle": -22.5,
+        "rescale": false
+      },
+      "faces": {
+        "north": {
+          "uv": [
+            13,
+            9.25,
+            14,
+            9.5
+          ],
+          "texture": "#main"
+        },
+        "south": {
+          "uv": [
+            11.5,
+            9.25,
+            12.5,
+            9.5
+          ],
+          "texture": "#main"
+        },
+        "east": {
+          "uv": [
+            11,
+            9.25,
+            11.5,
+            9.5
+          ],
+          "texture": "#main"
+        },
+        "west": {
+          "uv": [
+            12.5,
+            9.25,
+            13,
+            9.5
+          ],
+          "texture": "#main"
+        },
+        "up": {
+          "uv": [
+            11.5,
+            8.75,
+            12.5,
+            9.25
+          ],
+          "texture": "#main"
+        },
+        "down": {
+          "uv": [
+            12.5,
+            8.75,
+            13.5,
+            9.25
+          ],
+          "texture": "#main"
+        }
+      }
+    },
+    {
+      "name": "lettuce_left_ruffle",
+      "from": [
+        0.5,
+        5,
+        5
+      ],
+      "to": [
+        2.5,
+        5.5,
+        9
+      ],
+      "rotation": {
+        "origin": [
+          2.5,
+          5.25,
+          7
+        ],
+        "axis": "z",
+        "angle": 22.5,
+        "rescale": false
+      },
+      "faces": {
+        "north": {
+          "uv": [
+            13.5,
+            8,
+            14,
+            8.25
+          ],
+          "texture": "#main"
+        },
+        "south": {
+          "uv": [
+            12,
+            8,
+            12.5,
+            8.25
+          ],
+          "texture": "#main"
+        },
+        "east": {
+          "uv": [
+            11,
+            8,
+            12,
+            8.25
+          ],
+          "texture": "#main"
+        },
+        "west": {
+          "uv": [
+            12.5,
+            8,
+            13.5,
+            8.25
+          ],
+          "texture": "#main"
+        },
+        "up": {
+          "uv": [
+            12,
+            7,
+            12.5,
+            8
+          ],
+          "texture": "#main"
+        },
+        "down": {
+          "uv": [
+            12.5,
+            7,
+            13,
+            8
+          ],
+          "texture": "#main"
+        }
+      }
+    },
+    {
+      "name": "lettuce_right_ruffle",
+      "from": [
+        13.5,
+        5,
+        8
+      ],
+      "to": [
+        15.5,
+        5.5,
+        12
+      ],
+      "rotation": {
+        "origin": [
+          13.5,
+          5.25,
+          10
+        ],
+        "axis": "z",
+        "angle": -22.5,
+        "rescale": false
+      },
+      "faces": {
+        "north": {
+          "uv": [
+            13.5,
+            8,
+            14,
+            8.25
+          ],
+          "texture": "#main"
+        },
+        "south": {
+          "uv": [
+            12,
+            8,
+            12.5,
+            8.25
+          ],
+          "texture": "#main"
+        },
+        "east": {
+          "uv": [
+            11,
+            8,
+            12,
+            8.25
+          ],
+          "texture": "#main"
+        },
+        "west": {
+          "uv": [
+            12.5,
+            8,
+            13.5,
+            8.25
+          ],
+          "texture": "#main"
+        },
+        "up": {
+          "uv": [
+            12,
+            7,
+            12.5,
+            8
+          ],
+          "texture": "#main"
+        },
+        "down": {
+          "uv": [
+            12.5,
+            7,
+            13,
+            8
+          ],
+          "texture": "#main"
+        }
+      }
+    },
+    {
+      "name": "sesame_crown_front",
+      "from": [
+        6,
+        9.5,
+        6
+      ],
+      "to": [
+        6.5,
+        9.7,
+        7
+      ],
+      "rotation": {
+        "origin": [
+          6.25,
+          9.5,
+          6.5
+        ],
+        "axis": "y",
+        "angle": -22.5,
+        "rescale": false
+      },
+      "faces": {
+        "north": {
+          "uv": [
+            11.75,
+            8.5,
+            12,
+            8.75
+          ],
+          "texture": "#main"
+        },
+        "south": {
+          "uv": [
+            11.25,
+            8.5,
+            11.5,
+            8.75
+          ],
+          "texture": "#main"
+        },
+        "east": {
+          "uv": [
+            11,
+            8.5,
+            11.25,
+            8.75
+          ],
+          "texture": "#main"
+        },
+        "west": {
+          "uv": [
+            11.5,
+            8.5,
+            11.75,
+            8.75
+          ],
+          "texture": "#main"
+        },
+        "up": {
+          "uv": [
+            11.25,
+            8.25,
+            11.5,
+            8.5
+          ],
+          "texture": "#main"
+        },
+        "down": {
+          "uv": [
+            11.5,
+            8.25,
+            11.75,
+            8.5
+          ],
+          "texture": "#main"
+        }
+      }
+    },
+    {
+      "name": "sesame_crown_right",
+      "from": [
+        9,
+        9.5,
+        7.5
+      ],
+      "to": [
+        9.5,
+        9.7,
+        8.5
+      ],
+      "rotation": {
+        "origin": [
+          9.25,
+          9.5,
+          8
+        ],
+        "axis": "y",
+        "angle": 45,
+        "rescale": false
+      },
+      "faces": {
+        "north": {
+          "uv": [
+            11.75,
+            8.5,
+            12,
+            8.75
+          ],
+          "texture": "#main"
+        },
+        "south": {
+          "uv": [
+            11.25,
+            8.5,
+            11.5,
+            8.75
+          ],
+          "texture": "#main"
+        },
+        "east": {
+          "uv": [
+            11,
+            8.5,
+            11.25,
+            8.75
+          ],
+          "texture": "#main"
+        },
+        "west": {
+          "uv": [
+            11.5,
+            8.5,
+            11.75,
+            8.75
+          ],
+          "texture": "#main"
+        },
+        "up": {
+          "uv": [
+            11.25,
+            8.25,
+            11.5,
+            8.5
+          ],
+          "texture": "#main"
+        },
+        "down": {
+          "uv": [
+            11.5,
+            8.25,
+            11.75,
+            8.5
+          ],
+          "texture": "#main"
+        }
+      }
+    },
+    {
+      "name": "sesame_crown_back",
+      "from": [
+        7,
+        9.5,
+        9
+      ],
+      "to": [
+        7.5,
+        9.7,
+        10
+      ],
+      "rotation": {
+        "origin": [
+          7.25,
+          9.5,
+          9.5
+        ],
+        "axis": "y",
+        "angle": 22.5,
+        "rescale": false
+      },
+      "faces": {
+        "north": {
+          "uv": [
+            11.75,
+            8.5,
+            12,
+            8.75
+          ],
+          "texture": "#main"
+        },
+        "south": {
+          "uv": [
+            11.25,
+            8.5,
+            11.5,
+            8.75
+          ],
+          "texture": "#main"
+        },
+        "east": {
+          "uv": [
+            11,
+            8.5,
+            11.25,
+            8.75
+          ],
+          "texture": "#main"
+        },
+        "west": {
+          "uv": [
+            11.5,
+            8.5,
+            11.75,
+            8.75
+          ],
+          "texture": "#main"
+        },
+        "up": {
+          "uv": [
+            11.25,
+            8.25,
+            11.5,
+            8.5
+          ],
+          "texture": "#main"
+        },
+        "down": {
+          "uv": [
+            11.5,
+            8.25,
+            11.75,
+            8.5
+          ],
+          "texture": "#main"
+        }
+      }
+    },
+    {
+      "name": "sesame_left_shoulder",
+      "from": [
+        4.25,
+        9,
+        7.5
+      ],
+      "to": [
+        4.75,
+        9.2,
+        8.5
+      ],
+      "rotation": {
+        "origin": [
+          4.5,
+          9,
+          8
+        ],
+        "axis": "y",
+        "angle": -22.5,
+        "rescale": false
+      },
+      "faces": {
+        "north": {
+          "uv": [
+            11.75,
+            8.5,
+            12,
+            8.75
+          ],
+          "texture": "#main"
+        },
+        "south": {
+          "uv": [
+            11.25,
+            8.5,
+            11.5,
+            8.75
+          ],
+          "texture": "#main"
+        },
+        "east": {
+          "uv": [
+            11,
+            8.5,
+            11.25,
+            8.75
+          ],
+          "texture": "#main"
+        },
+        "west": {
+          "uv": [
+            11.5,
+            8.5,
+            11.75,
+            8.75
+          ],
+          "texture": "#main"
+        },
+        "up": {
+          "uv": [
+            11.25,
+            8.25,
+            11.5,
+            8.5
+          ],
+          "texture": "#main"
+        },
+        "down": {
+          "uv": [
+            11.5,
+            8.25,
+            11.75,
+            8.5
+          ],
+          "texture": "#main"
+        }
+      }
+    },
+    {
+      "name": "sesame_front_shoulder",
+      "from": [
+        9,
+        9,
+        4.5
+      ],
+      "to": [
+        9.5,
+        9.2,
+        5.5
+      ],
+      "rotation": {
+        "origin": [
+          9.25,
+          9,
+          5
+        ],
+        "axis": "y",
+        "angle": 45,
+        "rescale": false
+      },
+      "faces": {
+        "north": {
+          "uv": [
+            11.75,
+            8.5,
+            12,
+            8.75
+          ],
+          "texture": "#main"
+        },
+        "south": {
+          "uv": [
+            11.25,
+            8.5,
+            11.5,
+            8.75
+          ],
+          "texture": "#main"
+        },
+        "east": {
+          "uv": [
+            11,
+            8.5,
+            11.25,
+            8.75
+          ],
+          "texture": "#main"
+        },
+        "west": {
+          "uv": [
+            11.5,
+            8.5,
+            11.75,
+            8.75
+          ],
+          "texture": "#main"
+        },
+        "up": {
+          "uv": [
+            11.25,
+            8.25,
+            11.5,
+            8.5
+          ],
+          "texture": "#main"
+        },
+        "down": {
+          "uv": [
+            11.5,
+            8.25,
+            11.75,
+            8.5
+          ],
+          "texture": "#main"
+        }
+      }
+    }
+  ],
+  "display": {
+    "gui": {
+      "rotation": [
+        30,
+        225,
+        0
+      ],
+      "translation": [
+        -0.138967,
+        2.445251,
+        1.277438
+      ],
+      "scale": [
+        0.786116,
+        0.786116,
+        0.786116
+      ]
+    },
+    "ground": {
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "translation": [
+        0,
+        3,
+        0
+      ],
+      "scale": [
+        0.25,
+        0.25,
+        0.25
+      ]
+    },
+    "fixed": {
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "translation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        0.5,
+        0.5,
+        0.5
+      ]
+    },
+    "head": {
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "translation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    "thirdperson_righthand": {
+      "rotation": [
+        75,
+        45,
+        0
+      ],
+      "translation": [
+        0,
+        2.5,
+        0
+      ],
+      "scale": [
+        0.375,
+        0.375,
+        0.375
+      ]
+    },
+    "thirdperson_lefthand": {
+      "rotation": [
+        75,
+        45,
+        0
+      ],
+      "translation": [
+        0,
+        2.5,
+        0
+      ],
+      "scale": [
+        0.375,
+        0.375,
+        0.375
+      ]
+    },
+    "firstperson_righthand": {
+      "rotation": [
+        0,
+        45,
+        0
+      ],
+      "translation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        0.4,
+        0.4,
+        0.4
+      ]
+    },
+    "firstperson_lefthand": {
+      "rotation": [
+        0,
+        45,
+        0
+      ],
+      "translation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        0.4,
+        0.4,
+        0.4
+      ]
+    }
+  },
+  "gui_light": "side"
+}

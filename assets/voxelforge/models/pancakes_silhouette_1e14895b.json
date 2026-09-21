@@ -1,0 +1,2168 @@
+{
+  "credit": "VoxelForge",
+  "textures": {
+    "main": "voxelforge:item/pancakes_silhouette_1e14895b/main"
+  },
+  "elements": [
+    {
+      "name": "plate_main",
+      "from": [
+        2,
+        0,
+        3
+      ],
+      "to": [
+        14,
+        0.5,
+        13
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            8,
+            2.5,
+            11,
+            2.75
+          ],
+          "texture": "#main"
+        },
+        "south": {
+          "uv": [
+            2.5,
+            2.5,
+            5.5,
+            2.75
+          ],
+          "texture": "#main"
+        },
+        "east": {
+          "uv": [
+            0,
+            2.5,
+            2.5,
+            2.75
+          ],
+          "texture": "#main"
+        },
+        "west": {
+          "uv": [
+            5.5,
+            2.5,
+            8,
+            2.75
+          ],
+          "texture": "#main"
+        },
+        "up": {
+          "uv": [
+            2.5,
+            0,
+            5.5,
+            2.5
+          ],
+          "texture": "#main"
+        },
+        "down": {
+          "uv": [
+            5.5,
+            0,
+            8.5,
+            2.5
+          ],
+          "texture": "#main"
+        }
+      }
+    },
+    {
+      "name": "plate_front_rim",
+      "from": [
+        3,
+        0.15,
+        2
+      ],
+      "to": [
+        13,
+        0.65,
+        3
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            3,
+            3,
+            5.5,
+            3.25
+          ],
+          "texture": "#main"
+        },
+        "south": {
+          "uv": [
+            0.25,
+            3,
+            2.75,
+            3.25
+          ],
+          "texture": "#main"
+        },
+        "east": {
+          "uv": [
+            0,
+            3,
+            0.25,
+            3.25
+          ],
+          "texture": "#main"
+        },
+        "west": {
+          "uv": [
+            2.75,
+            3,
+            3,
+            3.25
+          ],
+          "texture": "#main"
+        },
+        "up": {
+          "uv": [
+            0.25,
+            2.75,
+            2.75,
+            3
+          ],
+          "texture": "#main"
+        },
+        "down": {
+          "uv": [
+            2.75,
+            2.75,
+            5.25,
+            3
+          ],
+          "texture": "#main"
+        }
+      }
+    },
+    {
+      "name": "plate_back_rim",
+      "from": [
+        3,
+        0.15,
+        13
+      ],
+      "to": [
+        13,
+        0.65,
+        14
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            8.5,
+            3,
+            11,
+            3.25
+          ],
+          "texture": "#main"
+        },
+        "south": {
+          "uv": [
+            5.75,
+            3,
+            8.25,
+            3.25
+          ],
+          "texture": "#main"
+        },
+        "east": {
+          "uv": [
+            5.5,
+            3,
+            5.75,
+            3.25
+          ],
+          "texture": "#main"
+        },
+        "west": {
+          "uv": [
+            8.25,
+            3,
+            8.5,
+            3.25
+          ],
+          "texture": "#main"
+        },
+        "up": {
+          "uv": [
+            5.75,
+            2.75,
+            8.25,
+            3
+          ],
+          "texture": "#main"
+        },
+        "down": {
+          "uv": [
+            8.25,
+            2.75,
+            10.75,
+            3
+          ],
+          "texture": "#main"
+        }
+      }
+    },
+    {
+      "name": "plate_left_rim",
+      "from": [
+        1,
+        0.15,
+        4
+      ],
+      "to": [
+        2,
+        0.65,
+        12
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            15.25,
+            2,
+            15.5,
+            2.25
+          ],
+          "texture": "#main"
+        },
+        "south": {
+          "uv": [
+            13,
+            2,
+            13.25,
+            2.25
+          ],
+          "texture": "#main"
+        },
+        "east": {
+          "uv": [
+            11,
+            2,
+            13,
+            2.25
+          ],
+          "texture": "#main"
+        },
+        "west": {
+          "uv": [
+            13.25,
+            2,
+            15.25,
+            2.25
+          ],
+          "texture": "#main"
+        },
+        "up": {
+          "uv": [
+            13,
+            0,
+            13.25,
+            2
+          ],
+          "texture": "#main"
+        },
+        "down": {
+          "uv": [
+            13.25,
+            0,
+            13.5,
+            2
+          ],
+          "texture": "#main"
+        }
+      }
+    },
+    {
+      "name": "plate_right_rim",
+      "from": [
+        14,
+        0.15,
+        4
+      ],
+      "to": [
+        15,
+        0.65,
+        12
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            15.25,
+            2,
+            15.5,
+            2.25
+          ],
+          "texture": "#main"
+        },
+        "south": {
+          "uv": [
+            13,
+            2,
+            13.25,
+            2.25
+          ],
+          "texture": "#main"
+        },
+        "east": {
+          "uv": [
+            11,
+            2,
+            13,
+            2.25
+          ],
+          "texture": "#main"
+        },
+        "west": {
+          "uv": [
+            13.25,
+            2,
+            15.25,
+            2.25
+          ],
+          "texture": "#main"
+        },
+        "up": {
+          "uv": [
+            13,
+            0,
+            13.25,
+            2
+          ],
+          "texture": "#main"
+        },
+        "down": {
+          "uv": [
+            13.25,
+            0,
+            13.5,
+            2
+          ],
+          "texture": "#main"
+        }
+      }
+    },
+    {
+      "name": "bottom_pancake_center",
+      "from": [
+        3,
+        0.5,
+        4
+      ],
+      "to": [
+        13,
+        2,
+        12
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            6.5,
+            5.5,
+            9,
+            6
+          ],
+          "texture": "#main"
+        },
+        "south": {
+          "uv": [
+            2,
+            5.5,
+            4.5,
+            6
+          ],
+          "texture": "#main"
+        },
+        "east": {
+          "uv": [
+            0,
+            5.5,
+            2,
+            6
+          ],
+          "texture": "#main"
+        },
+        "west": {
+          "uv": [
+            4.5,
+            5.5,
+            6.5,
+            6
+          ],
+          "texture": "#main"
+        },
+        "up": {
+          "uv": [
+            2,
+            3.5,
+            4.5,
+            5.5
+          ],
+          "texture": "#main"
+        },
+        "down": {
+          "uv": [
+            4.5,
+            3.5,
+            7,
+            5.5
+          ],
+          "texture": "#main"
+        }
+      }
+    },
+    {
+      "name": "bottom_pancake_front",
+      "from": [
+        4,
+        0.65,
+        3
+      ],
+      "to": [
+        12,
+        1.85,
+        4
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            2.5,
+            6.25,
+            4.5,
+            6.75
+          ],
+          "texture": "#main"
+        },
+        "south": {
+          "uv": [
+            0.25,
+            6.25,
+            2.25,
+            6.75
+          ],
+          "texture": "#main"
+        },
+        "east": {
+          "uv": [
+            0,
+            6.25,
+            0.25,
+            6.75
+          ],
+          "texture": "#main"
+        },
+        "west": {
+          "uv": [
+            2.25,
+            6.25,
+            2.5,
+            6.75
+          ],
+          "texture": "#main"
+        },
+        "up": {
+          "uv": [
+            0.25,
+            6,
+            2.25,
+            6.25
+          ],
+          "texture": "#main"
+        },
+        "down": {
+          "uv": [
+            2.25,
+            6,
+            4.25,
+            6.25
+          ],
+          "texture": "#main"
+        }
+      }
+    },
+    {
+      "name": "bottom_pancake_back",
+      "from": [
+        4,
+        0.65,
+        12
+      ],
+      "to": [
+        12,
+        1.85,
+        13
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            7,
+            6.25,
+            9,
+            6.75
+          ],
+          "texture": "#main"
+        },
+        "south": {
+          "uv": [
+            4.75,
+            6.25,
+            6.75,
+            6.75
+          ],
+          "texture": "#main"
+        },
+        "east": {
+          "uv": [
+            4.5,
+            6.25,
+            4.75,
+            6.75
+          ],
+          "texture": "#main"
+        },
+        "west": {
+          "uv": [
+            6.75,
+            6.25,
+            7,
+            6.75
+          ],
+          "texture": "#main"
+        },
+        "up": {
+          "uv": [
+            4.75,
+            6,
+            6.75,
+            6.25
+          ],
+          "texture": "#main"
+        },
+        "down": {
+          "uv": [
+            6.75,
+            6,
+            8.75,
+            6.25
+          ],
+          "texture": "#main"
+        }
+      }
+    },
+    {
+      "name": "bottom_pancake_left",
+      "from": [
+        2,
+        0.65,
+        5
+      ],
+      "to": [
+        3,
+        1.85,
+        11
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            12.25,
+            5,
+            12.5,
+            5.5
+          ],
+          "texture": "#main"
+        },
+        "south": {
+          "uv": [
+            10.5,
+            5,
+            10.75,
+            5.5
+          ],
+          "texture": "#main"
+        },
+        "east": {
+          "uv": [
+            9,
+            5,
+            10.5,
+            5.5
+          ],
+          "texture": "#main"
+        },
+        "west": {
+          "uv": [
+            10.75,
+            5,
+            12.25,
+            5.5
+          ],
+          "texture": "#main"
+        },
+        "up": {
+          "uv": [
+            10.5,
+            3.5,
+            10.75,
+            5
+          ],
+          "texture": "#main"
+        },
+        "down": {
+          "uv": [
+            10.75,
+            3.5,
+            11,
+            5
+          ],
+          "texture": "#main"
+        }
+      }
+    },
+    {
+      "name": "bottom_pancake_right",
+      "from": [
+        13,
+        0.65,
+        5
+      ],
+      "to": [
+        14,
+        1.85,
+        11
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            15.75,
+            5,
+            16,
+            5.5
+          ],
+          "texture": "#main"
+        },
+        "south": {
+          "uv": [
+            14,
+            5,
+            14.25,
+            5.5
+          ],
+          "texture": "#main"
+        },
+        "east": {
+          "uv": [
+            12.5,
+            5,
+            14,
+            5.5
+          ],
+          "texture": "#main"
+        },
+        "west": {
+          "uv": [
+            14.25,
+            5,
+            15.75,
+            5.5
+          ],
+          "texture": "#main"
+        },
+        "up": {
+          "uv": [
+            14,
+            3.5,
+            14.25,
+            5
+          ],
+          "texture": "#main"
+        },
+        "down": {
+          "uv": [
+            14.25,
+            3.5,
+            14.5,
+            5
+          ],
+          "texture": "#main"
+        }
+      }
+    },
+    {
+      "name": "middle_pancake_center",
+      "from": [
+        3,
+        2,
+        4
+      ],
+      "to": [
+        13,
+        3.5,
+        12
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            6.5,
+            11,
+            9,
+            11.5
+          ],
+          "texture": "#main"
+        },
+        "south": {
+          "uv": [
+            2,
+            11,
+            4.5,
+            11.5
+          ],
+          "texture": "#main"
+        },
+        "east": {
+          "uv": [
+            0,
+            11,
+            2,
+            11.5
+          ],
+          "texture": "#main"
+        },
+        "west": {
+          "uv": [
+            4.5,
+            11,
+            6.5,
+            11.5
+          ],
+          "texture": "#main"
+        },
+        "up": {
+          "uv": [
+            2,
+            9,
+            4.5,
+            11
+          ],
+          "texture": "#main"
+        },
+        "down": {
+          "uv": [
+            4.5,
+            9,
+            7,
+            11
+          ],
+          "texture": "#main"
+        }
+      }
+    },
+    {
+      "name": "middle_pancake_front",
+      "from": [
+        4,
+        2.15,
+        3
+      ],
+      "to": [
+        12,
+        3.35,
+        4
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            2.5,
+            6.25,
+            4.5,
+            6.75
+          ],
+          "texture": "#main"
+        },
+        "south": {
+          "uv": [
+            0.25,
+            6.25,
+            2.25,
+            6.75
+          ],
+          "texture": "#main"
+        },
+        "east": {
+          "uv": [
+            0,
+            6.25,
+            0.25,
+            6.75
+          ],
+          "texture": "#main"
+        },
+        "west": {
+          "uv": [
+            2.25,
+            6.25,
+            2.5,
+            6.75
+          ],
+          "texture": "#main"
+        },
+        "up": {
+          "uv": [
+            0.25,
+            6,
+            2.25,
+            6.25
+          ],
+          "texture": "#main"
+        },
+        "down": {
+          "uv": [
+            2.25,
+            6,
+            4.25,
+            6.25
+          ],
+          "texture": "#main"
+        }
+      }
+    },
+    {
+      "name": "middle_pancake_back",
+      "from": [
+        4,
+        2.15,
+        12
+      ],
+      "to": [
+        12,
+        3.35,
+        13
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            7,
+            6.25,
+            9,
+            6.75
+          ],
+          "texture": "#main"
+        },
+        "south": {
+          "uv": [
+            4.75,
+            6.25,
+            6.75,
+            6.75
+          ],
+          "texture": "#main"
+        },
+        "east": {
+          "uv": [
+            4.5,
+            6.25,
+            4.75,
+            6.75
+          ],
+          "texture": "#main"
+        },
+        "west": {
+          "uv": [
+            6.75,
+            6.25,
+            7,
+            6.75
+          ],
+          "texture": "#main"
+        },
+        "up": {
+          "uv": [
+            4.75,
+            6,
+            6.75,
+            6.25
+          ],
+          "texture": "#main"
+        },
+        "down": {
+          "uv": [
+            6.75,
+            6,
+            8.75,
+            6.25
+          ],
+          "texture": "#main"
+        }
+      }
+    },
+    {
+      "name": "middle_pancake_left",
+      "from": [
+        2,
+        2.15,
+        5
+      ],
+      "to": [
+        3,
+        3.35,
+        11
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            12.25,
+            5,
+            12.5,
+            5.5
+          ],
+          "texture": "#main"
+        },
+        "south": {
+          "uv": [
+            10.5,
+            5,
+            10.75,
+            5.5
+          ],
+          "texture": "#main"
+        },
+        "east": {
+          "uv": [
+            9,
+            5,
+            10.5,
+            5.5
+          ],
+          "texture": "#main"
+        },
+        "west": {
+          "uv": [
+            10.75,
+            5,
+            12.25,
+            5.5
+          ],
+          "texture": "#main"
+        },
+        "up": {
+          "uv": [
+            10.5,
+            3.5,
+            10.75,
+            5
+          ],
+          "texture": "#main"
+        },
+        "down": {
+          "uv": [
+            10.75,
+            3.5,
+            11,
+            5
+          ],
+          "texture": "#main"
+        }
+      }
+    },
+    {
+      "name": "middle_pancake_right",
+      "from": [
+        13,
+        2.15,
+        5
+      ],
+      "to": [
+        14,
+        3.35,
+        11
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            15.75,
+            5,
+            16,
+            5.5
+          ],
+          "texture": "#main"
+        },
+        "south": {
+          "uv": [
+            14,
+            5,
+            14.25,
+            5.5
+          ],
+          "texture": "#main"
+        },
+        "east": {
+          "uv": [
+            12.5,
+            5,
+            14,
+            5.5
+          ],
+          "texture": "#main"
+        },
+        "west": {
+          "uv": [
+            14.25,
+            5,
+            15.75,
+            5.5
+          ],
+          "texture": "#main"
+        },
+        "up": {
+          "uv": [
+            14,
+            3.5,
+            14.25,
+            5
+          ],
+          "texture": "#main"
+        },
+        "down": {
+          "uv": [
+            14.25,
+            3.5,
+            14.5,
+            5
+          ],
+          "texture": "#main"
+        }
+      }
+    },
+    {
+      "name": "top_pancake_center",
+      "from": [
+        3,
+        3.5,
+        4
+      ],
+      "to": [
+        13,
+        5,
+        12
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            6.5,
+            13.75,
+            9,
+            14.25
+          ],
+          "texture": "#main"
+        },
+        "south": {
+          "uv": [
+            2,
+            13.75,
+            4.5,
+            14.25
+          ],
+          "texture": "#main"
+        },
+        "east": {
+          "uv": [
+            0,
+            13.75,
+            2,
+            14.25
+          ],
+          "texture": "#main"
+        },
+        "west": {
+          "uv": [
+            4.5,
+            13.75,
+            6.5,
+            14.25
+          ],
+          "texture": "#main"
+        },
+        "up": {
+          "uv": [
+            2,
+            11.75,
+            4.5,
+            13.75
+          ],
+          "texture": "#main"
+        },
+        "down": {
+          "uv": [
+            4.5,
+            11.75,
+            7,
+            13.75
+          ],
+          "texture": "#main"
+        }
+      }
+    },
+    {
+      "name": "top_pancake_front",
+      "from": [
+        4,
+        3.65,
+        3
+      ],
+      "to": [
+        12,
+        4.85,
+        4
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            2.5,
+            6.25,
+            4.5,
+            6.75
+          ],
+          "texture": "#main"
+        },
+        "south": {
+          "uv": [
+            0.25,
+            6.25,
+            2.25,
+            6.75
+          ],
+          "texture": "#main"
+        },
+        "east": {
+          "uv": [
+            0,
+            6.25,
+            0.25,
+            6.75
+          ],
+          "texture": "#main"
+        },
+        "west": {
+          "uv": [
+            2.25,
+            6.25,
+            2.5,
+            6.75
+          ],
+          "texture": "#main"
+        },
+        "up": {
+          "uv": [
+            0.25,
+            6,
+            2.25,
+            6.25
+          ],
+          "texture": "#main"
+        },
+        "down": {
+          "uv": [
+            2.25,
+            6,
+            4.25,
+            6.25
+          ],
+          "texture": "#main"
+        }
+      }
+    },
+    {
+      "name": "top_pancake_back",
+      "from": [
+        4,
+        3.65,
+        12
+      ],
+      "to": [
+        12,
+        4.85,
+        13
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            7,
+            6.25,
+            9,
+            6.75
+          ],
+          "texture": "#main"
+        },
+        "south": {
+          "uv": [
+            4.75,
+            6.25,
+            6.75,
+            6.75
+          ],
+          "texture": "#main"
+        },
+        "east": {
+          "uv": [
+            4.5,
+            6.25,
+            4.75,
+            6.75
+          ],
+          "texture": "#main"
+        },
+        "west": {
+          "uv": [
+            6.75,
+            6.25,
+            7,
+            6.75
+          ],
+          "texture": "#main"
+        },
+        "up": {
+          "uv": [
+            4.75,
+            6,
+            6.75,
+            6.25
+          ],
+          "texture": "#main"
+        },
+        "down": {
+          "uv": [
+            6.75,
+            6,
+            8.75,
+            6.25
+          ],
+          "texture": "#main"
+        }
+      }
+    },
+    {
+      "name": "top_pancake_left",
+      "from": [
+        2,
+        3.65,
+        5
+      ],
+      "to": [
+        3,
+        4.85,
+        11
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            12.25,
+            5,
+            12.5,
+            5.5
+          ],
+          "texture": "#main"
+        },
+        "south": {
+          "uv": [
+            10.5,
+            5,
+            10.75,
+            5.5
+          ],
+          "texture": "#main"
+        },
+        "east": {
+          "uv": [
+            9,
+            5,
+            10.5,
+            5.5
+          ],
+          "texture": "#main"
+        },
+        "west": {
+          "uv": [
+            10.75,
+            5,
+            12.25,
+            5.5
+          ],
+          "texture": "#main"
+        },
+        "up": {
+          "uv": [
+            10.5,
+            3.5,
+            10.75,
+            5
+          ],
+          "texture": "#main"
+        },
+        "down": {
+          "uv": [
+            10.75,
+            3.5,
+            11,
+            5
+          ],
+          "texture": "#main"
+        }
+      }
+    },
+    {
+      "name": "top_pancake_right",
+      "from": [
+        13,
+        3.65,
+        5
+      ],
+      "to": [
+        14,
+        4.85,
+        11
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            15.75,
+            5,
+            16,
+            5.5
+          ],
+          "texture": "#main"
+        },
+        "south": {
+          "uv": [
+            14,
+            5,
+            14.25,
+            5.5
+          ],
+          "texture": "#main"
+        },
+        "east": {
+          "uv": [
+            12.5,
+            5,
+            14,
+            5.5
+          ],
+          "texture": "#main"
+        },
+        "west": {
+          "uv": [
+            14.25,
+            5,
+            15.75,
+            5.5
+          ],
+          "texture": "#main"
+        },
+        "up": {
+          "uv": [
+            14,
+            3.5,
+            14.25,
+            5
+          ],
+          "texture": "#main"
+        },
+        "down": {
+          "uv": [
+            14.25,
+            3.5,
+            14.5,
+            5
+          ],
+          "texture": "#main"
+        }
+      }
+    },
+    {
+      "name": "honey_pool",
+      "from": [
+        5,
+        5,
+        4
+      ],
+      "to": [
+        11,
+        5.2,
+        10
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            4.5,
+            8.5,
+            6,
+            8.75
+          ],
+          "texture": "#main"
+        },
+        "south": {
+          "uv": [
+            1.5,
+            8.5,
+            3,
+            8.75
+          ],
+          "texture": "#main"
+        },
+        "east": {
+          "uv": [
+            0,
+            8.5,
+            1.5,
+            8.75
+          ],
+          "texture": "#main"
+        },
+        "west": {
+          "uv": [
+            3,
+            8.5,
+            4.5,
+            8.75
+          ],
+          "texture": "#main"
+        },
+        "up": {
+          "uv": [
+            1.5,
+            7,
+            3,
+            8.5
+          ],
+          "texture": "#main"
+        },
+        "down": {
+          "uv": [
+            3,
+            7,
+            4.5,
+            8.5
+          ],
+          "texture": "#main"
+        }
+      }
+    },
+    {
+      "name": "honey_front_flow",
+      "from": [
+        6,
+        4.85,
+        3
+      ],
+      "to": [
+        10,
+        5.2,
+        4
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            10.5,
+            6.25,
+            11.5,
+            6.5
+          ],
+          "texture": "#main"
+        },
+        "south": {
+          "uv": [
+            9.25,
+            6.25,
+            10.25,
+            6.5
+          ],
+          "texture": "#main"
+        },
+        "east": {
+          "uv": [
+            9,
+            6.25,
+            9.25,
+            6.5
+          ],
+          "texture": "#main"
+        },
+        "west": {
+          "uv": [
+            10.25,
+            6.25,
+            10.5,
+            6.5
+          ],
+          "texture": "#main"
+        },
+        "up": {
+          "uv": [
+            9.25,
+            6,
+            10.25,
+            6.25
+          ],
+          "texture": "#main"
+        },
+        "down": {
+          "uv": [
+            10.25,
+            6,
+            11.25,
+            6.25
+          ],
+          "texture": "#main"
+        }
+      }
+    },
+    {
+      "name": "honey_right_flow",
+      "from": [
+        11,
+        4.85,
+        6
+      ],
+      "to": [
+        14,
+        5.2,
+        9
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            8.25,
+            7.75,
+            9,
+            8
+          ],
+          "texture": "#main"
+        },
+        "south": {
+          "uv": [
+            6.75,
+            7.75,
+            7.5,
+            8
+          ],
+          "texture": "#main"
+        },
+        "east": {
+          "uv": [
+            6,
+            7.75,
+            6.75,
+            8
+          ],
+          "texture": "#main"
+        },
+        "west": {
+          "uv": [
+            7.5,
+            7.75,
+            8.25,
+            8
+          ],
+          "texture": "#main"
+        },
+        "up": {
+          "uv": [
+            6.75,
+            7,
+            7.5,
+            7.75
+          ],
+          "texture": "#main"
+        },
+        "down": {
+          "uv": [
+            7.5,
+            7,
+            8.25,
+            7.75
+          ],
+          "texture": "#main"
+        }
+      }
+    },
+    {
+      "name": "honey_long_front_drip",
+      "from": [
+        6,
+        2.7,
+        2.85
+      ],
+      "to": [
+        8,
+        5.2,
+        3.2
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            10,
+            8.5,
+            10.5,
+            9.25
+          ],
+          "texture": "#main"
+        },
+        "south": {
+          "uv": [
+            9.25,
+            8.5,
+            9.75,
+            9.25
+          ],
+          "texture": "#main"
+        },
+        "east": {
+          "uv": [
+            9,
+            8.5,
+            9.25,
+            9.25
+          ],
+          "texture": "#main"
+        },
+        "west": {
+          "uv": [
+            9.75,
+            8.5,
+            10,
+            9.25
+          ],
+          "texture": "#main"
+        },
+        "up": {
+          "uv": [
+            9.25,
+            8.25,
+            9.75,
+            8.5
+          ],
+          "texture": "#main"
+        },
+        "down": {
+          "uv": [
+            9.75,
+            8.25,
+            10.25,
+            8.5
+          ],
+          "texture": "#main"
+        }
+      }
+    },
+    {
+      "name": "honey_short_front_drip",
+      "from": [
+        9,
+        4,
+        2.85
+      ],
+      "to": [
+        10,
+        5.2,
+        3.2
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            11.25,
+            8.5,
+            11.5,
+            9
+          ],
+          "texture": "#main"
+        },
+        "south": {
+          "uv": [
+            10.75,
+            8.5,
+            11,
+            9
+          ],
+          "texture": "#main"
+        },
+        "east": {
+          "uv": [
+            10.5,
+            8.5,
+            10.75,
+            9
+          ],
+          "texture": "#main"
+        },
+        "west": {
+          "uv": [
+            11,
+            8.5,
+            11.25,
+            9
+          ],
+          "texture": "#main"
+        },
+        "up": {
+          "uv": [
+            10.75,
+            8.25,
+            11,
+            8.5
+          ],
+          "texture": "#main"
+        },
+        "down": {
+          "uv": [
+            11,
+            8.25,
+            11.25,
+            8.5
+          ],
+          "texture": "#main"
+        }
+      }
+    },
+    {
+      "name": "honey_right_drip",
+      "from": [
+        13.85,
+        3,
+        6.5
+      ],
+      "to": [
+        14.2,
+        5.2,
+        8.5
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            12.75,
+            8.75,
+            13,
+            9.5
+          ],
+          "texture": "#main"
+        },
+        "south": {
+          "uv": [
+            12,
+            8.75,
+            12.25,
+            9.5
+          ],
+          "texture": "#main"
+        },
+        "east": {
+          "uv": [
+            11.5,
+            8.75,
+            12,
+            9.5
+          ],
+          "texture": "#main"
+        },
+        "west": {
+          "uv": [
+            12.25,
+            8.75,
+            12.75,
+            9.5
+          ],
+          "texture": "#main"
+        },
+        "up": {
+          "uv": [
+            12,
+            8.25,
+            12.25,
+            8.75
+          ],
+          "texture": "#main"
+        },
+        "down": {
+          "uv": [
+            12.25,
+            8.25,
+            12.5,
+            8.75
+          ],
+          "texture": "#main"
+        }
+      }
+    },
+    {
+      "name": "butter_melt",
+      "from": [
+        6,
+        5.2,
+        6
+      ],
+      "to": [
+        10,
+        5.4,
+        9
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            11.5,
+            10.5,
+            12.5,
+            10.75
+          ],
+          "texture": "#main"
+        },
+        "south": {
+          "uv": [
+            9.75,
+            10.5,
+            10.75,
+            10.75
+          ],
+          "texture": "#main"
+        },
+        "east": {
+          "uv": [
+            9,
+            10.5,
+            9.75,
+            10.75
+          ],
+          "texture": "#main"
+        },
+        "west": {
+          "uv": [
+            10.75,
+            10.5,
+            11.5,
+            10.75
+          ],
+          "texture": "#main"
+        },
+        "up": {
+          "uv": [
+            9.75,
+            9.75,
+            10.75,
+            10.5
+          ],
+          "texture": "#main"
+        },
+        "down": {
+          "uv": [
+            10.75,
+            9.75,
+            11.75,
+            10.5
+          ],
+          "texture": "#main"
+        }
+      }
+    },
+    {
+      "name": "butter_pat",
+      "from": [
+        6.5,
+        5.4,
+        6.5
+      ],
+      "to": [
+        9.5,
+        6.1,
+        8.5
+      ],
+      "rotation": {
+        "origin": [
+          8,
+          5.4,
+          7.5
+        ],
+        "axis": "y",
+        "angle": -22.5,
+        "rescale": false
+      },
+      "faces": {
+        "north": {
+          "uv": [
+            14.25,
+            10.25,
+            15,
+            10.5
+          ],
+          "texture": "#main"
+        },
+        "south": {
+          "uv": [
+            13,
+            10.25,
+            13.75,
+            10.5
+          ],
+          "texture": "#main"
+        },
+        "east": {
+          "uv": [
+            12.5,
+            10.25,
+            13,
+            10.5
+          ],
+          "texture": "#main"
+        },
+        "west": {
+          "uv": [
+            13.75,
+            10.25,
+            14.25,
+            10.5
+          ],
+          "texture": "#main"
+        },
+        "up": {
+          "uv": [
+            13,
+            9.75,
+            13.75,
+            10.25
+          ],
+          "texture": "#main"
+        },
+        "down": {
+          "uv": [
+            13.75,
+            9.75,
+            14.5,
+            10.25
+          ],
+          "texture": "#main"
+        }
+      }
+    },
+    {
+      "name": "butter_softened_crown",
+      "from": [
+        7,
+        6.1,
+        6.65
+      ],
+      "to": [
+        9,
+        6.3,
+        8.35
+      ],
+      "rotation": {
+        "origin": [
+          8,
+          5.4,
+          7.5
+        ],
+        "axis": "y",
+        "angle": -22.5,
+        "rescale": false
+      },
+      "faces": {
+        "north": {
+          "uv": [
+            10.5,
+            11.75,
+            11,
+            12
+          ],
+          "texture": "#main"
+        },
+        "south": {
+          "uv": [
+            9.5,
+            11.75,
+            10,
+            12
+          ],
+          "texture": "#main"
+        },
+        "east": {
+          "uv": [
+            9,
+            11.75,
+            9.5,
+            12
+          ],
+          "texture": "#main"
+        },
+        "west": {
+          "uv": [
+            10,
+            11.75,
+            10.5,
+            12
+          ],
+          "texture": "#main"
+        },
+        "up": {
+          "uv": [
+            9.5,
+            11.25,
+            10,
+            11.75
+          ],
+          "texture": "#main"
+        },
+        "down": {
+          "uv": [
+            10,
+            11.25,
+            10.5,
+            11.75
+          ],
+          "texture": "#main"
+        }
+      }
+    }
+  ],
+  "display": {
+    "gui": {
+      "rotation": [
+        30,
+        225,
+        0
+      ],
+      "translation": [
+        0,
+        4.275875,
+        2.809839
+      ],
+      "scale": [
+        0.835672,
+        0.835672,
+        0.835672
+      ]
+    },
+    "ground": {
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "translation": [
+        0,
+        3,
+        0
+      ],
+      "scale": [
+        0.25,
+        0.25,
+        0.25
+      ]
+    },
+    "fixed": {
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "translation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        0.5,
+        0.5,
+        0.5
+      ]
+    },
+    "head": {
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "translation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    "thirdperson_righthand": {
+      "rotation": [
+        75,
+        45,
+        0
+      ],
+      "translation": [
+        0,
+        2.5,
+        0
+      ],
+      "scale": [
+        0.375,
+        0.375,
+        0.375
+      ]
+    },
+    "thirdperson_lefthand": {
+      "rotation": [
+        75,
+        45,
+        0
+      ],
+      "translation": [
+        0,
+        2.5,
+        0
+      ],
+      "scale": [
+        0.375,
+        0.375,
+        0.375
+      ]
+    },
+    "firstperson_righthand": {
+      "rotation": [
+        0,
+        45,
+        0
+      ],
+      "translation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        0.4,
+        0.4,
+        0.4
+      ]
+    },
+    "firstperson_lefthand": {
+      "rotation": [
+        0,
+        45,
+        0
+      ],
+      "translation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        0.4,
+        0.4,
+        0.4
+      ]
+    }
+  },
+  "gui_light": "side"
+}

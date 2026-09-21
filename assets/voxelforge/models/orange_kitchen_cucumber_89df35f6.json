@@ -1,0 +1,1606 @@
+{
+  "credit": "VoxelForge",
+  "textures": {
+    "main": "voxelforge:item/orange_kitchen_cucumber_89df35f6/main"
+  },
+  "elements": [
+    {
+      "name": "body_middle",
+      "from": [
+        5,
+        2,
+        6
+      ],
+      "to": [
+        11,
+        4,
+        18
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            7.5,
+            3,
+            9,
+            3.5
+          ],
+          "texture": "#main"
+        },
+        "south": {
+          "uv": [
+            3,
+            3,
+            4.5,
+            3.5
+          ],
+          "texture": "#main"
+        },
+        "east": {
+          "uv": [
+            0,
+            3,
+            3,
+            3.5
+          ],
+          "texture": "#main"
+        },
+        "west": {
+          "uv": [
+            4.5,
+            3,
+            7.5,
+            3.5
+          ],
+          "texture": "#main"
+        },
+        "up": {
+          "uv": [
+            3,
+            0,
+            4.5,
+            3
+          ],
+          "texture": "#main"
+        },
+        "down": {
+          "uv": [
+            4.5,
+            0,
+            6,
+            3
+          ],
+          "texture": "#main"
+        }
+      }
+    },
+    {
+      "name": "body_lower",
+      "from": [
+        6,
+        0,
+        6
+      ],
+      "to": [
+        10,
+        2,
+        18
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            7,
+            6.5,
+            8,
+            7
+          ],
+          "texture": "#main"
+        },
+        "south": {
+          "uv": [
+            3,
+            6.5,
+            4,
+            7
+          ],
+          "texture": "#main"
+        },
+        "east": {
+          "uv": [
+            0,
+            6.5,
+            3,
+            7
+          ],
+          "texture": "#main"
+        },
+        "west": {
+          "uv": [
+            4,
+            6.5,
+            7,
+            7
+          ],
+          "texture": "#main"
+        },
+        "up": {
+          "uv": [
+            3,
+            3.5,
+            4,
+            6.5
+          ],
+          "texture": "#main"
+        },
+        "down": {
+          "uv": [
+            4,
+            3.5,
+            5,
+            6.5
+          ],
+          "texture": "#main"
+        }
+      }
+    },
+    {
+      "name": "body_upper",
+      "from": [
+        6,
+        4,
+        6
+      ],
+      "to": [
+        10,
+        6,
+        18
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            15,
+            6.5,
+            16,
+            7
+          ],
+          "texture": "#main"
+        },
+        "south": {
+          "uv": [
+            11,
+            6.5,
+            12,
+            7
+          ],
+          "texture": "#main"
+        },
+        "east": {
+          "uv": [
+            8,
+            6.5,
+            11,
+            7
+          ],
+          "texture": "#main"
+        },
+        "west": {
+          "uv": [
+            12,
+            6.5,
+            15,
+            7
+          ],
+          "texture": "#main"
+        },
+        "up": {
+          "uv": [
+            11,
+            3.5,
+            12,
+            6.5
+          ],
+          "texture": "#main"
+        },
+        "down": {
+          "uv": [
+            12,
+            3.5,
+            13,
+            6.5
+          ],
+          "texture": "#main"
+        }
+      }
+    },
+    {
+      "name": "blossom_shoulder_middle",
+      "from": [
+        5.5,
+        2,
+        3
+      ],
+      "to": [
+        10.5,
+        4,
+        6
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            11.75,
+            0.75,
+            13,
+            1.25
+          ],
+          "texture": "#main"
+        },
+        "south": {
+          "uv": [
+            9.75,
+            0.75,
+            11,
+            1.25
+          ],
+          "texture": "#main"
+        },
+        "east": {
+          "uv": [
+            9,
+            0.75,
+            9.75,
+            1.25
+          ],
+          "texture": "#main"
+        },
+        "west": {
+          "uv": [
+            11,
+            0.75,
+            11.75,
+            1.25
+          ],
+          "texture": "#main"
+        },
+        "up": {
+          "uv": [
+            9.75,
+            0,
+            11,
+            0.75
+          ],
+          "texture": "#main"
+        },
+        "down": {
+          "uv": [
+            11,
+            0,
+            12.25,
+            0.75
+          ],
+          "texture": "#main"
+        }
+      }
+    },
+    {
+      "name": "stem_shoulder_middle",
+      "from": [
+        5.5,
+        2,
+        18
+      ],
+      "to": [
+        10.5,
+        4,
+        21
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            11.75,
+            2,
+            13,
+            2.5
+          ],
+          "texture": "#main"
+        },
+        "south": {
+          "uv": [
+            9.75,
+            2,
+            11,
+            2.5
+          ],
+          "texture": "#main"
+        },
+        "east": {
+          "uv": [
+            9,
+            2,
+            9.75,
+            2.5
+          ],
+          "texture": "#main"
+        },
+        "west": {
+          "uv": [
+            11,
+            2,
+            11.75,
+            2.5
+          ],
+          "texture": "#main"
+        },
+        "up": {
+          "uv": [
+            9.75,
+            1.25,
+            11,
+            2
+          ],
+          "texture": "#main"
+        },
+        "down": {
+          "uv": [
+            11,
+            1.25,
+            12.25,
+            2
+          ],
+          "texture": "#main"
+        }
+      }
+    },
+    {
+      "name": "blossom_shoulder_lower",
+      "from": [
+        6.5,
+        1,
+        3
+      ],
+      "to": [
+        9.5,
+        2,
+        6
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            2.25,
+            7.75,
+            3,
+            8
+          ],
+          "texture": "#main"
+        },
+        "south": {
+          "uv": [
+            0.75,
+            7.75,
+            1.5,
+            8
+          ],
+          "texture": "#main"
+        },
+        "east": {
+          "uv": [
+            0,
+            7.75,
+            0.75,
+            8
+          ],
+          "texture": "#main"
+        },
+        "west": {
+          "uv": [
+            1.5,
+            7.75,
+            2.25,
+            8
+          ],
+          "texture": "#main"
+        },
+        "up": {
+          "uv": [
+            0.75,
+            7,
+            1.5,
+            7.75
+          ],
+          "texture": "#main"
+        },
+        "down": {
+          "uv": [
+            1.5,
+            7,
+            2.25,
+            7.75
+          ],
+          "texture": "#main"
+        }
+      }
+    },
+    {
+      "name": "blossom_shoulder_upper",
+      "from": [
+        6.5,
+        4,
+        3
+      ],
+      "to": [
+        9.5,
+        5,
+        6
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            5.25,
+            7.75,
+            6,
+            8
+          ],
+          "texture": "#main"
+        },
+        "south": {
+          "uv": [
+            3.75,
+            7.75,
+            4.5,
+            8
+          ],
+          "texture": "#main"
+        },
+        "east": {
+          "uv": [
+            3,
+            7.75,
+            3.75,
+            8
+          ],
+          "texture": "#main"
+        },
+        "west": {
+          "uv": [
+            4.5,
+            7.75,
+            5.25,
+            8
+          ],
+          "texture": "#main"
+        },
+        "up": {
+          "uv": [
+            3.75,
+            7,
+            4.5,
+            7.75
+          ],
+          "texture": "#main"
+        },
+        "down": {
+          "uv": [
+            4.5,
+            7,
+            5.25,
+            7.75
+          ],
+          "texture": "#main"
+        }
+      }
+    },
+    {
+      "name": "stem_shoulder_lower",
+      "from": [
+        6.5,
+        1,
+        18
+      ],
+      "to": [
+        9.5,
+        2,
+        21
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            8.25,
+            7.75,
+            9,
+            8
+          ],
+          "texture": "#main"
+        },
+        "south": {
+          "uv": [
+            6.75,
+            7.75,
+            7.5,
+            8
+          ],
+          "texture": "#main"
+        },
+        "east": {
+          "uv": [
+            6,
+            7.75,
+            6.75,
+            8
+          ],
+          "texture": "#main"
+        },
+        "west": {
+          "uv": [
+            7.5,
+            7.75,
+            8.25,
+            8
+          ],
+          "texture": "#main"
+        },
+        "up": {
+          "uv": [
+            6.75,
+            7,
+            7.5,
+            7.75
+          ],
+          "texture": "#main"
+        },
+        "down": {
+          "uv": [
+            7.5,
+            7,
+            8.25,
+            7.75
+          ],
+          "texture": "#main"
+        }
+      }
+    },
+    {
+      "name": "stem_shoulder_upper",
+      "from": [
+        6.5,
+        4,
+        18
+      ],
+      "to": [
+        9.5,
+        5,
+        21
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            11.25,
+            7.75,
+            12,
+            8
+          ],
+          "texture": "#main"
+        },
+        "south": {
+          "uv": [
+            9.75,
+            7.75,
+            10.5,
+            8
+          ],
+          "texture": "#main"
+        },
+        "east": {
+          "uv": [
+            9,
+            7.75,
+            9.75,
+            8
+          ],
+          "texture": "#main"
+        },
+        "west": {
+          "uv": [
+            10.5,
+            7.75,
+            11.25,
+            8
+          ],
+          "texture": "#main"
+        },
+        "up": {
+          "uv": [
+            9.75,
+            7,
+            10.5,
+            7.75
+          ],
+          "texture": "#main"
+        },
+        "down": {
+          "uv": [
+            10.5,
+            7,
+            11.25,
+            7.75
+          ],
+          "texture": "#main"
+        }
+      }
+    },
+    {
+      "name": "blossom_tip_middle",
+      "from": [
+        6,
+        2,
+        1
+      ],
+      "to": [
+        10,
+        4,
+        3
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            14,
+            7.5,
+            15,
+            8
+          ],
+          "texture": "#main"
+        },
+        "south": {
+          "uv": [
+            12.5,
+            7.5,
+            13.5,
+            8
+          ],
+          "texture": "#main"
+        },
+        "east": {
+          "uv": [
+            12,
+            7.5,
+            12.5,
+            8
+          ],
+          "texture": "#main"
+        },
+        "west": {
+          "uv": [
+            13.5,
+            7.5,
+            14,
+            8
+          ],
+          "texture": "#main"
+        },
+        "up": {
+          "uv": [
+            12.5,
+            7,
+            13.5,
+            7.5
+          ],
+          "texture": "#main"
+        },
+        "down": {
+          "uv": [
+            13.5,
+            7,
+            14.5,
+            7.5
+          ],
+          "texture": "#main"
+        }
+      }
+    },
+    {
+      "name": "stem_tip_middle",
+      "from": [
+        6,
+        2,
+        21
+      ],
+      "to": [
+        10,
+        4,
+        23
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            2,
+            8.5,
+            3,
+            9
+          ],
+          "texture": "#main"
+        },
+        "south": {
+          "uv": [
+            0.5,
+            8.5,
+            1.5,
+            9
+          ],
+          "texture": "#main"
+        },
+        "east": {
+          "uv": [
+            0,
+            8.5,
+            0.5,
+            9
+          ],
+          "texture": "#main"
+        },
+        "west": {
+          "uv": [
+            1.5,
+            8.5,
+            2,
+            9
+          ],
+          "texture": "#main"
+        },
+        "up": {
+          "uv": [
+            0.5,
+            8,
+            1.5,
+            8.5
+          ],
+          "texture": "#main"
+        },
+        "down": {
+          "uv": [
+            1.5,
+            8,
+            2.5,
+            8.5
+          ],
+          "texture": "#main"
+        }
+      }
+    },
+    {
+      "name": "blossom_tip_lower",
+      "from": [
+        7,
+        1.5,
+        1
+      ],
+      "to": [
+        9,
+        2,
+        3
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            4.5,
+            8.5,
+            5,
+            8.75
+          ],
+          "texture": "#main"
+        },
+        "south": {
+          "uv": [
+            3.5,
+            8.5,
+            4,
+            8.75
+          ],
+          "texture": "#main"
+        },
+        "east": {
+          "uv": [
+            3,
+            8.5,
+            3.5,
+            8.75
+          ],
+          "texture": "#main"
+        },
+        "west": {
+          "uv": [
+            4,
+            8.5,
+            4.5,
+            8.75
+          ],
+          "texture": "#main"
+        },
+        "up": {
+          "uv": [
+            3.5,
+            8,
+            4,
+            8.5
+          ],
+          "texture": "#main"
+        },
+        "down": {
+          "uv": [
+            4,
+            8,
+            4.5,
+            8.5
+          ],
+          "texture": "#main"
+        }
+      }
+    },
+    {
+      "name": "blossom_tip_upper",
+      "from": [
+        7,
+        4,
+        1
+      ],
+      "to": [
+        9,
+        4.5,
+        3
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            6.5,
+            8.5,
+            7,
+            8.75
+          ],
+          "texture": "#main"
+        },
+        "south": {
+          "uv": [
+            5.5,
+            8.5,
+            6,
+            8.75
+          ],
+          "texture": "#main"
+        },
+        "east": {
+          "uv": [
+            5,
+            8.5,
+            5.5,
+            8.75
+          ],
+          "texture": "#main"
+        },
+        "west": {
+          "uv": [
+            6,
+            8.5,
+            6.5,
+            8.75
+          ],
+          "texture": "#main"
+        },
+        "up": {
+          "uv": [
+            5.5,
+            8,
+            6,
+            8.5
+          ],
+          "texture": "#main"
+        },
+        "down": {
+          "uv": [
+            6,
+            8,
+            6.5,
+            8.5
+          ],
+          "texture": "#main"
+        }
+      }
+    },
+    {
+      "name": "stem_tip_lower",
+      "from": [
+        7,
+        1.5,
+        21
+      ],
+      "to": [
+        9,
+        2,
+        23
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            8.5,
+            8.5,
+            9,
+            8.75
+          ],
+          "texture": "#main"
+        },
+        "south": {
+          "uv": [
+            7.5,
+            8.5,
+            8,
+            8.75
+          ],
+          "texture": "#main"
+        },
+        "east": {
+          "uv": [
+            7,
+            8.5,
+            7.5,
+            8.75
+          ],
+          "texture": "#main"
+        },
+        "west": {
+          "uv": [
+            8,
+            8.5,
+            8.5,
+            8.75
+          ],
+          "texture": "#main"
+        },
+        "up": {
+          "uv": [
+            7.5,
+            8,
+            8,
+            8.5
+          ],
+          "texture": "#main"
+        },
+        "down": {
+          "uv": [
+            8,
+            8,
+            8.5,
+            8.5
+          ],
+          "texture": "#main"
+        }
+      }
+    },
+    {
+      "name": "stem_tip_upper",
+      "from": [
+        7,
+        4,
+        21
+      ],
+      "to": [
+        9,
+        4.5,
+        23
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            10.5,
+            8.5,
+            11,
+            8.75
+          ],
+          "texture": "#main"
+        },
+        "south": {
+          "uv": [
+            9.5,
+            8.5,
+            10,
+            8.75
+          ],
+          "texture": "#main"
+        },
+        "east": {
+          "uv": [
+            9,
+            8.5,
+            9.5,
+            8.75
+          ],
+          "texture": "#main"
+        },
+        "west": {
+          "uv": [
+            10,
+            8.5,
+            10.5,
+            8.75
+          ],
+          "texture": "#main"
+        },
+        "up": {
+          "uv": [
+            9.5,
+            8,
+            10,
+            8.5
+          ],
+          "texture": "#main"
+        },
+        "down": {
+          "uv": [
+            10,
+            8,
+            10.5,
+            8.5
+          ],
+          "texture": "#main"
+        }
+      }
+    },
+    {
+      "name": "stem_base",
+      "from": [
+        7,
+        2,
+        23
+      ],
+      "to": [
+        9,
+        4,
+        25
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            12.5,
+            8.5,
+            13,
+            9
+          ],
+          "texture": "#main"
+        },
+        "south": {
+          "uv": [
+            11.5,
+            8.5,
+            12,
+            9
+          ],
+          "texture": "#main"
+        },
+        "east": {
+          "uv": [
+            11,
+            8.5,
+            11.5,
+            9
+          ],
+          "texture": "#main"
+        },
+        "west": {
+          "uv": [
+            12,
+            8.5,
+            12.5,
+            9
+          ],
+          "texture": "#main"
+        },
+        "up": {
+          "uv": [
+            11.5,
+            8,
+            12,
+            8.5
+          ],
+          "texture": "#main"
+        },
+        "down": {
+          "uv": [
+            12,
+            8,
+            12.5,
+            8.5
+          ],
+          "texture": "#main"
+        }
+      }
+    },
+    {
+      "name": "bent_stem_tip",
+      "from": [
+        7.5,
+        2.5,
+        24.5
+      ],
+      "to": [
+        8.5,
+        3.5,
+        26.5
+      ],
+      "rotation": {
+        "origin": [
+          8,
+          3,
+          24.5
+        ],
+        "axis": "x",
+        "angle": -22.5,
+        "rescale": false
+      },
+      "faces": {
+        "north": {
+          "uv": [
+            14.25,
+            8.5,
+            14.5,
+            8.75
+          ],
+          "texture": "#main"
+        },
+        "south": {
+          "uv": [
+            13.5,
+            8.5,
+            13.75,
+            8.75
+          ],
+          "texture": "#main"
+        },
+        "east": {
+          "uv": [
+            13,
+            8.5,
+            13.5,
+            8.75
+          ],
+          "texture": "#main"
+        },
+        "west": {
+          "uv": [
+            13.75,
+            8.5,
+            14.25,
+            8.75
+          ],
+          "texture": "#main"
+        },
+        "up": {
+          "uv": [
+            13.5,
+            8,
+            13.75,
+            8.5
+          ],
+          "texture": "#main"
+        },
+        "down": {
+          "uv": [
+            13.75,
+            8,
+            14,
+            8.5
+          ],
+          "texture": "#main"
+        }
+      }
+    },
+    {
+      "name": "upper_left_skin_rib",
+      "from": [
+        6.5,
+        5.85,
+        8
+      ],
+      "to": [
+        7,
+        6.25,
+        16
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            4.25,
+            11,
+            4.5,
+            11.25
+          ],
+          "texture": "#main"
+        },
+        "south": {
+          "uv": [
+            2,
+            11,
+            2.25,
+            11.25
+          ],
+          "texture": "#main"
+        },
+        "east": {
+          "uv": [
+            0,
+            11,
+            2,
+            11.25
+          ],
+          "texture": "#main"
+        },
+        "west": {
+          "uv": [
+            2.25,
+            11,
+            4.25,
+            11.25
+          ],
+          "texture": "#main"
+        },
+        "up": {
+          "uv": [
+            2,
+            9,
+            2.25,
+            11
+          ],
+          "texture": "#main"
+        },
+        "down": {
+          "uv": [
+            2.25,
+            9,
+            2.5,
+            11
+          ],
+          "texture": "#main"
+        }
+      }
+    },
+    {
+      "name": "upper_right_skin_rib",
+      "from": [
+        9,
+        5.85,
+        9
+      ],
+      "to": [
+        9.5,
+        6.2,
+        17
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            8.75,
+            11,
+            9,
+            11.25
+          ],
+          "texture": "#main"
+        },
+        "south": {
+          "uv": [
+            6.5,
+            11,
+            6.75,
+            11.25
+          ],
+          "texture": "#main"
+        },
+        "east": {
+          "uv": [
+            4.5,
+            11,
+            6.5,
+            11.25
+          ],
+          "texture": "#main"
+        },
+        "west": {
+          "uv": [
+            6.75,
+            11,
+            8.75,
+            11.25
+          ],
+          "texture": "#main"
+        },
+        "up": {
+          "uv": [
+            6.5,
+            9,
+            6.75,
+            11
+          ],
+          "texture": "#main"
+        },
+        "down": {
+          "uv": [
+            6.75,
+            9,
+            7,
+            11
+          ],
+          "texture": "#main"
+        }
+      }
+    },
+    {
+      "name": "left_skin_rib",
+      "from": [
+        4.75,
+        2.5,
+        7
+      ],
+      "to": [
+        5.15,
+        3.25,
+        15
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            13.25,
+            11,
+            13.5,
+            11.25
+          ],
+          "texture": "#main"
+        },
+        "south": {
+          "uv": [
+            11,
+            11,
+            11.25,
+            11.25
+          ],
+          "texture": "#main"
+        },
+        "east": {
+          "uv": [
+            9,
+            11,
+            11,
+            11.25
+          ],
+          "texture": "#main"
+        },
+        "west": {
+          "uv": [
+            11.25,
+            11,
+            13.25,
+            11.25
+          ],
+          "texture": "#main"
+        },
+        "up": {
+          "uv": [
+            11,
+            9,
+            11.25,
+            11
+          ],
+          "texture": "#main"
+        },
+        "down": {
+          "uv": [
+            11.25,
+            9,
+            11.5,
+            11
+          ],
+          "texture": "#main"
+        }
+      }
+    },
+    {
+      "name": "right_skin_rib",
+      "from": [
+        10.85,
+        2.75,
+        9
+      ],
+      "to": [
+        11.25,
+        3.5,
+        17
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            4.25,
+            13.25,
+            4.5,
+            13.5
+          ],
+          "texture": "#main"
+        },
+        "south": {
+          "uv": [
+            2,
+            13.25,
+            2.25,
+            13.5
+          ],
+          "texture": "#main"
+        },
+        "east": {
+          "uv": [
+            0,
+            13.25,
+            2,
+            13.5
+          ],
+          "texture": "#main"
+        },
+        "west": {
+          "uv": [
+            2.25,
+            13.25,
+            4.25,
+            13.5
+          ],
+          "texture": "#main"
+        },
+        "up": {
+          "uv": [
+            2,
+            11.25,
+            2.25,
+            13.25
+          ],
+          "texture": "#main"
+        },
+        "down": {
+          "uv": [
+            2.25,
+            11.25,
+            2.5,
+            13.25
+          ],
+          "texture": "#main"
+        }
+      }
+    }
+  ],
+  "display": {
+    "gui": {
+      "rotation": [
+        30,
+        225,
+        0
+      ],
+      "translation": [
+        2.327256,
+        1.681435,
+        3.44606
+      ],
+      "scale": [
+        0.655684,
+        0.655684,
+        0.655684
+      ]
+    },
+    "ground": {
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "translation": [
+        0,
+        3,
+        0
+      ],
+      "scale": [
+        0.25,
+        0.25,
+        0.25
+      ]
+    },
+    "fixed": {
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "translation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        0.5,
+        0.5,
+        0.5
+      ]
+    },
+    "head": {
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "translation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    "thirdperson_righthand": {
+      "rotation": [
+        75,
+        45,
+        0
+      ],
+      "translation": [
+        0,
+        2.5,
+        0
+      ],
+      "scale": [
+        0.375,
+        0.375,
+        0.375
+      ]
+    },
+    "thirdperson_lefthand": {
+      "rotation": [
+        75,
+        45,
+        0
+      ],
+      "translation": [
+        0,
+        2.5,
+        0
+      ],
+      "scale": [
+        0.375,
+        0.375,
+        0.375
+      ]
+    },
+    "firstperson_righthand": {
+      "rotation": [
+        0,
+        45,
+        0
+      ],
+      "translation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        0.4,
+        0.4,
+        0.4
+      ]
+    },
+    "firstperson_lefthand": {
+      "rotation": [
+        0,
+        45,
+        0
+      ],
+      "translation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        0.4,
+        0.4,
+        0.4
+      ]
+    }
+  },
+  "gui_light": "side"
+}

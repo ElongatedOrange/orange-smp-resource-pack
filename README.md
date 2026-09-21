@@ -9,3 +9,11 @@ Download the latest `orange-smp-resource-pack.zip` from this repository's releas
 Build from PowerShell with `./build.ps1`. To publish, commit the changes, push a new version tag, and upload the ZIP and SHA-1 with `gh release create <tag> dist/orange-smp-resource-pack.zip dist/orange-smp-resource-pack.zip.sha1 --title <tag> --notes <release-notes>`.
 
 The `provenance` directory records editable Voxel Forge source and the exported PNG's checksum. It is excluded from the playable ZIP.
+
+## Kitchen artwork
+
+Orange SMP Kitchen adds 148 custom item appearances, 52 crop-stage models, 103 locked-recipe silhouettes, and an illustrated cookbook panel. Source artwork comes from **162 actual Voxel Forge AI generations**. Early crop stages and silhouettes are recorded derivatives of those generated sources, validated and exported by the same studio. Stable item aliases use `orangesmp:kitchen/<id>`.
+
+`provenance/kitchen/generated-assets.json` records source jobs, asset IDs and derivative parentage. The accompanying source JSON and export ZIPs make the artwork reproducible. `owned-files.json` records exported-file hashes. The original hand-authored prototype is not part of the release.
+
+The cookbook uses a bitmap-font panel aligned with Minecraft's six-row inventory screen. Its version-pinned core text shader adds a subtle warm animation only to GUI glyphs using the reserved `FE FD FC` color; ordinary text and world rendering retain the vanilla paths. Paper handles the mouse interactions and recipe progression. The pack does not introduce a client mod.
