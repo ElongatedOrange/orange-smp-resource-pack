@@ -21,6 +21,8 @@ The cookbook uses a bitmap-font panel aligned with Minecraft's six-row inventory
 
 ## Cooking activity HUD
 
-The full-screen workstation HUD adds a generated kitchen background, sixteen-tool sprite sheet and cursor from three more Voxel Forge generations. Its 124 carriers include these generated images, imported vanilla lettering and technical controls authored/exported through Voxel Forge. Editable source and export checksums are in `provenance/kitchen-hud`.
+The full-screen workstation HUD adds a generated kitchen background, sixteen-tool sprite sheet and cursor from three more Voxel Forge generations. Its 690 carriers include these generated images, Fantasy SMP’s exact Consolas lettering, 283 item/silhouette icons in two sizes, and technical controls authored/exported through Voxel Forge. Food icons are rendered using Voxel Forge’s model renderer and imported through the validated studio API. Editable source and export checksums are in `provenance/kitchen-hud`.
 
 The version-pinned text vertex shader places marked font carriers on a 960 Ã— 540 canvas. Mirrored corner metadata follows the corrected Fantasy SMP approach and works when GUI batches begin at unaligned vertices. Ordinary glyphs remain on the vanilla rendering path. The fragment shader renders the images, animated targets and controls alongside the existing cookbook effect. The plugin handles cursor movement, ingredient transfer and workstation-specific activities.
+
+Food models include fitted first- and third-person transforms for both hands. Their generated geometry, texture artwork and placed-world scale are preserved.

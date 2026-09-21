@@ -1,0 +1,1527 @@
+{
+  "credit": "VoxelForge",
+  "textures": {
+    "main": "voxelforge:item/salmon_slice_silhouette_9e695928/main"
+  },
+  "elements": [
+    {
+      "name": "skin_taper",
+      "from": [
+        1,
+        0,
+        6
+      ],
+      "to": [
+        3,
+        1,
+        10
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            2.5,
+            11.5,
+            3,
+            11.75
+          ],
+          "texture": "#main"
+        },
+        "south": {
+          "uv": [
+            1,
+            11.5,
+            1.5,
+            11.75
+          ],
+          "texture": "#main"
+        },
+        "east": {
+          "uv": [
+            0,
+            11.5,
+            1,
+            11.75
+          ],
+          "texture": "#main"
+        },
+        "west": {
+          "uv": [
+            1.5,
+            11.5,
+            2.5,
+            11.75
+          ],
+          "texture": "#main"
+        },
+        "up": {
+          "uv": [
+            1,
+            10.5,
+            1.5,
+            11.5
+          ],
+          "texture": "#main"
+        },
+        "down": {
+          "uv": [
+            1.5,
+            10.5,
+            2,
+            11.5
+          ],
+          "texture": "#main"
+        }
+      }
+    },
+    {
+      "name": "skin_narrow_shoulder",
+      "from": [
+        3,
+        0,
+        5
+      ],
+      "to": [
+        5,
+        1,
+        11
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            6.5,
+            12,
+            7,
+            12.25
+          ],
+          "texture": "#main"
+        },
+        "south": {
+          "uv": [
+            4.5,
+            12,
+            5,
+            12.25
+          ],
+          "texture": "#main"
+        },
+        "east": {
+          "uv": [
+            3,
+            12,
+            4.5,
+            12.25
+          ],
+          "texture": "#main"
+        },
+        "west": {
+          "uv": [
+            5,
+            12,
+            6.5,
+            12.25
+          ],
+          "texture": "#main"
+        },
+        "up": {
+          "uv": [
+            4.5,
+            10.5,
+            5,
+            12
+          ],
+          "texture": "#main"
+        },
+        "down": {
+          "uv": [
+            5,
+            10.5,
+            5.5,
+            12
+          ],
+          "texture": "#main"
+        }
+      }
+    },
+    {
+      "name": "skin_forward_body",
+      "from": [
+        5,
+        0,
+        4
+      ],
+      "to": [
+        7,
+        1,
+        12
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            4.5,
+            7.75,
+            5,
+            8
+          ],
+          "texture": "#main"
+        },
+        "south": {
+          "uv": [
+            2,
+            7.75,
+            2.5,
+            8
+          ],
+          "texture": "#main"
+        },
+        "east": {
+          "uv": [
+            0,
+            7.75,
+            2,
+            8
+          ],
+          "texture": "#main"
+        },
+        "west": {
+          "uv": [
+            2.5,
+            7.75,
+            4.5,
+            8
+          ],
+          "texture": "#main"
+        },
+        "up": {
+          "uv": [
+            2,
+            5.75,
+            2.5,
+            7.75
+          ],
+          "texture": "#main"
+        },
+        "down": {
+          "uv": [
+            2.5,
+            5.75,
+            3,
+            7.75
+          ],
+          "texture": "#main"
+        }
+      }
+    },
+    {
+      "name": "skin_wide_body",
+      "from": [
+        7,
+        0,
+        3
+      ],
+      "to": [
+        9,
+        1,
+        13
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            5.5,
+            2.5,
+            6,
+            2.75
+          ],
+          "texture": "#main"
+        },
+        "south": {
+          "uv": [
+            2.5,
+            2.5,
+            3,
+            2.75
+          ],
+          "texture": "#main"
+        },
+        "east": {
+          "uv": [
+            0,
+            2.5,
+            2.5,
+            2.75
+          ],
+          "texture": "#main"
+        },
+        "west": {
+          "uv": [
+            3,
+            2.5,
+            5.5,
+            2.75
+          ],
+          "texture": "#main"
+        },
+        "up": {
+          "uv": [
+            2.5,
+            0,
+            3,
+            2.5
+          ],
+          "texture": "#main"
+        },
+        "down": {
+          "uv": [
+            3,
+            0,
+            3.5,
+            2.5
+          ],
+          "texture": "#main"
+        }
+      }
+    },
+    {
+      "name": "skin_rear_body",
+      "from": [
+        9,
+        0,
+        3
+      ],
+      "to": [
+        11,
+        1,
+        13
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            11.5,
+            2.5,
+            12,
+            2.75
+          ],
+          "texture": "#main"
+        },
+        "south": {
+          "uv": [
+            8.5,
+            2.5,
+            9,
+            2.75
+          ],
+          "texture": "#main"
+        },
+        "east": {
+          "uv": [
+            6,
+            2.5,
+            8.5,
+            2.75
+          ],
+          "texture": "#main"
+        },
+        "west": {
+          "uv": [
+            9,
+            2.5,
+            11.5,
+            2.75
+          ],
+          "texture": "#main"
+        },
+        "up": {
+          "uv": [
+            8.5,
+            0,
+            9,
+            2.5
+          ],
+          "texture": "#main"
+        },
+        "down": {
+          "uv": [
+            9,
+            0,
+            9.5,
+            2.5
+          ],
+          "texture": "#main"
+        }
+      }
+    },
+    {
+      "name": "skin_rear_shoulder",
+      "from": [
+        11,
+        0,
+        4
+      ],
+      "to": [
+        13,
+        1,
+        12
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            9.5,
+            7.75,
+            10,
+            8
+          ],
+          "texture": "#main"
+        },
+        "south": {
+          "uv": [
+            7,
+            7.75,
+            7.5,
+            8
+          ],
+          "texture": "#main"
+        },
+        "east": {
+          "uv": [
+            5,
+            7.75,
+            7,
+            8
+          ],
+          "texture": "#main"
+        },
+        "west": {
+          "uv": [
+            7.5,
+            7.75,
+            9.5,
+            8
+          ],
+          "texture": "#main"
+        },
+        "up": {
+          "uv": [
+            7,
+            5.75,
+            7.5,
+            7.75
+          ],
+          "texture": "#main"
+        },
+        "down": {
+          "uv": [
+            7.5,
+            5.75,
+            8,
+            7.75
+          ],
+          "texture": "#main"
+        }
+      }
+    },
+    {
+      "name": "skin_cut_end",
+      "from": [
+        13,
+        0,
+        5
+      ],
+      "to": [
+        15,
+        1,
+        11
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            15.5,
+            1.5,
+            16,
+            1.75
+          ],
+          "texture": "#main"
+        },
+        "south": {
+          "uv": [
+            13.5,
+            1.5,
+            14,
+            1.75
+          ],
+          "texture": "#main"
+        },
+        "east": {
+          "uv": [
+            12,
+            1.5,
+            13.5,
+            1.75
+          ],
+          "texture": "#main"
+        },
+        "west": {
+          "uv": [
+            14,
+            1.5,
+            15.5,
+            1.75
+          ],
+          "texture": "#main"
+        },
+        "up": {
+          "uv": [
+            13.5,
+            0,
+            14,
+            1.5
+          ],
+          "texture": "#main"
+        },
+        "down": {
+          "uv": [
+            14,
+            0,
+            14.5,
+            1.5
+          ],
+          "texture": "#main"
+        }
+      }
+    },
+    {
+      "name": "flesh_taper",
+      "from": [
+        1,
+        1,
+        6.25
+      ],
+      "to": [
+        3,
+        3,
+        9.75
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            9.5,
+            11.5,
+            10,
+            12
+          ],
+          "texture": "#main"
+        },
+        "south": {
+          "uv": [
+            8,
+            11.5,
+            8.5,
+            12
+          ],
+          "texture": "#main"
+        },
+        "east": {
+          "uv": [
+            7,
+            11.5,
+            8,
+            12
+          ],
+          "texture": "#main"
+        },
+        "west": {
+          "uv": [
+            8.5,
+            11.5,
+            9.5,
+            12
+          ],
+          "texture": "#main"
+        },
+        "up": {
+          "uv": [
+            8,
+            10.5,
+            8.5,
+            11.5
+          ],
+          "texture": "#main"
+        },
+        "down": {
+          "uv": [
+            8.5,
+            10.5,
+            9,
+            11.5
+          ],
+          "texture": "#main"
+        }
+      }
+    },
+    {
+      "name": "flesh_narrow_shoulder",
+      "from": [
+        3,
+        1,
+        5.25
+      ],
+      "to": [
+        5,
+        3,
+        10.75
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            13.5,
+            12,
+            14,
+            12.5
+          ],
+          "texture": "#main"
+        },
+        "south": {
+          "uv": [
+            11.5,
+            12,
+            12,
+            12.5
+          ],
+          "texture": "#main"
+        },
+        "east": {
+          "uv": [
+            10,
+            12,
+            11.5,
+            12.5
+          ],
+          "texture": "#main"
+        },
+        "west": {
+          "uv": [
+            12,
+            12,
+            13.5,
+            12.5
+          ],
+          "texture": "#main"
+        },
+        "up": {
+          "uv": [
+            11.5,
+            10.5,
+            12,
+            12
+          ],
+          "texture": "#main"
+        },
+        "down": {
+          "uv": [
+            12,
+            10.5,
+            12.5,
+            12
+          ],
+          "texture": "#main"
+        }
+      }
+    },
+    {
+      "name": "flesh_forward_body",
+      "from": [
+        5,
+        1,
+        4.25
+      ],
+      "to": [
+        7,
+        3,
+        11.75
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            4.5,
+            10,
+            5,
+            10.5
+          ],
+          "texture": "#main"
+        },
+        "south": {
+          "uv": [
+            2,
+            10,
+            2.5,
+            10.5
+          ],
+          "texture": "#main"
+        },
+        "east": {
+          "uv": [
+            0,
+            10,
+            2,
+            10.5
+          ],
+          "texture": "#main"
+        },
+        "west": {
+          "uv": [
+            2.5,
+            10,
+            4.5,
+            10.5
+          ],
+          "texture": "#main"
+        },
+        "up": {
+          "uv": [
+            2,
+            8,
+            2.5,
+            10
+          ],
+          "texture": "#main"
+        },
+        "down": {
+          "uv": [
+            2.5,
+            8,
+            3,
+            10
+          ],
+          "texture": "#main"
+        }
+      }
+    },
+    {
+      "name": "flesh_wide_body",
+      "from": [
+        7,
+        1,
+        3.25
+      ],
+      "to": [
+        9,
+        3,
+        12.75
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            5.5,
+            5.25,
+            6,
+            5.75
+          ],
+          "texture": "#main"
+        },
+        "south": {
+          "uv": [
+            2.5,
+            5.25,
+            3,
+            5.75
+          ],
+          "texture": "#main"
+        },
+        "east": {
+          "uv": [
+            0,
+            5.25,
+            2.5,
+            5.75
+          ],
+          "texture": "#main"
+        },
+        "west": {
+          "uv": [
+            3,
+            5.25,
+            5.5,
+            5.75
+          ],
+          "texture": "#main"
+        },
+        "up": {
+          "uv": [
+            2.5,
+            2.75,
+            3,
+            5.25
+          ],
+          "texture": "#main"
+        },
+        "down": {
+          "uv": [
+            3,
+            2.75,
+            3.5,
+            5.25
+          ],
+          "texture": "#main"
+        }
+      }
+    },
+    {
+      "name": "flesh_rear_body",
+      "from": [
+        9,
+        1,
+        3.25
+      ],
+      "to": [
+        11,
+        3,
+        12.75
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            11.5,
+            5.25,
+            12,
+            5.75
+          ],
+          "texture": "#main"
+        },
+        "south": {
+          "uv": [
+            8.5,
+            5.25,
+            9,
+            5.75
+          ],
+          "texture": "#main"
+        },
+        "east": {
+          "uv": [
+            6,
+            5.25,
+            8.5,
+            5.75
+          ],
+          "texture": "#main"
+        },
+        "west": {
+          "uv": [
+            9,
+            5.25,
+            11.5,
+            5.75
+          ],
+          "texture": "#main"
+        },
+        "up": {
+          "uv": [
+            8.5,
+            2.75,
+            9,
+            5.25
+          ],
+          "texture": "#main"
+        },
+        "down": {
+          "uv": [
+            9,
+            2.75,
+            9.5,
+            5.25
+          ],
+          "texture": "#main"
+        }
+      }
+    },
+    {
+      "name": "flesh_rear_shoulder",
+      "from": [
+        11,
+        1,
+        4.25
+      ],
+      "to": [
+        13,
+        3,
+        11.75
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            9.5,
+            10,
+            10,
+            10.5
+          ],
+          "texture": "#main"
+        },
+        "south": {
+          "uv": [
+            7,
+            10,
+            7.5,
+            10.5
+          ],
+          "texture": "#main"
+        },
+        "east": {
+          "uv": [
+            5,
+            10,
+            7,
+            10.5
+          ],
+          "texture": "#main"
+        },
+        "west": {
+          "uv": [
+            7.5,
+            10,
+            9.5,
+            10.5
+          ],
+          "texture": "#main"
+        },
+        "up": {
+          "uv": [
+            7,
+            8,
+            7.5,
+            10
+          ],
+          "texture": "#main"
+        },
+        "down": {
+          "uv": [
+            7.5,
+            8,
+            8,
+            10
+          ],
+          "texture": "#main"
+        }
+      }
+    },
+    {
+      "name": "flesh_cut_end",
+      "from": [
+        13,
+        1,
+        5.25
+      ],
+      "to": [
+        15,
+        3,
+        10.75
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            15.5,
+            4.25,
+            16,
+            4.75
+          ],
+          "texture": "#main"
+        },
+        "south": {
+          "uv": [
+            13.5,
+            4.25,
+            14,
+            4.75
+          ],
+          "texture": "#main"
+        },
+        "east": {
+          "uv": [
+            12,
+            4.25,
+            13.5,
+            4.75
+          ],
+          "texture": "#main"
+        },
+        "west": {
+          "uv": [
+            14,
+            4.25,
+            15.5,
+            4.75
+          ],
+          "texture": "#main"
+        },
+        "up": {
+          "uv": [
+            13.5,
+            2.75,
+            14,
+            4.25
+          ],
+          "texture": "#main"
+        },
+        "down": {
+          "uv": [
+            14,
+            2.75,
+            14.5,
+            4.25
+          ],
+          "texture": "#main"
+        }
+      }
+    },
+    {
+      "name": "crown_narrow_shoulder",
+      "from": [
+        3,
+        3,
+        6
+      ],
+      "to": [
+        5,
+        3.5,
+        10
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            2.5,
+            13.5,
+            3,
+            13.75
+          ],
+          "texture": "#main"
+        },
+        "south": {
+          "uv": [
+            1,
+            13.5,
+            1.5,
+            13.75
+          ],
+          "texture": "#main"
+        },
+        "east": {
+          "uv": [
+            0,
+            13.5,
+            1,
+            13.75
+          ],
+          "texture": "#main"
+        },
+        "west": {
+          "uv": [
+            1.5,
+            13.5,
+            2.5,
+            13.75
+          ],
+          "texture": "#main"
+        },
+        "up": {
+          "uv": [
+            1,
+            12.5,
+            1.5,
+            13.5
+          ],
+          "texture": "#main"
+        },
+        "down": {
+          "uv": [
+            1.5,
+            12.5,
+            2,
+            13.5
+          ],
+          "texture": "#main"
+        }
+      }
+    },
+    {
+      "name": "crown_forward_body",
+      "from": [
+        5,
+        3,
+        5
+      ],
+      "to": [
+        7,
+        3.75,
+        11
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            6.5,
+            14,
+            7,
+            14.25
+          ],
+          "texture": "#main"
+        },
+        "south": {
+          "uv": [
+            4.5,
+            14,
+            5,
+            14.25
+          ],
+          "texture": "#main"
+        },
+        "east": {
+          "uv": [
+            3,
+            14,
+            4.5,
+            14.25
+          ],
+          "texture": "#main"
+        },
+        "west": {
+          "uv": [
+            5,
+            14,
+            6.5,
+            14.25
+          ],
+          "texture": "#main"
+        },
+        "up": {
+          "uv": [
+            4.5,
+            12.5,
+            5,
+            14
+          ],
+          "texture": "#main"
+        },
+        "down": {
+          "uv": [
+            5,
+            12.5,
+            5.5,
+            14
+          ],
+          "texture": "#main"
+        }
+      }
+    },
+    {
+      "name": "crown_wide_body",
+      "from": [
+        7,
+        3,
+        4
+      ],
+      "to": [
+        9,
+        4,
+        12
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            14.5,
+            7.75,
+            15,
+            8
+          ],
+          "texture": "#main"
+        },
+        "south": {
+          "uv": [
+            12,
+            7.75,
+            12.5,
+            8
+          ],
+          "texture": "#main"
+        },
+        "east": {
+          "uv": [
+            10,
+            7.75,
+            12,
+            8
+          ],
+          "texture": "#main"
+        },
+        "west": {
+          "uv": [
+            12.5,
+            7.75,
+            14.5,
+            8
+          ],
+          "texture": "#main"
+        },
+        "up": {
+          "uv": [
+            12,
+            5.75,
+            12.5,
+            7.75
+          ],
+          "texture": "#main"
+        },
+        "down": {
+          "uv": [
+            12.5,
+            5.75,
+            13,
+            7.75
+          ],
+          "texture": "#main"
+        }
+      }
+    },
+    {
+      "name": "crown_rear_body",
+      "from": [
+        9,
+        3,
+        4
+      ],
+      "to": [
+        11,
+        4,
+        12
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            14.5,
+            10,
+            15,
+            10.25
+          ],
+          "texture": "#main"
+        },
+        "south": {
+          "uv": [
+            12,
+            10,
+            12.5,
+            10.25
+          ],
+          "texture": "#main"
+        },
+        "east": {
+          "uv": [
+            10,
+            10,
+            12,
+            10.25
+          ],
+          "texture": "#main"
+        },
+        "west": {
+          "uv": [
+            12.5,
+            10,
+            14.5,
+            10.25
+          ],
+          "texture": "#main"
+        },
+        "up": {
+          "uv": [
+            12,
+            8,
+            12.5,
+            10
+          ],
+          "texture": "#main"
+        },
+        "down": {
+          "uv": [
+            12.5,
+            8,
+            13,
+            10
+          ],
+          "texture": "#main"
+        }
+      }
+    },
+    {
+      "name": "crown_rear_shoulder",
+      "from": [
+        11,
+        3,
+        5
+      ],
+      "to": [
+        13,
+        3.75,
+        11
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            10.5,
+            14,
+            11,
+            14.25
+          ],
+          "texture": "#main"
+        },
+        "south": {
+          "uv": [
+            8.5,
+            14,
+            9,
+            14.25
+          ],
+          "texture": "#main"
+        },
+        "east": {
+          "uv": [
+            7,
+            14,
+            8.5,
+            14.25
+          ],
+          "texture": "#main"
+        },
+        "west": {
+          "uv": [
+            9,
+            14,
+            10.5,
+            14.25
+          ],
+          "texture": "#main"
+        },
+        "up": {
+          "uv": [
+            8.5,
+            12.5,
+            9,
+            14
+          ],
+          "texture": "#main"
+        },
+        "down": {
+          "uv": [
+            9,
+            12.5,
+            9.5,
+            14
+          ],
+          "texture": "#main"
+        }
+      }
+    },
+    {
+      "name": "crown_cut_end",
+      "from": [
+        13,
+        3,
+        6
+      ],
+      "to": [
+        15,
+        3.5,
+        10
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            13.5,
+            13.5,
+            14,
+            13.75
+          ],
+          "texture": "#main"
+        },
+        "south": {
+          "uv": [
+            12,
+            13.5,
+            12.5,
+            13.75
+          ],
+          "texture": "#main"
+        },
+        "east": {
+          "uv": [
+            11,
+            13.5,
+            12,
+            13.75
+          ],
+          "texture": "#main"
+        },
+        "west": {
+          "uv": [
+            12.5,
+            13.5,
+            13.5,
+            13.75
+          ],
+          "texture": "#main"
+        },
+        "up": {
+          "uv": [
+            12,
+            12.5,
+            12.5,
+            13.5
+          ],
+          "texture": "#main"
+        },
+        "down": {
+          "uv": [
+            12.5,
+            12.5,
+            13,
+            13.5
+          ],
+          "texture": "#main"
+        }
+      }
+    }
+  ],
+  "display": {
+    "gui": {
+      "rotation": [
+        30,
+        225,
+        0
+      ],
+      "translation": [
+        0.30052,
+        4.972616,
+        2.567306
+      ],
+      "scale": [
+        0.85,
+        0.85,
+        0.85
+      ]
+    },
+    "ground": {
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "translation": [
+        0,
+        3,
+        0
+      ],
+      "scale": [
+        0.25,
+        0.25,
+        0.25
+      ]
+    },
+    "fixed": {
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "translation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        0.5,
+        0.5,
+        0.5
+      ]
+    },
+    "head": {
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "translation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    "thirdperson_righthand": {
+      "rotation": [
+        75,
+        45,
+        0
+      ],
+      "translation": [
+        -0.208234,
+        3.839991,
+        3.682905
+      ],
+      "scale": [
+        0.588974,
+        0.588974,
+        0.588974
+      ]
+    },
+    "thirdperson_lefthand": {
+      "rotation": [
+        75,
+        45,
+        0
+      ],
+      "translation": [
+        0.208234,
+        4.242268,
+        3.52122
+      ],
+      "scale": [
+        0.588974,
+        0.588974,
+        0.588974
+      ]
+    },
+    "firstperson_righthand": {
+      "rotation": [
+        0,
+        45,
+        0
+      ],
+      "translation": [
+        -0.263158,
+        6.465938,
+        0.263158
+      ],
+      "scale": [
+        0.744323,
+        0.744323,
+        0.744323
+      ]
+    },
+    "firstperson_lefthand": {
+      "rotation": [
+        0,
+        45,
+        0
+      ],
+      "translation": [
+        0.263158,
+        6.465938,
+        -0.263158
+      ],
+      "scale": [
+        0.744323,
+        0.744323,
+        0.744323
+      ]
+    }
+  },
+  "gui_light": "side"
+}
