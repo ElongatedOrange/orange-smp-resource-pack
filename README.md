@@ -17,3 +17,10 @@ Orange SMP Kitchen adds 148 custom item appearances, 52 crop-stage models, 103 l
 `provenance/kitchen/generated-assets.json` records source jobs, asset IDs and derivative parentage. The accompanying source JSON and export ZIPs make the artwork reproducible. `owned-files.json` records exported-file hashes. The original hand-authored prototype is not part of the release.
 
 The cookbook uses a bitmap-font panel aligned with Minecraft's six-row inventory screen. Its version-pinned core text shader adds a subtle warm animation only to GUI glyphs using the reserved `FE FD FC` color; ordinary text and world rendering retain the vanilla paths. Paper handles the mouse interactions and recipe progression. The pack does not introduce a client mod.
+
+
+## Cooking activity HUD
+
+The full-screen workstation HUD adds a generated kitchen background, sixteen-tool sprite sheet and cursor from three more Voxel Forge generations. Its 124 carriers include these generated images, imported vanilla lettering and technical controls authored/exported through Voxel Forge. Editable source and export checksums are in `provenance/kitchen-hud`.
+
+The version-pinned text vertex shader places marked font carriers on a 960 × 540 canvas. Mirrored corner metadata follows the corrected Fantasy SMP approach and works when GUI batches begin at unaligned vertices. Ordinary glyphs remain on the vanilla rendering path. The fragment shader renders the images, animated targets and controls alongside the existing cookbook effect. The plugin handles cursor movement, ingredient transfer and workstation-specific activities.
