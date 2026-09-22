@@ -35,8 +35,22 @@ vec4 kitchenHudColor() {
         vec2 cell=(vec2(4.0)+hudUV*8.0)/size;
         return texture(Sampler0,hudBounds.xy+cell*hudBounds.zw);
     }
-    if(hudInfo.x==0) {
-        vec2 pixel=clamp(hudUV*size,vec2(.5),vec2(size-.5));
+    if(hudInfo.x==0 || hudInfo.x==3) {
+        vec2 uv=hudUV;
+        if(hudInfo.x==3){
+            float t=GameTime*1200.0,angle=0.0;vec2 offset=vec2(0.0);float stretch=1.0;int tool=hudInfo.y;
+            if(tool==1){angle=sin(t*9.0)*.13;offset.y=abs(sin(t*9.0))*.045;}
+            else if(tool==2){angle=sin(t*4.0)*.18;offset=vec2(cos(t*4.0),sin(t*4.0))*.035;}
+            else if(tool==3 || tool==11){angle=sin(t*3.0)*.22;offset.y=abs(sin(t*3.0))*.065;}
+            else if(tool==14){offset=vec2(sin(t*43.0),cos(t*37.0))*.018;}
+            else if(tool==7){stretch=1.0+sin(t*3.0)*.06;}
+            else if(tool==6 || tool==5){offset.x=sin(t*3.0)*.045;angle=sin(t*3.0)*.06;}
+            else if(tool==10 || tool==15){angle=sin(t*2.5)*.10;}
+            else{offset.y=sin(t*2.0)*.02;}
+            float c=cos(angle),s=sin(angle);uv=mat2(c,-s,s,c)*(uv-.5-offset);uv.x/=stretch;uv+=.5;
+            if(any(lessThan(uv,vec2(0.0)))||any(greaterThan(uv,vec2(1.0))))return vec4(0.0);
+        }
+        vec2 pixel=clamp(uv*size,vec2(.5),vec2(size-.5));
         // Transport bytes occupy only each corner's 3x2 pixels.
         if(min(pixel.x,size-pixel.x)<4.0 && min(pixel.y,size-pixel.y)<4.0) {
             if(hudSize.x<900.0) return vec4(0.0);
@@ -46,6 +60,14 @@ vec4 kitchenHudColor() {
     }
     vec4 fill=texture(Sampler0,hudBounds.xy+hudBounds.zw*.5);
     int style=hudInfo.y;
+    if(style>=12){
+        vec2 p=(hudUV-.5)*2.0;float radius=length(p),alpha=0.0;
+        if(style==12 || style==13){float a=atan(p.x,-p.y);float sector=mod(a+3.14159265/5.0,6.2831853/5.0)-3.14159265/5.0;float boundary=.43/cos(sector);float spike=mix(.9,boundary,abs(sector)/(3.14159265/5.0));alpha=1.0-smoothstep(spike-.06,spike,radius);}
+        else if(style==14){alpha=(1.0-smoothstep(.04,.14,abs(radius-.65)))*.55;alpha=max(alpha,(1.0-smoothstep(.06,.18,length(p-vec2(-.22,-.28))))*.8);}
+        else if(style==15){float d=min(abs(p.x)+abs(p.y)*.27,abs(p.y)+abs(p.x)*.27);alpha=(1.0-smoothstep(.12,.22,d))*(1.0-smoothstep(.65,.9,radius));}
+        else{float d=abs(abs(p.x)-abs(p.y));alpha=(1.0-smoothstep(.14,.28,d))*(1.0-smoothstep(.6,.95,radius));}
+        return vec4(fill.rgb,alpha);
+    }
     if(style==6) return fill;
     if(style==7 || style==9 || style==11) {
         float radius=length((hudUV-.5)*2.0);

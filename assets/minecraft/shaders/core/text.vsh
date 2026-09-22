@@ -46,11 +46,11 @@ void kitchenTransport() {
     for (int dx=-1; dx<=1; dx+=2) {
         if (any(notEqual(kitchenPixel(pixel+ivec2(dx,0),atlas),second))) continue;
         ivec3 w = kitchenPixel(pixel+ivec2(dx*2,0),atlas);
-        if (w.z<0 || w.z>2) continue;
+        if (w.z<0 || w.z>3) continue;
         for (int dy=-1; dy<=1; dy+=2) {
             ivec3 h=kitchenPixel(pixel+ivec2(0,dy),atlas), cell=kitchenPixel(pixel+ivec2(dx,dy),atlas);
             int size=cell.x*256+cell.y;
-            if(size<8 || size>256 || (size&(size-1))!=0 || cell.z!=0 || h.z<0 || h.z>11) continue;
+            if(size<8 || size>256 || (size&(size-1))!=0 || cell.z!=0 || h.z<0 || h.z>16) continue;
             ivec2 oppositeX=pixel+ivec2(dx*(size-1),0),oppositeY=pixel+ivec2(0,dy*(size-1));
             if(any(notEqual(kitchenPixel(oppositeX,atlas),marker)) || any(notEqual(kitchenPixel(oppositeY,atlas),marker))) continue;
             if(any(notEqual(kitchenPixel(oppositeX-ivec2(dx,0),atlas),second)) || any(notEqual(kitchenPixel(oppositeY+ivec2(dx,0),atlas),second))) continue;
