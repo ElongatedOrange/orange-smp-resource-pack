@@ -87,5 +87,24 @@ void main() {
     hudUV=vec2(0);hudInfo=ivec4(-1,0,0,0);hudBounds=vec4(0);hudSize=vec2(0);
 #ifdef IS_GUI
     kitchenTransport();
+// OPHONE HEAD TRANSPORT BEGIN
+    // Reserved marker FA x y, with coordinates quantized to four canvas pixels.
+    // Native object components retain the player's skin and hat on the client.
+    ivec3 phoneColor=ivec3(round(Color.rgb*255.0));
+    bool phoneSkin=textureSize(Sampler0,0)==ivec2(64,64);
+    vec2 skinUV=UV0*64.0;
+    bool faceX=abs(skinUV.x-8.0)<.001 || abs(skinUV.x-16.0)<.001;
+    bool hatX=abs(skinUV.x-40.0)<.001 || abs(skinUV.x-48.0)<.001;
+    bool headY=abs(skinUV.y-8.0)<.001 || abs(skinUV.y-16.0)<.001;
+    if(hudInfo.x<0 && phoneColor.r==250 && phoneSkin && (faceX||hatX) && headY) {
+        vec2 corner=vec2((skinUV.x-(hatX?40.0:8.0))/8.0,(skinUV.y-8.0)/8.0);
+        vec2 origin=vec2(phoneColor.g,phoneColor.b)*4.0;
+        float scale=min(ScreenSize.x/960.0,ScreenSize.y/540.0);
+        vec2 screen=(ScreenSize-vec2(960,540)*scale)*.5+(origin+corner*28.0)*scale;
+        gl_Position=vec4(screen.x/ScreenSize.x*2.0-1.0,1.0-screen.y/ScreenSize.y*2.0,0.0,1.0);
+        vertexColor=vec4(1.0);
+    }
+// OPHONE HEAD TRANSPORT END
+
 #endif
 }

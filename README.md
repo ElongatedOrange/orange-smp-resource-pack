@@ -4,6 +4,10 @@
 
 Minecraft Java 26.3 resource pack, maintained by Elongated_Orange.
 
+## oPhone (v0.5.0)
+
+Adds the oPhone item, portrait HUD frame, six app icons, four collectible wallpapers and three original ringtones. Seven Voxel Forge generations and their validated/exported derivatives are recorded in `provenance/ophone`. The existing Kitchen font and cursor are reused. A narrowly scoped extension to the shared 26.3 core shader positions native player heads for contacts and incoming-call popups. Pair with OrangeSMPOPhone 0.1.0, updated Core's local HomesService and Kitchen's shared HUD lock.
+
 
 
 The pack uses the owner's `orange_item.png` as its icon, imported and exported through Voxel Forge without changing the artwork. Core's status dots and home menu use vanilla text and items, so they also work when a player declines the pack. All future custom assets must be created or edited through the Voxel Forge project.
