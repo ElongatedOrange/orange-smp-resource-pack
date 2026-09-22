@@ -6,6 +6,8 @@ Minecraft Java 26.3 resource pack, maintained by Elongated_Orange.
 
 ## oPhone (v0.5.0)
 
+v0.5.1 adds the unread-message number badge and corrects app icon proportions using fitted Voxel Forge exports. Pair with the oPhone update that allows every player to run `/ophone give` for themselves.
+
 Adds the oPhone item, portrait HUD frame, six app icons, four collectible wallpapers and three original ringtones. Seven Voxel Forge generations and their validated/exported derivatives are recorded in `provenance/ophone`. The existing Kitchen font and cursor are reused. A narrowly scoped extension to the shared 26.3 core shader positions native player heads for contacts and incoming-call popups. Pair with OrangeSMPOPhone 0.1.0, updated Core's local HomesService and Kitchen's shared HUD lock.
 
 
