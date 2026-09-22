@@ -58,3 +58,5 @@ Food models include fitted first- and third-person transforms for both hands. Th
 The shared-kitchen update adds live quality stars, sixteen animated workstation tool carriers, bubbles, sparks and miss effects. These carriers are exported through Voxel Forge; core shaders animate the original generated tool artwork. Pair this pack with the shared-cooking/star-quality Kitchen plugin update.
 
 Dropped custom items use larger ground display transforms exported through Voxel Forge: +50% scale for 3D models and +30% for flat items. Ground positions are adjusted around their bounds; held and placed-world poses are preserved.
+
+Custom 3D models explicitly map eating/item particles to their generated material texture. The corrected Voxel Forge exporter preserves all geometry, pixels and display transforms.
