@@ -1,0 +1,141 @@
+{
+  "id": "f136dcc7-3c0e-43f5-bea1-d2d9b226f210",
+  "kind": "model",
+  "spec": {
+    "name": "Full Send ice_floe",
+    "description": "Full Send Penguin Cross / roulette; authored through validated Voxel Forge studio API.",
+    "palette": [
+      "#16352c",
+      "#e7ad4d",
+      "#edfbff"
+    ],
+    "textures": [
+      {
+        "id": "ice",
+        "width": 16,
+        "height": 16,
+        "background": "#84c3db",
+        "commands": []
+      },
+      {
+        "id": "snow",
+        "width": 16,
+        "height": 16,
+        "background": "#ecf9ff",
+        "commands": []
+      },
+      {
+        "id": "rim",
+        "width": 16,
+        "height": 16,
+        "background": "#b4e5ee",
+        "commands": []
+      }
+    ],
+    "elements": [
+      {
+        "name": "keel",
+        "from": [
+          1,
+          0,
+          1
+        ],
+        "to": [
+          15,
+          10,
+          15
+        ],
+        "texture": "ice",
+        "bone": "",
+        "origin": [
+          8,
+          8,
+          8
+        ],
+        "axis": "y",
+        "angle": 0
+      },
+      {
+        "name": "body",
+        "from": [
+          0,
+          8,
+          0
+        ],
+        "to": [
+          16,
+          14,
+          16
+        ],
+        "texture": "rim",
+        "bone": "",
+        "origin": [
+          8,
+          8,
+          8
+        ],
+        "axis": "y",
+        "angle": 0
+      },
+      {
+        "name": "snow",
+        "from": [
+          0,
+          14,
+          0
+        ],
+        "to": [
+          16,
+          16,
+          16
+        ],
+        "texture": "snow",
+        "bone": "",
+        "origin": [
+          8,
+          8,
+          8
+        ],
+        "axis": "y",
+        "angle": 0
+      },
+      {
+        "name": "snow_lump",
+        "from": [
+          2,
+          15,
+          3
+        ],
+        "to": [
+          6,
+          16.5,
+          7
+        ],
+        "texture": "snow",
+        "bone": "",
+        "origin": [
+          8,
+          8,
+          8
+        ],
+        "axis": "y",
+        "angle": 0
+      }
+    ],
+    "bones": [],
+    "animation": null,
+    "sound": null
+  },
+  "prompt": "",
+  "style": "Vanilla",
+  "resolution": 32,
+  "createdAt": "2026-09-25T13:11:02.366Z",
+  "updatedAt": "2026-09-25T13:11:02.366Z",
+  "revision": 1,
+  "source": "manual",
+  "bindings": {
+    "javaTexture": "",
+    "bedrockTexture": "",
+    "glyph": 57344
+  }
+}

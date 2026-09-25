@@ -4,6 +4,10 @@
 
 Minecraft Java 26.3 resource pack, maintained by Elongated_Orange.
 
+## Full Send Penguin Cross and Roulette (v0.7.0)
+
+Adds a Voxel Forge penguin, orca, arctic pond and roulette-table base, plus validated ice-floe, roulette-wheel, ball, hub and chip assets. Four generated sources and all derivatives are recorded in `provenance/fullsend-expansion`. Pair with the Full Send update providing the 5×2 Penguin Cross pond and 3×3 shared European roulette table. Existing Minecoin banking, blackjack, slots and shared HUD lettering are preserved. All new gameplay stays on world blocks; no new fonts or game HUDs.
+
 ## Full Send (v0.6.0)
 
 Adds new Voxel Forge blackjack-table and slots-cabinet models, physical card/reel/control artwork, and the oPhone Banking icon. Four generated sources and validated derivatives are recorded in `provenance/fullsend`. Full Send reuses the existing HUD lettering for its optional balance line above the action bar. Games render on world blocks with ordinary Minecraft text displays, not a game HUD. Pair with Full Send 0.1.0 and the updated oPhone/Kitchen plugins.

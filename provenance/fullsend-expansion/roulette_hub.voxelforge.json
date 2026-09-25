@@ -1,0 +1,112 @@
+{
+  "id": "101f0766-8c64-48fd-b2f4-0b0f3543a033",
+  "kind": "model",
+  "spec": {
+    "name": "Full Send roulette_hub",
+    "description": "Full Send Penguin Cross / roulette; authored through validated Voxel Forge studio API.",
+    "palette": [
+      "#16352c",
+      "#e7ad4d",
+      "#edfbff"
+    ],
+    "textures": [
+      {
+        "id": "brass",
+        "width": 16,
+        "height": 16,
+        "background": "#d6a657",
+        "commands": []
+      },
+      {
+        "id": "walnut",
+        "width": 16,
+        "height": 16,
+        "background": "#684b30",
+        "commands": []
+      }
+    ],
+    "elements": [
+      {
+        "name": "base",
+        "from": [
+          0,
+          0,
+          0
+        ],
+        "to": [
+          16,
+          5,
+          16
+        ],
+        "texture": "walnut",
+        "bone": "",
+        "origin": [
+          8,
+          8,
+          8
+        ],
+        "axis": "y",
+        "angle": 0
+      },
+      {
+        "name": "hub",
+        "from": [
+          3,
+          5,
+          3
+        ],
+        "to": [
+          13,
+          11,
+          13
+        ],
+        "texture": "brass",
+        "bone": "",
+        "origin": [
+          8,
+          8,
+          8
+        ],
+        "axis": "y",
+        "angle": 0
+      },
+      {
+        "name": "spindle",
+        "from": [
+          6,
+          11,
+          6
+        ],
+        "to": [
+          10,
+          16,
+          10
+        ],
+        "texture": "brass",
+        "bone": "",
+        "origin": [
+          8,
+          8,
+          8
+        ],
+        "axis": "y",
+        "angle": 0
+      }
+    ],
+    "bones": [],
+    "animation": null,
+    "sound": null
+  },
+  "prompt": "",
+  "style": "Vanilla",
+  "resolution": 32,
+  "createdAt": "2026-09-25T13:11:02.360Z",
+  "updatedAt": "2026-09-25T13:11:02.360Z",
+  "revision": 1,
+  "source": "manual",
+  "bindings": {
+    "javaTexture": "",
+    "bedrockTexture": "",
+    "glyph": 57344
+  }
+}
