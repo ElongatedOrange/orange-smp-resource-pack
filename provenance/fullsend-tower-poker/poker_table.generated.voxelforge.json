@@ -1,0 +1,1825 @@
+{
+  "id": "c0d5364c-8067-4435-a1a4-5e574d66d273",
+  "kind": "model",
+  "spec": {
+    "name": "Full Send Poker Table",
+    "description": "Luxury six-seat Hold'em table with orange stained wood, dark green felt, brass edging and six brass seat pads. Stepped corners soften the rectangular silhouette. Geometry stays within 0..16 for runtime scaling (5,1,3); the unobstructed felt surface is exactly y=12.5.",
+    "palette": [
+      "#633019",
+      "#91451F",
+      "#B96029",
+      "#D7823B",
+      "#E6A054",
+      "#103B2B",
+      "#185039",
+      "#216346",
+      "#2C7451",
+      "#705123",
+      "#A17A32",
+      "#C49B48",
+      "#E0BC68"
+    ],
+    "textures": [
+      {
+        "id": "wood",
+        "width": 64,
+        "height": 64,
+        "background": "#00000000",
+        "commands": [
+          {
+            "op": "rect",
+            "x": 12,
+            "y": 0,
+            "w": 14,
+            "h": 12,
+            "color": "#B96029",
+            "seed": 0,
+            "density": 0
+          },
+          {
+            "op": "rect",
+            "x": 26,
+            "y": 0,
+            "w": 14,
+            "h": 12,
+            "color": "#91451F",
+            "seed": 0,
+            "density": 0
+          },
+          {
+            "op": "rect",
+            "x": 0,
+            "y": 12,
+            "w": 52,
+            "h": 2,
+            "color": "#91451F",
+            "seed": 0,
+            "density": 0
+          },
+          {
+            "op": "rect",
+            "x": 1,
+            "y": 16,
+            "w": 12,
+            "h": 1,
+            "color": "#D7823B",
+            "seed": 0,
+            "density": 0
+          },
+          {
+            "op": "rect",
+            "x": 13,
+            "y": 16,
+            "w": 12,
+            "h": 1,
+            "color": "#91451F",
+            "seed": 0,
+            "density": 0
+          },
+          {
+            "op": "rect",
+            "x": 0,
+            "y": 17,
+            "w": 26,
+            "h": 2,
+            "color": "#91451F",
+            "seed": 0,
+            "density": 0
+          },
+          {
+            "op": "rect",
+            "x": 1,
+            "y": 20,
+            "w": 12,
+            "h": 1,
+            "color": "#B96029",
+            "seed": 0,
+            "density": 0
+          },
+          {
+            "op": "rect",
+            "x": 13,
+            "y": 20,
+            "w": 12,
+            "h": 1,
+            "color": "#91451F",
+            "seed": 0,
+            "density": 0
+          },
+          {
+            "op": "rect",
+            "x": 0,
+            "y": 21,
+            "w": 26,
+            "h": 2,
+            "color": "#91451F",
+            "seed": 0,
+            "density": 0
+          },
+          {
+            "op": "rect",
+            "x": 2,
+            "y": 28,
+            "w": 2,
+            "h": 2,
+            "color": "#B96029",
+            "seed": 0,
+            "density": 0
+          },
+          {
+            "op": "rect",
+            "x": 4,
+            "y": 28,
+            "w": 2,
+            "h": 2,
+            "color": "#633019",
+            "seed": 0,
+            "density": 0
+          },
+          {
+            "op": "rect",
+            "x": 0,
+            "y": 30,
+            "w": 8,
+            "h": 10,
+            "color": "#91451F",
+            "seed": 0,
+            "density": 0
+          },
+          {
+            "op": "rect",
+            "x": 2,
+            "y": 30,
+            "w": 2,
+            "h": 10,
+            "color": "#B96029",
+            "seed": 0,
+            "density": 0
+          },
+          {
+            "op": "rect",
+            "x": 6,
+            "y": 30,
+            "w": 2,
+            "h": 10,
+            "color": "#B96029",
+            "seed": 0,
+            "density": 0
+          },
+          {
+            "op": "rect",
+            "x": 12,
+            "y": 1,
+            "w": 8,
+            "h": 2,
+            "color": "#D7823B",
+            "seed": 0,
+            "density": 0
+          },
+          {
+            "op": "rect",
+            "x": 17,
+            "y": 2,
+            "w": 9,
+            "h": 2,
+            "color": "#D7823B",
+            "seed": 0,
+            "density": 0
+          },
+          {
+            "op": "rect",
+            "x": 12,
+            "y": 6,
+            "w": 5,
+            "h": 2,
+            "color": "#D7823B",
+            "seed": 0,
+            "density": 0
+          },
+          {
+            "op": "rect",
+            "x": 15,
+            "y": 7,
+            "w": 8,
+            "h": 2,
+            "color": "#D7823B",
+            "seed": 0,
+            "density": 0
+          },
+          {
+            "op": "rect",
+            "x": 22,
+            "y": 8,
+            "w": 4,
+            "h": 2,
+            "color": "#D7823B",
+            "seed": 0,
+            "density": 0
+          },
+          {
+            "op": "rect",
+            "x": 12,
+            "y": 10,
+            "w": 7,
+            "h": 2,
+            "color": "#D7823B",
+            "seed": 0,
+            "density": 0
+          },
+          {
+            "op": "rect",
+            "x": 12,
+            "y": 4,
+            "w": 6,
+            "h": 1,
+            "color": "#91451F",
+            "seed": 0,
+            "density": 0
+          },
+          {
+            "op": "rect",
+            "x": 16,
+            "y": 5,
+            "w": 7,
+            "h": 1,
+            "color": "#91451F",
+            "seed": 0,
+            "density": 0
+          },
+          {
+            "op": "rect",
+            "x": 22,
+            "y": 4,
+            "w": 4,
+            "h": 1,
+            "color": "#91451F",
+            "seed": 0,
+            "density": 0
+          },
+          {
+            "op": "rect",
+            "x": 13,
+            "y": 1,
+            "w": 5,
+            "h": 1,
+            "color": "#E6A054",
+            "seed": 0,
+            "density": 0
+          },
+          {
+            "op": "rect",
+            "x": 18,
+            "y": 7,
+            "w": 4,
+            "h": 1,
+            "color": "#E6A054",
+            "seed": 0,
+            "density": 0
+          },
+          {
+            "op": "rect",
+            "x": 26,
+            "y": 0,
+            "w": 14,
+            "h": 2,
+            "color": "#633019",
+            "seed": 0,
+            "density": 0
+          },
+          {
+            "op": "rect",
+            "x": 26,
+            "y": 2,
+            "w": 4,
+            "h": 2,
+            "color": "#633019",
+            "seed": 0,
+            "density": 0
+          },
+          {
+            "op": "rect",
+            "x": 35,
+            "y": 8,
+            "w": 5,
+            "h": 4,
+            "color": "#633019",
+            "seed": 0,
+            "density": 0
+          },
+          {
+            "op": "rect",
+            "x": 30,
+            "y": 10,
+            "w": 5,
+            "h": 2,
+            "color": "#633019",
+            "seed": 0,
+            "density": 0
+          },
+          {
+            "op": "rect",
+            "x": 28,
+            "y": 5,
+            "w": 8,
+            "h": 2,
+            "color": "#B96029",
+            "seed": 0,
+            "density": 0
+          },
+          {
+            "op": "rect",
+            "x": 34,
+            "y": 6,
+            "w": 6,
+            "h": 1,
+            "color": "#B96029",
+            "seed": 0,
+            "density": 0
+          },
+          {
+            "op": "rect",
+            "x": 0,
+            "y": 12,
+            "w": 12,
+            "h": 1,
+            "color": "#B96029",
+            "seed": 0,
+            "density": 0
+          },
+          {
+            "op": "rect",
+            "x": 12,
+            "y": 12,
+            "w": 14,
+            "h": 1,
+            "color": "#D7823B",
+            "seed": 0,
+            "density": 0
+          },
+          {
+            "op": "rect",
+            "x": 26,
+            "y": 12,
+            "w": 26,
+            "h": 1,
+            "color": "#B96029",
+            "seed": 0,
+            "density": 0
+          },
+          {
+            "op": "rect",
+            "x": 0,
+            "y": 13,
+            "w": 4,
+            "h": 1,
+            "color": "#633019",
+            "seed": 0,
+            "density": 0
+          },
+          {
+            "op": "rect",
+            "x": 30,
+            "y": 13,
+            "w": 8,
+            "h": 1,
+            "color": "#633019",
+            "seed": 0,
+            "density": 0
+          },
+          {
+            "op": "rect",
+            "x": 17,
+            "y": 12,
+            "w": 5,
+            "h": 1,
+            "color": "#B96029",
+            "seed": 0,
+            "density": 0
+          },
+          {
+            "op": "rect",
+            "x": 42,
+            "y": 12,
+            "w": 6,
+            "h": 1,
+            "color": "#D7823B",
+            "seed": 0,
+            "density": 0
+          },
+          {
+            "op": "rect",
+            "x": 2,
+            "y": 16,
+            "w": 4,
+            "h": 1,
+            "color": "#E6A054",
+            "seed": 0,
+            "density": 0
+          },
+          {
+            "op": "rect",
+            "x": 10,
+            "y": 16,
+            "w": 3,
+            "h": 1,
+            "color": "#B96029",
+            "seed": 0,
+            "density": 0
+          },
+          {
+            "op": "rect",
+            "x": 18,
+            "y": 16,
+            "w": 7,
+            "h": 1,
+            "color": "#633019",
+            "seed": 0,
+            "density": 0
+          },
+          {
+            "op": "rect",
+            "x": 0,
+            "y": 17,
+            "w": 14,
+            "h": 1,
+            "color": "#B96029",
+            "seed": 0,
+            "density": 0
+          },
+          {
+            "op": "rect",
+            "x": 14,
+            "y": 17,
+            "w": 12,
+            "h": 1,
+            "color": "#D7823B",
+            "seed": 0,
+            "density": 0
+          },
+          {
+            "op": "rect",
+            "x": 3,
+            "y": 17,
+            "w": 7,
+            "h": 1,
+            "color": "#D7823B",
+            "seed": 0,
+            "density": 0
+          },
+          {
+            "op": "rect",
+            "x": 21,
+            "y": 18,
+            "w": 5,
+            "h": 1,
+            "color": "#633019",
+            "seed": 0,
+            "density": 0
+          },
+          {
+            "op": "rect",
+            "x": 0,
+            "y": 18,
+            "w": 2,
+            "h": 1,
+            "color": "#633019",
+            "seed": 0,
+            "density": 0
+          },
+          {
+            "op": "rect",
+            "x": 3,
+            "y": 20,
+            "w": 7,
+            "h": 1,
+            "color": "#D7823B",
+            "seed": 0,
+            "density": 0
+          },
+          {
+            "op": "rect",
+            "x": 13,
+            "y": 20,
+            "w": 5,
+            "h": 1,
+            "color": "#633019",
+            "seed": 0,
+            "density": 0
+          },
+          {
+            "op": "rect",
+            "x": 0,
+            "y": 21,
+            "w": 26,
+            "h": 1,
+            "color": "#B96029",
+            "seed": 0,
+            "density": 0
+          },
+          {
+            "op": "rect",
+            "x": 2,
+            "y": 21,
+            "w": 6,
+            "h": 1,
+            "color": "#D7823B",
+            "seed": 0,
+            "density": 0
+          },
+          {
+            "op": "rect",
+            "x": 18,
+            "y": 21,
+            "w": 5,
+            "h": 1,
+            "color": "#D7823B",
+            "seed": 0,
+            "density": 0
+          },
+          {
+            "op": "rect",
+            "x": 11,
+            "y": 22,
+            "w": 5,
+            "h": 1,
+            "color": "#633019",
+            "seed": 0,
+            "density": 0
+          },
+          {
+            "op": "rect",
+            "x": 0,
+            "y": 30,
+            "w": 8,
+            "h": 2,
+            "color": "#633019",
+            "seed": 0,
+            "density": 0
+          },
+          {
+            "op": "rect",
+            "x": 2,
+            "y": 31,
+            "w": 2,
+            "h": 2,
+            "color": "#91451F",
+            "seed": 0,
+            "density": 0
+          },
+          {
+            "op": "rect",
+            "x": 6,
+            "y": 31,
+            "w": 2,
+            "h": 2,
+            "color": "#91451F",
+            "seed": 0,
+            "density": 0
+          },
+          {
+            "op": "rect",
+            "x": 0,
+            "y": 33,
+            "w": 1,
+            "h": 5,
+            "color": "#B96029",
+            "seed": 0,
+            "density": 0
+          },
+          {
+            "op": "rect",
+            "x": 1,
+            "y": 36,
+            "w": 1,
+            "h": 4,
+            "color": "#B96029",
+            "seed": 0,
+            "density": 0
+          },
+          {
+            "op": "rect",
+            "x": 2,
+            "y": 33,
+            "w": 1,
+            "h": 4,
+            "color": "#D7823B",
+            "seed": 0,
+            "density": 0
+          },
+          {
+            "op": "rect",
+            "x": 3,
+            "y": 36,
+            "w": 1,
+            "h": 3,
+            "color": "#D7823B",
+            "seed": 0,
+            "density": 0
+          },
+          {
+            "op": "rect",
+            "x": 4,
+            "y": 32,
+            "w": 1,
+            "h": 5,
+            "color": "#633019",
+            "seed": 0,
+            "density": 0
+          },
+          {
+            "op": "rect",
+            "x": 5,
+            "y": 36,
+            "w": 1,
+            "h": 4,
+            "color": "#B96029",
+            "seed": 0,
+            "density": 0
+          },
+          {
+            "op": "rect",
+            "x": 6,
+            "y": 34,
+            "w": 1,
+            "h": 5,
+            "color": "#91451F",
+            "seed": 0,
+            "density": 0
+          },
+          {
+            "op": "rect",
+            "x": 7,
+            "y": 32,
+            "w": 1,
+            "h": 4,
+            "color": "#D7823B",
+            "seed": 0,
+            "density": 0
+          }
+        ]
+      },
+      {
+        "id": "felt",
+        "width": 64,
+        "height": 64,
+        "background": "#00000000",
+        "commands": [
+          {
+            "op": "rect",
+            "x": 10,
+            "y": 0,
+            "w": 12,
+            "h": 10,
+            "color": "#216346",
+            "seed": 0,
+            "density": 0
+          },
+          {
+            "op": "rect",
+            "x": 22,
+            "y": 0,
+            "w": 12,
+            "h": 10,
+            "color": "#103B2B",
+            "seed": 0,
+            "density": 0
+          },
+          {
+            "op": "rect",
+            "x": 0,
+            "y": 10,
+            "w": 44,
+            "h": 1,
+            "color": "#185039",
+            "seed": 0,
+            "density": 0
+          },
+          {
+            "op": "rect",
+            "x": 1,
+            "y": 12,
+            "w": 10,
+            "h": 1,
+            "color": "#216346",
+            "seed": 0,
+            "density": 0
+          },
+          {
+            "op": "rect",
+            "x": 11,
+            "y": 12,
+            "w": 10,
+            "h": 1,
+            "color": "#103B2B",
+            "seed": 0,
+            "density": 0
+          },
+          {
+            "op": "rect",
+            "x": 0,
+            "y": 13,
+            "w": 22,
+            "h": 1,
+            "color": "#185039",
+            "seed": 0,
+            "density": 0
+          },
+          {
+            "op": "rect",
+            "x": 1,
+            "y": 16,
+            "w": 10,
+            "h": 1,
+            "color": "#216346",
+            "seed": 0,
+            "density": 0
+          },
+          {
+            "op": "rect",
+            "x": 11,
+            "y": 16,
+            "w": 10,
+            "h": 1,
+            "color": "#103B2B",
+            "seed": 0,
+            "density": 0
+          },
+          {
+            "op": "rect",
+            "x": 0,
+            "y": 17,
+            "w": 22,
+            "h": 1,
+            "color": "#185039",
+            "seed": 0,
+            "density": 0
+          },
+          {
+            "op": "rect",
+            "x": 12,
+            "y": 2,
+            "w": 4,
+            "h": 2,
+            "color": "#246749",
+            "seed": 0,
+            "density": 0
+          },
+          {
+            "op": "rect",
+            "x": 11,
+            "y": 4,
+            "w": 4,
+            "h": 2,
+            "color": "#246749",
+            "seed": 0,
+            "density": 0
+          },
+          {
+            "op": "rect",
+            "x": 17,
+            "y": 5,
+            "w": 3,
+            "h": 2,
+            "color": "#1E5F43",
+            "seed": 0,
+            "density": 0
+          },
+          {
+            "op": "rect",
+            "x": 16,
+            "y": 7,
+            "w": 4,
+            "h": 2,
+            "color": "#1E5F43",
+            "seed": 0,
+            "density": 0
+          }
+        ]
+      },
+      {
+        "id": "brass",
+        "width": 64,
+        "height": 64,
+        "background": "#00000000",
+        "commands": [
+          {
+            "op": "rect",
+            "x": 1,
+            "y": 0,
+            "w": 12,
+            "h": 1,
+            "color": "#C49B48",
+            "seed": 0,
+            "density": 0
+          },
+          {
+            "op": "rect",
+            "x": 13,
+            "y": 0,
+            "w": 12,
+            "h": 1,
+            "color": "#705123",
+            "seed": 0,
+            "density": 0
+          },
+          {
+            "op": "rect",
+            "x": 0,
+            "y": 1,
+            "w": 26,
+            "h": 1,
+            "color": "#A17A32",
+            "seed": 0,
+            "density": 0
+          },
+          {
+            "op": "rect",
+            "x": 29,
+            "y": 0,
+            "w": 12,
+            "h": 1,
+            "color": "#C49B48",
+            "seed": 0,
+            "density": 0
+          },
+          {
+            "op": "rect",
+            "x": 41,
+            "y": 0,
+            "w": 12,
+            "h": 1,
+            "color": "#705123",
+            "seed": 0,
+            "density": 0
+          },
+          {
+            "op": "rect",
+            "x": 28,
+            "y": 1,
+            "w": 26,
+            "h": 1,
+            "color": "#A17A32",
+            "seed": 0,
+            "density": 0
+          },
+          {
+            "op": "rect",
+            "x": 12,
+            "y": 4,
+            "w": 1,
+            "h": 12,
+            "color": "#C49B48",
+            "seed": 0,
+            "density": 0
+          },
+          {
+            "op": "rect",
+            "x": 13,
+            "y": 4,
+            "w": 1,
+            "h": 12,
+            "color": "#705123",
+            "seed": 0,
+            "density": 0
+          },
+          {
+            "op": "rect",
+            "x": 0,
+            "y": 16,
+            "w": 26,
+            "h": 1,
+            "color": "#A17A32",
+            "seed": 0,
+            "density": 0
+          },
+          {
+            "op": "rect",
+            "x": 40,
+            "y": 4,
+            "w": 1,
+            "h": 12,
+            "color": "#C49B48",
+            "seed": 0,
+            "density": 0
+          },
+          {
+            "op": "rect",
+            "x": 41,
+            "y": 4,
+            "w": 1,
+            "h": 12,
+            "color": "#705123",
+            "seed": 0,
+            "density": 0
+          },
+          {
+            "op": "rect",
+            "x": 28,
+            "y": 16,
+            "w": 26,
+            "h": 1,
+            "color": "#A17A32",
+            "seed": 0,
+            "density": 0
+          },
+          {
+            "op": "rect",
+            "x": 1,
+            "y": 20,
+            "w": 1,
+            "h": 1,
+            "color": "#C49B48",
+            "seed": 0,
+            "density": 0
+          },
+          {
+            "op": "rect",
+            "x": 2,
+            "y": 20,
+            "w": 1,
+            "h": 1,
+            "color": "#705123",
+            "seed": 0,
+            "density": 0
+          },
+          {
+            "op": "rect",
+            "x": 0,
+            "y": 21,
+            "w": 4,
+            "h": 1,
+            "color": "#A17A32",
+            "seed": 0,
+            "density": 0
+          },
+          {
+            "op": "rect",
+            "x": 9,
+            "y": 20,
+            "w": 2,
+            "h": 1,
+            "color": "#E0BC68",
+            "seed": 0,
+            "density": 0
+          },
+          {
+            "op": "rect",
+            "x": 11,
+            "y": 20,
+            "w": 2,
+            "h": 1,
+            "color": "#705123",
+            "seed": 0,
+            "density": 0
+          },
+          {
+            "op": "rect",
+            "x": 8,
+            "y": 21,
+            "w": 6,
+            "h": 1,
+            "color": "#A17A32",
+            "seed": 0,
+            "density": 0
+          },
+          {
+            "op": "rect",
+            "x": 1,
+            "y": 1,
+            "w": 12,
+            "h": 1,
+            "color": "#C49B48",
+            "seed": 0,
+            "density": 0
+          },
+          {
+            "op": "rect",
+            "x": 42,
+            "y": 1,
+            "w": 12,
+            "h": 1,
+            "color": "#C49B48",
+            "seed": 0,
+            "density": 0
+          },
+          {
+            "op": "rect",
+            "x": 0,
+            "y": 16,
+            "w": 12,
+            "h": 1,
+            "color": "#C49B48",
+            "seed": 0,
+            "density": 0
+          },
+          {
+            "op": "rect",
+            "x": 41,
+            "y": 16,
+            "w": 12,
+            "h": 1,
+            "color": "#C49B48",
+            "seed": 0,
+            "density": 0
+          },
+          {
+            "op": "rect",
+            "x": 1,
+            "y": 21,
+            "w": 1,
+            "h": 1,
+            "color": "#C49B48",
+            "seed": 0,
+            "density": 0
+          },
+          {
+            "op": "rect",
+            "x": 0,
+            "y": 1,
+            "w": 1,
+            "h": 1,
+            "color": "#705123",
+            "seed": 0,
+            "density": 0
+          },
+          {
+            "op": "rect",
+            "x": 41,
+            "y": 1,
+            "w": 1,
+            "h": 1,
+            "color": "#705123",
+            "seed": 0,
+            "density": 0
+          },
+          {
+            "op": "rect",
+            "x": 25,
+            "y": 16,
+            "w": 1,
+            "h": 1,
+            "color": "#705123",
+            "seed": 0,
+            "density": 0
+          },
+          {
+            "op": "rect",
+            "x": 40,
+            "y": 16,
+            "w": 1,
+            "h": 1,
+            "color": "#705123",
+            "seed": 0,
+            "density": 0
+          },
+          {
+            "op": "rect",
+            "x": 8,
+            "y": 21,
+            "w": 1,
+            "h": 1,
+            "color": "#705123",
+            "seed": 0,
+            "density": 0
+          },
+          {
+            "op": "rect",
+            "x": 11,
+            "y": 21,
+            "w": 1,
+            "h": 1,
+            "color": "#705123",
+            "seed": 0,
+            "density": 0
+          },
+          {
+            "op": "rect",
+            "x": 4,
+            "y": 0,
+            "w": 5,
+            "h": 1,
+            "color": "#E0BC68",
+            "seed": 0,
+            "density": 0
+          },
+          {
+            "op": "rect",
+            "x": 32,
+            "y": 0,
+            "w": 5,
+            "h": 1,
+            "color": "#E0BC68",
+            "seed": 0,
+            "density": 0
+          },
+          {
+            "op": "rect",
+            "x": 12,
+            "y": 7,
+            "w": 1,
+            "h": 5,
+            "color": "#E0BC68",
+            "seed": 0,
+            "density": 0
+          },
+          {
+            "op": "rect",
+            "x": 40,
+            "y": 7,
+            "w": 1,
+            "h": 5,
+            "color": "#E0BC68",
+            "seed": 0,
+            "density": 0
+          }
+        ]
+      }
+    ],
+    "elements": [
+      {
+        "name": "Orange wood tabletop core",
+        "from": [
+          1,
+          10,
+          2
+        ],
+        "to": [
+          15,
+          12,
+          14
+        ],
+        "texture": "wood",
+        "uv": [
+          0,
+          0
+        ],
+        "bone": "",
+        "origin": [
+          8,
+          11,
+          8
+        ],
+        "axis": "y",
+        "angle": 0
+      },
+      {
+        "name": "Front wood tabletop extension",
+        "from": [
+          2,
+          10,
+          1
+        ],
+        "to": [
+          14,
+          12,
+          2
+        ],
+        "texture": "wood",
+        "uv": [
+          0,
+          16
+        ],
+        "bone": "",
+        "origin": [
+          8,
+          11,
+          1.5
+        ],
+        "axis": "y",
+        "angle": 0
+      },
+      {
+        "name": "Rear wood tabletop extension",
+        "from": [
+          2,
+          10,
+          14
+        ],
+        "to": [
+          14,
+          12,
+          15
+        ],
+        "texture": "wood",
+        "uv": [
+          0,
+          20
+        ],
+        "bone": "",
+        "origin": [
+          8,
+          11,
+          14.5
+        ],
+        "axis": "y",
+        "angle": 0
+      },
+      {
+        "name": "Front left short leg",
+        "from": [
+          2,
+          0,
+          3
+        ],
+        "to": [
+          4,
+          10,
+          5
+        ],
+        "texture": "wood",
+        "uv": [
+          0,
+          28
+        ],
+        "bone": "",
+        "origin": [
+          3,
+          10,
+          4
+        ],
+        "axis": "y",
+        "angle": 0
+      },
+      {
+        "name": "Front right short leg",
+        "from": [
+          12,
+          0,
+          3
+        ],
+        "to": [
+          14,
+          10,
+          5
+        ],
+        "texture": "wood",
+        "uv": [
+          0,
+          28
+        ],
+        "bone": "",
+        "origin": [
+          13,
+          10,
+          4
+        ],
+        "axis": "y",
+        "angle": 0
+      },
+      {
+        "name": "Rear left short leg",
+        "from": [
+          2,
+          0,
+          11
+        ],
+        "to": [
+          4,
+          10,
+          13
+        ],
+        "texture": "wood",
+        "uv": [
+          0,
+          28
+        ],
+        "bone": "",
+        "origin": [
+          3,
+          10,
+          12
+        ],
+        "axis": "y",
+        "angle": 0
+      },
+      {
+        "name": "Rear right short leg",
+        "from": [
+          12,
+          0,
+          11
+        ],
+        "to": [
+          14,
+          10,
+          13
+        ],
+        "texture": "wood",
+        "uv": [
+          0,
+          28
+        ],
+        "bone": "",
+        "origin": [
+          13,
+          10,
+          12
+        ],
+        "axis": "y",
+        "angle": 0
+      },
+      {
+        "name": "Flat central felt",
+        "from": [
+          2,
+          12,
+          3
+        ],
+        "to": [
+          14,
+          12.5,
+          13
+        ],
+        "texture": "felt",
+        "uv": [
+          0,
+          0
+        ],
+        "uvSize": [
+          12,
+          1,
+          10
+        ],
+        "bone": "",
+        "origin": [
+          8,
+          12,
+          8
+        ],
+        "axis": "y",
+        "angle": 0
+      },
+      {
+        "name": "Front felt extension",
+        "from": [
+          3,
+          12,
+          2
+        ],
+        "to": [
+          13,
+          12.5,
+          3
+        ],
+        "texture": "felt",
+        "uv": [
+          0,
+          12
+        ],
+        "uvSize": [
+          10,
+          1,
+          1
+        ],
+        "bone": "",
+        "origin": [
+          8,
+          12,
+          2.5
+        ],
+        "axis": "y",
+        "angle": 0
+      },
+      {
+        "name": "Rear felt extension",
+        "from": [
+          3,
+          12,
+          13
+        ],
+        "to": [
+          13,
+          12.5,
+          14
+        ],
+        "texture": "felt",
+        "uv": [
+          0,
+          16
+        ],
+        "uvSize": [
+          10,
+          1,
+          1
+        ],
+        "bone": "",
+        "origin": [
+          8,
+          12,
+          13.5
+        ],
+        "axis": "y",
+        "angle": 0
+      },
+      {
+        "name": "Front long brass rail",
+        "from": [
+          2,
+          12,
+          1
+        ],
+        "to": [
+          14,
+          13,
+          2
+        ],
+        "texture": "brass",
+        "uv": [
+          0,
+          0
+        ],
+        "bone": "",
+        "origin": [
+          8,
+          12,
+          1.5
+        ],
+        "axis": "y",
+        "angle": 0
+      },
+      {
+        "name": "Rear long brass rail",
+        "from": [
+          2,
+          12,
+          14
+        ],
+        "to": [
+          14,
+          13,
+          15
+        ],
+        "texture": "brass",
+        "uv": [
+          28,
+          0
+        ],
+        "bone": "",
+        "origin": [
+          8,
+          12,
+          14.5
+        ],
+        "axis": "y",
+        "angle": 0
+      },
+      {
+        "name": "Left brass end rail",
+        "from": [
+          1,
+          12,
+          2
+        ],
+        "to": [
+          2,
+          13,
+          14
+        ],
+        "texture": "brass",
+        "uv": [
+          0,
+          4
+        ],
+        "bone": "",
+        "origin": [
+          1.5,
+          12,
+          8
+        ],
+        "axis": "y",
+        "angle": 0
+      },
+      {
+        "name": "Right brass end rail",
+        "from": [
+          14,
+          12,
+          2
+        ],
+        "to": [
+          15,
+          13,
+          14
+        ],
+        "texture": "brass",
+        "uv": [
+          28,
+          4
+        ],
+        "bone": "",
+        "origin": [
+          14.5,
+          12,
+          8
+        ],
+        "axis": "y",
+        "angle": 0
+      },
+      {
+        "name": "Front left stepped brass corner",
+        "from": [
+          2,
+          12,
+          2
+        ],
+        "to": [
+          3,
+          13,
+          3
+        ],
+        "texture": "brass",
+        "uv": [
+          0,
+          20
+        ],
+        "bone": "",
+        "origin": [
+          2.5,
+          12,
+          2.5
+        ],
+        "axis": "y",
+        "angle": 0
+      },
+      {
+        "name": "Front right stepped brass corner",
+        "from": [
+          13,
+          12,
+          2
+        ],
+        "to": [
+          14,
+          13,
+          3
+        ],
+        "texture": "brass",
+        "uv": [
+          0,
+          20
+        ],
+        "bone": "",
+        "origin": [
+          13.5,
+          12,
+          2.5
+        ],
+        "axis": "y",
+        "angle": 0
+      },
+      {
+        "name": "Rear left stepped brass corner",
+        "from": [
+          2,
+          12,
+          13
+        ],
+        "to": [
+          3,
+          13,
+          14
+        ],
+        "texture": "brass",
+        "uv": [
+          0,
+          20
+        ],
+        "bone": "",
+        "origin": [
+          2.5,
+          12,
+          13.5
+        ],
+        "axis": "y",
+        "angle": 0
+      },
+      {
+        "name": "Rear right stepped brass corner",
+        "from": [
+          13,
+          12,
+          13
+        ],
+        "to": [
+          14,
+          13,
+          14
+        ],
+        "texture": "brass",
+        "uv": [
+          0,
+          20
+        ],
+        "bone": "",
+        "origin": [
+          13.5,
+          12,
+          13.5
+        ],
+        "axis": "y",
+        "angle": 0
+      },
+      {
+        "name": "Front seat one brass pad",
+        "from": [
+          3,
+          13,
+          1
+        ],
+        "to": [
+          5,
+          13.25,
+          2
+        ],
+        "texture": "brass",
+        "uv": [
+          8,
+          20
+        ],
+        "uvSize": [
+          2,
+          1,
+          1
+        ],
+        "bone": "",
+        "origin": [
+          4,
+          13,
+          1.5
+        ],
+        "axis": "y",
+        "angle": 0
+      },
+      {
+        "name": "Front seat two brass pad",
+        "from": [
+          7,
+          13,
+          1
+        ],
+        "to": [
+          9,
+          13.25,
+          2
+        ],
+        "texture": "brass",
+        "uv": [
+          8,
+          20
+        ],
+        "uvSize": [
+          2,
+          1,
+          1
+        ],
+        "bone": "",
+        "origin": [
+          8,
+          13,
+          1.5
+        ],
+        "axis": "y",
+        "angle": 0
+      },
+      {
+        "name": "Front seat three brass pad",
+        "from": [
+          11,
+          13,
+          1
+        ],
+        "to": [
+          13,
+          13.25,
+          2
+        ],
+        "texture": "brass",
+        "uv": [
+          8,
+          20
+        ],
+        "uvSize": [
+          2,
+          1,
+          1
+        ],
+        "bone": "",
+        "origin": [
+          12,
+          13,
+          1.5
+        ],
+        "axis": "y",
+        "angle": 0
+      },
+      {
+        "name": "Rear seat one brass pad",
+        "from": [
+          3,
+          13,
+          14
+        ],
+        "to": [
+          5,
+          13.25,
+          15
+        ],
+        "texture": "brass",
+        "uv": [
+          8,
+          20
+        ],
+        "uvSize": [
+          2,
+          1,
+          1
+        ],
+        "bone": "",
+        "origin": [
+          4,
+          13,
+          14.5
+        ],
+        "axis": "y",
+        "angle": 0
+      },
+      {
+        "name": "Rear seat two brass pad",
+        "from": [
+          7,
+          13,
+          14
+        ],
+        "to": [
+          9,
+          13.25,
+          15
+        ],
+        "texture": "brass",
+        "uv": [
+          8,
+          20
+        ],
+        "uvSize": [
+          2,
+          1,
+          1
+        ],
+        "bone": "",
+        "origin": [
+          8,
+          13,
+          14.5
+        ],
+        "axis": "y",
+        "angle": 0
+      },
+      {
+        "name": "Rear seat three brass pad",
+        "from": [
+          11,
+          13,
+          14
+        ],
+        "to": [
+          13,
+          13.25,
+          15
+        ],
+        "texture": "brass",
+        "uv": [
+          8,
+          20
+        ],
+        "uvSize": [
+          2,
+          1,
+          1
+        ],
+        "bone": "",
+        "origin": [
+          12,
+          13,
+          14.5
+        ],
+        "axis": "y",
+        "angle": 0
+      }
+    ],
+    "bones": [],
+    "animation": null,
+    "sound": null
+  },
+  "prompt": "Minecraft voxel luxury six seat Texas Hold'em poker table, orange stained wood, dark green felt, brass rim, four sturdy short legs. Physical 5 blocks wide, 3 blocks deep, 1 block high. All model geometry MUST fit 0..16 on X Y Z; runtime stretches (5,1,3). Flat felt top y=12.5, no raised center pieces, no cards or labels baked in. Six brass seat accent pads around rim, three on each long side, no chairs outside footprint. Elegant rounded/chamfered rectangular silhouette using vanilla cuboids. Vanilla pixel texture 64x64.",
+  "style": "Vanilla",
+  "resolution": 64,
+  "createdAt": "2026-09-25T16:47:21.638Z",
+  "updatedAt": "2026-09-25T16:47:21.638Z",
+  "revision": 1,
+  "source": "codex",
+  "bindings": {
+    "javaTexture": "",
+    "bedrockTexture": "",
+    "glyph": 57344
+  }
+}

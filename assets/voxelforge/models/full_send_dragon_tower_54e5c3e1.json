@@ -1,0 +1,1805 @@
+{
+  "credit": "VoxelForge",
+  "textures": {
+    "particle": "voxelforge:item/full_send_dragon_tower_54e5c3e1/stone",
+    "stone": "voxelforge:item/full_send_dragon_tower_54e5c3e1/stone",
+    "fittings": "voxelforge:item/full_send_dragon_tower_54e5c3e1/fittings"
+  },
+  "elements": [
+    {
+      "name": "Basalt cabinet shell",
+      "from": [
+        0,
+        2,
+        2
+      ],
+      "to": [
+        16,
+        14,
+        16
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            11,
+            3.5,
+            15,
+            6.5
+          ],
+          "texture": "#stone"
+        },
+        "south": {
+          "uv": [
+            3.5,
+            3.5,
+            7.5,
+            6.5
+          ],
+          "texture": "#stone"
+        },
+        "east": {
+          "uv": [
+            0,
+            3.5,
+            3.5,
+            6.5
+          ],
+          "texture": "#stone"
+        },
+        "west": {
+          "uv": [
+            7.5,
+            3.5,
+            11,
+            6.5
+          ],
+          "texture": "#stone"
+        },
+        "up": {
+          "uv": [
+            3.5,
+            0,
+            7.5,
+            3.5
+          ],
+          "texture": "#stone"
+        },
+        "down": {
+          "uv": [
+            7.5,
+            0,
+            11.5,
+            3.5
+          ],
+          "texture": "#stone"
+        }
+      }
+    },
+    {
+      "name": "Sturdy basalt plinth",
+      "from": [
+        0,
+        0,
+        0
+      ],
+      "to": [
+        16,
+        2,
+        16
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            12,
+            10.5,
+            16,
+            11
+          ],
+          "texture": "#stone"
+        },
+        "south": {
+          "uv": [
+            4,
+            10.5,
+            8,
+            11
+          ],
+          "texture": "#stone"
+        },
+        "east": {
+          "uv": [
+            0,
+            10.5,
+            4,
+            11
+          ],
+          "texture": "#stone"
+        },
+        "west": {
+          "uv": [
+            8,
+            10.5,
+            12,
+            11
+          ],
+          "texture": "#stone"
+        },
+        "up": {
+          "uv": [
+            4,
+            6.5,
+            8,
+            10.5
+          ],
+          "texture": "#stone"
+        },
+        "down": {
+          "uv": [
+            8,
+            6.5,
+            12,
+            10.5
+          ],
+          "texture": "#stone"
+        }
+      }
+    },
+    {
+      "name": "Basalt crown slab",
+      "from": [
+        0,
+        14,
+        0
+      ],
+      "to": [
+        16,
+        14.5,
+        16
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            12,
+            15,
+            16,
+            15.25
+          ],
+          "texture": "#stone"
+        },
+        "south": {
+          "uv": [
+            4,
+            15,
+            8,
+            15.25
+          ],
+          "texture": "#stone"
+        },
+        "east": {
+          "uv": [
+            0,
+            15,
+            4,
+            15.25
+          ],
+          "texture": "#stone"
+        },
+        "west": {
+          "uv": [
+            8,
+            15,
+            12,
+            15.25
+          ],
+          "texture": "#stone"
+        },
+        "up": {
+          "uv": [
+            4,
+            11,
+            8,
+            15
+          ],
+          "texture": "#stone"
+        },
+        "down": {
+          "uv": [
+            8,
+            11,
+            12,
+            15
+          ],
+          "texture": "#stone"
+        }
+      }
+    },
+    {
+      "name": "Blank recessed plugin mounting face",
+      "from": [
+        1,
+        2,
+        1
+      ],
+      "to": [
+        15,
+        14,
+        2
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            4,
+            0.25,
+            7.5,
+            3.25
+          ],
+          "texture": "#fittings"
+        },
+        "south": {
+          "uv": [
+            0.25,
+            0.25,
+            3.75,
+            3.25
+          ],
+          "texture": "#fittings"
+        },
+        "east": {
+          "uv": [
+            0,
+            0.25,
+            0.25,
+            3.25
+          ],
+          "texture": "#fittings"
+        },
+        "west": {
+          "uv": [
+            3.75,
+            0.25,
+            4,
+            3.25
+          ],
+          "texture": "#fittings"
+        },
+        "up": {
+          "uv": [
+            0.25,
+            0,
+            3.75,
+            0.25
+          ],
+          "texture": "#fittings"
+        },
+        "down": {
+          "uv": [
+            3.75,
+            0,
+            7.25,
+            0.25
+          ],
+          "texture": "#fittings"
+        }
+      }
+    },
+    {
+      "name": "Left basalt jamb",
+      "from": [
+        0,
+        2,
+        0
+      ],
+      "to": [
+        0.7,
+        14,
+        2
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            9.25,
+            0.5,
+            9.5,
+            3.5
+          ],
+          "texture": "#fittings"
+        },
+        "south": {
+          "uv": [
+            8.5,
+            0.5,
+            8.75,
+            3.5
+          ],
+          "texture": "#fittings"
+        },
+        "east": {
+          "uv": [
+            8,
+            0.5,
+            8.5,
+            3.5
+          ],
+          "texture": "#fittings"
+        },
+        "west": {
+          "uv": [
+            8.75,
+            0.5,
+            9.25,
+            3.5
+          ],
+          "texture": "#fittings"
+        },
+        "up": {
+          "uv": [
+            8.5,
+            0,
+            8.75,
+            0.5
+          ],
+          "texture": "#fittings"
+        },
+        "down": {
+          "uv": [
+            8.75,
+            0,
+            9,
+            0.5
+          ],
+          "texture": "#fittings"
+        }
+      }
+    },
+    {
+      "name": "Right basalt jamb",
+      "from": [
+        15.3,
+        2,
+        0
+      ],
+      "to": [
+        16,
+        14,
+        2
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            9.25,
+            0.5,
+            9.5,
+            3.5
+          ],
+          "texture": "#fittings"
+        },
+        "south": {
+          "uv": [
+            8.5,
+            0.5,
+            8.75,
+            3.5
+          ],
+          "texture": "#fittings"
+        },
+        "east": {
+          "uv": [
+            8,
+            0.5,
+            8.5,
+            3.5
+          ],
+          "texture": "#fittings"
+        },
+        "west": {
+          "uv": [
+            8.75,
+            0.5,
+            9.25,
+            3.5
+          ],
+          "texture": "#fittings"
+        },
+        "up": {
+          "uv": [
+            8.5,
+            0,
+            8.75,
+            0.5
+          ],
+          "texture": "#fittings"
+        },
+        "down": {
+          "uv": [
+            8.75,
+            0,
+            9,
+            0.5
+          ],
+          "texture": "#fittings"
+        }
+      }
+    },
+    {
+      "name": "Left gold inner jamb",
+      "from": [
+        0.7,
+        2,
+        0.2
+      ],
+      "to": [
+        1,
+        14,
+        1
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            10.75,
+            0.25,
+            11,
+            3.25
+          ],
+          "texture": "#fittings"
+        },
+        "south": {
+          "uv": [
+            10.25,
+            0.25,
+            10.5,
+            3.25
+          ],
+          "texture": "#fittings"
+        },
+        "east": {
+          "uv": [
+            10,
+            0.25,
+            10.25,
+            3.25
+          ],
+          "texture": "#fittings"
+        },
+        "west": {
+          "uv": [
+            10.5,
+            0.25,
+            10.75,
+            3.25
+          ],
+          "texture": "#fittings"
+        },
+        "up": {
+          "uv": [
+            10.25,
+            0,
+            10.5,
+            0.25
+          ],
+          "texture": "#fittings"
+        },
+        "down": {
+          "uv": [
+            10.5,
+            0,
+            10.75,
+            0.25
+          ],
+          "texture": "#fittings"
+        }
+      }
+    },
+    {
+      "name": "Right gold inner jamb",
+      "from": [
+        15,
+        2,
+        0.2
+      ],
+      "to": [
+        15.3,
+        14,
+        1
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            10.75,
+            0.25,
+            11,
+            3.25
+          ],
+          "texture": "#fittings"
+        },
+        "south": {
+          "uv": [
+            10.25,
+            0.25,
+            10.5,
+            3.25
+          ],
+          "texture": "#fittings"
+        },
+        "east": {
+          "uv": [
+            10,
+            0.25,
+            10.25,
+            3.25
+          ],
+          "texture": "#fittings"
+        },
+        "west": {
+          "uv": [
+            10.5,
+            0.25,
+            10.75,
+            3.25
+          ],
+          "texture": "#fittings"
+        },
+        "up": {
+          "uv": [
+            10.25,
+            0,
+            10.5,
+            0.25
+          ],
+          "texture": "#fittings"
+        },
+        "down": {
+          "uv": [
+            10.5,
+            0,
+            10.75,
+            0.25
+          ],
+          "texture": "#fittings"
+        }
+      }
+    },
+    {
+      "name": "Gold lintel",
+      "from": [
+        0,
+        14,
+        0
+      ],
+      "to": [
+        16,
+        14.25,
+        1
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            4.5,
+            4.25,
+            8.5,
+            4.5
+          ],
+          "texture": "#fittings"
+        },
+        "south": {
+          "uv": [
+            0.25,
+            4.25,
+            4.25,
+            4.5
+          ],
+          "texture": "#fittings"
+        },
+        "east": {
+          "uv": [
+            0,
+            4.25,
+            0.25,
+            4.5
+          ],
+          "texture": "#fittings"
+        },
+        "west": {
+          "uv": [
+            4.25,
+            4.25,
+            4.5,
+            4.5
+          ],
+          "texture": "#fittings"
+        },
+        "up": {
+          "uv": [
+            0.25,
+            4,
+            4.25,
+            4.25
+          ],
+          "texture": "#fittings"
+        },
+        "down": {
+          "uv": [
+            4.25,
+            4,
+            8.25,
+            4.25
+          ],
+          "texture": "#fittings"
+        }
+      }
+    },
+    {
+      "name": "Gold threshold",
+      "from": [
+        0,
+        1.75,
+        0
+      ],
+      "to": [
+        16,
+        2,
+        1
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            4.5,
+            4.25,
+            8.5,
+            4.5
+          ],
+          "texture": "#fittings"
+        },
+        "south": {
+          "uv": [
+            0.25,
+            4.25,
+            4.25,
+            4.5
+          ],
+          "texture": "#fittings"
+        },
+        "east": {
+          "uv": [
+            0,
+            4.25,
+            0.25,
+            4.5
+          ],
+          "texture": "#fittings"
+        },
+        "west": {
+          "uv": [
+            4.25,
+            4.25,
+            4.5,
+            4.5
+          ],
+          "texture": "#fittings"
+        },
+        "up": {
+          "uv": [
+            0.25,
+            4,
+            4.25,
+            4.25
+          ],
+          "texture": "#fittings"
+        },
+        "down": {
+          "uv": [
+            4.25,
+            4,
+            8.25,
+            4.25
+          ],
+          "texture": "#fittings"
+        }
+      }
+    },
+    {
+      "name": "Plinth gold apron",
+      "from": [
+        1,
+        0.5,
+        0
+      ],
+      "to": [
+        15,
+        1.5,
+        0.5
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            4,
+            5.25,
+            7.5,
+            5.5
+          ],
+          "texture": "#fittings"
+        },
+        "south": {
+          "uv": [
+            0.25,
+            5.25,
+            3.75,
+            5.5
+          ],
+          "texture": "#fittings"
+        },
+        "east": {
+          "uv": [
+            0,
+            5.25,
+            0.25,
+            5.5
+          ],
+          "texture": "#fittings"
+        },
+        "west": {
+          "uv": [
+            3.75,
+            5.25,
+            4,
+            5.5
+          ],
+          "texture": "#fittings"
+        },
+        "up": {
+          "uv": [
+            0.25,
+            5,
+            3.75,
+            5.25
+          ],
+          "texture": "#fittings"
+        },
+        "down": {
+          "uv": [
+            3.75,
+            5,
+            7.25,
+            5.25
+          ],
+          "texture": "#fittings"
+        }
+      }
+    },
+    {
+      "name": "Left plinth corner shoe",
+      "from": [
+        0,
+        0,
+        0
+      ],
+      "to": [
+        2,
+        0.5,
+        3
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            2,
+            6.75,
+            2.5,
+            7
+          ],
+          "texture": "#fittings"
+        },
+        "south": {
+          "uv": [
+            0.75,
+            6.75,
+            1.25,
+            7
+          ],
+          "texture": "#fittings"
+        },
+        "east": {
+          "uv": [
+            0,
+            6.75,
+            0.75,
+            7
+          ],
+          "texture": "#fittings"
+        },
+        "west": {
+          "uv": [
+            1.25,
+            6.75,
+            2,
+            7
+          ],
+          "texture": "#fittings"
+        },
+        "up": {
+          "uv": [
+            0.75,
+            6,
+            1.25,
+            6.75
+          ],
+          "texture": "#fittings"
+        },
+        "down": {
+          "uv": [
+            1.25,
+            6,
+            1.75,
+            6.75
+          ],
+          "texture": "#fittings"
+        }
+      }
+    },
+    {
+      "name": "Right plinth corner shoe",
+      "from": [
+        14,
+        0,
+        0
+      ],
+      "to": [
+        16,
+        0.5,
+        3
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            2,
+            6.75,
+            2.5,
+            7
+          ],
+          "texture": "#fittings"
+        },
+        "south": {
+          "uv": [
+            0.75,
+            6.75,
+            1.25,
+            7
+          ],
+          "texture": "#fittings"
+        },
+        "east": {
+          "uv": [
+            0,
+            6.75,
+            0.75,
+            7
+          ],
+          "texture": "#fittings"
+        },
+        "west": {
+          "uv": [
+            1.25,
+            6.75,
+            2,
+            7
+          ],
+          "texture": "#fittings"
+        },
+        "up": {
+          "uv": [
+            0.75,
+            6,
+            1.25,
+            6.75
+          ],
+          "texture": "#fittings"
+        },
+        "down": {
+          "uv": [
+            1.25,
+            6,
+            1.75,
+            6.75
+          ],
+          "texture": "#fittings"
+        }
+      }
+    },
+    {
+      "name": "Left horn gold socket",
+      "from": [
+        1,
+        14.5,
+        1
+      ],
+      "to": [
+        4,
+        15,
+        4
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            5.25,
+            6.75,
+            6,
+            7
+          ],
+          "texture": "#fittings"
+        },
+        "south": {
+          "uv": [
+            3.75,
+            6.75,
+            4.5,
+            7
+          ],
+          "texture": "#fittings"
+        },
+        "east": {
+          "uv": [
+            3,
+            6.75,
+            3.75,
+            7
+          ],
+          "texture": "#fittings"
+        },
+        "west": {
+          "uv": [
+            4.5,
+            6.75,
+            5.25,
+            7
+          ],
+          "texture": "#fittings"
+        },
+        "up": {
+          "uv": [
+            3.75,
+            6,
+            4.5,
+            6.75
+          ],
+          "texture": "#fittings"
+        },
+        "down": {
+          "uv": [
+            4.5,
+            6,
+            5.25,
+            6.75
+          ],
+          "texture": "#fittings"
+        }
+      }
+    },
+    {
+      "name": "Right horn gold socket",
+      "from": [
+        12,
+        14.5,
+        1
+      ],
+      "to": [
+        15,
+        15,
+        4
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            5.25,
+            6.75,
+            6,
+            7
+          ],
+          "texture": "#fittings"
+        },
+        "south": {
+          "uv": [
+            3.75,
+            6.75,
+            4.5,
+            7
+          ],
+          "texture": "#fittings"
+        },
+        "east": {
+          "uv": [
+            3,
+            6.75,
+            3.75,
+            7
+          ],
+          "texture": "#fittings"
+        },
+        "west": {
+          "uv": [
+            4.5,
+            6.75,
+            5.25,
+            7
+          ],
+          "texture": "#fittings"
+        },
+        "up": {
+          "uv": [
+            3.75,
+            6,
+            4.5,
+            6.75
+          ],
+          "texture": "#fittings"
+        },
+        "down": {
+          "uv": [
+            4.5,
+            6,
+            5.25,
+            6.75
+          ],
+          "texture": "#fittings"
+        }
+      }
+    },
+    {
+      "name": "Left dragon horn root",
+      "from": [
+        1.5,
+        15,
+        1.5
+      ],
+      "to": [
+        3.5,
+        15.5,
+        3.5
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            8,
+            6.5,
+            8.5,
+            6.75
+          ],
+          "texture": "#fittings"
+        },
+        "south": {
+          "uv": [
+            7,
+            6.5,
+            7.5,
+            6.75
+          ],
+          "texture": "#fittings"
+        },
+        "east": {
+          "uv": [
+            6.5,
+            6.5,
+            7,
+            6.75
+          ],
+          "texture": "#fittings"
+        },
+        "west": {
+          "uv": [
+            7.5,
+            6.5,
+            8,
+            6.75
+          ],
+          "texture": "#fittings"
+        },
+        "up": {
+          "uv": [
+            7,
+            6,
+            7.5,
+            6.5
+          ],
+          "texture": "#fittings"
+        },
+        "down": {
+          "uv": [
+            7.5,
+            6,
+            8,
+            6.5
+          ],
+          "texture": "#fittings"
+        }
+      }
+    },
+    {
+      "name": "Right dragon horn root",
+      "from": [
+        12.5,
+        15,
+        1.5
+      ],
+      "to": [
+        14.5,
+        15.5,
+        3.5
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            8,
+            6.5,
+            8.5,
+            6.75
+          ],
+          "texture": "#fittings"
+        },
+        "south": {
+          "uv": [
+            7,
+            6.5,
+            7.5,
+            6.75
+          ],
+          "texture": "#fittings"
+        },
+        "east": {
+          "uv": [
+            6.5,
+            6.5,
+            7,
+            6.75
+          ],
+          "texture": "#fittings"
+        },
+        "west": {
+          "uv": [
+            7.5,
+            6.5,
+            8,
+            6.75
+          ],
+          "texture": "#fittings"
+        },
+        "up": {
+          "uv": [
+            7,
+            6,
+            7.5,
+            6.5
+          ],
+          "texture": "#fittings"
+        },
+        "down": {
+          "uv": [
+            7.5,
+            6,
+            8,
+            6.5
+          ],
+          "texture": "#fittings"
+        }
+      }
+    },
+    {
+      "name": "Left outward horn tip",
+      "from": [
+        1,
+        15.5,
+        2
+      ],
+      "to": [
+        2.5,
+        16,
+        3
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            10,
+            6.25,
+            10.5,
+            6.5
+          ],
+          "texture": "#fittings"
+        },
+        "south": {
+          "uv": [
+            9.25,
+            6.25,
+            9.75,
+            6.5
+          ],
+          "texture": "#fittings"
+        },
+        "east": {
+          "uv": [
+            9,
+            6.25,
+            9.25,
+            6.5
+          ],
+          "texture": "#fittings"
+        },
+        "west": {
+          "uv": [
+            9.75,
+            6.25,
+            10,
+            6.5
+          ],
+          "texture": "#fittings"
+        },
+        "up": {
+          "uv": [
+            9.25,
+            6,
+            9.75,
+            6.25
+          ],
+          "texture": "#fittings"
+        },
+        "down": {
+          "uv": [
+            9.75,
+            6,
+            10.25,
+            6.25
+          ],
+          "texture": "#fittings"
+        }
+      }
+    },
+    {
+      "name": "Right outward horn tip",
+      "from": [
+        13.5,
+        15.5,
+        2
+      ],
+      "to": [
+        15,
+        16,
+        3
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            10,
+            6.25,
+            10.5,
+            6.5
+          ],
+          "texture": "#fittings"
+        },
+        "south": {
+          "uv": [
+            9.25,
+            6.25,
+            9.75,
+            6.5
+          ],
+          "texture": "#fittings"
+        },
+        "east": {
+          "uv": [
+            9,
+            6.25,
+            9.25,
+            6.5
+          ],
+          "texture": "#fittings"
+        },
+        "west": {
+          "uv": [
+            9.75,
+            6.25,
+            10,
+            6.5
+          ],
+          "texture": "#fittings"
+        },
+        "up": {
+          "uv": [
+            9.25,
+            6,
+            9.75,
+            6.25
+          ],
+          "texture": "#fittings"
+        },
+        "down": {
+          "uv": [
+            9.75,
+            6,
+            10.25,
+            6.25
+          ],
+          "texture": "#fittings"
+        }
+      }
+    },
+    {
+      "name": "Central crown gold seal housing",
+      "from": [
+        6,
+        14.5,
+        0.5
+      ],
+      "to": [
+        10,
+        15.5,
+        2.5
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            2,
+            8,
+            3,
+            8.25
+          ],
+          "texture": "#fittings"
+        },
+        "south": {
+          "uv": [
+            0.5,
+            8,
+            1.5,
+            8.25
+          ],
+          "texture": "#fittings"
+        },
+        "east": {
+          "uv": [
+            0,
+            8,
+            0.5,
+            8.25
+          ],
+          "texture": "#fittings"
+        },
+        "west": {
+          "uv": [
+            1.5,
+            8,
+            2,
+            8.25
+          ],
+          "texture": "#fittings"
+        },
+        "up": {
+          "uv": [
+            0.5,
+            7.5,
+            1.5,
+            8
+          ],
+          "texture": "#fittings"
+        },
+        "down": {
+          "uv": [
+            1.5,
+            7.5,
+            2.5,
+            8
+          ],
+          "texture": "#fittings"
+        }
+      }
+    },
+    {
+      "name": "Crown emerald safe seal",
+      "from": [
+        6.75,
+        14.65,
+        0.25
+      ],
+      "to": [
+        9.25,
+        15.35,
+        0.5
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            4.75,
+            7.75,
+            5.5,
+            8
+          ],
+          "texture": "#fittings"
+        },
+        "south": {
+          "uv": [
+            3.75,
+            7.75,
+            4.5,
+            8
+          ],
+          "texture": "#fittings"
+        },
+        "east": {
+          "uv": [
+            3.5,
+            7.75,
+            3.75,
+            8
+          ],
+          "texture": "#fittings"
+        },
+        "west": {
+          "uv": [
+            4.5,
+            7.75,
+            4.75,
+            8
+          ],
+          "texture": "#fittings"
+        },
+        "up": {
+          "uv": [
+            3.75,
+            7.5,
+            4.5,
+            7.75
+          ],
+          "texture": "#fittings"
+        },
+        "down": {
+          "uv": [
+            4.5,
+            7.5,
+            5.25,
+            7.75
+          ],
+          "texture": "#fittings"
+        }
+      }
+    },
+    {
+      "name": "Central dragon crest tooth",
+      "from": [
+        7.5,
+        15.5,
+        1
+      ],
+      "to": [
+        8.5,
+        15.85,
+        2
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            6.75,
+            7.75,
+            7,
+            8
+          ],
+          "texture": "#fittings"
+        },
+        "south": {
+          "uv": [
+            6.25,
+            7.75,
+            6.5,
+            8
+          ],
+          "texture": "#fittings"
+        },
+        "east": {
+          "uv": [
+            6,
+            7.75,
+            6.25,
+            8
+          ],
+          "texture": "#fittings"
+        },
+        "west": {
+          "uv": [
+            6.5,
+            7.75,
+            6.75,
+            8
+          ],
+          "texture": "#fittings"
+        },
+        "up": {
+          "uv": [
+            6.25,
+            7.5,
+            6.5,
+            7.75
+          ],
+          "texture": "#fittings"
+        },
+        "down": {
+          "uv": [
+            6.5,
+            7.5,
+            6.75,
+            7.75
+          ],
+          "texture": "#fittings"
+        }
+      }
+    },
+    {
+      "name": "Left emerald jamb clasp",
+      "from": [
+        0.1,
+        7.25,
+        0
+      ],
+      "to": [
+        0.6,
+        8.75,
+        0.25
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            8.25,
+            7.75,
+            8.5,
+            8.25
+          ],
+          "texture": "#fittings"
+        },
+        "south": {
+          "uv": [
+            7.75,
+            7.75,
+            8,
+            8.25
+          ],
+          "texture": "#fittings"
+        },
+        "east": {
+          "uv": [
+            7.5,
+            7.75,
+            7.75,
+            8.25
+          ],
+          "texture": "#fittings"
+        },
+        "west": {
+          "uv": [
+            8,
+            7.75,
+            8.25,
+            8.25
+          ],
+          "texture": "#fittings"
+        },
+        "up": {
+          "uv": [
+            7.75,
+            7.5,
+            8,
+            7.75
+          ],
+          "texture": "#fittings"
+        },
+        "down": {
+          "uv": [
+            8,
+            7.5,
+            8.25,
+            7.75
+          ],
+          "texture": "#fittings"
+        }
+      }
+    },
+    {
+      "name": "Right emerald jamb clasp",
+      "from": [
+        15.4,
+        7.25,
+        0
+      ],
+      "to": [
+        15.9,
+        8.75,
+        0.25
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            8.25,
+            7.75,
+            8.5,
+            8.25
+          ],
+          "texture": "#fittings"
+        },
+        "south": {
+          "uv": [
+            7.75,
+            7.75,
+            8,
+            8.25
+          ],
+          "texture": "#fittings"
+        },
+        "east": {
+          "uv": [
+            7.5,
+            7.75,
+            7.75,
+            8.25
+          ],
+          "texture": "#fittings"
+        },
+        "west": {
+          "uv": [
+            8,
+            7.75,
+            8.25,
+            8.25
+          ],
+          "texture": "#fittings"
+        },
+        "up": {
+          "uv": [
+            7.75,
+            7.5,
+            8,
+            7.75
+          ],
+          "texture": "#fittings"
+        },
+        "down": {
+          "uv": [
+            8,
+            7.5,
+            8.25,
+            7.75
+          ],
+          "texture": "#fittings"
+        }
+      }
+    }
+  ],
+  "display": {
+    "gui": {
+      "rotation": [
+        30,
+        225,
+        0
+      ],
+      "translation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        0.625,
+        0.625,
+        0.625
+      ]
+    },
+    "ground": {
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "translation": [
+        0,
+        3,
+        0
+      ],
+      "scale": [
+        0.25,
+        0.25,
+        0.25
+      ]
+    },
+    "fixed": {
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "translation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        0.5,
+        0.5,
+        0.5
+      ]
+    },
+    "head": {
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "translation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    "thirdperson_righthand": {
+      "rotation": [
+        75,
+        45,
+        0
+      ],
+      "translation": [
+        0,
+        2.5,
+        0
+      ],
+      "scale": [
+        0.375,
+        0.375,
+        0.375
+      ]
+    },
+    "thirdperson_lefthand": {
+      "rotation": [
+        75,
+        45,
+        0
+      ],
+      "translation": [
+        0,
+        2.5,
+        0
+      ],
+      "scale": [
+        0.375,
+        0.375,
+        0.375
+      ]
+    },
+    "firstperson_righthand": {
+      "rotation": [
+        0,
+        45,
+        0
+      ],
+      "translation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        0.4,
+        0.4,
+        0.4
+      ]
+    },
+    "firstperson_lefthand": {
+      "rotation": [
+        0,
+        45,
+        0
+      ],
+      "translation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        0.4,
+        0.4,
+        0.4
+      ]
+    }
+  },
+  "gui_light": "side"
+}

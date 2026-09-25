@@ -74,3 +74,6 @@ The shared-kitchen update adds live quality stars, sixteen animated workstation 
 Dropped custom items use larger ground display transforms exported through Voxel Forge: +50% scale for 3D models and +30% for flat items. Ground positions are adjusted around their bounds; held and placed-world poses are preserved.
 
 Custom 3D models explicitly map eating/item particles to their generated material texture. The corrected Voxel Forge exporter preserves all geometry, pixels and display transforms.
+
+
+Full Send Dragon Tower and poker assets: Voxel Forge tower cabinet, six-seat felt table, four door states and dealer marker. Export sources, generation jobs and SHA-256 manifests are in `provenance/fullsend-tower-poker`. Card and chip models reuse the existing Voxel Forge Full Send assets. All game labels use ordinary Minecraft text; no added font providers or shaders.
