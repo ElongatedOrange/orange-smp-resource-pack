@@ -1,0 +1,1597 @@
+{
+  "credit": "VoxelForge",
+  "textures": {
+    "particle": "voxelforge:item/full_send_blackjack_table_befd329c/table_atlas",
+    "table_atlas": "voxelforge:item/full_send_blackjack_table_befd329c/table_atlas"
+  },
+  "elements": [
+    {
+      "name": "Structural wooden tabletop",
+      "from": [
+        0,
+        11,
+        0
+      ],
+      "to": [
+        16,
+        12,
+        16
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            6,
+            2,
+            8,
+            2.125
+          ],
+          "texture": "#table_atlas"
+        },
+        "south": {
+          "uv": [
+            2,
+            2,
+            4,
+            2.125
+          ],
+          "texture": "#table_atlas"
+        },
+        "east": {
+          "uv": [
+            0,
+            2,
+            2,
+            2.125
+          ],
+          "texture": "#table_atlas"
+        },
+        "west": {
+          "uv": [
+            4,
+            2,
+            6,
+            2.125
+          ],
+          "texture": "#table_atlas"
+        },
+        "up": {
+          "uv": [
+            2,
+            0,
+            4,
+            2
+          ],
+          "texture": "#table_atlas"
+        },
+        "down": {
+          "uv": [
+            4,
+            0,
+            6,
+            2
+          ],
+          "texture": "#table_atlas"
+        }
+      }
+    },
+    {
+      "name": "Emerald playing felt",
+      "from": [
+        2,
+        12,
+        2
+      ],
+      "to": [
+        14,
+        12.5,
+        14
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            4.5,
+            3.75,
+            6,
+            3.875
+          ],
+          "texture": "#table_atlas"
+        },
+        "south": {
+          "uv": [
+            1.5,
+            3.75,
+            3,
+            3.875
+          ],
+          "texture": "#table_atlas"
+        },
+        "east": {
+          "uv": [
+            0,
+            3.75,
+            1.5,
+            3.875
+          ],
+          "texture": "#table_atlas"
+        },
+        "west": {
+          "uv": [
+            3,
+            3.75,
+            4.5,
+            3.875
+          ],
+          "texture": "#table_atlas"
+        },
+        "up": {
+          "uv": [
+            1.5,
+            2.25,
+            3,
+            3.75
+          ],
+          "texture": "#table_atlas"
+        },
+        "down": {
+          "uv": [
+            3,
+            2.25,
+            4.5,
+            3.75
+          ],
+          "texture": "#table_atlas"
+        }
+      }
+    },
+    {
+      "name": "Orange front identification rail",
+      "from": [
+        0,
+        12,
+        0
+      ],
+      "to": [
+        16,
+        13,
+        2
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            10.5,
+            0.25,
+            12.5,
+            0.375
+          ],
+          "texture": "#table_atlas"
+        },
+        "south": {
+          "uv": [
+            8.25,
+            0.25,
+            10.25,
+            0.375
+          ],
+          "texture": "#table_atlas"
+        },
+        "east": {
+          "uv": [
+            8,
+            0.25,
+            8.25,
+            0.375
+          ],
+          "texture": "#table_atlas"
+        },
+        "west": {
+          "uv": [
+            10.25,
+            0.25,
+            10.5,
+            0.375
+          ],
+          "texture": "#table_atlas"
+        },
+        "up": {
+          "uv": [
+            8.25,
+            0,
+            10.25,
+            0.25
+          ],
+          "texture": "#table_atlas"
+        },
+        "down": {
+          "uv": [
+            10.25,
+            0,
+            12.25,
+            0.25
+          ],
+          "texture": "#table_atlas"
+        }
+      }
+    },
+    {
+      "name": "Burnished orange rear rail",
+      "from": [
+        0,
+        12,
+        14
+      ],
+      "to": [
+        16,
+        13,
+        16
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            10.5,
+            0.75,
+            12.5,
+            0.875
+          ],
+          "texture": "#table_atlas"
+        },
+        "south": {
+          "uv": [
+            8.25,
+            0.75,
+            10.25,
+            0.875
+          ],
+          "texture": "#table_atlas"
+        },
+        "east": {
+          "uv": [
+            8,
+            0.75,
+            8.25,
+            0.875
+          ],
+          "texture": "#table_atlas"
+        },
+        "west": {
+          "uv": [
+            10.25,
+            0.75,
+            10.5,
+            0.875
+          ],
+          "texture": "#table_atlas"
+        },
+        "up": {
+          "uv": [
+            8.25,
+            0.5,
+            10.25,
+            0.75
+          ],
+          "texture": "#table_atlas"
+        },
+        "down": {
+          "uv": [
+            10.25,
+            0.5,
+            12.25,
+            0.75
+          ],
+          "texture": "#table_atlas"
+        }
+      }
+    },
+    {
+      "name": "Orange left perimeter rail",
+      "from": [
+        0,
+        12,
+        2
+      ],
+      "to": [
+        2,
+        13,
+        14
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            11.25,
+            2.5,
+            11.5,
+            2.625
+          ],
+          "texture": "#table_atlas"
+        },
+        "south": {
+          "uv": [
+            9.5,
+            2.5,
+            9.75,
+            2.625
+          ],
+          "texture": "#table_atlas"
+        },
+        "east": {
+          "uv": [
+            8,
+            2.5,
+            9.5,
+            2.625
+          ],
+          "texture": "#table_atlas"
+        },
+        "west": {
+          "uv": [
+            9.75,
+            2.5,
+            11.25,
+            2.625
+          ],
+          "texture": "#table_atlas"
+        },
+        "up": {
+          "uv": [
+            9.5,
+            1,
+            9.75,
+            2.5
+          ],
+          "texture": "#table_atlas"
+        },
+        "down": {
+          "uv": [
+            9.75,
+            1,
+            10,
+            2.5
+          ],
+          "texture": "#table_atlas"
+        }
+      }
+    },
+    {
+      "name": "Orange right perimeter rail",
+      "from": [
+        14,
+        12,
+        2
+      ],
+      "to": [
+        16,
+        13,
+        14
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            15.25,
+            2.5,
+            15.5,
+            2.625
+          ],
+          "texture": "#table_atlas"
+        },
+        "south": {
+          "uv": [
+            13.5,
+            2.5,
+            13.75,
+            2.625
+          ],
+          "texture": "#table_atlas"
+        },
+        "east": {
+          "uv": [
+            12,
+            2.5,
+            13.5,
+            2.625
+          ],
+          "texture": "#table_atlas"
+        },
+        "west": {
+          "uv": [
+            13.75,
+            2.5,
+            15.25,
+            2.625
+          ],
+          "texture": "#table_atlas"
+        },
+        "up": {
+          "uv": [
+            13.5,
+            1,
+            13.75,
+            2.5
+          ],
+          "texture": "#table_atlas"
+        },
+        "down": {
+          "uv": [
+            13.75,
+            1,
+            14,
+            2.5
+          ],
+          "texture": "#table_atlas"
+        }
+      }
+    },
+    {
+      "name": "Front brass felt edging",
+      "from": [
+        2,
+        12.5,
+        2
+      ],
+      "to": [
+        14,
+        12.75,
+        2.5
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            9.75,
+            2.875,
+            11.25,
+            3
+          ],
+          "texture": "#table_atlas"
+        },
+        "south": {
+          "uv": [
+            8.125,
+            2.875,
+            9.625,
+            3
+          ],
+          "texture": "#table_atlas"
+        },
+        "east": {
+          "uv": [
+            8,
+            2.875,
+            8.125,
+            3
+          ],
+          "texture": "#table_atlas"
+        },
+        "west": {
+          "uv": [
+            9.625,
+            2.875,
+            9.75,
+            3
+          ],
+          "texture": "#table_atlas"
+        },
+        "up": {
+          "uv": [
+            8.125,
+            2.75,
+            9.625,
+            2.875
+          ],
+          "texture": "#table_atlas"
+        },
+        "down": {
+          "uv": [
+            9.625,
+            2.75,
+            11.125,
+            2.875
+          ],
+          "texture": "#table_atlas"
+        }
+      }
+    },
+    {
+      "name": "Rear brass felt edging",
+      "from": [
+        2,
+        12.5,
+        13.5
+      ],
+      "to": [
+        14,
+        12.75,
+        14
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            9.75,
+            3.25,
+            11.25,
+            3.375
+          ],
+          "texture": "#table_atlas"
+        },
+        "south": {
+          "uv": [
+            8.125,
+            3.25,
+            9.625,
+            3.375
+          ],
+          "texture": "#table_atlas"
+        },
+        "east": {
+          "uv": [
+            8,
+            3.25,
+            8.125,
+            3.375
+          ],
+          "texture": "#table_atlas"
+        },
+        "west": {
+          "uv": [
+            9.625,
+            3.25,
+            9.75,
+            3.375
+          ],
+          "texture": "#table_atlas"
+        },
+        "up": {
+          "uv": [
+            8.125,
+            3.125,
+            9.625,
+            3.25
+          ],
+          "texture": "#table_atlas"
+        },
+        "down": {
+          "uv": [
+            9.625,
+            3.125,
+            11.125,
+            3.25
+          ],
+          "texture": "#table_atlas"
+        }
+      }
+    },
+    {
+      "name": "Left brass felt edging",
+      "from": [
+        2,
+        12.5,
+        2.5
+      ],
+      "to": [
+        2.5,
+        12.75,
+        13.5
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            2.875,
+            5.375,
+            3,
+            5.5
+          ],
+          "texture": "#table_atlas"
+        },
+        "south": {
+          "uv": [
+            1.375,
+            5.375,
+            1.5,
+            5.5
+          ],
+          "texture": "#table_atlas"
+        },
+        "east": {
+          "uv": [
+            0,
+            5.375,
+            1.375,
+            5.5
+          ],
+          "texture": "#table_atlas"
+        },
+        "west": {
+          "uv": [
+            1.5,
+            5.375,
+            2.875,
+            5.5
+          ],
+          "texture": "#table_atlas"
+        },
+        "up": {
+          "uv": [
+            1.375,
+            4,
+            1.5,
+            5.375
+          ],
+          "texture": "#table_atlas"
+        },
+        "down": {
+          "uv": [
+            1.5,
+            4,
+            1.625,
+            5.375
+          ],
+          "texture": "#table_atlas"
+        }
+      }
+    },
+    {
+      "name": "Right brass felt edging",
+      "from": [
+        13.5,
+        12.5,
+        2.5
+      ],
+      "to": [
+        14,
+        12.75,
+        13.5
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            5.875,
+            5.375,
+            6,
+            5.5
+          ],
+          "texture": "#table_atlas"
+        },
+        "south": {
+          "uv": [
+            4.375,
+            5.375,
+            4.5,
+            5.5
+          ],
+          "texture": "#table_atlas"
+        },
+        "east": {
+          "uv": [
+            3,
+            5.375,
+            4.375,
+            5.5
+          ],
+          "texture": "#table_atlas"
+        },
+        "west": {
+          "uv": [
+            4.5,
+            5.375,
+            5.875,
+            5.5
+          ],
+          "texture": "#table_atlas"
+        },
+        "up": {
+          "uv": [
+            4.375,
+            4,
+            4.5,
+            5.375
+          ],
+          "texture": "#table_atlas"
+        },
+        "down": {
+          "uv": [
+            4.5,
+            4,
+            4.625,
+            5.375
+          ],
+          "texture": "#table_atlas"
+        }
+      }
+    },
+    {
+      "name": "Front dark wood apron",
+      "from": [
+        1,
+        9,
+        1
+      ],
+      "to": [
+        15,
+        11,
+        2
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            10,
+            3.625,
+            11.75,
+            3.875
+          ],
+          "texture": "#table_atlas"
+        },
+        "south": {
+          "uv": [
+            8.125,
+            3.625,
+            9.875,
+            3.875
+          ],
+          "texture": "#table_atlas"
+        },
+        "east": {
+          "uv": [
+            8,
+            3.625,
+            8.125,
+            3.875
+          ],
+          "texture": "#table_atlas"
+        },
+        "west": {
+          "uv": [
+            9.875,
+            3.625,
+            10,
+            3.875
+          ],
+          "texture": "#table_atlas"
+        },
+        "up": {
+          "uv": [
+            8.125,
+            3.5,
+            9.875,
+            3.625
+          ],
+          "texture": "#table_atlas"
+        },
+        "down": {
+          "uv": [
+            9.875,
+            3.5,
+            11.625,
+            3.625
+          ],
+          "texture": "#table_atlas"
+        }
+      }
+    },
+    {
+      "name": "Rear dark wood apron",
+      "from": [
+        1,
+        9,
+        14
+      ],
+      "to": [
+        15,
+        11,
+        15
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            10,
+            4.125,
+            11.75,
+            4.375
+          ],
+          "texture": "#table_atlas"
+        },
+        "south": {
+          "uv": [
+            8.125,
+            4.125,
+            9.875,
+            4.375
+          ],
+          "texture": "#table_atlas"
+        },
+        "east": {
+          "uv": [
+            8,
+            4.125,
+            8.125,
+            4.375
+          ],
+          "texture": "#table_atlas"
+        },
+        "west": {
+          "uv": [
+            9.875,
+            4.125,
+            10,
+            4.375
+          ],
+          "texture": "#table_atlas"
+        },
+        "up": {
+          "uv": [
+            8.125,
+            4,
+            9.875,
+            4.125
+          ],
+          "texture": "#table_atlas"
+        },
+        "down": {
+          "uv": [
+            9.875,
+            4,
+            11.625,
+            4.125
+          ],
+          "texture": "#table_atlas"
+        }
+      }
+    },
+    {
+      "name": "Left dark wood apron",
+      "from": [
+        1,
+        9,
+        2
+      ],
+      "to": [
+        2,
+        11,
+        14
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            9.125,
+            6,
+            9.25,
+            6.25
+          ],
+          "texture": "#table_atlas"
+        },
+        "south": {
+          "uv": [
+            7.5,
+            6,
+            7.625,
+            6.25
+          ],
+          "texture": "#table_atlas"
+        },
+        "east": {
+          "uv": [
+            6,
+            6,
+            7.5,
+            6.25
+          ],
+          "texture": "#table_atlas"
+        },
+        "west": {
+          "uv": [
+            7.625,
+            6,
+            9.125,
+            6.25
+          ],
+          "texture": "#table_atlas"
+        },
+        "up": {
+          "uv": [
+            7.5,
+            4.5,
+            7.625,
+            6
+          ],
+          "texture": "#table_atlas"
+        },
+        "down": {
+          "uv": [
+            7.625,
+            4.5,
+            7.75,
+            6
+          ],
+          "texture": "#table_atlas"
+        }
+      }
+    },
+    {
+      "name": "Right dark wood apron",
+      "from": [
+        14,
+        9,
+        2
+      ],
+      "to": [
+        15,
+        11,
+        14
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            12.375,
+            6,
+            12.5,
+            6.25
+          ],
+          "texture": "#table_atlas"
+        },
+        "south": {
+          "uv": [
+            10.75,
+            6,
+            10.875,
+            6.25
+          ],
+          "texture": "#table_atlas"
+        },
+        "east": {
+          "uv": [
+            9.25,
+            6,
+            10.75,
+            6.25
+          ],
+          "texture": "#table_atlas"
+        },
+        "west": {
+          "uv": [
+            10.875,
+            6,
+            12.375,
+            6.25
+          ],
+          "texture": "#table_atlas"
+        },
+        "up": {
+          "uv": [
+            10.75,
+            4.5,
+            10.875,
+            6
+          ],
+          "texture": "#table_atlas"
+        },
+        "down": {
+          "uv": [
+            10.875,
+            4.5,
+            11,
+            6
+          ],
+          "texture": "#table_atlas"
+        }
+      }
+    },
+    {
+      "name": "Central stained wood pedestal",
+      "from": [
+        5,
+        3,
+        5
+      ],
+      "to": [
+        11,
+        11,
+        11
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            2.25,
+            6.75,
+            3,
+            7.75
+          ],
+          "texture": "#table_atlas"
+        },
+        "south": {
+          "uv": [
+            0.75,
+            6.75,
+            1.5,
+            7.75
+          ],
+          "texture": "#table_atlas"
+        },
+        "east": {
+          "uv": [
+            0,
+            6.75,
+            0.75,
+            7.75
+          ],
+          "texture": "#table_atlas"
+        },
+        "west": {
+          "uv": [
+            1.5,
+            6.75,
+            2.25,
+            7.75
+          ],
+          "texture": "#table_atlas"
+        },
+        "up": {
+          "uv": [
+            0.75,
+            6,
+            1.5,
+            6.75
+          ],
+          "texture": "#table_atlas"
+        },
+        "down": {
+          "uv": [
+            1.5,
+            6,
+            2.25,
+            6.75
+          ],
+          "texture": "#table_atlas"
+        }
+      }
+    },
+    {
+      "name": "Broad wooden pedestal plinth",
+      "from": [
+        3,
+        1,
+        3
+      ],
+      "to": [
+        13,
+        3,
+        13
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            6.75,
+            7.5,
+            8,
+            7.75
+          ],
+          "texture": "#table_atlas"
+        },
+        "south": {
+          "uv": [
+            4.25,
+            7.5,
+            5.5,
+            7.75
+          ],
+          "texture": "#table_atlas"
+        },
+        "east": {
+          "uv": [
+            3,
+            7.5,
+            4.25,
+            7.75
+          ],
+          "texture": "#table_atlas"
+        },
+        "west": {
+          "uv": [
+            5.5,
+            7.5,
+            6.75,
+            7.75
+          ],
+          "texture": "#table_atlas"
+        },
+        "up": {
+          "uv": [
+            4.25,
+            6.25,
+            5.5,
+            7.5
+          ],
+          "texture": "#table_atlas"
+        },
+        "down": {
+          "uv": [
+            5.5,
+            6.25,
+            6.75,
+            7.5
+          ],
+          "texture": "#table_atlas"
+        }
+      }
+    },
+    {
+      "name": "Front left block foot",
+      "from": [
+        2,
+        0,
+        2
+      ],
+      "to": [
+        6,
+        1,
+        6
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            9.5,
+            6.875,
+            10,
+            7
+          ],
+          "texture": "#table_atlas"
+        },
+        "south": {
+          "uv": [
+            8.5,
+            6.875,
+            9,
+            7
+          ],
+          "texture": "#table_atlas"
+        },
+        "east": {
+          "uv": [
+            8,
+            6.875,
+            8.5,
+            7
+          ],
+          "texture": "#table_atlas"
+        },
+        "west": {
+          "uv": [
+            9,
+            6.875,
+            9.5,
+            7
+          ],
+          "texture": "#table_atlas"
+        },
+        "up": {
+          "uv": [
+            8.5,
+            6.375,
+            9,
+            6.875
+          ],
+          "texture": "#table_atlas"
+        },
+        "down": {
+          "uv": [
+            9,
+            6.375,
+            9.5,
+            6.875
+          ],
+          "texture": "#table_atlas"
+        }
+      }
+    },
+    {
+      "name": "Front right block foot",
+      "from": [
+        10,
+        0,
+        2
+      ],
+      "to": [
+        14,
+        1,
+        6
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            11.5,
+            6.875,
+            12,
+            7
+          ],
+          "texture": "#table_atlas"
+        },
+        "south": {
+          "uv": [
+            10.5,
+            6.875,
+            11,
+            7
+          ],
+          "texture": "#table_atlas"
+        },
+        "east": {
+          "uv": [
+            10,
+            6.875,
+            10.5,
+            7
+          ],
+          "texture": "#table_atlas"
+        },
+        "west": {
+          "uv": [
+            11,
+            6.875,
+            11.5,
+            7
+          ],
+          "texture": "#table_atlas"
+        },
+        "up": {
+          "uv": [
+            10.5,
+            6.375,
+            11,
+            6.875
+          ],
+          "texture": "#table_atlas"
+        },
+        "down": {
+          "uv": [
+            11,
+            6.375,
+            11.5,
+            6.875
+          ],
+          "texture": "#table_atlas"
+        }
+      }
+    },
+    {
+      "name": "Rear left block foot",
+      "from": [
+        2,
+        0,
+        10
+      ],
+      "to": [
+        6,
+        1,
+        14
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            13.5,
+            6.875,
+            14,
+            7
+          ],
+          "texture": "#table_atlas"
+        },
+        "south": {
+          "uv": [
+            12.5,
+            6.875,
+            13,
+            7
+          ],
+          "texture": "#table_atlas"
+        },
+        "east": {
+          "uv": [
+            12,
+            6.875,
+            12.5,
+            7
+          ],
+          "texture": "#table_atlas"
+        },
+        "west": {
+          "uv": [
+            13,
+            6.875,
+            13.5,
+            7
+          ],
+          "texture": "#table_atlas"
+        },
+        "up": {
+          "uv": [
+            12.5,
+            6.375,
+            13,
+            6.875
+          ],
+          "texture": "#table_atlas"
+        },
+        "down": {
+          "uv": [
+            13,
+            6.375,
+            13.5,
+            6.875
+          ],
+          "texture": "#table_atlas"
+        }
+      }
+    },
+    {
+      "name": "Rear right block foot",
+      "from": [
+        10,
+        0,
+        10
+      ],
+      "to": [
+        14,
+        1,
+        14
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            15.5,
+            6.875,
+            16,
+            7
+          ],
+          "texture": "#table_atlas"
+        },
+        "south": {
+          "uv": [
+            14.5,
+            6.875,
+            15,
+            7
+          ],
+          "texture": "#table_atlas"
+        },
+        "east": {
+          "uv": [
+            14,
+            6.875,
+            14.5,
+            7
+          ],
+          "texture": "#table_atlas"
+        },
+        "west": {
+          "uv": [
+            15,
+            6.875,
+            15.5,
+            7
+          ],
+          "texture": "#table_atlas"
+        },
+        "up": {
+          "uv": [
+            14.5,
+            6.375,
+            15,
+            6.875
+          ],
+          "texture": "#table_atlas"
+        },
+        "down": {
+          "uv": [
+            15,
+            6.375,
+            15.5,
+            6.875
+          ],
+          "texture": "#table_atlas"
+        }
+      }
+    },
+    {
+      "name": "Brass pedestal base collar",
+      "from": [
+        4.5,
+        3,
+        4.5
+      ],
+      "to": [
+        11.5,
+        3.5,
+        11.5
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            15.125,
+            5.375,
+            16,
+            5.5
+          ],
+          "texture": "#table_atlas"
+        },
+        "south": {
+          "uv": [
+            13.375,
+            5.375,
+            14.25,
+            5.5
+          ],
+          "texture": "#table_atlas"
+        },
+        "east": {
+          "uv": [
+            12.5,
+            5.375,
+            13.375,
+            5.5
+          ],
+          "texture": "#table_atlas"
+        },
+        "west": {
+          "uv": [
+            14.25,
+            5.375,
+            15.125,
+            5.5
+          ],
+          "texture": "#table_atlas"
+        },
+        "up": {
+          "uv": [
+            13.375,
+            4.5,
+            14.25,
+            5.375
+          ],
+          "texture": "#table_atlas"
+        },
+        "down": {
+          "uv": [
+            14.25,
+            4.5,
+            15.125,
+            5.375
+          ],
+          "texture": "#table_atlas"
+        }
+      }
+    }
+  ],
+  "display": {
+    "gui": {
+      "rotation": [
+        30,
+        225,
+        0
+      ],
+      "translation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        0.625,
+        0.625,
+        0.625
+      ]
+    },
+    "ground": {
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "translation": [
+        0,
+        3,
+        0
+      ],
+      "scale": [
+        0.25,
+        0.25,
+        0.25
+      ]
+    },
+    "fixed": {
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "translation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        0.5,
+        0.5,
+        0.5
+      ]
+    },
+    "head": {
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "translation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    "thirdperson_righthand": {
+      "rotation": [
+        75,
+        45,
+        0
+      ],
+      "translation": [
+        0,
+        2.5,
+        0
+      ],
+      "scale": [
+        0.375,
+        0.375,
+        0.375
+      ]
+    },
+    "thirdperson_lefthand": {
+      "rotation": [
+        75,
+        45,
+        0
+      ],
+      "translation": [
+        0,
+        2.5,
+        0
+      ],
+      "scale": [
+        0.375,
+        0.375,
+        0.375
+      ]
+    },
+    "firstperson_righthand": {
+      "rotation": [
+        0,
+        45,
+        0
+      ],
+      "translation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        0.4,
+        0.4,
+        0.4
+      ]
+    },
+    "firstperson_lefthand": {
+      "rotation": [
+        0,
+        45,
+        0
+      ],
+      "translation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        0.4,
+        0.4,
+        0.4
+      ]
+    }
+  },
+  "gui_light": "side"
+}

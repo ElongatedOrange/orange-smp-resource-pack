@@ -62,6 +62,14 @@ void kitchenTransport() {
             vec2 canvas=origin+corner*dimensions;
             float scale=min(ScreenSize.x/960.0,ScreenSize.y/540.0);
             vec2 screen=(ScreenSize-vec2(960,540)*scale)*.5+canvas*scale;
+            // FULL SEND BALANCE BEGIN
+            // Existing HUD lettering: anchor to the hotbar using the actual GUI projection.
+            // Origin is relative to bottom-center in GUI pixels; normal canvas carriers stay unchanged.
+            if(w.z==0 && size==32 && origin.y==-1000.0) {
+                float guiScale=ScreenSize.y*abs(ProjMat[1][1])*.5;
+                screen=vec2(ScreenSize.x*.5,ScreenSize.y)+(vec2(origin.x,-86.0)+corner*dimensions)*guiScale;
+            }
+            // FULL SEND BALANCE END
             gl_Position=vec4(screen.x/ScreenSize.x*2.0-1.0,1.0-screen.y/ScreenSize.y*2.0,0.0,1.0);
             hudUV=corner;hudInfo=ivec4(w.z,h.z,size,0);hudSize=dimensions;
             vec2 base=vec2(pixel)-corner*float(size-1);

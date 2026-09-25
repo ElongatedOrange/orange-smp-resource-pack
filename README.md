@@ -4,6 +4,10 @@
 
 Minecraft Java 26.3 resource pack, maintained by Elongated_Orange.
 
+## Full Send (v0.6.0)
+
+Adds new Voxel Forge blackjack-table and slots-cabinet models, physical card/reel/control artwork, and the oPhone Banking icon. Four generated sources and validated derivatives are recorded in `provenance/fullsend`. Full Send reuses the existing HUD lettering for its optional balance line above the action bar. Games render on world blocks with ordinary Minecraft text displays, not a game HUD. Pair with Full Send 0.1.0 and the updated oPhone/Kitchen plugins.
+
 ## oPhone (v0.5.0)
 
 v0.5.1 adds the unread-message number badge and corrects app icon proportions using fitted Voxel Forge exports. Pair with the oPhone update that allows every player to run `/ophone give` for themselves.
