@@ -1,0 +1,493 @@
+{
+  "credit": "VoxelForge",
+  "textures": {
+    "particle": "voxelforge:item/orange_pets_wizard_hat_751c4924/main",
+    "main": "voxelforge:item/orange_pets_wizard_hat_751c4924/main"
+  },
+  "elements": [
+    {
+      "name": "square_brim",
+      "from": [
+        2,
+        0,
+        2
+      ],
+      "to": [
+        14,
+        1,
+        14
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            9,
+            3,
+            12,
+            3.25
+          ],
+          "texture": "#main"
+        },
+        "south": {
+          "uv": [
+            3,
+            3,
+            6,
+            3.25
+          ],
+          "texture": "#main"
+        },
+        "east": {
+          "uv": [
+            0,
+            3,
+            3,
+            3.25
+          ],
+          "texture": "#main"
+        },
+        "west": {
+          "uv": [
+            6,
+            3,
+            9,
+            3.25
+          ],
+          "texture": "#main"
+        },
+        "up": {
+          "uv": [
+            3,
+            0,
+            6,
+            3
+          ],
+          "texture": "#main"
+        },
+        "down": {
+          "uv": [
+            6,
+            0,
+            9,
+            3
+          ],
+          "texture": "#main"
+        }
+      }
+    },
+    {
+      "name": "lower_crown",
+      "from": [
+        4,
+        1,
+        4
+      ],
+      "to": [
+        12,
+        5,
+        12
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            6,
+            5.5,
+            8,
+            6.5
+          ],
+          "texture": "#main"
+        },
+        "south": {
+          "uv": [
+            2,
+            5.5,
+            4,
+            6.5
+          ],
+          "texture": "#main"
+        },
+        "east": {
+          "uv": [
+            0,
+            5.5,
+            2,
+            6.5
+          ],
+          "texture": "#main"
+        },
+        "west": {
+          "uv": [
+            4,
+            5.5,
+            6,
+            6.5
+          ],
+          "texture": "#main"
+        },
+        "up": {
+          "uv": [
+            2,
+            3.5,
+            4,
+            5.5
+          ],
+          "texture": "#main"
+        },
+        "down": {
+          "uv": [
+            4,
+            3.5,
+            6,
+            5.5
+          ],
+          "texture": "#main"
+        }
+      }
+    },
+    {
+      "name": "middle_crown",
+      "from": [
+        5,
+        5,
+        5
+      ],
+      "to": [
+        11,
+        9,
+        11
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            12.5,
+            5,
+            14,
+            6
+          ],
+          "texture": "#main"
+        },
+        "south": {
+          "uv": [
+            9.5,
+            5,
+            11,
+            6
+          ],
+          "texture": "#main"
+        },
+        "east": {
+          "uv": [
+            8,
+            5,
+            9.5,
+            6
+          ],
+          "texture": "#main"
+        },
+        "west": {
+          "uv": [
+            11,
+            5,
+            12.5,
+            6
+          ],
+          "texture": "#main"
+        },
+        "up": {
+          "uv": [
+            9.5,
+            3.5,
+            11,
+            5
+          ],
+          "texture": "#main"
+        },
+        "down": {
+          "uv": [
+            11,
+            3.5,
+            12.5,
+            5
+          ],
+          "texture": "#main"
+        }
+      }
+    },
+    {
+      "name": "upper_crown",
+      "from": [
+        6,
+        9,
+        6
+      ],
+      "to": [
+        10,
+        12,
+        10
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            3,
+            7.75,
+            4,
+            8.5
+          ],
+          "texture": "#main"
+        },
+        "south": {
+          "uv": [
+            1,
+            7.75,
+            2,
+            8.5
+          ],
+          "texture": "#main"
+        },
+        "east": {
+          "uv": [
+            0,
+            7.75,
+            1,
+            8.5
+          ],
+          "texture": "#main"
+        },
+        "west": {
+          "uv": [
+            2,
+            7.75,
+            3,
+            8.5
+          ],
+          "texture": "#main"
+        },
+        "up": {
+          "uv": [
+            1,
+            6.75,
+            2,
+            7.75
+          ],
+          "texture": "#main"
+        },
+        "down": {
+          "uv": [
+            2,
+            6.75,
+            3,
+            7.75
+          ],
+          "texture": "#main"
+        }
+      }
+    },
+    {
+      "name": "small_tip",
+      "from": [
+        7,
+        12,
+        7
+      ],
+      "to": [
+        9,
+        14,
+        9
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            5.5,
+            7.25,
+            6,
+            7.75
+          ],
+          "texture": "#main"
+        },
+        "south": {
+          "uv": [
+            4.5,
+            7.25,
+            5,
+            7.75
+          ],
+          "texture": "#main"
+        },
+        "east": {
+          "uv": [
+            4,
+            7.25,
+            4.5,
+            7.75
+          ],
+          "texture": "#main"
+        },
+        "west": {
+          "uv": [
+            5,
+            7.25,
+            5.5,
+            7.75
+          ],
+          "texture": "#main"
+        },
+        "up": {
+          "uv": [
+            4.5,
+            6.75,
+            5,
+            7.25
+          ],
+          "texture": "#main"
+        },
+        "down": {
+          "uv": [
+            5,
+            6.75,
+            5.5,
+            7.25
+          ],
+          "texture": "#main"
+        }
+      }
+    }
+  ],
+  "display": {
+    "gui": {
+      "rotation": [
+        30,
+        225,
+        0
+      ],
+      "translation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        0.625,
+        0.625,
+        0.625
+      ]
+    },
+    "ground": {
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "translation": [
+        0,
+        3,
+        0
+      ],
+      "scale": [
+        0.25,
+        0.25,
+        0.25
+      ]
+    },
+    "fixed": {
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "translation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        0.5,
+        0.5,
+        0.5
+      ]
+    },
+    "head": {
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "translation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    "thirdperson_righthand": {
+      "rotation": [
+        75,
+        45,
+        0
+      ],
+      "translation": [
+        0,
+        2.5,
+        0
+      ],
+      "scale": [
+        0.375,
+        0.375,
+        0.375
+      ]
+    },
+    "thirdperson_lefthand": {
+      "rotation": [
+        75,
+        45,
+        0
+      ],
+      "translation": [
+        0,
+        2.5,
+        0
+      ],
+      "scale": [
+        0.375,
+        0.375,
+        0.375
+      ]
+    },
+    "firstperson_righthand": {
+      "rotation": [
+        0,
+        45,
+        0
+      ],
+      "translation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        0.4,
+        0.4,
+        0.4
+      ]
+    },
+    "firstperson_lefthand": {
+      "rotation": [
+        0,
+        45,
+        0
+      ],
+      "translation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        0.4,
+        0.4,
+        0.4
+      ]
+    }
+  },
+  "gui_light": "side"
+}

@@ -6,7 +6,10 @@
       "best_friend": "2b387b8d-0254-42d0-8302-3977ed5582d8",
       "bow": "d60e10de-bbc7-45dc-9f16-235a885afb3b",
       "collar": "7b1a02f8-f19d-47c4-a96b-98998324908a",
-      "hat": "ebadac28-e5ca-4bec-9341-cbed040d46e4"
+      "hat": "ebadac28-e5ca-4bec-9341-cbed040d46e4",
+      "top_hat": "523978e9-2fda-43a9-9ae4-c0bf72c703a8",
+      "wizard_hat": "751c4924-f3ab-4f42-a12e-5e0d0e6ae396",
+      "crown": "6442134a-97ba-4348-8275-c71706d7d43b"
     },
     "transforms": {
       "cosmetic_bandana": {
@@ -75,6 +78,45 @@
         ]
       },
       "cosmetic_hat": {
+        "parent": "head",
+        "pivot": [
+          8,
+          8,
+          4
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ]
+      },
+      "cosmetic_top_hat": {
+        "parent": "head",
+        "pivot": [
+          8,
+          8,
+          4
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ]
+      },
+      "cosmetic_wizard_hat": {
+        "parent": "head",
+        "pivot": [
+          8,
+          8,
+          4
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ]
+      },
+      "cosmetic_crown": {
         "parent": "head",
         "pivot": [
           8,
@@ -244,6 +286,66 @@
           ],
           "bones": [
             "cosmetic_hat"
+          ]
+        },
+        "top_hat": {
+          "scale": [
+            0.21666666666666667,
+            0.21666666666666667,
+            0.21666666666666667
+          ],
+          "origin": [
+            8,
+            0,
+            8
+          ],
+          "target": [
+            8,
+            11.035,
+            -0.48
+          ],
+          "bones": [
+            "cosmetic_top_hat"
+          ]
+        },
+        "wizard_hat": {
+          "scale": [
+            0.21666666666666667,
+            0.21666666666666667,
+            0.21666666666666667
+          ],
+          "origin": [
+            8,
+            0,
+            8
+          ],
+          "target": [
+            8,
+            11.035,
+            -0.48
+          ],
+          "bones": [
+            "cosmetic_wizard_hat"
+          ]
+        },
+        "crown": {
+          "scale": [
+            0.21666666666666667,
+            0.21666666666666667,
+            0.21666666666666667
+          ],
+          "origin": [
+            8,
+            0,
+            8
+          ],
+          "target": [
+            8,
+            11.035,
+            -0.48
+          ],
+          "bones": [
+            "cosmetic_crown"
           ]
         }
       }
@@ -268,6 +370,18 @@
       "hat": {
         "assetId": "7662543a-5706-4a61-85c7-4bb0b91ae214",
         "sourceHash": "632cbdb0955aabc0edcdcb9c93d911faed9cf679a715ece6ab99efcc287d4e22"
+      },
+      "top_hat": {
+        "assetId": "83bfa53f-a64b-4058-8d10-3d304007e315",
+        "sourceHash": "0b7f5d4a80c41cb1e0ad625dc7f2482b6384d23be120f809225e6e3cb70c603a"
+      },
+      "wizard_hat": {
+        "assetId": "4610a8e2-7829-4952-b088-5b47a6476a95",
+        "sourceHash": "3185f59901fe9605e6ab2172ca59734b89ea80fe7bc7a51558535312000aaa2f"
+      },
+      "crown": {
+        "assetId": "2dbc4b56-16e9-467d-8477-d8218252cf78",
+        "sourceHash": "8c8b6e762949ddf831680877675b629117903220420ae27d1de340725fd25cb8"
       }
     }
   },
@@ -278,7 +392,10 @@
       "best_friend": "2b387b8d-0254-42d0-8302-3977ed5582d8",
       "bow": "d60e10de-bbc7-45dc-9f16-235a885afb3b",
       "collar": "7b1a02f8-f19d-47c4-a96b-98998324908a",
-      "hat": "ebadac28-e5ca-4bec-9341-cbed040d46e4"
+      "hat": "ebadac28-e5ca-4bec-9341-cbed040d46e4",
+      "top_hat": "523978e9-2fda-43a9-9ae4-c0bf72c703a8",
+      "wizard_hat": "751c4924-f3ab-4f42-a12e-5e0d0e6ae396",
+      "crown": "6442134a-97ba-4348-8275-c71706d7d43b"
     },
     "transforms": {
       "cosmetic_bandana": {
@@ -347,6 +464,45 @@
         ]
       },
       "cosmetic_hat": {
+        "parent": "head",
+        "pivot": [
+          8,
+          8,
+          4
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ]
+      },
+      "cosmetic_top_hat": {
+        "parent": "head",
+        "pivot": [
+          8,
+          8,
+          4
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ]
+      },
+      "cosmetic_wizard_hat": {
+        "parent": "head",
+        "pivot": [
+          8,
+          8,
+          4
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ]
+      },
+      "cosmetic_crown": {
         "parent": "head",
         "pivot": [
           8,
@@ -516,6 +672,66 @@
           ],
           "bones": [
             "cosmetic_hat"
+          ]
+        },
+        "top_hat": {
+          "scale": [
+            0.21666666666666667,
+            0.21666666666666667,
+            0.21666666666666667
+          ],
+          "origin": [
+            8,
+            0,
+            8
+          ],
+          "target": [
+            8,
+            11.035,
+            -0.48
+          ],
+          "bones": [
+            "cosmetic_top_hat"
+          ]
+        },
+        "wizard_hat": {
+          "scale": [
+            0.21666666666666667,
+            0.21666666666666667,
+            0.21666666666666667
+          ],
+          "origin": [
+            8,
+            0,
+            8
+          ],
+          "target": [
+            8,
+            11.035,
+            -0.48
+          ],
+          "bones": [
+            "cosmetic_wizard_hat"
+          ]
+        },
+        "crown": {
+          "scale": [
+            0.21666666666666667,
+            0.21666666666666667,
+            0.21666666666666667
+          ],
+          "origin": [
+            8,
+            0,
+            8
+          ],
+          "target": [
+            8,
+            11.035,
+            -0.48
+          ],
+          "bones": [
+            "cosmetic_crown"
           ]
         }
       }
@@ -540,6 +756,18 @@
       "hat": {
         "assetId": "8b2318a0-fa68-471e-922c-02119055ed9d",
         "sourceHash": "74d86a6a3db70ef361780fd626179bda1f4011b3fccd341b95aeebba2146a7dc"
+      },
+      "top_hat": {
+        "assetId": "d02e8c84-5c07-4342-8795-27b6d64fb6f7",
+        "sourceHash": "661aaee09d316d912dd72a287a03fecf87480f45a8a09ee207fbc0d52e00fd1e"
+      },
+      "wizard_hat": {
+        "assetId": "11942269-0152-48a2-b1cb-80b7197fb691",
+        "sourceHash": "9470bd30bf52a609a06ccc635fec387bb905d7f9fbd232822296041fd158cb7e"
+      },
+      "crown": {
+        "assetId": "b347a7d0-1677-4ef5-a368-9a77229b5cf7",
+        "sourceHash": "59dcf89547e2dfde2b4feda1e4d0f57c5a85c767246ff76c6014703ed372c6d2"
       }
     }
   },
@@ -550,7 +778,10 @@
       "best_friend": "2b387b8d-0254-42d0-8302-3977ed5582d8",
       "bow": "d60e10de-bbc7-45dc-9f16-235a885afb3b",
       "collar": "7b1a02f8-f19d-47c4-a96b-98998324908a",
-      "hat": "ebadac28-e5ca-4bec-9341-cbed040d46e4"
+      "hat": "ebadac28-e5ca-4bec-9341-cbed040d46e4",
+      "top_hat": "523978e9-2fda-43a9-9ae4-c0bf72c703a8",
+      "wizard_hat": "751c4924-f3ab-4f42-a12e-5e0d0e6ae396",
+      "crown": "6442134a-97ba-4348-8275-c71706d7d43b"
     },
     "transforms": {
       "cosmetic_bandana": {
@@ -619,6 +850,45 @@
         ]
       },
       "cosmetic_hat": {
+        "parent": "head",
+        "pivot": [
+          8,
+          8,
+          4
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ]
+      },
+      "cosmetic_top_hat": {
+        "parent": "head",
+        "pivot": [
+          8,
+          8,
+          4
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ]
+      },
+      "cosmetic_wizard_hat": {
+        "parent": "head",
+        "pivot": [
+          8,
+          8,
+          4
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ]
+      },
+      "cosmetic_crown": {
         "parent": "head",
         "pivot": [
           8,
@@ -789,6 +1059,66 @@
           "bones": [
             "cosmetic_hat"
           ]
+        },
+        "top_hat": {
+          "scale": [
+            0.21666666666666667,
+            0.21666666666666667,
+            0.21666666666666667
+          ],
+          "origin": [
+            8,
+            0,
+            8
+          ],
+          "target": [
+            8,
+            11.035,
+            -0.48
+          ],
+          "bones": [
+            "cosmetic_top_hat"
+          ]
+        },
+        "wizard_hat": {
+          "scale": [
+            0.21666666666666667,
+            0.21666666666666667,
+            0.21666666666666667
+          ],
+          "origin": [
+            8,
+            0,
+            8
+          ],
+          "target": [
+            8,
+            11.035,
+            -0.48
+          ],
+          "bones": [
+            "cosmetic_wizard_hat"
+          ]
+        },
+        "crown": {
+          "scale": [
+            0.21666666666666667,
+            0.21666666666666667,
+            0.21666666666666667
+          ],
+          "origin": [
+            8,
+            0,
+            8
+          ],
+          "target": [
+            8,
+            11.035,
+            -0.48
+          ],
+          "bones": [
+            "cosmetic_crown"
+          ]
         }
       }
     },
@@ -812,6 +1142,18 @@
       "hat": {
         "assetId": "ced53e4c-f021-40f4-bc21-7ea6bcd172ed",
         "sourceHash": "f60083e5c3512649a919c3cac1f92ba863536fef92df4b6096bcc180ca62e1fe"
+      },
+      "top_hat": {
+        "assetId": "4d4d88ff-2138-4b49-a7c5-8a8bda1bed9f",
+        "sourceHash": "15c4a205186d39d02cec779eb82ef9e309ad632502f94bc9419b1d798c122be3"
+      },
+      "wizard_hat": {
+        "assetId": "335a3f42-1e5d-44b8-87ab-78f7518d35cb",
+        "sourceHash": "fe7175bc7b5fe333a4df07dc8654ae200f16d0446da31dca14d379ae63990655"
+      },
+      "crown": {
+        "assetId": "884e9aa9-2249-4fcc-a205-9552ae663389",
+        "sourceHash": "15d238f25f13a60b4e51a3a8254d7142470cc865b964628c209d2d717b389c3e"
       }
     }
   },
@@ -822,7 +1164,10 @@
       "best_friend": "2b387b8d-0254-42d0-8302-3977ed5582d8",
       "bow": "d60e10de-bbc7-45dc-9f16-235a885afb3b",
       "collar": "7b1a02f8-f19d-47c4-a96b-98998324908a",
-      "hat": "ebadac28-e5ca-4bec-9341-cbed040d46e4"
+      "hat": "ebadac28-e5ca-4bec-9341-cbed040d46e4",
+      "top_hat": "523978e9-2fda-43a9-9ae4-c0bf72c703a8",
+      "wizard_hat": "751c4924-f3ab-4f42-a12e-5e0d0e6ae396",
+      "crown": "6442134a-97ba-4348-8275-c71706d7d43b"
     },
     "transforms": {
       "cosmetic_bandana": {
@@ -891,6 +1236,45 @@
         ]
       },
       "cosmetic_hat": {
+        "parent": "head",
+        "pivot": [
+          8,
+          5,
+          0.5
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ]
+      },
+      "cosmetic_top_hat": {
+        "parent": "head",
+        "pivot": [
+          8,
+          5,
+          0.5
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ]
+      },
+      "cosmetic_wizard_hat": {
+        "parent": "head",
+        "pivot": [
+          8,
+          5,
+          0.5
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ]
+      },
+      "cosmetic_crown": {
         "parent": "head",
         "pivot": [
           8,
@@ -1060,6 +1444,66 @@
           ],
           "bones": [
             "cosmetic_hat"
+          ]
+        },
+        "top_hat": {
+          "scale": [
+            0.3,
+            0.3,
+            0.3
+          ],
+          "origin": [
+            8,
+            0,
+            8
+          ],
+          "target": [
+            8.03125,
+            7.035,
+            -2.98
+          ],
+          "bones": [
+            "cosmetic_top_hat"
+          ]
+        },
+        "wizard_hat": {
+          "scale": [
+            0.3,
+            0.3,
+            0.3
+          ],
+          "origin": [
+            8,
+            0,
+            8
+          ],
+          "target": [
+            8.03125,
+            7.035,
+            -2.98
+          ],
+          "bones": [
+            "cosmetic_wizard_hat"
+          ]
+        },
+        "crown": {
+          "scale": [
+            0.3,
+            0.3,
+            0.3
+          ],
+          "origin": [
+            8,
+            0,
+            8
+          ],
+          "target": [
+            8.03125,
+            7.035,
+            -2.98
+          ],
+          "bones": [
+            "cosmetic_crown"
           ]
         }
       }
@@ -1084,6 +1528,18 @@
       "hat": {
         "assetId": "0a167b7d-be7b-4f6b-9e50-027718ec0dff",
         "sourceHash": "a004c58350a42312e4348a3012f285a1118839cfd6db9d0ba0e9fb14b3fd4530"
+      },
+      "top_hat": {
+        "assetId": "9c68e2e9-3363-4e2e-8c33-c3691b59d7a0",
+        "sourceHash": "985bcfdcc24acd0da39085e2404caf309f192aa132d0e66bf99bf6dcfd3ccb44"
+      },
+      "wizard_hat": {
+        "assetId": "ce3e5876-6bf6-473b-b5b3-34b9dbecc726",
+        "sourceHash": "08b1e4b8f133d7b0bfe7b02e831f588de529a3db4ded118ad47f77c9552e09c9"
+      },
+      "crown": {
+        "assetId": "0c37b4ee-7644-4723-b7cd-8b627a9ed80a",
+        "sourceHash": "cb342ace33ece2417e21d2afce99a2e0567f472b157faff7c3ba9292e5ec6a71"
       }
     }
   },
@@ -1094,7 +1550,10 @@
       "best_friend": "2b387b8d-0254-42d0-8302-3977ed5582d8",
       "bow": "d60e10de-bbc7-45dc-9f16-235a885afb3b",
       "collar": "7b1a02f8-f19d-47c4-a96b-98998324908a",
-      "hat": "ebadac28-e5ca-4bec-9341-cbed040d46e4"
+      "hat": "ebadac28-e5ca-4bec-9341-cbed040d46e4",
+      "top_hat": "523978e9-2fda-43a9-9ae4-c0bf72c703a8",
+      "wizard_hat": "751c4924-f3ab-4f42-a12e-5e0d0e6ae396",
+      "crown": "6442134a-97ba-4348-8275-c71706d7d43b"
     },
     "transforms": {
       "cosmetic_bandana": {
@@ -1163,6 +1622,45 @@
         ]
       },
       "cosmetic_hat": {
+        "parent": "head",
+        "pivot": [
+          8,
+          5,
+          0.5
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ]
+      },
+      "cosmetic_top_hat": {
+        "parent": "head",
+        "pivot": [
+          8,
+          5,
+          0.5
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ]
+      },
+      "cosmetic_wizard_hat": {
+        "parent": "head",
+        "pivot": [
+          8,
+          5,
+          0.5
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ]
+      },
+      "cosmetic_crown": {
         "parent": "head",
         "pivot": [
           8,
@@ -1332,6 +1830,66 @@
           ],
           "bones": [
             "cosmetic_hat"
+          ]
+        },
+        "top_hat": {
+          "scale": [
+            0.3,
+            0.3,
+            0.3
+          ],
+          "origin": [
+            8,
+            0,
+            8
+          ],
+          "target": [
+            8.03125,
+            7.035,
+            -2.98
+          ],
+          "bones": [
+            "cosmetic_top_hat"
+          ]
+        },
+        "wizard_hat": {
+          "scale": [
+            0.3,
+            0.3,
+            0.3
+          ],
+          "origin": [
+            8,
+            0,
+            8
+          ],
+          "target": [
+            8.03125,
+            7.035,
+            -2.98
+          ],
+          "bones": [
+            "cosmetic_wizard_hat"
+          ]
+        },
+        "crown": {
+          "scale": [
+            0.3,
+            0.3,
+            0.3
+          ],
+          "origin": [
+            8,
+            0,
+            8
+          ],
+          "target": [
+            8.03125,
+            7.035,
+            -2.98
+          ],
+          "bones": [
+            "cosmetic_crown"
           ]
         }
       }
@@ -1356,6 +1914,18 @@
       "hat": {
         "assetId": "279fc425-7652-4e03-8526-951ae8828338",
         "sourceHash": "f5b8f0a3c148fc6c4913fd54b1c8435b26814908df26d67f30370a8d861700a0"
+      },
+      "top_hat": {
+        "assetId": "3af31805-9a13-4b72-9154-e59d53451112",
+        "sourceHash": "d399495ea08c6953188b69aff106f76251386e525eedcbc2db87925823ef9ac3"
+      },
+      "wizard_hat": {
+        "assetId": "a0196eaf-7546-4c33-a4d6-deec6357751a",
+        "sourceHash": "0652a1df9a2efed932ec33a8fbc94a1ef1b5061a0aa2a55e201a98de17c5a327"
+      },
+      "crown": {
+        "assetId": "837b2283-08be-461b-bd22-d4f32c3f0cee",
+        "sourceHash": "7aff3891bcd101357841c0b045a94adb18b5260f83991b6600345c29c1c4a22d"
       }
     }
   },
@@ -1366,7 +1936,10 @@
       "best_friend": "2b387b8d-0254-42d0-8302-3977ed5582d8",
       "bow": "d60e10de-bbc7-45dc-9f16-235a885afb3b",
       "collar": "7b1a02f8-f19d-47c4-a96b-98998324908a",
-      "hat": "ebadac28-e5ca-4bec-9341-cbed040d46e4"
+      "hat": "ebadac28-e5ca-4bec-9341-cbed040d46e4",
+      "top_hat": "523978e9-2fda-43a9-9ae4-c0bf72c703a8",
+      "wizard_hat": "751c4924-f3ab-4f42-a12e-5e0d0e6ae396",
+      "crown": "6442134a-97ba-4348-8275-c71706d7d43b"
     },
     "transforms": {
       "cosmetic_bandana": {
@@ -1435,6 +2008,45 @@
         ]
       },
       "cosmetic_hat": {
+        "parent": "head",
+        "pivot": [
+          8,
+          5,
+          0.5
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ]
+      },
+      "cosmetic_top_hat": {
+        "parent": "head",
+        "pivot": [
+          8,
+          5,
+          0.5
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ]
+      },
+      "cosmetic_wizard_hat": {
+        "parent": "head",
+        "pivot": [
+          8,
+          5,
+          0.5
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ]
+      },
+      "cosmetic_crown": {
         "parent": "head",
         "pivot": [
           8,
@@ -1605,6 +2217,66 @@
           "bones": [
             "cosmetic_hat"
           ]
+        },
+        "top_hat": {
+          "scale": [
+            0.3,
+            0.3,
+            0.3
+          ],
+          "origin": [
+            8,
+            0,
+            8
+          ],
+          "target": [
+            8.03125,
+            7.035,
+            -2.98
+          ],
+          "bones": [
+            "cosmetic_top_hat"
+          ]
+        },
+        "wizard_hat": {
+          "scale": [
+            0.3,
+            0.3,
+            0.3
+          ],
+          "origin": [
+            8,
+            0,
+            8
+          ],
+          "target": [
+            8.03125,
+            7.035,
+            -2.98
+          ],
+          "bones": [
+            "cosmetic_wizard_hat"
+          ]
+        },
+        "crown": {
+          "scale": [
+            0.3,
+            0.3,
+            0.3
+          ],
+          "origin": [
+            8,
+            0,
+            8
+          ],
+          "target": [
+            8.03125,
+            7.035,
+            -2.98
+          ],
+          "bones": [
+            "cosmetic_crown"
+          ]
         }
       }
     },
@@ -1628,6 +2300,18 @@
       "hat": {
         "assetId": "9a0fb8d8-1042-4497-88b1-dcc099e8e37f",
         "sourceHash": "01cab03123e6065403f5b7626c3c33744fbf173dcba8545fb1a4922b3c3ac86c"
+      },
+      "top_hat": {
+        "assetId": "1946efaf-2cad-4d81-ae94-fd992fdefed9",
+        "sourceHash": "ea72c2809b73a900075e30e690f02b8a6aaec9ce89d4b2c0604f948c7c098537"
+      },
+      "wizard_hat": {
+        "assetId": "97511edf-55b2-4c39-a625-0c568f0ea512",
+        "sourceHash": "c68d8a37e033b22d166a527ce5deb1138e0a7e7329f736e83b11d3fd13f71c10"
+      },
+      "crown": {
+        "assetId": "7d565325-d1f2-4b54-aabd-1e0a93871120",
+        "sourceHash": "724cdb18c25604305778703051b17f7d4c7318c6de5d8e01289f73346d40360c"
       }
     }
   },
@@ -1638,7 +2322,10 @@
       "best_friend": "2b387b8d-0254-42d0-8302-3977ed5582d8",
       "bow": "d60e10de-bbc7-45dc-9f16-235a885afb3b",
       "collar": "7b1a02f8-f19d-47c4-a96b-98998324908a",
-      "hat": "ebadac28-e5ca-4bec-9341-cbed040d46e4"
+      "hat": "ebadac28-e5ca-4bec-9341-cbed040d46e4",
+      "top_hat": "523978e9-2fda-43a9-9ae4-c0bf72c703a8",
+      "wizard_hat": "751c4924-f3ab-4f42-a12e-5e0d0e6ae396",
+      "crown": "6442134a-97ba-4348-8275-c71706d7d43b"
     },
     "transforms": {
       "cosmetic_bandana": {
@@ -1707,6 +2394,45 @@
         ]
       },
       "cosmetic_hat": {
+        "parent": "head",
+        "pivot": [
+          8,
+          4.5,
+          5.5
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ]
+      },
+      "cosmetic_top_hat": {
+        "parent": "head",
+        "pivot": [
+          8,
+          4.5,
+          5.5
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ]
+      },
+      "cosmetic_wizard_hat": {
+        "parent": "head",
+        "pivot": [
+          8,
+          4.5,
+          5.5
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ]
+      },
+      "cosmetic_crown": {
         "parent": "head",
         "pivot": [
           8,
@@ -1876,6 +2602,66 @@
           ],
           "bones": [
             "cosmetic_hat"
+          ]
+        },
+        "top_hat": {
+          "scale": [
+            0.17500000000000002,
+            0.17500000000000002,
+            0.17500000000000002
+          ],
+          "origin": [
+            8,
+            0,
+            8
+          ],
+          "target": [
+            8,
+            6.535,
+            2.2699999999999996
+          ],
+          "bones": [
+            "cosmetic_top_hat"
+          ]
+        },
+        "wizard_hat": {
+          "scale": [
+            0.17500000000000002,
+            0.17500000000000002,
+            0.17500000000000002
+          ],
+          "origin": [
+            8,
+            0,
+            8
+          ],
+          "target": [
+            8,
+            6.535,
+            2.2699999999999996
+          ],
+          "bones": [
+            "cosmetic_wizard_hat"
+          ]
+        },
+        "crown": {
+          "scale": [
+            0.17500000000000002,
+            0.17500000000000002,
+            0.17500000000000002
+          ],
+          "origin": [
+            8,
+            0,
+            8
+          ],
+          "target": [
+            8,
+            6.535,
+            2.2699999999999996
+          ],
+          "bones": [
+            "cosmetic_crown"
           ]
         }
       }
@@ -1900,6 +2686,18 @@
       "hat": {
         "assetId": "dca6a921-8069-4713-bea3-4452273c9e77",
         "sourceHash": "6e996d333ab7fdaf74cbaa2e78f0268ea98a90f514fe7ad02d590a69388f5240"
+      },
+      "top_hat": {
+        "assetId": "ffba8b80-c2a1-4905-8438-246838ff6a24",
+        "sourceHash": "c9d43c3c13bbfed03810bc2d664417acd82cb097437a90402ad723cf22f65766"
+      },
+      "wizard_hat": {
+        "assetId": "ab1e40d5-0a47-4735-8038-424937af79ca",
+        "sourceHash": "2d6b1c643e80266dd7c2849d521bba0dd06fe209c92d6023d4f33e1203338c57"
+      },
+      "crown": {
+        "assetId": "d1eeb40e-8a21-4c21-8126-7313ee472b51",
+        "sourceHash": "fc040ae881faa6ef2c1afedc1ebe0476713b4415b6a559f1a6893d49c6e48a0f"
       }
     }
   },
@@ -1910,7 +2708,10 @@
       "best_friend": "2b387b8d-0254-42d0-8302-3977ed5582d8",
       "bow": "d60e10de-bbc7-45dc-9f16-235a885afb3b",
       "collar": "7b1a02f8-f19d-47c4-a96b-98998324908a",
-      "hat": "ebadac28-e5ca-4bec-9341-cbed040d46e4"
+      "hat": "ebadac28-e5ca-4bec-9341-cbed040d46e4",
+      "top_hat": "523978e9-2fda-43a9-9ae4-c0bf72c703a8",
+      "wizard_hat": "751c4924-f3ab-4f42-a12e-5e0d0e6ae396",
+      "crown": "6442134a-97ba-4348-8275-c71706d7d43b"
     },
     "transforms": {
       "cosmetic_bandana": {
@@ -1979,6 +2780,45 @@
         ]
       },
       "cosmetic_hat": {
+        "parent": "head",
+        "pivot": [
+          8,
+          4.5,
+          5.5
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ]
+      },
+      "cosmetic_top_hat": {
+        "parent": "head",
+        "pivot": [
+          8,
+          4.5,
+          5.5
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ]
+      },
+      "cosmetic_wizard_hat": {
+        "parent": "head",
+        "pivot": [
+          8,
+          4.5,
+          5.5
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ]
+      },
+      "cosmetic_crown": {
         "parent": "head",
         "pivot": [
           8,
@@ -2148,6 +2988,66 @@
           ],
           "bones": [
             "cosmetic_hat"
+          ]
+        },
+        "top_hat": {
+          "scale": [
+            0.17500000000000002,
+            0.17500000000000002,
+            0.17500000000000002
+          ],
+          "origin": [
+            8,
+            0,
+            8
+          ],
+          "target": [
+            8,
+            6.535,
+            2.2699999999999996
+          ],
+          "bones": [
+            "cosmetic_top_hat"
+          ]
+        },
+        "wizard_hat": {
+          "scale": [
+            0.17500000000000002,
+            0.17500000000000002,
+            0.17500000000000002
+          ],
+          "origin": [
+            8,
+            0,
+            8
+          ],
+          "target": [
+            8,
+            6.535,
+            2.2699999999999996
+          ],
+          "bones": [
+            "cosmetic_wizard_hat"
+          ]
+        },
+        "crown": {
+          "scale": [
+            0.17500000000000002,
+            0.17500000000000002,
+            0.17500000000000002
+          ],
+          "origin": [
+            8,
+            0,
+            8
+          ],
+          "target": [
+            8,
+            6.535,
+            2.2699999999999996
+          ],
+          "bones": [
+            "cosmetic_crown"
           ]
         }
       }
@@ -2172,6 +3072,18 @@
       "hat": {
         "assetId": "f7981d31-1213-4cbb-9129-4c3ccbc5e72d",
         "sourceHash": "5ab221165acb542a178faf2b3aebadafd0894c6d31d96c744a04d971c2e944a1"
+      },
+      "top_hat": {
+        "assetId": "c975e6d5-6231-4f7b-b9b4-db58ae60d43f",
+        "sourceHash": "6423cce59fcd9511b2f8839416aa43e30b138947e13ba7d51ea16d330b579c4d"
+      },
+      "wizard_hat": {
+        "assetId": "9593a3d8-9718-4657-a57d-7f0347b465fe",
+        "sourceHash": "dd0e98d6425e2854911ba2342a182b03665292044618fbfc8bd17c23d486657f"
+      },
+      "crown": {
+        "assetId": "e55e67e2-9bd3-42d4-9427-8f7938935958",
+        "sourceHash": "4a1a53e786c14befb984c0e7395e366d9ee72768d56b31b7de391233d3473d48"
       }
     }
   },
@@ -2182,7 +3094,10 @@
       "best_friend": "2b387b8d-0254-42d0-8302-3977ed5582d8",
       "bow": "d60e10de-bbc7-45dc-9f16-235a885afb3b",
       "collar": "7b1a02f8-f19d-47c4-a96b-98998324908a",
-      "hat": "ebadac28-e5ca-4bec-9341-cbed040d46e4"
+      "hat": "ebadac28-e5ca-4bec-9341-cbed040d46e4",
+      "top_hat": "523978e9-2fda-43a9-9ae4-c0bf72c703a8",
+      "wizard_hat": "751c4924-f3ab-4f42-a12e-5e0d0e6ae396",
+      "crown": "6442134a-97ba-4348-8275-c71706d7d43b"
     },
     "transforms": {
       "cosmetic_bandana": {
@@ -2251,6 +3166,45 @@
         ]
       },
       "cosmetic_hat": {
+        "parent": "head",
+        "pivot": [
+          8,
+          4.5,
+          5.5
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ]
+      },
+      "cosmetic_top_hat": {
+        "parent": "head",
+        "pivot": [
+          8,
+          4.5,
+          5.5
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ]
+      },
+      "cosmetic_wizard_hat": {
+        "parent": "head",
+        "pivot": [
+          8,
+          4.5,
+          5.5
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ]
+      },
+      "cosmetic_crown": {
         "parent": "head",
         "pivot": [
           8,
@@ -2421,6 +3375,66 @@
           "bones": [
             "cosmetic_hat"
           ]
+        },
+        "top_hat": {
+          "scale": [
+            0.17500000000000002,
+            0.17500000000000002,
+            0.17500000000000002
+          ],
+          "origin": [
+            8,
+            0,
+            8
+          ],
+          "target": [
+            8,
+            6.535,
+            2.2699999999999996
+          ],
+          "bones": [
+            "cosmetic_top_hat"
+          ]
+        },
+        "wizard_hat": {
+          "scale": [
+            0.17500000000000002,
+            0.17500000000000002,
+            0.17500000000000002
+          ],
+          "origin": [
+            8,
+            0,
+            8
+          ],
+          "target": [
+            8,
+            6.535,
+            2.2699999999999996
+          ],
+          "bones": [
+            "cosmetic_wizard_hat"
+          ]
+        },
+        "crown": {
+          "scale": [
+            0.17500000000000002,
+            0.17500000000000002,
+            0.17500000000000002
+          ],
+          "origin": [
+            8,
+            0,
+            8
+          ],
+          "target": [
+            8,
+            6.535,
+            2.2699999999999996
+          ],
+          "bones": [
+            "cosmetic_crown"
+          ]
         }
       }
     },
@@ -2444,6 +3458,18 @@
       "hat": {
         "assetId": "1bec2447-f6b0-434b-bb05-198b14f4cb32",
         "sourceHash": "1f629125fef5830ac858bac0c9310b8c8606c670ecf1f0fbafb58fdb9124b240"
+      },
+      "top_hat": {
+        "assetId": "7c9a6eb9-5c67-4433-874e-a127150b9340",
+        "sourceHash": "dafb2e080e20cb73195349055ebccb5f299db9c13a38f60554c456100b631ca6"
+      },
+      "wizard_hat": {
+        "assetId": "b292004a-cece-4d5d-87a5-5425b227f466",
+        "sourceHash": "ede3ed3fb24ac1aa23dfe264780a40a106c8d611b1d0188e4c6c1d72490a1a15"
+      },
+      "crown": {
+        "assetId": "cc9cb050-4c12-4fbf-a564-6cda5b95a28e",
+        "sourceHash": "b202d361e515e655e321a84151b583dcad6ac0c0ff0c1663b45c0404094f208b"
       }
     }
   },
@@ -2454,7 +3480,10 @@
       "best_friend": "2b387b8d-0254-42d0-8302-3977ed5582d8",
       "bow": "d60e10de-bbc7-45dc-9f16-235a885afb3b",
       "collar": "7b1a02f8-f19d-47c4-a96b-98998324908a",
-      "hat": "ebadac28-e5ca-4bec-9341-cbed040d46e4"
+      "hat": "ebadac28-e5ca-4bec-9341-cbed040d46e4",
+      "top_hat": "523978e9-2fda-43a9-9ae4-c0bf72c703a8",
+      "wizard_hat": "751c4924-f3ab-4f42-a12e-5e0d0e6ae396",
+      "crown": "6442134a-97ba-4348-8275-c71706d7d43b"
     },
     "transforms": {
       "cosmetic_bandana": {
@@ -2523,6 +3552,45 @@
         ]
       },
       "cosmetic_hat": {
+        "parent": "head",
+        "pivot": [
+          8,
+          4,
+          4
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ]
+      },
+      "cosmetic_top_hat": {
+        "parent": "head",
+        "pivot": [
+          8,
+          4,
+          4
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ]
+      },
+      "cosmetic_wizard_hat": {
+        "parent": "head",
+        "pivot": [
+          8,
+          4,
+          4
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ]
+      },
+      "cosmetic_crown": {
         "parent": "head",
         "pivot": [
           8,
@@ -2692,6 +3760,66 @@
           ],
           "bones": [
             "cosmetic_hat"
+          ]
+        },
+        "top_hat": {
+          "scale": [
+            0.31666666666666665,
+            0.31666666666666665,
+            0.31666666666666665
+          ],
+          "origin": [
+            8,
+            0,
+            8
+          ],
+          "target": [
+            8,
+            6.06625,
+            1.9
+          ],
+          "bones": [
+            "cosmetic_top_hat"
+          ]
+        },
+        "wizard_hat": {
+          "scale": [
+            0.31666666666666665,
+            0.31666666666666665,
+            0.31666666666666665
+          ],
+          "origin": [
+            8,
+            0,
+            8
+          ],
+          "target": [
+            8,
+            6.06625,
+            1.9
+          ],
+          "bones": [
+            "cosmetic_wizard_hat"
+          ]
+        },
+        "crown": {
+          "scale": [
+            0.31666666666666665,
+            0.31666666666666665,
+            0.31666666666666665
+          ],
+          "origin": [
+            8,
+            0,
+            8
+          ],
+          "target": [
+            8,
+            6.06625,
+            1.9
+          ],
+          "bones": [
+            "cosmetic_crown"
           ]
         }
       }
@@ -2716,6 +3844,18 @@
       "hat": {
         "assetId": "418230df-3c3c-4b5d-86ab-f4fc65fd4115",
         "sourceHash": "f9911b951bafe720830fb82981494e8a78ffd897c95ff2570b8be89370a0ecb4"
+      },
+      "top_hat": {
+        "assetId": "053e054a-95ef-46a5-ba78-1c3637d66ddf",
+        "sourceHash": "93f98b08f3040d642616cea336a56ef20046851e8edec3cc37581c2b08936876"
+      },
+      "wizard_hat": {
+        "assetId": "83c4cf74-7593-48de-a4ef-40bfbee0514d",
+        "sourceHash": "875b7c644085eeba06c13f46784d20d3015f5cea8f16294a3c20cb29610b1745"
+      },
+      "crown": {
+        "assetId": "eeaa35f4-5691-4d81-ab8f-538ca49a561f",
+        "sourceHash": "8e865f08710c3bb436bbbe7542249c91699d69bd49473372276df16b87ed2073"
       }
     }
   },
@@ -2726,7 +3866,10 @@
       "best_friend": "2b387b8d-0254-42d0-8302-3977ed5582d8",
       "bow": "d60e10de-bbc7-45dc-9f16-235a885afb3b",
       "collar": "7b1a02f8-f19d-47c4-a96b-98998324908a",
-      "hat": "ebadac28-e5ca-4bec-9341-cbed040d46e4"
+      "hat": "ebadac28-e5ca-4bec-9341-cbed040d46e4",
+      "top_hat": "523978e9-2fda-43a9-9ae4-c0bf72c703a8",
+      "wizard_hat": "751c4924-f3ab-4f42-a12e-5e0d0e6ae396",
+      "crown": "6442134a-97ba-4348-8275-c71706d7d43b"
     },
     "transforms": {
       "cosmetic_bandana": {
@@ -2795,6 +3938,45 @@
         ]
       },
       "cosmetic_hat": {
+        "parent": "head",
+        "pivot": [
+          8,
+          4,
+          4
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ]
+      },
+      "cosmetic_top_hat": {
+        "parent": "head",
+        "pivot": [
+          8,
+          4,
+          4
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ]
+      },
+      "cosmetic_wizard_hat": {
+        "parent": "head",
+        "pivot": [
+          8,
+          4,
+          4
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ]
+      },
+      "cosmetic_crown": {
         "parent": "head",
         "pivot": [
           8,
@@ -2964,6 +4146,66 @@
           ],
           "bones": [
             "cosmetic_hat"
+          ]
+        },
+        "top_hat": {
+          "scale": [
+            0.31666666666666665,
+            0.31666666666666665,
+            0.31666666666666665
+          ],
+          "origin": [
+            8,
+            0,
+            8
+          ],
+          "target": [
+            8,
+            6.06625,
+            1.9
+          ],
+          "bones": [
+            "cosmetic_top_hat"
+          ]
+        },
+        "wizard_hat": {
+          "scale": [
+            0.31666666666666665,
+            0.31666666666666665,
+            0.31666666666666665
+          ],
+          "origin": [
+            8,
+            0,
+            8
+          ],
+          "target": [
+            8,
+            6.06625,
+            1.9
+          ],
+          "bones": [
+            "cosmetic_wizard_hat"
+          ]
+        },
+        "crown": {
+          "scale": [
+            0.31666666666666665,
+            0.31666666666666665,
+            0.31666666666666665
+          ],
+          "origin": [
+            8,
+            0,
+            8
+          ],
+          "target": [
+            8,
+            6.06625,
+            1.9
+          ],
+          "bones": [
+            "cosmetic_crown"
           ]
         }
       }
@@ -2988,6 +4230,18 @@
       "hat": {
         "assetId": "b0de5c2d-8928-491c-8b53-f2684e4e6031",
         "sourceHash": "48ddd88912c49e887d1ecaa792dd2f98030ea607776ec827193df85d82f60315"
+      },
+      "top_hat": {
+        "assetId": "9f5330ef-4bc8-43f1-91e2-8092271cc036",
+        "sourceHash": "70244a39e5dc90450cceee95cdc0bc78ab0574d74c197f2d219e73f2c280289a"
+      },
+      "wizard_hat": {
+        "assetId": "86a151e5-8a85-4cf5-bfbb-fb740390f187",
+        "sourceHash": "1139718fc294391d7cd1bf567559059a46e17659350f280a188fd0907b411506"
+      },
+      "crown": {
+        "assetId": "961ad03b-bf28-41f0-9ca6-5c6efe2aa5a7",
+        "sourceHash": "c5ddd3bc9b26df795cbafb664c54beaa9508a3fd0e5b1642cd9ff8ddea3d3195"
       }
     }
   },
@@ -2998,7 +4252,10 @@
       "best_friend": "2b387b8d-0254-42d0-8302-3977ed5582d8",
       "bow": "d60e10de-bbc7-45dc-9f16-235a885afb3b",
       "collar": "7b1a02f8-f19d-47c4-a96b-98998324908a",
-      "hat": "ebadac28-e5ca-4bec-9341-cbed040d46e4"
+      "hat": "ebadac28-e5ca-4bec-9341-cbed040d46e4",
+      "top_hat": "523978e9-2fda-43a9-9ae4-c0bf72c703a8",
+      "wizard_hat": "751c4924-f3ab-4f42-a12e-5e0d0e6ae396",
+      "crown": "6442134a-97ba-4348-8275-c71706d7d43b"
     },
     "transforms": {
       "cosmetic_bandana": {
@@ -3067,6 +4324,45 @@
         ]
       },
       "cosmetic_hat": {
+        "parent": "head",
+        "pivot": [
+          8,
+          4,
+          4
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ]
+      },
+      "cosmetic_top_hat": {
+        "parent": "head",
+        "pivot": [
+          8,
+          4,
+          4
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ]
+      },
+      "cosmetic_wizard_hat": {
+        "parent": "head",
+        "pivot": [
+          8,
+          4,
+          4
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ]
+      },
+      "cosmetic_crown": {
         "parent": "head",
         "pivot": [
           8,
@@ -3237,6 +4533,66 @@
           "bones": [
             "cosmetic_hat"
           ]
+        },
+        "top_hat": {
+          "scale": [
+            0.31666666666666665,
+            0.31666666666666665,
+            0.31666666666666665
+          ],
+          "origin": [
+            8,
+            0,
+            8
+          ],
+          "target": [
+            8,
+            6.06625,
+            1.9
+          ],
+          "bones": [
+            "cosmetic_top_hat"
+          ]
+        },
+        "wizard_hat": {
+          "scale": [
+            0.31666666666666665,
+            0.31666666666666665,
+            0.31666666666666665
+          ],
+          "origin": [
+            8,
+            0,
+            8
+          ],
+          "target": [
+            8,
+            6.06625,
+            1.9
+          ],
+          "bones": [
+            "cosmetic_wizard_hat"
+          ]
+        },
+        "crown": {
+          "scale": [
+            0.31666666666666665,
+            0.31666666666666665,
+            0.31666666666666665
+          ],
+          "origin": [
+            8,
+            0,
+            8
+          ],
+          "target": [
+            8,
+            6.06625,
+            1.9
+          ],
+          "bones": [
+            "cosmetic_crown"
+          ]
         }
       }
     },
@@ -3260,6 +4616,18 @@
       "hat": {
         "assetId": "c636b0b2-ceb3-4307-9e1b-5c94bb889e3b",
         "sourceHash": "fb3e95ff24de835472610b38add52a87118f3f866dbdc2fd6cc73bd03f04110c"
+      },
+      "top_hat": {
+        "assetId": "9004020d-bb27-4ecd-acfe-be2f176e8fb7",
+        "sourceHash": "3b82048040d24378ce6528ab9680d7cb0b6096f544719d9014705f052ac87d3c"
+      },
+      "wizard_hat": {
+        "assetId": "4030868d-475e-410e-bcd8-dba6ceb11724",
+        "sourceHash": "965bfa5e8bf6dee5cee551108463bfe4a02ff3e10eceb6e7d14225ebdc14746e"
+      },
+      "crown": {
+        "assetId": "99a516ae-edfd-4c40-b0e8-561f7c2565f7",
+        "sourceHash": "49cd8dbf7538b3f7da7de64dded59b3a51420b88fe7051cb2f491b8f9ceddc0d"
       }
     }
   },
@@ -3270,7 +4638,10 @@
       "best_friend": "2b387b8d-0254-42d0-8302-3977ed5582d8",
       "bow": "d60e10de-bbc7-45dc-9f16-235a885afb3b",
       "collar": "7b1a02f8-f19d-47c4-a96b-98998324908a",
-      "hat": "ebadac28-e5ca-4bec-9341-cbed040d46e4"
+      "hat": "ebadac28-e5ca-4bec-9341-cbed040d46e4",
+      "top_hat": "523978e9-2fda-43a9-9ae4-c0bf72c703a8",
+      "wizard_hat": "751c4924-f3ab-4f42-a12e-5e0d0e6ae396",
+      "crown": "6442134a-97ba-4348-8275-c71706d7d43b"
     },
     "transforms": {
       "cosmetic_bandana": {
@@ -3339,6 +4710,45 @@
         ]
       },
       "cosmetic_hat": {
+        "parent": "head",
+        "pivot": [
+          8,
+          5,
+          4
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ]
+      },
+      "cosmetic_top_hat": {
+        "parent": "head",
+        "pivot": [
+          8,
+          5,
+          4
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ]
+      },
+      "cosmetic_wizard_hat": {
+        "parent": "head",
+        "pivot": [
+          8,
+          5,
+          4
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ]
+      },
+      "cosmetic_crown": {
         "parent": "head",
         "pivot": [
           8,
@@ -3508,6 +4918,66 @@
           ],
           "bones": [
             "cosmetic_hat"
+          ]
+        },
+        "top_hat": {
+          "scale": [
+            0.3,
+            0.3,
+            0.3
+          ],
+          "origin": [
+            8,
+            0,
+            8
+          ],
+          "target": [
+            8,
+            7.06625,
+            0.020000000000000018
+          ],
+          "bones": [
+            "cosmetic_top_hat"
+          ]
+        },
+        "wizard_hat": {
+          "scale": [
+            0.3,
+            0.3,
+            0.3
+          ],
+          "origin": [
+            8,
+            0,
+            8
+          ],
+          "target": [
+            8,
+            7.06625,
+            0.020000000000000018
+          ],
+          "bones": [
+            "cosmetic_wizard_hat"
+          ]
+        },
+        "crown": {
+          "scale": [
+            0.3,
+            0.3,
+            0.3
+          ],
+          "origin": [
+            8,
+            0,
+            8
+          ],
+          "target": [
+            8,
+            7.06625,
+            0.020000000000000018
+          ],
+          "bones": [
+            "cosmetic_crown"
           ]
         }
       }
@@ -3532,6 +5002,18 @@
       "hat": {
         "assetId": "db25c88c-8837-40bd-99fc-901fb74b1f45",
         "sourceHash": "b81f6adce79fbde2dff569fca0c9adc2eacc1c6679897cc3c3782e59ff0aa871"
+      },
+      "top_hat": {
+        "assetId": "5cc0920a-8281-4443-96db-d731c8d332c7",
+        "sourceHash": "607c81b20737b71821a3705e72aeaf530920c5e793b9ed0a28107e04832d7596"
+      },
+      "wizard_hat": {
+        "assetId": "fdb600c4-56e6-46f6-b1f2-40fbec45a8b4",
+        "sourceHash": "ca46548c7af3a99e49c066c36358f67811966e86565f681a8e016bb2e733e081"
+      },
+      "crown": {
+        "assetId": "377bb7ce-b93c-426d-9d80-de59a7392a04",
+        "sourceHash": "584ae91c96063bb4e9708cfcf353ec66bb58944c630107a3cb3f1673f2b9a006"
       }
     }
   },
@@ -3542,7 +5024,10 @@
       "best_friend": "2b387b8d-0254-42d0-8302-3977ed5582d8",
       "bow": "d60e10de-bbc7-45dc-9f16-235a885afb3b",
       "collar": "7b1a02f8-f19d-47c4-a96b-98998324908a",
-      "hat": "ebadac28-e5ca-4bec-9341-cbed040d46e4"
+      "hat": "ebadac28-e5ca-4bec-9341-cbed040d46e4",
+      "top_hat": "523978e9-2fda-43a9-9ae4-c0bf72c703a8",
+      "wizard_hat": "751c4924-f3ab-4f42-a12e-5e0d0e6ae396",
+      "crown": "6442134a-97ba-4348-8275-c71706d7d43b"
     },
     "transforms": {
       "cosmetic_bandana": {
@@ -3611,6 +5096,45 @@
         ]
       },
       "cosmetic_hat": {
+        "parent": "head",
+        "pivot": [
+          8,
+          5,
+          4
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ]
+      },
+      "cosmetic_top_hat": {
+        "parent": "head",
+        "pivot": [
+          8,
+          5,
+          4
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ]
+      },
+      "cosmetic_wizard_hat": {
+        "parent": "head",
+        "pivot": [
+          8,
+          5,
+          4
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ]
+      },
+      "cosmetic_crown": {
         "parent": "head",
         "pivot": [
           8,
@@ -3780,6 +5304,66 @@
           ],
           "bones": [
             "cosmetic_hat"
+          ]
+        },
+        "top_hat": {
+          "scale": [
+            0.3,
+            0.3,
+            0.3
+          ],
+          "origin": [
+            8,
+            0,
+            8
+          ],
+          "target": [
+            8,
+            7.06625,
+            0.020000000000000018
+          ],
+          "bones": [
+            "cosmetic_top_hat"
+          ]
+        },
+        "wizard_hat": {
+          "scale": [
+            0.3,
+            0.3,
+            0.3
+          ],
+          "origin": [
+            8,
+            0,
+            8
+          ],
+          "target": [
+            8,
+            7.06625,
+            0.020000000000000018
+          ],
+          "bones": [
+            "cosmetic_wizard_hat"
+          ]
+        },
+        "crown": {
+          "scale": [
+            0.3,
+            0.3,
+            0.3
+          ],
+          "origin": [
+            8,
+            0,
+            8
+          ],
+          "target": [
+            8,
+            7.06625,
+            0.020000000000000018
+          ],
+          "bones": [
+            "cosmetic_crown"
           ]
         }
       }
@@ -3804,6 +5388,18 @@
       "hat": {
         "assetId": "6880ec5e-6f46-4a37-9f44-a50cb784b5f1",
         "sourceHash": "6ef5ab3f2da2fdf052398ab9bb6b4a10f112329dc3e5df019c75a9d8de3bb86e"
+      },
+      "top_hat": {
+        "assetId": "6cceb01e-40a4-45fc-94df-697ec54aea40",
+        "sourceHash": "2bf931c2e916c75087577f89d1479e83157932a71286c9f665116d83c87a6d60"
+      },
+      "wizard_hat": {
+        "assetId": "08326aaa-951c-40f3-887e-45e2ba118fa9",
+        "sourceHash": "ff627509f99e0b91171d52cf0d981f5d3e2698e7a009d6cf0bb9d8c33f8b0b10"
+      },
+      "crown": {
+        "assetId": "603c6984-6dc1-48eb-bb23-d6c21669efe9",
+        "sourceHash": "678f5b45cf4ceacd3e57a4848522bd25c03a32aeb598abc44262a8ac93183b54"
       }
     }
   },
@@ -3814,7 +5410,10 @@
       "best_friend": "2b387b8d-0254-42d0-8302-3977ed5582d8",
       "bow": "d60e10de-bbc7-45dc-9f16-235a885afb3b",
       "collar": "7b1a02f8-f19d-47c4-a96b-98998324908a",
-      "hat": "ebadac28-e5ca-4bec-9341-cbed040d46e4"
+      "hat": "ebadac28-e5ca-4bec-9341-cbed040d46e4",
+      "top_hat": "523978e9-2fda-43a9-9ae4-c0bf72c703a8",
+      "wizard_hat": "751c4924-f3ab-4f42-a12e-5e0d0e6ae396",
+      "crown": "6442134a-97ba-4348-8275-c71706d7d43b"
     },
     "transforms": {
       "cosmetic_bandana": {
@@ -3883,6 +5482,45 @@
         ]
       },
       "cosmetic_hat": {
+        "parent": "head",
+        "pivot": [
+          8,
+          5,
+          4
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ]
+      },
+      "cosmetic_top_hat": {
+        "parent": "head",
+        "pivot": [
+          8,
+          5,
+          4
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ]
+      },
+      "cosmetic_wizard_hat": {
+        "parent": "head",
+        "pivot": [
+          8,
+          5,
+          4
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ]
+      },
+      "cosmetic_crown": {
         "parent": "head",
         "pivot": [
           8,
@@ -4053,6 +5691,66 @@
           "bones": [
             "cosmetic_hat"
           ]
+        },
+        "top_hat": {
+          "scale": [
+            0.3,
+            0.3,
+            0.3
+          ],
+          "origin": [
+            8,
+            0,
+            8
+          ],
+          "target": [
+            8,
+            7.06625,
+            0.020000000000000018
+          ],
+          "bones": [
+            "cosmetic_top_hat"
+          ]
+        },
+        "wizard_hat": {
+          "scale": [
+            0.3,
+            0.3,
+            0.3
+          ],
+          "origin": [
+            8,
+            0,
+            8
+          ],
+          "target": [
+            8,
+            7.06625,
+            0.020000000000000018
+          ],
+          "bones": [
+            "cosmetic_wizard_hat"
+          ]
+        },
+        "crown": {
+          "scale": [
+            0.3,
+            0.3,
+            0.3
+          ],
+          "origin": [
+            8,
+            0,
+            8
+          ],
+          "target": [
+            8,
+            7.06625,
+            0.020000000000000018
+          ],
+          "bones": [
+            "cosmetic_crown"
+          ]
         }
       }
     },
@@ -4076,6 +5774,18 @@
       "hat": {
         "assetId": "cdc4306e-6a43-4026-bf6c-7fce6c106822",
         "sourceHash": "255b750fb4a0317102a729ccf57af85c5ffd2f0dd1acc5f55f9e827eb4683b80"
+      },
+      "top_hat": {
+        "assetId": "ef6bae1a-f022-4eba-9d26-a6edb259906a",
+        "sourceHash": "4ad91d0183afe10698363bb89ddd0e79d4e8ac60a177c7f103555c441a70238f"
+      },
+      "wizard_hat": {
+        "assetId": "87b5a9ec-e2e7-444e-bba5-347a7042e464",
+        "sourceHash": "686e0ce8cf2b68abcd13f6107ef9789ff7b563612ea155aa0638529d78b61b7c"
+      },
+      "crown": {
+        "assetId": "13d71f38-99fe-4125-a4ec-58a2c283af16",
+        "sourceHash": "d17419dfb9d50d19af919a95397d11af17612d76850f5107dbbfe9dcf9cc9f18"
       }
     }
   },
@@ -4086,7 +5796,10 @@
       "best_friend": "2b387b8d-0254-42d0-8302-3977ed5582d8",
       "bow": "d60e10de-bbc7-45dc-9f16-235a885afb3b",
       "collar": "7b1a02f8-f19d-47c4-a96b-98998324908a",
-      "hat": "ebadac28-e5ca-4bec-9341-cbed040d46e4"
+      "hat": "ebadac28-e5ca-4bec-9341-cbed040d46e4",
+      "top_hat": "523978e9-2fda-43a9-9ae4-c0bf72c703a8",
+      "wizard_hat": "751c4924-f3ab-4f42-a12e-5e0d0e6ae396",
+      "crown": "6442134a-97ba-4348-8275-c71706d7d43b"
     },
     "transforms": {
       "cosmetic_bandana": {
@@ -4155,6 +5868,45 @@
         ]
       },
       "cosmetic_hat": {
+        "parent": "head",
+        "pivot": [
+          8,
+          5,
+          3.75
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ]
+      },
+      "cosmetic_top_hat": {
+        "parent": "head",
+        "pivot": [
+          8,
+          5,
+          3.75
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ]
+      },
+      "cosmetic_wizard_hat": {
+        "parent": "head",
+        "pivot": [
+          8,
+          5,
+          3.75
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ]
+      },
+      "cosmetic_crown": {
         "parent": "head",
         "pivot": [
           8,
@@ -4325,6 +6077,66 @@
           "bones": [
             "cosmetic_hat"
           ]
+        },
+        "top_hat": {
+          "scale": [
+            0.18333333333333335,
+            0.18333333333333335,
+            0.18333333333333335
+          ],
+          "origin": [
+            8,
+            0,
+            8
+          ],
+          "target": [
+            8,
+            7.035,
+            1.65
+          ],
+          "bones": [
+            "cosmetic_top_hat"
+          ]
+        },
+        "wizard_hat": {
+          "scale": [
+            0.18333333333333335,
+            0.18333333333333335,
+            0.18333333333333335
+          ],
+          "origin": [
+            8,
+            0,
+            8
+          ],
+          "target": [
+            8,
+            7.035,
+            1.65
+          ],
+          "bones": [
+            "cosmetic_wizard_hat"
+          ]
+        },
+        "crown": {
+          "scale": [
+            0.18333333333333335,
+            0.18333333333333335,
+            0.18333333333333335
+          ],
+          "origin": [
+            8,
+            0,
+            8
+          ],
+          "target": [
+            8,
+            7.035,
+            1.65
+          ],
+          "bones": [
+            "cosmetic_crown"
+          ]
         }
       }
     },
@@ -4348,6 +6160,18 @@
       "hat": {
         "assetId": "f104ec69-3378-42cd-a4e5-084740972b5e",
         "sourceHash": "0aeb21d1358be910f0f2b207bf1f1ae0a0375a3f7f523042225d12fa2442b8c3"
+      },
+      "top_hat": {
+        "assetId": "d6f32755-730a-4998-bc8f-1ded6ccc53bb",
+        "sourceHash": "be30b7619d8bfe18b6cb2ad84bd30218c0ea09ec29c23295591425da6399e88f"
+      },
+      "wizard_hat": {
+        "assetId": "a5a9fb40-0325-493e-af4d-ecda006e5187",
+        "sourceHash": "45ad7674692a971322278894083ea0c555f672c98c1687be9e22f386cc89d06f"
+      },
+      "crown": {
+        "assetId": "738b7a66-5c46-4861-a416-b8a416221d2b",
+        "sourceHash": "e355606c36b1ee43fa61db0aaaafdbb2c5a5866563e0809784f0196939fcea7f"
       }
     }
   },
@@ -4358,7 +6182,10 @@
       "best_friend": "2b387b8d-0254-42d0-8302-3977ed5582d8",
       "bow": "d60e10de-bbc7-45dc-9f16-235a885afb3b",
       "collar": "7b1a02f8-f19d-47c4-a96b-98998324908a",
-      "hat": "ebadac28-e5ca-4bec-9341-cbed040d46e4"
+      "hat": "ebadac28-e5ca-4bec-9341-cbed040d46e4",
+      "top_hat": "523978e9-2fda-43a9-9ae4-c0bf72c703a8",
+      "wizard_hat": "751c4924-f3ab-4f42-a12e-5e0d0e6ae396",
+      "crown": "6442134a-97ba-4348-8275-c71706d7d43b"
     },
     "transforms": {
       "cosmetic_bandana": {
@@ -4427,6 +6254,45 @@
         ]
       },
       "cosmetic_hat": {
+        "parent": "head",
+        "pivot": [
+          8,
+          5.5,
+          4
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ]
+      },
+      "cosmetic_top_hat": {
+        "parent": "head",
+        "pivot": [
+          8,
+          5.5,
+          4
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ]
+      },
+      "cosmetic_wizard_hat": {
+        "parent": "head",
+        "pivot": [
+          8,
+          5.5,
+          4
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ]
+      },
+      "cosmetic_crown": {
         "parent": "head",
         "pivot": [
           8,
@@ -4597,6 +6463,66 @@
           "bones": [
             "cosmetic_hat"
           ]
+        },
+        "top_hat": {
+          "scale": [
+            0.18333333333333335,
+            0.18333333333333335,
+            0.18333333333333335
+          ],
+          "origin": [
+            8,
+            0,
+            8
+          ],
+          "target": [
+            8,
+            7.035,
+            2.025
+          ],
+          "bones": [
+            "cosmetic_top_hat"
+          ]
+        },
+        "wizard_hat": {
+          "scale": [
+            0.18333333333333335,
+            0.18333333333333335,
+            0.18333333333333335
+          ],
+          "origin": [
+            8,
+            0,
+            8
+          ],
+          "target": [
+            8,
+            7.035,
+            2.025
+          ],
+          "bones": [
+            "cosmetic_wizard_hat"
+          ]
+        },
+        "crown": {
+          "scale": [
+            0.18333333333333335,
+            0.18333333333333335,
+            0.18333333333333335
+          ],
+          "origin": [
+            8,
+            0,
+            8
+          ],
+          "target": [
+            8,
+            7.035,
+            2.025
+          ],
+          "bones": [
+            "cosmetic_crown"
+          ]
         }
       }
     },
@@ -4620,6 +6546,18 @@
       "hat": {
         "assetId": "d2d32a8c-52f8-494c-ba10-10da8c64c95d",
         "sourceHash": "c113d0aeb8dda700f3b0db398556e3f2315597bb91a13b606b7c62ae354ffc98"
+      },
+      "top_hat": {
+        "assetId": "fdfde3db-a665-430c-aee0-aaaa6e214670",
+        "sourceHash": "e455002cdef23123f9d0ae6ee3a61a9d368cffb4a5cd66cb4ef720ade5f7691a"
+      },
+      "wizard_hat": {
+        "assetId": "72c8596d-a428-4a2e-a95e-fdba1d5a70d8",
+        "sourceHash": "bec847e2979031cb3c91f373c54e8fd95fee45f89a0cedab2f089a39c6ff1a94"
+      },
+      "crown": {
+        "assetId": "b69eb47d-6957-4112-9a26-ae037a3a8bdc",
+        "sourceHash": "6ce9b01907bc5cba581917e4b73be92bc3dbe2f6188cf4a71bd962eef801608a"
       }
     }
   },
@@ -4630,7 +6568,10 @@
       "best_friend": "2b387b8d-0254-42d0-8302-3977ed5582d8",
       "bow": "d60e10de-bbc7-45dc-9f16-235a885afb3b",
       "collar": "7b1a02f8-f19d-47c4-a96b-98998324908a",
-      "hat": "ebadac28-e5ca-4bec-9341-cbed040d46e4"
+      "hat": "ebadac28-e5ca-4bec-9341-cbed040d46e4",
+      "top_hat": "523978e9-2fda-43a9-9ae4-c0bf72c703a8",
+      "wizard_hat": "751c4924-f3ab-4f42-a12e-5e0d0e6ae396",
+      "crown": "6442134a-97ba-4348-8275-c71706d7d43b"
     },
     "transforms": {
       "cosmetic_bandana": {
@@ -4699,6 +6640,45 @@
         ]
       },
       "cosmetic_hat": {
+        "parent": "head",
+        "pivot": [
+          8,
+          7.5,
+          3
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ]
+      },
+      "cosmetic_top_hat": {
+        "parent": "head",
+        "pivot": [
+          8,
+          7.5,
+          3
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ]
+      },
+      "cosmetic_wizard_hat": {
+        "parent": "head",
+        "pivot": [
+          8,
+          7.5,
+          3
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ]
+      },
+      "cosmetic_crown": {
         "parent": "head",
         "pivot": [
           8,
@@ -4869,6 +6849,66 @@
           "bones": [
             "cosmetic_hat"
           ]
+        },
+        "top_hat": {
+          "scale": [
+            0.30833333333333335,
+            0.30833333333333335,
+            0.30833333333333335
+          ],
+          "origin": [
+            8,
+            0,
+            8
+          ],
+          "target": [
+            8,
+            11.035,
+            0.4
+          ],
+          "bones": [
+            "cosmetic_top_hat"
+          ]
+        },
+        "wizard_hat": {
+          "scale": [
+            0.30833333333333335,
+            0.30833333333333335,
+            0.30833333333333335
+          ],
+          "origin": [
+            8,
+            0,
+            8
+          ],
+          "target": [
+            8,
+            11.035,
+            0.4
+          ],
+          "bones": [
+            "cosmetic_wizard_hat"
+          ]
+        },
+        "crown": {
+          "scale": [
+            0.30833333333333335,
+            0.30833333333333335,
+            0.30833333333333335
+          ],
+          "origin": [
+            8,
+            0,
+            8
+          ],
+          "target": [
+            8,
+            11.035,
+            0.4
+          ],
+          "bones": [
+            "cosmetic_crown"
+          ]
         }
       }
     },
@@ -4892,6 +6932,18 @@
       "hat": {
         "assetId": "bef20314-8f0e-494b-8c28-59a8d7909cb0",
         "sourceHash": "c5f691020fa8deee50309d9ca35e6a9130278fa5e1c9345cd7585ecb959d5400"
+      },
+      "top_hat": {
+        "assetId": "801e7643-1b67-4aa1-8ae1-b6ae1bf62d8a",
+        "sourceHash": "0fac2ac9397658333ccc9d315ace861f29f4caaef08c9651837280b6d31e361e"
+      },
+      "wizard_hat": {
+        "assetId": "94a2462a-111a-4a83-9b87-a27047129c0e",
+        "sourceHash": "0b80d52326a62faa910da2e6389ba80ef06d7634a68c9f3beeb19224700f096d"
+      },
+      "crown": {
+        "assetId": "3eb7d78f-3fca-4cfc-806b-bc0c6d7d2aa1",
+        "sourceHash": "912698a20349d6eee30229c093eb484dd6b54f7a7bd4775e10dde6939372fb00"
       }
     }
   }
