@@ -1,0 +1,4898 @@
+{
+  "pet_capybara_chestnut": {
+    "animalParentAssetId": "edebb906-239d-4068-ab66-65162dfb6575",
+    "accessoryParentAssetIds": {
+      "bandana": "cc947983-22d1-4bd9-99c0-c11eb96bb846",
+      "best_friend": "2b387b8d-0254-42d0-8302-3977ed5582d8",
+      "bow": "d60e10de-bbc7-45dc-9f16-235a885afb3b",
+      "collar": "7b1a02f8-f19d-47c4-a96b-98998324908a",
+      "hat": "ebadac28-e5ca-4bec-9341-cbed040d46e4"
+    },
+    "transforms": {
+      "cosmetic_bandana": {
+        "parent": "body",
+        "pivot": [
+          8,
+          6.5,
+          7.2
+        ],
+        "rotation": [
+          -90,
+          0,
+          0
+        ]
+      },
+      "cosmetic_best_friend": {
+        "parent": "body",
+        "pivot": [
+          8,
+          6.5,
+          7.2
+        ],
+        "rotation": [
+          -90,
+          0,
+          0
+        ]
+      },
+      "cosmetic_bow": {
+        "parent": "head",
+        "pivot": [
+          8,
+          8,
+          4
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ]
+      },
+      "cosmetic_collar": {
+        "parent": "body",
+        "pivot": [
+          8,
+          6.5,
+          7.2
+        ],
+        "rotation": [
+          -90,
+          0,
+          0
+        ]
+      },
+      "cosmetic_collar_bib": {
+        "parent": "body",
+        "pivot": [
+          8,
+          3.18,
+          6.79
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ]
+      },
+      "cosmetic_hat": {
+        "parent": "head",
+        "pivot": [
+          8,
+          8,
+          4
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    "fits": {
+      "head": "blunt_head",
+      "body": "barrel_body",
+      "neck": [
+        8,
+        6.5,
+        7.2
+      ],
+      "neckBounds": {
+        "low": [
+          3,
+          3
+        ],
+        "high": [
+          13,
+          10
+        ]
+      },
+      "hat": {
+        "brim": 2.6,
+        "z": -0.48,
+        "top": 11
+      },
+      "accessories": {
+        "bandana": {
+          "scale": [
+            1.265,
+            0.38,
+            0.9493333333333334
+          ],
+          "origin": [
+            8,
+            9.625,
+            8.25
+          ],
+          "target": [
+            8,
+            6.5,
+            7.2
+          ],
+          "bibScale": 0.8222499999999999,
+          "bibOrigin": [
+            8,
+            9,
+            3.75
+          ],
+          "bibTarget": [
+            8,
+            10.54,
+            7.390000000000001
+          ],
+          "bones": [
+            "cosmetic_bandana"
+          ]
+        },
+        "best_friend": {
+          "scale": [
+            1.265,
+            0.38,
+            0.89
+          ],
+          "origin": [
+            8,
+            9.75,
+            8
+          ],
+          "target": [
+            8,
+            6.5,
+            7.2
+          ],
+          "bibScale": 0.8222499999999999,
+          "bibOrigin": [
+            8,
+            9,
+            4
+          ],
+          "bibTarget": [
+            8,
+            10.54,
+            7.390000000000001
+          ],
+          "bones": [
+            "cosmetic_best_friend"
+          ]
+        },
+        "bow": {
+          "scale": [
+            0.44800000000000006,
+            0.44800000000000006,
+            0.44800000000000006
+          ],
+          "origin": [
+            8,
+            5.75,
+            8
+          ],
+          "target": [
+            8,
+            11.035,
+            0.6
+          ],
+          "bones": [
+            "cosmetic_bow"
+          ]
+        },
+        "collar": {
+          "scale": [
+            1.265,
+            0.24,
+            0.89
+          ],
+          "origin": [
+            8,
+            8,
+            8
+          ],
+          "target": [
+            8,
+            6.5,
+            7.2
+          ],
+          "bibScale": 0.6000000000000001,
+          "bibOrigin": [
+            8,
+            8,
+            2.75
+          ],
+          "bibTarget": [
+            8,
+            3.18,
+            6.79
+          ],
+          "bones": [
+            "cosmetic_collar",
+            "cosmetic_collar_bib"
+          ]
+        },
+        "hat": {
+          "scale": [
+            0.21666666666666667,
+            0.21666666666666667,
+            0.21666666666666667
+          ],
+          "origin": [
+            8,
+            5.5,
+            8
+          ],
+          "target": [
+            8,
+            11.035,
+            -0.48
+          ],
+          "bones": [
+            "cosmetic_hat"
+          ]
+        }
+      }
+    },
+    "variants": {
+      "bandana": {
+        "assetId": "f655fc08-b33b-4758-9026-0a7e1af950c2",
+        "sourceHash": "c3ec8118614f2f197e9fdd82c7bb44b7d8e1489f2d299b231717ba48fcc9fbbb"
+      },
+      "best_friend": {
+        "assetId": "6e7195d3-68be-4b95-a774-6d9985bef228",
+        "sourceHash": "f9c4cf4a3e92b1f66703ef48d2ed1a87570caf5030c9e88c69be4e18c1099b27"
+      },
+      "bow": {
+        "assetId": "7684cc0c-161e-4605-be8a-236ff3ddbff9",
+        "sourceHash": "b82aacab183439b1f748e924629336343d709da1b3f39be5961a8722b35c18dc"
+      },
+      "collar": {
+        "assetId": "595cdf07-7eea-4158-a637-91c98af8e1c4",
+        "sourceHash": "675c4800e1c9360780bba469255fe82c182d8ff589e088e91146ad1fd757aee7"
+      },
+      "hat": {
+        "assetId": "7662543a-5706-4a61-85c7-4bb0b91ae214",
+        "sourceHash": "632cbdb0955aabc0edcdcb9c93d911faed9cf679a715ece6ab99efcc287d4e22"
+      }
+    }
+  },
+  "pet_capybara_dark": {
+    "animalParentAssetId": "9d85c15a-eb7b-4438-accc-01140d0832f6",
+    "accessoryParentAssetIds": {
+      "bandana": "cc947983-22d1-4bd9-99c0-c11eb96bb846",
+      "best_friend": "2b387b8d-0254-42d0-8302-3977ed5582d8",
+      "bow": "d60e10de-bbc7-45dc-9f16-235a885afb3b",
+      "collar": "7b1a02f8-f19d-47c4-a96b-98998324908a",
+      "hat": "ebadac28-e5ca-4bec-9341-cbed040d46e4"
+    },
+    "transforms": {
+      "cosmetic_bandana": {
+        "parent": "body",
+        "pivot": [
+          8,
+          6.5,
+          7.2
+        ],
+        "rotation": [
+          -90,
+          0,
+          0
+        ]
+      },
+      "cosmetic_best_friend": {
+        "parent": "body",
+        "pivot": [
+          8,
+          6.5,
+          7.2
+        ],
+        "rotation": [
+          -90,
+          0,
+          0
+        ]
+      },
+      "cosmetic_bow": {
+        "parent": "head",
+        "pivot": [
+          8,
+          8,
+          4
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ]
+      },
+      "cosmetic_collar": {
+        "parent": "body",
+        "pivot": [
+          8,
+          6.5,
+          7.2
+        ],
+        "rotation": [
+          -90,
+          0,
+          0
+        ]
+      },
+      "cosmetic_collar_bib": {
+        "parent": "body",
+        "pivot": [
+          8,
+          3.18,
+          6.79
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ]
+      },
+      "cosmetic_hat": {
+        "parent": "head",
+        "pivot": [
+          8,
+          8,
+          4
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    "fits": {
+      "head": "blunt_head",
+      "body": "barrel_body",
+      "neck": [
+        8,
+        6.5,
+        7.2
+      ],
+      "neckBounds": {
+        "low": [
+          3,
+          3
+        ],
+        "high": [
+          13,
+          10
+        ]
+      },
+      "hat": {
+        "brim": 2.6,
+        "z": -0.48,
+        "top": 11
+      },
+      "accessories": {
+        "bandana": {
+          "scale": [
+            1.265,
+            0.38,
+            0.9493333333333334
+          ],
+          "origin": [
+            8,
+            9.625,
+            8.25
+          ],
+          "target": [
+            8,
+            6.5,
+            7.2
+          ],
+          "bibScale": 0.8222499999999999,
+          "bibOrigin": [
+            8,
+            9,
+            3.75
+          ],
+          "bibTarget": [
+            8,
+            10.54,
+            7.390000000000001
+          ],
+          "bones": [
+            "cosmetic_bandana"
+          ]
+        },
+        "best_friend": {
+          "scale": [
+            1.265,
+            0.38,
+            0.89
+          ],
+          "origin": [
+            8,
+            9.75,
+            8
+          ],
+          "target": [
+            8,
+            6.5,
+            7.2
+          ],
+          "bibScale": 0.8222499999999999,
+          "bibOrigin": [
+            8,
+            9,
+            4
+          ],
+          "bibTarget": [
+            8,
+            10.54,
+            7.390000000000001
+          ],
+          "bones": [
+            "cosmetic_best_friend"
+          ]
+        },
+        "bow": {
+          "scale": [
+            0.44800000000000006,
+            0.44800000000000006,
+            0.44800000000000006
+          ],
+          "origin": [
+            8,
+            5.75,
+            8
+          ],
+          "target": [
+            8,
+            11.035,
+            0.6
+          ],
+          "bones": [
+            "cosmetic_bow"
+          ]
+        },
+        "collar": {
+          "scale": [
+            1.265,
+            0.24,
+            0.89
+          ],
+          "origin": [
+            8,
+            8,
+            8
+          ],
+          "target": [
+            8,
+            6.5,
+            7.2
+          ],
+          "bibScale": 0.6000000000000001,
+          "bibOrigin": [
+            8,
+            8,
+            2.75
+          ],
+          "bibTarget": [
+            8,
+            3.18,
+            6.79
+          ],
+          "bones": [
+            "cosmetic_collar",
+            "cosmetic_collar_bib"
+          ]
+        },
+        "hat": {
+          "scale": [
+            0.21666666666666667,
+            0.21666666666666667,
+            0.21666666666666667
+          ],
+          "origin": [
+            8,
+            5.5,
+            8
+          ],
+          "target": [
+            8,
+            11.035,
+            -0.48
+          ],
+          "bones": [
+            "cosmetic_hat"
+          ]
+        }
+      }
+    },
+    "variants": {
+      "bandana": {
+        "assetId": "22332109-b0f1-43c0-aa34-a3117cbd0e52",
+        "sourceHash": "fd1f9d9600e3f6575b54f80cfa3f116b03ab6a1f007eae485ca808208ddbba10"
+      },
+      "best_friend": {
+        "assetId": "63983567-ce86-4a2b-8c2c-262cee2b7244",
+        "sourceHash": "18cd348034e01927a811ae72660b693b298dfcc414f45506dd2d9808e4d0c923"
+      },
+      "bow": {
+        "assetId": "cc58d01d-968d-46e8-a720-bdee71bec379",
+        "sourceHash": "e48788e5e8b320036d3cc1b6be0f8a15a1586313bb5963fd6415d8d2b3fb411c"
+      },
+      "collar": {
+        "assetId": "57585d27-e55a-4e3a-bdb2-cbdecbaa9481",
+        "sourceHash": "366b29480732aff151f1c8d1f5c02b26e16f031eae9902096df75447f88a3aac"
+      },
+      "hat": {
+        "assetId": "8b2318a0-fa68-471e-922c-02119055ed9d",
+        "sourceHash": "74d86a6a3db70ef361780fd626179bda1f4011b3fccd341b95aeebba2146a7dc"
+      }
+    }
+  },
+  "pet_capybara_tan": {
+    "animalParentAssetId": "ab399b36-6980-4930-9e2a-62cfab31b853",
+    "accessoryParentAssetIds": {
+      "bandana": "cc947983-22d1-4bd9-99c0-c11eb96bb846",
+      "best_friend": "2b387b8d-0254-42d0-8302-3977ed5582d8",
+      "bow": "d60e10de-bbc7-45dc-9f16-235a885afb3b",
+      "collar": "7b1a02f8-f19d-47c4-a96b-98998324908a",
+      "hat": "ebadac28-e5ca-4bec-9341-cbed040d46e4"
+    },
+    "transforms": {
+      "cosmetic_bandana": {
+        "parent": "body",
+        "pivot": [
+          8,
+          6.5,
+          7.2
+        ],
+        "rotation": [
+          -90,
+          0,
+          0
+        ]
+      },
+      "cosmetic_best_friend": {
+        "parent": "body",
+        "pivot": [
+          8,
+          6.5,
+          7.2
+        ],
+        "rotation": [
+          -90,
+          0,
+          0
+        ]
+      },
+      "cosmetic_bow": {
+        "parent": "head",
+        "pivot": [
+          8,
+          8,
+          4
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ]
+      },
+      "cosmetic_collar": {
+        "parent": "body",
+        "pivot": [
+          8,
+          6.5,
+          7.2
+        ],
+        "rotation": [
+          -90,
+          0,
+          0
+        ]
+      },
+      "cosmetic_collar_bib": {
+        "parent": "body",
+        "pivot": [
+          8,
+          3.18,
+          6.79
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ]
+      },
+      "cosmetic_hat": {
+        "parent": "head",
+        "pivot": [
+          8,
+          8,
+          4
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    "fits": {
+      "head": "blunt_head",
+      "body": "barrel_body",
+      "neck": [
+        8,
+        6.5,
+        7.2
+      ],
+      "neckBounds": {
+        "low": [
+          3,
+          3
+        ],
+        "high": [
+          13,
+          10
+        ]
+      },
+      "hat": {
+        "brim": 2.6,
+        "z": -0.48,
+        "top": 11
+      },
+      "accessories": {
+        "bandana": {
+          "scale": [
+            1.265,
+            0.38,
+            0.9493333333333334
+          ],
+          "origin": [
+            8,
+            9.625,
+            8.25
+          ],
+          "target": [
+            8,
+            6.5,
+            7.2
+          ],
+          "bibScale": 0.8222499999999999,
+          "bibOrigin": [
+            8,
+            9,
+            3.75
+          ],
+          "bibTarget": [
+            8,
+            10.54,
+            7.390000000000001
+          ],
+          "bones": [
+            "cosmetic_bandana"
+          ]
+        },
+        "best_friend": {
+          "scale": [
+            1.265,
+            0.38,
+            0.89
+          ],
+          "origin": [
+            8,
+            9.75,
+            8
+          ],
+          "target": [
+            8,
+            6.5,
+            7.2
+          ],
+          "bibScale": 0.8222499999999999,
+          "bibOrigin": [
+            8,
+            9,
+            4
+          ],
+          "bibTarget": [
+            8,
+            10.54,
+            7.390000000000001
+          ],
+          "bones": [
+            "cosmetic_best_friend"
+          ]
+        },
+        "bow": {
+          "scale": [
+            0.44800000000000006,
+            0.44800000000000006,
+            0.44800000000000006
+          ],
+          "origin": [
+            8,
+            5.75,
+            8
+          ],
+          "target": [
+            8,
+            11.035,
+            0.6
+          ],
+          "bones": [
+            "cosmetic_bow"
+          ]
+        },
+        "collar": {
+          "scale": [
+            1.265,
+            0.24,
+            0.89
+          ],
+          "origin": [
+            8,
+            8,
+            8
+          ],
+          "target": [
+            8,
+            6.5,
+            7.2
+          ],
+          "bibScale": 0.6000000000000001,
+          "bibOrigin": [
+            8,
+            8,
+            2.75
+          ],
+          "bibTarget": [
+            8,
+            3.18,
+            6.79
+          ],
+          "bones": [
+            "cosmetic_collar",
+            "cosmetic_collar_bib"
+          ]
+        },
+        "hat": {
+          "scale": [
+            0.21666666666666667,
+            0.21666666666666667,
+            0.21666666666666667
+          ],
+          "origin": [
+            8,
+            5.5,
+            8
+          ],
+          "target": [
+            8,
+            11.035,
+            -0.48
+          ],
+          "bones": [
+            "cosmetic_hat"
+          ]
+        }
+      }
+    },
+    "variants": {
+      "bandana": {
+        "assetId": "056fde42-bf6b-450c-be2c-83f12f554c12",
+        "sourceHash": "8b4891522dace9a320969fed0f4ddaaf17c8b9970c11e983da29e9b607ee0452"
+      },
+      "best_friend": {
+        "assetId": "46953722-7649-446d-891b-43fafcd6c1cc",
+        "sourceHash": "a0608fb3cc8330daaebf3e9536db9fcd0160f95cbc69e42464e83d40ce513eab"
+      },
+      "bow": {
+        "assetId": "d4a2e391-b94b-416a-8c66-fb9435090829",
+        "sourceHash": "6210398111784378334eac59dbe17529b9d86f8f97754627b3841696f6031bb8"
+      },
+      "collar": {
+        "assetId": "4dcac8a0-fef4-4b4e-8440-b99e6dbb59cb",
+        "sourceHash": "f99950ecec024cfa718a0f41c25bec31d45a86d7865121ec4d07d77bc06f2280"
+      },
+      "hat": {
+        "assetId": "ced53e4c-f021-40f4-bc21-7ea6bcd172ed",
+        "sourceHash": "f60083e5c3512649a919c3cac1f92ba863536fef92df4b6096bcc180ca62e1fe"
+      }
+    }
+  },
+  "pet_ferret_cream": {
+    "animalParentAssetId": "3320c426-c9eb-4285-adf2-31ee495d3ace",
+    "accessoryParentAssetIds": {
+      "bandana": "cc947983-22d1-4bd9-99c0-c11eb96bb846",
+      "best_friend": "2b387b8d-0254-42d0-8302-3977ed5582d8",
+      "bow": "d60e10de-bbc7-45dc-9f16-235a885afb3b",
+      "collar": "7b1a02f8-f19d-47c4-a96b-98998324908a",
+      "hat": "ebadac28-e5ca-4bec-9341-cbed040d46e4"
+    },
+    "transforms": {
+      "cosmetic_bandana": {
+        "parent": "body",
+        "pivot": [
+          8,
+          4.75,
+          2.7
+        ],
+        "rotation": [
+          -90,
+          0,
+          0
+        ]
+      },
+      "cosmetic_best_friend": {
+        "parent": "body",
+        "pivot": [
+          8,
+          4.75,
+          2.7
+        ],
+        "rotation": [
+          -90,
+          0,
+          0
+        ]
+      },
+      "cosmetic_bow": {
+        "parent": "head",
+        "pivot": [
+          8,
+          5,
+          0.5
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ]
+      },
+      "cosmetic_collar": {
+        "parent": "body",
+        "pivot": [
+          8,
+          4.75,
+          2.7
+        ],
+        "rotation": [
+          -90,
+          0,
+          0
+        ]
+      },
+      "cosmetic_collar_bib": {
+        "parent": "body",
+        "pivot": [
+          8,
+          2.68,
+          2.2900000000000005
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ]
+      },
+      "cosmetic_hat": {
+        "parent": "head",
+        "pivot": [
+          8,
+          5,
+          0.5
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    "fits": {
+      "head": "masked_head",
+      "body": "long_sable_body",
+      "neck": [
+        8,
+        4.75,
+        2.7
+      ],
+      "neckBounds": {
+        "low": [
+          5,
+          2.5
+        ],
+        "high": [
+          11,
+          7
+        ]
+      },
+      "hat": {
+        "brim": 3.6,
+        "z": -2.98,
+        "top": 7
+      },
+      "accessories": {
+        "bandana": {
+          "scale": [
+            0.765,
+            0.38,
+            0.616
+          ],
+          "origin": [
+            8,
+            9.625,
+            8.25
+          ],
+          "target": [
+            8,
+            4.75,
+            2.7
+          ],
+          "bibScale": 0.49725,
+          "bibOrigin": [
+            8,
+            9,
+            3.75
+          ],
+          "bibTarget": [
+            8,
+            7.54,
+            2.89
+          ],
+          "bones": [
+            "cosmetic_bandana"
+          ]
+        },
+        "best_friend": {
+          "scale": [
+            0.765,
+            0.38,
+            0.5775
+          ],
+          "origin": [
+            8,
+            9.75,
+            8
+          ],
+          "target": [
+            8,
+            4.75,
+            2.7
+          ],
+          "bibScale": 0.49725,
+          "bibOrigin": [
+            8,
+            9,
+            4
+          ],
+          "bibTarget": [
+            8,
+            7.54,
+            2.89
+          ],
+          "bones": [
+            "cosmetic_best_friend"
+          ]
+        },
+        "bow": {
+          "scale": [
+            0.28,
+            0.28,
+            0.28
+          ],
+          "origin": [
+            8,
+            5.75,
+            8
+          ],
+          "target": [
+            8.03125,
+            7.035,
+            -2.4
+          ],
+          "bones": [
+            "cosmetic_bow"
+          ]
+        },
+        "collar": {
+          "scale": [
+            0.765,
+            0.24,
+            0.5775
+          ],
+          "origin": [
+            8,
+            8,
+            8
+          ],
+          "target": [
+            8,
+            4.75,
+            2.7
+          ],
+          "bibScale": 0.48888888888888893,
+          "bibOrigin": [
+            8,
+            8,
+            2.75
+          ],
+          "bibTarget": [
+            8,
+            2.68,
+            2.2900000000000005
+          ],
+          "bones": [
+            "cosmetic_collar",
+            "cosmetic_collar_bib"
+          ]
+        },
+        "hat": {
+          "scale": [
+            0.3,
+            0.3,
+            0.3
+          ],
+          "origin": [
+            8,
+            5.5,
+            8
+          ],
+          "target": [
+            8.03125,
+            7.035,
+            -2.98
+          ],
+          "bones": [
+            "cosmetic_hat"
+          ]
+        }
+      }
+    },
+    "variants": {
+      "bandana": {
+        "assetId": "6acf321e-9d5a-42a5-b287-18e9cc7a53c6",
+        "sourceHash": "f56192cf498ccd2b9adc7a40626abd66296016ef20b4b883cf148a6b199e85dc"
+      },
+      "best_friend": {
+        "assetId": "c99de7fa-1274-42b4-b074-41a64bdb4286",
+        "sourceHash": "060ec1e78a978af6648a11e81f8f565a0cf70b61a6ffa0e2d2cd6bb55b3ce002"
+      },
+      "bow": {
+        "assetId": "9803e94b-0916-428f-80d0-4d98016d7247",
+        "sourceHash": "dcef7cc78199965b6af2021242b72724467c6579e1a478d670a85e4f812ad129"
+      },
+      "collar": {
+        "assetId": "7e84bedb-dcf6-4227-999a-2b6fce4cfabc",
+        "sourceHash": "e2f3a2e1dfc8e178fde51af9d90c3104934fbf0fcca02266a6cde2ff43bc6061"
+      },
+      "hat": {
+        "assetId": "0a167b7d-be7b-4f6b-9e50-027718ec0dff",
+        "sourceHash": "a004c58350a42312e4348a3012f285a1118839cfd6db9d0ba0e9fb14b3fd4530"
+      }
+    }
+  },
+  "pet_ferret_dark": {
+    "animalParentAssetId": "a26d0e6d-36a3-4303-a77f-003d9e676388",
+    "accessoryParentAssetIds": {
+      "bandana": "cc947983-22d1-4bd9-99c0-c11eb96bb846",
+      "best_friend": "2b387b8d-0254-42d0-8302-3977ed5582d8",
+      "bow": "d60e10de-bbc7-45dc-9f16-235a885afb3b",
+      "collar": "7b1a02f8-f19d-47c4-a96b-98998324908a",
+      "hat": "ebadac28-e5ca-4bec-9341-cbed040d46e4"
+    },
+    "transforms": {
+      "cosmetic_bandana": {
+        "parent": "body",
+        "pivot": [
+          8,
+          4.75,
+          2.7
+        ],
+        "rotation": [
+          -90,
+          0,
+          0
+        ]
+      },
+      "cosmetic_best_friend": {
+        "parent": "body",
+        "pivot": [
+          8,
+          4.75,
+          2.7
+        ],
+        "rotation": [
+          -90,
+          0,
+          0
+        ]
+      },
+      "cosmetic_bow": {
+        "parent": "head",
+        "pivot": [
+          8,
+          5,
+          0.5
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ]
+      },
+      "cosmetic_collar": {
+        "parent": "body",
+        "pivot": [
+          8,
+          4.75,
+          2.7
+        ],
+        "rotation": [
+          -90,
+          0,
+          0
+        ]
+      },
+      "cosmetic_collar_bib": {
+        "parent": "body",
+        "pivot": [
+          8,
+          2.68,
+          2.2900000000000005
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ]
+      },
+      "cosmetic_hat": {
+        "parent": "head",
+        "pivot": [
+          8,
+          5,
+          0.5
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    "fits": {
+      "head": "masked_head",
+      "body": "long_sable_body",
+      "neck": [
+        8,
+        4.75,
+        2.7
+      ],
+      "neckBounds": {
+        "low": [
+          5,
+          2.5
+        ],
+        "high": [
+          11,
+          7
+        ]
+      },
+      "hat": {
+        "brim": 3.6,
+        "z": -2.98,
+        "top": 7
+      },
+      "accessories": {
+        "bandana": {
+          "scale": [
+            0.765,
+            0.38,
+            0.616
+          ],
+          "origin": [
+            8,
+            9.625,
+            8.25
+          ],
+          "target": [
+            8,
+            4.75,
+            2.7
+          ],
+          "bibScale": 0.49725,
+          "bibOrigin": [
+            8,
+            9,
+            3.75
+          ],
+          "bibTarget": [
+            8,
+            7.54,
+            2.89
+          ],
+          "bones": [
+            "cosmetic_bandana"
+          ]
+        },
+        "best_friend": {
+          "scale": [
+            0.765,
+            0.38,
+            0.5775
+          ],
+          "origin": [
+            8,
+            9.75,
+            8
+          ],
+          "target": [
+            8,
+            4.75,
+            2.7
+          ],
+          "bibScale": 0.49725,
+          "bibOrigin": [
+            8,
+            9,
+            4
+          ],
+          "bibTarget": [
+            8,
+            7.54,
+            2.89
+          ],
+          "bones": [
+            "cosmetic_best_friend"
+          ]
+        },
+        "bow": {
+          "scale": [
+            0.28,
+            0.28,
+            0.28
+          ],
+          "origin": [
+            8,
+            5.75,
+            8
+          ],
+          "target": [
+            8.03125,
+            7.035,
+            -2.4
+          ],
+          "bones": [
+            "cosmetic_bow"
+          ]
+        },
+        "collar": {
+          "scale": [
+            0.765,
+            0.24,
+            0.5775
+          ],
+          "origin": [
+            8,
+            8,
+            8
+          ],
+          "target": [
+            8,
+            4.75,
+            2.7
+          ],
+          "bibScale": 0.48888888888888893,
+          "bibOrigin": [
+            8,
+            8,
+            2.75
+          ],
+          "bibTarget": [
+            8,
+            2.68,
+            2.2900000000000005
+          ],
+          "bones": [
+            "cosmetic_collar",
+            "cosmetic_collar_bib"
+          ]
+        },
+        "hat": {
+          "scale": [
+            0.3,
+            0.3,
+            0.3
+          ],
+          "origin": [
+            8,
+            5.5,
+            8
+          ],
+          "target": [
+            8.03125,
+            7.035,
+            -2.98
+          ],
+          "bones": [
+            "cosmetic_hat"
+          ]
+        }
+      }
+    },
+    "variants": {
+      "bandana": {
+        "assetId": "ac911617-813a-4dbf-98a6-d01b8895a8ba",
+        "sourceHash": "8adc3d16d714aed4dccccf2b26e02044f700b9fa02381511b94c49fe99fde755"
+      },
+      "best_friend": {
+        "assetId": "d8369f91-a0e5-46d8-a8da-2843898aaa46",
+        "sourceHash": "54258427611dae5814e2e5036c169c6cd36c8558c27507fde27b1d1925d649a2"
+      },
+      "bow": {
+        "assetId": "1523a2cd-0f43-4157-ad9a-20f87cac2893",
+        "sourceHash": "a38bf8b13b7fad20604365100918f7a5aee7b5814ea09993c42f09e8ddd75107"
+      },
+      "collar": {
+        "assetId": "cc522175-3358-47dd-9123-84994b652db4",
+        "sourceHash": "8fbbd45ea1c06b0aecbc9f0d3ac13d0fc6a5d5f74e0c26d11309ebe6bd88214c"
+      },
+      "hat": {
+        "assetId": "279fc425-7652-4e03-8526-951ae8828338",
+        "sourceHash": "f5b8f0a3c148fc6c4913fd54b1c8435b26814908df26d67f30370a8d861700a0"
+      }
+    }
+  },
+  "pet_ferret_sable": {
+    "animalParentAssetId": "68892c84-b55a-40f0-968e-45330843b9c8",
+    "accessoryParentAssetIds": {
+      "bandana": "cc947983-22d1-4bd9-99c0-c11eb96bb846",
+      "best_friend": "2b387b8d-0254-42d0-8302-3977ed5582d8",
+      "bow": "d60e10de-bbc7-45dc-9f16-235a885afb3b",
+      "collar": "7b1a02f8-f19d-47c4-a96b-98998324908a",
+      "hat": "ebadac28-e5ca-4bec-9341-cbed040d46e4"
+    },
+    "transforms": {
+      "cosmetic_bandana": {
+        "parent": "body",
+        "pivot": [
+          8,
+          4.75,
+          2.7
+        ],
+        "rotation": [
+          -90,
+          0,
+          0
+        ]
+      },
+      "cosmetic_best_friend": {
+        "parent": "body",
+        "pivot": [
+          8,
+          4.75,
+          2.7
+        ],
+        "rotation": [
+          -90,
+          0,
+          0
+        ]
+      },
+      "cosmetic_bow": {
+        "parent": "head",
+        "pivot": [
+          8,
+          5,
+          0.5
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ]
+      },
+      "cosmetic_collar": {
+        "parent": "body",
+        "pivot": [
+          8,
+          4.75,
+          2.7
+        ],
+        "rotation": [
+          -90,
+          0,
+          0
+        ]
+      },
+      "cosmetic_collar_bib": {
+        "parent": "body",
+        "pivot": [
+          8,
+          2.68,
+          2.2900000000000005
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ]
+      },
+      "cosmetic_hat": {
+        "parent": "head",
+        "pivot": [
+          8,
+          5,
+          0.5
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    "fits": {
+      "head": "masked_head",
+      "body": "long_sable_body",
+      "neck": [
+        8,
+        4.75,
+        2.7
+      ],
+      "neckBounds": {
+        "low": [
+          5,
+          2.5
+        ],
+        "high": [
+          11,
+          7
+        ]
+      },
+      "hat": {
+        "brim": 3.6,
+        "z": -2.98,
+        "top": 7
+      },
+      "accessories": {
+        "bandana": {
+          "scale": [
+            0.765,
+            0.38,
+            0.616
+          ],
+          "origin": [
+            8,
+            9.625,
+            8.25
+          ],
+          "target": [
+            8,
+            4.75,
+            2.7
+          ],
+          "bibScale": 0.49725,
+          "bibOrigin": [
+            8,
+            9,
+            3.75
+          ],
+          "bibTarget": [
+            8,
+            7.54,
+            2.89
+          ],
+          "bones": [
+            "cosmetic_bandana"
+          ]
+        },
+        "best_friend": {
+          "scale": [
+            0.765,
+            0.38,
+            0.5775
+          ],
+          "origin": [
+            8,
+            9.75,
+            8
+          ],
+          "target": [
+            8,
+            4.75,
+            2.7
+          ],
+          "bibScale": 0.49725,
+          "bibOrigin": [
+            8,
+            9,
+            4
+          ],
+          "bibTarget": [
+            8,
+            7.54,
+            2.89
+          ],
+          "bones": [
+            "cosmetic_best_friend"
+          ]
+        },
+        "bow": {
+          "scale": [
+            0.28,
+            0.28,
+            0.28
+          ],
+          "origin": [
+            8,
+            5.75,
+            8
+          ],
+          "target": [
+            8.03125,
+            7.035,
+            -2.4
+          ],
+          "bones": [
+            "cosmetic_bow"
+          ]
+        },
+        "collar": {
+          "scale": [
+            0.765,
+            0.24,
+            0.5775
+          ],
+          "origin": [
+            8,
+            8,
+            8
+          ],
+          "target": [
+            8,
+            4.75,
+            2.7
+          ],
+          "bibScale": 0.48888888888888893,
+          "bibOrigin": [
+            8,
+            8,
+            2.75
+          ],
+          "bibTarget": [
+            8,
+            2.68,
+            2.2900000000000005
+          ],
+          "bones": [
+            "cosmetic_collar",
+            "cosmetic_collar_bib"
+          ]
+        },
+        "hat": {
+          "scale": [
+            0.3,
+            0.3,
+            0.3
+          ],
+          "origin": [
+            8,
+            5.5,
+            8
+          ],
+          "target": [
+            8.03125,
+            7.035,
+            -2.98
+          ],
+          "bones": [
+            "cosmetic_hat"
+          ]
+        }
+      }
+    },
+    "variants": {
+      "bandana": {
+        "assetId": "cb1a4267-48a3-4998-b4a6-f05eddf0ba41",
+        "sourceHash": "b716f777c75704d00631f111fb9e2f68f23b94137d56e655a8202b5a728753c9"
+      },
+      "best_friend": {
+        "assetId": "e414b23a-f3e1-4cdf-acef-68d1061db198",
+        "sourceHash": "c8ed9a2a6016b2a0680b0562154a02089cb0163e6252af87294206884fb890ef"
+      },
+      "bow": {
+        "assetId": "4311a98e-3468-4ab0-ad22-7a95f8082759",
+        "sourceHash": "aae858cb4da9d47324586f377e67454776da0c34fd82f0138185db9aa8f329c6"
+      },
+      "collar": {
+        "assetId": "2a9d1413-c861-4878-ad83-e399abff685c",
+        "sourceHash": "67e9677766be0e7b5ff8b3fa75dc0a2410a2ca5e61f695cc55882f8a054a3a6f"
+      },
+      "hat": {
+        "assetId": "9a0fb8d8-1042-4497-88b1-dcc099e8e37f",
+        "sourceHash": "01cab03123e6065403f5b7626c3c33744fbf173dcba8545fb1a4922b3c3ac86c"
+      }
+    }
+  },
+  "pet_hamster_brown_white": {
+    "animalParentAssetId": "c74b629b-6375-443b-9328-6d10a04bc180",
+    "accessoryParentAssetIds": {
+      "bandana": "cc947983-22d1-4bd9-99c0-c11eb96bb846",
+      "best_friend": "2b387b8d-0254-42d0-8302-3977ed5582d8",
+      "bow": "d60e10de-bbc7-45dc-9f16-235a885afb3b",
+      "collar": "7b1a02f8-f19d-47c4-a96b-98998324908a",
+      "hat": "ebadac28-e5ca-4bec-9341-cbed040d46e4"
+    },
+    "transforms": {
+      "cosmetic_bandana": {
+        "parent": "body",
+        "pivot": [
+          8,
+          4.5,
+          7.2
+        ],
+        "rotation": [
+          -90,
+          0,
+          0
+        ]
+      },
+      "cosmetic_best_friend": {
+        "parent": "body",
+        "pivot": [
+          8,
+          4.5,
+          7.2
+        ],
+        "rotation": [
+          -90,
+          0,
+          0
+        ]
+      },
+      "cosmetic_bow": {
+        "parent": "head",
+        "pivot": [
+          8,
+          4.5,
+          5.5
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ]
+      },
+      "cosmetic_collar": {
+        "parent": "body",
+        "pivot": [
+          8,
+          4.5,
+          7.2
+        ],
+        "rotation": [
+          -90,
+          0,
+          0
+        ]
+      },
+      "cosmetic_collar_bib": {
+        "parent": "body",
+        "pivot": [
+          8,
+          2.18,
+          6.79
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ]
+      },
+      "cosmetic_hat": {
+        "parent": "head",
+        "pivot": [
+          8,
+          4.5,
+          5.5
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    "fits": {
+      "head": "rounded_head",
+      "body": "plush_barrel_body",
+      "neck": [
+        8,
+        4.5,
+        7.2
+      ],
+      "neckBounds": {
+        "low": [
+          5,
+          2
+        ],
+        "high": [
+          11,
+          7
+        ]
+      },
+      "hat": {
+        "brim": 2.1,
+        "z": 2.2699999999999996,
+        "top": 6.5
+      },
+      "accessories": {
+        "bandana": {
+          "scale": [
+            0.765,
+            0.38,
+            0.6826666666666666
+          ],
+          "origin": [
+            8,
+            9.625,
+            8.25
+          ],
+          "target": [
+            8,
+            4.5,
+            7.2
+          ],
+          "bibScale": 0.49725,
+          "bibOrigin": [
+            8,
+            9,
+            3.75
+          ],
+          "bibTarget": [
+            8,
+            7.54,
+            7.390000000000001
+          ],
+          "bones": [
+            "cosmetic_bandana"
+          ]
+        },
+        "best_friend": {
+          "scale": [
+            0.765,
+            0.38,
+            0.64
+          ],
+          "origin": [
+            8,
+            9.75,
+            8
+          ],
+          "target": [
+            8,
+            4.5,
+            7.2
+          ],
+          "bibScale": 0.49725,
+          "bibOrigin": [
+            8,
+            9,
+            4
+          ],
+          "bibTarget": [
+            8,
+            7.54,
+            7.390000000000001
+          ],
+          "bones": [
+            "cosmetic_best_friend"
+          ]
+        },
+        "bow": {
+          "scale": [
+            0.28,
+            0.28,
+            0.28
+          ],
+          "origin": [
+            8,
+            5.75,
+            8
+          ],
+          "target": [
+            8,
+            6.535,
+            3.1
+          ],
+          "bones": [
+            "cosmetic_bow"
+          ]
+        },
+        "collar": {
+          "scale": [
+            0.765,
+            0.24,
+            0.64
+          ],
+          "origin": [
+            8,
+            8,
+            8
+          ],
+          "target": [
+            8,
+            4.5,
+            7.2
+          ],
+          "bibScale": 0.37777777777777777,
+          "bibOrigin": [
+            8,
+            8,
+            2.75
+          ],
+          "bibTarget": [
+            8,
+            2.18,
+            6.79
+          ],
+          "bones": [
+            "cosmetic_collar",
+            "cosmetic_collar_bib"
+          ]
+        },
+        "hat": {
+          "scale": [
+            0.17500000000000002,
+            0.17500000000000002,
+            0.17500000000000002
+          ],
+          "origin": [
+            8,
+            5.5,
+            8
+          ],
+          "target": [
+            8,
+            6.535,
+            2.2699999999999996
+          ],
+          "bones": [
+            "cosmetic_hat"
+          ]
+        }
+      }
+    },
+    "variants": {
+      "bandana": {
+        "assetId": "558993dc-74a1-4e7f-9b59-9e2aaf61f369",
+        "sourceHash": "9d49138c548981536d77aa3bda41594e315759583d0e3c893f95cc5f780bf8c8"
+      },
+      "best_friend": {
+        "assetId": "e23c24a6-718c-4c0c-838f-6f09a03c6806",
+        "sourceHash": "833651ef29a19b6b980e9a42d64860a75ed33a1085163549d297bdedf0d6be80"
+      },
+      "bow": {
+        "assetId": "23398758-bf3e-4a7c-9db5-6b584a74e34b",
+        "sourceHash": "3b77856ec4c7c8bfb7b0822a98d66cc0feb70351c0c4271c32969d2bcdb39d28"
+      },
+      "collar": {
+        "assetId": "e3a2e822-43e2-4357-8567-a5ca2be1b526",
+        "sourceHash": "9d8afa0539a6fe421fd1ee7dd988e46facfa07f4a9e015cc8f52c2988420abd9"
+      },
+      "hat": {
+        "assetId": "dca6a921-8069-4713-bea3-4452273c9e77",
+        "sourceHash": "6e996d333ab7fdaf74cbaa2e78f0268ea98a90f514fe7ad02d590a69388f5240"
+      }
+    }
+  },
+  "pet_hamster_cream": {
+    "animalParentAssetId": "ecaac921-c598-4c4d-87f7-bd3ceeab3727",
+    "accessoryParentAssetIds": {
+      "bandana": "cc947983-22d1-4bd9-99c0-c11eb96bb846",
+      "best_friend": "2b387b8d-0254-42d0-8302-3977ed5582d8",
+      "bow": "d60e10de-bbc7-45dc-9f16-235a885afb3b",
+      "collar": "7b1a02f8-f19d-47c4-a96b-98998324908a",
+      "hat": "ebadac28-e5ca-4bec-9341-cbed040d46e4"
+    },
+    "transforms": {
+      "cosmetic_bandana": {
+        "parent": "body",
+        "pivot": [
+          8,
+          4.5,
+          7.2
+        ],
+        "rotation": [
+          -90,
+          0,
+          0
+        ]
+      },
+      "cosmetic_best_friend": {
+        "parent": "body",
+        "pivot": [
+          8,
+          4.5,
+          7.2
+        ],
+        "rotation": [
+          -90,
+          0,
+          0
+        ]
+      },
+      "cosmetic_bow": {
+        "parent": "head",
+        "pivot": [
+          8,
+          4.5,
+          5.5
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ]
+      },
+      "cosmetic_collar": {
+        "parent": "body",
+        "pivot": [
+          8,
+          4.5,
+          7.2
+        ],
+        "rotation": [
+          -90,
+          0,
+          0
+        ]
+      },
+      "cosmetic_collar_bib": {
+        "parent": "body",
+        "pivot": [
+          8,
+          2.18,
+          6.79
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ]
+      },
+      "cosmetic_hat": {
+        "parent": "head",
+        "pivot": [
+          8,
+          4.5,
+          5.5
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    "fits": {
+      "head": "rounded_head",
+      "body": "plush_barrel_body",
+      "neck": [
+        8,
+        4.5,
+        7.2
+      ],
+      "neckBounds": {
+        "low": [
+          5,
+          2
+        ],
+        "high": [
+          11,
+          7
+        ]
+      },
+      "hat": {
+        "brim": 2.1,
+        "z": 2.2699999999999996,
+        "top": 6.5
+      },
+      "accessories": {
+        "bandana": {
+          "scale": [
+            0.765,
+            0.38,
+            0.6826666666666666
+          ],
+          "origin": [
+            8,
+            9.625,
+            8.25
+          ],
+          "target": [
+            8,
+            4.5,
+            7.2
+          ],
+          "bibScale": 0.49725,
+          "bibOrigin": [
+            8,
+            9,
+            3.75
+          ],
+          "bibTarget": [
+            8,
+            7.54,
+            7.390000000000001
+          ],
+          "bones": [
+            "cosmetic_bandana"
+          ]
+        },
+        "best_friend": {
+          "scale": [
+            0.765,
+            0.38,
+            0.64
+          ],
+          "origin": [
+            8,
+            9.75,
+            8
+          ],
+          "target": [
+            8,
+            4.5,
+            7.2
+          ],
+          "bibScale": 0.49725,
+          "bibOrigin": [
+            8,
+            9,
+            4
+          ],
+          "bibTarget": [
+            8,
+            7.54,
+            7.390000000000001
+          ],
+          "bones": [
+            "cosmetic_best_friend"
+          ]
+        },
+        "bow": {
+          "scale": [
+            0.28,
+            0.28,
+            0.28
+          ],
+          "origin": [
+            8,
+            5.75,
+            8
+          ],
+          "target": [
+            8,
+            6.535,
+            3.1
+          ],
+          "bones": [
+            "cosmetic_bow"
+          ]
+        },
+        "collar": {
+          "scale": [
+            0.765,
+            0.24,
+            0.64
+          ],
+          "origin": [
+            8,
+            8,
+            8
+          ],
+          "target": [
+            8,
+            4.5,
+            7.2
+          ],
+          "bibScale": 0.37777777777777777,
+          "bibOrigin": [
+            8,
+            8,
+            2.75
+          ],
+          "bibTarget": [
+            8,
+            2.18,
+            6.79
+          ],
+          "bones": [
+            "cosmetic_collar",
+            "cosmetic_collar_bib"
+          ]
+        },
+        "hat": {
+          "scale": [
+            0.17500000000000002,
+            0.17500000000000002,
+            0.17500000000000002
+          ],
+          "origin": [
+            8,
+            5.5,
+            8
+          ],
+          "target": [
+            8,
+            6.535,
+            2.2699999999999996
+          ],
+          "bones": [
+            "cosmetic_hat"
+          ]
+        }
+      }
+    },
+    "variants": {
+      "bandana": {
+        "assetId": "947c89b8-d9f7-4ecd-96ab-ca26776e5315",
+        "sourceHash": "50271178f74d5d8bc53af23a2a7183c508fdf4732176b8c71e6574c65d69ac07"
+      },
+      "best_friend": {
+        "assetId": "bf15d4f7-cf7e-41a7-8c8a-7baa256f9740",
+        "sourceHash": "594cf4afa7d56b02dbe065dfda81bd9b43a0d473b7ac3997b75913993e0ce85d"
+      },
+      "bow": {
+        "assetId": "fbeb02df-3ba5-4039-8204-c4190c47b460",
+        "sourceHash": "c7cdbf4af5464007db35a2563f819d8b44141fba5d5fa419c43416deb3470c0e"
+      },
+      "collar": {
+        "assetId": "82cbe64a-86d3-49fa-95de-002bee692e3a",
+        "sourceHash": "1f9958b1f8201fef9500dd9a4af4f668d7a00a4303f25755535d29b7bded115d"
+      },
+      "hat": {
+        "assetId": "f7981d31-1213-4cbb-9129-4c3ccbc5e72d",
+        "sourceHash": "5ab221165acb542a178faf2b3aebadafd0894c6d31d96c744a04d971c2e944a1"
+      }
+    }
+  },
+  "pet_hamster_golden": {
+    "animalParentAssetId": "749b15d5-fca8-423c-af4e-cfb1a0f567de",
+    "accessoryParentAssetIds": {
+      "bandana": "cc947983-22d1-4bd9-99c0-c11eb96bb846",
+      "best_friend": "2b387b8d-0254-42d0-8302-3977ed5582d8",
+      "bow": "d60e10de-bbc7-45dc-9f16-235a885afb3b",
+      "collar": "7b1a02f8-f19d-47c4-a96b-98998324908a",
+      "hat": "ebadac28-e5ca-4bec-9341-cbed040d46e4"
+    },
+    "transforms": {
+      "cosmetic_bandana": {
+        "parent": "body",
+        "pivot": [
+          8,
+          4.5,
+          7.2
+        ],
+        "rotation": [
+          -90,
+          0,
+          0
+        ]
+      },
+      "cosmetic_best_friend": {
+        "parent": "body",
+        "pivot": [
+          8,
+          4.5,
+          7.2
+        ],
+        "rotation": [
+          -90,
+          0,
+          0
+        ]
+      },
+      "cosmetic_bow": {
+        "parent": "head",
+        "pivot": [
+          8,
+          4.5,
+          5.5
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ]
+      },
+      "cosmetic_collar": {
+        "parent": "body",
+        "pivot": [
+          8,
+          4.5,
+          7.2
+        ],
+        "rotation": [
+          -90,
+          0,
+          0
+        ]
+      },
+      "cosmetic_collar_bib": {
+        "parent": "body",
+        "pivot": [
+          8,
+          2.18,
+          6.79
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ]
+      },
+      "cosmetic_hat": {
+        "parent": "head",
+        "pivot": [
+          8,
+          4.5,
+          5.5
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    "fits": {
+      "head": "rounded_head",
+      "body": "plush_barrel_body",
+      "neck": [
+        8,
+        4.5,
+        7.2
+      ],
+      "neckBounds": {
+        "low": [
+          5,
+          2
+        ],
+        "high": [
+          11,
+          7
+        ]
+      },
+      "hat": {
+        "brim": 2.1,
+        "z": 2.2699999999999996,
+        "top": 6.5
+      },
+      "accessories": {
+        "bandana": {
+          "scale": [
+            0.765,
+            0.38,
+            0.6826666666666666
+          ],
+          "origin": [
+            8,
+            9.625,
+            8.25
+          ],
+          "target": [
+            8,
+            4.5,
+            7.2
+          ],
+          "bibScale": 0.49725,
+          "bibOrigin": [
+            8,
+            9,
+            3.75
+          ],
+          "bibTarget": [
+            8,
+            7.54,
+            7.390000000000001
+          ],
+          "bones": [
+            "cosmetic_bandana"
+          ]
+        },
+        "best_friend": {
+          "scale": [
+            0.765,
+            0.38,
+            0.64
+          ],
+          "origin": [
+            8,
+            9.75,
+            8
+          ],
+          "target": [
+            8,
+            4.5,
+            7.2
+          ],
+          "bibScale": 0.49725,
+          "bibOrigin": [
+            8,
+            9,
+            4
+          ],
+          "bibTarget": [
+            8,
+            7.54,
+            7.390000000000001
+          ],
+          "bones": [
+            "cosmetic_best_friend"
+          ]
+        },
+        "bow": {
+          "scale": [
+            0.28,
+            0.28,
+            0.28
+          ],
+          "origin": [
+            8,
+            5.75,
+            8
+          ],
+          "target": [
+            8,
+            6.535,
+            3.1
+          ],
+          "bones": [
+            "cosmetic_bow"
+          ]
+        },
+        "collar": {
+          "scale": [
+            0.765,
+            0.24,
+            0.64
+          ],
+          "origin": [
+            8,
+            8,
+            8
+          ],
+          "target": [
+            8,
+            4.5,
+            7.2
+          ],
+          "bibScale": 0.37777777777777777,
+          "bibOrigin": [
+            8,
+            8,
+            2.75
+          ],
+          "bibTarget": [
+            8,
+            2.18,
+            6.79
+          ],
+          "bones": [
+            "cosmetic_collar",
+            "cosmetic_collar_bib"
+          ]
+        },
+        "hat": {
+          "scale": [
+            0.17500000000000002,
+            0.17500000000000002,
+            0.17500000000000002
+          ],
+          "origin": [
+            8,
+            5.5,
+            8
+          ],
+          "target": [
+            8,
+            6.535,
+            2.2699999999999996
+          ],
+          "bones": [
+            "cosmetic_hat"
+          ]
+        }
+      }
+    },
+    "variants": {
+      "bandana": {
+        "assetId": "1017e678-33ed-454b-ab7e-00bec4e854a1",
+        "sourceHash": "5aff9db88d419d216d23b3c422fe1bfc75adfa522fd1660c2df560579dc18e92"
+      },
+      "best_friend": {
+        "assetId": "e9091785-15d6-44f2-bb1a-47431c4e82c9",
+        "sourceHash": "4229ed21416aae3546e49f4b26754abab8fb0212630889ee2c66cef6408f8eb0"
+      },
+      "bow": {
+        "assetId": "1627c516-4b2c-4f4b-9bd7-7ce57999adb2",
+        "sourceHash": "a31be0756986c161994a38884cae6f115e591aba7039f15a3c585f80618fd3ce"
+      },
+      "collar": {
+        "assetId": "44dac505-a2cc-4c84-ae8d-4f774b78d513",
+        "sourceHash": "e3110b4e0e1ece78d89a2abbeda05e1fa5ad77084f278365c1b6b673d78edc7c"
+      },
+      "hat": {
+        "assetId": "1bec2447-f6b0-434b-bb05-198b14f4cb32",
+        "sourceHash": "1f629125fef5830ac858bac0c9310b8c8606c670ecf1f0fbafb58fdb9124b240"
+      }
+    }
+  },
+  "pet_hedgehog_brown": {
+    "animalParentAssetId": "8ea3815c-31cd-47bf-a701-3a0bb06b420b",
+    "accessoryParentAssetIds": {
+      "bandana": "cc947983-22d1-4bd9-99c0-c11eb96bb846",
+      "best_friend": "2b387b8d-0254-42d0-8302-3977ed5582d8",
+      "bow": "d60e10de-bbc7-45dc-9f16-235a885afb3b",
+      "collar": "7b1a02f8-f19d-47c4-a96b-98998324908a",
+      "hat": "ebadac28-e5ca-4bec-9341-cbed040d46e4"
+    },
+    "transforms": {
+      "cosmetic_bandana": {
+        "parent": "body",
+        "pivot": [
+          8.015625,
+          5,
+          6.2
+        ],
+        "rotation": [
+          -90,
+          0,
+          0
+        ]
+      },
+      "cosmetic_best_friend": {
+        "parent": "body",
+        "pivot": [
+          8.015625,
+          5,
+          6.2
+        ],
+        "rotation": [
+          -90,
+          0,
+          0
+        ]
+      },
+      "cosmetic_bow": {
+        "parent": "head",
+        "pivot": [
+          8,
+          4,
+          4
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ]
+      },
+      "cosmetic_collar": {
+        "parent": "body",
+        "pivot": [
+          8.015625,
+          5,
+          6.2
+        ],
+        "rotation": [
+          -90,
+          0,
+          0
+        ]
+      },
+      "cosmetic_collar_bib": {
+        "parent": "body",
+        "pivot": [
+          8.015625,
+          2.18,
+          5.79
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ]
+      },
+      "cosmetic_hat": {
+        "parent": "head",
+        "pivot": [
+          8,
+          4,
+          4
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    "fits": {
+      "head": "light_face",
+      "body": "quill_body",
+      "neck": [
+        8.015625,
+        5,
+        6.2
+      ],
+      "neckBounds": {
+        "low": [
+          3,
+          2
+        ],
+        "high": [
+          13.03125,
+          8
+        ]
+      },
+      "hat": {
+        "brim": 3.8,
+        "z": 1.9,
+        "top": 6.03125
+      },
+      "accessories": {
+        "bandana": {
+          "scale": [
+            1.26890625,
+            0.38,
+            0.8160000000000001
+          ],
+          "origin": [
+            8,
+            9.625,
+            8.25
+          ],
+          "target": [
+            8.015625,
+            5,
+            6.2
+          ],
+          "bibScale": 0.8247890625,
+          "bibOrigin": [
+            8,
+            9,
+            3.75
+          ],
+          "bibTarget": [
+            8.015625,
+            8.54,
+            6.390000000000001
+          ],
+          "bones": [
+            "cosmetic_bandana"
+          ]
+        },
+        "best_friend": {
+          "scale": [
+            1.26890625,
+            0.38,
+            0.765
+          ],
+          "origin": [
+            8,
+            9.75,
+            8
+          ],
+          "target": [
+            8.015625,
+            5,
+            6.2
+          ],
+          "bibScale": 0.8247890625,
+          "bibOrigin": [
+            8,
+            9,
+            4
+          ],
+          "bibTarget": [
+            8.015625,
+            8.54,
+            6.390000000000001
+          ],
+          "bones": [
+            "cosmetic_best_friend"
+          ]
+        },
+        "bow": {
+          "scale": [
+            0.44800000000000006,
+            0.44800000000000006,
+            0.44800000000000006
+          ],
+          "origin": [
+            8,
+            5.75,
+            8
+          ],
+          "target": [
+            8,
+            6.06625,
+            0.6
+          ],
+          "bones": [
+            "cosmetic_bow"
+          ]
+        },
+        "collar": {
+          "scale": [
+            1.26890625,
+            0.24,
+            0.765
+          ],
+          "origin": [
+            8,
+            8,
+            8
+          ],
+          "target": [
+            8.015625,
+            5,
+            6.2
+          ],
+          "bibScale": 0.37777777777777777,
+          "bibOrigin": [
+            8,
+            8,
+            2.75
+          ],
+          "bibTarget": [
+            8.015625,
+            2.18,
+            5.79
+          ],
+          "bones": [
+            "cosmetic_collar",
+            "cosmetic_collar_bib"
+          ]
+        },
+        "hat": {
+          "scale": [
+            0.31666666666666665,
+            0.31666666666666665,
+            0.31666666666666665
+          ],
+          "origin": [
+            8,
+            5.5,
+            8
+          ],
+          "target": [
+            8,
+            6.06625,
+            1.9
+          ],
+          "bones": [
+            "cosmetic_hat"
+          ]
+        }
+      }
+    },
+    "variants": {
+      "bandana": {
+        "assetId": "7fa6ca7e-f9d2-4721-b4b5-177b983949ea",
+        "sourceHash": "f35c8be691378c3d6737a1bce56cae14a310af8b81a9569f14668b72a8fc0c1a"
+      },
+      "best_friend": {
+        "assetId": "19f2a1a5-ce3c-4b4c-86a2-d60d0162654c",
+        "sourceHash": "86c174f28bf1e4b7f24a82c708aca4b9d74452177f633d0e8ef78c118cfc7bd3"
+      },
+      "bow": {
+        "assetId": "a65d10a7-e2e5-4dc9-9a16-9016dbe04481",
+        "sourceHash": "3102c40b8f39aa0947ab5f5f24f599068dd66786b853180cf0ef7c2085fcd62e"
+      },
+      "collar": {
+        "assetId": "7dcb6456-70ba-429a-991d-42ea2f26874b",
+        "sourceHash": "bc85f4636748d6c21fec78e94764c1b199076e2eaac57865b99bd73b837dfb1b"
+      },
+      "hat": {
+        "assetId": "35c02c63-0eca-4915-823c-fee6cacc7391",
+        "sourceHash": "6db3a7d8db74f56ae1085b8437f47164b26cc87966f336fcfeb3fd56a4ffa7f8"
+      }
+    }
+  },
+  "pet_hedgehog_dark": {
+    "animalParentAssetId": "75d94aa8-b5f8-4439-ad23-70d7297f2c5f",
+    "accessoryParentAssetIds": {
+      "bandana": "cc947983-22d1-4bd9-99c0-c11eb96bb846",
+      "best_friend": "2b387b8d-0254-42d0-8302-3977ed5582d8",
+      "bow": "d60e10de-bbc7-45dc-9f16-235a885afb3b",
+      "collar": "7b1a02f8-f19d-47c4-a96b-98998324908a",
+      "hat": "ebadac28-e5ca-4bec-9341-cbed040d46e4"
+    },
+    "transforms": {
+      "cosmetic_bandana": {
+        "parent": "body",
+        "pivot": [
+          8.015625,
+          5,
+          6.2
+        ],
+        "rotation": [
+          -90,
+          0,
+          0
+        ]
+      },
+      "cosmetic_best_friend": {
+        "parent": "body",
+        "pivot": [
+          8.015625,
+          5,
+          6.2
+        ],
+        "rotation": [
+          -90,
+          0,
+          0
+        ]
+      },
+      "cosmetic_bow": {
+        "parent": "head",
+        "pivot": [
+          8,
+          4,
+          4
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ]
+      },
+      "cosmetic_collar": {
+        "parent": "body",
+        "pivot": [
+          8.015625,
+          5,
+          6.2
+        ],
+        "rotation": [
+          -90,
+          0,
+          0
+        ]
+      },
+      "cosmetic_collar_bib": {
+        "parent": "body",
+        "pivot": [
+          8.015625,
+          2.18,
+          5.79
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ]
+      },
+      "cosmetic_hat": {
+        "parent": "head",
+        "pivot": [
+          8,
+          4,
+          4
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    "fits": {
+      "head": "light_face",
+      "body": "quill_body",
+      "neck": [
+        8.015625,
+        5,
+        6.2
+      ],
+      "neckBounds": {
+        "low": [
+          3,
+          2
+        ],
+        "high": [
+          13.03125,
+          8
+        ]
+      },
+      "hat": {
+        "brim": 3.8,
+        "z": 1.9,
+        "top": 6.03125
+      },
+      "accessories": {
+        "bandana": {
+          "scale": [
+            1.26890625,
+            0.38,
+            0.8160000000000001
+          ],
+          "origin": [
+            8,
+            9.625,
+            8.25
+          ],
+          "target": [
+            8.015625,
+            5,
+            6.2
+          ],
+          "bibScale": 0.8247890625,
+          "bibOrigin": [
+            8,
+            9,
+            3.75
+          ],
+          "bibTarget": [
+            8.015625,
+            8.54,
+            6.390000000000001
+          ],
+          "bones": [
+            "cosmetic_bandana"
+          ]
+        },
+        "best_friend": {
+          "scale": [
+            1.26890625,
+            0.38,
+            0.765
+          ],
+          "origin": [
+            8,
+            9.75,
+            8
+          ],
+          "target": [
+            8.015625,
+            5,
+            6.2
+          ],
+          "bibScale": 0.8247890625,
+          "bibOrigin": [
+            8,
+            9,
+            4
+          ],
+          "bibTarget": [
+            8.015625,
+            8.54,
+            6.390000000000001
+          ],
+          "bones": [
+            "cosmetic_best_friend"
+          ]
+        },
+        "bow": {
+          "scale": [
+            0.44800000000000006,
+            0.44800000000000006,
+            0.44800000000000006
+          ],
+          "origin": [
+            8,
+            5.75,
+            8
+          ],
+          "target": [
+            8,
+            6.06625,
+            0.6
+          ],
+          "bones": [
+            "cosmetic_bow"
+          ]
+        },
+        "collar": {
+          "scale": [
+            1.26890625,
+            0.24,
+            0.765
+          ],
+          "origin": [
+            8,
+            8,
+            8
+          ],
+          "target": [
+            8.015625,
+            5,
+            6.2
+          ],
+          "bibScale": 0.37777777777777777,
+          "bibOrigin": [
+            8,
+            8,
+            2.75
+          ],
+          "bibTarget": [
+            8.015625,
+            2.18,
+            5.79
+          ],
+          "bones": [
+            "cosmetic_collar",
+            "cosmetic_collar_bib"
+          ]
+        },
+        "hat": {
+          "scale": [
+            0.31666666666666665,
+            0.31666666666666665,
+            0.31666666666666665
+          ],
+          "origin": [
+            8,
+            5.5,
+            8
+          ],
+          "target": [
+            8,
+            6.06625,
+            1.9
+          ],
+          "bones": [
+            "cosmetic_hat"
+          ]
+        }
+      }
+    },
+    "variants": {
+      "bandana": {
+        "assetId": "bfcffa86-4983-459e-9849-8a5ecf55d636",
+        "sourceHash": "2db45bc30d27c1c1e3cc005764ae4f103ecffe7bfda24d2b0a60ebe395bdea06"
+      },
+      "best_friend": {
+        "assetId": "d521c62f-7a6a-45c6-9103-ee974dbdf6fb",
+        "sourceHash": "72e884248e1c1f7f2676736cbc3286e8f359abff0ce9f26dcf7148f3350d4392"
+      },
+      "bow": {
+        "assetId": "f4ffd454-e21f-4f9e-9707-a9e9a6fe5224",
+        "sourceHash": "890dd1d826dbdcbd27b03cc1a3f6e1dfe30cc17f67fca6b9d2bf6ec9dcb0de59"
+      },
+      "collar": {
+        "assetId": "ca18cb9a-b3cd-497b-bef3-df8444c8696a",
+        "sourceHash": "b0cc5f085ce20618a323b9ec8f6e52bf016c5307269abf28d0905d809fe1f5c5"
+      },
+      "hat": {
+        "assetId": "d4798646-7fcc-49b7-8b78-f1ed90db13cd",
+        "sourceHash": "7d3006c09566e6c661625c1e2994fe3eeea46fed8ff9b41177df25b7ca6fb5fa"
+      }
+    }
+  },
+  "pet_hedgehog_pale": {
+    "animalParentAssetId": "5e96f58e-6706-4171-b0a6-3746ccc5b305",
+    "accessoryParentAssetIds": {
+      "bandana": "cc947983-22d1-4bd9-99c0-c11eb96bb846",
+      "best_friend": "2b387b8d-0254-42d0-8302-3977ed5582d8",
+      "bow": "d60e10de-bbc7-45dc-9f16-235a885afb3b",
+      "collar": "7b1a02f8-f19d-47c4-a96b-98998324908a",
+      "hat": "ebadac28-e5ca-4bec-9341-cbed040d46e4"
+    },
+    "transforms": {
+      "cosmetic_bandana": {
+        "parent": "body",
+        "pivot": [
+          8.015625,
+          5,
+          6.2
+        ],
+        "rotation": [
+          -90,
+          0,
+          0
+        ]
+      },
+      "cosmetic_best_friend": {
+        "parent": "body",
+        "pivot": [
+          8.015625,
+          5,
+          6.2
+        ],
+        "rotation": [
+          -90,
+          0,
+          0
+        ]
+      },
+      "cosmetic_bow": {
+        "parent": "head",
+        "pivot": [
+          8,
+          4,
+          4
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ]
+      },
+      "cosmetic_collar": {
+        "parent": "body",
+        "pivot": [
+          8.015625,
+          5,
+          6.2
+        ],
+        "rotation": [
+          -90,
+          0,
+          0
+        ]
+      },
+      "cosmetic_collar_bib": {
+        "parent": "body",
+        "pivot": [
+          8.015625,
+          2.18,
+          5.79
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ]
+      },
+      "cosmetic_hat": {
+        "parent": "head",
+        "pivot": [
+          8,
+          4,
+          4
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    "fits": {
+      "head": "light_face",
+      "body": "quill_body",
+      "neck": [
+        8.015625,
+        5,
+        6.2
+      ],
+      "neckBounds": {
+        "low": [
+          3,
+          2
+        ],
+        "high": [
+          13.03125,
+          8
+        ]
+      },
+      "hat": {
+        "brim": 3.8,
+        "z": 1.9,
+        "top": 6.03125
+      },
+      "accessories": {
+        "bandana": {
+          "scale": [
+            1.26890625,
+            0.38,
+            0.8160000000000001
+          ],
+          "origin": [
+            8,
+            9.625,
+            8.25
+          ],
+          "target": [
+            8.015625,
+            5,
+            6.2
+          ],
+          "bibScale": 0.8247890625,
+          "bibOrigin": [
+            8,
+            9,
+            3.75
+          ],
+          "bibTarget": [
+            8.015625,
+            8.54,
+            6.390000000000001
+          ],
+          "bones": [
+            "cosmetic_bandana"
+          ]
+        },
+        "best_friend": {
+          "scale": [
+            1.26890625,
+            0.38,
+            0.765
+          ],
+          "origin": [
+            8,
+            9.75,
+            8
+          ],
+          "target": [
+            8.015625,
+            5,
+            6.2
+          ],
+          "bibScale": 0.8247890625,
+          "bibOrigin": [
+            8,
+            9,
+            4
+          ],
+          "bibTarget": [
+            8.015625,
+            8.54,
+            6.390000000000001
+          ],
+          "bones": [
+            "cosmetic_best_friend"
+          ]
+        },
+        "bow": {
+          "scale": [
+            0.44800000000000006,
+            0.44800000000000006,
+            0.44800000000000006
+          ],
+          "origin": [
+            8,
+            5.75,
+            8
+          ],
+          "target": [
+            8,
+            6.06625,
+            0.6
+          ],
+          "bones": [
+            "cosmetic_bow"
+          ]
+        },
+        "collar": {
+          "scale": [
+            1.26890625,
+            0.24,
+            0.765
+          ],
+          "origin": [
+            8,
+            8,
+            8
+          ],
+          "target": [
+            8.015625,
+            5,
+            6.2
+          ],
+          "bibScale": 0.37777777777777777,
+          "bibOrigin": [
+            8,
+            8,
+            2.75
+          ],
+          "bibTarget": [
+            8.015625,
+            2.18,
+            5.79
+          ],
+          "bones": [
+            "cosmetic_collar",
+            "cosmetic_collar_bib"
+          ]
+        },
+        "hat": {
+          "scale": [
+            0.31666666666666665,
+            0.31666666666666665,
+            0.31666666666666665
+          ],
+          "origin": [
+            8,
+            5.5,
+            8
+          ],
+          "target": [
+            8,
+            6.06625,
+            1.9
+          ],
+          "bones": [
+            "cosmetic_hat"
+          ]
+        }
+      }
+    },
+    "variants": {
+      "bandana": {
+        "assetId": "b8af3a16-f0c8-41cc-9e0f-94adb18b259d",
+        "sourceHash": "b1b09b13e1d37af56e05d7836c8d43f3e2b3c3654fdc9680f47da63836988d5e"
+      },
+      "best_friend": {
+        "assetId": "26308530-a388-41ad-b81b-f9f01b1dec32",
+        "sourceHash": "488e850bbe46651773836fd763de44bcddc5bc2544858277019075cefd5d2afe"
+      },
+      "bow": {
+        "assetId": "d48d03f0-d420-4a02-84bd-e9373ebefb06",
+        "sourceHash": "bbc7374e9ec0d2b3a2529b4594ce08dd753c4f7ca7601c0404c7c0e83f8c46cb"
+      },
+      "collar": {
+        "assetId": "98b4b5f5-58c7-4fdb-b84c-4f2ac5b5c227",
+        "sourceHash": "732b237fca01ccbb6b44905df8a3d8829eb84131c162838774a69f4ca0e80545"
+      },
+      "hat": {
+        "assetId": "7ccc5157-21a9-43fb-8d8e-411b2477c8d5",
+        "sourceHash": "d107fb8b91426e2658ad38596185ac6720c3e06741592110141cf51ca8a402d9"
+      }
+    }
+  },
+  "pet_otter_dark": {
+    "animalParentAssetId": "8fc173da-512c-43fc-b594-a792f28d65bf",
+    "accessoryParentAssetIds": {
+      "bandana": "cc947983-22d1-4bd9-99c0-c11eb96bb846",
+      "best_friend": "2b387b8d-0254-42d0-8302-3977ed5582d8",
+      "bow": "d60e10de-bbc7-45dc-9f16-235a885afb3b",
+      "collar": "7b1a02f8-f19d-47c4-a96b-98998324908a",
+      "hat": "ebadac28-e5ca-4bec-9341-cbed040d46e4"
+    },
+    "transforms": {
+      "cosmetic_bandana": {
+        "parent": "body",
+        "pivot": [
+          8,
+          4.5,
+          6.2
+        ],
+        "rotation": [
+          -90,
+          0,
+          0
+        ]
+      },
+      "cosmetic_best_friend": {
+        "parent": "body",
+        "pivot": [
+          8,
+          4.5,
+          6.2
+        ],
+        "rotation": [
+          -90,
+          0,
+          0
+        ]
+      },
+      "cosmetic_bow": {
+        "parent": "head",
+        "pivot": [
+          8,
+          5,
+          4
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ]
+      },
+      "cosmetic_collar": {
+        "parent": "body",
+        "pivot": [
+          8,
+          4.5,
+          6.2
+        ],
+        "rotation": [
+          -90,
+          0,
+          0
+        ]
+      },
+      "cosmetic_collar_bib": {
+        "parent": "body",
+        "pivot": [
+          8,
+          2.18,
+          5.79
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ]
+      },
+      "cosmetic_hat": {
+        "parent": "head",
+        "pivot": [
+          8,
+          5,
+          4
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    "fits": {
+      "head": "broad_head",
+      "body": "long_barrel_body",
+      "neck": [
+        8,
+        4.5,
+        6.2
+      ],
+      "neckBounds": {
+        "low": [
+          4,
+          2
+        ],
+        "high": [
+          12,
+          7
+        ]
+      },
+      "hat": {
+        "brim": 3.6,
+        "z": 0.020000000000000018,
+        "top": 7.03125
+      },
+      "accessories": {
+        "bandana": {
+          "scale": [
+            1.015,
+            0.38,
+            0.6826666666666666
+          ],
+          "origin": [
+            8,
+            9.625,
+            8.25
+          ],
+          "target": [
+            8,
+            4.5,
+            6.2
+          ],
+          "bibScale": 0.65975,
+          "bibOrigin": [
+            8,
+            9,
+            3.75
+          ],
+          "bibTarget": [
+            8,
+            7.54,
+            6.390000000000001
+          ],
+          "bones": [
+            "cosmetic_bandana"
+          ]
+        },
+        "best_friend": {
+          "scale": [
+            1.015,
+            0.38,
+            0.64
+          ],
+          "origin": [
+            8,
+            9.75,
+            8
+          ],
+          "target": [
+            8,
+            4.5,
+            6.2
+          ],
+          "bibScale": 0.65975,
+          "bibOrigin": [
+            8,
+            9,
+            4
+          ],
+          "bibTarget": [
+            8,
+            7.54,
+            6.390000000000001
+          ],
+          "bones": [
+            "cosmetic_best_friend"
+          ]
+        },
+        "bow": {
+          "scale": [
+            0.336,
+            0.336,
+            0.336
+          ],
+          "origin": [
+            8,
+            5.75,
+            8
+          ],
+          "target": [
+            8,
+            7.06625,
+            0.9199999999999999
+          ],
+          "bones": [
+            "cosmetic_bow"
+          ]
+        },
+        "collar": {
+          "scale": [
+            1.015,
+            0.24,
+            0.64
+          ],
+          "origin": [
+            8,
+            8,
+            8
+          ],
+          "target": [
+            8,
+            4.5,
+            6.2
+          ],
+          "bibScale": 0.37777777777777777,
+          "bibOrigin": [
+            8,
+            8,
+            2.75
+          ],
+          "bibTarget": [
+            8,
+            2.18,
+            5.79
+          ],
+          "bones": [
+            "cosmetic_collar",
+            "cosmetic_collar_bib"
+          ]
+        },
+        "hat": {
+          "scale": [
+            0.3,
+            0.3,
+            0.3
+          ],
+          "origin": [
+            8,
+            5.5,
+            8
+          ],
+          "target": [
+            8,
+            7.06625,
+            0.020000000000000018
+          ],
+          "bones": [
+            "cosmetic_hat"
+          ]
+        }
+      }
+    },
+    "variants": {
+      "bandana": {
+        "assetId": "d183f3da-0bfc-4fdc-a2e9-585e5e4b8aa1",
+        "sourceHash": "9bc2b6cfb5cbdfb3b2be57538c2a1d0ebc06fe2463f660cd5f49be3d7fccdbef"
+      },
+      "best_friend": {
+        "assetId": "20f78369-882c-43af-bb87-c74ee0d935a7",
+        "sourceHash": "4f6f7c3a2fcb368444519faf54a19b0e158f338444b3b7c7b2234f5be57a76c0"
+      },
+      "bow": {
+        "assetId": "807c1836-a8d2-46ea-ae4f-ec13d54251b0",
+        "sourceHash": "ef9be24c35b3551d5ecd7a4f17b6c8c334d69e58b0a22cfcf4c0daf52b3d72d3"
+      },
+      "collar": {
+        "assetId": "16c9d56e-8c09-4f0d-987e-a907be541dcd",
+        "sourceHash": "a764c3e296966e4ce145b7699a2a2f277174c2dbfc18bc1518ffb293393ba4cf"
+      },
+      "hat": {
+        "assetId": "db25c88c-8837-40bd-99fc-901fb74b1f45",
+        "sourceHash": "b81f6adce79fbde2dff569fca0c9adc2eacc1c6679897cc3c3782e59ff0aa871"
+      }
+    }
+  },
+  "pet_otter_pale_throat": {
+    "animalParentAssetId": "70fdf504-228d-4a8c-a5ac-90a82d897a11",
+    "accessoryParentAssetIds": {
+      "bandana": "cc947983-22d1-4bd9-99c0-c11eb96bb846",
+      "best_friend": "2b387b8d-0254-42d0-8302-3977ed5582d8",
+      "bow": "d60e10de-bbc7-45dc-9f16-235a885afb3b",
+      "collar": "7b1a02f8-f19d-47c4-a96b-98998324908a",
+      "hat": "ebadac28-e5ca-4bec-9341-cbed040d46e4"
+    },
+    "transforms": {
+      "cosmetic_bandana": {
+        "parent": "body",
+        "pivot": [
+          8,
+          4.5,
+          6.2
+        ],
+        "rotation": [
+          -90,
+          0,
+          0
+        ]
+      },
+      "cosmetic_best_friend": {
+        "parent": "body",
+        "pivot": [
+          8,
+          4.5,
+          6.2
+        ],
+        "rotation": [
+          -90,
+          0,
+          0
+        ]
+      },
+      "cosmetic_bow": {
+        "parent": "head",
+        "pivot": [
+          8,
+          5,
+          4
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ]
+      },
+      "cosmetic_collar": {
+        "parent": "body",
+        "pivot": [
+          8,
+          4.5,
+          6.2
+        ],
+        "rotation": [
+          -90,
+          0,
+          0
+        ]
+      },
+      "cosmetic_collar_bib": {
+        "parent": "body",
+        "pivot": [
+          8,
+          2.18,
+          5.79
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ]
+      },
+      "cosmetic_hat": {
+        "parent": "head",
+        "pivot": [
+          8,
+          5,
+          4
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    "fits": {
+      "head": "broad_head",
+      "body": "long_barrel_body",
+      "neck": [
+        8,
+        4.5,
+        6.2
+      ],
+      "neckBounds": {
+        "low": [
+          4,
+          2
+        ],
+        "high": [
+          12,
+          7
+        ]
+      },
+      "hat": {
+        "brim": 3.6,
+        "z": 0.020000000000000018,
+        "top": 7.03125
+      },
+      "accessories": {
+        "bandana": {
+          "scale": [
+            1.015,
+            0.38,
+            0.6826666666666666
+          ],
+          "origin": [
+            8,
+            9.625,
+            8.25
+          ],
+          "target": [
+            8,
+            4.5,
+            6.2
+          ],
+          "bibScale": 0.65975,
+          "bibOrigin": [
+            8,
+            9,
+            3.75
+          ],
+          "bibTarget": [
+            8,
+            7.54,
+            6.390000000000001
+          ],
+          "bones": [
+            "cosmetic_bandana"
+          ]
+        },
+        "best_friend": {
+          "scale": [
+            1.015,
+            0.38,
+            0.64
+          ],
+          "origin": [
+            8,
+            9.75,
+            8
+          ],
+          "target": [
+            8,
+            4.5,
+            6.2
+          ],
+          "bibScale": 0.65975,
+          "bibOrigin": [
+            8,
+            9,
+            4
+          ],
+          "bibTarget": [
+            8,
+            7.54,
+            6.390000000000001
+          ],
+          "bones": [
+            "cosmetic_best_friend"
+          ]
+        },
+        "bow": {
+          "scale": [
+            0.336,
+            0.336,
+            0.336
+          ],
+          "origin": [
+            8,
+            5.75,
+            8
+          ],
+          "target": [
+            8,
+            7.06625,
+            0.9199999999999999
+          ],
+          "bones": [
+            "cosmetic_bow"
+          ]
+        },
+        "collar": {
+          "scale": [
+            1.015,
+            0.24,
+            0.64
+          ],
+          "origin": [
+            8,
+            8,
+            8
+          ],
+          "target": [
+            8,
+            4.5,
+            6.2
+          ],
+          "bibScale": 0.37777777777777777,
+          "bibOrigin": [
+            8,
+            8,
+            2.75
+          ],
+          "bibTarget": [
+            8,
+            2.18,
+            5.79
+          ],
+          "bones": [
+            "cosmetic_collar",
+            "cosmetic_collar_bib"
+          ]
+        },
+        "hat": {
+          "scale": [
+            0.3,
+            0.3,
+            0.3
+          ],
+          "origin": [
+            8,
+            5.5,
+            8
+          ],
+          "target": [
+            8,
+            7.06625,
+            0.020000000000000018
+          ],
+          "bones": [
+            "cosmetic_hat"
+          ]
+        }
+      }
+    },
+    "variants": {
+      "bandana": {
+        "assetId": "68d09a8d-8fb6-478a-acd3-17874880b512",
+        "sourceHash": "504a304c31b57047c5aa4a424afc939ce724d0c5faec0408c6ee416dd579e340"
+      },
+      "best_friend": {
+        "assetId": "2df5c5e9-31af-4dd8-a82c-f80bf1c10ac6",
+        "sourceHash": "1b6b4bd4f0c8f3f3ace5d56729e4c75baa7bde02643f1f8aa94d98c987dae589"
+      },
+      "bow": {
+        "assetId": "3adb1bc7-627d-4cce-9a40-a7e3c0fdf4fb",
+        "sourceHash": "dfbfb2b2805f9e652cb641d8e312333bb24f95d95c0eb3f910e2ffeef76874a9"
+      },
+      "collar": {
+        "assetId": "dbf5818e-7150-4ca7-99ac-226ecb7af680",
+        "sourceHash": "5844a31d217c4dd687d471d8c56f3788c0bf15d000309f262e7b19ef0f0071bc"
+      },
+      "hat": {
+        "assetId": "6880ec5e-6f46-4a37-9f44-a50cb784b5f1",
+        "sourceHash": "6ef5ab3f2da2fdf052398ab9bb6b4a10f112329dc3e5df019c75a9d8de3bb86e"
+      }
+    }
+  },
+  "pet_otter_warm": {
+    "animalParentAssetId": "5edc2c87-b676-4e7d-8690-e2e1bb2fab79",
+    "accessoryParentAssetIds": {
+      "bandana": "cc947983-22d1-4bd9-99c0-c11eb96bb846",
+      "best_friend": "2b387b8d-0254-42d0-8302-3977ed5582d8",
+      "bow": "d60e10de-bbc7-45dc-9f16-235a885afb3b",
+      "collar": "7b1a02f8-f19d-47c4-a96b-98998324908a",
+      "hat": "ebadac28-e5ca-4bec-9341-cbed040d46e4"
+    },
+    "transforms": {
+      "cosmetic_bandana": {
+        "parent": "body",
+        "pivot": [
+          8,
+          4.5,
+          6.2
+        ],
+        "rotation": [
+          -90,
+          0,
+          0
+        ]
+      },
+      "cosmetic_best_friend": {
+        "parent": "body",
+        "pivot": [
+          8,
+          4.5,
+          6.2
+        ],
+        "rotation": [
+          -90,
+          0,
+          0
+        ]
+      },
+      "cosmetic_bow": {
+        "parent": "head",
+        "pivot": [
+          8,
+          5,
+          4
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ]
+      },
+      "cosmetic_collar": {
+        "parent": "body",
+        "pivot": [
+          8,
+          4.5,
+          6.2
+        ],
+        "rotation": [
+          -90,
+          0,
+          0
+        ]
+      },
+      "cosmetic_collar_bib": {
+        "parent": "body",
+        "pivot": [
+          8,
+          2.18,
+          5.79
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ]
+      },
+      "cosmetic_hat": {
+        "parent": "head",
+        "pivot": [
+          8,
+          5,
+          4
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    "fits": {
+      "head": "broad_head",
+      "body": "long_barrel_body",
+      "neck": [
+        8,
+        4.5,
+        6.2
+      ],
+      "neckBounds": {
+        "low": [
+          4,
+          2
+        ],
+        "high": [
+          12,
+          7
+        ]
+      },
+      "hat": {
+        "brim": 3.6,
+        "z": 0.020000000000000018,
+        "top": 7.03125
+      },
+      "accessories": {
+        "bandana": {
+          "scale": [
+            1.015,
+            0.38,
+            0.6826666666666666
+          ],
+          "origin": [
+            8,
+            9.625,
+            8.25
+          ],
+          "target": [
+            8,
+            4.5,
+            6.2
+          ],
+          "bibScale": 0.65975,
+          "bibOrigin": [
+            8,
+            9,
+            3.75
+          ],
+          "bibTarget": [
+            8,
+            7.54,
+            6.390000000000001
+          ],
+          "bones": [
+            "cosmetic_bandana"
+          ]
+        },
+        "best_friend": {
+          "scale": [
+            1.015,
+            0.38,
+            0.64
+          ],
+          "origin": [
+            8,
+            9.75,
+            8
+          ],
+          "target": [
+            8,
+            4.5,
+            6.2
+          ],
+          "bibScale": 0.65975,
+          "bibOrigin": [
+            8,
+            9,
+            4
+          ],
+          "bibTarget": [
+            8,
+            7.54,
+            6.390000000000001
+          ],
+          "bones": [
+            "cosmetic_best_friend"
+          ]
+        },
+        "bow": {
+          "scale": [
+            0.336,
+            0.336,
+            0.336
+          ],
+          "origin": [
+            8,
+            5.75,
+            8
+          ],
+          "target": [
+            8,
+            7.06625,
+            0.9199999999999999
+          ],
+          "bones": [
+            "cosmetic_bow"
+          ]
+        },
+        "collar": {
+          "scale": [
+            1.015,
+            0.24,
+            0.64
+          ],
+          "origin": [
+            8,
+            8,
+            8
+          ],
+          "target": [
+            8,
+            4.5,
+            6.2
+          ],
+          "bibScale": 0.37777777777777777,
+          "bibOrigin": [
+            8,
+            8,
+            2.75
+          ],
+          "bibTarget": [
+            8,
+            2.18,
+            5.79
+          ],
+          "bones": [
+            "cosmetic_collar",
+            "cosmetic_collar_bib"
+          ]
+        },
+        "hat": {
+          "scale": [
+            0.3,
+            0.3,
+            0.3
+          ],
+          "origin": [
+            8,
+            5.5,
+            8
+          ],
+          "target": [
+            8,
+            7.06625,
+            0.020000000000000018
+          ],
+          "bones": [
+            "cosmetic_hat"
+          ]
+        }
+      }
+    },
+    "variants": {
+      "bandana": {
+        "assetId": "ea5e1802-b342-45f7-b338-0def7baa41e7",
+        "sourceHash": "5f9c62a79391dd14769cf6e86ce393a351a13b44dc44eb887ff24e8afb3726bf"
+      },
+      "best_friend": {
+        "assetId": "d3c42689-27f0-45d9-a29a-5b35319877e5",
+        "sourceHash": "fd23ba596becb55f13ba07491b845734f08cef0ef793d9925c5f63ff9e10f9c0"
+      },
+      "bow": {
+        "assetId": "c1023fc3-c8e9-4ce7-a964-667deacdf598",
+        "sourceHash": "1f9c7d7774d0b9f2162e5745b377813db4111aaea78f8956fa4e44f83fbd42fa"
+      },
+      "collar": {
+        "assetId": "e368de6d-522f-4e57-b32a-f4b2773401ca",
+        "sourceHash": "960015b4a079dae62d11f26cc4e791a5035d3364815d360ac53aca2e16e39426"
+      },
+      "hat": {
+        "assetId": "cdc4306e-6a43-4026-bf6c-7fce6c106822",
+        "sourceHash": "255b750fb4a0317102a729ccf57af85c5ffd2f0dd1acc5f55f9e827eb4683b80"
+      }
+    }
+  },
+  "pet_raccoon_brown": {
+    "animalParentAssetId": "9e0f5a79-ebd5-448d-a23f-581bd75f0545",
+    "accessoryParentAssetIds": {
+      "bandana": "cc947983-22d1-4bd9-99c0-c11eb96bb846",
+      "best_friend": "2b387b8d-0254-42d0-8302-3977ed5582d8",
+      "bow": "d60e10de-bbc7-45dc-9f16-235a885afb3b",
+      "collar": "7b1a02f8-f19d-47c4-a96b-98998324908a",
+      "hat": "ebadac28-e5ca-4bec-9341-cbed040d46e4"
+    },
+    "transforms": {
+      "cosmetic_bandana": {
+        "parent": "body",
+        "pivot": [
+          8,
+          4.75,
+          4.95
+        ],
+        "rotation": [
+          -90,
+          0,
+          0
+        ]
+      },
+      "cosmetic_best_friend": {
+        "parent": "body",
+        "pivot": [
+          8,
+          4.75,
+          4.95
+        ],
+        "rotation": [
+          -90,
+          0,
+          0
+        ]
+      },
+      "cosmetic_bow": {
+        "parent": "head",
+        "pivot": [
+          8,
+          5,
+          3.75
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ]
+      },
+      "cosmetic_collar": {
+        "parent": "body",
+        "pivot": [
+          8,
+          4.75,
+          4.95
+        ],
+        "rotation": [
+          -90,
+          0,
+          0
+        ]
+      },
+      "cosmetic_collar_bib": {
+        "parent": "body",
+        "pivot": [
+          8,
+          3.18,
+          4.54
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ]
+      },
+      "cosmetic_hat": {
+        "parent": "head",
+        "pivot": [
+          8,
+          5,
+          3.75
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    "fits": {
+      "head": "masked_head",
+      "body": "stocky_torso",
+      "neck": [
+        8,
+        4.75,
+        4.95
+      ],
+      "neckBounds": {
+        "low": [
+          4,
+          3
+        ],
+        "high": [
+          12,
+          6.5
+        ]
+      },
+      "hat": {
+        "brim": 2.2,
+        "z": 1.65,
+        "top": 7
+      },
+      "accessories": {
+        "bandana": {
+          "scale": [
+            1.015,
+            0.38,
+            0.4826666666666667
+          ],
+          "origin": [
+            8,
+            9.625,
+            8.25
+          ],
+          "target": [
+            8,
+            4.75,
+            4.95
+          ],
+          "bibScale": 0.65975,
+          "bibOrigin": [
+            8,
+            9,
+            3.75
+          ],
+          "bibTarget": [
+            8,
+            7.04,
+            5.140000000000001
+          ],
+          "bones": [
+            "cosmetic_bandana"
+          ]
+        },
+        "best_friend": {
+          "scale": [
+            1.015,
+            0.38,
+            0.4525
+          ],
+          "origin": [
+            8,
+            9.75,
+            8
+          ],
+          "target": [
+            8,
+            4.75,
+            4.95
+          ],
+          "bibScale": 0.65975,
+          "bibOrigin": [
+            8,
+            9,
+            4
+          ],
+          "bibTarget": [
+            8,
+            7.04,
+            5.140000000000001
+          ],
+          "bones": [
+            "cosmetic_best_friend"
+          ]
+        },
+        "bow": {
+          "scale": [
+            0.336,
+            0.336,
+            0.336
+          ],
+          "origin": [
+            8,
+            5.75,
+            8
+          ],
+          "target": [
+            8,
+            7.035,
+            0.6
+          ],
+          "bones": [
+            "cosmetic_bow"
+          ]
+        },
+        "collar": {
+          "scale": [
+            1.015,
+            0.24,
+            0.4525
+          ],
+          "origin": [
+            8,
+            8,
+            8
+          ],
+          "target": [
+            8,
+            4.75,
+            4.95
+          ],
+          "bibScale": 0.6000000000000001,
+          "bibOrigin": [
+            8,
+            8,
+            2.75
+          ],
+          "bibTarget": [
+            8,
+            3.18,
+            4.54
+          ],
+          "bones": [
+            "cosmetic_collar",
+            "cosmetic_collar_bib"
+          ]
+        },
+        "hat": {
+          "scale": [
+            0.18333333333333335,
+            0.18333333333333335,
+            0.18333333333333335
+          ],
+          "origin": [
+            8,
+            5.5,
+            8
+          ],
+          "target": [
+            8,
+            7.035,
+            1.65
+          ],
+          "bones": [
+            "cosmetic_hat"
+          ]
+        }
+      }
+    },
+    "variants": {
+      "bandana": {
+        "assetId": "8740d90c-bd2d-4c33-9721-0de1306d2886",
+        "sourceHash": "b1d35ccbc89916c821b391bc6a103be809fae85ac4a856c7e7c42e544e53f412"
+      },
+      "best_friend": {
+        "assetId": "6044b2fc-5e7b-4b27-880e-03d9d69c09d9",
+        "sourceHash": "272e524baa4d4b90a0b8c39fc17cb21e7132ecba7fb67097593a219a5f9933d4"
+      },
+      "bow": {
+        "assetId": "4b7c55cf-6648-4479-9b64-170d189f0329",
+        "sourceHash": "f11b71c29eff294aad8615b2c1c9eece6bb22392ae91525e3121cb786b68033d"
+      },
+      "collar": {
+        "assetId": "f7687799-8442-4fca-b95d-9d1b27bb9635",
+        "sourceHash": "e2f94ae8be3c2cf1f81296d35d5011f51c51f31009ab730a076a9022fc4c175b"
+      },
+      "hat": {
+        "assetId": "f104ec69-3378-42cd-a4e5-084740972b5e",
+        "sourceHash": "0aeb21d1358be910f0f2b207bf1f1ae0a0375a3f7f523042225d12fa2442b8c3"
+      }
+    }
+  },
+  "pet_raccoon_dark": {
+    "animalParentAssetId": "3d1a76e7-ba09-4784-9616-24ac6501618b",
+    "accessoryParentAssetIds": {
+      "bandana": "cc947983-22d1-4bd9-99c0-c11eb96bb846",
+      "best_friend": "2b387b8d-0254-42d0-8302-3977ed5582d8",
+      "bow": "d60e10de-bbc7-45dc-9f16-235a885afb3b",
+      "collar": "7b1a02f8-f19d-47c4-a96b-98998324908a",
+      "hat": "ebadac28-e5ca-4bec-9341-cbed040d46e4"
+    },
+    "transforms": {
+      "cosmetic_bandana": {
+        "parent": "body",
+        "pivot": [
+          8,
+          4.75,
+          5.45
+        ],
+        "rotation": [
+          -90,
+          0,
+          0
+        ]
+      },
+      "cosmetic_best_friend": {
+        "parent": "body",
+        "pivot": [
+          8,
+          4.75,
+          5.45
+        ],
+        "rotation": [
+          -90,
+          0,
+          0
+        ]
+      },
+      "cosmetic_bow": {
+        "parent": "head",
+        "pivot": [
+          8,
+          5.5,
+          4
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ]
+      },
+      "cosmetic_collar": {
+        "parent": "body",
+        "pivot": [
+          8,
+          4.75,
+          5.45
+        ],
+        "rotation": [
+          -90,
+          0,
+          0
+        ]
+      },
+      "cosmetic_collar_bib": {
+        "parent": "body",
+        "pivot": [
+          8,
+          2.93,
+          5.04
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ]
+      },
+      "cosmetic_hat": {
+        "parent": "head",
+        "pivot": [
+          8,
+          5.5,
+          4
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    "fits": {
+      "head": "broad_head",
+      "body": "stocky_torso",
+      "neck": [
+        8,
+        4.75,
+        5.45
+      ],
+      "neckBounds": {
+        "low": [
+          4,
+          2.75
+        ],
+        "high": [
+          12,
+          6.75
+        ]
+      },
+      "hat": {
+        "brim": 2.2,
+        "z": 2.025,
+        "top": 7
+      },
+      "accessories": {
+        "bandana": {
+          "scale": [
+            1.015,
+            0.38,
+            0.5493333333333333
+          ],
+          "origin": [
+            8,
+            9.625,
+            8.25
+          ],
+          "target": [
+            8,
+            4.75,
+            5.45
+          ],
+          "bibScale": 0.65975,
+          "bibOrigin": [
+            8,
+            9,
+            3.75
+          ],
+          "bibTarget": [
+            8,
+            7.29,
+            5.640000000000001
+          ],
+          "bones": [
+            "cosmetic_bandana"
+          ]
+        },
+        "best_friend": {
+          "scale": [
+            1.015,
+            0.38,
+            0.515
+          ],
+          "origin": [
+            8,
+            9.75,
+            8
+          ],
+          "target": [
+            8,
+            4.75,
+            5.45
+          ],
+          "bibScale": 0.65975,
+          "bibOrigin": [
+            8,
+            9,
+            4
+          ],
+          "bibTarget": [
+            8,
+            7.29,
+            5.640000000000001
+          ],
+          "bones": [
+            "cosmetic_best_friend"
+          ]
+        },
+        "bow": {
+          "scale": [
+            0.392,
+            0.392,
+            0.392
+          ],
+          "origin": [
+            8,
+            5.75,
+            8
+          ],
+          "target": [
+            8,
+            7.035,
+            0.6
+          ],
+          "bones": [
+            "cosmetic_bow"
+          ]
+        },
+        "collar": {
+          "scale": [
+            1.015,
+            0.24,
+            0.515
+          ],
+          "origin": [
+            8,
+            8,
+            8
+          ],
+          "target": [
+            8,
+            4.75,
+            5.45
+          ],
+          "bibScale": 0.5444444444444445,
+          "bibOrigin": [
+            8,
+            8,
+            2.75
+          ],
+          "bibTarget": [
+            8,
+            2.93,
+            5.04
+          ],
+          "bones": [
+            "cosmetic_collar",
+            "cosmetic_collar_bib"
+          ]
+        },
+        "hat": {
+          "scale": [
+            0.18333333333333335,
+            0.18333333333333335,
+            0.18333333333333335
+          ],
+          "origin": [
+            8,
+            5.5,
+            8
+          ],
+          "target": [
+            8,
+            7.035,
+            2.025
+          ],
+          "bones": [
+            "cosmetic_hat"
+          ]
+        }
+      }
+    },
+    "variants": {
+      "bandana": {
+        "assetId": "449aafce-ca2e-43aa-93e0-7ecf166e4f27",
+        "sourceHash": "b1bc790938e20ab72abd5168d476b2aaeac6ef453684d3e19583fdb2c6ca5a2e"
+      },
+      "best_friend": {
+        "assetId": "238c7dfb-12c4-48dc-8491-a3f2792131b4",
+        "sourceHash": "93c0538f927b9ff1e4fb30c9cb99b7633136bf9ca0f14931e6cd605947d0d590"
+      },
+      "bow": {
+        "assetId": "b3ac616d-3d58-4b79-a16d-8046432ea707",
+        "sourceHash": "22e25a4a70dbfa6d2b5235359e58d91a18bf089510565bae20b4fc5dfd0734aa"
+      },
+      "collar": {
+        "assetId": "32fa3df7-fd15-480a-b24c-396cd5912bb8",
+        "sourceHash": "b5538b21ff2699d88fa1a722fa2a79553ed5f9ad1496c9333ec779d3df258406"
+      },
+      "hat": {
+        "assetId": "d2d32a8c-52f8-494c-ba10-10da8c64c95d",
+        "sourceHash": "c113d0aeb8dda700f3b0db398556e3f2315597bb91a13b606b7c62ae354ffc98"
+      }
+    }
+  },
+  "pet_raccoon_grey": {
+    "animalParentAssetId": "e3284c3b-c62d-4b9e-bd4e-79d32c509f03",
+    "accessoryParentAssetIds": {
+      "bandana": "cc947983-22d1-4bd9-99c0-c11eb96bb846",
+      "best_friend": "2b387b8d-0254-42d0-8302-3977ed5582d8",
+      "bow": "d60e10de-bbc7-45dc-9f16-235a885afb3b",
+      "collar": "7b1a02f8-f19d-47c4-a96b-98998324908a",
+      "hat": "ebadac28-e5ca-4bec-9341-cbed040d46e4"
+    },
+    "transforms": {
+      "cosmetic_bandana": {
+        "parent": "body",
+        "pivot": [
+          8,
+          6.5,
+          5.2
+        ],
+        "rotation": [
+          -90,
+          0,
+          0
+        ]
+      },
+      "cosmetic_best_friend": {
+        "parent": "body",
+        "pivot": [
+          8,
+          6.5,
+          5.2
+        ],
+        "rotation": [
+          -90,
+          0,
+          0
+        ]
+      },
+      "cosmetic_bow": {
+        "parent": "head",
+        "pivot": [
+          8,
+          7.5,
+          3
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ]
+      },
+      "cosmetic_collar": {
+        "parent": "body",
+        "pivot": [
+          8,
+          6.5,
+          5.2
+        ],
+        "rotation": [
+          -90,
+          0,
+          0
+        ]
+      },
+      "cosmetic_collar_bib": {
+        "parent": "body",
+        "pivot": [
+          8,
+          3.68,
+          4.79
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ]
+      },
+      "cosmetic_hat": {
+        "parent": "head",
+        "pivot": [
+          8,
+          7.5,
+          3
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    "fits": {
+      "head": "broad_head",
+      "body": "stocky_torso",
+      "neck": [
+        8,
+        6.5,
+        5.2
+      ],
+      "neckBounds": {
+        "low": [
+          3,
+          3.5
+        ],
+        "high": [
+          13,
+          9.5
+        ]
+      },
+      "hat": {
+        "brim": 3.7,
+        "z": 0.4,
+        "top": 11
+      },
+      "accessories": {
+        "bandana": {
+          "scale": [
+            1.265,
+            0.38,
+            0.8160000000000001
+          ],
+          "origin": [
+            8,
+            9.625,
+            8.25
+          ],
+          "target": [
+            8,
+            6.5,
+            5.2
+          ],
+          "bibScale": 0.8222499999999999,
+          "bibOrigin": [
+            8,
+            9,
+            3.75
+          ],
+          "bibTarget": [
+            8,
+            10.04,
+            5.390000000000001
+          ],
+          "bones": [
+            "cosmetic_bandana"
+          ]
+        },
+        "best_friend": {
+          "scale": [
+            1.265,
+            0.38,
+            0.765
+          ],
+          "origin": [
+            8,
+            9.75,
+            8
+          ],
+          "target": [
+            8,
+            6.5,
+            5.2
+          ],
+          "bibScale": 0.8222499999999999,
+          "bibOrigin": [
+            8,
+            9,
+            4
+          ],
+          "bibTarget": [
+            8,
+            10.04,
+            5.390000000000001
+          ],
+          "bones": [
+            "cosmetic_best_friend"
+          ]
+        },
+        "bow": {
+          "scale": [
+            0.44800000000000006,
+            0.44800000000000006,
+            0.44800000000000006
+          ],
+          "origin": [
+            8,
+            5.75,
+            8
+          ],
+          "target": [
+            8,
+            11.035,
+            -0.4
+          ],
+          "bones": [
+            "cosmetic_bow"
+          ]
+        },
+        "collar": {
+          "scale": [
+            1.265,
+            0.24,
+            0.765
+          ],
+          "origin": [
+            8,
+            8,
+            8
+          ],
+          "target": [
+            8,
+            6.5,
+            5.2
+          ],
+          "bibScale": 0.7111111111111111,
+          "bibOrigin": [
+            8,
+            8,
+            2.75
+          ],
+          "bibTarget": [
+            8,
+            3.68,
+            4.79
+          ],
+          "bones": [
+            "cosmetic_collar",
+            "cosmetic_collar_bib"
+          ]
+        },
+        "hat": {
+          "scale": [
+            0.30833333333333335,
+            0.30833333333333335,
+            0.30833333333333335
+          ],
+          "origin": [
+            8,
+            5.5,
+            8
+          ],
+          "target": [
+            8,
+            11.035,
+            0.4
+          ],
+          "bones": [
+            "cosmetic_hat"
+          ]
+        }
+      }
+    },
+    "variants": {
+      "bandana": {
+        "assetId": "789bbc6b-d49a-4b8a-a937-b92dbd0b0414",
+        "sourceHash": "ff1b263ea82d1fcc30afbe90d52d781ac66654caa79c56ec09451ffe8d28aed5"
+      },
+      "best_friend": {
+        "assetId": "b5ef557a-8f7b-40dc-a308-a2bb3b5b278d",
+        "sourceHash": "364608124d5ba8c75159fe3c5b42536b45f8785e23ac81b1fd801d56d0c02b64"
+      },
+      "bow": {
+        "assetId": "b2190799-9e2e-40cc-9947-c5aa7dd17885",
+        "sourceHash": "6d5fe60ebc2b99d93b23d431f1640742bb6f3bc5724ffbc6c34b2c40bda11117"
+      },
+      "collar": {
+        "assetId": "eba42337-81db-4fe8-8760-5d6a6d2a7dd9",
+        "sourceHash": "75311c7df22ff8aeeedf58a04c357e04caceb290027b4b5b4fdd6c66169a86dc"
+      },
+      "hat": {
+        "assetId": "bef20314-8f0e-494b-8c28-59a8d7909cb0",
+        "sourceHash": "c5f691020fa8deee50309d9ca35e6a9130278fa5e1c9345cd7585ecb959d5400"
+      }
+    }
+  }
+}
