@@ -1,0 +1,1252 @@
+{
+  "credit": "VoxelForge",
+  "textures": {
+    "particle": "voxelforge:item/orange_pets_icon_hedgehog_brown_e1cd516a/hedgehog",
+    "hedgehog": "voxelforge:item/orange_pets_icon_hedgehog_brown_e1cd516a/hedgehog"
+  },
+  "elements": [
+    {
+      "name": "quill_body",
+      "from": [
+        3,
+        2,
+        4
+      ],
+      "to": [
+        13,
+        7,
+        15
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            4,
+            1.375,
+            5.25,
+            2
+          ],
+          "texture": "#hedgehog"
+        },
+        "south": {
+          "uv": [
+            1.375,
+            1.375,
+            2.625,
+            2
+          ],
+          "texture": "#hedgehog"
+        },
+        "east": {
+          "uv": [
+            0,
+            1.375,
+            1.375,
+            2
+          ],
+          "texture": "#hedgehog"
+        },
+        "west": {
+          "uv": [
+            2.625,
+            1.375,
+            4,
+            2
+          ],
+          "texture": "#hedgehog"
+        },
+        "up": {
+          "uv": [
+            1.375,
+            0,
+            2.625,
+            1.375
+          ],
+          "texture": "#hedgehog"
+        },
+        "down": {
+          "uv": [
+            2.625,
+            0,
+            3.875,
+            1.375
+          ],
+          "texture": "#hedgehog"
+        }
+      }
+    },
+    {
+      "name": "quill_crown",
+      "from": [
+        4,
+        7,
+        6
+      ],
+      "to": [
+        12,
+        8,
+        13
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            8.25,
+            0.875,
+            9.25,
+            1
+          ],
+          "texture": "#hedgehog"
+        },
+        "south": {
+          "uv": [
+            6.375,
+            0.875,
+            7.375,
+            1
+          ],
+          "texture": "#hedgehog"
+        },
+        "east": {
+          "uv": [
+            5.5,
+            0.875,
+            6.375,
+            1
+          ],
+          "texture": "#hedgehog"
+        },
+        "west": {
+          "uv": [
+            7.375,
+            0.875,
+            8.25,
+            1
+          ],
+          "texture": "#hedgehog"
+        },
+        "up": {
+          "uv": [
+            6.375,
+            0,
+            7.375,
+            0.875
+          ],
+          "texture": "#hedgehog"
+        },
+        "down": {
+          "uv": [
+            7.375,
+            0,
+            8.375,
+            0.875
+          ],
+          "texture": "#hedgehog"
+        }
+      }
+    },
+    {
+      "name": "left_quill_haunch",
+      "from": [
+        2,
+        3,
+        7
+      ],
+      "to": [
+        4,
+        6,
+        13
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            11.25,
+            0.75,
+            11.5,
+            1.125
+          ],
+          "texture": "#hedgehog"
+        },
+        "south": {
+          "uv": [
+            10.25,
+            0.75,
+            10.5,
+            1.125
+          ],
+          "texture": "#hedgehog"
+        },
+        "east": {
+          "uv": [
+            9.5,
+            0.75,
+            10.25,
+            1.125
+          ],
+          "texture": "#hedgehog"
+        },
+        "west": {
+          "uv": [
+            10.5,
+            0.75,
+            11.25,
+            1.125
+          ],
+          "texture": "#hedgehog"
+        },
+        "up": {
+          "uv": [
+            10.25,
+            0,
+            10.5,
+            0.75
+          ],
+          "texture": "#hedgehog"
+        },
+        "down": {
+          "uv": [
+            10.5,
+            0,
+            10.75,
+            0.75
+          ],
+          "texture": "#hedgehog"
+        }
+      }
+    },
+    {
+      "name": "right_quill_haunch",
+      "from": [
+        12,
+        3,
+        7
+      ],
+      "to": [
+        14,
+        6,
+        13
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            11.25,
+            0.75,
+            11.5,
+            1.125
+          ],
+          "texture": "#hedgehog"
+        },
+        "south": {
+          "uv": [
+            10.25,
+            0.75,
+            10.5,
+            1.125
+          ],
+          "texture": "#hedgehog"
+        },
+        "east": {
+          "uv": [
+            9.5,
+            0.75,
+            10.25,
+            1.125
+          ],
+          "texture": "#hedgehog"
+        },
+        "west": {
+          "uv": [
+            10.5,
+            0.75,
+            11.25,
+            1.125
+          ],
+          "texture": "#hedgehog"
+        },
+        "up": {
+          "uv": [
+            10.25,
+            0,
+            10.5,
+            0.75
+          ],
+          "texture": "#hedgehog"
+        },
+        "down": {
+          "uv": [
+            10.5,
+            0,
+            10.75,
+            0.75
+          ],
+          "texture": "#hedgehog"
+        }
+      }
+    },
+    {
+      "name": "left_quill_shoulder",
+      "from": [
+        3.03125,
+        6.03125,
+        5
+      ],
+      "to": [
+        5.03125,
+        7.03125,
+        12
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            13.75,
+            0.875,
+            14,
+            1
+          ],
+          "texture": "#hedgehog"
+        },
+        "south": {
+          "uv": [
+            12.625,
+            0.875,
+            12.875,
+            1
+          ],
+          "texture": "#hedgehog"
+        },
+        "east": {
+          "uv": [
+            11.75,
+            0.875,
+            12.625,
+            1
+          ],
+          "texture": "#hedgehog"
+        },
+        "west": {
+          "uv": [
+            12.875,
+            0.875,
+            13.75,
+            1
+          ],
+          "texture": "#hedgehog"
+        },
+        "up": {
+          "uv": [
+            12.625,
+            0,
+            12.875,
+            0.875
+          ],
+          "texture": "#hedgehog"
+        },
+        "down": {
+          "uv": [
+            12.875,
+            0,
+            13.125,
+            0.875
+          ],
+          "texture": "#hedgehog"
+        }
+      }
+    },
+    {
+      "name": "right_quill_shoulder",
+      "from": [
+        11.03125,
+        6.03125,
+        5
+      ],
+      "to": [
+        13.03125,
+        7.03125,
+        12
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            13.75,
+            0.875,
+            14,
+            1
+          ],
+          "texture": "#hedgehog"
+        },
+        "south": {
+          "uv": [
+            12.625,
+            0.875,
+            12.875,
+            1
+          ],
+          "texture": "#hedgehog"
+        },
+        "east": {
+          "uv": [
+            11.75,
+            0.875,
+            12.625,
+            1
+          ],
+          "texture": "#hedgehog"
+        },
+        "west": {
+          "uv": [
+            12.875,
+            0.875,
+            13.75,
+            1
+          ],
+          "texture": "#hedgehog"
+        },
+        "up": {
+          "uv": [
+            12.625,
+            0,
+            12.875,
+            0.875
+          ],
+          "texture": "#hedgehog"
+        },
+        "down": {
+          "uv": [
+            12.875,
+            0,
+            13.125,
+            0.875
+          ],
+          "texture": "#hedgehog"
+        }
+      }
+    },
+    {
+      "name": "light_face",
+      "from": [
+        4,
+        2.03125,
+        0
+      ],
+      "to": [
+        12,
+        6.03125,
+        5
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            2.25,
+            2.875,
+            3.25,
+            3.375
+          ],
+          "texture": "#hedgehog"
+        },
+        "south": {
+          "uv": [
+            0.625,
+            2.875,
+            1.625,
+            3.375
+          ],
+          "texture": "#hedgehog"
+        },
+        "east": {
+          "uv": [
+            0,
+            2.875,
+            0.625,
+            3.375
+          ],
+          "texture": "#hedgehog"
+        },
+        "west": {
+          "uv": [
+            1.625,
+            2.875,
+            2.25,
+            3.375
+          ],
+          "texture": "#hedgehog"
+        },
+        "up": {
+          "uv": [
+            0.625,
+            2.25,
+            1.625,
+            2.875
+          ],
+          "texture": "#hedgehog"
+        },
+        "down": {
+          "uv": [
+            1.625,
+            2.25,
+            2.625,
+            2.875
+          ],
+          "texture": "#hedgehog"
+        }
+      }
+    },
+    {
+      "name": "short_snout",
+      "from": [
+        6,
+        2,
+        -3
+      ],
+      "to": [
+        10,
+        4,
+        1
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            5,
+            2.75,
+            5.5,
+            3
+          ],
+          "texture": "#hedgehog"
+        },
+        "south": {
+          "uv": [
+            4,
+            2.75,
+            4.5,
+            3
+          ],
+          "texture": "#hedgehog"
+        },
+        "east": {
+          "uv": [
+            3.5,
+            2.75,
+            4,
+            3
+          ],
+          "texture": "#hedgehog"
+        },
+        "west": {
+          "uv": [
+            4.5,
+            2.75,
+            5,
+            3
+          ],
+          "texture": "#hedgehog"
+        },
+        "up": {
+          "uv": [
+            4,
+            2.25,
+            4.5,
+            2.75
+          ],
+          "texture": "#hedgehog"
+        },
+        "down": {
+          "uv": [
+            4.5,
+            2.25,
+            5,
+            2.75
+          ],
+          "texture": "#hedgehog"
+        }
+      }
+    },
+    {
+      "name": "dark_nose",
+      "from": [
+        7,
+        2.5,
+        -3.75
+      ],
+      "to": [
+        9,
+        3.5,
+        -2.75
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            6.25,
+            2.375,
+            6.5,
+            2.5
+          ],
+          "texture": "#hedgehog"
+        },
+        "south": {
+          "uv": [
+            5.875,
+            2.375,
+            6.125,
+            2.5
+          ],
+          "texture": "#hedgehog"
+        },
+        "east": {
+          "uv": [
+            5.75,
+            2.375,
+            5.875,
+            2.5
+          ],
+          "texture": "#hedgehog"
+        },
+        "west": {
+          "uv": [
+            6.125,
+            2.375,
+            6.25,
+            2.5
+          ],
+          "texture": "#hedgehog"
+        },
+        "up": {
+          "uv": [
+            5.875,
+            2.25,
+            6.125,
+            2.375
+          ],
+          "texture": "#hedgehog"
+        },
+        "down": {
+          "uv": [
+            6.125,
+            2.25,
+            6.375,
+            2.375
+          ],
+          "texture": "#hedgehog"
+        }
+      }
+    },
+    {
+      "name": "left_ear",
+      "from": [
+        3,
+        5,
+        1
+      ],
+      "to": [
+        5,
+        7,
+        3
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            7.5,
+            2.5,
+            7.75,
+            2.75
+          ],
+          "texture": "#hedgehog"
+        },
+        "south": {
+          "uv": [
+            7,
+            2.5,
+            7.25,
+            2.75
+          ],
+          "texture": "#hedgehog"
+        },
+        "east": {
+          "uv": [
+            6.75,
+            2.5,
+            7,
+            2.75
+          ],
+          "texture": "#hedgehog"
+        },
+        "west": {
+          "uv": [
+            7.25,
+            2.5,
+            7.5,
+            2.75
+          ],
+          "texture": "#hedgehog"
+        },
+        "up": {
+          "uv": [
+            7,
+            2.25,
+            7.25,
+            2.5
+          ],
+          "texture": "#hedgehog"
+        },
+        "down": {
+          "uv": [
+            7.25,
+            2.25,
+            7.5,
+            2.5
+          ],
+          "texture": "#hedgehog"
+        }
+      }
+    },
+    {
+      "name": "right_ear",
+      "from": [
+        11,
+        5,
+        1
+      ],
+      "to": [
+        13,
+        7,
+        3
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            7.5,
+            2.5,
+            7.75,
+            2.75
+          ],
+          "texture": "#hedgehog"
+        },
+        "south": {
+          "uv": [
+            7,
+            2.5,
+            7.25,
+            2.75
+          ],
+          "texture": "#hedgehog"
+        },
+        "east": {
+          "uv": [
+            6.75,
+            2.5,
+            7,
+            2.75
+          ],
+          "texture": "#hedgehog"
+        },
+        "west": {
+          "uv": [
+            7.25,
+            2.5,
+            7.5,
+            2.75
+          ],
+          "texture": "#hedgehog"
+        },
+        "up": {
+          "uv": [
+            7,
+            2.25,
+            7.25,
+            2.5
+          ],
+          "texture": "#hedgehog"
+        },
+        "down": {
+          "uv": [
+            7.25,
+            2.25,
+            7.5,
+            2.5
+          ],
+          "texture": "#hedgehog"
+        }
+      }
+    },
+    {
+      "name": "front_left_leg",
+      "from": [
+        4.03125,
+        0,
+        4.03125
+      ],
+      "to": [
+        6.03125,
+        3,
+        7.03125
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            9,
+            2.625,
+            9.25,
+            3
+          ],
+          "texture": "#hedgehog"
+        },
+        "south": {
+          "uv": [
+            8.375,
+            2.625,
+            8.625,
+            3
+          ],
+          "texture": "#hedgehog"
+        },
+        "east": {
+          "uv": [
+            8,
+            2.625,
+            8.375,
+            3
+          ],
+          "texture": "#hedgehog"
+        },
+        "west": {
+          "uv": [
+            8.625,
+            2.625,
+            9,
+            3
+          ],
+          "texture": "#hedgehog"
+        },
+        "up": {
+          "uv": [
+            8.375,
+            2.25,
+            8.625,
+            2.625
+          ],
+          "texture": "#hedgehog"
+        },
+        "down": {
+          "uv": [
+            8.625,
+            2.25,
+            8.875,
+            2.625
+          ],
+          "texture": "#hedgehog"
+        }
+      }
+    },
+    {
+      "name": "front_right_leg",
+      "from": [
+        10.03125,
+        0,
+        4.03125
+      ],
+      "to": [
+        12.03125,
+        3,
+        7.03125
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            9,
+            2.625,
+            9.25,
+            3
+          ],
+          "texture": "#hedgehog"
+        },
+        "south": {
+          "uv": [
+            8.375,
+            2.625,
+            8.625,
+            3
+          ],
+          "texture": "#hedgehog"
+        },
+        "east": {
+          "uv": [
+            8,
+            2.625,
+            8.375,
+            3
+          ],
+          "texture": "#hedgehog"
+        },
+        "west": {
+          "uv": [
+            8.625,
+            2.625,
+            9,
+            3
+          ],
+          "texture": "#hedgehog"
+        },
+        "up": {
+          "uv": [
+            8.375,
+            2.25,
+            8.625,
+            2.625
+          ],
+          "texture": "#hedgehog"
+        },
+        "down": {
+          "uv": [
+            8.625,
+            2.25,
+            8.875,
+            2.625
+          ],
+          "texture": "#hedgehog"
+        }
+      }
+    },
+    {
+      "name": "rear_left_leg",
+      "from": [
+        4,
+        0,
+        11
+      ],
+      "to": [
+        6,
+        3,
+        14
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            9,
+            2.625,
+            9.25,
+            3
+          ],
+          "texture": "#hedgehog"
+        },
+        "south": {
+          "uv": [
+            8.375,
+            2.625,
+            8.625,
+            3
+          ],
+          "texture": "#hedgehog"
+        },
+        "east": {
+          "uv": [
+            8,
+            2.625,
+            8.375,
+            3
+          ],
+          "texture": "#hedgehog"
+        },
+        "west": {
+          "uv": [
+            8.625,
+            2.625,
+            9,
+            3
+          ],
+          "texture": "#hedgehog"
+        },
+        "up": {
+          "uv": [
+            8.375,
+            2.25,
+            8.625,
+            2.625
+          ],
+          "texture": "#hedgehog"
+        },
+        "down": {
+          "uv": [
+            8.625,
+            2.25,
+            8.875,
+            2.625
+          ],
+          "texture": "#hedgehog"
+        }
+      }
+    },
+    {
+      "name": "rear_right_leg",
+      "from": [
+        10,
+        0,
+        11
+      ],
+      "to": [
+        12,
+        3,
+        14
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            9,
+            2.625,
+            9.25,
+            3
+          ],
+          "texture": "#hedgehog"
+        },
+        "south": {
+          "uv": [
+            8.375,
+            2.625,
+            8.625,
+            3
+          ],
+          "texture": "#hedgehog"
+        },
+        "east": {
+          "uv": [
+            8,
+            2.625,
+            8.375,
+            3
+          ],
+          "texture": "#hedgehog"
+        },
+        "west": {
+          "uv": [
+            8.625,
+            2.625,
+            9,
+            3
+          ],
+          "texture": "#hedgehog"
+        },
+        "up": {
+          "uv": [
+            8.375,
+            2.25,
+            8.625,
+            2.625
+          ],
+          "texture": "#hedgehog"
+        },
+        "down": {
+          "uv": [
+            8.625,
+            2.25,
+            8.875,
+            2.625
+          ],
+          "texture": "#hedgehog"
+        }
+      }
+    },
+    {
+      "name": "tiny_tail",
+      "from": [
+        7,
+        2.03125,
+        14
+      ],
+      "to": [
+        9,
+        3.03125,
+        17
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            10.5,
+            2.625,
+            10.75,
+            2.75
+          ],
+          "texture": "#hedgehog"
+        },
+        "south": {
+          "uv": [
+            9.875,
+            2.625,
+            10.125,
+            2.75
+          ],
+          "texture": "#hedgehog"
+        },
+        "east": {
+          "uv": [
+            9.5,
+            2.625,
+            9.875,
+            2.75
+          ],
+          "texture": "#hedgehog"
+        },
+        "west": {
+          "uv": [
+            10.125,
+            2.625,
+            10.5,
+            2.75
+          ],
+          "texture": "#hedgehog"
+        },
+        "up": {
+          "uv": [
+            9.875,
+            2.25,
+            10.125,
+            2.625
+          ],
+          "texture": "#hedgehog"
+        },
+        "down": {
+          "uv": [
+            10.125,
+            2.25,
+            10.375,
+            2.625
+          ],
+          "texture": "#hedgehog"
+        }
+      }
+    }
+  ],
+  "display": {
+    "gui": {
+      "rotation": [
+        30,
+        225,
+        0
+      ],
+      "translation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        0.625,
+        0.625,
+        0.625
+      ]
+    },
+    "ground": {
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "translation": [
+        0,
+        3,
+        0
+      ],
+      "scale": [
+        0.25,
+        0.25,
+        0.25
+      ]
+    },
+    "fixed": {
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "translation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        0.5,
+        0.5,
+        0.5
+      ]
+    },
+    "head": {
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "translation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    "thirdperson_righthand": {
+      "rotation": [
+        75,
+        45,
+        0
+      ],
+      "translation": [
+        0,
+        2.5,
+        0
+      ],
+      "scale": [
+        0.375,
+        0.375,
+        0.375
+      ]
+    },
+    "thirdperson_lefthand": {
+      "rotation": [
+        75,
+        45,
+        0
+      ],
+      "translation": [
+        0,
+        2.5,
+        0
+      ],
+      "scale": [
+        0.375,
+        0.375,
+        0.375
+      ]
+    },
+    "firstperson_righthand": {
+      "rotation": [
+        0,
+        45,
+        0
+      ],
+      "translation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        0.4,
+        0.4,
+        0.4
+      ]
+    },
+    "firstperson_lefthand": {
+      "rotation": [
+        0,
+        45,
+        0
+      ],
+      "translation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        0.4,
+        0.4,
+        0.4
+      ]
+    }
+  },
+  "gui_light": "side"
+}

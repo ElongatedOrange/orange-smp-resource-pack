@@ -1,0 +1,80 @@
+{
+  "pet_hedgehog_brown": {
+    "id": "ed499f3d-6ca3-441a-994d-d1b54ff3f292",
+    "status": "complete",
+    "request": {
+      "kind": "mob",
+      "prompt": "Make a surgical texture-only correction to this existing Orange Pets hedgehog brown coat. The head has two correct front-facing black bead eyes PLUS two erroneous duplicate eye pixels on its side faces, making it look four-eyed. Fix their spacing too: the 8-pixel-wide north face currently has eyes at local columns 2 and 7, which is asymmetric. Keep the front eye at atlas (20,24) and move the other eye from (25,24) to (23,24), giving symmetric local columns 2 and 5. Remove only the two extra side eye marks by restoring the surrounding face fur colour/shading. Do not add eyes, highlights, outlines, new colours, patches or new geometry. The light_face cube has uv [0,18], w=8,h=4,d=5. Its front/north face is atlas x18..25 y23..26, containing the existing asymmetrically spaced eye pixels at (20,24) and (25,24). Erroneous side eye commands are rect (4,24,1,1) and rect (13,24,1,1), colour #191716. Remove the two side-eye commands and change only x=25 to x=23 on the front-eye command. This must change exactly four atlas pixels: (4,24),(13,24),(23,24),(25,24). Preserve all other drawing commands in their existing order. Nose pixels at x46..51 must remain intact. Preserve texture dimensions, palette, coat colours, all other pixels, every element coordinate/name/UV, bones, mob settings and ALL animations exactly. This is a correction to an existing generated design, not a redesign. Use preserve mode for all animation clips.",
+      "resolution": 16,
+      "style": "Vanilla",
+      "name": "Orange Pets hedgehog",
+      "sourceId": "8ea3815c-31cd-47bf-a701-3a0bb06b420b",
+      "mobLocomotion": "ground",
+      "mobTemperament": "passive",
+      "animationBrief": "Preserve every existing animation clip, duration, track and key exactly. Texture-only repair."
+    },
+    "createdAt": "2026-09-27T15:46:08.519Z",
+    "updatedAt": "2026-09-27T15:51:05.417Z",
+    "message": "Ready to preview and export",
+    "events": [
+      "Checking ChatGPT connection",
+      "Designing geometry, skeleton and animation plan",
+      "Painting atlas 1/1: hedgehog",
+      "Validating and saving editable asset",
+      "Ready to preview and export"
+    ],
+    "assetId": "ed499f3d-6ca3-441a-994d-d1b54ff3f292"
+  },
+  "pet_hedgehog_dark": {
+    "id": "1edcd873-ecf4-488b-bd38-135c3e49389a",
+    "status": "complete",
+    "request": {
+      "kind": "mob",
+      "prompt": "Make a surgical texture-only correction to this existing Orange Pets hedgehog dark coat. The head has two correct front-facing black bead eyes PLUS two erroneous duplicate eye pixels on its side faces, making it look four-eyed. Fix their spacing too: the 8-pixel-wide north face currently has eyes at local columns 2 and 7, which is asymmetric. Keep the front eye at atlas (20,24) and move the other eye from (25,24) to (23,24), giving symmetric local columns 2 and 5. Remove only the two extra side eye marks by restoring the surrounding face fur colour/shading. Do not add eyes, highlights, outlines, new colours, patches or new geometry. The light_face cube has uv [0,18], w=8,h=4,d=5. Its front/north face is atlas x18..25 y23..26, containing the existing asymmetrically spaced eye pixels at (20,24) and (25,24). Erroneous side eye commands are rect (4,24,1,1) and rect (13,24,1,1), colour #191716. Remove the two side-eye commands and change only x=25 to x=23 on the front-eye command. This must change exactly four atlas pixels: (4,24),(13,24),(23,24),(25,24). Preserve all other drawing commands in their existing order. Nose pixels at x46..51 must remain intact. Preserve texture dimensions, palette, coat colours, all other pixels, every element coordinate/name/UV, bones, mob settings and ALL animations exactly. This is a correction to an existing generated design, not a redesign. Use preserve mode for all animation clips.",
+      "resolution": 16,
+      "style": "Vanilla",
+      "name": "Orange Pets hedgehog dark",
+      "sourceId": "75d94aa8-b5f8-4439-ad23-70d7297f2c5f",
+      "mobLocomotion": "ground",
+      "mobTemperament": "passive",
+      "animationBrief": "Preserve every existing animation clip, duration, track and key exactly. Texture-only repair."
+    },
+    "createdAt": "2026-09-27T15:46:08.530Z",
+    "updatedAt": "2026-09-27T15:50:58.173Z",
+    "message": "Ready to preview and export",
+    "events": [
+      "Checking ChatGPT connection",
+      "Designing geometry, skeleton and animation plan",
+      "Painting atlas 1/1: hedgehog",
+      "Validating and saving editable asset",
+      "Ready to preview and export"
+    ],
+    "assetId": "1edcd873-ecf4-488b-bd38-135c3e49389a"
+  },
+  "pet_hedgehog_pale": {
+    "id": "446ae12d-707a-4e3b-a275-77b7cc0309e4",
+    "status": "complete",
+    "request": {
+      "kind": "mob",
+      "prompt": "Make a surgical texture-only correction to this existing Orange Pets hedgehog pale coat. The head has two correct front-facing black bead eyes PLUS two erroneous duplicate eye pixels on its side faces, making it look four-eyed. Fix their spacing too: the 8-pixel-wide north face currently has eyes at local columns 2 and 7, which is asymmetric. Keep the front eye at atlas (20,24) and move the other eye from (25,24) to (23,24), giving symmetric local columns 2 and 5. Remove only the two extra side eye marks by restoring the surrounding face fur colour/shading. Do not add eyes, highlights, outlines, new colours, patches or new geometry. The light_face cube has uv [0,18], w=8,h=4,d=5. Its front/north face is atlas x18..25 y23..26, containing the existing asymmetrically spaced eye pixels at (20,24) and (25,24). Erroneous side eye commands are rect (4,24,1,1) and rect (13,24,1,1), colour #191716. Remove the two side-eye commands and change only x=25 to x=23 on the front-eye command. This must change exactly four atlas pixels: (4,24),(13,24),(23,24),(25,24). Preserve all other drawing commands in their existing order. Nose pixels at x46..51 must remain intact. Preserve texture dimensions, palette, coat colours, all other pixels, every element coordinate/name/UV, bones, mob settings and ALL animations exactly. This is a correction to an existing generated design, not a redesign. Use preserve mode for all animation clips.",
+      "resolution": 16,
+      "style": "Vanilla",
+      "name": "Orange Pets hedgehog pale",
+      "sourceId": "5e96f58e-6706-4171-b0a6-3746ccc5b305",
+      "mobLocomotion": "ground",
+      "mobTemperament": "passive",
+      "animationBrief": "Preserve every existing animation clip, duration, track and key exactly. Texture-only repair."
+    },
+    "createdAt": "2026-09-27T15:46:08.540Z",
+    "updatedAt": "2026-09-27T15:51:22.426Z",
+    "message": "Ready to preview and export",
+    "events": [
+      "Checking ChatGPT connection",
+      "Designing geometry, skeleton and animation plan",
+      "Painting atlas 1/1: hedgehog",
+      "Validating and saving editable asset",
+      "Ready to preview and export"
+    ],
+    "assetId": "446ae12d-707a-4e3b-a275-77b7cc0309e4"
+  }
+}

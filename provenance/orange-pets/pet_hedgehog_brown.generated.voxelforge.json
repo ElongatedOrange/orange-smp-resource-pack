@@ -1,9 +1,9 @@
 {
-  "id": "8ea3815c-31cd-47bf-a701-3a0bb06b420b",
+  "id": "ed499f3d-6ca3-441a-994d-d1b54ff3f292",
   "kind": "mob",
   "spec": {
     "name": "Orange Pets hedgehog",
-    "description": "A small brown hedgehog companion with a stepped quill mantle, pale face, dark bead eyes and a short pointed muzzle. Vanilla proportions, eight units tall, with sixteen editable cuboids and a connected nine-bone rig.",
+    "description": "Existing brown hedgehog companion with a surgical four-pixel eye correction. All geometry, UVs, palette, rig, mob settings and animation keys remain unchanged.",
     "palette": [
       "#493527",
       "#59412E",
@@ -6411,27 +6411,7 @@
           },
           {
             "op": "rect",
-            "x": 25,
-            "y": 24,
-            "w": 1,
-            "h": 1,
-            "color": "#191716",
-            "seed": 0,
-            "density": 0
-          },
-          {
-            "op": "rect",
-            "x": 4,
-            "y": 24,
-            "w": 1,
-            "h": 1,
-            "color": "#191716",
-            "seed": 0,
-            "density": 0
-          },
-          {
-            "op": "rect",
-            "x": 13,
+            "x": 23,
             "y": 24,
             "w": 1,
             "h": 1,
@@ -7362,11 +7342,11 @@
     "animation": null,
     "sound": null
   },
-  "prompt": "Create a charming real-life brown hedgehog, light face, dark bead eyes, short snout, blocky textured quills as a vanilla Minecraft companion pet for Orange SMP. Pixel textures, cuboid geometry, no outlines, no accessories. Natural anatomy stylized like Minecraft's fox. Model around [8,0,8], feet at y=0, creature height 8 model units (capybara may be 12). Model in sixteen units per block. Keep geometry under 24 cubes and bones under 10, use explicit clean texture UVs. Include visible eyes and nose and recognizable species silhouette. Every element attached to its appropriate named bone. Exportable editable rig.",
+  "prompt": "Make a surgical texture-only correction to this existing Orange Pets hedgehog brown coat. The head has two correct front-facing black bead eyes PLUS two erroneous duplicate eye pixels on its side faces, making it look four-eyed. Fix their spacing too: the 8-pixel-wide north face currently has eyes at local columns 2 and 7, which is asymmetric. Keep the front eye at atlas (20,24) and move the other eye from (25,24) to (23,24), giving symmetric local columns 2 and 5. Remove only the two extra side eye marks by restoring the surrounding face fur colour/shading. Do not add eyes, highlights, outlines, new colours, patches or new geometry. The light_face cube has uv [0,18], w=8,h=4,d=5. Its front/north face is atlas x18..25 y23..26, containing the existing asymmetrically spaced eye pixels at (20,24) and (25,24). Erroneous side eye commands are rect (4,24,1,1) and rect (13,24,1,1), colour #191716. Remove the two side-eye commands and change only x=25 to x=23 on the front-eye command. This must change exactly four atlas pixels: (4,24),(13,24),(23,24),(25,24). Preserve all other drawing commands in their existing order. Nose pixels at x46..51 must remain intact. Preserve texture dimensions, palette, coat colours, all other pixels, every element coordinate/name/UV, bones, mob settings and ALL animations exactly. This is a correction to an existing generated design, not a redesign. Use preserve mode for all animation clips.",
   "style": "Vanilla",
   "resolution": 16,
-  "createdAt": "2026-09-27T10:43:22.836Z",
-  "updatedAt": "2026-09-27T10:43:22.836Z",
+  "createdAt": "2026-09-27T15:51:05.368Z",
+  "updatedAt": "2026-09-27T15:51:05.368Z",
   "revision": 1,
   "source": "codex",
   "bindings": {

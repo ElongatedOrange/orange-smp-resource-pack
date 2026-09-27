@@ -1,9 +1,9 @@
 {
-  "id": "5e96f58e-6706-4171-b0a6-3746ccc5b305",
+  "id": "446ae12d-707a-4e3b-a275-77b7cc0309e4",
   "kind": "mob",
   "spec": {
     "name": "Orange Pets hedgehog pale",
-    "description": "Natural pale tan quills and an ivory face on the original Orange Pets hedgehog. All sixteen cuboids, mapped UVs, rig pivots, poses and six animation clips are retained; eyes, nose, paws and mouth remain intact.",
+    "description": "Original pale hedgehog with only four atlas pixels corrected: duplicate side eyes removed and front eyes symmetrically spaced. Geometry, palette, rig, behavior and all animation keys remain unchanged.",
     "palette": [
       "#493527",
       "#59412E",
@@ -6432,27 +6432,7 @@
           },
           {
             "op": "rect",
-            "x": 25,
-            "y": 24,
-            "w": 1,
-            "h": 1,
-            "color": "#191716",
-            "seed": 0,
-            "density": 0
-          },
-          {
-            "op": "rect",
-            "x": 4,
-            "y": 24,
-            "w": 1,
-            "h": 1,
-            "color": "#191716",
-            "seed": 0,
-            "density": 0
-          },
-          {
-            "op": "rect",
-            "x": 13,
+            "x": 23,
             "y": 24,
             "w": 1,
             "h": 1,
@@ -7343,11 +7323,11 @@
     "animation": null,
     "sound": null
   },
-  "prompt": "Create a natural pale coat variant of this exact Orange Pets hedgehog reference. Change the fur texture to pale tan quills and ivory face. Preserve its recognizable species, exact shape, dimensions, cuboids, rig and animation clips. Keep eye, nose, paw and mouth details intact. Vanilla Minecraft pixel art. No accessories. Avoid changes to the pose or geometry.",
+  "prompt": "Make a surgical texture-only correction to this existing Orange Pets hedgehog pale coat. The head has two correct front-facing black bead eyes PLUS two erroneous duplicate eye pixels on its side faces, making it look four-eyed. Fix their spacing too: the 8-pixel-wide north face currently has eyes at local columns 2 and 7, which is asymmetric. Keep the front eye at atlas (20,24) and move the other eye from (25,24) to (23,24), giving symmetric local columns 2 and 5. Remove only the two extra side eye marks by restoring the surrounding face fur colour/shading. Do not add eyes, highlights, outlines, new colours, patches or new geometry. The light_face cube has uv [0,18], w=8,h=4,d=5. Its front/north face is atlas x18..25 y23..26, containing the existing asymmetrically spaced eye pixels at (20,24) and (25,24). Erroneous side eye commands are rect (4,24,1,1) and rect (13,24,1,1), colour #191716. Remove the two side-eye commands and change only x=25 to x=23 on the front-eye command. This must change exactly four atlas pixels: (4,24),(13,24),(23,24),(25,24). Preserve all other drawing commands in their existing order. Nose pixels at x46..51 must remain intact. Preserve texture dimensions, palette, coat colours, all other pixels, every element coordinate/name/UV, bones, mob settings and ALL animations exactly. This is a correction to an existing generated design, not a redesign. Use preserve mode for all animation clips.",
   "style": "Vanilla",
   "resolution": 16,
-  "createdAt": "2026-09-27T11:05:41.804Z",
-  "updatedAt": "2026-09-27T11:05:41.804Z",
+  "createdAt": "2026-09-27T15:51:22.385Z",
+  "updatedAt": "2026-09-27T15:51:22.385Z",
   "revision": 1,
   "source": "codex",
   "bindings": {
