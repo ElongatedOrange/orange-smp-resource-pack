@@ -77,3 +77,9 @@ Custom 3D models explicitly map eating/item particles to their generated materia
 
 
 Full Send Dragon Tower and poker assets: Voxel Forge tower cabinet, six-seat felt table, four door states and dealer marker. Export sources, generation jobs and SHA-256 manifests are in `provenance/fullsend-tower-poker`. Card and chip models reuse the existing Voxel Forge Full Send assets. All game labels use ordinary Minecraft text; no added font providers or shaders.
+
+## Orange Pets
+
+The pet collection contains 30 actual Voxel Forge generations: 18 animal coats across hamster, ferret, hedgehog, otter, raccoon, and capybara; three progressive egg stages; four physical beds; and five accessories. Inventory projections preserve the generated geometry and pixels. Original studio assets, generation IDs, projection parentage, exports, and checksums are in `provenance/orange-pets`.
+
+The animated animals use Model Engine 4.1.1. The pack includes the compiled bone models and their texture dependencies, using stable `modelengine:orangepets_*` identifiers. Existing shared fonts and shaders are preserved. Pair this release with Orange Pets and its 18 corresponding server blueprints.

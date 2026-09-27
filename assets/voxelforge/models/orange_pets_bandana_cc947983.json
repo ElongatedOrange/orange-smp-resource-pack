@@ -1,0 +1,976 @@
+{
+  "credit": "VoxelForge",
+  "textures": {
+    "particle": "voxelforge:item/orange_pets_bandana_cc947983/bandana",
+    "bandana": "voxelforge:item/orange_pets_bandana_cc947983/bandana"
+  },
+  "elements": [
+    {
+      "name": "front_neck_strap",
+      "from": [
+        3,
+        9,
+        3.75
+      ],
+      "to": [
+        13,
+        10.25,
+        4.5
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            3,
+            0.25,
+            5.5,
+            0.75
+          ],
+          "texture": "#bandana"
+        },
+        "south": {
+          "uv": [
+            0.25,
+            0.25,
+            2.75,
+            0.75
+          ],
+          "texture": "#bandana"
+        },
+        "east": {
+          "uv": [
+            0,
+            0.25,
+            0.25,
+            0.75
+          ],
+          "texture": "#bandana"
+        },
+        "west": {
+          "uv": [
+            2.75,
+            0.25,
+            3,
+            0.75
+          ],
+          "texture": "#bandana"
+        },
+        "up": {
+          "uv": [
+            0.25,
+            0,
+            2.75,
+            0.25
+          ],
+          "texture": "#bandana"
+        },
+        "down": {
+          "uv": [
+            2.75,
+            0,
+            5.25,
+            0.25
+          ],
+          "texture": "#bandana"
+        }
+      }
+    },
+    {
+      "name": "rear_neck_strap",
+      "from": [
+        3,
+        9,
+        12
+      ],
+      "to": [
+        13,
+        10.25,
+        12.75
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            9,
+            0.25,
+            11.5,
+            0.75
+          ],
+          "texture": "#bandana"
+        },
+        "south": {
+          "uv": [
+            6.25,
+            0.25,
+            8.75,
+            0.75
+          ],
+          "texture": "#bandana"
+        },
+        "east": {
+          "uv": [
+            6,
+            0.25,
+            6.25,
+            0.75
+          ],
+          "texture": "#bandana"
+        },
+        "west": {
+          "uv": [
+            8.75,
+            0.25,
+            9,
+            0.75
+          ],
+          "texture": "#bandana"
+        },
+        "up": {
+          "uv": [
+            6.25,
+            0,
+            8.75,
+            0.25
+          ],
+          "texture": "#bandana"
+        },
+        "down": {
+          "uv": [
+            8.75,
+            0,
+            11.25,
+            0.25
+          ],
+          "texture": "#bandana"
+        }
+      }
+    },
+    {
+      "name": "left_neck_strap",
+      "from": [
+        3,
+        9,
+        4.5
+      ],
+      "to": [
+        4,
+        10.25,
+        12
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            4.25,
+            3.25,
+            4.5,
+            3.75
+          ],
+          "texture": "#bandana"
+        },
+        "south": {
+          "uv": [
+            2,
+            3.25,
+            2.25,
+            3.75
+          ],
+          "texture": "#bandana"
+        },
+        "east": {
+          "uv": [
+            0,
+            3.25,
+            2,
+            3.75
+          ],
+          "texture": "#bandana"
+        },
+        "west": {
+          "uv": [
+            2.25,
+            3.25,
+            4.25,
+            3.75
+          ],
+          "texture": "#bandana"
+        },
+        "up": {
+          "uv": [
+            2,
+            1.25,
+            2.25,
+            3.25
+          ],
+          "texture": "#bandana"
+        },
+        "down": {
+          "uv": [
+            2.25,
+            1.25,
+            2.5,
+            3.25
+          ],
+          "texture": "#bandana"
+        }
+      }
+    },
+    {
+      "name": "right_neck_strap",
+      "from": [
+        12,
+        9,
+        4.5
+      ],
+      "to": [
+        13,
+        10.25,
+        12
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            9.25,
+            3.25,
+            9.5,
+            3.75
+          ],
+          "texture": "#bandana"
+        },
+        "south": {
+          "uv": [
+            7,
+            3.25,
+            7.25,
+            3.75
+          ],
+          "texture": "#bandana"
+        },
+        "east": {
+          "uv": [
+            5,
+            3.25,
+            7,
+            3.75
+          ],
+          "texture": "#bandana"
+        },
+        "west": {
+          "uv": [
+            7.25,
+            3.25,
+            9.25,
+            3.75
+          ],
+          "texture": "#bandana"
+        },
+        "up": {
+          "uv": [
+            7,
+            1.25,
+            7.25,
+            3.25
+          ],
+          "texture": "#bandana"
+        },
+        "down": {
+          "uv": [
+            7.25,
+            1.25,
+            7.5,
+            3.25
+          ],
+          "texture": "#bandana"
+        }
+      }
+    },
+    {
+      "name": "bib_upper_fold",
+      "from": [
+        4,
+        8.5,
+        3.25
+      ],
+      "to": [
+        12,
+        9.5,
+        3.75
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            2.5,
+            4.5,
+            4.5,
+            4.75
+          ],
+          "texture": "#bandana"
+        },
+        "south": {
+          "uv": [
+            0.25,
+            4.5,
+            2.25,
+            4.75
+          ],
+          "texture": "#bandana"
+        },
+        "east": {
+          "uv": [
+            0,
+            4.5,
+            0.25,
+            4.75
+          ],
+          "texture": "#bandana"
+        },
+        "west": {
+          "uv": [
+            2.25,
+            4.5,
+            2.5,
+            4.75
+          ],
+          "texture": "#bandana"
+        },
+        "up": {
+          "uv": [
+            0.25,
+            4.25,
+            2.25,
+            4.5
+          ],
+          "texture": "#bandana"
+        },
+        "down": {
+          "uv": [
+            2.25,
+            4.25,
+            4.25,
+            4.5
+          ],
+          "texture": "#bandana"
+        }
+      }
+    },
+    {
+      "name": "bib_middle_step",
+      "from": [
+        5,
+        7.5,
+        3.25
+      ],
+      "to": [
+        11,
+        8.5,
+        3.75
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            7,
+            4.5,
+            8.5,
+            4.75
+          ],
+          "texture": "#bandana"
+        },
+        "south": {
+          "uv": [
+            5.25,
+            4.5,
+            6.75,
+            4.75
+          ],
+          "texture": "#bandana"
+        },
+        "east": {
+          "uv": [
+            5,
+            4.5,
+            5.25,
+            4.75
+          ],
+          "texture": "#bandana"
+        },
+        "west": {
+          "uv": [
+            6.75,
+            4.5,
+            7,
+            4.75
+          ],
+          "texture": "#bandana"
+        },
+        "up": {
+          "uv": [
+            5.25,
+            4.25,
+            6.75,
+            4.5
+          ],
+          "texture": "#bandana"
+        },
+        "down": {
+          "uv": [
+            6.75,
+            4.25,
+            8.25,
+            4.5
+          ],
+          "texture": "#bandana"
+        }
+      }
+    },
+    {
+      "name": "bib_lower_step",
+      "from": [
+        6,
+        6.5,
+        3.25
+      ],
+      "to": [
+        10,
+        7.5,
+        3.75
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            10.5,
+            4.5,
+            11.5,
+            4.75
+          ],
+          "texture": "#bandana"
+        },
+        "south": {
+          "uv": [
+            9.25,
+            4.5,
+            10.25,
+            4.75
+          ],
+          "texture": "#bandana"
+        },
+        "east": {
+          "uv": [
+            9,
+            4.5,
+            9.25,
+            4.75
+          ],
+          "texture": "#bandana"
+        },
+        "west": {
+          "uv": [
+            10.25,
+            4.5,
+            10.5,
+            4.75
+          ],
+          "texture": "#bandana"
+        },
+        "up": {
+          "uv": [
+            9.25,
+            4.25,
+            10.25,
+            4.5
+          ],
+          "texture": "#bandana"
+        },
+        "down": {
+          "uv": [
+            10.25,
+            4.25,
+            11.25,
+            4.5
+          ],
+          "texture": "#bandana"
+        }
+      }
+    },
+    {
+      "name": "bib_point",
+      "from": [
+        7,
+        5.5,
+        3.25
+      ],
+      "to": [
+        9,
+        6.5,
+        3.75
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            13,
+            4.5,
+            13.5,
+            4.75
+          ],
+          "texture": "#bandana"
+        },
+        "south": {
+          "uv": [
+            12.25,
+            4.5,
+            12.75,
+            4.75
+          ],
+          "texture": "#bandana"
+        },
+        "east": {
+          "uv": [
+            12,
+            4.5,
+            12.25,
+            4.75
+          ],
+          "texture": "#bandana"
+        },
+        "west": {
+          "uv": [
+            12.75,
+            4.5,
+            13,
+            4.75
+          ],
+          "texture": "#bandana"
+        },
+        "up": {
+          "uv": [
+            12.25,
+            4.25,
+            12.75,
+            4.5
+          ],
+          "texture": "#bandana"
+        },
+        "down": {
+          "uv": [
+            12.75,
+            4.25,
+            13.25,
+            4.5
+          ],
+          "texture": "#bandana"
+        }
+      }
+    },
+    {
+      "name": "central_fabric_gather",
+      "from": [
+        7,
+        9.03125,
+        3
+      ],
+      "to": [
+        9,
+        10.53125,
+        4
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            13,
+            0.25,
+            13.5,
+            0.75
+          ],
+          "texture": "#bandana"
+        },
+        "south": {
+          "uv": [
+            12.25,
+            0.25,
+            12.75,
+            0.75
+          ],
+          "texture": "#bandana"
+        },
+        "east": {
+          "uv": [
+            12,
+            0.25,
+            12.25,
+            0.75
+          ],
+          "texture": "#bandana"
+        },
+        "west": {
+          "uv": [
+            12.75,
+            0.25,
+            13,
+            0.75
+          ],
+          "texture": "#bandana"
+        },
+        "up": {
+          "uv": [
+            12.25,
+            0,
+            12.75,
+            0.25
+          ],
+          "texture": "#bandana"
+        },
+        "down": {
+          "uv": [
+            12.75,
+            0,
+            13.25,
+            0.25
+          ],
+          "texture": "#bandana"
+        }
+      }
+    },
+    {
+      "name": "left_folded_shoulder",
+      "from": [
+        4.25,
+        9.03125,
+        3.125
+      ],
+      "to": [
+        6.25,
+        10.03125,
+        4
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            1,
+            5.5,
+            1.5,
+            5.75
+          ],
+          "texture": "#bandana"
+        },
+        "south": {
+          "uv": [
+            0.25,
+            5.5,
+            0.75,
+            5.75
+          ],
+          "texture": "#bandana"
+        },
+        "east": {
+          "uv": [
+            0,
+            5.5,
+            0.25,
+            5.75
+          ],
+          "texture": "#bandana"
+        },
+        "west": {
+          "uv": [
+            0.75,
+            5.5,
+            1,
+            5.75
+          ],
+          "texture": "#bandana"
+        },
+        "up": {
+          "uv": [
+            0.25,
+            5.25,
+            0.75,
+            5.5
+          ],
+          "texture": "#bandana"
+        },
+        "down": {
+          "uv": [
+            0.75,
+            5.25,
+            1.25,
+            5.5
+          ],
+          "texture": "#bandana"
+        }
+      }
+    },
+    {
+      "name": "right_folded_shoulder",
+      "from": [
+        9.75,
+        9.03125,
+        3.125
+      ],
+      "to": [
+        11.75,
+        10.03125,
+        4
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            3,
+            5.5,
+            3.5,
+            5.75
+          ],
+          "texture": "#bandana"
+        },
+        "south": {
+          "uv": [
+            2.25,
+            5.5,
+            2.75,
+            5.75
+          ],
+          "texture": "#bandana"
+        },
+        "east": {
+          "uv": [
+            2,
+            5.5,
+            2.25,
+            5.75
+          ],
+          "texture": "#bandana"
+        },
+        "west": {
+          "uv": [
+            2.75,
+            5.5,
+            3,
+            5.75
+          ],
+          "texture": "#bandana"
+        },
+        "up": {
+          "uv": [
+            2.25,
+            5.25,
+            2.75,
+            5.5
+          ],
+          "texture": "#bandana"
+        },
+        "down": {
+          "uv": [
+            2.75,
+            5.25,
+            3.25,
+            5.5
+          ],
+          "texture": "#bandana"
+        }
+      }
+    },
+    {
+      "name": "rear_fabric_keeper",
+      "from": [
+        7,
+        8.875,
+        11.875
+      ],
+      "to": [
+        9,
+        10.5,
+        13
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            5.5,
+            5.75,
+            6,
+            6.25
+          ],
+          "texture": "#bandana"
+        },
+        "south": {
+          "uv": [
+            4.5,
+            5.75,
+            5,
+            6.25
+          ],
+          "texture": "#bandana"
+        },
+        "east": {
+          "uv": [
+            4,
+            5.75,
+            4.5,
+            6.25
+          ],
+          "texture": "#bandana"
+        },
+        "west": {
+          "uv": [
+            5,
+            5.75,
+            5.5,
+            6.25
+          ],
+          "texture": "#bandana"
+        },
+        "up": {
+          "uv": [
+            4.5,
+            5.25,
+            5,
+            5.75
+          ],
+          "texture": "#bandana"
+        },
+        "down": {
+          "uv": [
+            5,
+            5.25,
+            5.5,
+            5.75
+          ],
+          "texture": "#bandana"
+        }
+      }
+    }
+  ],
+  "display": {
+    "gui": {
+      "rotation": [
+        30,
+        225,
+        0
+      ],
+      "translation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        0.625,
+        0.625,
+        0.625
+      ]
+    },
+    "ground": {
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "translation": [
+        0,
+        3,
+        0
+      ],
+      "scale": [
+        0.25,
+        0.25,
+        0.25
+      ]
+    },
+    "fixed": {
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "translation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        0.5,
+        0.5,
+        0.5
+      ]
+    },
+    "head": {
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "translation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    "thirdperson_righthand": {
+      "rotation": [
+        75,
+        45,
+        0
+      ],
+      "translation": [
+        0,
+        2.5,
+        0
+      ],
+      "scale": [
+        0.375,
+        0.375,
+        0.375
+      ]
+    },
+    "thirdperson_lefthand": {
+      "rotation": [
+        75,
+        45,
+        0
+      ],
+      "translation": [
+        0,
+        2.5,
+        0
+      ],
+      "scale": [
+        0.375,
+        0.375,
+        0.375
+      ]
+    },
+    "firstperson_righthand": {
+      "rotation": [
+        0,
+        45,
+        0
+      ],
+      "translation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        0.4,
+        0.4,
+        0.4
+      ]
+    },
+    "firstperson_lefthand": {
+      "rotation": [
+        0,
+        45,
+        0
+      ],
+      "translation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        0.4,
+        0.4,
+        0.4
+      ]
+    }
+  },
+  "gui_light": "side"
+}
