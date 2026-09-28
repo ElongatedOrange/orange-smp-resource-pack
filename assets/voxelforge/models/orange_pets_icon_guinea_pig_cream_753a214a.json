@@ -1,0 +1,769 @@
+{
+  "credit": "VoxelForge",
+  "textures": {
+    "particle": "voxelforge:item/orange_pets_icon_guinea_pig_cream_753a214a/guinea_pig",
+    "guinea_pig": "voxelforge:item/orange_pets_icon_guinea_pig_cream_753a214a/guinea_pig"
+  },
+  "elements": [
+    {
+      "name": "barrel_torso",
+      "from": [
+        3,
+        2,
+        4
+      ],
+      "to": [
+        13,
+        8,
+        17
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            9,
+            3.25,
+            11.5,
+            4.75
+          ],
+          "texture": "#guinea_pig"
+        },
+        "south": {
+          "uv": [
+            3.25,
+            3.25,
+            5.75,
+            4.75
+          ],
+          "texture": "#guinea_pig"
+        },
+        "east": {
+          "uv": [
+            0,
+            3.25,
+            3.25,
+            4.75
+          ],
+          "texture": "#guinea_pig"
+        },
+        "west": {
+          "uv": [
+            5.75,
+            3.25,
+            9,
+            4.75
+          ],
+          "texture": "#guinea_pig"
+        },
+        "up": {
+          "uv": [
+            3.25,
+            0,
+            5.75,
+            3.25
+          ],
+          "texture": "#guinea_pig"
+        },
+        "down": {
+          "uv": [
+            5.75,
+            0,
+            8.25,
+            3.25
+          ],
+          "texture": "#guinea_pig"
+        }
+      }
+    },
+    {
+      "name": "flat_top_head",
+      "from": [
+        4,
+        3,
+        -1
+      ],
+      "to": [
+        12,
+        9,
+        5
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            5,
+            6.5,
+            7,
+            8
+          ],
+          "texture": "#guinea_pig"
+        },
+        "south": {
+          "uv": [
+            1.5,
+            6.5,
+            3.5,
+            8
+          ],
+          "texture": "#guinea_pig"
+        },
+        "east": {
+          "uv": [
+            0,
+            6.5,
+            1.5,
+            8
+          ],
+          "texture": "#guinea_pig"
+        },
+        "west": {
+          "uv": [
+            3.5,
+            6.5,
+            5,
+            8
+          ],
+          "texture": "#guinea_pig"
+        },
+        "up": {
+          "uv": [
+            1.5,
+            5,
+            3.5,
+            6.5
+          ],
+          "texture": "#guinea_pig"
+        },
+        "down": {
+          "uv": [
+            3.5,
+            5,
+            5.5,
+            6.5
+          ],
+          "texture": "#guinea_pig"
+        }
+      }
+    },
+    {
+      "name": "blunt_muzzle",
+      "from": [
+        5,
+        3.03125,
+        -3
+      ],
+      "to": [
+        11,
+        6.03125,
+        0
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            10,
+            5.75,
+            11.5,
+            6.5
+          ],
+          "texture": "#guinea_pig"
+        },
+        "south": {
+          "uv": [
+            7.75,
+            5.75,
+            9.25,
+            6.5
+          ],
+          "texture": "#guinea_pig"
+        },
+        "east": {
+          "uv": [
+            7,
+            5.75,
+            7.75,
+            6.5
+          ],
+          "texture": "#guinea_pig"
+        },
+        "west": {
+          "uv": [
+            9.25,
+            5.75,
+            10,
+            6.5
+          ],
+          "texture": "#guinea_pig"
+        },
+        "up": {
+          "uv": [
+            7.75,
+            5,
+            9.25,
+            5.75
+          ],
+          "texture": "#guinea_pig"
+        },
+        "down": {
+          "uv": [
+            9.25,
+            5,
+            10.75,
+            5.75
+          ],
+          "texture": "#guinea_pig"
+        }
+      }
+    },
+    {
+      "name": "left_ear",
+      "from": [
+        11,
+        7,
+        1
+      ],
+      "to": [
+        13,
+        10,
+        3
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            13,
+            5.5,
+            13.5,
+            6.25
+          ],
+          "texture": "#guinea_pig"
+        },
+        "south": {
+          "uv": [
+            12,
+            5.5,
+            12.5,
+            6.25
+          ],
+          "texture": "#guinea_pig"
+        },
+        "east": {
+          "uv": [
+            11.5,
+            5.5,
+            12,
+            6.25
+          ],
+          "texture": "#guinea_pig"
+        },
+        "west": {
+          "uv": [
+            12.5,
+            5.5,
+            13,
+            6.25
+          ],
+          "texture": "#guinea_pig"
+        },
+        "up": {
+          "uv": [
+            12,
+            5,
+            12.5,
+            5.5
+          ],
+          "texture": "#guinea_pig"
+        },
+        "down": {
+          "uv": [
+            12.5,
+            5,
+            13,
+            5.5
+          ],
+          "texture": "#guinea_pig"
+        }
+      }
+    },
+    {
+      "name": "right_ear",
+      "from": [
+        3,
+        7,
+        1
+      ],
+      "to": [
+        5,
+        10,
+        3
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            15,
+            5.5,
+            15.5,
+            6.25
+          ],
+          "texture": "#guinea_pig"
+        },
+        "south": {
+          "uv": [
+            14,
+            5.5,
+            14.5,
+            6.25
+          ],
+          "texture": "#guinea_pig"
+        },
+        "east": {
+          "uv": [
+            13.5,
+            5.5,
+            14,
+            6.25
+          ],
+          "texture": "#guinea_pig"
+        },
+        "west": {
+          "uv": [
+            14.5,
+            5.5,
+            15,
+            6.25
+          ],
+          "texture": "#guinea_pig"
+        },
+        "up": {
+          "uv": [
+            14,
+            5,
+            14.5,
+            5.5
+          ],
+          "texture": "#guinea_pig"
+        },
+        "down": {
+          "uv": [
+            14.5,
+            5,
+            15,
+            5.5
+          ],
+          "texture": "#guinea_pig"
+        }
+      }
+    },
+    {
+      "name": "front_left_foot",
+      "from": [
+        10,
+        0,
+        4.03125
+      ],
+      "to": [
+        12,
+        3,
+        7.03125
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            2,
+            9,
+            2.5,
+            9.75
+          ],
+          "texture": "#guinea_pig"
+        },
+        "south": {
+          "uv": [
+            0.75,
+            9,
+            1.25,
+            9.75
+          ],
+          "texture": "#guinea_pig"
+        },
+        "east": {
+          "uv": [
+            0,
+            9,
+            0.75,
+            9.75
+          ],
+          "texture": "#guinea_pig"
+        },
+        "west": {
+          "uv": [
+            1.25,
+            9,
+            2,
+            9.75
+          ],
+          "texture": "#guinea_pig"
+        },
+        "up": {
+          "uv": [
+            0.75,
+            8.25,
+            1.25,
+            9
+          ],
+          "texture": "#guinea_pig"
+        },
+        "down": {
+          "uv": [
+            1.25,
+            8.25,
+            1.75,
+            9
+          ],
+          "texture": "#guinea_pig"
+        }
+      }
+    },
+    {
+      "name": "front_right_foot",
+      "from": [
+        4,
+        0,
+        4.03125
+      ],
+      "to": [
+        6,
+        3,
+        7.03125
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            4.5,
+            9,
+            5,
+            9.75
+          ],
+          "texture": "#guinea_pig"
+        },
+        "south": {
+          "uv": [
+            3.25,
+            9,
+            3.75,
+            9.75
+          ],
+          "texture": "#guinea_pig"
+        },
+        "east": {
+          "uv": [
+            2.5,
+            9,
+            3.25,
+            9.75
+          ],
+          "texture": "#guinea_pig"
+        },
+        "west": {
+          "uv": [
+            3.75,
+            9,
+            4.5,
+            9.75
+          ],
+          "texture": "#guinea_pig"
+        },
+        "up": {
+          "uv": [
+            3.25,
+            8.25,
+            3.75,
+            9
+          ],
+          "texture": "#guinea_pig"
+        },
+        "down": {
+          "uv": [
+            3.75,
+            8.25,
+            4.25,
+            9
+          ],
+          "texture": "#guinea_pig"
+        }
+      }
+    },
+    {
+      "name": "rear_left_foot",
+      "from": [
+        10,
+        0,
+        13
+      ],
+      "to": [
+        12,
+        3,
+        16
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            7,
+            9,
+            7.5,
+            9.75
+          ],
+          "texture": "#guinea_pig"
+        },
+        "south": {
+          "uv": [
+            5.75,
+            9,
+            6.25,
+            9.75
+          ],
+          "texture": "#guinea_pig"
+        },
+        "east": {
+          "uv": [
+            5,
+            9,
+            5.75,
+            9.75
+          ],
+          "texture": "#guinea_pig"
+        },
+        "west": {
+          "uv": [
+            6.25,
+            9,
+            7,
+            9.75
+          ],
+          "texture": "#guinea_pig"
+        },
+        "up": {
+          "uv": [
+            5.75,
+            8.25,
+            6.25,
+            9
+          ],
+          "texture": "#guinea_pig"
+        },
+        "down": {
+          "uv": [
+            6.25,
+            8.25,
+            6.75,
+            9
+          ],
+          "texture": "#guinea_pig"
+        }
+      }
+    },
+    {
+      "name": "rear_right_foot",
+      "from": [
+        4,
+        0,
+        13
+      ],
+      "to": [
+        6,
+        3,
+        16
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            9.5,
+            9,
+            10,
+            9.75
+          ],
+          "texture": "#guinea_pig"
+        },
+        "south": {
+          "uv": [
+            8.25,
+            9,
+            8.75,
+            9.75
+          ],
+          "texture": "#guinea_pig"
+        },
+        "east": {
+          "uv": [
+            7.5,
+            9,
+            8.25,
+            9.75
+          ],
+          "texture": "#guinea_pig"
+        },
+        "west": {
+          "uv": [
+            8.75,
+            9,
+            9.5,
+            9.75
+          ],
+          "texture": "#guinea_pig"
+        },
+        "up": {
+          "uv": [
+            8.25,
+            8.25,
+            8.75,
+            9
+          ],
+          "texture": "#guinea_pig"
+        },
+        "down": {
+          "uv": [
+            8.75,
+            8.25,
+            9.25,
+            9
+          ],
+          "texture": "#guinea_pig"
+        }
+      }
+    }
+  ],
+  "display": {
+    "gui": {
+      "rotation": [
+        30,
+        225,
+        0
+      ],
+      "translation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        0.625,
+        0.625,
+        0.625
+      ]
+    },
+    "ground": {
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "translation": [
+        0,
+        3,
+        0
+      ],
+      "scale": [
+        0.25,
+        0.25,
+        0.25
+      ]
+    },
+    "fixed": {
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "translation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        0.5,
+        0.5,
+        0.5
+      ]
+    },
+    "head": {
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "translation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    "thirdperson_righthand": {
+      "rotation": [
+        75,
+        45,
+        0
+      ],
+      "translation": [
+        0,
+        2.5,
+        0
+      ],
+      "scale": [
+        0.375,
+        0.375,
+        0.375
+      ]
+    },
+    "thirdperson_lefthand": {
+      "rotation": [
+        75,
+        45,
+        0
+      ],
+      "translation": [
+        0,
+        2.5,
+        0
+      ],
+      "scale": [
+        0.375,
+        0.375,
+        0.375
+      ]
+    },
+    "firstperson_righthand": {
+      "rotation": [
+        0,
+        45,
+        0
+      ],
+      "translation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        0.4,
+        0.4,
+        0.4
+      ]
+    },
+    "firstperson_lefthand": {
+      "rotation": [
+        0,
+        45,
+        0
+      ],
+      "translation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        0.4,
+        0.4,
+        0.4
+      ]
+    }
+  },
+  "gui_light": "side"
+}
