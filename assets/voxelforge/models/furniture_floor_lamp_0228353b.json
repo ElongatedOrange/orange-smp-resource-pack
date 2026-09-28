@@ -1,0 +1,976 @@
+{
+  "credit": "VoxelForge",
+  "textures": {
+    "particle": "voxelforge:item/furniture_floor_lamp_0228353b/main",
+    "main": "voxelforge:item/furniture_floor_lamp_0228353b/main"
+  },
+  "elements": [
+    {
+      "name": "weighted_brass_base",
+      "from": [
+        4,
+        0,
+        4
+      ],
+      "to": [
+        12,
+        1,
+        12
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            6,
+            8.75,
+            8,
+            9
+          ],
+          "texture": "#main"
+        },
+        "south": {
+          "uv": [
+            2,
+            8.75,
+            4,
+            9
+          ],
+          "texture": "#main"
+        },
+        "east": {
+          "uv": [
+            0,
+            8.75,
+            2,
+            9
+          ],
+          "texture": "#main"
+        },
+        "west": {
+          "uv": [
+            4,
+            8.75,
+            6,
+            9
+          ],
+          "texture": "#main"
+        },
+        "up": {
+          "uv": [
+            2,
+            6.75,
+            4,
+            8.75
+          ],
+          "texture": "#main"
+        },
+        "down": {
+          "uv": [
+            4,
+            6.75,
+            6,
+            8.75
+          ],
+          "texture": "#main"
+        }
+      }
+    },
+    {
+      "name": "raised_base_step",
+      "from": [
+        5,
+        1,
+        5
+      ],
+      "to": [
+        11,
+        2,
+        11
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            12.5,
+            8.25,
+            14,
+            8.5
+          ],
+          "texture": "#main"
+        },
+        "south": {
+          "uv": [
+            9.5,
+            8.25,
+            11,
+            8.5
+          ],
+          "texture": "#main"
+        },
+        "east": {
+          "uv": [
+            8,
+            8.25,
+            9.5,
+            8.5
+          ],
+          "texture": "#main"
+        },
+        "west": {
+          "uv": [
+            11,
+            8.25,
+            12.5,
+            8.5
+          ],
+          "texture": "#main"
+        },
+        "up": {
+          "uv": [
+            9.5,
+            6.75,
+            11,
+            8.25
+          ],
+          "texture": "#main"
+        },
+        "down": {
+          "uv": [
+            11,
+            6.75,
+            12.5,
+            8.25
+          ],
+          "texture": "#main"
+        }
+      }
+    },
+    {
+      "name": "stem_foot_collar",
+      "from": [
+        7,
+        2,
+        7
+      ],
+      "to": [
+        9,
+        3,
+        9
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            12.5,
+            2.75,
+            13,
+            3
+          ],
+          "texture": "#main"
+        },
+        "south": {
+          "uv": [
+            11.5,
+            2.75,
+            12,
+            3
+          ],
+          "texture": "#main"
+        },
+        "east": {
+          "uv": [
+            11,
+            2.75,
+            11.5,
+            3
+          ],
+          "texture": "#main"
+        },
+        "west": {
+          "uv": [
+            12,
+            2.75,
+            12.5,
+            3
+          ],
+          "texture": "#main"
+        },
+        "up": {
+          "uv": [
+            11.5,
+            2.25,
+            12,
+            2.75
+          ],
+          "texture": "#main"
+        },
+        "down": {
+          "uv": [
+            12,
+            2.25,
+            12.5,
+            2.75
+          ],
+          "texture": "#main"
+        }
+      }
+    },
+    {
+      "name": "slender_brass_stem",
+      "from": [
+        7.5,
+        3,
+        7.5
+      ],
+      "to": [
+        8.5,
+        24,
+        8.5
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            13.75,
+            0.25,
+            14,
+            5.5
+          ],
+          "texture": "#main"
+        },
+        "south": {
+          "uv": [
+            13.25,
+            0.25,
+            13.5,
+            5.5
+          ],
+          "texture": "#main"
+        },
+        "east": {
+          "uv": [
+            13,
+            0.25,
+            13.25,
+            5.5
+          ],
+          "texture": "#main"
+        },
+        "west": {
+          "uv": [
+            13.5,
+            0.25,
+            13.75,
+            5.5
+          ],
+          "texture": "#main"
+        },
+        "up": {
+          "uv": [
+            13.25,
+            0,
+            13.5,
+            0.25
+          ],
+          "texture": "#main"
+        },
+        "down": {
+          "uv": [
+            13.5,
+            0,
+            13.75,
+            0.25
+          ],
+          "texture": "#main"
+        }
+      }
+    },
+    {
+      "name": "upper_brass_collar",
+      "from": [
+        7,
+        22,
+        7
+      ],
+      "to": [
+        9,
+        23,
+        9
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            12.5,
+            3.5,
+            13,
+            3.75
+          ],
+          "texture": "#main"
+        },
+        "south": {
+          "uv": [
+            11.5,
+            3.5,
+            12,
+            3.75
+          ],
+          "texture": "#main"
+        },
+        "east": {
+          "uv": [
+            11,
+            3.5,
+            11.5,
+            3.75
+          ],
+          "texture": "#main"
+        },
+        "west": {
+          "uv": [
+            12,
+            3.5,
+            12.5,
+            3.75
+          ],
+          "texture": "#main"
+        },
+        "up": {
+          "uv": [
+            11.5,
+            3,
+            12,
+            3.5
+          ],
+          "texture": "#main"
+        },
+        "down": {
+          "uv": [
+            12,
+            3,
+            12.5,
+            3.5
+          ],
+          "texture": "#main"
+        }
+      }
+    },
+    {
+      "name": "shade_support_crossbar",
+      "from": [
+        2.5,
+        23.25,
+        7.75
+      ],
+      "to": [
+        13.5,
+        23.75,
+        8.25
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            3.25,
+            9.25,
+            6,
+            9.5
+          ],
+          "texture": "#main"
+        },
+        "south": {
+          "uv": [
+            0.25,
+            9.25,
+            3,
+            9.5
+          ],
+          "texture": "#main"
+        },
+        "east": {
+          "uv": [
+            0,
+            9.25,
+            0.25,
+            9.5
+          ],
+          "texture": "#main"
+        },
+        "west": {
+          "uv": [
+            3,
+            9.25,
+            3.25,
+            9.5
+          ],
+          "texture": "#main"
+        },
+        "up": {
+          "uv": [
+            0.25,
+            9,
+            3,
+            9.25
+          ],
+          "texture": "#main"
+        },
+        "down": {
+          "uv": [
+            3,
+            9,
+            5.75,
+            9.25
+          ],
+          "texture": "#main"
+        }
+      }
+    },
+    {
+      "name": "brass_bulb_socket",
+      "from": [
+        7,
+        24,
+        7
+      ],
+      "to": [
+        9,
+        26,
+        9
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            12.5,
+            4.25,
+            13,
+            4.75
+          ],
+          "texture": "#main"
+        },
+        "south": {
+          "uv": [
+            11.5,
+            4.25,
+            12,
+            4.75
+          ],
+          "texture": "#main"
+        },
+        "east": {
+          "uv": [
+            11,
+            4.25,
+            11.5,
+            4.75
+          ],
+          "texture": "#main"
+        },
+        "west": {
+          "uv": [
+            12,
+            4.25,
+            12.5,
+            4.75
+          ],
+          "texture": "#main"
+        },
+        "up": {
+          "uv": [
+            11.5,
+            3.75,
+            12,
+            4.25
+          ],
+          "texture": "#main"
+        },
+        "down": {
+          "uv": [
+            12,
+            3.75,
+            12.5,
+            4.25
+          ],
+          "texture": "#main"
+        }
+      }
+    },
+    {
+      "name": "warm_frosted_bulb",
+      "from": [
+        6.5,
+        26,
+        6.5
+      ],
+      "to": [
+        9.5,
+        28,
+        9.5
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            13.25,
+            6.25,
+            14,
+            6.75
+          ],
+          "texture": "#main"
+        },
+        "south": {
+          "uv": [
+            11.75,
+            6.25,
+            12.5,
+            6.75
+          ],
+          "texture": "#main"
+        },
+        "east": {
+          "uv": [
+            11,
+            6.25,
+            11.75,
+            6.75
+          ],
+          "texture": "#main"
+        },
+        "west": {
+          "uv": [
+            12.5,
+            6.25,
+            13.25,
+            6.75
+          ],
+          "texture": "#main"
+        },
+        "up": {
+          "uv": [
+            11.75,
+            5.5,
+            12.5,
+            6.25
+          ],
+          "texture": "#main"
+        },
+        "down": {
+          "uv": [
+            12.5,
+            5.5,
+            13.25,
+            6.25
+          ],
+          "texture": "#main"
+        }
+      }
+    },
+    {
+      "name": "cream_shade_front_panel",
+      "from": [
+        2,
+        23,
+        2
+      ],
+      "to": [
+        14,
+        31,
+        3
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            3.5,
+            0.25,
+            6.5,
+            2.25
+          ],
+          "texture": "#main"
+        },
+        "south": {
+          "uv": [
+            0.25,
+            0.25,
+            3.25,
+            2.25
+          ],
+          "texture": "#main"
+        },
+        "east": {
+          "uv": [
+            0,
+            0.25,
+            0.25,
+            2.25
+          ],
+          "texture": "#main"
+        },
+        "west": {
+          "uv": [
+            3.25,
+            0.25,
+            3.5,
+            2.25
+          ],
+          "texture": "#main"
+        },
+        "up": {
+          "uv": [
+            0.25,
+            0,
+            3.25,
+            0.25
+          ],
+          "texture": "#main"
+        },
+        "down": {
+          "uv": [
+            3.25,
+            0,
+            6.25,
+            0.25
+          ],
+          "texture": "#main"
+        }
+      }
+    },
+    {
+      "name": "cream_shade_back_panel",
+      "from": [
+        2,
+        23,
+        13
+      ],
+      "to": [
+        14,
+        31,
+        14
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            10,
+            0.25,
+            13,
+            2.25
+          ],
+          "texture": "#main"
+        },
+        "south": {
+          "uv": [
+            6.75,
+            0.25,
+            9.75,
+            2.25
+          ],
+          "texture": "#main"
+        },
+        "east": {
+          "uv": [
+            6.5,
+            0.25,
+            6.75,
+            2.25
+          ],
+          "texture": "#main"
+        },
+        "west": {
+          "uv": [
+            9.75,
+            0.25,
+            10,
+            2.25
+          ],
+          "texture": "#main"
+        },
+        "up": {
+          "uv": [
+            6.75,
+            0,
+            9.75,
+            0.25
+          ],
+          "texture": "#main"
+        },
+        "down": {
+          "uv": [
+            9.75,
+            0,
+            12.75,
+            0.25
+          ],
+          "texture": "#main"
+        }
+      }
+    },
+    {
+      "name": "cream_shade_left_panel",
+      "from": [
+        2,
+        23,
+        3
+      ],
+      "to": [
+        3,
+        31,
+        13
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            5.25,
+            4.75,
+            5.5,
+            6.75
+          ],
+          "texture": "#main"
+        },
+        "south": {
+          "uv": [
+            2.5,
+            4.75,
+            2.75,
+            6.75
+          ],
+          "texture": "#main"
+        },
+        "east": {
+          "uv": [
+            0,
+            4.75,
+            2.5,
+            6.75
+          ],
+          "texture": "#main"
+        },
+        "west": {
+          "uv": [
+            2.75,
+            4.75,
+            5.25,
+            6.75
+          ],
+          "texture": "#main"
+        },
+        "up": {
+          "uv": [
+            2.5,
+            2.25,
+            2.75,
+            4.75
+          ],
+          "texture": "#main"
+        },
+        "down": {
+          "uv": [
+            2.75,
+            2.25,
+            3,
+            4.75
+          ],
+          "texture": "#main"
+        }
+      }
+    },
+    {
+      "name": "cream_shade_right_panel",
+      "from": [
+        13,
+        23,
+        3
+      ],
+      "to": [
+        14,
+        31,
+        13
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            10.75,
+            4.75,
+            11,
+            6.75
+          ],
+          "texture": "#main"
+        },
+        "south": {
+          "uv": [
+            8,
+            4.75,
+            8.25,
+            6.75
+          ],
+          "texture": "#main"
+        },
+        "east": {
+          "uv": [
+            5.5,
+            4.75,
+            8,
+            6.75
+          ],
+          "texture": "#main"
+        },
+        "west": {
+          "uv": [
+            8.25,
+            4.75,
+            10.75,
+            6.75
+          ],
+          "texture": "#main"
+        },
+        "up": {
+          "uv": [
+            8,
+            2.25,
+            8.25,
+            4.75
+          ],
+          "texture": "#main"
+        },
+        "down": {
+          "uv": [
+            8.25,
+            2.25,
+            8.5,
+            4.75
+          ],
+          "texture": "#main"
+        }
+      }
+    }
+  ],
+  "display": {
+    "gui": {
+      "rotation": [
+        30,
+        225,
+        0
+      ],
+      "translation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        0.625,
+        0.625,
+        0.625
+      ]
+    },
+    "ground": {
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "translation": [
+        0,
+        3,
+        0
+      ],
+      "scale": [
+        0.25,
+        0.25,
+        0.25
+      ]
+    },
+    "fixed": {
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "translation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        0.5,
+        0.5,
+        0.5
+      ]
+    },
+    "head": {
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "translation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    "thirdperson_righthand": {
+      "rotation": [
+        75,
+        45,
+        0
+      ],
+      "translation": [
+        0,
+        2.5,
+        0
+      ],
+      "scale": [
+        0.375,
+        0.375,
+        0.375
+      ]
+    },
+    "thirdperson_lefthand": {
+      "rotation": [
+        75,
+        45,
+        0
+      ],
+      "translation": [
+        0,
+        2.5,
+        0
+      ],
+      "scale": [
+        0.375,
+        0.375,
+        0.375
+      ]
+    },
+    "firstperson_righthand": {
+      "rotation": [
+        0,
+        45,
+        0
+      ],
+      "translation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        0.4,
+        0.4,
+        0.4
+      ]
+    },
+    "firstperson_lefthand": {
+      "rotation": [
+        0,
+        45,
+        0
+      ],
+      "translation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        0.4,
+        0.4,
+        0.4
+      ]
+    }
+  },
+  "gui_light": "side"
+}

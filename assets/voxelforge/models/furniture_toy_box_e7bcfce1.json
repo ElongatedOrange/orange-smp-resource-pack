@@ -1,0 +1,976 @@
+{
+  "credit": "VoxelForge",
+  "textures": {
+    "particle": "voxelforge:item/furniture_toy_box_e7bcfce1/furniture",
+    "furniture": "voxelforge:item/furniture_toy_box_e7bcfce1/furniture"
+  },
+  "elements": [
+    {
+      "name": "box_body",
+      "from": [
+        1.5,
+        2,
+        2
+      ],
+      "to": [
+        14.5,
+        11,
+        14
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            4.625,
+            1.5,
+            6.25,
+            2.625
+          ],
+          "texture": "#furniture"
+        },
+        "south": {
+          "uv": [
+            1.5,
+            1.5,
+            3.125,
+            2.625
+          ],
+          "texture": "#furniture"
+        },
+        "east": {
+          "uv": [
+            0,
+            1.5,
+            1.5,
+            2.625
+          ],
+          "texture": "#furniture"
+        },
+        "west": {
+          "uv": [
+            3.125,
+            1.5,
+            4.625,
+            2.625
+          ],
+          "texture": "#furniture"
+        },
+        "up": {
+          "uv": [
+            1.5,
+            0,
+            3.125,
+            1.5
+          ],
+          "texture": "#furniture"
+        },
+        "down": {
+          "uv": [
+            3.125,
+            0,
+            4.75,
+            1.5
+          ],
+          "texture": "#furniture"
+        }
+      }
+    },
+    {
+      "name": "overhanging_lid",
+      "from": [
+        0.75,
+        11,
+        1.25
+      ],
+      "to": [
+        15.25,
+        13,
+        14.75
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            5.375,
+            4.5,
+            7.25,
+            4.75
+          ],
+          "texture": "#furniture"
+        },
+        "south": {
+          "uv": [
+            1.75,
+            4.5,
+            3.625,
+            4.75
+          ],
+          "texture": "#furniture"
+        },
+        "east": {
+          "uv": [
+            0,
+            4.5,
+            1.75,
+            4.75
+          ],
+          "texture": "#furniture"
+        },
+        "west": {
+          "uv": [
+            3.625,
+            4.5,
+            5.375,
+            4.75
+          ],
+          "texture": "#furniture"
+        },
+        "up": {
+          "uv": [
+            1.75,
+            2.75,
+            3.625,
+            4.5
+          ],
+          "texture": "#furniture"
+        },
+        "down": {
+          "uv": [
+            3.625,
+            2.75,
+            5.5,
+            4.5
+          ],
+          "texture": "#furniture"
+        }
+      }
+    },
+    {
+      "name": "bottom_plinth",
+      "from": [
+        1,
+        1.5,
+        1.5
+      ],
+      "to": [
+        15,
+        2.5,
+        14.5
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            13,
+            1.625,
+            14.75,
+            1.75
+          ],
+          "texture": "#furniture"
+        },
+        "south": {
+          "uv": [
+            9.625,
+            1.625,
+            11.375,
+            1.75
+          ],
+          "texture": "#furniture"
+        },
+        "east": {
+          "uv": [
+            8,
+            1.625,
+            9.625,
+            1.75
+          ],
+          "texture": "#furniture"
+        },
+        "west": {
+          "uv": [
+            11.375,
+            1.625,
+            13,
+            1.75
+          ],
+          "texture": "#furniture"
+        },
+        "up": {
+          "uv": [
+            9.625,
+            0,
+            11.375,
+            1.625
+          ],
+          "texture": "#furniture"
+        },
+        "down": {
+          "uv": [
+            11.375,
+            0,
+            13.125,
+            1.625
+          ],
+          "texture": "#furniture"
+        }
+      }
+    },
+    {
+      "name": "front_left_foot",
+      "from": [
+        1.5,
+        0,
+        2
+      ],
+      "to": [
+        4.5,
+        2,
+        5
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            9.125,
+            2.25,
+            9.5,
+            2.5
+          ],
+          "texture": "#furniture"
+        },
+        "south": {
+          "uv": [
+            8.375,
+            2.25,
+            8.75,
+            2.5
+          ],
+          "texture": "#furniture"
+        },
+        "east": {
+          "uv": [
+            8,
+            2.25,
+            8.375,
+            2.5
+          ],
+          "texture": "#furniture"
+        },
+        "west": {
+          "uv": [
+            8.75,
+            2.25,
+            9.125,
+            2.5
+          ],
+          "texture": "#furniture"
+        },
+        "up": {
+          "uv": [
+            8.375,
+            1.875,
+            8.75,
+            2.25
+          ],
+          "texture": "#furniture"
+        },
+        "down": {
+          "uv": [
+            8.75,
+            1.875,
+            9.125,
+            2.25
+          ],
+          "texture": "#furniture"
+        }
+      }
+    },
+    {
+      "name": "front_right_foot",
+      "from": [
+        11.5,
+        0,
+        2
+      ],
+      "to": [
+        14.5,
+        2,
+        5
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            10.625,
+            2.25,
+            11,
+            2.5
+          ],
+          "texture": "#furniture"
+        },
+        "south": {
+          "uv": [
+            9.875,
+            2.25,
+            10.25,
+            2.5
+          ],
+          "texture": "#furniture"
+        },
+        "east": {
+          "uv": [
+            9.5,
+            2.25,
+            9.875,
+            2.5
+          ],
+          "texture": "#furniture"
+        },
+        "west": {
+          "uv": [
+            10.25,
+            2.25,
+            10.625,
+            2.5
+          ],
+          "texture": "#furniture"
+        },
+        "up": {
+          "uv": [
+            9.875,
+            1.875,
+            10.25,
+            2.25
+          ],
+          "texture": "#furniture"
+        },
+        "down": {
+          "uv": [
+            10.25,
+            1.875,
+            10.625,
+            2.25
+          ],
+          "texture": "#furniture"
+        }
+      }
+    },
+    {
+      "name": "rear_left_foot",
+      "from": [
+        1.5,
+        0,
+        11
+      ],
+      "to": [
+        4.5,
+        2,
+        14
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            12.125,
+            2.25,
+            12.5,
+            2.5
+          ],
+          "texture": "#furniture"
+        },
+        "south": {
+          "uv": [
+            11.375,
+            2.25,
+            11.75,
+            2.5
+          ],
+          "texture": "#furniture"
+        },
+        "east": {
+          "uv": [
+            11,
+            2.25,
+            11.375,
+            2.5
+          ],
+          "texture": "#furniture"
+        },
+        "west": {
+          "uv": [
+            11.75,
+            2.25,
+            12.125,
+            2.5
+          ],
+          "texture": "#furniture"
+        },
+        "up": {
+          "uv": [
+            11.375,
+            1.875,
+            11.75,
+            2.25
+          ],
+          "texture": "#furniture"
+        },
+        "down": {
+          "uv": [
+            11.75,
+            1.875,
+            12.125,
+            2.25
+          ],
+          "texture": "#furniture"
+        }
+      }
+    },
+    {
+      "name": "rear_right_foot",
+      "from": [
+        11.5,
+        0,
+        11
+      ],
+      "to": [
+        14.5,
+        2,
+        14
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            13.625,
+            2.25,
+            14,
+            2.5
+          ],
+          "texture": "#furniture"
+        },
+        "south": {
+          "uv": [
+            12.875,
+            2.25,
+            13.25,
+            2.5
+          ],
+          "texture": "#furniture"
+        },
+        "east": {
+          "uv": [
+            12.5,
+            2.25,
+            12.875,
+            2.5
+          ],
+          "texture": "#furniture"
+        },
+        "west": {
+          "uv": [
+            13.25,
+            2.25,
+            13.625,
+            2.5
+          ],
+          "texture": "#furniture"
+        },
+        "up": {
+          "uv": [
+            12.875,
+            1.875,
+            13.25,
+            2.25
+          ],
+          "texture": "#furniture"
+        },
+        "down": {
+          "uv": [
+            13.25,
+            1.875,
+            13.625,
+            2.25
+          ],
+          "texture": "#furniture"
+        }
+      }
+    },
+    {
+      "name": "left_orange_carry_grip",
+      "from": [
+        0.25,
+        7,
+        6
+      ],
+      "to": [
+        1.75,
+        9,
+        10
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            9.25,
+            3.125,
+            9.5,
+            3.375
+          ],
+          "texture": "#furniture"
+        },
+        "south": {
+          "uv": [
+            8.5,
+            3.125,
+            8.75,
+            3.375
+          ],
+          "texture": "#furniture"
+        },
+        "east": {
+          "uv": [
+            8,
+            3.125,
+            8.5,
+            3.375
+          ],
+          "texture": "#furniture"
+        },
+        "west": {
+          "uv": [
+            8.75,
+            3.125,
+            9.25,
+            3.375
+          ],
+          "texture": "#furniture"
+        },
+        "up": {
+          "uv": [
+            8.5,
+            2.625,
+            8.75,
+            3.125
+          ],
+          "texture": "#furniture"
+        },
+        "down": {
+          "uv": [
+            8.75,
+            2.625,
+            9,
+            3.125
+          ],
+          "texture": "#furniture"
+        }
+      }
+    },
+    {
+      "name": "right_orange_carry_grip",
+      "from": [
+        14.25,
+        7,
+        6
+      ],
+      "to": [
+        15.75,
+        9,
+        10
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            10.75,
+            3.125,
+            11,
+            3.375
+          ],
+          "texture": "#furniture"
+        },
+        "south": {
+          "uv": [
+            10,
+            3.125,
+            10.25,
+            3.375
+          ],
+          "texture": "#furniture"
+        },
+        "east": {
+          "uv": [
+            9.5,
+            3.125,
+            10,
+            3.375
+          ],
+          "texture": "#furniture"
+        },
+        "west": {
+          "uv": [
+            10.25,
+            3.125,
+            10.75,
+            3.375
+          ],
+          "texture": "#furniture"
+        },
+        "up": {
+          "uv": [
+            10,
+            2.625,
+            10.25,
+            3.125
+          ],
+          "texture": "#furniture"
+        },
+        "down": {
+          "uv": [
+            10.25,
+            2.625,
+            10.5,
+            3.125
+          ],
+          "texture": "#furniture"
+        }
+      }
+    },
+    {
+      "name": "rear_left_hinge",
+      "from": [
+        3,
+        9,
+        13.875
+      ],
+      "to": [
+        5,
+        11.75,
+        14.375
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            11.5,
+            2.75,
+            11.75,
+            3.125
+          ],
+          "texture": "#furniture"
+        },
+        "south": {
+          "uv": [
+            11.125,
+            2.75,
+            11.375,
+            3.125
+          ],
+          "texture": "#furniture"
+        },
+        "east": {
+          "uv": [
+            11,
+            2.75,
+            11.125,
+            3.125
+          ],
+          "texture": "#furniture"
+        },
+        "west": {
+          "uv": [
+            11.375,
+            2.75,
+            11.5,
+            3.125
+          ],
+          "texture": "#furniture"
+        },
+        "up": {
+          "uv": [
+            11.125,
+            2.625,
+            11.375,
+            2.75
+          ],
+          "texture": "#furniture"
+        },
+        "down": {
+          "uv": [
+            11.375,
+            2.625,
+            11.625,
+            2.75
+          ],
+          "texture": "#furniture"
+        }
+      }
+    },
+    {
+      "name": "rear_right_hinge",
+      "from": [
+        11,
+        9,
+        13.875
+      ],
+      "to": [
+        13,
+        11.75,
+        14.375
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            12.5,
+            2.75,
+            12.75,
+            3.125
+          ],
+          "texture": "#furniture"
+        },
+        "south": {
+          "uv": [
+            12.125,
+            2.75,
+            12.375,
+            3.125
+          ],
+          "texture": "#furniture"
+        },
+        "east": {
+          "uv": [
+            12,
+            2.75,
+            12.125,
+            3.125
+          ],
+          "texture": "#furniture"
+        },
+        "west": {
+          "uv": [
+            12.375,
+            2.75,
+            12.5,
+            3.125
+          ],
+          "texture": "#furniture"
+        },
+        "up": {
+          "uv": [
+            12.125,
+            2.625,
+            12.375,
+            2.75
+          ],
+          "texture": "#furniture"
+        },
+        "down": {
+          "uv": [
+            12.375,
+            2.625,
+            12.625,
+            2.75
+          ],
+          "texture": "#furniture"
+        }
+      }
+    },
+    {
+      "name": "front_wooden_clasp",
+      "from": [
+        7,
+        9,
+        1
+      ],
+      "to": [
+        9,
+        12,
+        2.25
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            13.75,
+            2.875,
+            14,
+            3.25
+          ],
+          "texture": "#furniture"
+        },
+        "south": {
+          "uv": [
+            13.25,
+            2.875,
+            13.5,
+            3.25
+          ],
+          "texture": "#furniture"
+        },
+        "east": {
+          "uv": [
+            13,
+            2.875,
+            13.25,
+            3.25
+          ],
+          "texture": "#furniture"
+        },
+        "west": {
+          "uv": [
+            13.5,
+            2.875,
+            13.75,
+            3.25
+          ],
+          "texture": "#furniture"
+        },
+        "up": {
+          "uv": [
+            13.25,
+            2.625,
+            13.5,
+            2.875
+          ],
+          "texture": "#furniture"
+        },
+        "down": {
+          "uv": [
+            13.5,
+            2.625,
+            13.75,
+            2.875
+          ],
+          "texture": "#furniture"
+        }
+      }
+    }
+  ],
+  "display": {
+    "gui": {
+      "rotation": [
+        30,
+        225,
+        0
+      ],
+      "translation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        0.625,
+        0.625,
+        0.625
+      ]
+    },
+    "ground": {
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "translation": [
+        0,
+        3,
+        0
+      ],
+      "scale": [
+        0.25,
+        0.25,
+        0.25
+      ]
+    },
+    "fixed": {
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "translation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        0.5,
+        0.5,
+        0.5
+      ]
+    },
+    "head": {
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "translation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    "thirdperson_righthand": {
+      "rotation": [
+        75,
+        45,
+        0
+      ],
+      "translation": [
+        0,
+        2.5,
+        0
+      ],
+      "scale": [
+        0.375,
+        0.375,
+        0.375
+      ]
+    },
+    "thirdperson_lefthand": {
+      "rotation": [
+        75,
+        45,
+        0
+      ],
+      "translation": [
+        0,
+        2.5,
+        0
+      ],
+      "scale": [
+        0.375,
+        0.375,
+        0.375
+      ]
+    },
+    "firstperson_righthand": {
+      "rotation": [
+        0,
+        45,
+        0
+      ],
+      "translation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        0.4,
+        0.4,
+        0.4
+      ]
+    },
+    "firstperson_lefthand": {
+      "rotation": [
+        0,
+        45,
+        0
+      ],
+      "translation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        0.4,
+        0.4,
+        0.4
+      ]
+    }
+  },
+  "gui_light": "side"
+}

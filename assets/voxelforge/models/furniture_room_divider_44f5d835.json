@@ -1,0 +1,1252 @@
+{
+  "credit": "VoxelForge",
+  "textures": {
+    "particle": "voxelforge:item/furniture_room_divider_44f5d835/divider",
+    "divider": "voxelforge:item/furniture_room_divider_44f5d835/divider"
+  },
+  "elements": [
+    {
+      "name": "left_outer_bamboo_post",
+      "from": [
+        2,
+        2,
+        7
+      ],
+      "to": [
+        4,
+        30,
+        9
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            0.75,
+            0.25,
+            1,
+            3.75
+          ],
+          "texture": "#divider"
+        },
+        "south": {
+          "uv": [
+            0.25,
+            0.25,
+            0.5,
+            3.75
+          ],
+          "texture": "#divider"
+        },
+        "east": {
+          "uv": [
+            0,
+            0.25,
+            0.25,
+            3.75
+          ],
+          "texture": "#divider"
+        },
+        "west": {
+          "uv": [
+            0.5,
+            0.25,
+            0.75,
+            3.75
+          ],
+          "texture": "#divider"
+        },
+        "up": {
+          "uv": [
+            0.25,
+            0,
+            0.5,
+            0.25
+          ],
+          "texture": "#divider"
+        },
+        "down": {
+          "uv": [
+            0.5,
+            0,
+            0.75,
+            0.25
+          ],
+          "texture": "#divider"
+        }
+      }
+    },
+    {
+      "name": "left_inner_bamboo_post",
+      "from": [
+        13,
+        2,
+        7
+      ],
+      "to": [
+        15,
+        30,
+        9
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            1.75,
+            0.25,
+            2,
+            3.75
+          ],
+          "texture": "#divider"
+        },
+        "south": {
+          "uv": [
+            1.25,
+            0.25,
+            1.5,
+            3.75
+          ],
+          "texture": "#divider"
+        },
+        "east": {
+          "uv": [
+            1,
+            0.25,
+            1.25,
+            3.75
+          ],
+          "texture": "#divider"
+        },
+        "west": {
+          "uv": [
+            1.5,
+            0.25,
+            1.75,
+            3.75
+          ],
+          "texture": "#divider"
+        },
+        "up": {
+          "uv": [
+            1.25,
+            0,
+            1.5,
+            0.25
+          ],
+          "texture": "#divider"
+        },
+        "down": {
+          "uv": [
+            1.5,
+            0,
+            1.75,
+            0.25
+          ],
+          "texture": "#divider"
+        }
+      }
+    },
+    {
+      "name": "right_inner_bamboo_post",
+      "from": [
+        17,
+        2,
+        7
+      ],
+      "to": [
+        19,
+        30,
+        9
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            2.75,
+            0.25,
+            3,
+            3.75
+          ],
+          "texture": "#divider"
+        },
+        "south": {
+          "uv": [
+            2.25,
+            0.25,
+            2.5,
+            3.75
+          ],
+          "texture": "#divider"
+        },
+        "east": {
+          "uv": [
+            2,
+            0.25,
+            2.25,
+            3.75
+          ],
+          "texture": "#divider"
+        },
+        "west": {
+          "uv": [
+            2.5,
+            0.25,
+            2.75,
+            3.75
+          ],
+          "texture": "#divider"
+        },
+        "up": {
+          "uv": [
+            2.25,
+            0,
+            2.5,
+            0.25
+          ],
+          "texture": "#divider"
+        },
+        "down": {
+          "uv": [
+            2.5,
+            0,
+            2.75,
+            0.25
+          ],
+          "texture": "#divider"
+        }
+      }
+    },
+    {
+      "name": "right_outer_bamboo_post",
+      "from": [
+        28,
+        2,
+        7
+      ],
+      "to": [
+        30,
+        30,
+        9
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            3.75,
+            0.25,
+            4,
+            3.75
+          ],
+          "texture": "#divider"
+        },
+        "south": {
+          "uv": [
+            3.25,
+            0.25,
+            3.5,
+            3.75
+          ],
+          "texture": "#divider"
+        },
+        "east": {
+          "uv": [
+            3,
+            0.25,
+            3.25,
+            3.75
+          ],
+          "texture": "#divider"
+        },
+        "west": {
+          "uv": [
+            3.5,
+            0.25,
+            3.75,
+            3.75
+          ],
+          "texture": "#divider"
+        },
+        "up": {
+          "uv": [
+            3.25,
+            0,
+            3.5,
+            0.25
+          ],
+          "texture": "#divider"
+        },
+        "down": {
+          "uv": [
+            3.5,
+            0,
+            3.75,
+            0.25
+          ],
+          "texture": "#divider"
+        }
+      }
+    },
+    {
+      "name": "left_top_bamboo_rail",
+      "from": [
+        4,
+        27,
+        7
+      ],
+      "to": [
+        13,
+        29,
+        9
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            5.625,
+            0.25,
+            6.75,
+            0.5
+          ],
+          "texture": "#divider"
+        },
+        "south": {
+          "uv": [
+            4.25,
+            0.25,
+            5.375,
+            0.5
+          ],
+          "texture": "#divider"
+        },
+        "east": {
+          "uv": [
+            4,
+            0.25,
+            4.25,
+            0.5
+          ],
+          "texture": "#divider"
+        },
+        "west": {
+          "uv": [
+            5.375,
+            0.25,
+            5.625,
+            0.5
+          ],
+          "texture": "#divider"
+        },
+        "up": {
+          "uv": [
+            4.25,
+            0,
+            5.375,
+            0.25
+          ],
+          "texture": "#divider"
+        },
+        "down": {
+          "uv": [
+            5.375,
+            0,
+            6.5,
+            0.25
+          ],
+          "texture": "#divider"
+        }
+      }
+    },
+    {
+      "name": "left_bottom_bamboo_rail",
+      "from": [
+        4,
+        5,
+        7
+      ],
+      "to": [
+        13,
+        7,
+        9
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            5.625,
+            0.75,
+            6.75,
+            1
+          ],
+          "texture": "#divider"
+        },
+        "south": {
+          "uv": [
+            4.25,
+            0.75,
+            5.375,
+            1
+          ],
+          "texture": "#divider"
+        },
+        "east": {
+          "uv": [
+            4,
+            0.75,
+            4.25,
+            1
+          ],
+          "texture": "#divider"
+        },
+        "west": {
+          "uv": [
+            5.375,
+            0.75,
+            5.625,
+            1
+          ],
+          "texture": "#divider"
+        },
+        "up": {
+          "uv": [
+            4.25,
+            0.5,
+            5.375,
+            0.75
+          ],
+          "texture": "#divider"
+        },
+        "down": {
+          "uv": [
+            5.375,
+            0.5,
+            6.5,
+            0.75
+          ],
+          "texture": "#divider"
+        }
+      }
+    },
+    {
+      "name": "right_top_bamboo_rail",
+      "from": [
+        19,
+        27,
+        7
+      ],
+      "to": [
+        28,
+        29,
+        9
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            5.625,
+            1.25,
+            6.75,
+            1.5
+          ],
+          "texture": "#divider"
+        },
+        "south": {
+          "uv": [
+            4.25,
+            1.25,
+            5.375,
+            1.5
+          ],
+          "texture": "#divider"
+        },
+        "east": {
+          "uv": [
+            4,
+            1.25,
+            4.25,
+            1.5
+          ],
+          "texture": "#divider"
+        },
+        "west": {
+          "uv": [
+            5.375,
+            1.25,
+            5.625,
+            1.5
+          ],
+          "texture": "#divider"
+        },
+        "up": {
+          "uv": [
+            4.25,
+            1,
+            5.375,
+            1.25
+          ],
+          "texture": "#divider"
+        },
+        "down": {
+          "uv": [
+            5.375,
+            1,
+            6.5,
+            1.25
+          ],
+          "texture": "#divider"
+        }
+      }
+    },
+    {
+      "name": "right_bottom_bamboo_rail",
+      "from": [
+        19,
+        5,
+        7
+      ],
+      "to": [
+        28,
+        7,
+        9
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            5.625,
+            1.75,
+            6.75,
+            2
+          ],
+          "texture": "#divider"
+        },
+        "south": {
+          "uv": [
+            4.25,
+            1.75,
+            5.375,
+            2
+          ],
+          "texture": "#divider"
+        },
+        "east": {
+          "uv": [
+            4,
+            1.75,
+            4.25,
+            2
+          ],
+          "texture": "#divider"
+        },
+        "west": {
+          "uv": [
+            5.375,
+            1.75,
+            5.625,
+            2
+          ],
+          "texture": "#divider"
+        },
+        "up": {
+          "uv": [
+            4.25,
+            1.5,
+            5.375,
+            1.75
+          ],
+          "texture": "#divider"
+        },
+        "down": {
+          "uv": [
+            5.375,
+            1.5,
+            6.5,
+            1.75
+          ],
+          "texture": "#divider"
+        }
+      }
+    },
+    {
+      "name": "left_cream_woven_insert",
+      "from": [
+        4,
+        7,
+        7.5
+      ],
+      "to": [
+        13,
+        27,
+        8.5
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            8.375,
+            0.125,
+            9.5,
+            2.625
+          ],
+          "texture": "#divider"
+        },
+        "south": {
+          "uv": [
+            7.125,
+            0.125,
+            8.25,
+            2.625
+          ],
+          "texture": "#divider"
+        },
+        "east": {
+          "uv": [
+            7,
+            0.125,
+            7.125,
+            2.625
+          ],
+          "texture": "#divider"
+        },
+        "west": {
+          "uv": [
+            8.25,
+            0.125,
+            8.375,
+            2.625
+          ],
+          "texture": "#divider"
+        },
+        "up": {
+          "uv": [
+            7.125,
+            0,
+            8.25,
+            0.125
+          ],
+          "texture": "#divider"
+        },
+        "down": {
+          "uv": [
+            8.25,
+            0,
+            9.375,
+            0.125
+          ],
+          "texture": "#divider"
+        }
+      }
+    },
+    {
+      "name": "right_cream_woven_insert",
+      "from": [
+        19,
+        7,
+        7.5
+      ],
+      "to": [
+        28,
+        27,
+        8.5
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            10.875,
+            0.125,
+            12,
+            2.625
+          ],
+          "texture": "#divider"
+        },
+        "south": {
+          "uv": [
+            9.625,
+            0.125,
+            10.75,
+            2.625
+          ],
+          "texture": "#divider"
+        },
+        "east": {
+          "uv": [
+            9.5,
+            0.125,
+            9.625,
+            2.625
+          ],
+          "texture": "#divider"
+        },
+        "west": {
+          "uv": [
+            10.75,
+            0.125,
+            10.875,
+            2.625
+          ],
+          "texture": "#divider"
+        },
+        "up": {
+          "uv": [
+            9.625,
+            0,
+            10.75,
+            0.125
+          ],
+          "texture": "#divider"
+        },
+        "down": {
+          "uv": [
+            10.75,
+            0,
+            11.875,
+            0.125
+          ],
+          "texture": "#divider"
+        }
+      }
+    },
+    {
+      "name": "left_outer_crossfoot",
+      "from": [
+        1.5,
+        0,
+        3
+      ],
+      "to": [
+        4.5,
+        2,
+        13
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            2.875,
+            5.25,
+            3.25,
+            5.5
+          ],
+          "texture": "#divider"
+        },
+        "south": {
+          "uv": [
+            1.25,
+            5.25,
+            1.625,
+            5.5
+          ],
+          "texture": "#divider"
+        },
+        "east": {
+          "uv": [
+            0,
+            5.25,
+            1.25,
+            5.5
+          ],
+          "texture": "#divider"
+        },
+        "west": {
+          "uv": [
+            1.625,
+            5.25,
+            2.875,
+            5.5
+          ],
+          "texture": "#divider"
+        },
+        "up": {
+          "uv": [
+            1.25,
+            4,
+            1.625,
+            5.25
+          ],
+          "texture": "#divider"
+        },
+        "down": {
+          "uv": [
+            1.625,
+            4,
+            2,
+            5.25
+          ],
+          "texture": "#divider"
+        }
+      }
+    },
+    {
+      "name": "left_inner_crossfoot",
+      "from": [
+        12.5,
+        0,
+        3
+      ],
+      "to": [
+        15.5,
+        2,
+        13
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            6.125,
+            5.25,
+            6.5,
+            5.5
+          ],
+          "texture": "#divider"
+        },
+        "south": {
+          "uv": [
+            4.5,
+            5.25,
+            4.875,
+            5.5
+          ],
+          "texture": "#divider"
+        },
+        "east": {
+          "uv": [
+            3.25,
+            5.25,
+            4.5,
+            5.5
+          ],
+          "texture": "#divider"
+        },
+        "west": {
+          "uv": [
+            4.875,
+            5.25,
+            6.125,
+            5.5
+          ],
+          "texture": "#divider"
+        },
+        "up": {
+          "uv": [
+            4.5,
+            4,
+            4.875,
+            5.25
+          ],
+          "texture": "#divider"
+        },
+        "down": {
+          "uv": [
+            4.875,
+            4,
+            5.25,
+            5.25
+          ],
+          "texture": "#divider"
+        }
+      }
+    },
+    {
+      "name": "right_inner_crossfoot",
+      "from": [
+        16.5,
+        0,
+        3
+      ],
+      "to": [
+        19.5,
+        2,
+        13
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            9.375,
+            5.25,
+            9.75,
+            5.5
+          ],
+          "texture": "#divider"
+        },
+        "south": {
+          "uv": [
+            7.75,
+            5.25,
+            8.125,
+            5.5
+          ],
+          "texture": "#divider"
+        },
+        "east": {
+          "uv": [
+            6.5,
+            5.25,
+            7.75,
+            5.5
+          ],
+          "texture": "#divider"
+        },
+        "west": {
+          "uv": [
+            8.125,
+            5.25,
+            9.375,
+            5.5
+          ],
+          "texture": "#divider"
+        },
+        "up": {
+          "uv": [
+            7.75,
+            4,
+            8.125,
+            5.25
+          ],
+          "texture": "#divider"
+        },
+        "down": {
+          "uv": [
+            8.125,
+            4,
+            8.5,
+            5.25
+          ],
+          "texture": "#divider"
+        }
+      }
+    },
+    {
+      "name": "right_outer_crossfoot",
+      "from": [
+        27.5,
+        0,
+        3
+      ],
+      "to": [
+        30.5,
+        2,
+        13
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            12.625,
+            5.25,
+            13,
+            5.5
+          ],
+          "texture": "#divider"
+        },
+        "south": {
+          "uv": [
+            11,
+            5.25,
+            11.375,
+            5.5
+          ],
+          "texture": "#divider"
+        },
+        "east": {
+          "uv": [
+            9.75,
+            5.25,
+            11,
+            5.5
+          ],
+          "texture": "#divider"
+        },
+        "west": {
+          "uv": [
+            11.375,
+            5.25,
+            12.625,
+            5.5
+          ],
+          "texture": "#divider"
+        },
+        "up": {
+          "uv": [
+            11,
+            4,
+            11.375,
+            5.25
+          ],
+          "texture": "#divider"
+        },
+        "down": {
+          "uv": [
+            11.375,
+            4,
+            11.75,
+            5.25
+          ],
+          "texture": "#divider"
+        }
+      }
+    },
+    {
+      "name": "lower_bound_bamboo_bridge",
+      "from": [
+        15,
+        10,
+        7.25
+      ],
+      "to": [
+        17,
+        12,
+        8.75
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            4.75,
+            2.25,
+            5,
+            2.5
+          ],
+          "texture": "#divider"
+        },
+        "south": {
+          "uv": [
+            4.25,
+            2.25,
+            4.5,
+            2.5
+          ],
+          "texture": "#divider"
+        },
+        "east": {
+          "uv": [
+            4,
+            2.25,
+            4.25,
+            2.5
+          ],
+          "texture": "#divider"
+        },
+        "west": {
+          "uv": [
+            4.5,
+            2.25,
+            4.75,
+            2.5
+          ],
+          "texture": "#divider"
+        },
+        "up": {
+          "uv": [
+            4.25,
+            2,
+            4.5,
+            2.25
+          ],
+          "texture": "#divider"
+        },
+        "down": {
+          "uv": [
+            4.5,
+            2,
+            4.75,
+            2.25
+          ],
+          "texture": "#divider"
+        }
+      }
+    },
+    {
+      "name": "upper_bound_bamboo_bridge",
+      "from": [
+        15,
+        24,
+        7.25
+      ],
+      "to": [
+        17,
+        26,
+        8.75
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            4.75,
+            2.75,
+            5,
+            3
+          ],
+          "texture": "#divider"
+        },
+        "south": {
+          "uv": [
+            4.25,
+            2.75,
+            4.5,
+            3
+          ],
+          "texture": "#divider"
+        },
+        "east": {
+          "uv": [
+            4,
+            2.75,
+            4.25,
+            3
+          ],
+          "texture": "#divider"
+        },
+        "west": {
+          "uv": [
+            4.5,
+            2.75,
+            4.75,
+            3
+          ],
+          "texture": "#divider"
+        },
+        "up": {
+          "uv": [
+            4.25,
+            2.5,
+            4.5,
+            2.75
+          ],
+          "texture": "#divider"
+        },
+        "down": {
+          "uv": [
+            4.5,
+            2.5,
+            4.75,
+            2.75
+          ],
+          "texture": "#divider"
+        }
+      }
+    }
+  ],
+  "display": {
+    "gui": {
+      "rotation": [
+        30,
+        225,
+        0
+      ],
+      "translation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        0.625,
+        0.625,
+        0.625
+      ]
+    },
+    "ground": {
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "translation": [
+        0,
+        3,
+        0
+      ],
+      "scale": [
+        0.25,
+        0.25,
+        0.25
+      ]
+    },
+    "fixed": {
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "translation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        0.5,
+        0.5,
+        0.5
+      ]
+    },
+    "head": {
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "translation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    "thirdperson_righthand": {
+      "rotation": [
+        75,
+        45,
+        0
+      ],
+      "translation": [
+        0,
+        2.5,
+        0
+      ],
+      "scale": [
+        0.375,
+        0.375,
+        0.375
+      ]
+    },
+    "thirdperson_lefthand": {
+      "rotation": [
+        75,
+        45,
+        0
+      ],
+      "translation": [
+        0,
+        2.5,
+        0
+      ],
+      "scale": [
+        0.375,
+        0.375,
+        0.375
+      ]
+    },
+    "firstperson_righthand": {
+      "rotation": [
+        0,
+        45,
+        0
+      ],
+      "translation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        0.4,
+        0.4,
+        0.4
+      ]
+    },
+    "firstperson_lefthand": {
+      "rotation": [
+        0,
+        45,
+        0
+      ],
+      "translation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        0.4,
+        0.4,
+        0.4
+      ]
+    }
+  },
+  "gui_light": "side"
+}

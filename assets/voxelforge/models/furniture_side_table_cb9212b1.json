@@ -1,0 +1,1873 @@
+{
+  "credit": "VoxelForge",
+  "textures": {
+    "particle": "voxelforge:item/furniture_side_table_cb9212b1/oak",
+    "oak": "voxelforge:item/furniture_side_table_cb9212b1/oak"
+  },
+  "elements": [
+    {
+      "name": "Oak tabletop",
+      "from": [
+        0.25,
+        14,
+        0.25
+      ],
+      "to": [
+        15.75,
+        16,
+        15.75
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            12,
+            4,
+            16,
+            4.5
+          ],
+          "texture": "#oak"
+        },
+        "south": {
+          "uv": [
+            4,
+            4,
+            8,
+            4.5
+          ],
+          "texture": "#oak"
+        },
+        "east": {
+          "uv": [
+            0,
+            4,
+            4,
+            4.5
+          ],
+          "texture": "#oak"
+        },
+        "west": {
+          "uv": [
+            8,
+            4,
+            12,
+            4.5
+          ],
+          "texture": "#oak"
+        },
+        "up": {
+          "uv": [
+            4,
+            0,
+            8,
+            4
+          ],
+          "texture": "#oak"
+        },
+        "down": {
+          "uv": [
+            8,
+            0,
+            12,
+            4
+          ],
+          "texture": "#oak"
+        }
+      }
+    },
+    {
+      "name": "Front recessed apron",
+      "from": [
+        4,
+        11,
+        1.5
+      ],
+      "to": [
+        12,
+        14,
+        3.5
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            3,
+            5.5,
+            5,
+            6.25
+          ],
+          "texture": "#oak"
+        },
+        "south": {
+          "uv": [
+            0.5,
+            5.5,
+            2.5,
+            6.25
+          ],
+          "texture": "#oak"
+        },
+        "east": {
+          "uv": [
+            0,
+            5.5,
+            0.5,
+            6.25
+          ],
+          "texture": "#oak"
+        },
+        "west": {
+          "uv": [
+            2.5,
+            5.5,
+            3,
+            6.25
+          ],
+          "texture": "#oak"
+        },
+        "up": {
+          "uv": [
+            0.5,
+            5,
+            2.5,
+            5.5
+          ],
+          "texture": "#oak"
+        },
+        "down": {
+          "uv": [
+            2.5,
+            5,
+            4.5,
+            5.5
+          ],
+          "texture": "#oak"
+        }
+      }
+    },
+    {
+      "name": "Rear recessed apron",
+      "from": [
+        4,
+        11,
+        12.5
+      ],
+      "to": [
+        12,
+        14,
+        14.5
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            8.5,
+            5.5,
+            10.5,
+            6.25
+          ],
+          "texture": "#oak"
+        },
+        "south": {
+          "uv": [
+            6,
+            5.5,
+            8,
+            6.25
+          ],
+          "texture": "#oak"
+        },
+        "east": {
+          "uv": [
+            5.5,
+            5.5,
+            6,
+            6.25
+          ],
+          "texture": "#oak"
+        },
+        "west": {
+          "uv": [
+            8,
+            5.5,
+            8.5,
+            6.25
+          ],
+          "texture": "#oak"
+        },
+        "up": {
+          "uv": [
+            6,
+            5,
+            8,
+            5.5
+          ],
+          "texture": "#oak"
+        },
+        "down": {
+          "uv": [
+            8,
+            5,
+            10,
+            5.5
+          ],
+          "texture": "#oak"
+        }
+      }
+    },
+    {
+      "name": "Left recessed apron",
+      "from": [
+        1.5,
+        11,
+        4
+      ],
+      "to": [
+        3.5,
+        14,
+        12
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            4.5,
+            8.75,
+            5,
+            9.5
+          ],
+          "texture": "#oak"
+        },
+        "south": {
+          "uv": [
+            2,
+            8.75,
+            2.5,
+            9.5
+          ],
+          "texture": "#oak"
+        },
+        "east": {
+          "uv": [
+            0,
+            8.75,
+            2,
+            9.5
+          ],
+          "texture": "#oak"
+        },
+        "west": {
+          "uv": [
+            2.5,
+            8.75,
+            4.5,
+            9.5
+          ],
+          "texture": "#oak"
+        },
+        "up": {
+          "uv": [
+            2,
+            6.75,
+            2.5,
+            8.75
+          ],
+          "texture": "#oak"
+        },
+        "down": {
+          "uv": [
+            2.5,
+            6.75,
+            3,
+            8.75
+          ],
+          "texture": "#oak"
+        }
+      }
+    },
+    {
+      "name": "Right recessed apron",
+      "from": [
+        12.5,
+        11,
+        4
+      ],
+      "to": [
+        14.5,
+        14,
+        12
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            10,
+            8.75,
+            10.5,
+            9.5
+          ],
+          "texture": "#oak"
+        },
+        "south": {
+          "uv": [
+            7.5,
+            8.75,
+            8,
+            9.5
+          ],
+          "texture": "#oak"
+        },
+        "east": {
+          "uv": [
+            5.5,
+            8.75,
+            7.5,
+            9.5
+          ],
+          "texture": "#oak"
+        },
+        "west": {
+          "uv": [
+            8,
+            8.75,
+            10,
+            9.5
+          ],
+          "texture": "#oak"
+        },
+        "up": {
+          "uv": [
+            7.5,
+            6.75,
+            8,
+            8.75
+          ],
+          "texture": "#oak"
+        },
+        "down": {
+          "uv": [
+            8,
+            6.75,
+            8.5,
+            8.75
+          ],
+          "texture": "#oak"
+        }
+      }
+    },
+    {
+      "name": "Front left upper leg block",
+      "from": [
+        1,
+        10,
+        1
+      ],
+      "to": [
+        4,
+        14,
+        4
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            2.25,
+            10.75,
+            3,
+            11.75
+          ],
+          "texture": "#oak"
+        },
+        "south": {
+          "uv": [
+            0.75,
+            10.75,
+            1.5,
+            11.75
+          ],
+          "texture": "#oak"
+        },
+        "east": {
+          "uv": [
+            0,
+            10.75,
+            0.75,
+            11.75
+          ],
+          "texture": "#oak"
+        },
+        "west": {
+          "uv": [
+            1.5,
+            10.75,
+            2.25,
+            11.75
+          ],
+          "texture": "#oak"
+        },
+        "up": {
+          "uv": [
+            0.75,
+            10,
+            1.5,
+            10.75
+          ],
+          "texture": "#oak"
+        },
+        "down": {
+          "uv": [
+            1.5,
+            10,
+            2.25,
+            10.75
+          ],
+          "texture": "#oak"
+        }
+      }
+    },
+    {
+      "name": "Front right upper leg block",
+      "from": [
+        12,
+        10,
+        1
+      ],
+      "to": [
+        15,
+        14,
+        4
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            5.25,
+            10.75,
+            6,
+            11.75
+          ],
+          "texture": "#oak"
+        },
+        "south": {
+          "uv": [
+            3.75,
+            10.75,
+            4.5,
+            11.75
+          ],
+          "texture": "#oak"
+        },
+        "east": {
+          "uv": [
+            3,
+            10.75,
+            3.75,
+            11.75
+          ],
+          "texture": "#oak"
+        },
+        "west": {
+          "uv": [
+            4.5,
+            10.75,
+            5.25,
+            11.75
+          ],
+          "texture": "#oak"
+        },
+        "up": {
+          "uv": [
+            3.75,
+            10,
+            4.5,
+            10.75
+          ],
+          "texture": "#oak"
+        },
+        "down": {
+          "uv": [
+            4.5,
+            10,
+            5.25,
+            10.75
+          ],
+          "texture": "#oak"
+        }
+      }
+    },
+    {
+      "name": "Rear left upper leg block",
+      "from": [
+        1,
+        10,
+        12
+      ],
+      "to": [
+        4,
+        14,
+        15
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            8.25,
+            10.75,
+            9,
+            11.75
+          ],
+          "texture": "#oak"
+        },
+        "south": {
+          "uv": [
+            6.75,
+            10.75,
+            7.5,
+            11.75
+          ],
+          "texture": "#oak"
+        },
+        "east": {
+          "uv": [
+            6,
+            10.75,
+            6.75,
+            11.75
+          ],
+          "texture": "#oak"
+        },
+        "west": {
+          "uv": [
+            7.5,
+            10.75,
+            8.25,
+            11.75
+          ],
+          "texture": "#oak"
+        },
+        "up": {
+          "uv": [
+            6.75,
+            10,
+            7.5,
+            10.75
+          ],
+          "texture": "#oak"
+        },
+        "down": {
+          "uv": [
+            7.5,
+            10,
+            8.25,
+            10.75
+          ],
+          "texture": "#oak"
+        }
+      }
+    },
+    {
+      "name": "Rear right upper leg block",
+      "from": [
+        12,
+        10,
+        12
+      ],
+      "to": [
+        15,
+        14,
+        15
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            11.25,
+            10.75,
+            12,
+            11.75
+          ],
+          "texture": "#oak"
+        },
+        "south": {
+          "uv": [
+            9.75,
+            10.75,
+            10.5,
+            11.75
+          ],
+          "texture": "#oak"
+        },
+        "east": {
+          "uv": [
+            9,
+            10.75,
+            9.75,
+            11.75
+          ],
+          "texture": "#oak"
+        },
+        "west": {
+          "uv": [
+            10.5,
+            10.75,
+            11.25,
+            11.75
+          ],
+          "texture": "#oak"
+        },
+        "up": {
+          "uv": [
+            9.75,
+            10,
+            10.5,
+            10.75
+          ],
+          "texture": "#oak"
+        },
+        "down": {
+          "uv": [
+            10.5,
+            10,
+            11.25,
+            10.75
+          ],
+          "texture": "#oak"
+        }
+      }
+    },
+    {
+      "name": "Front left upper spindle",
+      "from": [
+        1.5,
+        7,
+        1.5
+      ],
+      "to": [
+        3.5,
+        10,
+        3.5
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            1.5,
+            12.25,
+            2,
+            13
+          ],
+          "texture": "#oak"
+        },
+        "south": {
+          "uv": [
+            0.5,
+            12.25,
+            1,
+            13
+          ],
+          "texture": "#oak"
+        },
+        "east": {
+          "uv": [
+            0,
+            12.25,
+            0.5,
+            13
+          ],
+          "texture": "#oak"
+        },
+        "west": {
+          "uv": [
+            1,
+            12.25,
+            1.5,
+            13
+          ],
+          "texture": "#oak"
+        },
+        "up": {
+          "uv": [
+            0.5,
+            11.75,
+            1,
+            12.25
+          ],
+          "texture": "#oak"
+        },
+        "down": {
+          "uv": [
+            1,
+            11.75,
+            1.5,
+            12.25
+          ],
+          "texture": "#oak"
+        }
+      }
+    },
+    {
+      "name": "Front right upper spindle",
+      "from": [
+        12.5,
+        7,
+        1.5
+      ],
+      "to": [
+        14.5,
+        10,
+        3.5
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            3.5,
+            12.25,
+            4,
+            13
+          ],
+          "texture": "#oak"
+        },
+        "south": {
+          "uv": [
+            2.5,
+            12.25,
+            3,
+            13
+          ],
+          "texture": "#oak"
+        },
+        "east": {
+          "uv": [
+            2,
+            12.25,
+            2.5,
+            13
+          ],
+          "texture": "#oak"
+        },
+        "west": {
+          "uv": [
+            3,
+            12.25,
+            3.5,
+            13
+          ],
+          "texture": "#oak"
+        },
+        "up": {
+          "uv": [
+            2.5,
+            11.75,
+            3,
+            12.25
+          ],
+          "texture": "#oak"
+        },
+        "down": {
+          "uv": [
+            3,
+            11.75,
+            3.5,
+            12.25
+          ],
+          "texture": "#oak"
+        }
+      }
+    },
+    {
+      "name": "Rear left upper spindle",
+      "from": [
+        1.5,
+        7,
+        12.5
+      ],
+      "to": [
+        3.5,
+        10,
+        14.5
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            5.5,
+            12.25,
+            6,
+            13
+          ],
+          "texture": "#oak"
+        },
+        "south": {
+          "uv": [
+            4.5,
+            12.25,
+            5,
+            13
+          ],
+          "texture": "#oak"
+        },
+        "east": {
+          "uv": [
+            4,
+            12.25,
+            4.5,
+            13
+          ],
+          "texture": "#oak"
+        },
+        "west": {
+          "uv": [
+            5,
+            12.25,
+            5.5,
+            13
+          ],
+          "texture": "#oak"
+        },
+        "up": {
+          "uv": [
+            4.5,
+            11.75,
+            5,
+            12.25
+          ],
+          "texture": "#oak"
+        },
+        "down": {
+          "uv": [
+            5,
+            11.75,
+            5.5,
+            12.25
+          ],
+          "texture": "#oak"
+        }
+      }
+    },
+    {
+      "name": "Rear right upper spindle",
+      "from": [
+        12.5,
+        7,
+        12.5
+      ],
+      "to": [
+        14.5,
+        10,
+        14.5
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            7.5,
+            12.25,
+            8,
+            13
+          ],
+          "texture": "#oak"
+        },
+        "south": {
+          "uv": [
+            6.5,
+            12.25,
+            7,
+            13
+          ],
+          "texture": "#oak"
+        },
+        "east": {
+          "uv": [
+            6,
+            12.25,
+            6.5,
+            13
+          ],
+          "texture": "#oak"
+        },
+        "west": {
+          "uv": [
+            7,
+            12.25,
+            7.5,
+            13
+          ],
+          "texture": "#oak"
+        },
+        "up": {
+          "uv": [
+            6.5,
+            11.75,
+            7,
+            12.25
+          ],
+          "texture": "#oak"
+        },
+        "down": {
+          "uv": [
+            7,
+            11.75,
+            7.5,
+            12.25
+          ],
+          "texture": "#oak"
+        }
+      }
+    },
+    {
+      "name": "Front left turning",
+      "from": [
+        1,
+        4,
+        1
+      ],
+      "to": [
+        4,
+        7,
+        4
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            2.25,
+            13.75,
+            3,
+            14.5
+          ],
+          "texture": "#oak"
+        },
+        "south": {
+          "uv": [
+            0.75,
+            13.75,
+            1.5,
+            14.5
+          ],
+          "texture": "#oak"
+        },
+        "east": {
+          "uv": [
+            0,
+            13.75,
+            0.75,
+            14.5
+          ],
+          "texture": "#oak"
+        },
+        "west": {
+          "uv": [
+            1.5,
+            13.75,
+            2.25,
+            14.5
+          ],
+          "texture": "#oak"
+        },
+        "up": {
+          "uv": [
+            0.75,
+            13,
+            1.5,
+            13.75
+          ],
+          "texture": "#oak"
+        },
+        "down": {
+          "uv": [
+            1.5,
+            13,
+            2.25,
+            13.75
+          ],
+          "texture": "#oak"
+        }
+      }
+    },
+    {
+      "name": "Front right turning",
+      "from": [
+        12,
+        4,
+        1
+      ],
+      "to": [
+        15,
+        7,
+        4
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            5.25,
+            13.75,
+            6,
+            14.5
+          ],
+          "texture": "#oak"
+        },
+        "south": {
+          "uv": [
+            3.75,
+            13.75,
+            4.5,
+            14.5
+          ],
+          "texture": "#oak"
+        },
+        "east": {
+          "uv": [
+            3,
+            13.75,
+            3.75,
+            14.5
+          ],
+          "texture": "#oak"
+        },
+        "west": {
+          "uv": [
+            4.5,
+            13.75,
+            5.25,
+            14.5
+          ],
+          "texture": "#oak"
+        },
+        "up": {
+          "uv": [
+            3.75,
+            13,
+            4.5,
+            13.75
+          ],
+          "texture": "#oak"
+        },
+        "down": {
+          "uv": [
+            4.5,
+            13,
+            5.25,
+            13.75
+          ],
+          "texture": "#oak"
+        }
+      }
+    },
+    {
+      "name": "Rear left turning",
+      "from": [
+        1,
+        4,
+        12
+      ],
+      "to": [
+        4,
+        7,
+        15
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            8.25,
+            13.75,
+            9,
+            14.5
+          ],
+          "texture": "#oak"
+        },
+        "south": {
+          "uv": [
+            6.75,
+            13.75,
+            7.5,
+            14.5
+          ],
+          "texture": "#oak"
+        },
+        "east": {
+          "uv": [
+            6,
+            13.75,
+            6.75,
+            14.5
+          ],
+          "texture": "#oak"
+        },
+        "west": {
+          "uv": [
+            7.5,
+            13.75,
+            8.25,
+            14.5
+          ],
+          "texture": "#oak"
+        },
+        "up": {
+          "uv": [
+            6.75,
+            13,
+            7.5,
+            13.75
+          ],
+          "texture": "#oak"
+        },
+        "down": {
+          "uv": [
+            7.5,
+            13,
+            8.25,
+            13.75
+          ],
+          "texture": "#oak"
+        }
+      }
+    },
+    {
+      "name": "Rear right turning",
+      "from": [
+        12,
+        4,
+        12
+      ],
+      "to": [
+        15,
+        7,
+        15
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            11.25,
+            13.75,
+            12,
+            14.5
+          ],
+          "texture": "#oak"
+        },
+        "south": {
+          "uv": [
+            9.75,
+            13.75,
+            10.5,
+            14.5
+          ],
+          "texture": "#oak"
+        },
+        "east": {
+          "uv": [
+            9,
+            13.75,
+            9.75,
+            14.5
+          ],
+          "texture": "#oak"
+        },
+        "west": {
+          "uv": [
+            10.5,
+            13.75,
+            11.25,
+            14.5
+          ],
+          "texture": "#oak"
+        },
+        "up": {
+          "uv": [
+            9.75,
+            13,
+            10.5,
+            13.75
+          ],
+          "texture": "#oak"
+        },
+        "down": {
+          "uv": [
+            10.5,
+            13,
+            11.25,
+            13.75
+          ],
+          "texture": "#oak"
+        }
+      }
+    },
+    {
+      "name": "Front left lower spindle",
+      "from": [
+        1.5,
+        1,
+        1.5
+      ],
+      "to": [
+        3.5,
+        4,
+        3.5
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            13.5,
+            10.5,
+            14,
+            11.25
+          ],
+          "texture": "#oak"
+        },
+        "south": {
+          "uv": [
+            12.5,
+            10.5,
+            13,
+            11.25
+          ],
+          "texture": "#oak"
+        },
+        "east": {
+          "uv": [
+            12,
+            10.5,
+            12.5,
+            11.25
+          ],
+          "texture": "#oak"
+        },
+        "west": {
+          "uv": [
+            13,
+            10.5,
+            13.5,
+            11.25
+          ],
+          "texture": "#oak"
+        },
+        "up": {
+          "uv": [
+            12.5,
+            10,
+            13,
+            10.5
+          ],
+          "texture": "#oak"
+        },
+        "down": {
+          "uv": [
+            13,
+            10,
+            13.5,
+            10.5
+          ],
+          "texture": "#oak"
+        }
+      }
+    },
+    {
+      "name": "Front right lower spindle",
+      "from": [
+        12.5,
+        1,
+        1.5
+      ],
+      "to": [
+        14.5,
+        4,
+        3.5
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            15.5,
+            10.5,
+            16,
+            11.25
+          ],
+          "texture": "#oak"
+        },
+        "south": {
+          "uv": [
+            14.5,
+            10.5,
+            15,
+            11.25
+          ],
+          "texture": "#oak"
+        },
+        "east": {
+          "uv": [
+            14,
+            10.5,
+            14.5,
+            11.25
+          ],
+          "texture": "#oak"
+        },
+        "west": {
+          "uv": [
+            15,
+            10.5,
+            15.5,
+            11.25
+          ],
+          "texture": "#oak"
+        },
+        "up": {
+          "uv": [
+            14.5,
+            10,
+            15,
+            10.5
+          ],
+          "texture": "#oak"
+        },
+        "down": {
+          "uv": [
+            15,
+            10,
+            15.5,
+            10.5
+          ],
+          "texture": "#oak"
+        }
+      }
+    },
+    {
+      "name": "Rear left lower spindle",
+      "from": [
+        1.5,
+        1,
+        12.5
+      ],
+      "to": [
+        3.5,
+        4,
+        14.5
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            13.5,
+            11.75,
+            14,
+            12.5
+          ],
+          "texture": "#oak"
+        },
+        "south": {
+          "uv": [
+            12.5,
+            11.75,
+            13,
+            12.5
+          ],
+          "texture": "#oak"
+        },
+        "east": {
+          "uv": [
+            12,
+            11.75,
+            12.5,
+            12.5
+          ],
+          "texture": "#oak"
+        },
+        "west": {
+          "uv": [
+            13,
+            11.75,
+            13.5,
+            12.5
+          ],
+          "texture": "#oak"
+        },
+        "up": {
+          "uv": [
+            12.5,
+            11.25,
+            13,
+            11.75
+          ],
+          "texture": "#oak"
+        },
+        "down": {
+          "uv": [
+            13,
+            11.25,
+            13.5,
+            11.75
+          ],
+          "texture": "#oak"
+        }
+      }
+    },
+    {
+      "name": "Rear right lower spindle",
+      "from": [
+        12.5,
+        1,
+        12.5
+      ],
+      "to": [
+        14.5,
+        4,
+        14.5
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            15.5,
+            11.75,
+            16,
+            12.5
+          ],
+          "texture": "#oak"
+        },
+        "south": {
+          "uv": [
+            14.5,
+            11.75,
+            15,
+            12.5
+          ],
+          "texture": "#oak"
+        },
+        "east": {
+          "uv": [
+            14,
+            11.75,
+            14.5,
+            12.5
+          ],
+          "texture": "#oak"
+        },
+        "west": {
+          "uv": [
+            15,
+            11.75,
+            15.5,
+            12.5
+          ],
+          "texture": "#oak"
+        },
+        "up": {
+          "uv": [
+            14.5,
+            11.25,
+            15,
+            11.75
+          ],
+          "texture": "#oak"
+        },
+        "down": {
+          "uv": [
+            15,
+            11.25,
+            15.5,
+            11.75
+          ],
+          "texture": "#oak"
+        }
+      }
+    },
+    {
+      "name": "Front left square foot",
+      "from": [
+        1,
+        0,
+        1
+      ],
+      "to": [
+        4,
+        1,
+        4
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            2.25,
+            15.5,
+            3,
+            15.75
+          ],
+          "texture": "#oak"
+        },
+        "south": {
+          "uv": [
+            0.75,
+            15.5,
+            1.5,
+            15.75
+          ],
+          "texture": "#oak"
+        },
+        "east": {
+          "uv": [
+            0,
+            15.5,
+            0.75,
+            15.75
+          ],
+          "texture": "#oak"
+        },
+        "west": {
+          "uv": [
+            1.5,
+            15.5,
+            2.25,
+            15.75
+          ],
+          "texture": "#oak"
+        },
+        "up": {
+          "uv": [
+            0.75,
+            14.75,
+            1.5,
+            15.5
+          ],
+          "texture": "#oak"
+        },
+        "down": {
+          "uv": [
+            1.5,
+            14.75,
+            2.25,
+            15.5
+          ],
+          "texture": "#oak"
+        }
+      }
+    },
+    {
+      "name": "Front right square foot",
+      "from": [
+        12,
+        0,
+        1
+      ],
+      "to": [
+        15,
+        1,
+        4
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            5.25,
+            15.5,
+            6,
+            15.75
+          ],
+          "texture": "#oak"
+        },
+        "south": {
+          "uv": [
+            3.75,
+            15.5,
+            4.5,
+            15.75
+          ],
+          "texture": "#oak"
+        },
+        "east": {
+          "uv": [
+            3,
+            15.5,
+            3.75,
+            15.75
+          ],
+          "texture": "#oak"
+        },
+        "west": {
+          "uv": [
+            4.5,
+            15.5,
+            5.25,
+            15.75
+          ],
+          "texture": "#oak"
+        },
+        "up": {
+          "uv": [
+            3.75,
+            14.75,
+            4.5,
+            15.5
+          ],
+          "texture": "#oak"
+        },
+        "down": {
+          "uv": [
+            4.5,
+            14.75,
+            5.25,
+            15.5
+          ],
+          "texture": "#oak"
+        }
+      }
+    },
+    {
+      "name": "Rear left square foot",
+      "from": [
+        1,
+        0,
+        12
+      ],
+      "to": [
+        4,
+        1,
+        15
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            8.25,
+            15.5,
+            9,
+            15.75
+          ],
+          "texture": "#oak"
+        },
+        "south": {
+          "uv": [
+            6.75,
+            15.5,
+            7.5,
+            15.75
+          ],
+          "texture": "#oak"
+        },
+        "east": {
+          "uv": [
+            6,
+            15.5,
+            6.75,
+            15.75
+          ],
+          "texture": "#oak"
+        },
+        "west": {
+          "uv": [
+            7.5,
+            15.5,
+            8.25,
+            15.75
+          ],
+          "texture": "#oak"
+        },
+        "up": {
+          "uv": [
+            6.75,
+            14.75,
+            7.5,
+            15.5
+          ],
+          "texture": "#oak"
+        },
+        "down": {
+          "uv": [
+            7.5,
+            14.75,
+            8.25,
+            15.5
+          ],
+          "texture": "#oak"
+        }
+      }
+    },
+    {
+      "name": "Rear right square foot",
+      "from": [
+        12,
+        0,
+        12
+      ],
+      "to": [
+        15,
+        1,
+        15
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            11.25,
+            15.5,
+            12,
+            15.75
+          ],
+          "texture": "#oak"
+        },
+        "south": {
+          "uv": [
+            9.75,
+            15.5,
+            10.5,
+            15.75
+          ],
+          "texture": "#oak"
+        },
+        "east": {
+          "uv": [
+            9,
+            15.5,
+            9.75,
+            15.75
+          ],
+          "texture": "#oak"
+        },
+        "west": {
+          "uv": [
+            10.5,
+            15.5,
+            11.25,
+            15.75
+          ],
+          "texture": "#oak"
+        },
+        "up": {
+          "uv": [
+            9.75,
+            14.75,
+            10.5,
+            15.5
+          ],
+          "texture": "#oak"
+        },
+        "down": {
+          "uv": [
+            10.5,
+            14.75,
+            11.25,
+            15.5
+          ],
+          "texture": "#oak"
+        }
+      }
+    }
+  ],
+  "display": {
+    "gui": {
+      "rotation": [
+        30,
+        225,
+        0
+      ],
+      "translation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        0.625,
+        0.625,
+        0.625
+      ]
+    },
+    "ground": {
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "translation": [
+        0,
+        3,
+        0
+      ],
+      "scale": [
+        0.25,
+        0.25,
+        0.25
+      ]
+    },
+    "fixed": {
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "translation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        0.5,
+        0.5,
+        0.5
+      ]
+    },
+    "head": {
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "translation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    "thirdperson_righthand": {
+      "rotation": [
+        75,
+        45,
+        0
+      ],
+      "translation": [
+        0,
+        2.5,
+        0
+      ],
+      "scale": [
+        0.375,
+        0.375,
+        0.375
+      ]
+    },
+    "thirdperson_lefthand": {
+      "rotation": [
+        75,
+        45,
+        0
+      ],
+      "translation": [
+        0,
+        2.5,
+        0
+      ],
+      "scale": [
+        0.375,
+        0.375,
+        0.375
+      ]
+    },
+    "firstperson_righthand": {
+      "rotation": [
+        0,
+        45,
+        0
+      ],
+      "translation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        0.4,
+        0.4,
+        0.4
+      ]
+    },
+    "firstperson_lefthand": {
+      "rotation": [
+        0,
+        45,
+        0
+      ],
+      "translation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        0.4,
+        0.4,
+        0.4
+      ]
+    }
+  },
+  "gui_light": "side"
+}

@@ -1,0 +1,1045 @@
+{
+  "credit": "VoxelForge",
+  "textures": {
+    "particle": "voxelforge:item/furniture_picnic_bench_0c298dee/bench",
+    "bench": "voxelforge:item/furniture_picnic_bench_0c298dee/bench"
+  },
+  "elements": [
+    {
+      "name": "front_spruce_seat_plank",
+      "from": [
+        0.5,
+        10,
+        1
+      ],
+      "to": [
+        31.5,
+        12,
+        5
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            4.875,
+            0.5,
+            8.75,
+            0.75
+          ],
+          "texture": "#bench"
+        },
+        "south": {
+          "uv": [
+            0.5,
+            0.5,
+            4.375,
+            0.75
+          ],
+          "texture": "#bench"
+        },
+        "east": {
+          "uv": [
+            0,
+            0.5,
+            0.5,
+            0.75
+          ],
+          "texture": "#bench"
+        },
+        "west": {
+          "uv": [
+            4.375,
+            0.5,
+            4.875,
+            0.75
+          ],
+          "texture": "#bench"
+        },
+        "up": {
+          "uv": [
+            0.5,
+            0,
+            4.375,
+            0.5
+          ],
+          "texture": "#bench"
+        },
+        "down": {
+          "uv": [
+            4.375,
+            0,
+            8.25,
+            0.5
+          ],
+          "texture": "#bench"
+        }
+      }
+    },
+    {
+      "name": "middle_spruce_seat_plank",
+      "from": [
+        0.5,
+        10,
+        5.5
+      ],
+      "to": [
+        31.5,
+        12,
+        9.5
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            4.875,
+            1.25,
+            8.75,
+            1.5
+          ],
+          "texture": "#bench"
+        },
+        "south": {
+          "uv": [
+            0.5,
+            1.25,
+            4.375,
+            1.5
+          ],
+          "texture": "#bench"
+        },
+        "east": {
+          "uv": [
+            0,
+            1.25,
+            0.5,
+            1.5
+          ],
+          "texture": "#bench"
+        },
+        "west": {
+          "uv": [
+            4.375,
+            1.25,
+            4.875,
+            1.5
+          ],
+          "texture": "#bench"
+        },
+        "up": {
+          "uv": [
+            0.5,
+            0.75,
+            4.375,
+            1.25
+          ],
+          "texture": "#bench"
+        },
+        "down": {
+          "uv": [
+            4.375,
+            0.75,
+            8.25,
+            1.25
+          ],
+          "texture": "#bench"
+        }
+      }
+    },
+    {
+      "name": "rear_spruce_seat_plank",
+      "from": [
+        0.5,
+        10,
+        10
+      ],
+      "to": [
+        31.5,
+        12,
+        14
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            4.875,
+            2,
+            8.75,
+            2.25
+          ],
+          "texture": "#bench"
+        },
+        "south": {
+          "uv": [
+            0.5,
+            2,
+            4.375,
+            2.25
+          ],
+          "texture": "#bench"
+        },
+        "east": {
+          "uv": [
+            0,
+            2,
+            0.5,
+            2.25
+          ],
+          "texture": "#bench"
+        },
+        "west": {
+          "uv": [
+            4.375,
+            2,
+            4.875,
+            2.25
+          ],
+          "texture": "#bench"
+        },
+        "up": {
+          "uv": [
+            0.5,
+            1.5,
+            4.375,
+            2
+          ],
+          "texture": "#bench"
+        },
+        "down": {
+          "uv": [
+            4.375,
+            1.5,
+            8.25,
+            2
+          ],
+          "texture": "#bench"
+        }
+      }
+    },
+    {
+      "name": "terracotta_wool_seat_cushion",
+      "from": [
+        1.5,
+        12,
+        1.5
+      ],
+      "to": [
+        30.5,
+        14,
+        13.5
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            6.625,
+            3.75,
+            10.25,
+            4
+          ],
+          "texture": "#bench"
+        },
+        "south": {
+          "uv": [
+            1.5,
+            3.75,
+            5.125,
+            4
+          ],
+          "texture": "#bench"
+        },
+        "east": {
+          "uv": [
+            0,
+            3.75,
+            1.5,
+            4
+          ],
+          "texture": "#bench"
+        },
+        "west": {
+          "uv": [
+            5.125,
+            3.75,
+            6.625,
+            4
+          ],
+          "texture": "#bench"
+        },
+        "up": {
+          "uv": [
+            1.5,
+            2.25,
+            5.125,
+            3.75
+          ],
+          "texture": "#bench"
+        },
+        "down": {
+          "uv": [
+            5.125,
+            2.25,
+            8.75,
+            3.75
+          ],
+          "texture": "#bench"
+        }
+      }
+    },
+    {
+      "name": "left_front_leg",
+      "from": [
+        3,
+        0,
+        2
+      ],
+      "to": [
+        6,
+        10,
+        5
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            1.125,
+            4.375,
+            1.5,
+            5.625
+          ],
+          "texture": "#bench"
+        },
+        "south": {
+          "uv": [
+            0.375,
+            4.375,
+            0.75,
+            5.625
+          ],
+          "texture": "#bench"
+        },
+        "east": {
+          "uv": [
+            0,
+            4.375,
+            0.375,
+            5.625
+          ],
+          "texture": "#bench"
+        },
+        "west": {
+          "uv": [
+            0.75,
+            4.375,
+            1.125,
+            5.625
+          ],
+          "texture": "#bench"
+        },
+        "up": {
+          "uv": [
+            0.375,
+            4,
+            0.75,
+            4.375
+          ],
+          "texture": "#bench"
+        },
+        "down": {
+          "uv": [
+            0.75,
+            4,
+            1.125,
+            4.375
+          ],
+          "texture": "#bench"
+        }
+      }
+    },
+    {
+      "name": "right_front_leg",
+      "from": [
+        26,
+        0,
+        2
+      ],
+      "to": [
+        29,
+        10,
+        5
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            2.625,
+            4.375,
+            3,
+            5.625
+          ],
+          "texture": "#bench"
+        },
+        "south": {
+          "uv": [
+            1.875,
+            4.375,
+            2.25,
+            5.625
+          ],
+          "texture": "#bench"
+        },
+        "east": {
+          "uv": [
+            1.5,
+            4.375,
+            1.875,
+            5.625
+          ],
+          "texture": "#bench"
+        },
+        "west": {
+          "uv": [
+            2.25,
+            4.375,
+            2.625,
+            5.625
+          ],
+          "texture": "#bench"
+        },
+        "up": {
+          "uv": [
+            1.875,
+            4,
+            2.25,
+            4.375
+          ],
+          "texture": "#bench"
+        },
+        "down": {
+          "uv": [
+            2.25,
+            4,
+            2.625,
+            4.375
+          ],
+          "texture": "#bench"
+        }
+      }
+    },
+    {
+      "name": "left_rear_leg",
+      "from": [
+        3,
+        0,
+        11
+      ],
+      "to": [
+        6,
+        10,
+        14
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            4.125,
+            4.375,
+            4.5,
+            5.625
+          ],
+          "texture": "#bench"
+        },
+        "south": {
+          "uv": [
+            3.375,
+            4.375,
+            3.75,
+            5.625
+          ],
+          "texture": "#bench"
+        },
+        "east": {
+          "uv": [
+            3,
+            4.375,
+            3.375,
+            5.625
+          ],
+          "texture": "#bench"
+        },
+        "west": {
+          "uv": [
+            3.75,
+            4.375,
+            4.125,
+            5.625
+          ],
+          "texture": "#bench"
+        },
+        "up": {
+          "uv": [
+            3.375,
+            4,
+            3.75,
+            4.375
+          ],
+          "texture": "#bench"
+        },
+        "down": {
+          "uv": [
+            3.75,
+            4,
+            4.125,
+            4.375
+          ],
+          "texture": "#bench"
+        }
+      }
+    },
+    {
+      "name": "right_rear_leg",
+      "from": [
+        26,
+        0,
+        11
+      ],
+      "to": [
+        29,
+        10,
+        14
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            5.625,
+            4.375,
+            6,
+            5.625
+          ],
+          "texture": "#bench"
+        },
+        "south": {
+          "uv": [
+            4.875,
+            4.375,
+            5.25,
+            5.625
+          ],
+          "texture": "#bench"
+        },
+        "east": {
+          "uv": [
+            4.5,
+            4.375,
+            4.875,
+            5.625
+          ],
+          "texture": "#bench"
+        },
+        "west": {
+          "uv": [
+            5.25,
+            4.375,
+            5.625,
+            5.625
+          ],
+          "texture": "#bench"
+        },
+        "up": {
+          "uv": [
+            4.875,
+            4,
+            5.25,
+            4.375
+          ],
+          "texture": "#bench"
+        },
+        "down": {
+          "uv": [
+            5.25,
+            4,
+            5.625,
+            4.375
+          ],
+          "texture": "#bench"
+        }
+      }
+    },
+    {
+      "name": "front_longitudinal_apron",
+      "from": [
+        5,
+        7,
+        2.25
+      ],
+      "to": [
+        27,
+        9.5,
+        3.25
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            3,
+            5.75,
+            5.75,
+            6.125
+          ],
+          "texture": "#bench"
+        },
+        "south": {
+          "uv": [
+            0.125,
+            5.75,
+            2.875,
+            6.125
+          ],
+          "texture": "#bench"
+        },
+        "east": {
+          "uv": [
+            0,
+            5.75,
+            0.125,
+            6.125
+          ],
+          "texture": "#bench"
+        },
+        "west": {
+          "uv": [
+            2.875,
+            5.75,
+            3,
+            6.125
+          ],
+          "texture": "#bench"
+        },
+        "up": {
+          "uv": [
+            0.125,
+            5.625,
+            2.875,
+            5.75
+          ],
+          "texture": "#bench"
+        },
+        "down": {
+          "uv": [
+            2.875,
+            5.625,
+            5.625,
+            5.75
+          ],
+          "texture": "#bench"
+        }
+      }
+    },
+    {
+      "name": "rear_longitudinal_apron",
+      "from": [
+        5,
+        7,
+        12.25
+      ],
+      "to": [
+        27,
+        9.5,
+        13.25
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            8.75,
+            5.75,
+            11.5,
+            6.125
+          ],
+          "texture": "#bench"
+        },
+        "south": {
+          "uv": [
+            5.875,
+            5.75,
+            8.625,
+            6.125
+          ],
+          "texture": "#bench"
+        },
+        "east": {
+          "uv": [
+            5.75,
+            5.75,
+            5.875,
+            6.125
+          ],
+          "texture": "#bench"
+        },
+        "west": {
+          "uv": [
+            8.625,
+            5.75,
+            8.75,
+            6.125
+          ],
+          "texture": "#bench"
+        },
+        "up": {
+          "uv": [
+            5.875,
+            5.625,
+            8.625,
+            5.75
+          ],
+          "texture": "#bench"
+        },
+        "down": {
+          "uv": [
+            8.625,
+            5.625,
+            11.375,
+            5.75
+          ],
+          "texture": "#bench"
+        }
+      }
+    },
+    {
+      "name": "left_lower_crossrail",
+      "from": [
+        3.25,
+        3,
+        3
+      ],
+      "to": [
+        5.75,
+        5,
+        13
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            2.875,
+            7.375,
+            3.25,
+            7.625
+          ],
+          "texture": "#bench"
+        },
+        "south": {
+          "uv": [
+            1.25,
+            7.375,
+            1.625,
+            7.625
+          ],
+          "texture": "#bench"
+        },
+        "east": {
+          "uv": [
+            0,
+            7.375,
+            1.25,
+            7.625
+          ],
+          "texture": "#bench"
+        },
+        "west": {
+          "uv": [
+            1.625,
+            7.375,
+            2.875,
+            7.625
+          ],
+          "texture": "#bench"
+        },
+        "up": {
+          "uv": [
+            1.25,
+            6.125,
+            1.625,
+            7.375
+          ],
+          "texture": "#bench"
+        },
+        "down": {
+          "uv": [
+            1.625,
+            6.125,
+            2,
+            7.375
+          ],
+          "texture": "#bench"
+        }
+      }
+    },
+    {
+      "name": "right_lower_crossrail",
+      "from": [
+        26.25,
+        3,
+        3
+      ],
+      "to": [
+        28.75,
+        5,
+        13
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            6.125,
+            7.375,
+            6.5,
+            7.625
+          ],
+          "texture": "#bench"
+        },
+        "south": {
+          "uv": [
+            4.5,
+            7.375,
+            4.875,
+            7.625
+          ],
+          "texture": "#bench"
+        },
+        "east": {
+          "uv": [
+            3.25,
+            7.375,
+            4.5,
+            7.625
+          ],
+          "texture": "#bench"
+        },
+        "west": {
+          "uv": [
+            4.875,
+            7.375,
+            6.125,
+            7.625
+          ],
+          "texture": "#bench"
+        },
+        "up": {
+          "uv": [
+            4.5,
+            6.125,
+            4.875,
+            7.375
+          ],
+          "texture": "#bench"
+        },
+        "down": {
+          "uv": [
+            4.875,
+            6.125,
+            5.25,
+            7.375
+          ],
+          "texture": "#bench"
+        }
+      }
+    },
+    {
+      "name": "central_longitudinal_stretcher",
+      "from": [
+        4,
+        3.25,
+        7
+      ],
+      "to": [
+        28,
+        4.75,
+        9
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            10,
+            6.375,
+            13,
+            6.625
+          ],
+          "texture": "#bench"
+        },
+        "south": {
+          "uv": [
+            6.75,
+            6.375,
+            9.75,
+            6.625
+          ],
+          "texture": "#bench"
+        },
+        "east": {
+          "uv": [
+            6.5,
+            6.375,
+            6.75,
+            6.625
+          ],
+          "texture": "#bench"
+        },
+        "west": {
+          "uv": [
+            9.75,
+            6.375,
+            10,
+            6.625
+          ],
+          "texture": "#bench"
+        },
+        "up": {
+          "uv": [
+            6.75,
+            6.125,
+            9.75,
+            6.375
+          ],
+          "texture": "#bench"
+        },
+        "down": {
+          "uv": [
+            9.75,
+            6.125,
+            12.75,
+            6.375
+          ],
+          "texture": "#bench"
+        }
+      }
+    }
+  ],
+  "display": {
+    "gui": {
+      "rotation": [
+        30,
+        225,
+        0
+      ],
+      "translation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        0.625,
+        0.625,
+        0.625
+      ]
+    },
+    "ground": {
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "translation": [
+        0,
+        3,
+        0
+      ],
+      "scale": [
+        0.25,
+        0.25,
+        0.25
+      ]
+    },
+    "fixed": {
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "translation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        0.5,
+        0.5,
+        0.5
+      ]
+    },
+    "head": {
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "translation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    "thirdperson_righthand": {
+      "rotation": [
+        75,
+        45,
+        0
+      ],
+      "translation": [
+        0,
+        2.5,
+        0
+      ],
+      "scale": [
+        0.375,
+        0.375,
+        0.375
+      ]
+    },
+    "thirdperson_lefthand": {
+      "rotation": [
+        75,
+        45,
+        0
+      ],
+      "translation": [
+        0,
+        2.5,
+        0
+      ],
+      "scale": [
+        0.375,
+        0.375,
+        0.375
+      ]
+    },
+    "firstperson_righthand": {
+      "rotation": [
+        0,
+        45,
+        0
+      ],
+      "translation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        0.4,
+        0.4,
+        0.4
+      ]
+    },
+    "firstperson_lefthand": {
+      "rotation": [
+        0,
+        45,
+        0
+      ],
+      "translation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        0.4,
+        0.4,
+        0.4
+      ]
+    }
+  },
+  "gui_light": "side"
+}

@@ -1,0 +1,976 @@
+{
+  "credit": "VoxelForge",
+  "textures": {
+    "particle": "voxelforge:item/furniture_orange_sofa_fe845251/sofa_atlas",
+    "sofa_atlas": "voxelforge:item/furniture_orange_sofa_fe845251/sofa_atlas"
+  },
+  "elements": [
+    {
+      "name": "upholstered_foundation",
+      "from": [
+        1.25,
+        4,
+        1.25
+      ],
+      "to": [
+        30.75,
+        10,
+        14.75
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            7.25,
+            1.75,
+            11,
+            2.5
+          ],
+          "texture": "#sofa_atlas"
+        },
+        "south": {
+          "uv": [
+            1.75,
+            1.75,
+            5.5,
+            2.5
+          ],
+          "texture": "#sofa_atlas"
+        },
+        "east": {
+          "uv": [
+            0,
+            1.75,
+            1.75,
+            2.5
+          ],
+          "texture": "#sofa_atlas"
+        },
+        "west": {
+          "uv": [
+            5.5,
+            1.75,
+            7.25,
+            2.5
+          ],
+          "texture": "#sofa_atlas"
+        },
+        "up": {
+          "uv": [
+            1.75,
+            0,
+            5.5,
+            1.75
+          ],
+          "texture": "#sofa_atlas"
+        },
+        "down": {
+          "uv": [
+            5.5,
+            0,
+            9.25,
+            1.75
+          ],
+          "texture": "#sofa_atlas"
+        }
+      }
+    },
+    {
+      "name": "rear_upholstered_support",
+      "from": [
+        1.28125,
+        7,
+        14
+      ],
+      "to": [
+        30.78125,
+        16,
+        15.75
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            4.25,
+            2.75,
+            8,
+            3.875
+          ],
+          "texture": "#sofa_atlas"
+        },
+        "south": {
+          "uv": [
+            0.25,
+            2.75,
+            4,
+            3.875
+          ],
+          "texture": "#sofa_atlas"
+        },
+        "east": {
+          "uv": [
+            0,
+            2.75,
+            0.25,
+            3.875
+          ],
+          "texture": "#sofa_atlas"
+        },
+        "west": {
+          "uv": [
+            4,
+            2.75,
+            4.25,
+            3.875
+          ],
+          "texture": "#sofa_atlas"
+        },
+        "up": {
+          "uv": [
+            0.25,
+            2.5,
+            4,
+            2.75
+          ],
+          "texture": "#sofa_atlas"
+        },
+        "down": {
+          "uv": [
+            4,
+            2.5,
+            7.75,
+            2.75
+          ],
+          "texture": "#sofa_atlas"
+        }
+      }
+    },
+    {
+      "name": "left_seat_cushion",
+      "from": [
+        4,
+        10,
+        1.25
+      ],
+      "to": [
+        15.75,
+        14,
+        12
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            4.25,
+            5.25,
+            5.75,
+            5.75
+          ],
+          "texture": "#sofa_atlas"
+        },
+        "south": {
+          "uv": [
+            1.375,
+            5.25,
+            2.875,
+            5.75
+          ],
+          "texture": "#sofa_atlas"
+        },
+        "east": {
+          "uv": [
+            0,
+            5.25,
+            1.375,
+            5.75
+          ],
+          "texture": "#sofa_atlas"
+        },
+        "west": {
+          "uv": [
+            2.875,
+            5.25,
+            4.25,
+            5.75
+          ],
+          "texture": "#sofa_atlas"
+        },
+        "up": {
+          "uv": [
+            1.375,
+            3.875,
+            2.875,
+            5.25
+          ],
+          "texture": "#sofa_atlas"
+        },
+        "down": {
+          "uv": [
+            2.875,
+            3.875,
+            4.375,
+            5.25
+          ],
+          "texture": "#sofa_atlas"
+        }
+      }
+    },
+    {
+      "name": "right_seat_cushion",
+      "from": [
+        16.25,
+        10,
+        1.25
+      ],
+      "to": [
+        28,
+        14,
+        12
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            10,
+            5.25,
+            11.5,
+            5.75
+          ],
+          "texture": "#sofa_atlas"
+        },
+        "south": {
+          "uv": [
+            7.125,
+            5.25,
+            8.625,
+            5.75
+          ],
+          "texture": "#sofa_atlas"
+        },
+        "east": {
+          "uv": [
+            5.75,
+            5.25,
+            7.125,
+            5.75
+          ],
+          "texture": "#sofa_atlas"
+        },
+        "west": {
+          "uv": [
+            8.625,
+            5.25,
+            10,
+            5.75
+          ],
+          "texture": "#sofa_atlas"
+        },
+        "up": {
+          "uv": [
+            7.125,
+            3.875,
+            8.625,
+            5.25
+          ],
+          "texture": "#sofa_atlas"
+        },
+        "down": {
+          "uv": [
+            8.625,
+            3.875,
+            10.125,
+            5.25
+          ],
+          "texture": "#sofa_atlas"
+        }
+      }
+    },
+    {
+      "name": "left_padded_arm",
+      "from": [
+        0.25,
+        8,
+        0.25
+      ],
+      "to": [
+        4,
+        15.5,
+        14
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            15,
+            1.75,
+            15.5,
+            2.75
+          ],
+          "texture": "#sofa_atlas"
+        },
+        "south": {
+          "uv": [
+            12.75,
+            1.75,
+            13.25,
+            2.75
+          ],
+          "texture": "#sofa_atlas"
+        },
+        "east": {
+          "uv": [
+            11,
+            1.75,
+            12.75,
+            2.75
+          ],
+          "texture": "#sofa_atlas"
+        },
+        "west": {
+          "uv": [
+            13.25,
+            1.75,
+            15,
+            2.75
+          ],
+          "texture": "#sofa_atlas"
+        },
+        "up": {
+          "uv": [
+            12.75,
+            0,
+            13.25,
+            1.75
+          ],
+          "texture": "#sofa_atlas"
+        },
+        "down": {
+          "uv": [
+            13.25,
+            0,
+            13.75,
+            1.75
+          ],
+          "texture": "#sofa_atlas"
+        }
+      }
+    },
+    {
+      "name": "right_padded_arm",
+      "from": [
+        28,
+        8,
+        0.25
+      ],
+      "to": [
+        31.75,
+        15.5,
+        14
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            15.5,
+            4.5,
+            16,
+            5.5
+          ],
+          "texture": "#sofa_atlas"
+        },
+        "south": {
+          "uv": [
+            13.25,
+            4.5,
+            13.75,
+            5.5
+          ],
+          "texture": "#sofa_atlas"
+        },
+        "east": {
+          "uv": [
+            11.5,
+            4.5,
+            13.25,
+            5.5
+          ],
+          "texture": "#sofa_atlas"
+        },
+        "west": {
+          "uv": [
+            13.75,
+            4.5,
+            15.5,
+            5.5
+          ],
+          "texture": "#sofa_atlas"
+        },
+        "up": {
+          "uv": [
+            13.25,
+            2.75,
+            13.75,
+            4.5
+          ],
+          "texture": "#sofa_atlas"
+        },
+        "down": {
+          "uv": [
+            13.75,
+            2.75,
+            14.25,
+            4.5
+          ],
+          "texture": "#sofa_atlas"
+        }
+      }
+    },
+    {
+      "name": "left_low_back_pad",
+      "from": [
+        4,
+        10,
+        12
+      ],
+      "to": [
+        15.875,
+        16,
+        14
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            2,
+            6,
+            3.5,
+            6.75
+          ],
+          "texture": "#sofa_atlas"
+        },
+        "south": {
+          "uv": [
+            0.25,
+            6,
+            1.75,
+            6.75
+          ],
+          "texture": "#sofa_atlas"
+        },
+        "east": {
+          "uv": [
+            0,
+            6,
+            0.25,
+            6.75
+          ],
+          "texture": "#sofa_atlas"
+        },
+        "west": {
+          "uv": [
+            1.75,
+            6,
+            2,
+            6.75
+          ],
+          "texture": "#sofa_atlas"
+        },
+        "up": {
+          "uv": [
+            0.25,
+            5.75,
+            1.75,
+            6
+          ],
+          "texture": "#sofa_atlas"
+        },
+        "down": {
+          "uv": [
+            1.75,
+            5.75,
+            3.25,
+            6
+          ],
+          "texture": "#sofa_atlas"
+        }
+      }
+    },
+    {
+      "name": "right_low_back_pad",
+      "from": [
+        16.125,
+        10,
+        12
+      ],
+      "to": [
+        28,
+        16,
+        14
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            5.5,
+            6,
+            7,
+            6.75
+          ],
+          "texture": "#sofa_atlas"
+        },
+        "south": {
+          "uv": [
+            3.75,
+            6,
+            5.25,
+            6.75
+          ],
+          "texture": "#sofa_atlas"
+        },
+        "east": {
+          "uv": [
+            3.5,
+            6,
+            3.75,
+            6.75
+          ],
+          "texture": "#sofa_atlas"
+        },
+        "west": {
+          "uv": [
+            5.25,
+            6,
+            5.5,
+            6.75
+          ],
+          "texture": "#sofa_atlas"
+        },
+        "up": {
+          "uv": [
+            3.75,
+            5.75,
+            5.25,
+            6
+          ],
+          "texture": "#sofa_atlas"
+        },
+        "down": {
+          "uv": [
+            5.25,
+            5.75,
+            6.75,
+            6
+          ],
+          "texture": "#sofa_atlas"
+        }
+      }
+    },
+    {
+      "name": "front_left_wooden_foot",
+      "from": [
+        2,
+        0,
+        2
+      ],
+      "to": [
+        5,
+        4,
+        5
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            1.125,
+            7.25,
+            1.5,
+            7.75
+          ],
+          "texture": "#sofa_atlas"
+        },
+        "south": {
+          "uv": [
+            0.375,
+            7.25,
+            0.75,
+            7.75
+          ],
+          "texture": "#sofa_atlas"
+        },
+        "east": {
+          "uv": [
+            0,
+            7.25,
+            0.375,
+            7.75
+          ],
+          "texture": "#sofa_atlas"
+        },
+        "west": {
+          "uv": [
+            0.75,
+            7.25,
+            1.125,
+            7.75
+          ],
+          "texture": "#sofa_atlas"
+        },
+        "up": {
+          "uv": [
+            0.375,
+            6.875,
+            0.75,
+            7.25
+          ],
+          "texture": "#sofa_atlas"
+        },
+        "down": {
+          "uv": [
+            0.75,
+            6.875,
+            1.125,
+            7.25
+          ],
+          "texture": "#sofa_atlas"
+        }
+      }
+    },
+    {
+      "name": "front_right_wooden_foot",
+      "from": [
+        27,
+        0,
+        2
+      ],
+      "to": [
+        30,
+        4,
+        5
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            2.625,
+            7.25,
+            3,
+            7.75
+          ],
+          "texture": "#sofa_atlas"
+        },
+        "south": {
+          "uv": [
+            1.875,
+            7.25,
+            2.25,
+            7.75
+          ],
+          "texture": "#sofa_atlas"
+        },
+        "east": {
+          "uv": [
+            1.5,
+            7.25,
+            1.875,
+            7.75
+          ],
+          "texture": "#sofa_atlas"
+        },
+        "west": {
+          "uv": [
+            2.25,
+            7.25,
+            2.625,
+            7.75
+          ],
+          "texture": "#sofa_atlas"
+        },
+        "up": {
+          "uv": [
+            1.875,
+            6.875,
+            2.25,
+            7.25
+          ],
+          "texture": "#sofa_atlas"
+        },
+        "down": {
+          "uv": [
+            2.25,
+            6.875,
+            2.625,
+            7.25
+          ],
+          "texture": "#sofa_atlas"
+        }
+      }
+    },
+    {
+      "name": "rear_left_wooden_foot",
+      "from": [
+        2,
+        0,
+        11
+      ],
+      "to": [
+        5,
+        4,
+        14
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            4.125,
+            7.25,
+            4.5,
+            7.75
+          ],
+          "texture": "#sofa_atlas"
+        },
+        "south": {
+          "uv": [
+            3.375,
+            7.25,
+            3.75,
+            7.75
+          ],
+          "texture": "#sofa_atlas"
+        },
+        "east": {
+          "uv": [
+            3,
+            7.25,
+            3.375,
+            7.75
+          ],
+          "texture": "#sofa_atlas"
+        },
+        "west": {
+          "uv": [
+            3.75,
+            7.25,
+            4.125,
+            7.75
+          ],
+          "texture": "#sofa_atlas"
+        },
+        "up": {
+          "uv": [
+            3.375,
+            6.875,
+            3.75,
+            7.25
+          ],
+          "texture": "#sofa_atlas"
+        },
+        "down": {
+          "uv": [
+            3.75,
+            6.875,
+            4.125,
+            7.25
+          ],
+          "texture": "#sofa_atlas"
+        }
+      }
+    },
+    {
+      "name": "rear_right_wooden_foot",
+      "from": [
+        27,
+        0,
+        11
+      ],
+      "to": [
+        30,
+        4,
+        14
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            5.625,
+            7.25,
+            6,
+            7.75
+          ],
+          "texture": "#sofa_atlas"
+        },
+        "south": {
+          "uv": [
+            4.875,
+            7.25,
+            5.25,
+            7.75
+          ],
+          "texture": "#sofa_atlas"
+        },
+        "east": {
+          "uv": [
+            4.5,
+            7.25,
+            4.875,
+            7.75
+          ],
+          "texture": "#sofa_atlas"
+        },
+        "west": {
+          "uv": [
+            5.25,
+            7.25,
+            5.625,
+            7.75
+          ],
+          "texture": "#sofa_atlas"
+        },
+        "up": {
+          "uv": [
+            4.875,
+            6.875,
+            5.25,
+            7.25
+          ],
+          "texture": "#sofa_atlas"
+        },
+        "down": {
+          "uv": [
+            5.25,
+            6.875,
+            5.625,
+            7.25
+          ],
+          "texture": "#sofa_atlas"
+        }
+      }
+    }
+  ],
+  "display": {
+    "gui": {
+      "rotation": [
+        30,
+        225,
+        0
+      ],
+      "translation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        0.625,
+        0.625,
+        0.625
+      ]
+    },
+    "ground": {
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "translation": [
+        0,
+        3,
+        0
+      ],
+      "scale": [
+        0.25,
+        0.25,
+        0.25
+      ]
+    },
+    "fixed": {
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "translation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        0.5,
+        0.5,
+        0.5
+      ]
+    },
+    "head": {
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "translation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    "thirdperson_righthand": {
+      "rotation": [
+        75,
+        45,
+        0
+      ],
+      "translation": [
+        0,
+        2.5,
+        0
+      ],
+      "scale": [
+        0.375,
+        0.375,
+        0.375
+      ]
+    },
+    "thirdperson_lefthand": {
+      "rotation": [
+        75,
+        45,
+        0
+      ],
+      "translation": [
+        0,
+        2.5,
+        0
+      ],
+      "scale": [
+        0.375,
+        0.375,
+        0.375
+      ]
+    },
+    "firstperson_righthand": {
+      "rotation": [
+        0,
+        45,
+        0
+      ],
+      "translation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        0.4,
+        0.4,
+        0.4
+      ]
+    },
+    "firstperson_lefthand": {
+      "rotation": [
+        0,
+        45,
+        0
+      ],
+      "translation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        0.4,
+        0.4,
+        0.4
+      ]
+    }
+  },
+  "gui_light": "side"
+}

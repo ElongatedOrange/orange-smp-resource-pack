@@ -1,0 +1,976 @@
+{
+  "credit": "VoxelForge",
+  "textures": {
+    "particle": "voxelforge:item/furniture_cream_sofa_394eebfc/main",
+    "main": "voxelforge:item/furniture_cream_sofa_394eebfc/main"
+  },
+  "elements": [
+    {
+      "name": "Cream upholstered foundation",
+      "from": [
+        1,
+        4,
+        1
+      ],
+      "to": [
+        31,
+        10,
+        15
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            7.25,
+            1.75,
+            11,
+            2.5
+          ],
+          "texture": "#main"
+        },
+        "south": {
+          "uv": [
+            1.75,
+            1.75,
+            5.5,
+            2.5
+          ],
+          "texture": "#main"
+        },
+        "east": {
+          "uv": [
+            0,
+            1.75,
+            1.75,
+            2.5
+          ],
+          "texture": "#main"
+        },
+        "west": {
+          "uv": [
+            5.5,
+            1.75,
+            7.25,
+            2.5
+          ],
+          "texture": "#main"
+        },
+        "up": {
+          "uv": [
+            1.75,
+            0,
+            5.5,
+            1.75
+          ],
+          "texture": "#main"
+        },
+        "down": {
+          "uv": [
+            5.5,
+            0,
+            9.25,
+            1.75
+          ],
+          "texture": "#main"
+        }
+      }
+    },
+    {
+      "name": "Cream low upholstered back",
+      "from": [
+        0.75,
+        9,
+        13
+      ],
+      "to": [
+        31.25,
+        16,
+        15.75
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            4.625,
+            2.875,
+            8.5,
+            3.75
+          ],
+          "texture": "#main"
+        },
+        "south": {
+          "uv": [
+            0.375,
+            2.875,
+            4.25,
+            3.75
+          ],
+          "texture": "#main"
+        },
+        "east": {
+          "uv": [
+            0,
+            2.875,
+            0.375,
+            3.75
+          ],
+          "texture": "#main"
+        },
+        "west": {
+          "uv": [
+            4.25,
+            2.875,
+            4.625,
+            3.75
+          ],
+          "texture": "#main"
+        },
+        "up": {
+          "uv": [
+            0.375,
+            2.5,
+            4.25,
+            2.875
+          ],
+          "texture": "#main"
+        },
+        "down": {
+          "uv": [
+            4.25,
+            2.5,
+            8.125,
+            2.875
+          ],
+          "texture": "#main"
+        }
+      }
+    },
+    {
+      "name": "Cream left broad arm",
+      "from": [
+        0.25,
+        6,
+        0.25
+      ],
+      "to": [
+        3,
+        15.5,
+        13.5
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            3.875,
+            5.5,
+            4.25,
+            6.75
+          ],
+          "texture": "#main"
+        },
+        "south": {
+          "uv": [
+            1.75,
+            5.5,
+            2.125,
+            6.75
+          ],
+          "texture": "#main"
+        },
+        "east": {
+          "uv": [
+            0,
+            5.5,
+            1.75,
+            6.75
+          ],
+          "texture": "#main"
+        },
+        "west": {
+          "uv": [
+            2.125,
+            5.5,
+            3.875,
+            6.75
+          ],
+          "texture": "#main"
+        },
+        "up": {
+          "uv": [
+            1.75,
+            3.75,
+            2.125,
+            5.5
+          ],
+          "texture": "#main"
+        },
+        "down": {
+          "uv": [
+            2.125,
+            3.75,
+            2.5,
+            5.5
+          ],
+          "texture": "#main"
+        }
+      }
+    },
+    {
+      "name": "Cream right broad arm",
+      "from": [
+        29,
+        6,
+        0.25
+      ],
+      "to": [
+        31.75,
+        15.5,
+        13.5
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            8.125,
+            5.5,
+            8.5,
+            6.75
+          ],
+          "texture": "#main"
+        },
+        "south": {
+          "uv": [
+            6,
+            5.5,
+            6.375,
+            6.75
+          ],
+          "texture": "#main"
+        },
+        "east": {
+          "uv": [
+            4.25,
+            5.5,
+            6,
+            6.75
+          ],
+          "texture": "#main"
+        },
+        "west": {
+          "uv": [
+            6.375,
+            5.5,
+            8.125,
+            6.75
+          ],
+          "texture": "#main"
+        },
+        "up": {
+          "uv": [
+            6,
+            3.75,
+            6.375,
+            5.5
+          ],
+          "texture": "#main"
+        },
+        "down": {
+          "uv": [
+            6.375,
+            3.75,
+            6.75,
+            5.5
+          ],
+          "texture": "#main"
+        }
+      }
+    },
+    {
+      "name": "Cream left seat cushion",
+      "from": [
+        3,
+        10,
+        1
+      ],
+      "to": [
+        15.875,
+        14,
+        12.75
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            4.625,
+            8.25,
+            6.25,
+            8.75
+          ],
+          "texture": "#main"
+        },
+        "south": {
+          "uv": [
+            1.5,
+            8.25,
+            3.125,
+            8.75
+          ],
+          "texture": "#main"
+        },
+        "east": {
+          "uv": [
+            0,
+            8.25,
+            1.5,
+            8.75
+          ],
+          "texture": "#main"
+        },
+        "west": {
+          "uv": [
+            3.125,
+            8.25,
+            4.625,
+            8.75
+          ],
+          "texture": "#main"
+        },
+        "up": {
+          "uv": [
+            1.5,
+            6.75,
+            3.125,
+            8.25
+          ],
+          "texture": "#main"
+        },
+        "down": {
+          "uv": [
+            3.125,
+            6.75,
+            4.75,
+            8.25
+          ],
+          "texture": "#main"
+        }
+      }
+    },
+    {
+      "name": "Cream right seat cushion",
+      "from": [
+        16.125,
+        10,
+        1
+      ],
+      "to": [
+        29,
+        14,
+        12.75
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            10.875,
+            8.25,
+            12.5,
+            8.75
+          ],
+          "texture": "#main"
+        },
+        "south": {
+          "uv": [
+            7.75,
+            8.25,
+            9.375,
+            8.75
+          ],
+          "texture": "#main"
+        },
+        "east": {
+          "uv": [
+            6.25,
+            8.25,
+            7.75,
+            8.75
+          ],
+          "texture": "#main"
+        },
+        "west": {
+          "uv": [
+            9.375,
+            8.25,
+            10.875,
+            8.75
+          ],
+          "texture": "#main"
+        },
+        "up": {
+          "uv": [
+            7.75,
+            6.75,
+            9.375,
+            8.25
+          ],
+          "texture": "#main"
+        },
+        "down": {
+          "uv": [
+            9.375,
+            6.75,
+            11,
+            8.25
+          ],
+          "texture": "#main"
+        }
+      }
+    },
+    {
+      "name": "Sage left lumbar cushion",
+      "from": [
+        4,
+        14,
+        10.5
+      ],
+      "to": [
+        15,
+        16,
+        13
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            10.625,
+            2.875,
+            12,
+            3.125
+          ],
+          "texture": "#main"
+        },
+        "south": {
+          "uv": [
+            8.875,
+            2.875,
+            10.25,
+            3.125
+          ],
+          "texture": "#main"
+        },
+        "east": {
+          "uv": [
+            8.5,
+            2.875,
+            8.875,
+            3.125
+          ],
+          "texture": "#main"
+        },
+        "west": {
+          "uv": [
+            10.25,
+            2.875,
+            10.625,
+            3.125
+          ],
+          "texture": "#main"
+        },
+        "up": {
+          "uv": [
+            8.875,
+            2.5,
+            10.25,
+            2.875
+          ],
+          "texture": "#main"
+        },
+        "down": {
+          "uv": [
+            10.25,
+            2.5,
+            11.625,
+            2.875
+          ],
+          "texture": "#main"
+        }
+      }
+    },
+    {
+      "name": "Sage right lumbar cushion",
+      "from": [
+        17,
+        14,
+        10.5
+      ],
+      "to": [
+        28,
+        16,
+        13
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            14.125,
+            2.875,
+            15.5,
+            3.125
+          ],
+          "texture": "#main"
+        },
+        "south": {
+          "uv": [
+            12.375,
+            2.875,
+            13.75,
+            3.125
+          ],
+          "texture": "#main"
+        },
+        "east": {
+          "uv": [
+            12,
+            2.875,
+            12.375,
+            3.125
+          ],
+          "texture": "#main"
+        },
+        "west": {
+          "uv": [
+            13.75,
+            2.875,
+            14.125,
+            3.125
+          ],
+          "texture": "#main"
+        },
+        "up": {
+          "uv": [
+            12.375,
+            2.5,
+            13.75,
+            2.875
+          ],
+          "texture": "#main"
+        },
+        "down": {
+          "uv": [
+            13.75,
+            2.5,
+            15.125,
+            2.875
+          ],
+          "texture": "#main"
+        }
+      }
+    },
+    {
+      "name": "Oak front left foot",
+      "from": [
+        2,
+        0,
+        2
+      ],
+      "to": [
+        5,
+        4,
+        5
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            1.125,
+            9.375,
+            1.5,
+            9.875
+          ],
+          "texture": "#main"
+        },
+        "south": {
+          "uv": [
+            0.375,
+            9.375,
+            0.75,
+            9.875
+          ],
+          "texture": "#main"
+        },
+        "east": {
+          "uv": [
+            0,
+            9.375,
+            0.375,
+            9.875
+          ],
+          "texture": "#main"
+        },
+        "west": {
+          "uv": [
+            0.75,
+            9.375,
+            1.125,
+            9.875
+          ],
+          "texture": "#main"
+        },
+        "up": {
+          "uv": [
+            0.375,
+            9,
+            0.75,
+            9.375
+          ],
+          "texture": "#main"
+        },
+        "down": {
+          "uv": [
+            0.75,
+            9,
+            1.125,
+            9.375
+          ],
+          "texture": "#main"
+        }
+      }
+    },
+    {
+      "name": "Oak front right foot",
+      "from": [
+        27,
+        0,
+        2
+      ],
+      "to": [
+        30,
+        4,
+        5
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            2.625,
+            9.375,
+            3,
+            9.875
+          ],
+          "texture": "#main"
+        },
+        "south": {
+          "uv": [
+            1.875,
+            9.375,
+            2.25,
+            9.875
+          ],
+          "texture": "#main"
+        },
+        "east": {
+          "uv": [
+            1.5,
+            9.375,
+            1.875,
+            9.875
+          ],
+          "texture": "#main"
+        },
+        "west": {
+          "uv": [
+            2.25,
+            9.375,
+            2.625,
+            9.875
+          ],
+          "texture": "#main"
+        },
+        "up": {
+          "uv": [
+            1.875,
+            9,
+            2.25,
+            9.375
+          ],
+          "texture": "#main"
+        },
+        "down": {
+          "uv": [
+            2.25,
+            9,
+            2.625,
+            9.375
+          ],
+          "texture": "#main"
+        }
+      }
+    },
+    {
+      "name": "Oak rear left foot",
+      "from": [
+        2,
+        0,
+        11
+      ],
+      "to": [
+        5,
+        4,
+        14
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            4.125,
+            9.375,
+            4.5,
+            9.875
+          ],
+          "texture": "#main"
+        },
+        "south": {
+          "uv": [
+            3.375,
+            9.375,
+            3.75,
+            9.875
+          ],
+          "texture": "#main"
+        },
+        "east": {
+          "uv": [
+            3,
+            9.375,
+            3.375,
+            9.875
+          ],
+          "texture": "#main"
+        },
+        "west": {
+          "uv": [
+            3.75,
+            9.375,
+            4.125,
+            9.875
+          ],
+          "texture": "#main"
+        },
+        "up": {
+          "uv": [
+            3.375,
+            9,
+            3.75,
+            9.375
+          ],
+          "texture": "#main"
+        },
+        "down": {
+          "uv": [
+            3.75,
+            9,
+            4.125,
+            9.375
+          ],
+          "texture": "#main"
+        }
+      }
+    },
+    {
+      "name": "Oak rear right foot",
+      "from": [
+        27,
+        0,
+        11
+      ],
+      "to": [
+        30,
+        4,
+        14
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            5.625,
+            9.375,
+            6,
+            9.875
+          ],
+          "texture": "#main"
+        },
+        "south": {
+          "uv": [
+            4.875,
+            9.375,
+            5.25,
+            9.875
+          ],
+          "texture": "#main"
+        },
+        "east": {
+          "uv": [
+            4.5,
+            9.375,
+            4.875,
+            9.875
+          ],
+          "texture": "#main"
+        },
+        "west": {
+          "uv": [
+            5.25,
+            9.375,
+            5.625,
+            9.875
+          ],
+          "texture": "#main"
+        },
+        "up": {
+          "uv": [
+            4.875,
+            9,
+            5.25,
+            9.375
+          ],
+          "texture": "#main"
+        },
+        "down": {
+          "uv": [
+            5.25,
+            9,
+            5.625,
+            9.375
+          ],
+          "texture": "#main"
+        }
+      }
+    }
+  ],
+  "display": {
+    "gui": {
+      "rotation": [
+        30,
+        225,
+        0
+      ],
+      "translation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        0.625,
+        0.625,
+        0.625
+      ]
+    },
+    "ground": {
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "translation": [
+        0,
+        3,
+        0
+      ],
+      "scale": [
+        0.25,
+        0.25,
+        0.25
+      ]
+    },
+    "fixed": {
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "translation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        0.5,
+        0.5,
+        0.5
+      ]
+    },
+    "head": {
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "translation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    "thirdperson_righthand": {
+      "rotation": [
+        75,
+        45,
+        0
+      ],
+      "translation": [
+        0,
+        2.5,
+        0
+      ],
+      "scale": [
+        0.375,
+        0.375,
+        0.375
+      ]
+    },
+    "thirdperson_lefthand": {
+      "rotation": [
+        75,
+        45,
+        0
+      ],
+      "translation": [
+        0,
+        2.5,
+        0
+      ],
+      "scale": [
+        0.375,
+        0.375,
+        0.375
+      ]
+    },
+    "firstperson_righthand": {
+      "rotation": [
+        0,
+        45,
+        0
+      ],
+      "translation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        0.4,
+        0.4,
+        0.4
+      ]
+    },
+    "firstperson_lefthand": {
+      "rotation": [
+        0,
+        45,
+        0
+      ],
+      "translation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        0.4,
+        0.4,
+        0.4
+      ]
+    }
+  },
+  "gui_light": "side"
+}

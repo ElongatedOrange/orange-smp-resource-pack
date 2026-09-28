@@ -1,0 +1,1597 @@
+{
+  "credit": "VoxelForge",
+  "textures": {
+    "particle": "voxelforge:item/furniture_washstand_5b649205/washstand",
+    "washstand": "voxelforge:item/furniture_washstand_5b649205/washstand"
+  },
+  "elements": [
+    {
+      "name": "oak_countertop",
+      "from": [
+        0.75,
+        9,
+        0.75
+      ],
+      "to": [
+        15.25,
+        10,
+        15.25
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            5.625,
+            1.875,
+            7.5,
+            2
+          ],
+          "texture": "#washstand"
+        },
+        "south": {
+          "uv": [
+            1.875,
+            1.875,
+            3.75,
+            2
+          ],
+          "texture": "#washstand"
+        },
+        "east": {
+          "uv": [
+            0,
+            1.875,
+            1.875,
+            2
+          ],
+          "texture": "#washstand"
+        },
+        "west": {
+          "uv": [
+            3.75,
+            1.875,
+            5.625,
+            2
+          ],
+          "texture": "#washstand"
+        },
+        "up": {
+          "uv": [
+            1.875,
+            0,
+            3.75,
+            1.875
+          ],
+          "texture": "#washstand"
+        },
+        "down": {
+          "uv": [
+            3.75,
+            0,
+            5.625,
+            1.875
+          ],
+          "texture": "#washstand"
+        }
+      }
+    },
+    {
+      "name": "oak_lower_shelf",
+      "from": [
+        2,
+        2,
+        3
+      ],
+      "to": [
+        14,
+        3,
+        13
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            12,
+            1.25,
+            13.5,
+            1.375
+          ],
+          "texture": "#washstand"
+        },
+        "south": {
+          "uv": [
+            9.25,
+            1.25,
+            10.75,
+            1.375
+          ],
+          "texture": "#washstand"
+        },
+        "east": {
+          "uv": [
+            8,
+            1.25,
+            9.25,
+            1.375
+          ],
+          "texture": "#washstand"
+        },
+        "west": {
+          "uv": [
+            10.75,
+            1.25,
+            12,
+            1.375
+          ],
+          "texture": "#washstand"
+        },
+        "up": {
+          "uv": [
+            9.25,
+            0,
+            10.75,
+            1.25
+          ],
+          "texture": "#washstand"
+        },
+        "down": {
+          "uv": [
+            10.75,
+            0,
+            12.25,
+            1.25
+          ],
+          "texture": "#washstand"
+        }
+      }
+    },
+    {
+      "name": "front_left_leg",
+      "from": [
+        1.5,
+        0,
+        1.5
+      ],
+      "to": [
+        3,
+        9,
+        3
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            0.75,
+            2.5,
+            1,
+            3.625
+          ],
+          "texture": "#washstand"
+        },
+        "south": {
+          "uv": [
+            0.25,
+            2.5,
+            0.5,
+            3.625
+          ],
+          "texture": "#washstand"
+        },
+        "east": {
+          "uv": [
+            0,
+            2.5,
+            0.25,
+            3.625
+          ],
+          "texture": "#washstand"
+        },
+        "west": {
+          "uv": [
+            0.5,
+            2.5,
+            0.75,
+            3.625
+          ],
+          "texture": "#washstand"
+        },
+        "up": {
+          "uv": [
+            0.25,
+            2.25,
+            0.5,
+            2.5
+          ],
+          "texture": "#washstand"
+        },
+        "down": {
+          "uv": [
+            0.5,
+            2.25,
+            0.75,
+            2.5
+          ],
+          "texture": "#washstand"
+        }
+      }
+    },
+    {
+      "name": "front_right_leg",
+      "from": [
+        13,
+        0,
+        1.5
+      ],
+      "to": [
+        14.5,
+        9,
+        3
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            1.75,
+            2.5,
+            2,
+            3.625
+          ],
+          "texture": "#washstand"
+        },
+        "south": {
+          "uv": [
+            1.25,
+            2.5,
+            1.5,
+            3.625
+          ],
+          "texture": "#washstand"
+        },
+        "east": {
+          "uv": [
+            1,
+            2.5,
+            1.25,
+            3.625
+          ],
+          "texture": "#washstand"
+        },
+        "west": {
+          "uv": [
+            1.5,
+            2.5,
+            1.75,
+            3.625
+          ],
+          "texture": "#washstand"
+        },
+        "up": {
+          "uv": [
+            1.25,
+            2.25,
+            1.5,
+            2.5
+          ],
+          "texture": "#washstand"
+        },
+        "down": {
+          "uv": [
+            1.5,
+            2.25,
+            1.75,
+            2.5
+          ],
+          "texture": "#washstand"
+        }
+      }
+    },
+    {
+      "name": "back_left_leg",
+      "from": [
+        1.5,
+        0,
+        13
+      ],
+      "to": [
+        3,
+        9,
+        14.5
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            2.75,
+            2.5,
+            3,
+            3.625
+          ],
+          "texture": "#washstand"
+        },
+        "south": {
+          "uv": [
+            2.25,
+            2.5,
+            2.5,
+            3.625
+          ],
+          "texture": "#washstand"
+        },
+        "east": {
+          "uv": [
+            2,
+            2.5,
+            2.25,
+            3.625
+          ],
+          "texture": "#washstand"
+        },
+        "west": {
+          "uv": [
+            2.5,
+            2.5,
+            2.75,
+            3.625
+          ],
+          "texture": "#washstand"
+        },
+        "up": {
+          "uv": [
+            2.25,
+            2.25,
+            2.5,
+            2.5
+          ],
+          "texture": "#washstand"
+        },
+        "down": {
+          "uv": [
+            2.5,
+            2.25,
+            2.75,
+            2.5
+          ],
+          "texture": "#washstand"
+        }
+      }
+    },
+    {
+      "name": "back_right_leg",
+      "from": [
+        13,
+        0,
+        13
+      ],
+      "to": [
+        14.5,
+        9,
+        14.5
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            3.75,
+            2.5,
+            4,
+            3.625
+          ],
+          "texture": "#washstand"
+        },
+        "south": {
+          "uv": [
+            3.25,
+            2.5,
+            3.5,
+            3.625
+          ],
+          "texture": "#washstand"
+        },
+        "east": {
+          "uv": [
+            3,
+            2.5,
+            3.25,
+            3.625
+          ],
+          "texture": "#washstand"
+        },
+        "west": {
+          "uv": [
+            3.5,
+            2.5,
+            3.75,
+            3.625
+          ],
+          "texture": "#washstand"
+        },
+        "up": {
+          "uv": [
+            3.25,
+            2.25,
+            3.5,
+            2.5
+          ],
+          "texture": "#washstand"
+        },
+        "down": {
+          "uv": [
+            3.5,
+            2.25,
+            3.75,
+            2.5
+          ],
+          "texture": "#washstand"
+        }
+      }
+    },
+    {
+      "name": "front_oak_apron",
+      "from": [
+        3,
+        7,
+        1.5
+      ],
+      "to": [
+        13,
+        9,
+        2.5
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            5.5,
+            2.375,
+            6.75,
+            2.625
+          ],
+          "texture": "#washstand"
+        },
+        "south": {
+          "uv": [
+            4.125,
+            2.375,
+            5.375,
+            2.625
+          ],
+          "texture": "#washstand"
+        },
+        "east": {
+          "uv": [
+            4,
+            2.375,
+            4.125,
+            2.625
+          ],
+          "texture": "#washstand"
+        },
+        "west": {
+          "uv": [
+            5.375,
+            2.375,
+            5.5,
+            2.625
+          ],
+          "texture": "#washstand"
+        },
+        "up": {
+          "uv": [
+            4.125,
+            2.25,
+            5.375,
+            2.375
+          ],
+          "texture": "#washstand"
+        },
+        "down": {
+          "uv": [
+            5.375,
+            2.25,
+            6.625,
+            2.375
+          ],
+          "texture": "#washstand"
+        }
+      }
+    },
+    {
+      "name": "back_oak_apron",
+      "from": [
+        3,
+        7,
+        13.5
+      ],
+      "to": [
+        13,
+        9,
+        14.5
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            8.25,
+            2.375,
+            9.5,
+            2.625
+          ],
+          "texture": "#washstand"
+        },
+        "south": {
+          "uv": [
+            6.875,
+            2.375,
+            8.125,
+            2.625
+          ],
+          "texture": "#washstand"
+        },
+        "east": {
+          "uv": [
+            6.75,
+            2.375,
+            6.875,
+            2.625
+          ],
+          "texture": "#washstand"
+        },
+        "west": {
+          "uv": [
+            8.125,
+            2.375,
+            8.25,
+            2.625
+          ],
+          "texture": "#washstand"
+        },
+        "up": {
+          "uv": [
+            6.875,
+            2.25,
+            8.125,
+            2.375
+          ],
+          "texture": "#washstand"
+        },
+        "down": {
+          "uv": [
+            8.125,
+            2.25,
+            9.375,
+            2.375
+          ],
+          "texture": "#washstand"
+        }
+      }
+    },
+    {
+      "name": "left_oak_apron",
+      "from": [
+        1.5,
+        7,
+        3
+      ],
+      "to": [
+        2.5,
+        9,
+        13
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            12.125,
+            3.5,
+            12.25,
+            3.75
+          ],
+          "texture": "#washstand"
+        },
+        "south": {
+          "uv": [
+            10.75,
+            3.5,
+            10.875,
+            3.75
+          ],
+          "texture": "#washstand"
+        },
+        "east": {
+          "uv": [
+            9.5,
+            3.5,
+            10.75,
+            3.75
+          ],
+          "texture": "#washstand"
+        },
+        "west": {
+          "uv": [
+            10.875,
+            3.5,
+            12.125,
+            3.75
+          ],
+          "texture": "#washstand"
+        },
+        "up": {
+          "uv": [
+            10.75,
+            2.25,
+            10.875,
+            3.5
+          ],
+          "texture": "#washstand"
+        },
+        "down": {
+          "uv": [
+            10.875,
+            2.25,
+            11,
+            3.5
+          ],
+          "texture": "#washstand"
+        }
+      }
+    },
+    {
+      "name": "right_oak_apron",
+      "from": [
+        13.5,
+        7,
+        3
+      ],
+      "to": [
+        14.5,
+        9,
+        13
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            14.875,
+            3.5,
+            15,
+            3.75
+          ],
+          "texture": "#washstand"
+        },
+        "south": {
+          "uv": [
+            13.5,
+            3.5,
+            13.625,
+            3.75
+          ],
+          "texture": "#washstand"
+        },
+        "east": {
+          "uv": [
+            12.25,
+            3.5,
+            13.5,
+            3.75
+          ],
+          "texture": "#washstand"
+        },
+        "west": {
+          "uv": [
+            13.625,
+            3.5,
+            14.875,
+            3.75
+          ],
+          "texture": "#washstand"
+        },
+        "up": {
+          "uv": [
+            13.5,
+            2.25,
+            13.625,
+            3.5
+          ],
+          "texture": "#washstand"
+        },
+        "down": {
+          "uv": [
+            13.625,
+            2.25,
+            13.75,
+            3.5
+          ],
+          "texture": "#washstand"
+        }
+      }
+    },
+    {
+      "name": "ceramic_basin_floor",
+      "from": [
+        3,
+        10,
+        3
+      ],
+      "to": [
+        13,
+        11,
+        11
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            3.25,
+            5,
+            4.5,
+            5.125
+          ],
+          "texture": "#washstand"
+        },
+        "south": {
+          "uv": [
+            1,
+            5,
+            2.25,
+            5.125
+          ],
+          "texture": "#washstand"
+        },
+        "east": {
+          "uv": [
+            0,
+            5,
+            1,
+            5.125
+          ],
+          "texture": "#washstand"
+        },
+        "west": {
+          "uv": [
+            2.25,
+            5,
+            3.25,
+            5.125
+          ],
+          "texture": "#washstand"
+        },
+        "up": {
+          "uv": [
+            1,
+            4,
+            2.25,
+            5
+          ],
+          "texture": "#washstand"
+        },
+        "down": {
+          "uv": [
+            2.25,
+            4,
+            3.5,
+            5
+          ],
+          "texture": "#washstand"
+        }
+      }
+    },
+    {
+      "name": "ceramic_front_wall",
+      "from": [
+        3,
+        11,
+        3
+      ],
+      "to": [
+        13,
+        13,
+        4
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            6.5,
+            4.125,
+            7.75,
+            4.375
+          ],
+          "texture": "#washstand"
+        },
+        "south": {
+          "uv": [
+            5.125,
+            4.125,
+            6.375,
+            4.375
+          ],
+          "texture": "#washstand"
+        },
+        "east": {
+          "uv": [
+            5,
+            4.125,
+            5.125,
+            4.375
+          ],
+          "texture": "#washstand"
+        },
+        "west": {
+          "uv": [
+            6.375,
+            4.125,
+            6.5,
+            4.375
+          ],
+          "texture": "#washstand"
+        },
+        "up": {
+          "uv": [
+            5.125,
+            4,
+            6.375,
+            4.125
+          ],
+          "texture": "#washstand"
+        },
+        "down": {
+          "uv": [
+            6.375,
+            4,
+            7.625,
+            4.125
+          ],
+          "texture": "#washstand"
+        }
+      }
+    },
+    {
+      "name": "ceramic_back_wall",
+      "from": [
+        3,
+        11,
+        10
+      ],
+      "to": [
+        13,
+        13,
+        11
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            9.5,
+            4.125,
+            10.75,
+            4.375
+          ],
+          "texture": "#washstand"
+        },
+        "south": {
+          "uv": [
+            8.125,
+            4.125,
+            9.375,
+            4.375
+          ],
+          "texture": "#washstand"
+        },
+        "east": {
+          "uv": [
+            8,
+            4.125,
+            8.125,
+            4.375
+          ],
+          "texture": "#washstand"
+        },
+        "west": {
+          "uv": [
+            9.375,
+            4.125,
+            9.5,
+            4.375
+          ],
+          "texture": "#washstand"
+        },
+        "up": {
+          "uv": [
+            8.125,
+            4,
+            9.375,
+            4.125
+          ],
+          "texture": "#washstand"
+        },
+        "down": {
+          "uv": [
+            9.375,
+            4,
+            10.625,
+            4.125
+          ],
+          "texture": "#washstand"
+        }
+      }
+    },
+    {
+      "name": "ceramic_left_wall",
+      "from": [
+        3,
+        11,
+        4
+      ],
+      "to": [
+        4,
+        13,
+        10
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            12.625,
+            4.75,
+            12.75,
+            5
+          ],
+          "texture": "#washstand"
+        },
+        "south": {
+          "uv": [
+            11.75,
+            4.75,
+            11.875,
+            5
+          ],
+          "texture": "#washstand"
+        },
+        "east": {
+          "uv": [
+            11,
+            4.75,
+            11.75,
+            5
+          ],
+          "texture": "#washstand"
+        },
+        "west": {
+          "uv": [
+            11.875,
+            4.75,
+            12.625,
+            5
+          ],
+          "texture": "#washstand"
+        },
+        "up": {
+          "uv": [
+            11.75,
+            4,
+            11.875,
+            4.75
+          ],
+          "texture": "#washstand"
+        },
+        "down": {
+          "uv": [
+            11.875,
+            4,
+            12,
+            4.75
+          ],
+          "texture": "#washstand"
+        }
+      }
+    },
+    {
+      "name": "ceramic_right_wall",
+      "from": [
+        12,
+        11,
+        4
+      ],
+      "to": [
+        13,
+        13,
+        10
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            14.625,
+            4.75,
+            14.75,
+            5
+          ],
+          "texture": "#washstand"
+        },
+        "south": {
+          "uv": [
+            13.75,
+            4.75,
+            13.875,
+            5
+          ],
+          "texture": "#washstand"
+        },
+        "east": {
+          "uv": [
+            13,
+            4.75,
+            13.75,
+            5
+          ],
+          "texture": "#washstand"
+        },
+        "west": {
+          "uv": [
+            13.875,
+            4.75,
+            14.625,
+            5
+          ],
+          "texture": "#washstand"
+        },
+        "up": {
+          "uv": [
+            13.75,
+            4,
+            13.875,
+            4.75
+          ],
+          "texture": "#washstand"
+        },
+        "down": {
+          "uv": [
+            13.875,
+            4,
+            14,
+            4.75
+          ],
+          "texture": "#washstand"
+        }
+      }
+    },
+    {
+      "name": "brass_faucet_riser",
+      "from": [
+        7.5,
+        10,
+        12
+      ],
+      "to": [
+        8.5,
+        15,
+        13
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            0.375,
+            5.625,
+            0.5,
+            6.25
+          ],
+          "texture": "#washstand"
+        },
+        "south": {
+          "uv": [
+            0.125,
+            5.625,
+            0.25,
+            6.25
+          ],
+          "texture": "#washstand"
+        },
+        "east": {
+          "uv": [
+            0,
+            5.625,
+            0.125,
+            6.25
+          ],
+          "texture": "#washstand"
+        },
+        "west": {
+          "uv": [
+            0.25,
+            5.625,
+            0.375,
+            6.25
+          ],
+          "texture": "#washstand"
+        },
+        "up": {
+          "uv": [
+            0.125,
+            5.5,
+            0.25,
+            5.625
+          ],
+          "texture": "#washstand"
+        },
+        "down": {
+          "uv": [
+            0.25,
+            5.5,
+            0.375,
+            5.625
+          ],
+          "texture": "#washstand"
+        }
+      }
+    },
+    {
+      "name": "brass_forward_spout",
+      "from": [
+        7.5,
+        14,
+        8.5
+      ],
+      "to": [
+        8.5,
+        15,
+        12
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            2.125,
+            6,
+            2.25,
+            6.125
+          ],
+          "texture": "#washstand"
+        },
+        "south": {
+          "uv": [
+            1.5,
+            6,
+            1.625,
+            6.125
+          ],
+          "texture": "#washstand"
+        },
+        "east": {
+          "uv": [
+            1,
+            6,
+            1.5,
+            6.125
+          ],
+          "texture": "#washstand"
+        },
+        "west": {
+          "uv": [
+            1.625,
+            6,
+            2.125,
+            6.125
+          ],
+          "texture": "#washstand"
+        },
+        "up": {
+          "uv": [
+            1.5,
+            5.5,
+            1.625,
+            6
+          ],
+          "texture": "#washstand"
+        },
+        "down": {
+          "uv": [
+            1.625,
+            5.5,
+            1.75,
+            6
+          ],
+          "texture": "#washstand"
+        }
+      }
+    },
+    {
+      "name": "brass_downturned_nozzle",
+      "from": [
+        7.5,
+        13,
+        8.5
+      ],
+      "to": [
+        8.5,
+        14,
+        9.5
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            2.875,
+            5.625,
+            3,
+            5.75
+          ],
+          "texture": "#washstand"
+        },
+        "south": {
+          "uv": [
+            2.625,
+            5.625,
+            2.75,
+            5.75
+          ],
+          "texture": "#washstand"
+        },
+        "east": {
+          "uv": [
+            2.5,
+            5.625,
+            2.625,
+            5.75
+          ],
+          "texture": "#washstand"
+        },
+        "west": {
+          "uv": [
+            2.75,
+            5.625,
+            2.875,
+            5.75
+          ],
+          "texture": "#washstand"
+        },
+        "up": {
+          "uv": [
+            2.625,
+            5.5,
+            2.75,
+            5.625
+          ],
+          "texture": "#washstand"
+        },
+        "down": {
+          "uv": [
+            2.75,
+            5.5,
+            2.875,
+            5.625
+          ],
+          "texture": "#washstand"
+        }
+      }
+    },
+    {
+      "name": "brass_faucet_foot",
+      "from": [
+        7,
+        10.03125,
+        11.5
+      ],
+      "to": [
+        9,
+        10.53125,
+        13.5
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            4.25,
+            5.75,
+            4.5,
+            5.875
+          ],
+          "texture": "#washstand"
+        },
+        "south": {
+          "uv": [
+            3.75,
+            5.75,
+            4,
+            5.875
+          ],
+          "texture": "#washstand"
+        },
+        "east": {
+          "uv": [
+            3.5,
+            5.75,
+            3.75,
+            5.875
+          ],
+          "texture": "#washstand"
+        },
+        "west": {
+          "uv": [
+            4,
+            5.75,
+            4.25,
+            5.875
+          ],
+          "texture": "#washstand"
+        },
+        "up": {
+          "uv": [
+            3.75,
+            5.5,
+            4,
+            5.75
+          ],
+          "texture": "#washstand"
+        },
+        "down": {
+          "uv": [
+            4,
+            5.5,
+            4.25,
+            5.75
+          ],
+          "texture": "#washstand"
+        }
+      }
+    },
+    {
+      "name": "left_brass_tap_knob",
+      "from": [
+        5,
+        10,
+        12
+      ],
+      "to": [
+        6,
+        11,
+        13
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            5.375,
+            5.625,
+            5.5,
+            5.75
+          ],
+          "texture": "#washstand"
+        },
+        "south": {
+          "uv": [
+            5.125,
+            5.625,
+            5.25,
+            5.75
+          ],
+          "texture": "#washstand"
+        },
+        "east": {
+          "uv": [
+            5,
+            5.625,
+            5.125,
+            5.75
+          ],
+          "texture": "#washstand"
+        },
+        "west": {
+          "uv": [
+            5.25,
+            5.625,
+            5.375,
+            5.75
+          ],
+          "texture": "#washstand"
+        },
+        "up": {
+          "uv": [
+            5.125,
+            5.5,
+            5.25,
+            5.625
+          ],
+          "texture": "#washstand"
+        },
+        "down": {
+          "uv": [
+            5.25,
+            5.5,
+            5.375,
+            5.625
+          ],
+          "texture": "#washstand"
+        }
+      }
+    },
+    {
+      "name": "right_brass_tap_knob",
+      "from": [
+        10,
+        10,
+        12
+      ],
+      "to": [
+        11,
+        11,
+        13
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            6.375,
+            5.625,
+            6.5,
+            5.75
+          ],
+          "texture": "#washstand"
+        },
+        "south": {
+          "uv": [
+            6.125,
+            5.625,
+            6.25,
+            5.75
+          ],
+          "texture": "#washstand"
+        },
+        "east": {
+          "uv": [
+            6,
+            5.625,
+            6.125,
+            5.75
+          ],
+          "texture": "#washstand"
+        },
+        "west": {
+          "uv": [
+            6.25,
+            5.625,
+            6.375,
+            5.75
+          ],
+          "texture": "#washstand"
+        },
+        "up": {
+          "uv": [
+            6.125,
+            5.5,
+            6.25,
+            5.625
+          ],
+          "texture": "#washstand"
+        },
+        "down": {
+          "uv": [
+            6.25,
+            5.5,
+            6.375,
+            5.625
+          ],
+          "texture": "#washstand"
+        }
+      }
+    }
+  ],
+  "display": {
+    "gui": {
+      "rotation": [
+        30,
+        225,
+        0
+      ],
+      "translation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        0.625,
+        0.625,
+        0.625
+      ]
+    },
+    "ground": {
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "translation": [
+        0,
+        3,
+        0
+      ],
+      "scale": [
+        0.25,
+        0.25,
+        0.25
+      ]
+    },
+    "fixed": {
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "translation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        0.5,
+        0.5,
+        0.5
+      ]
+    },
+    "head": {
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "translation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    "thirdperson_righthand": {
+      "rotation": [
+        75,
+        45,
+        0
+      ],
+      "translation": [
+        0,
+        2.5,
+        0
+      ],
+      "scale": [
+        0.375,
+        0.375,
+        0.375
+      ]
+    },
+    "thirdperson_lefthand": {
+      "rotation": [
+        75,
+        45,
+        0
+      ],
+      "translation": [
+        0,
+        2.5,
+        0
+      ],
+      "scale": [
+        0.375,
+        0.375,
+        0.375
+      ]
+    },
+    "firstperson_righthand": {
+      "rotation": [
+        0,
+        45,
+        0
+      ],
+      "translation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        0.4,
+        0.4,
+        0.4
+      ]
+    },
+    "firstperson_lefthand": {
+      "rotation": [
+        0,
+        45,
+        0
+      ],
+      "translation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        0.4,
+        0.4,
+        0.4
+      ]
+    }
+  },
+  "gui_light": "side"
+}

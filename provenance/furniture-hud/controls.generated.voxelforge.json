@@ -1,0 +1,534 @@
+{
+  "id": "ea8bb6c5-60ea-4eff-9000-cab50b516dff",
+  "kind": "gui",
+  "spec": {
+    "name": "Orange Pets HUD Controls",
+    "description": "Original 128×128 transparent HUD sprite sheet with four exact 64×64 cells and 3px artwork padding. Normal and selected buttons occupy the top row; empty and filled care pips occupy the bottom row. Crisp stepped corners, restrained upper-left lighting, and calm interiors support horizontal stretching. No text or external shadows.",
+    "palette": [
+      "#00000000",
+      "#38271F",
+      "#4B3023",
+      "#553626",
+      "#65402B",
+      "#855333",
+      "#A46A3C",
+      "#BD8048",
+      "#9B4B1C",
+      "#B76022",
+      "#CB742A",
+      "#D58030",
+      "#E3953F",
+      "#F1B655",
+      "#FFD17A",
+      "#302A27",
+      "#3B322C",
+      "#41372F",
+      "#4A3E34",
+      "#5B4B3C",
+      "#6B5743",
+      "#874519",
+      "#AA591A",
+      "#C97520",
+      "#D98526",
+      "#E59532",
+      "#F2B448",
+      "#F8C763"
+    ],
+    "textures": [
+      {
+        "id": "main",
+        "width": 128,
+        "height": 128,
+        "background": "#00000000",
+        "commands": [
+          {
+            "op": "rect",
+            "x": 5,
+            "y": 3,
+            "w": 54,
+            "h": 58,
+            "color": "#38271F",
+            "seed": 0,
+            "density": 1
+          },
+          {
+            "op": "rect",
+            "x": 3,
+            "y": 5,
+            "w": 58,
+            "h": 54,
+            "color": "#38271F",
+            "seed": 0,
+            "density": 1
+          },
+          {
+            "op": "rect",
+            "x": 5,
+            "y": 3,
+            "w": 54,
+            "h": 2,
+            "color": "#A46A3C",
+            "seed": 0,
+            "density": 1
+          },
+          {
+            "op": "rect",
+            "x": 3,
+            "y": 5,
+            "w": 2,
+            "h": 54,
+            "color": "#855333",
+            "seed": 0,
+            "density": 1
+          },
+          {
+            "op": "rect",
+            "x": 5,
+            "y": 5,
+            "w": 54,
+            "h": 54,
+            "color": "#553626",
+            "seed": 0,
+            "density": 1
+          },
+          {
+            "op": "rect",
+            "x": 5,
+            "y": 5,
+            "w": 54,
+            "h": 2,
+            "color": "#65402B",
+            "seed": 0,
+            "density": 1
+          },
+          {
+            "op": "rect",
+            "x": 5,
+            "y": 7,
+            "w": 2,
+            "h": 50,
+            "color": "#65402B",
+            "seed": 0,
+            "density": 1
+          },
+          {
+            "op": "rect",
+            "x": 7,
+            "y": 57,
+            "w": 52,
+            "h": 2,
+            "color": "#4B3023",
+            "seed": 0,
+            "density": 1
+          },
+          {
+            "op": "rect",
+            "x": 57,
+            "y": 7,
+            "w": 2,
+            "h": 50,
+            "color": "#4B3023",
+            "seed": 0,
+            "density": 1
+          },
+          {
+            "op": "rect",
+            "x": 59,
+            "y": 5,
+            "w": 2,
+            "h": 54,
+            "color": "#65402B",
+            "seed": 0,
+            "density": 1
+          },
+          {
+            "op": "rect",
+            "x": 5,
+            "y": 59,
+            "w": 54,
+            "h": 2,
+            "color": "#4B3023",
+            "seed": 0,
+            "density": 1
+          },
+          {
+            "op": "rect",
+            "x": 5,
+            "y": 3,
+            "w": 8,
+            "h": 1,
+            "color": "#BD8048",
+            "seed": 0,
+            "density": 1
+          },
+          {
+            "op": "rect",
+            "x": 3,
+            "y": 5,
+            "w": 1,
+            "h": 8,
+            "color": "#A46A3C",
+            "seed": 0,
+            "density": 1
+          },
+          {
+            "op": "rect",
+            "x": 69,
+            "y": 3,
+            "w": 54,
+            "h": 58,
+            "color": "#9B4B1C",
+            "seed": 0,
+            "density": 1
+          },
+          {
+            "op": "rect",
+            "x": 67,
+            "y": 5,
+            "w": 58,
+            "h": 54,
+            "color": "#9B4B1C",
+            "seed": 0,
+            "density": 1
+          },
+          {
+            "op": "rect",
+            "x": 69,
+            "y": 3,
+            "w": 54,
+            "h": 2,
+            "color": "#FFD17A",
+            "seed": 0,
+            "density": 1
+          },
+          {
+            "op": "rect",
+            "x": 67,
+            "y": 5,
+            "w": 2,
+            "h": 54,
+            "color": "#F1B655",
+            "seed": 0,
+            "density": 1
+          },
+          {
+            "op": "rect",
+            "x": 69,
+            "y": 5,
+            "w": 54,
+            "h": 54,
+            "color": "#D58030",
+            "seed": 0,
+            "density": 1
+          },
+          {
+            "op": "rect",
+            "x": 69,
+            "y": 5,
+            "w": 54,
+            "h": 3,
+            "color": "#E3953F",
+            "seed": 0,
+            "density": 1
+          },
+          {
+            "op": "rect",
+            "x": 69,
+            "y": 8,
+            "w": 2,
+            "h": 49,
+            "color": "#E3953F",
+            "seed": 0,
+            "density": 1
+          },
+          {
+            "op": "rect",
+            "x": 71,
+            "y": 55,
+            "w": 52,
+            "h": 4,
+            "color": "#CB742A",
+            "seed": 0,
+            "density": 1
+          },
+          {
+            "op": "rect",
+            "x": 121,
+            "y": 8,
+            "w": 2,
+            "h": 47,
+            "color": "#CB742A",
+            "seed": 0,
+            "density": 1
+          },
+          {
+            "op": "rect",
+            "x": 123,
+            "y": 5,
+            "w": 2,
+            "h": 54,
+            "color": "#B76022",
+            "seed": 0,
+            "density": 1
+          },
+          {
+            "op": "rect",
+            "x": 69,
+            "y": 59,
+            "w": 54,
+            "h": 2,
+            "color": "#9B4B1C",
+            "seed": 0,
+            "density": 1
+          },
+          {
+            "op": "rect",
+            "x": 5,
+            "y": 67,
+            "w": 54,
+            "h": 58,
+            "color": "#302A27",
+            "seed": 0,
+            "density": 1
+          },
+          {
+            "op": "rect",
+            "x": 3,
+            "y": 69,
+            "w": 58,
+            "h": 54,
+            "color": "#302A27",
+            "seed": 0,
+            "density": 1
+          },
+          {
+            "op": "rect",
+            "x": 5,
+            "y": 67,
+            "w": 54,
+            "h": 2,
+            "color": "#6B5743",
+            "seed": 0,
+            "density": 1
+          },
+          {
+            "op": "rect",
+            "x": 3,
+            "y": 69,
+            "w": 2,
+            "h": 54,
+            "color": "#5B4B3C",
+            "seed": 0,
+            "density": 1
+          },
+          {
+            "op": "rect",
+            "x": 5,
+            "y": 69,
+            "w": 54,
+            "h": 54,
+            "color": "#41372F",
+            "seed": 0,
+            "density": 1
+          },
+          {
+            "op": "rect",
+            "x": 5,
+            "y": 69,
+            "w": 54,
+            "h": 2,
+            "color": "#4A3E34",
+            "seed": 0,
+            "density": 1
+          },
+          {
+            "op": "rect",
+            "x": 5,
+            "y": 71,
+            "w": 2,
+            "h": 50,
+            "color": "#4A3E34",
+            "seed": 0,
+            "density": 1
+          },
+          {
+            "op": "rect",
+            "x": 7,
+            "y": 121,
+            "w": 52,
+            "h": 2,
+            "color": "#3B322C",
+            "seed": 0,
+            "density": 1
+          },
+          {
+            "op": "rect",
+            "x": 57,
+            "y": 71,
+            "w": 2,
+            "h": 50,
+            "color": "#3B322C",
+            "seed": 0,
+            "density": 1
+          },
+          {
+            "op": "rect",
+            "x": 59,
+            "y": 69,
+            "w": 2,
+            "h": 54,
+            "color": "#3B322C",
+            "seed": 0,
+            "density": 1
+          },
+          {
+            "op": "rect",
+            "x": 69,
+            "y": 67,
+            "w": 54,
+            "h": 58,
+            "color": "#874519",
+            "seed": 0,
+            "density": 1
+          },
+          {
+            "op": "rect",
+            "x": 67,
+            "y": 69,
+            "w": 58,
+            "h": 54,
+            "color": "#874519",
+            "seed": 0,
+            "density": 1
+          },
+          {
+            "op": "rect",
+            "x": 69,
+            "y": 67,
+            "w": 54,
+            "h": 2,
+            "color": "#F8C763",
+            "seed": 0,
+            "density": 1
+          },
+          {
+            "op": "rect",
+            "x": 67,
+            "y": 69,
+            "w": 2,
+            "h": 54,
+            "color": "#F2B448",
+            "seed": 0,
+            "density": 1
+          },
+          {
+            "op": "rect",
+            "x": 69,
+            "y": 69,
+            "w": 54,
+            "h": 54,
+            "color": "#D98526",
+            "seed": 0,
+            "density": 1
+          },
+          {
+            "op": "rect",
+            "x": 69,
+            "y": 69,
+            "w": 54,
+            "h": 3,
+            "color": "#E59532",
+            "seed": 0,
+            "density": 1
+          },
+          {
+            "op": "rect",
+            "x": 69,
+            "y": 72,
+            "w": 2,
+            "h": 47,
+            "color": "#E59532",
+            "seed": 0,
+            "density": 1
+          },
+          {
+            "op": "rect",
+            "x": 71,
+            "y": 119,
+            "w": 52,
+            "h": 4,
+            "color": "#C97520",
+            "seed": 0,
+            "density": 1
+          },
+          {
+            "op": "rect",
+            "x": 121,
+            "y": 72,
+            "w": 2,
+            "h": 47,
+            "color": "#C97520",
+            "seed": 0,
+            "density": 1
+          },
+          {
+            "op": "rect",
+            "x": 123,
+            "y": 69,
+            "w": 2,
+            "h": 54,
+            "color": "#AA591A",
+            "seed": 0,
+            "density": 1
+          },
+          {
+            "op": "rect",
+            "x": 69,
+            "y": 123,
+            "w": 54,
+            "h": 2,
+            "color": "#874519",
+            "seed": 0,
+            "density": 1
+          },
+          {
+            "op": "rect",
+            "x": 74,
+            "y": 75,
+            "w": 44,
+            "h": 2,
+            "color": "#F2B448",
+            "seed": 0,
+            "density": 1
+          },
+          {
+            "op": "rect",
+            "x": 74,
+            "y": 77,
+            "w": 44,
+            "h": 2,
+            "color": "#E59532",
+            "seed": 0,
+            "density": 1
+          }
+        ]
+      }
+    ],
+    "elements": [],
+    "bones": [],
+    "animation": null,
+    "sound": null
+  },
+  "prompt": "Generate original pixel artwork sprite sheet 128x128, exactly a 2x2 grid of four 64x64 cells, transparent background. All each cell fills its 64x64 area apart from 3px padding; no text or labels. Top left: dark warm cocoa square tile with 2px bevel orange-brown border, subdued normal button. Top right: brighter orange square tile with pale golden bevel, hovered/selected button. Bottom left: dark desaturated brown square tile with soft muted edge, empty care-meter pip. Bottom right: warm saturated amber-orange square tile with gold edge and modest inner highlight, filled care-meter pip. Vanilla Minecraft pixel art, crisp square stepped edges, low noise, designed to stretch into horizontal HUD buttons/cards. Exact cell boundaries important, avoid shadows beyond cells. Actual artwork for Orange Pets shader HUD controls.",
+  "style": "Vanilla",
+  "resolution": 128,
+  "createdAt": "2026-09-27T11:43:52.520Z",
+  "updatedAt": "2026-09-27T11:43:52.520Z",
+  "revision": 1,
+  "source": "codex",
+  "bindings": {
+    "javaTexture": "",
+    "bedrockTexture": "",
+    "glyph": 57344
+  }
+}
