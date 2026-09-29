@@ -4,6 +4,10 @@
 
 Minecraft Java 26.3 resource pack, maintained by Elongated_Orange.
 
+## Orange SMP Paintball (v0.18.0)
+
+Adds sporty Popper and Burst shooters, orange/blue paintball projectiles and temporary splat appearances. The core-shader HUD uses a generated panel and reticle with existing shared lettering and shaders. All six source designs are actual Voxel Forge generations; exports, team-tint adaptations and technical glyph carriers record their parentage in `provenance/paintball`. Pair with OrangeSMPEvents and OrangeSMPPaintball 0.1.0. Installing the plugins does not activate the event.
+
 ## Orange SMP Furniture (v0.16.0)
 
 Includes 76 actual Voxel Forge furniture generations: 40 everyday and 36 Halloween designs, including chairs, sofas, tables, cabinets, workbenches, lamps, garden ornaments, pumpkin furniture and haunted decorations. Stable item aliases use `orangesmp:furniture/<design>`. Source jobs, editable generated assets and export checksums are recorded in `provenance/furniture`.

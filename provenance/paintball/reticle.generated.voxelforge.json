@@ -1,0 +1,117 @@
+{
+  "id": "a9657904-d499-44f2-beab-ac1117a6cea0",
+  "kind": "icon",
+  "spec": {
+    "name": "Paintball HUD Reticle",
+    "description": "Clean 16×16 white precision reticle with four short, one-pixel-thick corner marks and an open transparent center.",
+    "palette": [
+      "#FFFFFF"
+    ],
+    "textures": [
+      {
+        "id": "main",
+        "width": 16,
+        "height": 16,
+        "background": "#00000000",
+        "commands": [
+          {
+            "op": "rect",
+            "x": 4,
+            "y": 4,
+            "w": 3,
+            "h": 1,
+            "color": "#FFFFFF",
+            "seed": 0,
+            "density": 1
+          },
+          {
+            "op": "rect",
+            "x": 4,
+            "y": 5,
+            "w": 1,
+            "h": 2,
+            "color": "#FFFFFF",
+            "seed": 0,
+            "density": 1
+          },
+          {
+            "op": "rect",
+            "x": 9,
+            "y": 4,
+            "w": 3,
+            "h": 1,
+            "color": "#FFFFFF",
+            "seed": 0,
+            "density": 1
+          },
+          {
+            "op": "rect",
+            "x": 11,
+            "y": 5,
+            "w": 1,
+            "h": 2,
+            "color": "#FFFFFF",
+            "seed": 0,
+            "density": 1
+          },
+          {
+            "op": "rect",
+            "x": 4,
+            "y": 9,
+            "w": 1,
+            "h": 2,
+            "color": "#FFFFFF",
+            "seed": 0,
+            "density": 1
+          },
+          {
+            "op": "rect",
+            "x": 4,
+            "y": 11,
+            "w": 3,
+            "h": 1,
+            "color": "#FFFFFF",
+            "seed": 0,
+            "density": 1
+          },
+          {
+            "op": "rect",
+            "x": 11,
+            "y": 9,
+            "w": 1,
+            "h": 2,
+            "color": "#FFFFFF",
+            "seed": 0,
+            "density": 1
+          },
+          {
+            "op": "rect",
+            "x": 9,
+            "y": 11,
+            "w": 3,
+            "h": 1,
+            "color": "#FFFFFF",
+            "seed": 0,
+            "density": 1
+          }
+        ]
+      }
+    ],
+    "elements": [],
+    "bones": [],
+    "animation": null,
+    "sound": null
+  },
+  "prompt": "Tiny clean white paintball aiming reticle on transparent background, four short white corner marks around an open transparent central gap. Sporty precision HUD icon, 16x16 pixel art with no background, no text.",
+  "style": "Vanilla",
+  "resolution": 16,
+  "createdAt": "2026-09-29T11:22:55.375Z",
+  "updatedAt": "2026-09-29T11:22:55.375Z",
+  "revision": 1,
+  "source": "codex",
+  "bindings": {
+    "javaTexture": "",
+    "bedrockTexture": "",
+    "glyph": 57365
+  }
+}

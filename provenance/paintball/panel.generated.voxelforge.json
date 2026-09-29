@@ -1,0 +1,364 @@
+{
+  "id": "1b398dae-9411-44bf-b185-0ec9077ff885",
+  "kind": "gui",
+  "spec": {
+    "name": "Paintball HUD Panel",
+    "description": "Sports equipment HUD styling on a 256×256 Java generic_54 atlas. Charcoal translucent panels have crisp white edging, stepped corners and orange upper-left tabs. Chest and inventory regions retain their specified coordinates; interiors remain empty for runtime names, ammunition, reload indicators and items, without baked text or slot clutter.",
+    "palette": [
+      "#00000000",
+      "#171C22DC",
+      "#20262DE6",
+      "#303841E6",
+      "#E6EDF2D9",
+      "#9AA6B2CC",
+      "#EF792FFF",
+      "#FFAA58FF"
+    ],
+    "textures": [
+      {
+        "id": "main",
+        "width": 256,
+        "height": 256,
+        "background": "#00000000",
+        "commands": [
+          {
+            "op": "rect",
+            "x": 3,
+            "y": 0,
+            "w": 170,
+            "h": 126,
+            "color": "#E6EDF2D9",
+            "seed": 0,
+            "density": 1
+          },
+          {
+            "op": "rect",
+            "x": 1,
+            "y": 2,
+            "w": 174,
+            "h": 122,
+            "color": "#E6EDF2D9",
+            "seed": 0,
+            "density": 1
+          },
+          {
+            "op": "rect",
+            "x": 0,
+            "y": 4,
+            "w": 176,
+            "h": 118,
+            "color": "#E6EDF2D9",
+            "seed": 0,
+            "density": 1
+          },
+          {
+            "op": "rect",
+            "x": 3,
+            "y": 1,
+            "w": 170,
+            "h": 124,
+            "color": "#171C22DC",
+            "seed": 0,
+            "density": 1
+          },
+          {
+            "op": "rect",
+            "x": 2,
+            "y": 3,
+            "w": 172,
+            "h": 120,
+            "color": "#171C22DC",
+            "seed": 0,
+            "density": 1
+          },
+          {
+            "op": "rect",
+            "x": 1,
+            "y": 4,
+            "w": 174,
+            "h": 118,
+            "color": "#171C22DC",
+            "seed": 0,
+            "density": 1
+          },
+          {
+            "op": "rect",
+            "x": 4,
+            "y": 1,
+            "w": 168,
+            "h": 2,
+            "color": "#303841E6",
+            "seed": 0,
+            "density": 1
+          },
+          {
+            "op": "rect",
+            "x": 1,
+            "y": 5,
+            "w": 2,
+            "h": 116,
+            "color": "#303841E6",
+            "seed": 0,
+            "density": 1
+          },
+          {
+            "op": "rect",
+            "x": 4,
+            "y": 3,
+            "w": 168,
+            "h": 9,
+            "color": "#20262DE6",
+            "seed": 0,
+            "density": 1
+          },
+          {
+            "op": "rect",
+            "x": 175,
+            "y": 4,
+            "w": 1,
+            "h": 118,
+            "color": "#9AA6B2CC",
+            "seed": 0,
+            "density": 1
+          },
+          {
+            "op": "rect",
+            "x": 174,
+            "y": 122,
+            "w": 1,
+            "h": 2,
+            "color": "#9AA6B2CC",
+            "seed": 0,
+            "density": 1
+          },
+          {
+            "op": "rect",
+            "x": 173,
+            "y": 124,
+            "w": 1,
+            "h": 1,
+            "color": "#9AA6B2CC",
+            "seed": 0,
+            "density": 1
+          },
+          {
+            "op": "rect",
+            "x": 3,
+            "y": 125,
+            "w": 170,
+            "h": 1,
+            "color": "#9AA6B2CC",
+            "seed": 0,
+            "density": 1
+          },
+          {
+            "op": "rect",
+            "x": 7,
+            "y": 4,
+            "w": 20,
+            "h": 4,
+            "color": "#EF792FFF",
+            "seed": 0,
+            "density": 1
+          },
+          {
+            "op": "rect",
+            "x": 7,
+            "y": 8,
+            "w": 16,
+            "h": 2,
+            "color": "#EF792FFF",
+            "seed": 0,
+            "density": 1
+          },
+          {
+            "op": "rect",
+            "x": 7,
+            "y": 4,
+            "w": 19,
+            "h": 1,
+            "color": "#FFAA58FF",
+            "seed": 0,
+            "density": 1
+          },
+          {
+            "op": "rect",
+            "x": 3,
+            "y": 126,
+            "w": 170,
+            "h": 96,
+            "color": "#E6EDF2D9",
+            "seed": 0,
+            "density": 1
+          },
+          {
+            "op": "rect",
+            "x": 1,
+            "y": 128,
+            "w": 174,
+            "h": 92,
+            "color": "#E6EDF2D9",
+            "seed": 0,
+            "density": 1
+          },
+          {
+            "op": "rect",
+            "x": 0,
+            "y": 130,
+            "w": 176,
+            "h": 88,
+            "color": "#E6EDF2D9",
+            "seed": 0,
+            "density": 1
+          },
+          {
+            "op": "rect",
+            "x": 3,
+            "y": 127,
+            "w": 170,
+            "h": 94,
+            "color": "#171C22DC",
+            "seed": 0,
+            "density": 1
+          },
+          {
+            "op": "rect",
+            "x": 2,
+            "y": 129,
+            "w": 172,
+            "h": 90,
+            "color": "#171C22DC",
+            "seed": 0,
+            "density": 1
+          },
+          {
+            "op": "rect",
+            "x": 1,
+            "y": 130,
+            "w": 174,
+            "h": 88,
+            "color": "#171C22DC",
+            "seed": 0,
+            "density": 1
+          },
+          {
+            "op": "rect",
+            "x": 4,
+            "y": 127,
+            "w": 168,
+            "h": 2,
+            "color": "#303841E6",
+            "seed": 0,
+            "density": 1
+          },
+          {
+            "op": "rect",
+            "x": 1,
+            "y": 131,
+            "w": 2,
+            "h": 86,
+            "color": "#303841E6",
+            "seed": 0,
+            "density": 1
+          },
+          {
+            "op": "rect",
+            "x": 4,
+            "y": 129,
+            "w": 168,
+            "h": 7,
+            "color": "#20262DE6",
+            "seed": 0,
+            "density": 1
+          },
+          {
+            "op": "rect",
+            "x": 175,
+            "y": 130,
+            "w": 1,
+            "h": 88,
+            "color": "#9AA6B2CC",
+            "seed": 0,
+            "density": 1
+          },
+          {
+            "op": "rect",
+            "x": 174,
+            "y": 218,
+            "w": 1,
+            "h": 2,
+            "color": "#9AA6B2CC",
+            "seed": 0,
+            "density": 1
+          },
+          {
+            "op": "rect",
+            "x": 173,
+            "y": 220,
+            "w": 1,
+            "h": 1,
+            "color": "#9AA6B2CC",
+            "seed": 0,
+            "density": 1
+          },
+          {
+            "op": "rect",
+            "x": 3,
+            "y": 221,
+            "w": 170,
+            "h": 1,
+            "color": "#9AA6B2CC",
+            "seed": 0,
+            "density": 1
+          },
+          {
+            "op": "rect",
+            "x": 7,
+            "y": 130,
+            "w": 20,
+            "h": 3,
+            "color": "#EF792FFF",
+            "seed": 0,
+            "density": 1
+          },
+          {
+            "op": "rect",
+            "x": 7,
+            "y": 133,
+            "w": 16,
+            "h": 2,
+            "color": "#EF792FFF",
+            "seed": 0,
+            "density": 1
+          },
+          {
+            "op": "rect",
+            "x": 7,
+            "y": 130,
+            "w": 19,
+            "h": 1,
+            "color": "#FFAA58FF",
+            "seed": 0,
+            "density": 1
+          }
+        ]
+      }
+    ],
+    "elements": [],
+    "bones": [],
+    "animation": null,
+    "sound": null
+  },
+  "prompt": "A compact wide sporting paintball mask HUD ammo panel on transparent background. Charcoal dark translucent rounded rectangular panel, clean thin white edging, restrained orange accent tab at upper left, empty dark interior for runtime shooter name ammo number and reload indicator. Width approximately twice height. No baked letters or numbers, no fake text. Pixel art crisp readable 128 resolution. Professional sports equipment appearance.",
+  "style": "Vanilla",
+  "resolution": 128,
+  "createdAt": "2026-09-29T11:22:37.999Z",
+  "updatedAt": "2026-09-29T11:22:37.999Z",
+  "revision": 1,
+  "source": "codex",
+  "bindings": {
+    "javaTexture": "",
+    "bedrockTexture": "",
+    "glyph": 57344
+  }
+}
