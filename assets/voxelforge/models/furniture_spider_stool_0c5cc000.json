@@ -1,0 +1,1597 @@
+{
+  "credit": "VoxelForge",
+  "textures": {
+    "particle": "voxelforge:item/furniture_spider_stool_0c5cc000/main",
+    "main": "voxelforge:item/furniture_spider_stool_0c5cc000/main"
+  },
+  "elements": [
+    {
+      "name": "black_wood_seat_frame",
+      "from": [
+        3,
+        8,
+        2
+      ],
+      "to": [
+        13,
+        11,
+        14
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            8.5,
+            3,
+            11,
+            3.75
+          ],
+          "texture": "#main"
+        },
+        "south": {
+          "uv": [
+            3,
+            3,
+            5.5,
+            3.75
+          ],
+          "texture": "#main"
+        },
+        "east": {
+          "uv": [
+            0,
+            3,
+            3,
+            3.75
+          ],
+          "texture": "#main"
+        },
+        "west": {
+          "uv": [
+            5.5,
+            3,
+            8.5,
+            3.75
+          ],
+          "texture": "#main"
+        },
+        "up": {
+          "uv": [
+            3,
+            0,
+            5.5,
+            3
+          ],
+          "texture": "#main"
+        },
+        "down": {
+          "uv": [
+            5.5,
+            0,
+            8,
+            3
+          ],
+          "texture": "#main"
+        }
+      }
+    },
+    {
+      "name": "purple_padded_seat",
+      "from": [
+        3,
+        11,
+        3
+      ],
+      "to": [
+        13,
+        14,
+        13
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            7.5,
+            6.25,
+            10,
+            7
+          ],
+          "texture": "#main"
+        },
+        "south": {
+          "uv": [
+            2.5,
+            6.25,
+            5,
+            7
+          ],
+          "texture": "#main"
+        },
+        "east": {
+          "uv": [
+            0,
+            6.25,
+            2.5,
+            7
+          ],
+          "texture": "#main"
+        },
+        "west": {
+          "uv": [
+            5,
+            6.25,
+            7.5,
+            7
+          ],
+          "texture": "#main"
+        },
+        "up": {
+          "uv": [
+            2.5,
+            3.75,
+            5,
+            6.25
+          ],
+          "texture": "#main"
+        },
+        "down": {
+          "uv": [
+            5,
+            3.75,
+            7.5,
+            6.25
+          ],
+          "texture": "#main"
+        }
+      }
+    },
+    {
+      "name": "friendly_spider_face",
+      "from": [
+        5,
+        7,
+        0.875
+      ],
+      "to": [
+        11,
+        10.75,
+        3.5
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            14,
+            0.75,
+            15.5,
+            1.75
+          ],
+          "texture": "#main"
+        },
+        "south": {
+          "uv": [
+            11.75,
+            0.75,
+            13.25,
+            1.75
+          ],
+          "texture": "#main"
+        },
+        "east": {
+          "uv": [
+            11,
+            0.75,
+            11.75,
+            1.75
+          ],
+          "texture": "#main"
+        },
+        "west": {
+          "uv": [
+            13.25,
+            0.75,
+            14,
+            1.75
+          ],
+          "texture": "#main"
+        },
+        "up": {
+          "uv": [
+            11.75,
+            0,
+            13.25,
+            0.75
+          ],
+          "texture": "#main"
+        },
+        "down": {
+          "uv": [
+            13.25,
+            0,
+            14.75,
+            0.75
+          ],
+          "texture": "#main"
+        }
+      }
+    },
+    {
+      "name": "left_front_leg_shoulder",
+      "from": [
+        0.25,
+        7,
+        2.5
+      ],
+      "to": [
+        4,
+        9,
+        4
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            2,
+            7.5,
+            3,
+            8
+          ],
+          "texture": "#main"
+        },
+        "south": {
+          "uv": [
+            0.5,
+            7.5,
+            1.5,
+            8
+          ],
+          "texture": "#main"
+        },
+        "east": {
+          "uv": [
+            0,
+            7.5,
+            0.5,
+            8
+          ],
+          "texture": "#main"
+        },
+        "west": {
+          "uv": [
+            1.5,
+            7.5,
+            2,
+            8
+          ],
+          "texture": "#main"
+        },
+        "up": {
+          "uv": [
+            0.5,
+            7,
+            1.5,
+            7.5
+          ],
+          "texture": "#main"
+        },
+        "down": {
+          "uv": [
+            1.5,
+            7,
+            2.5,
+            7.5
+          ],
+          "texture": "#main"
+        }
+      }
+    },
+    {
+      "name": "left_middle_front_leg_shoulder",
+      "from": [
+        0.25,
+        7,
+        5.5
+      ],
+      "to": [
+        4,
+        9,
+        7
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            5,
+            7.5,
+            6,
+            8
+          ],
+          "texture": "#main"
+        },
+        "south": {
+          "uv": [
+            3.5,
+            7.5,
+            4.5,
+            8
+          ],
+          "texture": "#main"
+        },
+        "east": {
+          "uv": [
+            3,
+            7.5,
+            3.5,
+            8
+          ],
+          "texture": "#main"
+        },
+        "west": {
+          "uv": [
+            4.5,
+            7.5,
+            5,
+            8
+          ],
+          "texture": "#main"
+        },
+        "up": {
+          "uv": [
+            3.5,
+            7,
+            4.5,
+            7.5
+          ],
+          "texture": "#main"
+        },
+        "down": {
+          "uv": [
+            4.5,
+            7,
+            5.5,
+            7.5
+          ],
+          "texture": "#main"
+        }
+      }
+    },
+    {
+      "name": "left_middle_rear_leg_shoulder",
+      "from": [
+        0.25,
+        7,
+        8.5
+      ],
+      "to": [
+        4,
+        9,
+        10
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            8,
+            7.5,
+            9,
+            8
+          ],
+          "texture": "#main"
+        },
+        "south": {
+          "uv": [
+            6.5,
+            7.5,
+            7.5,
+            8
+          ],
+          "texture": "#main"
+        },
+        "east": {
+          "uv": [
+            6,
+            7.5,
+            6.5,
+            8
+          ],
+          "texture": "#main"
+        },
+        "west": {
+          "uv": [
+            7.5,
+            7.5,
+            8,
+            8
+          ],
+          "texture": "#main"
+        },
+        "up": {
+          "uv": [
+            6.5,
+            7,
+            7.5,
+            7.5
+          ],
+          "texture": "#main"
+        },
+        "down": {
+          "uv": [
+            7.5,
+            7,
+            8.5,
+            7.5
+          ],
+          "texture": "#main"
+        }
+      }
+    },
+    {
+      "name": "left_rear_leg_shoulder",
+      "from": [
+        0.25,
+        7,
+        11.5
+      ],
+      "to": [
+        4,
+        9,
+        13
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            11,
+            7.5,
+            12,
+            8
+          ],
+          "texture": "#main"
+        },
+        "south": {
+          "uv": [
+            9.5,
+            7.5,
+            10.5,
+            8
+          ],
+          "texture": "#main"
+        },
+        "east": {
+          "uv": [
+            9,
+            7.5,
+            9.5,
+            8
+          ],
+          "texture": "#main"
+        },
+        "west": {
+          "uv": [
+            10.5,
+            7.5,
+            11,
+            8
+          ],
+          "texture": "#main"
+        },
+        "up": {
+          "uv": [
+            9.5,
+            7,
+            10.5,
+            7.5
+          ],
+          "texture": "#main"
+        },
+        "down": {
+          "uv": [
+            10.5,
+            7,
+            11.5,
+            7.5
+          ],
+          "texture": "#main"
+        }
+      }
+    },
+    {
+      "name": "right_front_leg_shoulder",
+      "from": [
+        12,
+        7,
+        2.5
+      ],
+      "to": [
+        15.75,
+        9,
+        4
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            2,
+            8.5,
+            3,
+            9
+          ],
+          "texture": "#main"
+        },
+        "south": {
+          "uv": [
+            0.5,
+            8.5,
+            1.5,
+            9
+          ],
+          "texture": "#main"
+        },
+        "east": {
+          "uv": [
+            0,
+            8.5,
+            0.5,
+            9
+          ],
+          "texture": "#main"
+        },
+        "west": {
+          "uv": [
+            1.5,
+            8.5,
+            2,
+            9
+          ],
+          "texture": "#main"
+        },
+        "up": {
+          "uv": [
+            0.5,
+            8,
+            1.5,
+            8.5
+          ],
+          "texture": "#main"
+        },
+        "down": {
+          "uv": [
+            1.5,
+            8,
+            2.5,
+            8.5
+          ],
+          "texture": "#main"
+        }
+      }
+    },
+    {
+      "name": "right_middle_front_leg_shoulder",
+      "from": [
+        12,
+        7,
+        5.5
+      ],
+      "to": [
+        15.75,
+        9,
+        7
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            5,
+            8.5,
+            6,
+            9
+          ],
+          "texture": "#main"
+        },
+        "south": {
+          "uv": [
+            3.5,
+            8.5,
+            4.5,
+            9
+          ],
+          "texture": "#main"
+        },
+        "east": {
+          "uv": [
+            3,
+            8.5,
+            3.5,
+            9
+          ],
+          "texture": "#main"
+        },
+        "west": {
+          "uv": [
+            4.5,
+            8.5,
+            5,
+            9
+          ],
+          "texture": "#main"
+        },
+        "up": {
+          "uv": [
+            3.5,
+            8,
+            4.5,
+            8.5
+          ],
+          "texture": "#main"
+        },
+        "down": {
+          "uv": [
+            4.5,
+            8,
+            5.5,
+            8.5
+          ],
+          "texture": "#main"
+        }
+      }
+    },
+    {
+      "name": "right_middle_rear_leg_shoulder",
+      "from": [
+        12,
+        7,
+        8.5
+      ],
+      "to": [
+        15.75,
+        9,
+        10
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            8,
+            8.5,
+            9,
+            9
+          ],
+          "texture": "#main"
+        },
+        "south": {
+          "uv": [
+            6.5,
+            8.5,
+            7.5,
+            9
+          ],
+          "texture": "#main"
+        },
+        "east": {
+          "uv": [
+            6,
+            8.5,
+            6.5,
+            9
+          ],
+          "texture": "#main"
+        },
+        "west": {
+          "uv": [
+            7.5,
+            8.5,
+            8,
+            9
+          ],
+          "texture": "#main"
+        },
+        "up": {
+          "uv": [
+            6.5,
+            8,
+            7.5,
+            8.5
+          ],
+          "texture": "#main"
+        },
+        "down": {
+          "uv": [
+            7.5,
+            8,
+            8.5,
+            8.5
+          ],
+          "texture": "#main"
+        }
+      }
+    },
+    {
+      "name": "right_rear_leg_shoulder",
+      "from": [
+        12,
+        7,
+        11.5
+      ],
+      "to": [
+        15.75,
+        9,
+        13
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            11,
+            8.5,
+            12,
+            9
+          ],
+          "texture": "#main"
+        },
+        "south": {
+          "uv": [
+            9.5,
+            8.5,
+            10.5,
+            9
+          ],
+          "texture": "#main"
+        },
+        "east": {
+          "uv": [
+            9,
+            8.5,
+            9.5,
+            9
+          ],
+          "texture": "#main"
+        },
+        "west": {
+          "uv": [
+            10.5,
+            8.5,
+            11,
+            9
+          ],
+          "texture": "#main"
+        },
+        "up": {
+          "uv": [
+            9.5,
+            8,
+            10.5,
+            8.5
+          ],
+          "texture": "#main"
+        },
+        "down": {
+          "uv": [
+            10.5,
+            8,
+            11.5,
+            8.5
+          ],
+          "texture": "#main"
+        }
+      }
+    },
+    {
+      "name": "left_front_leg_foot",
+      "from": [
+        0.25,
+        0,
+        2.5
+      ],
+      "to": [
+        1.75,
+        7,
+        4
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            1.5,
+            9.5,
+            2,
+            11.25
+          ],
+          "texture": "#main"
+        },
+        "south": {
+          "uv": [
+            0.5,
+            9.5,
+            1,
+            11.25
+          ],
+          "texture": "#main"
+        },
+        "east": {
+          "uv": [
+            0,
+            9.5,
+            0.5,
+            11.25
+          ],
+          "texture": "#main"
+        },
+        "west": {
+          "uv": [
+            1,
+            9.5,
+            1.5,
+            11.25
+          ],
+          "texture": "#main"
+        },
+        "up": {
+          "uv": [
+            0.5,
+            9,
+            1,
+            9.5
+          ],
+          "texture": "#main"
+        },
+        "down": {
+          "uv": [
+            1,
+            9,
+            1.5,
+            9.5
+          ],
+          "texture": "#main"
+        }
+      }
+    },
+    {
+      "name": "left_middle_front_leg_foot",
+      "from": [
+        0.25,
+        0,
+        5.5
+      ],
+      "to": [
+        1.75,
+        7,
+        7
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            3.5,
+            9.5,
+            4,
+            11.25
+          ],
+          "texture": "#main"
+        },
+        "south": {
+          "uv": [
+            2.5,
+            9.5,
+            3,
+            11.25
+          ],
+          "texture": "#main"
+        },
+        "east": {
+          "uv": [
+            2,
+            9.5,
+            2.5,
+            11.25
+          ],
+          "texture": "#main"
+        },
+        "west": {
+          "uv": [
+            3,
+            9.5,
+            3.5,
+            11.25
+          ],
+          "texture": "#main"
+        },
+        "up": {
+          "uv": [
+            2.5,
+            9,
+            3,
+            9.5
+          ],
+          "texture": "#main"
+        },
+        "down": {
+          "uv": [
+            3,
+            9,
+            3.5,
+            9.5
+          ],
+          "texture": "#main"
+        }
+      }
+    },
+    {
+      "name": "left_middle_rear_leg_foot",
+      "from": [
+        0.25,
+        0,
+        8.5
+      ],
+      "to": [
+        1.75,
+        7,
+        10
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            5.5,
+            9.5,
+            6,
+            11.25
+          ],
+          "texture": "#main"
+        },
+        "south": {
+          "uv": [
+            4.5,
+            9.5,
+            5,
+            11.25
+          ],
+          "texture": "#main"
+        },
+        "east": {
+          "uv": [
+            4,
+            9.5,
+            4.5,
+            11.25
+          ],
+          "texture": "#main"
+        },
+        "west": {
+          "uv": [
+            5,
+            9.5,
+            5.5,
+            11.25
+          ],
+          "texture": "#main"
+        },
+        "up": {
+          "uv": [
+            4.5,
+            9,
+            5,
+            9.5
+          ],
+          "texture": "#main"
+        },
+        "down": {
+          "uv": [
+            5,
+            9,
+            5.5,
+            9.5
+          ],
+          "texture": "#main"
+        }
+      }
+    },
+    {
+      "name": "left_rear_leg_foot",
+      "from": [
+        0.25,
+        0,
+        11.5
+      ],
+      "to": [
+        1.75,
+        7,
+        13
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            7.5,
+            9.5,
+            8,
+            11.25
+          ],
+          "texture": "#main"
+        },
+        "south": {
+          "uv": [
+            6.5,
+            9.5,
+            7,
+            11.25
+          ],
+          "texture": "#main"
+        },
+        "east": {
+          "uv": [
+            6,
+            9.5,
+            6.5,
+            11.25
+          ],
+          "texture": "#main"
+        },
+        "west": {
+          "uv": [
+            7,
+            9.5,
+            7.5,
+            11.25
+          ],
+          "texture": "#main"
+        },
+        "up": {
+          "uv": [
+            6.5,
+            9,
+            7,
+            9.5
+          ],
+          "texture": "#main"
+        },
+        "down": {
+          "uv": [
+            7,
+            9,
+            7.5,
+            9.5
+          ],
+          "texture": "#main"
+        }
+      }
+    },
+    {
+      "name": "right_front_leg_foot",
+      "from": [
+        14.25,
+        0,
+        2.5
+      ],
+      "to": [
+        15.75,
+        7,
+        4
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            9.5,
+            9.5,
+            10,
+            11.25
+          ],
+          "texture": "#main"
+        },
+        "south": {
+          "uv": [
+            8.5,
+            9.5,
+            9,
+            11.25
+          ],
+          "texture": "#main"
+        },
+        "east": {
+          "uv": [
+            8,
+            9.5,
+            8.5,
+            11.25
+          ],
+          "texture": "#main"
+        },
+        "west": {
+          "uv": [
+            9,
+            9.5,
+            9.5,
+            11.25
+          ],
+          "texture": "#main"
+        },
+        "up": {
+          "uv": [
+            8.5,
+            9,
+            9,
+            9.5
+          ],
+          "texture": "#main"
+        },
+        "down": {
+          "uv": [
+            9,
+            9,
+            9.5,
+            9.5
+          ],
+          "texture": "#main"
+        }
+      }
+    },
+    {
+      "name": "right_middle_front_leg_foot",
+      "from": [
+        14.25,
+        0,
+        5.5
+      ],
+      "to": [
+        15.75,
+        7,
+        7
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            11.5,
+            9.5,
+            12,
+            11.25
+          ],
+          "texture": "#main"
+        },
+        "south": {
+          "uv": [
+            10.5,
+            9.5,
+            11,
+            11.25
+          ],
+          "texture": "#main"
+        },
+        "east": {
+          "uv": [
+            10,
+            9.5,
+            10.5,
+            11.25
+          ],
+          "texture": "#main"
+        },
+        "west": {
+          "uv": [
+            11,
+            9.5,
+            11.5,
+            11.25
+          ],
+          "texture": "#main"
+        },
+        "up": {
+          "uv": [
+            10.5,
+            9,
+            11,
+            9.5
+          ],
+          "texture": "#main"
+        },
+        "down": {
+          "uv": [
+            11,
+            9,
+            11.5,
+            9.5
+          ],
+          "texture": "#main"
+        }
+      }
+    },
+    {
+      "name": "right_middle_rear_leg_foot",
+      "from": [
+        14.25,
+        0,
+        8.5
+      ],
+      "to": [
+        15.75,
+        7,
+        10
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            13.5,
+            9.5,
+            14,
+            11.25
+          ],
+          "texture": "#main"
+        },
+        "south": {
+          "uv": [
+            12.5,
+            9.5,
+            13,
+            11.25
+          ],
+          "texture": "#main"
+        },
+        "east": {
+          "uv": [
+            12,
+            9.5,
+            12.5,
+            11.25
+          ],
+          "texture": "#main"
+        },
+        "west": {
+          "uv": [
+            13,
+            9.5,
+            13.5,
+            11.25
+          ],
+          "texture": "#main"
+        },
+        "up": {
+          "uv": [
+            12.5,
+            9,
+            13,
+            9.5
+          ],
+          "texture": "#main"
+        },
+        "down": {
+          "uv": [
+            13,
+            9,
+            13.5,
+            9.5
+          ],
+          "texture": "#main"
+        }
+      }
+    },
+    {
+      "name": "right_rear_leg_foot",
+      "from": [
+        14.25,
+        0,
+        11.5
+      ],
+      "to": [
+        15.75,
+        7,
+        13
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            15.5,
+            9.5,
+            16,
+            11.25
+          ],
+          "texture": "#main"
+        },
+        "south": {
+          "uv": [
+            14.5,
+            9.5,
+            15,
+            11.25
+          ],
+          "texture": "#main"
+        },
+        "east": {
+          "uv": [
+            14,
+            9.5,
+            14.5,
+            11.25
+          ],
+          "texture": "#main"
+        },
+        "west": {
+          "uv": [
+            15,
+            9.5,
+            15.5,
+            11.25
+          ],
+          "texture": "#main"
+        },
+        "up": {
+          "uv": [
+            14.5,
+            9,
+            15,
+            9.5
+          ],
+          "texture": "#main"
+        },
+        "down": {
+          "uv": [
+            15,
+            9,
+            15.5,
+            9.5
+          ],
+          "texture": "#main"
+        }
+      }
+    },
+    {
+      "name": "left_red_eye_inlay",
+      "from": [
+        6,
+        8.5,
+        0.5
+      ],
+      "to": [
+        7,
+        9.5,
+        1
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            12.75,
+            7.25,
+            13,
+            7.5
+          ],
+          "texture": "#main"
+        },
+        "south": {
+          "uv": [
+            12.25,
+            7.25,
+            12.5,
+            7.5
+          ],
+          "texture": "#main"
+        },
+        "east": {
+          "uv": [
+            12,
+            7.25,
+            12.25,
+            7.5
+          ],
+          "texture": "#main"
+        },
+        "west": {
+          "uv": [
+            12.5,
+            7.25,
+            12.75,
+            7.5
+          ],
+          "texture": "#main"
+        },
+        "up": {
+          "uv": [
+            12.25,
+            7,
+            12.5,
+            7.25
+          ],
+          "texture": "#main"
+        },
+        "down": {
+          "uv": [
+            12.5,
+            7,
+            12.75,
+            7.25
+          ],
+          "texture": "#main"
+        }
+      }
+    },
+    {
+      "name": "right_red_eye_inlay",
+      "from": [
+        9,
+        8.5,
+        0.5
+      ],
+      "to": [
+        10,
+        9.5,
+        1
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            13.75,
+            7.25,
+            14,
+            7.5
+          ],
+          "texture": "#main"
+        },
+        "south": {
+          "uv": [
+            13.25,
+            7.25,
+            13.5,
+            7.5
+          ],
+          "texture": "#main"
+        },
+        "east": {
+          "uv": [
+            13,
+            7.25,
+            13.25,
+            7.5
+          ],
+          "texture": "#main"
+        },
+        "west": {
+          "uv": [
+            13.5,
+            7.25,
+            13.75,
+            7.5
+          ],
+          "texture": "#main"
+        },
+        "up": {
+          "uv": [
+            13.25,
+            7,
+            13.5,
+            7.25
+          ],
+          "texture": "#main"
+        },
+        "down": {
+          "uv": [
+            13.5,
+            7,
+            13.75,
+            7.25
+          ],
+          "texture": "#main"
+        }
+      }
+    }
+  ],
+  "display": {
+    "gui": {
+      "rotation": [
+        30,
+        225,
+        0
+      ],
+      "translation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        0.625,
+        0.625,
+        0.625
+      ]
+    },
+    "ground": {
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "translation": [
+        0,
+        3,
+        0
+      ],
+      "scale": [
+        0.25,
+        0.25,
+        0.25
+      ]
+    },
+    "fixed": {
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "translation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        0.5,
+        0.5,
+        0.5
+      ]
+    },
+    "head": {
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "translation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    "thirdperson_righthand": {
+      "rotation": [
+        75,
+        45,
+        0
+      ],
+      "translation": [
+        0,
+        2.5,
+        0
+      ],
+      "scale": [
+        0.375,
+        0.375,
+        0.375
+      ]
+    },
+    "thirdperson_lefthand": {
+      "rotation": [
+        75,
+        45,
+        0
+      ],
+      "translation": [
+        0,
+        2.5,
+        0
+      ],
+      "scale": [
+        0.375,
+        0.375,
+        0.375
+      ]
+    },
+    "firstperson_righthand": {
+      "rotation": [
+        0,
+        45,
+        0
+      ],
+      "translation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        0.4,
+        0.4,
+        0.4
+      ]
+    },
+    "firstperson_lefthand": {
+      "rotation": [
+        0,
+        45,
+        0
+      ],
+      "translation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        0.4,
+        0.4,
+        0.4
+      ]
+    }
+  },
+  "gui_light": "side"
+}

@@ -1,0 +1,1459 @@
+{
+  "credit": "VoxelForge",
+  "textures": {
+    "particle": "voxelforge:item/furniture_spell_lectern_e6b14190/lectern_atlas",
+    "lectern_atlas": "voxelforge:item/furniture_spell_lectern_e6b14190/lectern_atlas"
+  },
+  "elements": [
+    {
+      "name": "heavy_timber_foot",
+      "from": [
+        3,
+        0,
+        3
+      ],
+      "to": [
+        13,
+        2,
+        13
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            3.75,
+            1.25,
+            5,
+            1.5
+          ],
+          "texture": "#lectern_atlas"
+        },
+        "south": {
+          "uv": [
+            1.25,
+            1.25,
+            2.5,
+            1.5
+          ],
+          "texture": "#lectern_atlas"
+        },
+        "east": {
+          "uv": [
+            0,
+            1.25,
+            1.25,
+            1.5
+          ],
+          "texture": "#lectern_atlas"
+        },
+        "west": {
+          "uv": [
+            2.5,
+            1.25,
+            3.75,
+            1.5
+          ],
+          "texture": "#lectern_atlas"
+        },
+        "up": {
+          "uv": [
+            1.25,
+            0,
+            2.5,
+            1.25
+          ],
+          "texture": "#lectern_atlas"
+        },
+        "down": {
+          "uv": [
+            2.5,
+            0,
+            3.75,
+            1.25
+          ],
+          "texture": "#lectern_atlas"
+        }
+      }
+    },
+    {
+      "name": "lower_offset_post",
+      "from": [
+        6,
+        2,
+        7
+      ],
+      "to": [
+        10,
+        6,
+        11
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            6.5,
+            0.5,
+            7,
+            1
+          ],
+          "texture": "#lectern_atlas"
+        },
+        "south": {
+          "uv": [
+            5.5,
+            0.5,
+            6,
+            1
+          ],
+          "texture": "#lectern_atlas"
+        },
+        "east": {
+          "uv": [
+            5,
+            0.5,
+            5.5,
+            1
+          ],
+          "texture": "#lectern_atlas"
+        },
+        "west": {
+          "uv": [
+            6,
+            0.5,
+            6.5,
+            1
+          ],
+          "texture": "#lectern_atlas"
+        },
+        "up": {
+          "uv": [
+            5.5,
+            0,
+            6,
+            0.5
+          ],
+          "texture": "#lectern_atlas"
+        },
+        "down": {
+          "uv": [
+            6,
+            0,
+            6.5,
+            0.5
+          ],
+          "texture": "#lectern_atlas"
+        }
+      }
+    },
+    {
+      "name": "crooked_upper_post",
+      "from": [
+        5,
+        5,
+        7.5
+      ],
+      "to": [
+        9,
+        10,
+        10.5
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            8.25,
+            0.375,
+            8.75,
+            1
+          ],
+          "texture": "#lectern_atlas"
+        },
+        "south": {
+          "uv": [
+            7.375,
+            0.375,
+            7.875,
+            1
+          ],
+          "texture": "#lectern_atlas"
+        },
+        "east": {
+          "uv": [
+            7,
+            0.375,
+            7.375,
+            1
+          ],
+          "texture": "#lectern_atlas"
+        },
+        "west": {
+          "uv": [
+            7.875,
+            0.375,
+            8.25,
+            1
+          ],
+          "texture": "#lectern_atlas"
+        },
+        "up": {
+          "uv": [
+            7.375,
+            0,
+            7.875,
+            0.375
+          ],
+          "texture": "#lectern_atlas"
+        },
+        "down": {
+          "uv": [
+            7.875,
+            0,
+            8.375,
+            0.375
+          ],
+          "texture": "#lectern_atlas"
+        }
+      }
+    },
+    {
+      "name": "offset_timber_capital",
+      "from": [
+        4,
+        9,
+        7
+      ],
+      "to": [
+        10,
+        11,
+        11
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            10.5,
+            0.5,
+            11.25,
+            0.75
+          ],
+          "texture": "#lectern_atlas"
+        },
+        "south": {
+          "uv": [
+            9.25,
+            0.5,
+            10,
+            0.75
+          ],
+          "texture": "#lectern_atlas"
+        },
+        "east": {
+          "uv": [
+            8.75,
+            0.5,
+            9.25,
+            0.75
+          ],
+          "texture": "#lectern_atlas"
+        },
+        "west": {
+          "uv": [
+            10,
+            0.5,
+            10.5,
+            0.75
+          ],
+          "texture": "#lectern_atlas"
+        },
+        "up": {
+          "uv": [
+            9.25,
+            0,
+            10,
+            0.5
+          ],
+          "texture": "#lectern_atlas"
+        },
+        "down": {
+          "uv": [
+            10,
+            0,
+            10.75,
+            0.5
+          ],
+          "texture": "#lectern_atlas"
+        }
+      }
+    },
+    {
+      "name": "short_right_support_bracket",
+      "from": [
+        9,
+        7,
+        8
+      ],
+      "to": [
+        12,
+        10.75,
+        10
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            12.125,
+            0.25,
+            12.5,
+            0.75
+          ],
+          "texture": "#lectern_atlas"
+        },
+        "south": {
+          "uv": [
+            11.5,
+            0.25,
+            11.875,
+            0.75
+          ],
+          "texture": "#lectern_atlas"
+        },
+        "east": {
+          "uv": [
+            11.25,
+            0.25,
+            11.5,
+            0.75
+          ],
+          "texture": "#lectern_atlas"
+        },
+        "west": {
+          "uv": [
+            11.875,
+            0.25,
+            12.125,
+            0.75
+          ],
+          "texture": "#lectern_atlas"
+        },
+        "up": {
+          "uv": [
+            11.5,
+            0,
+            11.875,
+            0.25
+          ],
+          "texture": "#lectern_atlas"
+        },
+        "down": {
+          "uv": [
+            11.875,
+            0,
+            12.25,
+            0.25
+          ],
+          "texture": "#lectern_atlas"
+        }
+      }
+    },
+    {
+      "name": "wide_reading_board",
+      "from": [
+        1,
+        10.5,
+        3
+      ],
+      "to": [
+        15,
+        12,
+        14
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            4.5,
+            3.375,
+            6.25,
+            3.625
+          ],
+          "texture": "#lectern_atlas"
+        },
+        "south": {
+          "uv": [
+            1.375,
+            3.375,
+            3.125,
+            3.625
+          ],
+          "texture": "#lectern_atlas"
+        },
+        "east": {
+          "uv": [
+            0,
+            3.375,
+            1.375,
+            3.625
+          ],
+          "texture": "#lectern_atlas"
+        },
+        "west": {
+          "uv": [
+            3.125,
+            3.375,
+            4.5,
+            3.625
+          ],
+          "texture": "#lectern_atlas"
+        },
+        "up": {
+          "uv": [
+            1.375,
+            2,
+            3.125,
+            3.375
+          ],
+          "texture": "#lectern_atlas"
+        },
+        "down": {
+          "uv": [
+            3.125,
+            2,
+            4.875,
+            3.375
+          ],
+          "texture": "#lectern_atlas"
+        }
+      }
+    },
+    {
+      "name": "front_book_stop",
+      "from": [
+        2,
+        12,
+        2.75
+      ],
+      "to": [
+        14,
+        12.75,
+        3.5
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            8,
+            2.125,
+            9.5,
+            2.25
+          ],
+          "texture": "#lectern_atlas"
+        },
+        "south": {
+          "uv": [
+            6.375,
+            2.125,
+            7.875,
+            2.25
+          ],
+          "texture": "#lectern_atlas"
+        },
+        "east": {
+          "uv": [
+            6.25,
+            2.125,
+            6.375,
+            2.25
+          ],
+          "texture": "#lectern_atlas"
+        },
+        "west": {
+          "uv": [
+            7.875,
+            2.125,
+            8,
+            2.25
+          ],
+          "texture": "#lectern_atlas"
+        },
+        "up": {
+          "uv": [
+            6.375,
+            2,
+            7.875,
+            2.125
+          ],
+          "texture": "#lectern_atlas"
+        },
+        "down": {
+          "uv": [
+            7.875,
+            2,
+            9.375,
+            2.125
+          ],
+          "texture": "#lectern_atlas"
+        }
+      }
+    },
+    {
+      "name": "left_purple_leather_cover",
+      "from": [
+        2,
+        12,
+        4
+      ],
+      "to": [
+        7.75,
+        12.5,
+        12.5
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            3,
+            5.125,
+            3.75,
+            5.25
+          ],
+          "texture": "#lectern_atlas"
+        },
+        "south": {
+          "uv": [
+            1.125,
+            5.125,
+            1.875,
+            5.25
+          ],
+          "texture": "#lectern_atlas"
+        },
+        "east": {
+          "uv": [
+            0,
+            5.125,
+            1.125,
+            5.25
+          ],
+          "texture": "#lectern_atlas"
+        },
+        "west": {
+          "uv": [
+            1.875,
+            5.125,
+            3,
+            5.25
+          ],
+          "texture": "#lectern_atlas"
+        },
+        "up": {
+          "uv": [
+            1.125,
+            4,
+            1.875,
+            5.125
+          ],
+          "texture": "#lectern_atlas"
+        },
+        "down": {
+          "uv": [
+            1.875,
+            4,
+            2.625,
+            5.125
+          ],
+          "texture": "#lectern_atlas"
+        }
+      }
+    },
+    {
+      "name": "right_purple_leather_cover",
+      "from": [
+        8.25,
+        12,
+        4
+      ],
+      "to": [
+        14,
+        12.5,
+        12.5
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            6.75,
+            5.125,
+            7.5,
+            5.25
+          ],
+          "texture": "#lectern_atlas"
+        },
+        "south": {
+          "uv": [
+            4.875,
+            5.125,
+            5.625,
+            5.25
+          ],
+          "texture": "#lectern_atlas"
+        },
+        "east": {
+          "uv": [
+            3.75,
+            5.125,
+            4.875,
+            5.25
+          ],
+          "texture": "#lectern_atlas"
+        },
+        "west": {
+          "uv": [
+            5.625,
+            5.125,
+            6.75,
+            5.25
+          ],
+          "texture": "#lectern_atlas"
+        },
+        "up": {
+          "uv": [
+            4.875,
+            4,
+            5.625,
+            5.125
+          ],
+          "texture": "#lectern_atlas"
+        },
+        "down": {
+          "uv": [
+            5.625,
+            4,
+            6.375,
+            5.125
+          ],
+          "texture": "#lectern_atlas"
+        }
+      }
+    },
+    {
+      "name": "recessed_book_spine",
+      "from": [
+        7.75,
+        12,
+        4
+      ],
+      "to": [
+        8.25,
+        13,
+        12.5
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            9.875,
+            5.125,
+            10,
+            5.25
+          ],
+          "texture": "#lectern_atlas"
+        },
+        "south": {
+          "uv": [
+            8.625,
+            5.125,
+            8.75,
+            5.25
+          ],
+          "texture": "#lectern_atlas"
+        },
+        "east": {
+          "uv": [
+            7.5,
+            5.125,
+            8.625,
+            5.25
+          ],
+          "texture": "#lectern_atlas"
+        },
+        "west": {
+          "uv": [
+            8.75,
+            5.125,
+            9.875,
+            5.25
+          ],
+          "texture": "#lectern_atlas"
+        },
+        "up": {
+          "uv": [
+            8.625,
+            4,
+            8.75,
+            5.125
+          ],
+          "texture": "#lectern_atlas"
+        },
+        "down": {
+          "uv": [
+            8.75,
+            4,
+            8.875,
+            5.125
+          ],
+          "texture": "#lectern_atlas"
+        }
+      }
+    },
+    {
+      "name": "left_lavender_page_block",
+      "from": [
+        2.5,
+        12.5,
+        4.5
+      ],
+      "to": [
+        7.5,
+        13.5,
+        12
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            2.625,
+            7,
+            3.25,
+            7.125
+          ],
+          "texture": "#lectern_atlas"
+        },
+        "south": {
+          "uv": [
+            1,
+            7,
+            1.625,
+            7.125
+          ],
+          "texture": "#lectern_atlas"
+        },
+        "east": {
+          "uv": [
+            0,
+            7,
+            1,
+            7.125
+          ],
+          "texture": "#lectern_atlas"
+        },
+        "west": {
+          "uv": [
+            1.625,
+            7,
+            2.625,
+            7.125
+          ],
+          "texture": "#lectern_atlas"
+        },
+        "up": {
+          "uv": [
+            1,
+            6,
+            1.625,
+            7
+          ],
+          "texture": "#lectern_atlas"
+        },
+        "down": {
+          "uv": [
+            1.625,
+            6,
+            2.25,
+            7
+          ],
+          "texture": "#lectern_atlas"
+        }
+      }
+    },
+    {
+      "name": "right_lavender_page_block",
+      "from": [
+        8.5,
+        12.5,
+        4.5
+      ],
+      "to": [
+        13.5,
+        13.5,
+        12
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            5.875,
+            7,
+            6.5,
+            7.125
+          ],
+          "texture": "#lectern_atlas"
+        },
+        "south": {
+          "uv": [
+            4.25,
+            7,
+            4.875,
+            7.125
+          ],
+          "texture": "#lectern_atlas"
+        },
+        "east": {
+          "uv": [
+            3.25,
+            7,
+            4.25,
+            7.125
+          ],
+          "texture": "#lectern_atlas"
+        },
+        "west": {
+          "uv": [
+            4.875,
+            7,
+            5.875,
+            7.125
+          ],
+          "texture": "#lectern_atlas"
+        },
+        "up": {
+          "uv": [
+            4.25,
+            6,
+            4.875,
+            7
+          ],
+          "texture": "#lectern_atlas"
+        },
+        "down": {
+          "uv": [
+            4.875,
+            6,
+            5.5,
+            7
+          ],
+          "texture": "#lectern_atlas"
+        }
+      }
+    },
+    {
+      "name": "left_raised_open_leaf",
+      "from": [
+        4,
+        13.5,
+        4.75
+      ],
+      "to": [
+        7.5,
+        14,
+        11.75
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            8.75,
+            6.875,
+            9.25,
+            7
+          ],
+          "texture": "#lectern_atlas"
+        },
+        "south": {
+          "uv": [
+            7.375,
+            6.875,
+            7.875,
+            7
+          ],
+          "texture": "#lectern_atlas"
+        },
+        "east": {
+          "uv": [
+            6.5,
+            6.875,
+            7.375,
+            7
+          ],
+          "texture": "#lectern_atlas"
+        },
+        "west": {
+          "uv": [
+            7.875,
+            6.875,
+            8.75,
+            7
+          ],
+          "texture": "#lectern_atlas"
+        },
+        "up": {
+          "uv": [
+            7.375,
+            6,
+            7.875,
+            6.875
+          ],
+          "texture": "#lectern_atlas"
+        },
+        "down": {
+          "uv": [
+            7.875,
+            6,
+            8.375,
+            6.875
+          ],
+          "texture": "#lectern_atlas"
+        }
+      }
+    },
+    {
+      "name": "right_raised_open_leaf",
+      "from": [
+        8.5,
+        13.5,
+        4.75
+      ],
+      "to": [
+        12,
+        14,
+        11.75
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            11.5,
+            6.875,
+            12,
+            7
+          ],
+          "texture": "#lectern_atlas"
+        },
+        "south": {
+          "uv": [
+            10.125,
+            6.875,
+            10.625,
+            7
+          ],
+          "texture": "#lectern_atlas"
+        },
+        "east": {
+          "uv": [
+            9.25,
+            6.875,
+            10.125,
+            7
+          ],
+          "texture": "#lectern_atlas"
+        },
+        "west": {
+          "uv": [
+            10.625,
+            6.875,
+            11.5,
+            7
+          ],
+          "texture": "#lectern_atlas"
+        },
+        "up": {
+          "uv": [
+            10.125,
+            6,
+            10.625,
+            6.875
+          ],
+          "texture": "#lectern_atlas"
+        },
+        "down": {
+          "uv": [
+            10.625,
+            6,
+            11.125,
+            6.875
+          ],
+          "texture": "#lectern_atlas"
+        }
+      }
+    },
+    {
+      "name": "left_gold_cover_clasp",
+      "from": [
+        3.5,
+        12.125,
+        3.75
+      ],
+      "to": [
+        4.5,
+        12.75,
+        4.75
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            9.875,
+            2.125,
+            10,
+            2.25
+          ],
+          "texture": "#lectern_atlas"
+        },
+        "south": {
+          "uv": [
+            9.625,
+            2.125,
+            9.75,
+            2.25
+          ],
+          "texture": "#lectern_atlas"
+        },
+        "east": {
+          "uv": [
+            9.5,
+            2.125,
+            9.625,
+            2.25
+          ],
+          "texture": "#lectern_atlas"
+        },
+        "west": {
+          "uv": [
+            9.75,
+            2.125,
+            9.875,
+            2.25
+          ],
+          "texture": "#lectern_atlas"
+        },
+        "up": {
+          "uv": [
+            9.625,
+            2,
+            9.75,
+            2.125
+          ],
+          "texture": "#lectern_atlas"
+        },
+        "down": {
+          "uv": [
+            9.75,
+            2,
+            9.875,
+            2.125
+          ],
+          "texture": "#lectern_atlas"
+        }
+      }
+    },
+    {
+      "name": "right_gold_cover_clasp",
+      "from": [
+        11.5,
+        12.125,
+        3.75
+      ],
+      "to": [
+        12.5,
+        12.75,
+        4.75
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            10.375,
+            2.125,
+            10.5,
+            2.25
+          ],
+          "texture": "#lectern_atlas"
+        },
+        "south": {
+          "uv": [
+            10.125,
+            2.125,
+            10.25,
+            2.25
+          ],
+          "texture": "#lectern_atlas"
+        },
+        "east": {
+          "uv": [
+            10,
+            2.125,
+            10.125,
+            2.25
+          ],
+          "texture": "#lectern_atlas"
+        },
+        "west": {
+          "uv": [
+            10.25,
+            2.125,
+            10.375,
+            2.25
+          ],
+          "texture": "#lectern_atlas"
+        },
+        "up": {
+          "uv": [
+            10.125,
+            2,
+            10.25,
+            2.125
+          ],
+          "texture": "#lectern_atlas"
+        },
+        "down": {
+          "uv": [
+            10.25,
+            2,
+            10.375,
+            2.125
+          ],
+          "texture": "#lectern_atlas"
+        }
+      }
+    },
+    {
+      "name": "rear_crystal_brass_socket",
+      "from": [
+        11.75,
+        12,
+        12.625
+      ],
+      "to": [
+        13.25,
+        12.5,
+        13.875
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            11.25,
+            2.25,
+            11.5,
+            2.375
+          ],
+          "texture": "#lectern_atlas"
+        },
+        "south": {
+          "uv": [
+            10.75,
+            2.25,
+            11,
+            2.375
+          ],
+          "texture": "#lectern_atlas"
+        },
+        "east": {
+          "uv": [
+            10.5,
+            2.25,
+            10.75,
+            2.375
+          ],
+          "texture": "#lectern_atlas"
+        },
+        "west": {
+          "uv": [
+            11,
+            2.25,
+            11.25,
+            2.375
+          ],
+          "texture": "#lectern_atlas"
+        },
+        "up": {
+          "uv": [
+            10.75,
+            2,
+            11,
+            2.25
+          ],
+          "texture": "#lectern_atlas"
+        },
+        "down": {
+          "uv": [
+            11,
+            2,
+            11.25,
+            2.25
+          ],
+          "texture": "#lectern_atlas"
+        }
+      }
+    },
+    {
+      "name": "tiny_green_crystal_body",
+      "from": [
+        12,
+        12.5,
+        12.75
+      ],
+      "to": [
+        13,
+        14,
+        13.75
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            11.875,
+            2.125,
+            12,
+            2.375
+          ],
+          "texture": "#lectern_atlas"
+        },
+        "south": {
+          "uv": [
+            11.625,
+            2.125,
+            11.75,
+            2.375
+          ],
+          "texture": "#lectern_atlas"
+        },
+        "east": {
+          "uv": [
+            11.5,
+            2.125,
+            11.625,
+            2.375
+          ],
+          "texture": "#lectern_atlas"
+        },
+        "west": {
+          "uv": [
+            11.75,
+            2.125,
+            11.875,
+            2.375
+          ],
+          "texture": "#lectern_atlas"
+        },
+        "up": {
+          "uv": [
+            11.625,
+            2,
+            11.75,
+            2.125
+          ],
+          "texture": "#lectern_atlas"
+        },
+        "down": {
+          "uv": [
+            11.75,
+            2,
+            11.875,
+            2.125
+          ],
+          "texture": "#lectern_atlas"
+        }
+      }
+    },
+    {
+      "name": "tiny_green_crystal_tip",
+      "from": [
+        12.25,
+        14,
+        13
+      ],
+      "to": [
+        12.75,
+        14.75,
+        13.5
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            12.375,
+            2.125,
+            12.5,
+            2.25
+          ],
+          "texture": "#lectern_atlas"
+        },
+        "south": {
+          "uv": [
+            12.125,
+            2.125,
+            12.25,
+            2.25
+          ],
+          "texture": "#lectern_atlas"
+        },
+        "east": {
+          "uv": [
+            12,
+            2.125,
+            12.125,
+            2.25
+          ],
+          "texture": "#lectern_atlas"
+        },
+        "west": {
+          "uv": [
+            12.25,
+            2.125,
+            12.375,
+            2.25
+          ],
+          "texture": "#lectern_atlas"
+        },
+        "up": {
+          "uv": [
+            12.125,
+            2,
+            12.25,
+            2.125
+          ],
+          "texture": "#lectern_atlas"
+        },
+        "down": {
+          "uv": [
+            12.25,
+            2,
+            12.375,
+            2.125
+          ],
+          "texture": "#lectern_atlas"
+        }
+      }
+    }
+  ],
+  "display": {
+    "gui": {
+      "rotation": [
+        30,
+        225,
+        0
+      ],
+      "translation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        0.625,
+        0.625,
+        0.625
+      ]
+    },
+    "ground": {
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "translation": [
+        0,
+        3,
+        0
+      ],
+      "scale": [
+        0.25,
+        0.25,
+        0.25
+      ]
+    },
+    "fixed": {
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "translation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        0.5,
+        0.5,
+        0.5
+      ]
+    },
+    "head": {
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "translation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    "thirdperson_righthand": {
+      "rotation": [
+        75,
+        45,
+        0
+      ],
+      "translation": [
+        0,
+        2.5,
+        0
+      ],
+      "scale": [
+        0.375,
+        0.375,
+        0.375
+      ]
+    },
+    "thirdperson_lefthand": {
+      "rotation": [
+        75,
+        45,
+        0
+      ],
+      "translation": [
+        0,
+        2.5,
+        0
+      ],
+      "scale": [
+        0.375,
+        0.375,
+        0.375
+      ]
+    },
+    "firstperson_righthand": {
+      "rotation": [
+        0,
+        45,
+        0
+      ],
+      "translation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        0.4,
+        0.4,
+        0.4
+      ]
+    },
+    "firstperson_lefthand": {
+      "rotation": [
+        0,
+        45,
+        0
+      ],
+      "translation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        0.4,
+        0.4,
+        0.4
+      ]
+    }
+  },
+  "gui_light": "side"
+}

@@ -4,11 +4,11 @@
 
 Minecraft Java 26.3 resource pack, maintained by Elongated_Orange.
 
-## Orange SMP Furniture (v0.14.0)
+## Orange SMP Furniture (v0.15.0)
 
-Adds 48 actual Voxel Forge furniture generations: 32 everyday and 16 Halloween designs, including chairs, sofas, tables, cabinets, workbenches, lamps, garden ornaments, pumpkin furniture and haunted decorations. Stable item aliases use `orangesmp:furniture/<design>`. Source jobs, editable generated assets and export checksums are recorded in `provenance/furniture`.
+Includes 64 actual Voxel Forge furniture generations: 40 everyday and 24 Halloween designs, including chairs, sofas, tables, cabinets, workbenches, lamps, garden ornaments, pumpkin furniture and haunted decorations. Stable item aliases use `orangesmp:furniture/<design>`. Source jobs, editable generated assets and export checksums are recorded in `provenance/furniture`.
 
-The furniture shop, repeatable delivery quests and reward mailbox use the shared core shader HUD. Its 103 carriers reuse the two existing generated panel/control sources and add small and large projections of all 48 furniture models. Artwork parentage and transport metadata are recorded in `provenance/furniture-hud`. Existing core shaders, shared lettering, cursor, pet assets and Model Engine exports are preserved. Pair with Orange SMP Furniture 0.1.0 on Paper 26.3 and Full Send's Minecoin banking service.
+The furniture shop, repeatable delivery quests and reward mailbox use the shared core shader HUD. Its 135 carriers reuse the two existing generated panel/control sources and add small and large projections of all 64 furniture models. Artwork parentage and transport metadata are recorded in `provenance/furniture-hud`. Existing core shaders, shared lettering, cursor, pet assets and Model Engine exports are preserved. Pair with Orange SMP Furniture 0.1.0 on Paper 26.3 and Full Send's Minecoin banking service.
 
 ## Full Send Penguin Cross and Roulette (v0.7.0)
 

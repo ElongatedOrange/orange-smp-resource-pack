@@ -1,0 +1,1804 @@
+{
+  "credit": "VoxelForge",
+  "textures": {
+    "particle": "voxelforge:item/furniture_web_side_table_af126452/main",
+    "main": "voxelforge:item/furniture_web_side_table_af126452/main"
+  },
+  "elements": [
+    {
+      "name": "Square web tabletop",
+      "from": [
+        1,
+        11,
+        1
+      ],
+      "to": [
+        15,
+        12,
+        15
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            5.25,
+            1.75,
+            7,
+            1.875
+          ],
+          "texture": "#main"
+        },
+        "south": {
+          "uv": [
+            1.75,
+            1.75,
+            3.5,
+            1.875
+          ],
+          "texture": "#main"
+        },
+        "east": {
+          "uv": [
+            0,
+            1.75,
+            1.75,
+            1.875
+          ],
+          "texture": "#main"
+        },
+        "west": {
+          "uv": [
+            3.5,
+            1.75,
+            5.25,
+            1.875
+          ],
+          "texture": "#main"
+        },
+        "up": {
+          "uv": [
+            1.75,
+            0,
+            3.5,
+            1.75
+          ],
+          "texture": "#main"
+        },
+        "down": {
+          "uv": [
+            3.5,
+            0,
+            5.25,
+            1.75
+          ],
+          "texture": "#main"
+        }
+      }
+    },
+    {
+      "name": "Front recessed apron",
+      "from": [
+        4,
+        9,
+        2.25
+      ],
+      "to": [
+        12,
+        11,
+        3.75
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            1.5,
+            2.25,
+            2.5,
+            2.5
+          ],
+          "texture": "#main"
+        },
+        "south": {
+          "uv": [
+            0.25,
+            2.25,
+            1.25,
+            2.5
+          ],
+          "texture": "#main"
+        },
+        "east": {
+          "uv": [
+            0,
+            2.25,
+            0.25,
+            2.5
+          ],
+          "texture": "#main"
+        },
+        "west": {
+          "uv": [
+            1.25,
+            2.25,
+            1.5,
+            2.5
+          ],
+          "texture": "#main"
+        },
+        "up": {
+          "uv": [
+            0.25,
+            2,
+            1.25,
+            2.25
+          ],
+          "texture": "#main"
+        },
+        "down": {
+          "uv": [
+            1.25,
+            2,
+            2.25,
+            2.25
+          ],
+          "texture": "#main"
+        }
+      }
+    },
+    {
+      "name": "Rear recessed apron",
+      "from": [
+        4,
+        9,
+        12.25
+      ],
+      "to": [
+        12,
+        11,
+        13.75
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            4.25,
+            2.25,
+            5.25,
+            2.5
+          ],
+          "texture": "#main"
+        },
+        "south": {
+          "uv": [
+            3,
+            2.25,
+            4,
+            2.5
+          ],
+          "texture": "#main"
+        },
+        "east": {
+          "uv": [
+            2.75,
+            2.25,
+            3,
+            2.5
+          ],
+          "texture": "#main"
+        },
+        "west": {
+          "uv": [
+            4,
+            2.25,
+            4.25,
+            2.5
+          ],
+          "texture": "#main"
+        },
+        "up": {
+          "uv": [
+            3,
+            2,
+            4,
+            2.25
+          ],
+          "texture": "#main"
+        },
+        "down": {
+          "uv": [
+            4,
+            2,
+            5,
+            2.25
+          ],
+          "texture": "#main"
+        }
+      }
+    },
+    {
+      "name": "Left recessed apron",
+      "from": [
+        2.25,
+        9,
+        4
+      ],
+      "to": [
+        3.75,
+        11,
+        12
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            7.75,
+            3,
+            8,
+            3.25
+          ],
+          "texture": "#main"
+        },
+        "south": {
+          "uv": [
+            6.5,
+            3,
+            6.75,
+            3.25
+          ],
+          "texture": "#main"
+        },
+        "east": {
+          "uv": [
+            5.5,
+            3,
+            6.5,
+            3.25
+          ],
+          "texture": "#main"
+        },
+        "west": {
+          "uv": [
+            6.75,
+            3,
+            7.75,
+            3.25
+          ],
+          "texture": "#main"
+        },
+        "up": {
+          "uv": [
+            6.5,
+            2,
+            6.75,
+            3
+          ],
+          "texture": "#main"
+        },
+        "down": {
+          "uv": [
+            6.75,
+            2,
+            7,
+            3
+          ],
+          "texture": "#main"
+        }
+      }
+    },
+    {
+      "name": "Right recessed apron",
+      "from": [
+        12.25,
+        9,
+        4
+      ],
+      "to": [
+        13.75,
+        11,
+        12
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            10.5,
+            3,
+            10.75,
+            3.25
+          ],
+          "texture": "#main"
+        },
+        "south": {
+          "uv": [
+            9.25,
+            3,
+            9.5,
+            3.25
+          ],
+          "texture": "#main"
+        },
+        "east": {
+          "uv": [
+            8.25,
+            3,
+            9.25,
+            3.25
+          ],
+          "texture": "#main"
+        },
+        "west": {
+          "uv": [
+            9.5,
+            3,
+            10.5,
+            3.25
+          ],
+          "texture": "#main"
+        },
+        "up": {
+          "uv": [
+            9.25,
+            2,
+            9.5,
+            3
+          ],
+          "texture": "#main"
+        },
+        "down": {
+          "uv": [
+            9.5,
+            2,
+            9.75,
+            3
+          ],
+          "texture": "#main"
+        }
+      }
+    },
+    {
+      "name": "Front left upper leg",
+      "from": [
+        2,
+        6,
+        2
+      ],
+      "to": [
+        4,
+        11,
+        4
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            0.75,
+            4.25,
+            1,
+            4.875
+          ],
+          "texture": "#main"
+        },
+        "south": {
+          "uv": [
+            0.25,
+            4.25,
+            0.5,
+            4.875
+          ],
+          "texture": "#main"
+        },
+        "east": {
+          "uv": [
+            0,
+            4.25,
+            0.25,
+            4.875
+          ],
+          "texture": "#main"
+        },
+        "west": {
+          "uv": [
+            0.5,
+            4.25,
+            0.75,
+            4.875
+          ],
+          "texture": "#main"
+        },
+        "up": {
+          "uv": [
+            0.25,
+            4,
+            0.5,
+            4.25
+          ],
+          "texture": "#main"
+        },
+        "down": {
+          "uv": [
+            0.5,
+            4,
+            0.75,
+            4.25
+          ],
+          "texture": "#main"
+        }
+      }
+    },
+    {
+      "name": "Front right upper leg",
+      "from": [
+        12,
+        6,
+        2
+      ],
+      "to": [
+        14,
+        11,
+        4
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            2,
+            4.25,
+            2.25,
+            4.875
+          ],
+          "texture": "#main"
+        },
+        "south": {
+          "uv": [
+            1.5,
+            4.25,
+            1.75,
+            4.875
+          ],
+          "texture": "#main"
+        },
+        "east": {
+          "uv": [
+            1.25,
+            4.25,
+            1.5,
+            4.875
+          ],
+          "texture": "#main"
+        },
+        "west": {
+          "uv": [
+            1.75,
+            4.25,
+            2,
+            4.875
+          ],
+          "texture": "#main"
+        },
+        "up": {
+          "uv": [
+            1.5,
+            4,
+            1.75,
+            4.25
+          ],
+          "texture": "#main"
+        },
+        "down": {
+          "uv": [
+            1.75,
+            4,
+            2,
+            4.25
+          ],
+          "texture": "#main"
+        }
+      }
+    },
+    {
+      "name": "Rear left upper leg",
+      "from": [
+        2,
+        6,
+        12
+      ],
+      "to": [
+        4,
+        11,
+        14
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            3.25,
+            4.25,
+            3.5,
+            4.875
+          ],
+          "texture": "#main"
+        },
+        "south": {
+          "uv": [
+            2.75,
+            4.25,
+            3,
+            4.875
+          ],
+          "texture": "#main"
+        },
+        "east": {
+          "uv": [
+            2.5,
+            4.25,
+            2.75,
+            4.875
+          ],
+          "texture": "#main"
+        },
+        "west": {
+          "uv": [
+            3,
+            4.25,
+            3.25,
+            4.875
+          ],
+          "texture": "#main"
+        },
+        "up": {
+          "uv": [
+            2.75,
+            4,
+            3,
+            4.25
+          ],
+          "texture": "#main"
+        },
+        "down": {
+          "uv": [
+            3,
+            4,
+            3.25,
+            4.25
+          ],
+          "texture": "#main"
+        }
+      }
+    },
+    {
+      "name": "Rear right upper leg",
+      "from": [
+        12,
+        6,
+        12
+      ],
+      "to": [
+        14,
+        11,
+        14
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            4.5,
+            4.25,
+            4.75,
+            4.875
+          ],
+          "texture": "#main"
+        },
+        "south": {
+          "uv": [
+            4,
+            4.25,
+            4.25,
+            4.875
+          ],
+          "texture": "#main"
+        },
+        "east": {
+          "uv": [
+            3.75,
+            4.25,
+            4,
+            4.875
+          ],
+          "texture": "#main"
+        },
+        "west": {
+          "uv": [
+            4.25,
+            4.25,
+            4.5,
+            4.875
+          ],
+          "texture": "#main"
+        },
+        "up": {
+          "uv": [
+            4,
+            4,
+            4.25,
+            4.25
+          ],
+          "texture": "#main"
+        },
+        "down": {
+          "uv": [
+            4.25,
+            4,
+            4.5,
+            4.25
+          ],
+          "texture": "#main"
+        }
+      }
+    },
+    {
+      "name": "Front left tapered shaft",
+      "from": [
+        2.25,
+        2,
+        2.25
+      ],
+      "to": [
+        3.75,
+        6,
+        3.75
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            0.75,
+            5.25,
+            1,
+            5.75
+          ],
+          "texture": "#main"
+        },
+        "south": {
+          "uv": [
+            0.25,
+            5.25,
+            0.5,
+            5.75
+          ],
+          "texture": "#main"
+        },
+        "east": {
+          "uv": [
+            0,
+            5.25,
+            0.25,
+            5.75
+          ],
+          "texture": "#main"
+        },
+        "west": {
+          "uv": [
+            0.5,
+            5.25,
+            0.75,
+            5.75
+          ],
+          "texture": "#main"
+        },
+        "up": {
+          "uv": [
+            0.25,
+            5,
+            0.5,
+            5.25
+          ],
+          "texture": "#main"
+        },
+        "down": {
+          "uv": [
+            0.5,
+            5,
+            0.75,
+            5.25
+          ],
+          "texture": "#main"
+        }
+      }
+    },
+    {
+      "name": "Front right tapered shaft",
+      "from": [
+        12.25,
+        2,
+        2.25
+      ],
+      "to": [
+        13.75,
+        6,
+        3.75
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            2,
+            5.25,
+            2.25,
+            5.75
+          ],
+          "texture": "#main"
+        },
+        "south": {
+          "uv": [
+            1.5,
+            5.25,
+            1.75,
+            5.75
+          ],
+          "texture": "#main"
+        },
+        "east": {
+          "uv": [
+            1.25,
+            5.25,
+            1.5,
+            5.75
+          ],
+          "texture": "#main"
+        },
+        "west": {
+          "uv": [
+            1.75,
+            5.25,
+            2,
+            5.75
+          ],
+          "texture": "#main"
+        },
+        "up": {
+          "uv": [
+            1.5,
+            5,
+            1.75,
+            5.25
+          ],
+          "texture": "#main"
+        },
+        "down": {
+          "uv": [
+            1.75,
+            5,
+            2,
+            5.25
+          ],
+          "texture": "#main"
+        }
+      }
+    },
+    {
+      "name": "Rear left tapered shaft",
+      "from": [
+        2.25,
+        2,
+        12.25
+      ],
+      "to": [
+        3.75,
+        6,
+        13.75
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            3.25,
+            5.25,
+            3.5,
+            5.75
+          ],
+          "texture": "#main"
+        },
+        "south": {
+          "uv": [
+            2.75,
+            5.25,
+            3,
+            5.75
+          ],
+          "texture": "#main"
+        },
+        "east": {
+          "uv": [
+            2.5,
+            5.25,
+            2.75,
+            5.75
+          ],
+          "texture": "#main"
+        },
+        "west": {
+          "uv": [
+            3,
+            5.25,
+            3.25,
+            5.75
+          ],
+          "texture": "#main"
+        },
+        "up": {
+          "uv": [
+            2.75,
+            5,
+            3,
+            5.25
+          ],
+          "texture": "#main"
+        },
+        "down": {
+          "uv": [
+            3,
+            5,
+            3.25,
+            5.25
+          ],
+          "texture": "#main"
+        }
+      }
+    },
+    {
+      "name": "Rear right tapered shaft",
+      "from": [
+        12.25,
+        2,
+        12.25
+      ],
+      "to": [
+        13.75,
+        6,
+        13.75
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            4.5,
+            5.25,
+            4.75,
+            5.75
+          ],
+          "texture": "#main"
+        },
+        "south": {
+          "uv": [
+            4,
+            5.25,
+            4.25,
+            5.75
+          ],
+          "texture": "#main"
+        },
+        "east": {
+          "uv": [
+            3.75,
+            5.25,
+            4,
+            5.75
+          ],
+          "texture": "#main"
+        },
+        "west": {
+          "uv": [
+            4.25,
+            5.25,
+            4.5,
+            5.75
+          ],
+          "texture": "#main"
+        },
+        "up": {
+          "uv": [
+            4,
+            5,
+            4.25,
+            5.25
+          ],
+          "texture": "#main"
+        },
+        "down": {
+          "uv": [
+            4.25,
+            5,
+            4.5,
+            5.25
+          ],
+          "texture": "#main"
+        }
+      }
+    },
+    {
+      "name": "Front left narrow foot",
+      "from": [
+        2.5,
+        0,
+        2.5
+      ],
+      "to": [
+        3.5,
+        2,
+        3.5
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            0.375,
+            6.125,
+            0.5,
+            6.375
+          ],
+          "texture": "#main"
+        },
+        "south": {
+          "uv": [
+            0.125,
+            6.125,
+            0.25,
+            6.375
+          ],
+          "texture": "#main"
+        },
+        "east": {
+          "uv": [
+            0,
+            6.125,
+            0.125,
+            6.375
+          ],
+          "texture": "#main"
+        },
+        "west": {
+          "uv": [
+            0.25,
+            6.125,
+            0.375,
+            6.375
+          ],
+          "texture": "#main"
+        },
+        "up": {
+          "uv": [
+            0.125,
+            6,
+            0.25,
+            6.125
+          ],
+          "texture": "#main"
+        },
+        "down": {
+          "uv": [
+            0.25,
+            6,
+            0.375,
+            6.125
+          ],
+          "texture": "#main"
+        }
+      }
+    },
+    {
+      "name": "Front right narrow foot",
+      "from": [
+        12.5,
+        0,
+        2.5
+      ],
+      "to": [
+        13.5,
+        2,
+        3.5
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            1.125,
+            6.125,
+            1.25,
+            6.375
+          ],
+          "texture": "#main"
+        },
+        "south": {
+          "uv": [
+            0.875,
+            6.125,
+            1,
+            6.375
+          ],
+          "texture": "#main"
+        },
+        "east": {
+          "uv": [
+            0.75,
+            6.125,
+            0.875,
+            6.375
+          ],
+          "texture": "#main"
+        },
+        "west": {
+          "uv": [
+            1,
+            6.125,
+            1.125,
+            6.375
+          ],
+          "texture": "#main"
+        },
+        "up": {
+          "uv": [
+            0.875,
+            6,
+            1,
+            6.125
+          ],
+          "texture": "#main"
+        },
+        "down": {
+          "uv": [
+            1,
+            6,
+            1.125,
+            6.125
+          ],
+          "texture": "#main"
+        }
+      }
+    },
+    {
+      "name": "Rear left narrow foot",
+      "from": [
+        2.5,
+        0,
+        12.5
+      ],
+      "to": [
+        3.5,
+        2,
+        13.5
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            1.875,
+            6.125,
+            2,
+            6.375
+          ],
+          "texture": "#main"
+        },
+        "south": {
+          "uv": [
+            1.625,
+            6.125,
+            1.75,
+            6.375
+          ],
+          "texture": "#main"
+        },
+        "east": {
+          "uv": [
+            1.5,
+            6.125,
+            1.625,
+            6.375
+          ],
+          "texture": "#main"
+        },
+        "west": {
+          "uv": [
+            1.75,
+            6.125,
+            1.875,
+            6.375
+          ],
+          "texture": "#main"
+        },
+        "up": {
+          "uv": [
+            1.625,
+            6,
+            1.75,
+            6.125
+          ],
+          "texture": "#main"
+        },
+        "down": {
+          "uv": [
+            1.75,
+            6,
+            1.875,
+            6.125
+          ],
+          "texture": "#main"
+        }
+      }
+    },
+    {
+      "name": "Rear right narrow foot",
+      "from": [
+        12.5,
+        0,
+        12.5
+      ],
+      "to": [
+        13.5,
+        2,
+        13.5
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            2.625,
+            6.125,
+            2.75,
+            6.375
+          ],
+          "texture": "#main"
+        },
+        "south": {
+          "uv": [
+            2.375,
+            6.125,
+            2.5,
+            6.375
+          ],
+          "texture": "#main"
+        },
+        "east": {
+          "uv": [
+            2.25,
+            6.125,
+            2.375,
+            6.375
+          ],
+          "texture": "#main"
+        },
+        "west": {
+          "uv": [
+            2.5,
+            6.125,
+            2.625,
+            6.375
+          ],
+          "texture": "#main"
+        },
+        "up": {
+          "uv": [
+            2.375,
+            6,
+            2.5,
+            6.125
+          ],
+          "texture": "#main"
+        },
+        "down": {
+          "uv": [
+            2.5,
+            6,
+            2.625,
+            6.125
+          ],
+          "texture": "#main"
+        }
+      }
+    },
+    {
+      "name": "Pumpkin central body",
+      "from": [
+        10,
+        12,
+        9
+      ],
+      "to": [
+        13,
+        14,
+        12
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            6.125,
+            4.375,
+            6.5,
+            4.625
+          ],
+          "texture": "#main"
+        },
+        "south": {
+          "uv": [
+            5.375,
+            4.375,
+            5.75,
+            4.625
+          ],
+          "texture": "#main"
+        },
+        "east": {
+          "uv": [
+            5,
+            4.375,
+            5.375,
+            4.625
+          ],
+          "texture": "#main"
+        },
+        "west": {
+          "uv": [
+            5.75,
+            4.375,
+            6.125,
+            4.625
+          ],
+          "texture": "#main"
+        },
+        "up": {
+          "uv": [
+            5.375,
+            4,
+            5.75,
+            4.375
+          ],
+          "texture": "#main"
+        },
+        "down": {
+          "uv": [
+            5.75,
+            4,
+            6.125,
+            4.375
+          ],
+          "texture": "#main"
+        }
+      }
+    },
+    {
+      "name": "Pumpkin left lobe",
+      "from": [
+        9.5,
+        12.25,
+        9.5
+      ],
+      "to": [
+        10,
+        13.75,
+        11.5
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            7.375,
+            4.25,
+            7.5,
+            4.5
+          ],
+          "texture": "#main"
+        },
+        "south": {
+          "uv": [
+            7,
+            4.25,
+            7.125,
+            4.5
+          ],
+          "texture": "#main"
+        },
+        "east": {
+          "uv": [
+            6.75,
+            4.25,
+            7,
+            4.5
+          ],
+          "texture": "#main"
+        },
+        "west": {
+          "uv": [
+            7.125,
+            4.25,
+            7.375,
+            4.5
+          ],
+          "texture": "#main"
+        },
+        "up": {
+          "uv": [
+            7,
+            4,
+            7.125,
+            4.25
+          ],
+          "texture": "#main"
+        },
+        "down": {
+          "uv": [
+            7.125,
+            4,
+            7.25,
+            4.25
+          ],
+          "texture": "#main"
+        }
+      }
+    },
+    {
+      "name": "Pumpkin right lobe",
+      "from": [
+        13,
+        12.25,
+        9.5
+      ],
+      "to": [
+        13.5,
+        13.75,
+        11.5
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            8.375,
+            4.25,
+            8.5,
+            4.5
+          ],
+          "texture": "#main"
+        },
+        "south": {
+          "uv": [
+            8,
+            4.25,
+            8.125,
+            4.5
+          ],
+          "texture": "#main"
+        },
+        "east": {
+          "uv": [
+            7.75,
+            4.25,
+            8,
+            4.5
+          ],
+          "texture": "#main"
+        },
+        "west": {
+          "uv": [
+            8.125,
+            4.25,
+            8.375,
+            4.5
+          ],
+          "texture": "#main"
+        },
+        "up": {
+          "uv": [
+            8,
+            4,
+            8.125,
+            4.25
+          ],
+          "texture": "#main"
+        },
+        "down": {
+          "uv": [
+            8.125,
+            4,
+            8.25,
+            4.25
+          ],
+          "texture": "#main"
+        }
+      }
+    },
+    {
+      "name": "Pumpkin front lobe",
+      "from": [
+        10.5,
+        12.25,
+        8.5
+      ],
+      "to": [
+        12.5,
+        13.75,
+        9
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            9.25,
+            4.125,
+            9.5,
+            4.375
+          ],
+          "texture": "#main"
+        },
+        "south": {
+          "uv": [
+            8.875,
+            4.125,
+            9.125,
+            4.375
+          ],
+          "texture": "#main"
+        },
+        "east": {
+          "uv": [
+            8.75,
+            4.125,
+            8.875,
+            4.375
+          ],
+          "texture": "#main"
+        },
+        "west": {
+          "uv": [
+            9.125,
+            4.125,
+            9.25,
+            4.375
+          ],
+          "texture": "#main"
+        },
+        "up": {
+          "uv": [
+            8.875,
+            4,
+            9.125,
+            4.125
+          ],
+          "texture": "#main"
+        },
+        "down": {
+          "uv": [
+            9.125,
+            4,
+            9.375,
+            4.125
+          ],
+          "texture": "#main"
+        }
+      }
+    },
+    {
+      "name": "Pumpkin rear lobe",
+      "from": [
+        10.5,
+        12.25,
+        12
+      ],
+      "to": [
+        12.5,
+        13.75,
+        12.5
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            10.25,
+            4.125,
+            10.5,
+            4.375
+          ],
+          "texture": "#main"
+        },
+        "south": {
+          "uv": [
+            9.875,
+            4.125,
+            10.125,
+            4.375
+          ],
+          "texture": "#main"
+        },
+        "east": {
+          "uv": [
+            9.75,
+            4.125,
+            9.875,
+            4.375
+          ],
+          "texture": "#main"
+        },
+        "west": {
+          "uv": [
+            10.125,
+            4.125,
+            10.25,
+            4.375
+          ],
+          "texture": "#main"
+        },
+        "up": {
+          "uv": [
+            9.875,
+            4,
+            10.125,
+            4.125
+          ],
+          "texture": "#main"
+        },
+        "down": {
+          "uv": [
+            10.125,
+            4,
+            10.375,
+            4.125
+          ],
+          "texture": "#main"
+        }
+      }
+    },
+    {
+      "name": "Pumpkin crown",
+      "from": [
+        10.5,
+        14,
+        9.5
+      ],
+      "to": [
+        12.5,
+        14.5,
+        11.5
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            5.75,
+            5.25,
+            6,
+            5.375
+          ],
+          "texture": "#main"
+        },
+        "south": {
+          "uv": [
+            5.25,
+            5.25,
+            5.5,
+            5.375
+          ],
+          "texture": "#main"
+        },
+        "east": {
+          "uv": [
+            5,
+            5.25,
+            5.25,
+            5.375
+          ],
+          "texture": "#main"
+        },
+        "west": {
+          "uv": [
+            5.5,
+            5.25,
+            5.75,
+            5.375
+          ],
+          "texture": "#main"
+        },
+        "up": {
+          "uv": [
+            5.25,
+            5,
+            5.5,
+            5.25
+          ],
+          "texture": "#main"
+        },
+        "down": {
+          "uv": [
+            5.5,
+            5,
+            5.75,
+            5.25
+          ],
+          "texture": "#main"
+        }
+      }
+    },
+    {
+      "name": "Pumpkin short woody stem",
+      "from": [
+        11.25,
+        14.5,
+        10.25
+      ],
+      "to": [
+        11.75,
+        15.5,
+        10.75
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            6.625,
+            5.125,
+            6.75,
+            5.25
+          ],
+          "texture": "#main"
+        },
+        "south": {
+          "uv": [
+            6.375,
+            5.125,
+            6.5,
+            5.25
+          ],
+          "texture": "#main"
+        },
+        "east": {
+          "uv": [
+            6.25,
+            5.125,
+            6.375,
+            5.25
+          ],
+          "texture": "#main"
+        },
+        "west": {
+          "uv": [
+            6.5,
+            5.125,
+            6.625,
+            5.25
+          ],
+          "texture": "#main"
+        },
+        "up": {
+          "uv": [
+            6.375,
+            5,
+            6.5,
+            5.125
+          ],
+          "texture": "#main"
+        },
+        "down": {
+          "uv": [
+            6.5,
+            5,
+            6.625,
+            5.125
+          ],
+          "texture": "#main"
+        }
+      }
+    }
+  ],
+  "display": {
+    "gui": {
+      "rotation": [
+        30,
+        225,
+        0
+      ],
+      "translation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        0.625,
+        0.625,
+        0.625
+      ]
+    },
+    "ground": {
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "translation": [
+        0,
+        3,
+        0
+      ],
+      "scale": [
+        0.25,
+        0.25,
+        0.25
+      ]
+    },
+    "fixed": {
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "translation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        0.5,
+        0.5,
+        0.5
+      ]
+    },
+    "head": {
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "translation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    "thirdperson_righthand": {
+      "rotation": [
+        75,
+        45,
+        0
+      ],
+      "translation": [
+        0,
+        2.5,
+        0
+      ],
+      "scale": [
+        0.375,
+        0.375,
+        0.375
+      ]
+    },
+    "thirdperson_lefthand": {
+      "rotation": [
+        75,
+        45,
+        0
+      ],
+      "translation": [
+        0,
+        2.5,
+        0
+      ],
+      "scale": [
+        0.375,
+        0.375,
+        0.375
+      ]
+    },
+    "firstperson_righthand": {
+      "rotation": [
+        0,
+        45,
+        0
+      ],
+      "translation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        0.4,
+        0.4,
+        0.4
+      ]
+    },
+    "firstperson_lefthand": {
+      "rotation": [
+        0,
+        45,
+        0
+      ],
+      "translation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        0.4,
+        0.4,
+        0.4
+      ]
+    }
+  },
+  "gui_light": "side"
+}
