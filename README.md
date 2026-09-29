@@ -4,6 +4,12 @@
 
 Minecraft Java 26.3 resource pack, maintained by Elongated_Orange.
 
+## Paintball HUD redesign (v0.18.1)
+
+Paintball now uses the existing **Barlow Condensed** Medium/Bold typeface under the SIL Open Font License 1.1. The original TTFs and license are included in `assets/orangesmp/font/source`, with source links and rasterization provenance in `provenance/paintball-font`. The user explicitly requested an existing font rather than Voxel Forge font generation.
+
+Large ammo numbers, amber low-ammo feedback, a solid team-coloured progress meter, a compact scoreboard and quieter translucent cards replace the first HUD layout. Backing and meter artwork are two actual Voxel Forge generations recorded in `provenance/paintball-hud-v2`. Core shaders and other plugin fonts remain unchanged.
+
 ## Orange SMP Paintball (v0.18.0)
 
 Adds sporty Popper and Burst shooters, orange/blue paintball projectiles and temporary splat appearances. The core-shader HUD uses a generated panel and reticle with existing shared lettering and shaders. All six source designs are actual Voxel Forge generations; exports, team-tint adaptations and technical glyph carriers record their parentage in `provenance/paintball`. Pair with OrangeSMPEvents and OrangeSMPPaintball 0.1.0. Installing the plugins does not activate the event.

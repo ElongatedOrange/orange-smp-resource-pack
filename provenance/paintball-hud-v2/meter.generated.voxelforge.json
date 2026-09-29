@@ -1,0 +1,67 @@
+{
+  "id": "92da8692-7e6b-452c-99f5-405178c712f0",
+  "kind": "icon",
+  "spec": {
+    "name": "Paintball HUD Meter",
+    "description": "A single solid white capsule spanning x=2..29 and y=13..18 on a transparent 32×32 canvas, ready for runtime tinting and progress cropping.",
+    "palette": [
+      "#FFFFFF"
+    ],
+    "textures": [
+      {
+        "id": "main",
+        "width": 32,
+        "height": 32,
+        "background": "#00000000",
+        "commands": [
+          {
+            "op": "rect",
+            "x": 4,
+            "y": 13,
+            "w": 24,
+            "h": 6,
+            "color": "#FFFFFF",
+            "seed": 0,
+            "density": 1
+          },
+          {
+            "op": "rect",
+            "x": 3,
+            "y": 14,
+            "w": 26,
+            "h": 4,
+            "color": "#FFFFFF",
+            "seed": 0,
+            "density": 1
+          },
+          {
+            "op": "rect",
+            "x": 2,
+            "y": 15,
+            "w": 28,
+            "h": 2,
+            "color": "#FFFFFF",
+            "seed": 0,
+            "density": 1
+          }
+        ]
+      }
+    ],
+    "elements": [],
+    "bones": [],
+    "animation": null,
+    "sound": null
+  },
+  "prompt": "A single clean white horizontal capsule for a paintball HUD progress meter, transparent background. Exactly one thin horizontal rounded strip, x=2..29 y=13..18 on a 32x32 canvas. Solid white with small rounded end caps. No text, no decoration, no frame, no extra pixels. Intended to tint orange or blue at runtime and crop for progress. Minimal sports HUD icon.",
+  "style": "Vanilla",
+  "resolution": 32,
+  "createdAt": "2026-09-29T11:51:38.692Z",
+  "updatedAt": "2026-09-29T11:51:38.692Z",
+  "revision": 1,
+  "source": "codex",
+  "bindings": {
+    "javaTexture": "",
+    "bedrockTexture": "",
+    "glyph": 57366
+  }
+}
