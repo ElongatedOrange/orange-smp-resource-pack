@@ -1,0 +1,296 @@
+{
+  "sourceProject": "C:/Users/jackh/Development/cool-weapons-plugin",
+  "target": "Minecraft 26.3 / resource format 97.1",
+  "rifleVoxelForgeSource": "assets-source/voxelforge/inferno_rifle_801a3c3e.bbmodel",
+  "notes": "Existing user-supplied assets preserved. Rifle source is a Voxel Forge export. Legacy dragon/effect artwork is retained from the supplied plugin; no new artwork was generated during this compatibility update. Shader wrappers are technical adaptations of the Minecraft 26.3 client wrappers.",
+  "files": [
+    {
+      "path": "assets/minecraft/atlases/items.json",
+      "sha256": "fe99806415529a5671d655c56003bc6263f9baf57520d781bdeca5d93d73784b",
+      "parentSha256": "fe99806415529a5671d655c56003bc6263f9baf57520d781bdeca5d93d73784b",
+      "adaptation": "unchanged supplied artwork"
+    },
+    {
+      "path": "assets/minecraft/textures/misc/spyglass_scope.png",
+      "sha256": "8fbbb318773647786a40a4ac6b30c5bb4553467bb9262984eb4e043ebc99c626",
+      "parentSha256": "8fbbb318773647786a40a4ac6b30c5bb4553467bb9262984eb4e043ebc99c626",
+      "adaptation": "unchanged supplied artwork"
+    },
+    {
+      "path": "assets/minecraft/shaders/core/entity.fsh",
+      "sha256": "bc0e787226511a122cbb31a80ec0a542ef72b85d6c09a7d1125c4b59353697c9",
+      "parentSha256": "245db54a4f954f87a4a9768cc6006636d62d33e30ad7ffdbfce8fd57fb2d84da",
+      "adaptation": "26.3 vanilla shader wrapper"
+    },
+    {
+      "path": "assets/minecraft/shaders/core/entity.vsh",
+      "sha256": "0a0fe301fb911f1ec359f769d2eabab93dbb4f4da5a6b8676609740e6f679cc6",
+      "parentSha256": "6684b265189ebf5dcbaa08587cbd342a9332c85a0304f8c2407510caf3dc3cc5",
+      "adaptation": "26.3 vanilla shader wrapper"
+    },
+    {
+      "path": "assets/minecraft/shaders/core/item.fsh",
+      "sha256": "14ad68171f3b59730bafc3d9725398499534dafd1a7d2860e4412f1e9b5d1e90",
+      "parentSha256": "e7da249e20c7cc239d31de7f5bef20b61cca420222ef037763eb368885e321a4",
+      "adaptation": "26.3 vanilla shader wrapper"
+    },
+    {
+      "path": "assets/minecraft/shaders/core/item.vsh",
+      "sha256": "e4c1ad3b881bf1f3ded13dd83081250ec722cf865ca5f88e4598133303eb30d2",
+      "parentSha256": "5ca0125017d1a07f9e31ea2dc0d46514b00d2603b168d55d0dc9e9e1707d8e82",
+      "adaptation": "26.3 vanilla shader wrapper"
+    },
+    {
+      "path": "assets/coolweapons/items/body.json",
+      "sha256": "31d723fd8b5f823bf79bd27666d2eb78ecfe6deaa79ef1a4259dd221d53ac862",
+      "parentSha256": "31d723fd8b5f823bf79bd27666d2eb78ecfe6deaa79ef1a4259dd221d53ac862",
+      "adaptation": "unchanged supplied artwork"
+    },
+    {
+      "path": "assets/coolweapons/items/body_spined.json",
+      "sha256": "642df9dc37431c6c44ed30c76c2e11430d0f468f1c1e5e52c62e07ee4c47da38",
+      "parentSha256": "642df9dc37431c6c44ed30c76c2e11430d0f468f1c1e5e52c62e07ee4c47da38",
+      "adaptation": "unchanged supplied artwork"
+    },
+    {
+      "path": "assets/coolweapons/items/breath.json",
+      "sha256": "dff787dfd4b39f6c791629e604935937e96a17096e309cb1c53a0a78d839d586",
+      "parentSha256": "dff787dfd4b39f6c791629e604935937e96a17096e309cb1c53a0a78d839d586",
+      "adaptation": "unchanged supplied artwork"
+    },
+    {
+      "path": "assets/coolweapons/items/claw.json",
+      "sha256": "a5be89f82aed47578452153a1e89c8ee4c566ca8fcf5ca5df1769d1767512051",
+      "parentSha256": "a5be89f82aed47578452153a1e89c8ee4c566ca8fcf5ca5df1769d1767512051",
+      "adaptation": "unchanged supplied artwork"
+    },
+    {
+      "path": "assets/coolweapons/items/filament.json",
+      "sha256": "ac8745978697523ba9a98512b3987378647c790523859c0fb171438830fb0f8d",
+      "parentSha256": "ac8745978697523ba9a98512b3987378647c790523859c0fb171438830fb0f8d",
+      "adaptation": "unchanged supplied artwork"
+    },
+    {
+      "path": "assets/coolweapons/items/head.json",
+      "sha256": "fd0af1cd20e735b97ae32cd7047e3e1a5f0a48ceb2c47e497bcac9751eda5d1d",
+      "parentSha256": "fd0af1cd20e735b97ae32cd7047e3e1a5f0a48ceb2c47e497bcac9751eda5d1d",
+      "adaptation": "unchanged supplied artwork"
+    },
+    {
+      "path": "assets/coolweapons/items/inferno_rifle.json",
+      "sha256": "c2943e984f951a8102c0bb42f62c0faae59381cf34b60e444e9725ef7b0deb8d",
+      "parentSha256": "c2943e984f951a8102c0bb42f62c0faae59381cf34b60e444e9725ef7b0deb8d",
+      "adaptation": "unchanged supplied artwork"
+    },
+    {
+      "path": "assets/coolweapons/items/jaw.json",
+      "sha256": "d66c307f67e1632141e8f005f1360d4658f147cda0ff39ab1f82900539caa8cd",
+      "parentSha256": "d66c307f67e1632141e8f005f1360d4658f147cda0ff39ab1f82900539caa8cd",
+      "adaptation": "unchanged supplied artwork"
+    },
+    {
+      "path": "assets/coolweapons/items/pillar.json",
+      "sha256": "f63a4f6c21c8eb23e938175eeed11ade2ae7445b2106a9a989825ce3883de7a9",
+      "parentSha256": "f63a4f6c21c8eb23e938175eeed11ade2ae7445b2106a9a989825ce3883de7a9",
+      "adaptation": "unchanged supplied artwork"
+    },
+    {
+      "path": "assets/coolweapons/items/rift.json",
+      "sha256": "da73bf7758223d77e44a5258733e7d497705964c0e5a9996a00dcbb33a3220d2",
+      "parentSha256": "da73bf7758223d77e44a5258733e7d497705964c0e5a9996a00dcbb33a3220d2",
+      "adaptation": "unchanged supplied artwork"
+    },
+    {
+      "path": "assets/coolweapons/items/ring.json",
+      "sha256": "de3760fdd9c13f1fb1db21a133cc8d29e95894d5decbd4db224bd010b9948def",
+      "parentSha256": "de3760fdd9c13f1fb1db21a133cc8d29e95894d5decbd4db224bd010b9948def",
+      "adaptation": "unchanged supplied artwork"
+    },
+    {
+      "path": "assets/coolweapons/items/wing_left.json",
+      "sha256": "fbd4e32dddee1205e4eef297f774eebd93ca1cee3dc0acdc360f397a044b8b9e",
+      "parentSha256": "fbd4e32dddee1205e4eef297f774eebd93ca1cee3dc0acdc360f397a044b8b9e",
+      "adaptation": "unchanged supplied artwork"
+    },
+    {
+      "path": "assets/coolweapons/items/wing_right.json",
+      "sha256": "4f3cb7ac021c4274e1e8ae6e693dab40ea3644a9edfe0eb5bac13e0db9ec9682",
+      "parentSha256": "4f3cb7ac021c4274e1e8ae6e693dab40ea3644a9edfe0eb5bac13e0db9ec9682",
+      "adaptation": "unchanged supplied artwork"
+    },
+    {
+      "path": "assets/coolweapons/textures/effect/filament.png",
+      "sha256": "f0c5de71995ab1c3e25d400cebcff5c57d65f6248ed918b905d5084c89b25e4f",
+      "parentSha256": "f0c5de71995ab1c3e25d400cebcff5c57d65f6248ed918b905d5084c89b25e4f",
+      "adaptation": "unchanged supplied artwork"
+    },
+    {
+      "path": "assets/coolweapons/textures/effect/filament.png.mcmeta",
+      "sha256": "b418a4088d1c742bc5d27290831252bced20f29cf8b6c4a9ccee538d27d3d0f2",
+      "parentSha256": "b418a4088d1c742bc5d27290831252bced20f29cf8b6c4a9ccee538d27d3d0f2",
+      "adaptation": "unchanged supplied artwork"
+    },
+    {
+      "path": "assets/coolweapons/textures/effect/fire.png",
+      "sha256": "5ed51232a41734545835c4546695ca318672e888dcd27dd706cc0c37b63489b3",
+      "parentSha256": "5ed51232a41734545835c4546695ca318672e888dcd27dd706cc0c37b63489b3",
+      "adaptation": "unchanged supplied artwork"
+    },
+    {
+      "path": "assets/coolweapons/textures/effect/fire.png.mcmeta",
+      "sha256": "b418a4088d1c742bc5d27290831252bced20f29cf8b6c4a9ccee538d27d3d0f2",
+      "parentSha256": "b418a4088d1c742bc5d27290831252bced20f29cf8b6c4a9ccee538d27d3d0f2",
+      "adaptation": "unchanged supplied artwork"
+    },
+    {
+      "path": "assets/coolweapons/textures/effect/membrane.png",
+      "sha256": "b8895f492b0968323c2792e4e84ec1ea154ba228f5d69faa4be1a422eeba4db6",
+      "parentSha256": "b8895f492b0968323c2792e4e84ec1ea154ba228f5d69faa4be1a422eeba4db6",
+      "adaptation": "unchanged supplied artwork"
+    },
+    {
+      "path": "assets/coolweapons/textures/effect/membrane.png.mcmeta",
+      "sha256": "b418a4088d1c742bc5d27290831252bced20f29cf8b6c4a9ccee538d27d3d0f2",
+      "parentSha256": "b418a4088d1c742bc5d27290831252bced20f29cf8b6c4a9ccee538d27d3d0f2",
+      "adaptation": "unchanged supplied artwork"
+    },
+    {
+      "path": "assets/coolweapons/textures/effect/pillar.png",
+      "sha256": "c02a5012d16b8bbe55394c98b456d64362441a44d3a433793c92ab7a86b7a90e",
+      "parentSha256": "c02a5012d16b8bbe55394c98b456d64362441a44d3a433793c92ab7a86b7a90e",
+      "adaptation": "unchanged supplied artwork"
+    },
+    {
+      "path": "assets/coolweapons/textures/effect/pillar.png.mcmeta",
+      "sha256": "b418a4088d1c742bc5d27290831252bced20f29cf8b6c4a9ccee538d27d3d0f2",
+      "parentSha256": "b418a4088d1c742bc5d27290831252bced20f29cf8b6c4a9ccee538d27d3d0f2",
+      "adaptation": "unchanged supplied artwork"
+    },
+    {
+      "path": "assets/coolweapons/textures/item/inferno_rifle/amber_plasma.png",
+      "sha256": "090262073e8890b8c35056a118688484e339d79c735f5d31a1153a7a4ef8a1bc",
+      "parentSha256": "090262073e8890b8c35056a118688484e339d79c735f5d31a1153a7a4ef8a1bc",
+      "adaptation": "unchanged supplied artwork"
+    },
+    {
+      "path": "assets/coolweapons/textures/item/inferno_rifle/charcoal_steel.png",
+      "sha256": "5a16e8a0c79a25e1db79b486d369fd50c8a542781d60a0cef671c5bac305a8bf",
+      "parentSha256": "5a16e8a0c79a25e1db79b486d369fd50c8a542781d60a0cef671c5bac305a8bf",
+      "adaptation": "unchanged supplied artwork"
+    },
+    {
+      "path": "assets/coolweapons/textures/item/inferno_rifle/molten_channel.png",
+      "sha256": "14334a432fcbf687de54830ee1d5079afbc99bba73483b1dc8f93fee943a3350",
+      "parentSha256": "14334a432fcbf687de54830ee1d5079afbc99bba73483b1dc8f93fee943a3350",
+      "adaptation": "unchanged supplied artwork"
+    },
+    {
+      "path": "assets/coolweapons/textures/item/inferno_rifle/recessed_carbon.png",
+      "sha256": "e793ca9141622744d6055babc912065f631824fdd15543cbc9f826cb1099aeea",
+      "parentSha256": "e793ca9141622744d6055babc912065f631824fdd15543cbc9f826cb1099aeea",
+      "adaptation": "unchanged supplied artwork"
+    },
+    {
+      "path": "assets/coolweapons/textures/item/inferno_rifle/ribbed_grip.png",
+      "sha256": "4db2aace3d5dd2057a517cc47a2ad85548db03b9b5481c61efe1896763df425e",
+      "parentSha256": "4db2aace3d5dd2057a517cc47a2ad85548db03b9b5481c61efe1896763df425e",
+      "adaptation": "unchanged supplied artwork"
+    },
+    {
+      "path": "assets/coolweapons/textures/item/inferno_rifle/slate_alloy.png",
+      "sha256": "497db112f3803de9abe477bb9ac896e601e3005e76db77f0e7ef9031ff28083a",
+      "parentSha256": "497db112f3803de9abe477bb9ac896e601e3005e76db77f0e7ef9031ff28083a",
+      "adaptation": "unchanged supplied artwork"
+    },
+    {
+      "path": "assets/coolweapons/textures/item/inferno_rifle/white_hot_core.png",
+      "sha256": "f031f46d0ee1cb7651d61036b63a5244de0ba0519bd3375a2cde0f9a9cbfe5c0",
+      "parentSha256": "f031f46d0ee1cb7651d61036b63a5244de0ba0519bd3375a2cde0f9a9cbfe5c0",
+      "adaptation": "unchanged supplied artwork"
+    },
+    {
+      "path": "assets/coolweapons/shaders/include/inferno.glsl",
+      "sha256": "185033df95c3864b810fdb0f5ae631116e852ac27e5d37bbfa46ef16ce560a55",
+      "parentSha256": "185033df95c3864b810fdb0f5ae631116e852ac27e5d37bbfa46ef16ce560a55",
+      "adaptation": "unchanged supplied artwork"
+    },
+    {
+      "path": "assets/coolweapons/models/item/body.json",
+      "sha256": "e77744c76148d272666234860945cffed0386a8225c632c4ceb8185ac16bc1ea",
+      "parentSha256": "e77744c76148d272666234860945cffed0386a8225c632c4ceb8185ac16bc1ea",
+      "adaptation": "unchanged supplied artwork"
+    },
+    {
+      "path": "assets/coolweapons/models/item/body_spined.json",
+      "sha256": "a1da526f45f4155c196efbce4d8d7e88b0e779c763829949945db9ba6125c372",
+      "parentSha256": "a1da526f45f4155c196efbce4d8d7e88b0e779c763829949945db9ba6125c372",
+      "adaptation": "unchanged supplied artwork"
+    },
+    {
+      "path": "assets/coolweapons/models/item/breath.json",
+      "sha256": "826c055092113f2edbee8f24def12a325f81892027cd41ff94b464f30ebe4237",
+      "parentSha256": "826c055092113f2edbee8f24def12a325f81892027cd41ff94b464f30ebe4237",
+      "adaptation": "unchanged supplied artwork"
+    },
+    {
+      "path": "assets/coolweapons/models/item/claw.json",
+      "sha256": "db41ef5166c2a9794d2f9fc0489819478dc28933c85c52c0146a9b97c74b7c59",
+      "parentSha256": "db41ef5166c2a9794d2f9fc0489819478dc28933c85c52c0146a9b97c74b7c59",
+      "adaptation": "unchanged supplied artwork"
+    },
+    {
+      "path": "assets/coolweapons/models/item/filament.json",
+      "sha256": "fd14140fca6bebe4da6300c92f15342d1770dff60319b71677cf204674627af7",
+      "parentSha256": "fd14140fca6bebe4da6300c92f15342d1770dff60319b71677cf204674627af7",
+      "adaptation": "unchanged supplied artwork"
+    },
+    {
+      "path": "assets/coolweapons/models/item/head.json",
+      "sha256": "608209a5dd8fa7b375fe19379906282e16d6ccea90e6fa2ef173f30c31b26f3b",
+      "parentSha256": "608209a5dd8fa7b375fe19379906282e16d6ccea90e6fa2ef173f30c31b26f3b",
+      "adaptation": "unchanged supplied artwork"
+    },
+    {
+      "path": "assets/coolweapons/models/item/inferno_rifle.json",
+      "sha256": "1b9ad5d1e8ad570879e853d0eaf967a2634112013550c185a18fc232f7c26a92",
+      "parentSha256": "1b9ad5d1e8ad570879e853d0eaf967a2634112013550c185a18fc232f7c26a92",
+      "adaptation": "unchanged supplied artwork"
+    },
+    {
+      "path": "assets/coolweapons/models/item/jaw.json",
+      "sha256": "c37ef7f6e156b3076c1c1163728b338308446f413576b737b891755babd43202",
+      "parentSha256": "c37ef7f6e156b3076c1c1163728b338308446f413576b737b891755babd43202",
+      "adaptation": "unchanged supplied artwork"
+    },
+    {
+      "path": "assets/coolweapons/models/item/pillar.json",
+      "sha256": "b31bd918d36a8f4066efc19467b091b46cde4cc375cb00fb77118ddb38af7344",
+      "parentSha256": "b31bd918d36a8f4066efc19467b091b46cde4cc375cb00fb77118ddb38af7344",
+      "adaptation": "unchanged supplied artwork"
+    },
+    {
+      "path": "assets/coolweapons/models/item/rift.json",
+      "sha256": "91b8c3ae41a33dd38ab969b927ec8d91e4fecccb9137fafa41869e50ce6573a5",
+      "parentSha256": "91b8c3ae41a33dd38ab969b927ec8d91e4fecccb9137fafa41869e50ce6573a5",
+      "adaptation": "unchanged supplied artwork"
+    },
+    {
+      "path": "assets/coolweapons/models/item/ring.json",
+      "sha256": "56c44574c3182d55d7f131e4becd8083ea30556181fcbdc2f83f86b3cb166819",
+      "parentSha256": "56c44574c3182d55d7f131e4becd8083ea30556181fcbdc2f83f86b3cb166819",
+      "adaptation": "unchanged supplied artwork"
+    },
+    {
+      "path": "assets/coolweapons/models/item/wing_left.json",
+      "sha256": "a0e8d8fe2a92f3b6009558291c87e463cf9ef4e5e5b9d5db1b4e48b1e38ebd7a",
+      "parentSha256": "a0e8d8fe2a92f3b6009558291c87e463cf9ef4e5e5b9d5db1b4e48b1e38ebd7a",
+      "adaptation": "unchanged supplied artwork"
+    },
+    {
+      "path": "assets/coolweapons/models/item/wing_right.json",
+      "sha256": "d5300bf3f13323cbc40cd6b5c2b9ee9a6b9ad032221919a3e85488b11de04f19",
+      "parentSha256": "d5300bf3f13323cbc40cd6b5c2b9ee9a6b9ad032221919a3e85488b11de04f19",
+      "adaptation": "unchanged supplied artwork"
+    }
+  ]
+}
