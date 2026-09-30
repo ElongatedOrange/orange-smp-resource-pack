@@ -1,3710 +1,1210 @@
 {
   "credit": "VoxelForge",
   "textures": {
-    "charcoal_steel": "coolweapons:item/inferno_rifle/charcoal_steel",
-    "slate_alloy": "coolweapons:item/inferno_rifle/slate_alloy",
-    "recessed_carbon": "coolweapons:item/inferno_rifle/recessed_carbon",
-    "molten_channel": "coolweapons:item/inferno_rifle/molten_channel",
-    "amber_plasma": "coolweapons:item/inferno_rifle/amber_plasma",
-    "white_hot_core": "coolweapons:item/inferno_rifle/white_hot_core",
-    "ribbed_grip": "coolweapons:item/inferno_rifle/ribbed_grip",
-    "particle": "coolweapons:item/inferno_rifle/charcoal_steel"
+    "particle": "coolweapons:item/inferno_rifle/rifle",
+    "rifle": "coolweapons:item/inferno_rifle/rifle"
   },
   "elements": [
     {
-      "name": "receiver_core",
+      "name": "netherite_receiver",
       "from": [
         5,
-        11.5,
-        5
+        12,
+        0
       ],
       "to": [
         11,
-        17.5,
-        20
+        18,
+        13
       ],
       "faces": {
         "north": {
           "uv": [
-            0,
-            0,
-            3,
-            3
+            4,
+            1.625,
+            4.75,
+            2.375
           ],
-          "texture": "#charcoal_steel"
+          "texture": "#rifle"
         },
         "south": {
           "uv": [
-            0,
-            0,
-            3,
-            3
+            1.625,
+            1.625,
+            2.375,
+            2.375
           ],
-          "texture": "#charcoal_steel"
+          "texture": "#rifle"
         },
         "east": {
           "uv": [
             0,
-            0,
-            7.5,
-            3
+            1.625,
+            1.625,
+            2.375
           ],
-          "texture": "#charcoal_steel"
+          "texture": "#rifle"
         },
         "west": {
           "uv": [
-            0,
-            0,
-            7.5,
-            3
+            2.375,
+            1.625,
+            4,
+            2.375
           ],
-          "texture": "#charcoal_steel"
+          "texture": "#rifle"
         },
         "up": {
           "uv": [
+            1.625,
             0,
-            0,
-            3,
-            7.5
+            2.375,
+            1.625
           ],
-          "texture": "#charcoal_steel"
+          "texture": "#rifle"
         },
         "down": {
           "uv": [
+            2.375,
             0,
-            0,
-            3,
-            7.5
+            3.125,
+            1.625
           ],
-          "texture": "#charcoal_steel"
+          "texture": "#rifle"
         }
       }
     },
     {
-      "name": "receiver_port_armor",
+      "name": "shoulder_stock",
       "from": [
-        4.5,
-        12.5,
-        5.5
+        5,
+        12,
+        13
       ],
       "to": [
-        5.1,
-        16.5,
-        19
+        11,
+        17,
+        25
       ],
       "faces": {
         "north": {
           "uv": [
-            0,
-            0,
-            0.2999999999999998,
-            2
+            8.5,
+            1.5,
+            9.25,
+            2.125
           ],
-          "texture": "#charcoal_steel"
+          "texture": "#rifle"
         },
         "south": {
           "uv": [
-            0,
-            0,
-            0.2999999999999998,
-            2
+            6.25,
+            1.5,
+            7,
+            2.125
           ],
-          "texture": "#charcoal_steel"
+          "texture": "#rifle"
         },
         "east": {
           "uv": [
-            0,
-            0,
-            6.75,
-            2
+            4.75,
+            1.5,
+            6.25,
+            2.125
           ],
-          "texture": "#charcoal_steel"
+          "texture": "#rifle"
         },
         "west": {
           "uv": [
-            0,
-            0,
-            6.75,
-            2
+            7,
+            1.5,
+            8.5,
+            2.125
           ],
-          "texture": "#charcoal_steel"
+          "texture": "#rifle"
         },
         "up": {
           "uv": [
+            6.25,
             0,
-            0,
-            0.2999999999999998,
-            6.75
+            7,
+            1.5
           ],
-          "texture": "#charcoal_steel"
+          "texture": "#rifle"
         },
         "down": {
           "uv": [
+            7,
             0,
-            0,
-            0.2999999999999998,
-            6.75
+            7.75,
+            1.5
           ],
-          "texture": "#charcoal_steel"
+          "texture": "#rifle"
         }
       }
     },
     {
-      "name": "receiver_starboard_armor",
+      "name": "barrel_core",
       "from": [
-        10.9,
-        12.5,
-        5.5
+        6,
+        13,
+        -10
+      ],
+      "to": [
+        10,
+        17,
+        0
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            12.25,
+            1.25,
+            12.75,
+            1.75
+          ],
+          "texture": "#rifle"
+        },
+        "south": {
+          "uv": [
+            10.5,
+            1.25,
+            11,
+            1.75
+          ],
+          "texture": "#rifle"
+        },
+        "east": {
+          "uv": [
+            9.25,
+            1.25,
+            10.5,
+            1.75
+          ],
+          "texture": "#rifle"
+        },
+        "west": {
+          "uv": [
+            11,
+            1.25,
+            12.25,
+            1.75
+          ],
+          "texture": "#rifle"
+        },
+        "up": {
+          "uv": [
+            10.5,
+            0,
+            11,
+            1.25
+          ],
+          "texture": "#rifle"
+        },
+        "down": {
+          "uv": [
+            11,
+            0,
+            11.5,
+            1.25
+          ],
+          "texture": "#rifle"
+        }
+      }
+    },
+    {
+      "name": "stock_recoil_pad",
+      "from": [
+        4.5,
+        10.5,
+        25
       ],
       "to": [
         11.5,
-        16.5,
-        19
+        18.5,
+        27
       ],
       "faces": {
         "north": {
           "uv": [
-            0,
-            0,
-            0.2999999999999998,
-            2
+            14.125,
+            0.25,
+            15,
+            1.25
           ],
-          "texture": "#charcoal_steel"
+          "texture": "#rifle"
         },
         "south": {
           "uv": [
-            0,
-            0,
-            0.2999999999999998,
-            2
+            13,
+            0.25,
+            13.875,
+            1.25
           ],
-          "texture": "#charcoal_steel"
+          "texture": "#rifle"
         },
         "east": {
           "uv": [
-            0,
-            0,
-            6.75,
-            2
+            12.75,
+            0.25,
+            13,
+            1.25
           ],
-          "texture": "#charcoal_steel"
+          "texture": "#rifle"
         },
         "west": {
           "uv": [
-            0,
-            0,
-            6.75,
-            2
+            13.875,
+            0.25,
+            14.125,
+            1.25
           ],
-          "texture": "#charcoal_steel"
+          "texture": "#rifle"
         },
         "up": {
           "uv": [
+            13,
             0,
-            0,
-            0.2999999999999998,
-            6.75
+            13.875,
+            0.25
           ],
-          "texture": "#charcoal_steel"
+          "texture": "#rifle"
         },
         "down": {
           "uv": [
+            13.875,
             0,
-            0,
-            0.2999999999999998,
-            6.75
+            14.75,
+            0.25
           ],
-          "texture": "#charcoal_steel"
+          "texture": "#rifle"
         }
       }
     },
     {
-      "name": "receiver_port_upper_bevel",
+      "name": "left_recessed_ember_channel",
       "from": [
-        4.7,
-        16.65,
-        5.5
+        4.8,
+        14,
+        1
       ],
       "to": [
-        5.6,
-        17.55,
-        19.5
+        5.15,
+        15,
+        10
       ],
-      "rotation": {
-        "origin": [
-          5.15,
-          17.1,
-          12.5
-        ],
-        "axis": "z",
-        "angle": -45,
-        "rescale": false
-      },
       "faces": {
         "north": {
           "uv": [
-            0,
-            0,
-            0.44999999999999973,
-            0.45000000000000107
+            2.375,
+            3.625,
+            2.5,
+            3.75
           ],
-          "texture": "#slate_alloy"
+          "texture": "#rifle"
         },
         "south": {
           "uv": [
-            0,
-            0,
-            0.44999999999999973,
-            0.45000000000000107
+            1.125,
+            3.625,
+            1.25,
+            3.75
           ],
-          "texture": "#slate_alloy"
+          "texture": "#rifle"
         },
         "east": {
           "uv": [
             0,
-            0,
-            7,
-            0.45000000000000107
+            3.625,
+            1.125,
+            3.75
           ],
-          "texture": "#slate_alloy"
+          "texture": "#rifle"
         },
         "west": {
           "uv": [
-            0,
-            0,
-            7,
-            0.45000000000000107
+            1.25,
+            3.625,
+            2.375,
+            3.75
           ],
-          "texture": "#slate_alloy"
+          "texture": "#rifle"
         },
         "up": {
           "uv": [
-            0,
-            0,
-            0.44999999999999973,
-            7
+            1.125,
+            2.5,
+            1.25,
+            3.625
           ],
-          "texture": "#slate_alloy"
+          "texture": "#rifle"
         },
         "down": {
           "uv": [
-            0,
-            0,
-            0.44999999999999973,
-            7
+            1.25,
+            2.5,
+            1.375,
+            3.625
           ],
-          "texture": "#slate_alloy"
+          "texture": "#rifle"
         }
       }
     },
     {
-      "name": "receiver_starboard_upper_bevel",
+      "name": "right_recessed_ember_channel",
       "from": [
-        10.4,
-        16.65,
-        5.5
+        10.85,
+        14,
+        1
       ],
       "to": [
-        11.3,
-        17.55,
-        19.5
+        11.2,
+        15,
+        10
       ],
-      "rotation": {
-        "origin": [
-          10.85,
-          17.1,
-          12.5
-        ],
-        "axis": "z",
-        "angle": 45,
-        "rescale": false
-      },
       "faces": {
         "north": {
           "uv": [
-            0,
-            0,
-            0.4500000000000002,
-            0.45000000000000107
+            4.875,
+            3.625,
+            5,
+            3.75
           ],
-          "texture": "#slate_alloy"
+          "texture": "#rifle"
         },
         "south": {
           "uv": [
-            0,
-            0,
-            0.4500000000000002,
-            0.45000000000000107
+            3.625,
+            3.625,
+            3.75,
+            3.75
           ],
-          "texture": "#slate_alloy"
+          "texture": "#rifle"
         },
         "east": {
           "uv": [
-            0,
-            0,
-            7,
-            0.45000000000000107
+            2.5,
+            3.625,
+            3.625,
+            3.75
           ],
-          "texture": "#slate_alloy"
+          "texture": "#rifle"
         },
         "west": {
           "uv": [
-            0,
-            0,
-            7,
-            0.45000000000000107
+            3.75,
+            3.625,
+            4.875,
+            3.75
           ],
-          "texture": "#slate_alloy"
+          "texture": "#rifle"
         },
         "up": {
           "uv": [
-            0,
-            0,
-            0.4500000000000002,
-            7
+            3.625,
+            2.5,
+            3.75,
+            3.625
           ],
-          "texture": "#slate_alloy"
+          "texture": "#rifle"
         },
         "down": {
           "uv": [
-            0,
-            0,
-            0.4500000000000002,
-            7
+            3.75,
+            2.5,
+            3.875,
+            3.625
           ],
-          "texture": "#slate_alloy"
+          "texture": "#rifle"
+        }
+      }
+    },
+    {
+      "name": "left_upper_channel_armor",
+      "from": [
+        4.4,
+        15.4,
+        0.5
+      ],
+      "to": [
+        5.3,
+        17.4,
+        10.5
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            7.625,
+            3.75,
+            7.75,
+            4
+          ],
+          "texture": "#rifle"
+        },
+        "south": {
+          "uv": [
+            6.25,
+            3.75,
+            6.375,
+            4
+          ],
+          "texture": "#rifle"
+        },
+        "east": {
+          "uv": [
+            5,
+            3.75,
+            6.25,
+            4
+          ],
+          "texture": "#rifle"
+        },
+        "west": {
+          "uv": [
+            6.375,
+            3.75,
+            7.625,
+            4
+          ],
+          "texture": "#rifle"
+        },
+        "up": {
+          "uv": [
+            6.25,
+            2.5,
+            6.375,
+            3.75
+          ],
+          "texture": "#rifle"
+        },
+        "down": {
+          "uv": [
+            6.375,
+            2.5,
+            6.5,
+            3.75
+          ],
+          "texture": "#rifle"
+        }
+      }
+    },
+    {
+      "name": "right_upper_channel_armor",
+      "from": [
+        10.7,
+        15.4,
+        0.5
+      ],
+      "to": [
+        11.6,
+        17.4,
+        10.5
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            10.375,
+            3.75,
+            10.5,
+            4
+          ],
+          "texture": "#rifle"
+        },
+        "south": {
+          "uv": [
+            9,
+            3.75,
+            9.125,
+            4
+          ],
+          "texture": "#rifle"
+        },
+        "east": {
+          "uv": [
+            7.75,
+            3.75,
+            9,
+            4
+          ],
+          "texture": "#rifle"
+        },
+        "west": {
+          "uv": [
+            9.125,
+            3.75,
+            10.375,
+            4
+          ],
+          "texture": "#rifle"
+        },
+        "up": {
+          "uv": [
+            9,
+            2.5,
+            9.125,
+            3.75
+          ],
+          "texture": "#rifle"
+        },
+        "down": {
+          "uv": [
+            9.125,
+            2.5,
+            9.25,
+            3.75
+          ],
+          "texture": "#rifle"
         }
       }
     },
     {
       "name": "receiver_lower_keel",
       "from": [
-        5.7,
-        10.75,
-        8
-      ],
-      "to": [
-        10.3,
-        11.75,
-        18
-      ],
-      "faces": {
-        "north": {
-          "uv": [
-            0,
-            0,
-            2.3000000000000003,
-            0.5
-          ],
-          "texture": "#charcoal_steel"
-        },
-        "south": {
-          "uv": [
-            0,
-            0,
-            2.3000000000000003,
-            0.5
-          ],
-          "texture": "#charcoal_steel"
-        },
-        "east": {
-          "uv": [
-            0,
-            0,
-            5,
-            0.5
-          ],
-          "texture": "#charcoal_steel"
-        },
-        "west": {
-          "uv": [
-            0,
-            0,
-            5,
-            0.5
-          ],
-          "texture": "#charcoal_steel"
-        },
-        "up": {
-          "uv": [
-            0,
-            0,
-            2.3000000000000003,
-            5
-          ],
-          "texture": "#charcoal_steel"
-        },
-        "down": {
-          "uv": [
-            0,
-            0,
-            2.3000000000000003,
-            5
-          ],
-          "texture": "#charcoal_steel"
-        }
-      }
-    },
-    {
-      "name": "long_barrel_thermal_jacket",
-      "from": [
-        5.4,
-        13,
-        -10.75
-      ],
-      "to": [
-        10.6,
-        17,
-        6
-      ],
-      "faces": {
-        "north": {
-          "uv": [
-            0,
-            0,
-            2.5999999999999996,
-            2
-          ],
-          "texture": "#charcoal_steel"
-        },
-        "south": {
-          "uv": [
-            0,
-            0,
-            2.5999999999999996,
-            2
-          ],
-          "texture": "#charcoal_steel"
-        },
-        "east": {
-          "uv": [
-            0,
-            0,
-            8.375,
-            2
-          ],
-          "texture": "#charcoal_steel"
-        },
-        "west": {
-          "uv": [
-            0,
-            0,
-            8.375,
-            2
-          ],
-          "texture": "#charcoal_steel"
-        },
-        "up": {
-          "uv": [
-            0,
-            0,
-            2.5999999999999996,
-            8.375
-          ],
-          "texture": "#charcoal_steel"
-        },
-        "down": {
-          "uv": [
-            0,
-            0,
-            2.5999999999999996,
-            8.375
-          ],
-          "texture": "#charcoal_steel"
-        }
-      }
-    },
-    {
-      "name": "barrel_dorsal_rail",
-      "from": [
-        6.2,
-        17,
-        -10.75
-      ],
-      "to": [
-        9.8,
-        17.65,
-        5.75
-      ],
-      "faces": {
-        "north": {
-          "uv": [
-            0,
-            0,
-            1.8000000000000003,
-            0.3249999999999993
-          ],
-          "texture": "#slate_alloy"
-        },
-        "south": {
-          "uv": [
-            0,
-            0,
-            1.8000000000000003,
-            0.3249999999999993
-          ],
-          "texture": "#slate_alloy"
-        },
-        "east": {
-          "uv": [
-            0,
-            0,
-            8.25,
-            0.3249999999999993
-          ],
-          "texture": "#slate_alloy"
-        },
-        "west": {
-          "uv": [
-            0,
-            0,
-            8.25,
-            0.3249999999999993
-          ],
-          "texture": "#slate_alloy"
-        },
-        "up": {
-          "uv": [
-            0,
-            0,
-            1.8000000000000003,
-            8.25
-          ],
-          "texture": "#slate_alloy"
-        },
-        "down": {
-          "uv": [
-            0,
-            0,
-            1.8000000000000003,
-            8.25
-          ],
-          "texture": "#slate_alloy"
-        }
-      }
-    },
-    {
-      "name": "barrel_lower_heat_sink",
-      "from": [
         6,
-        12.25,
-        -9.75
-      ],
-      "to": [
-        10,
-        13.1,
-        5.75
-      ],
-      "faces": {
-        "north": {
-          "uv": [
-            0,
-            0,
-            4,
-            0.8499999999999996
-          ],
-          "texture": "#recessed_carbon"
-        },
-        "south": {
-          "uv": [
-            0,
-            0,
-            4,
-            0.8499999999999996
-          ],
-          "texture": "#recessed_carbon"
-        },
-        "east": {
-          "uv": [
-            0,
-            0,
-            15.5,
-            0.8499999999999996
-          ],
-          "texture": "#recessed_carbon"
-        },
-        "west": {
-          "uv": [
-            0,
-            0,
-            15.5,
-            0.8499999999999996
-          ],
-          "texture": "#recessed_carbon"
-        },
-        "up": {
-          "uv": [
-            0,
-            0,
-            4,
-            15.5
-          ],
-          "texture": "#recessed_carbon"
-        },
-        "down": {
-          "uv": [
-            0,
-            0,
-            4,
-            15.5
-          ],
-          "texture": "#recessed_carbon"
-        }
-      }
-    },
-    {
-      "name": "square_furnace_muzzle",
-      "from": [
-        4.5,
-        11.8,
-        -14.5
-      ],
-      "to": [
-        11.5,
-        18.2,
-        -10.75
-      ],
-      "faces": {
-        "north": {
-          "uv": [
-            0,
-            0,
-            3.5,
-            3.1999999999999993
-          ],
-          "texture": "#charcoal_steel"
-        },
-        "south": {
-          "uv": [
-            0,
-            0,
-            3.5,
-            3.1999999999999993
-          ],
-          "texture": "#charcoal_steel"
-        },
-        "east": {
-          "uv": [
-            0,
-            0,
-            1.875,
-            3.1999999999999993
-          ],
-          "texture": "#charcoal_steel"
-        },
-        "west": {
-          "uv": [
-            0,
-            0,
-            1.875,
-            3.1999999999999993
-          ],
-          "texture": "#charcoal_steel"
-        },
-        "up": {
-          "uv": [
-            0,
-            0,
-            3.5,
-            1.875
-          ],
-          "texture": "#charcoal_steel"
-        },
-        "down": {
-          "uv": [
-            0,
-            0,
-            3.5,
-            1.875
-          ],
-          "texture": "#charcoal_steel"
-        }
-      }
-    },
-    {
-      "name": "muzzle_upper_armored_lip",
-      "from": [
-        4.25,
-        17.6,
-        -14.7
-      ],
-      "to": [
-        11.75,
-        18.55,
-        -10.5
-      ],
-      "faces": {
-        "north": {
-          "uv": [
-            0,
-            0,
-            3.75,
-            0.47499999999999964
-          ],
-          "texture": "#slate_alloy"
-        },
-        "south": {
-          "uv": [
-            0,
-            0,
-            3.75,
-            0.47499999999999964
-          ],
-          "texture": "#slate_alloy"
-        },
-        "east": {
-          "uv": [
-            0,
-            0,
-            2.0999999999999996,
-            0.47499999999999964
-          ],
-          "texture": "#slate_alloy"
-        },
-        "west": {
-          "uv": [
-            0,
-            0,
-            2.0999999999999996,
-            0.47499999999999964
-          ],
-          "texture": "#slate_alloy"
-        },
-        "up": {
-          "uv": [
-            0,
-            0,
-            3.75,
-            2.0999999999999996
-          ],
-          "texture": "#slate_alloy"
-        },
-        "down": {
-          "uv": [
-            0,
-            0,
-            3.75,
-            2.0999999999999996
-          ],
-          "texture": "#slate_alloy"
-        }
-      }
-    },
-    {
-      "name": "muzzle_lower_armored_lip",
-      "from": [
-        4.25,
-        11.45,
-        -14.7
-      ],
-      "to": [
-        11.75,
-        12.4,
-        -10.5
-      ],
-      "faces": {
-        "north": {
-          "uv": [
-            0,
-            0,
-            3.75,
-            0.47500000000000053
-          ],
-          "texture": "#slate_alloy"
-        },
-        "south": {
-          "uv": [
-            0,
-            0,
-            3.75,
-            0.47500000000000053
-          ],
-          "texture": "#slate_alloy"
-        },
-        "east": {
-          "uv": [
-            0,
-            0,
-            2.0999999999999996,
-            0.47500000000000053
-          ],
-          "texture": "#slate_alloy"
-        },
-        "west": {
-          "uv": [
-            0,
-            0,
-            2.0999999999999996,
-            0.47500000000000053
-          ],
-          "texture": "#slate_alloy"
-        },
-        "up": {
-          "uv": [
-            0,
-            0,
-            3.75,
-            2.0999999999999996
-          ],
-          "texture": "#slate_alloy"
-        },
-        "down": {
-          "uv": [
-            0,
-            0,
-            3.75,
-            2.0999999999999996
-          ],
-          "texture": "#slate_alloy"
-        }
-      }
-    },
-    {
-      "name": "muzzle_recessed_socket",
-      "from": [
-        5.2,
-        12.6,
-        -14.8
-      ],
-      "to": [
-        10.8,
-        17.4,
-        -14.5
-      ],
-      "faces": {
-        "north": {
-          "uv": [
-            0,
-            0,
-            5.6000000000000005,
-            4.799999999999999
-          ],
-          "texture": "#recessed_carbon"
-        },
-        "south": {
-          "uv": [
-            0,
-            0,
-            5.6000000000000005,
-            4.799999999999999
-          ],
-          "texture": "#recessed_carbon"
-        },
-        "east": {
-          "uv": [
-            0,
-            0,
-            0.3000000000000007,
-            4.799999999999999
-          ],
-          "texture": "#recessed_carbon"
-        },
-        "west": {
-          "uv": [
-            0,
-            0,
-            0.3000000000000007,
-            4.799999999999999
-          ],
-          "texture": "#recessed_carbon"
-        },
-        "up": {
-          "uv": [
-            0,
-            0,
-            5.6000000000000005,
-            0.3000000000000007
-          ],
-          "texture": "#recessed_carbon"
-        },
-        "down": {
-          "uv": [
-            0,
-            0,
-            5.6000000000000005,
-            0.3000000000000007
-          ],
-          "texture": "#recessed_carbon"
-        }
-      }
-    },
-    {
-      "name": "muzzle_molten_aperture_surround",
-      "from": [
-        6,
-        13.35,
-        -14.95
-      ],
-      "to": [
-        10,
-        16.65,
-        -14.8
-      ],
-      "faces": {
-        "north": {
-          "uv": [
-            0,
-            0,
-            4,
-            3.299999999999999
-          ],
-          "texture": "#molten_channel"
-        },
-        "south": {
-          "uv": [
-            0,
-            0,
-            4,
-            3.299999999999999
-          ],
-          "texture": "#molten_channel"
-        },
-        "east": {
-          "uv": [
-            0,
-            0,
-            0.14999999999999858,
-            3.299999999999999
-          ],
-          "texture": "#molten_channel"
-        },
-        "west": {
-          "uv": [
-            0,
-            0,
-            0.14999999999999858,
-            3.299999999999999
-          ],
-          "texture": "#molten_channel"
-        },
-        "up": {
-          "uv": [
-            0,
-            0,
-            4,
-            0.14999999999999858
-          ],
-          "texture": "#molten_channel"
-        },
-        "down": {
-          "uv": [
-            0,
-            0,
-            4,
-            0.14999999999999858
-          ],
-          "texture": "#molten_channel"
-        }
-      }
-    },
-    {
-      "name": "muzzle_dark_summoning_aperture",
-      "from": [
-        6.6,
-        13.95,
-        -15.1
-      ],
-      "to": [
-        9.4,
-        16.05,
-        -14.95
-      ],
-      "faces": {
-        "north": {
-          "uv": [
-            0,
-            0,
-            2.8000000000000007,
-            2.1000000000000014
-          ],
-          "texture": "#recessed_carbon"
-        },
-        "south": {
-          "uv": [
-            0,
-            0,
-            2.8000000000000007,
-            2.1000000000000014
-          ],
-          "texture": "#recessed_carbon"
-        },
-        "east": {
-          "uv": [
-            0,
-            0,
-            0.15000000000000036,
-            2.1000000000000014
-          ],
-          "texture": "#recessed_carbon"
-        },
-        "west": {
-          "uv": [
-            0,
-            0,
-            0.15000000000000036,
-            2.1000000000000014
-          ],
-          "texture": "#recessed_carbon"
-        },
-        "up": {
-          "uv": [
-            0,
-            0,
-            2.8000000000000007,
-            0.15000000000000036
-          ],
-          "texture": "#recessed_carbon"
-        },
-        "down": {
-          "uv": [
-            0,
-            0,
-            2.8000000000000007,
-            0.15000000000000036
-          ],
-          "texture": "#recessed_carbon"
-        }
-      }
-    },
-    {
-      "name": "muzzle_port_amber_lug",
-      "from": [
-        4.35,
-        13.6,
-        -13.5
-      ],
-      "to": [
-        4.6,
-        15.7,
-        -12.2
-      ],
-      "faces": {
-        "north": {
-          "uv": [
-            0,
-            0,
-            0.25,
-            2.0999999999999996
-          ],
-          "texture": "#amber_plasma"
-        },
-        "south": {
-          "uv": [
-            0,
-            0,
-            0.25,
-            2.0999999999999996
-          ],
-          "texture": "#amber_plasma"
-        },
-        "east": {
-          "uv": [
-            0,
-            0,
-            1.3000000000000007,
-            2.0999999999999996
-          ],
-          "texture": "#amber_plasma"
-        },
-        "west": {
-          "uv": [
-            0,
-            0,
-            1.3000000000000007,
-            2.0999999999999996
-          ],
-          "texture": "#amber_plasma"
-        },
-        "up": {
-          "uv": [
-            0,
-            0,
-            0.25,
-            1.3000000000000007
-          ],
-          "texture": "#amber_plasma"
-        },
-        "down": {
-          "uv": [
-            0,
-            0,
-            0.25,
-            1.3000000000000007
-          ],
-          "texture": "#amber_plasma"
-        }
-      }
-    },
-    {
-      "name": "muzzle_starboard_amber_lug",
-      "from": [
-        11.4,
-        13.6,
-        -13.5
-      ],
-      "to": [
-        11.65,
-        15.7,
-        -12.2
-      ],
-      "faces": {
-        "north": {
-          "uv": [
-            0,
-            0,
-            0.25,
-            2.0999999999999996
-          ],
-          "texture": "#amber_plasma"
-        },
-        "south": {
-          "uv": [
-            0,
-            0,
-            0.25,
-            2.0999999999999996
-          ],
-          "texture": "#amber_plasma"
-        },
-        "east": {
-          "uv": [
-            0,
-            0,
-            1.3000000000000007,
-            2.0999999999999996
-          ],
-          "texture": "#amber_plasma"
-        },
-        "west": {
-          "uv": [
-            0,
-            0,
-            1.3000000000000007,
-            2.0999999999999996
-          ],
-          "texture": "#amber_plasma"
-        },
-        "up": {
-          "uv": [
-            0,
-            0,
-            0.25,
-            1.3000000000000007
-          ],
-          "texture": "#amber_plasma"
-        },
-        "down": {
-          "uv": [
-            0,
-            0,
-            0.25,
-            1.3000000000000007
-          ],
-          "texture": "#amber_plasma"
-        }
-      }
-    },
-    {
-      "name": "barrel_port_channel_bed",
-      "from": [
-        5.25,
-        13.45,
-        -10.3
-      ],
-      "to": [
-        5.45,
-        16.55,
-        5.5
-      ],
-      "faces": {
-        "north": {
-          "uv": [
-            0,
-            0,
-            0.20000000000000018,
-            3.1000000000000014
-          ],
-          "texture": "#recessed_carbon"
-        },
-        "south": {
-          "uv": [
-            0,
-            0,
-            0.20000000000000018,
-            3.1000000000000014
-          ],
-          "texture": "#recessed_carbon"
-        },
-        "east": {
-          "uv": [
-            0,
-            0,
-            15.8,
-            3.1000000000000014
-          ],
-          "texture": "#recessed_carbon"
-        },
-        "west": {
-          "uv": [
-            0,
-            0,
-            15.8,
-            3.1000000000000014
-          ],
-          "texture": "#recessed_carbon"
-        },
-        "up": {
-          "uv": [
-            0,
-            0,
-            0.20000000000000018,
-            15.8
-          ],
-          "texture": "#recessed_carbon"
-        },
-        "down": {
-          "uv": [
-            0,
-            0,
-            0.20000000000000018,
-            15.8
-          ],
-          "texture": "#recessed_carbon"
-        }
-      }
-    },
-    {
-      "name": "barrel_starboard_channel_bed",
-      "from": [
-        10.55,
-        13.45,
-        -10.3
-      ],
-      "to": [
-        10.75,
-        16.55,
-        5.5
-      ],
-      "faces": {
-        "north": {
-          "uv": [
-            0,
-            0,
-            0.1999999999999993,
-            3.1000000000000014
-          ],
-          "texture": "#recessed_carbon"
-        },
-        "south": {
-          "uv": [
-            0,
-            0,
-            0.1999999999999993,
-            3.1000000000000014
-          ],
-          "texture": "#recessed_carbon"
-        },
-        "east": {
-          "uv": [
-            0,
-            0,
-            15.8,
-            3.1000000000000014
-          ],
-          "texture": "#recessed_carbon"
-        },
-        "west": {
-          "uv": [
-            0,
-            0,
-            15.8,
-            3.1000000000000014
-          ],
-          "texture": "#recessed_carbon"
-        },
-        "up": {
-          "uv": [
-            0,
-            0,
-            0.1999999999999993,
-            15.8
-          ],
-          "texture": "#recessed_carbon"
-        },
-        "down": {
-          "uv": [
-            0,
-            0,
-            0.1999999999999993,
-            15.8
-          ],
-          "texture": "#recessed_carbon"
-        }
-      }
-    },
-    {
-      "name": "barrel_port_upper_ember_strip",
-      "from": [
-        5.12,
-        15.65,
-        -9.8
-      ],
-      "to": [
-        5.3,
-        16.15,
-        5.25
-      ],
-      "faces": {
-        "north": {
-          "uv": [
-            0,
-            0,
-            0.17999999999999972,
-            0.4999999999999982
-          ],
-          "texture": "#molten_channel"
-        },
-        "south": {
-          "uv": [
-            0,
-            0,
-            0.17999999999999972,
-            0.4999999999999982
-          ],
-          "texture": "#molten_channel"
-        },
-        "east": {
-          "uv": [
-            0,
-            0,
-            15.05,
-            0.4999999999999982
-          ],
-          "texture": "#molten_channel"
-        },
-        "west": {
-          "uv": [
-            0,
-            0,
-            15.05,
-            0.4999999999999982
-          ],
-          "texture": "#molten_channel"
-        },
-        "up": {
-          "uv": [
-            0,
-            0,
-            0.17999999999999972,
-            15.05
-          ],
-          "texture": "#molten_channel"
-        },
-        "down": {
-          "uv": [
-            0,
-            0,
-            0.17999999999999972,
-            15.05
-          ],
-          "texture": "#molten_channel"
-        }
-      }
-    },
-    {
-      "name": "barrel_starboard_upper_ember_strip",
-      "from": [
-        10.7,
-        15.65,
-        -9.8
-      ],
-      "to": [
-        10.88,
-        16.15,
-        5.25
-      ],
-      "faces": {
-        "north": {
-          "uv": [
-            0,
-            0,
-            0.1800000000000015,
-            0.4999999999999982
-          ],
-          "texture": "#molten_channel"
-        },
-        "south": {
-          "uv": [
-            0,
-            0,
-            0.1800000000000015,
-            0.4999999999999982
-          ],
-          "texture": "#molten_channel"
-        },
-        "east": {
-          "uv": [
-            0,
-            0,
-            15.05,
-            0.4999999999999982
-          ],
-          "texture": "#molten_channel"
-        },
-        "west": {
-          "uv": [
-            0,
-            0,
-            15.05,
-            0.4999999999999982
-          ],
-          "texture": "#molten_channel"
-        },
-        "up": {
-          "uv": [
-            0,
-            0,
-            0.1800000000000015,
-            15.05
-          ],
-          "texture": "#molten_channel"
-        },
-        "down": {
-          "uv": [
-            0,
-            0,
-            0.1800000000000015,
-            15.05
-          ],
-          "texture": "#molten_channel"
-        }
-      }
-    },
-    {
-      "name": "barrel_port_lower_ember_strip",
-      "from": [
-        5.12,
-        13.95,
-        -8.5
-      ],
-      "to": [
-        5.3,
-        14.45,
-        5.25
-      ],
-      "faces": {
-        "north": {
-          "uv": [
-            0,
-            0,
-            0.17999999999999972,
-            0.5
-          ],
-          "texture": "#molten_channel"
-        },
-        "south": {
-          "uv": [
-            0,
-            0,
-            0.17999999999999972,
-            0.5
-          ],
-          "texture": "#molten_channel"
-        },
-        "east": {
-          "uv": [
-            0,
-            0,
-            13.75,
-            0.5
-          ],
-          "texture": "#molten_channel"
-        },
-        "west": {
-          "uv": [
-            0,
-            0,
-            13.75,
-            0.5
-          ],
-          "texture": "#molten_channel"
-        },
-        "up": {
-          "uv": [
-            0,
-            0,
-            0.17999999999999972,
-            13.75
-          ],
-          "texture": "#molten_channel"
-        },
-        "down": {
-          "uv": [
-            0,
-            0,
-            0.17999999999999972,
-            13.75
-          ],
-          "texture": "#molten_channel"
-        }
-      }
-    },
-    {
-      "name": "barrel_starboard_lower_ember_strip",
-      "from": [
-        10.7,
-        13.95,
-        -8.5
-      ],
-      "to": [
-        10.88,
-        14.45,
-        5.25
-      ],
-      "faces": {
-        "north": {
-          "uv": [
-            0,
-            0,
-            0.1800000000000015,
-            0.5
-          ],
-          "texture": "#molten_channel"
-        },
-        "south": {
-          "uv": [
-            0,
-            0,
-            0.1800000000000015,
-            0.5
-          ],
-          "texture": "#molten_channel"
-        },
-        "east": {
-          "uv": [
-            0,
-            0,
-            13.75,
-            0.5
-          ],
-          "texture": "#molten_channel"
-        },
-        "west": {
-          "uv": [
-            0,
-            0,
-            13.75,
-            0.5
-          ],
-          "texture": "#molten_channel"
-        },
-        "up": {
-          "uv": [
-            0,
-            0,
-            0.1800000000000015,
-            13.75
-          ],
-          "texture": "#molten_channel"
-        },
-        "down": {
-          "uv": [
-            0,
-            0,
-            0.1800000000000015,
-            13.75
-          ],
-          "texture": "#molten_channel"
-        }
-      }
-    },
-    {
-      "name": "receiver_port_recessed_panel",
-      "from": [
-        4.36,
-        13.05,
-        5.7
-      ],
-      "to": [
-        4.56,
-        16.15,
-        16.8
-      ],
-      "faces": {
-        "north": {
-          "uv": [
-            0,
-            0,
-            0.1999999999999993,
-            3.099999999999998
-          ],
-          "texture": "#recessed_carbon"
-        },
-        "south": {
-          "uv": [
-            0,
-            0,
-            0.1999999999999993,
-            3.099999999999998
-          ],
-          "texture": "#recessed_carbon"
-        },
-        "east": {
-          "uv": [
-            0,
-            0,
-            11.100000000000001,
-            3.099999999999998
-          ],
-          "texture": "#recessed_carbon"
-        },
-        "west": {
-          "uv": [
-            0,
-            0,
-            11.100000000000001,
-            3.099999999999998
-          ],
-          "texture": "#recessed_carbon"
-        },
-        "up": {
-          "uv": [
-            0,
-            0,
-            0.1999999999999993,
-            11.100000000000001
-          ],
-          "texture": "#recessed_carbon"
-        },
-        "down": {
-          "uv": [
-            0,
-            0,
-            0.1999999999999993,
-            11.100000000000001
-          ],
-          "texture": "#recessed_carbon"
-        }
-      }
-    },
-    {
-      "name": "receiver_starboard_recessed_panel",
-      "from": [
-        11.44,
-        13.05,
-        5.7
-      ],
-      "to": [
-        11.64,
-        16.15,
-        16.8
-      ],
-      "faces": {
-        "north": {
-          "uv": [
-            0,
-            0,
-            0.20000000000000107,
-            3.099999999999998
-          ],
-          "texture": "#recessed_carbon"
-        },
-        "south": {
-          "uv": [
-            0,
-            0,
-            0.20000000000000107,
-            3.099999999999998
-          ],
-          "texture": "#recessed_carbon"
-        },
-        "east": {
-          "uv": [
-            0,
-            0,
-            11.100000000000001,
-            3.099999999999998
-          ],
-          "texture": "#recessed_carbon"
-        },
-        "west": {
-          "uv": [
-            0,
-            0,
-            11.100000000000001,
-            3.099999999999998
-          ],
-          "texture": "#recessed_carbon"
-        },
-        "up": {
-          "uv": [
-            0,
-            0,
-            0.20000000000000107,
-            11.100000000000001
-          ],
-          "texture": "#recessed_carbon"
-        },
-        "down": {
-          "uv": [
-            0,
-            0,
-            0.20000000000000107,
-            11.100000000000001
-          ],
-          "texture": "#recessed_carbon"
-        }
-      }
-    },
-    {
-      "name": "receiver_port_upper_ember_strip",
-      "from": [
-        4.23,
-        15.25,
-        5.95
-      ],
-      "to": [
-        4.4,
-        15.8,
-        16.25
-      ],
-      "faces": {
-        "north": {
-          "uv": [
-            0,
-            0,
-            0.16999999999999993,
-            0.5500000000000007
-          ],
-          "texture": "#molten_channel"
-        },
-        "south": {
-          "uv": [
-            0,
-            0,
-            0.16999999999999993,
-            0.5500000000000007
-          ],
-          "texture": "#molten_channel"
-        },
-        "east": {
-          "uv": [
-            0,
-            0,
-            10.3,
-            0.5500000000000007
-          ],
-          "texture": "#molten_channel"
-        },
-        "west": {
-          "uv": [
-            0,
-            0,
-            10.3,
-            0.5500000000000007
-          ],
-          "texture": "#molten_channel"
-        },
-        "up": {
-          "uv": [
-            0,
-            0,
-            0.16999999999999993,
-            10.3
-          ],
-          "texture": "#molten_channel"
-        },
-        "down": {
-          "uv": [
-            0,
-            0,
-            0.16999999999999993,
-            10.3
-          ],
-          "texture": "#molten_channel"
-        }
-      }
-    },
-    {
-      "name": "receiver_starboard_upper_ember_strip",
-      "from": [
-        11.6,
-        15.25,
-        5.95
-      ],
-      "to": [
-        11.77,
-        15.8,
-        16.25
-      ],
-      "faces": {
-        "north": {
-          "uv": [
-            0,
-            0,
-            0.16999999999999993,
-            0.5500000000000007
-          ],
-          "texture": "#molten_channel"
-        },
-        "south": {
-          "uv": [
-            0,
-            0,
-            0.16999999999999993,
-            0.5500000000000007
-          ],
-          "texture": "#molten_channel"
-        },
-        "east": {
-          "uv": [
-            0,
-            0,
-            10.3,
-            0.5500000000000007
-          ],
-          "texture": "#molten_channel"
-        },
-        "west": {
-          "uv": [
-            0,
-            0,
-            10.3,
-            0.5500000000000007
-          ],
-          "texture": "#molten_channel"
-        },
-        "up": {
-          "uv": [
-            0,
-            0,
-            0.16999999999999993,
-            10.3
-          ],
-          "texture": "#molten_channel"
-        },
-        "down": {
-          "uv": [
-            0,
-            0,
-            0.16999999999999993,
-            10.3
-          ],
-          "texture": "#molten_channel"
-        }
-      }
-    },
-    {
-      "name": "receiver_port_lower_ember_strip",
-      "from": [
-        4.23,
-        13.5,
-        5.95
-      ],
-      "to": [
-        4.4,
-        14.05,
-        13.8
-      ],
-      "faces": {
-        "north": {
-          "uv": [
-            0,
-            0,
-            0.16999999999999993,
-            0.5500000000000007
-          ],
-          "texture": "#molten_channel"
-        },
-        "south": {
-          "uv": [
-            0,
-            0,
-            0.16999999999999993,
-            0.5500000000000007
-          ],
-          "texture": "#molten_channel"
-        },
-        "east": {
-          "uv": [
-            0,
-            0,
-            7.8500000000000005,
-            0.5500000000000007
-          ],
-          "texture": "#molten_channel"
-        },
-        "west": {
-          "uv": [
-            0,
-            0,
-            7.8500000000000005,
-            0.5500000000000007
-          ],
-          "texture": "#molten_channel"
-        },
-        "up": {
-          "uv": [
-            0,
-            0,
-            0.16999999999999993,
-            7.8500000000000005
-          ],
-          "texture": "#molten_channel"
-        },
-        "down": {
-          "uv": [
-            0,
-            0,
-            0.16999999999999993,
-            7.8500000000000005
-          ],
-          "texture": "#molten_channel"
-        }
-      }
-    },
-    {
-      "name": "receiver_starboard_lower_ember_strip",
-      "from": [
-        11.6,
-        13.5,
-        5.95
-      ],
-      "to": [
-        11.77,
-        14.05,
-        13.8
-      ],
-      "faces": {
-        "north": {
-          "uv": [
-            0,
-            0,
-            0.16999999999999993,
-            0.5500000000000007
-          ],
-          "texture": "#molten_channel"
-        },
-        "south": {
-          "uv": [
-            0,
-            0,
-            0.16999999999999993,
-            0.5500000000000007
-          ],
-          "texture": "#molten_channel"
-        },
-        "east": {
-          "uv": [
-            0,
-            0,
-            7.8500000000000005,
-            0.5500000000000007
-          ],
-          "texture": "#molten_channel"
-        },
-        "west": {
-          "uv": [
-            0,
-            0,
-            7.8500000000000005,
-            0.5500000000000007
-          ],
-          "texture": "#molten_channel"
-        },
-        "up": {
-          "uv": [
-            0,
-            0,
-            0.16999999999999993,
-            7.8500000000000005
-          ],
-          "texture": "#molten_channel"
-        },
-        "down": {
-          "uv": [
-            0,
-            0,
-            0.16999999999999993,
-            7.8500000000000005
-          ],
-          "texture": "#molten_channel"
-        }
-      }
-    },
-    {
-      "name": "barrel_forward_vent_rib",
-      "from": [
-        5,
-        12.75,
-        -3.2
-      ],
-      "to": [
-        11,
-        17.35,
-        -2.6
-      ],
-      "faces": {
-        "north": {
-          "uv": [
-            0,
-            0,
-            3,
-            2.3000000000000007
-          ],
-          "texture": "#slate_alloy"
-        },
-        "south": {
-          "uv": [
-            0,
-            0,
-            3,
-            2.3000000000000007
-          ],
-          "texture": "#slate_alloy"
-        },
-        "east": {
-          "uv": [
-            0,
-            0,
-            0.30000000000000004,
-            2.3000000000000007
-          ],
-          "texture": "#slate_alloy"
-        },
-        "west": {
-          "uv": [
-            0,
-            0,
-            0.30000000000000004,
-            2.3000000000000007
-          ],
-          "texture": "#slate_alloy"
-        },
-        "up": {
-          "uv": [
-            0,
-            0,
-            3,
-            0.30000000000000004
-          ],
-          "texture": "#slate_alloy"
-        },
-        "down": {
-          "uv": [
-            0,
-            0,
-            3,
-            0.30000000000000004
-          ],
-          "texture": "#slate_alloy"
-        }
-      }
-    },
-    {
-      "name": "barrel_middle_vent_rib",
-      "from": [
-        5,
-        12.75,
-        -0.6
-      ],
-      "to": [
-        11,
-        17.35,
-        0
-      ],
-      "faces": {
-        "north": {
-          "uv": [
-            0,
-            0,
-            3,
-            2.3000000000000007
-          ],
-          "texture": "#slate_alloy"
-        },
-        "south": {
-          "uv": [
-            0,
-            0,
-            3,
-            2.3000000000000007
-          ],
-          "texture": "#slate_alloy"
-        },
-        "east": {
-          "uv": [
-            0,
-            0,
-            0.3,
-            2.3000000000000007
-          ],
-          "texture": "#slate_alloy"
-        },
-        "west": {
-          "uv": [
-            0,
-            0,
-            0.3,
-            2.3000000000000007
-          ],
-          "texture": "#slate_alloy"
-        },
-        "up": {
-          "uv": [
-            0,
-            0,
-            3,
-            0.3
-          ],
-          "texture": "#slate_alloy"
-        },
-        "down": {
-          "uv": [
-            0,
-            0,
-            3,
-            0.3
-          ],
-          "texture": "#slate_alloy"
-        }
-      }
-    },
-    {
-      "name": "barrel_rear_vent_rib",
-      "from": [
-        5,
-        12.75,
+        10.5,
         2
       ],
       "to": [
+        10,
+        12.5,
+        11
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            13.25,
+            3.625,
+            13.75,
+            3.875
+          ],
+          "texture": "#rifle"
+        },
+        "south": {
+          "uv": [
+            11.625,
+            3.625,
+            12.125,
+            3.875
+          ],
+          "texture": "#rifle"
+        },
+        "east": {
+          "uv": [
+            10.5,
+            3.625,
+            11.625,
+            3.875
+          ],
+          "texture": "#rifle"
+        },
+        "west": {
+          "uv": [
+            12.125,
+            3.625,
+            13.25,
+            3.875
+          ],
+          "texture": "#rifle"
+        },
+        "up": {
+          "uv": [
+            11.625,
+            2.5,
+            12.125,
+            3.625
+          ],
+          "texture": "#rifle"
+        },
+        "down": {
+          "uv": [
+            12.125,
+            2.5,
+            12.625,
+            3.625
+          ],
+          "texture": "#rifle"
+        }
+      }
+    },
+    {
+      "name": "forward_handguard",
+      "from": [
+        5.5,
         11,
-        17.35,
-        2.6
-      ],
-      "faces": {
-        "north": {
-          "uv": [
-            0,
-            0,
-            3,
-            2.3000000000000007
-          ],
-          "texture": "#slate_alloy"
-        },
-        "south": {
-          "uv": [
-            0,
-            0,
-            3,
-            2.3000000000000007
-          ],
-          "texture": "#slate_alloy"
-        },
-        "east": {
-          "uv": [
-            0,
-            0,
-            0.30000000000000004,
-            2.3000000000000007
-          ],
-          "texture": "#slate_alloy"
-        },
-        "west": {
-          "uv": [
-            0,
-            0,
-            0.30000000000000004,
-            2.3000000000000007
-          ],
-          "texture": "#slate_alloy"
-        },
-        "up": {
-          "uv": [
-            0,
-            0,
-            3,
-            0.30000000000000004
-          ],
-          "texture": "#slate_alloy"
-        },
-        "down": {
-          "uv": [
-            0,
-            0,
-            3,
-            0.30000000000000004
-          ],
-          "texture": "#slate_alloy"
-        }
-      }
-    },
-    {
-      "name": "receiver_top_optics_rail",
-      "from": [
-        5.6,
-        17.5,
-        5.5
+        -6
       ],
       "to": [
-        10.4,
-        18.4,
-        20
-      ],
-      "faces": {
-        "north": {
-          "uv": [
-            0,
-            0,
-            2.4000000000000004,
-            0.4499999999999993
-          ],
-          "texture": "#slate_alloy"
-        },
-        "south": {
-          "uv": [
-            0,
-            0,
-            2.4000000000000004,
-            0.4499999999999993
-          ],
-          "texture": "#slate_alloy"
-        },
-        "east": {
-          "uv": [
-            0,
-            0,
-            7.25,
-            0.4499999999999993
-          ],
-          "texture": "#slate_alloy"
-        },
-        "west": {
-          "uv": [
-            0,
-            0,
-            7.25,
-            0.4499999999999993
-          ],
-          "texture": "#slate_alloy"
-        },
-        "up": {
-          "uv": [
-            0,
-            0,
-            2.4000000000000004,
-            7.25
-          ],
-          "texture": "#slate_alloy"
-        },
-        "down": {
-          "uv": [
-            0,
-            0,
-            2.4000000000000004,
-            7.25
-          ],
-          "texture": "#slate_alloy"
-        }
-      }
-    },
-    {
-      "name": "scope_forward_pedestal",
-      "from": [
-        6.3,
-        18.4,
-        5.5
-      ],
-      "to": [
-        9.7,
-        20.1,
-        7.25
-      ],
-      "faces": {
-        "north": {
-          "uv": [
-            0,
-            0,
-            1.6999999999999997,
-            0.8500000000000014
-          ],
-          "texture": "#charcoal_steel"
-        },
-        "south": {
-          "uv": [
-            0,
-            0,
-            1.6999999999999997,
-            0.8500000000000014
-          ],
-          "texture": "#charcoal_steel"
-        },
-        "east": {
-          "uv": [
-            0,
-            0,
-            0.875,
-            0.8500000000000014
-          ],
-          "texture": "#charcoal_steel"
-        },
-        "west": {
-          "uv": [
-            0,
-            0,
-            0.875,
-            0.8500000000000014
-          ],
-          "texture": "#charcoal_steel"
-        },
-        "up": {
-          "uv": [
-            0,
-            0,
-            1.6999999999999997,
-            0.875
-          ],
-          "texture": "#charcoal_steel"
-        },
-        "down": {
-          "uv": [
-            0,
-            0,
-            1.6999999999999997,
-            0.875
-          ],
-          "texture": "#charcoal_steel"
-        }
-      }
-    },
-    {
-      "name": "scope_rear_pedestal",
-      "from": [
-        6.3,
-        18.4,
-        14.3
-      ],
-      "to": [
-        9.7,
-        20.1,
-        16.05
-      ],
-      "faces": {
-        "north": {
-          "uv": [
-            0,
-            0,
-            1.6999999999999997,
-            0.8500000000000014
-          ],
-          "texture": "#charcoal_steel"
-        },
-        "south": {
-          "uv": [
-            0,
-            0,
-            1.6999999999999997,
-            0.8500000000000014
-          ],
-          "texture": "#charcoal_steel"
-        },
-        "east": {
-          "uv": [
-            0,
-            0,
-            0.875,
-            0.8500000000000014
-          ],
-          "texture": "#charcoal_steel"
-        },
-        "west": {
-          "uv": [
-            0,
-            0,
-            0.875,
-            0.8500000000000014
-          ],
-          "texture": "#charcoal_steel"
-        },
-        "up": {
-          "uv": [
-            0,
-            0,
-            1.6999999999999997,
-            0.875
-          ],
-          "texture": "#charcoal_steel"
-        },
-        "down": {
-          "uv": [
-            0,
-            0,
-            1.6999999999999997,
-            0.875
-          ],
-          "texture": "#charcoal_steel"
-        }
-      }
-    },
-    {
-      "name": "rectangular_scope_housing",
-      "from": [
-        5.4,
-        20,
+        10.5,
+        13,
         0
       ],
-      "to": [
-        10.6,
-        24.3,
-        17
-      ],
       "faces": {
         "north": {
           "uv": [
-            0,
-            0,
-            2.5999999999999996,
-            2.1500000000000004
+            2.125,
+            5,
+            2.75,
+            5.25
           ],
-          "texture": "#charcoal_steel"
+          "texture": "#rifle"
         },
         "south": {
           "uv": [
-            0,
-            0,
-            2.5999999999999996,
-            2.1500000000000004
+            0.75,
+            5,
+            1.375,
+            5.25
           ],
-          "texture": "#charcoal_steel"
+          "texture": "#rifle"
         },
         "east": {
           "uv": [
             0,
-            0,
-            8.5,
-            2.1500000000000004
+            5,
+            0.75,
+            5.25
           ],
-          "texture": "#charcoal_steel"
+          "texture": "#rifle"
         },
         "west": {
           "uv": [
-            0,
-            0,
-            8.5,
-            2.1500000000000004
+            1.375,
+            5,
+            2.125,
+            5.25
           ],
-          "texture": "#charcoal_steel"
+          "texture": "#rifle"
         },
         "up": {
           "uv": [
-            0,
-            0,
-            2.5999999999999996,
-            8.5
+            0.75,
+            4.25,
+            1.375,
+            5
           ],
-          "texture": "#charcoal_steel"
+          "texture": "#rifle"
         },
         "down": {
           "uv": [
-            0,
-            0,
-            2.5999999999999996,
-            8.5
+            1.375,
+            4.25,
+            2,
+            5
           ],
-          "texture": "#charcoal_steel"
+          "texture": "#rifle"
         }
       }
     },
     {
-      "name": "scope_slate_roof",
+      "name": "stock_cheek_rest",
       "from": [
-        5.9,
-        24.3,
-        0.5
+        6,
+        17,
+        16
       ],
       "to": [
-        10.1,
-        24.9,
-        16.5
-      ],
-      "faces": {
-        "north": {
-          "uv": [
-            0,
-            0,
-            2.0999999999999996,
-            0.29999999999999893
-          ],
-          "texture": "#slate_alloy"
-        },
-        "south": {
-          "uv": [
-            0,
-            0,
-            2.0999999999999996,
-            0.29999999999999893
-          ],
-          "texture": "#slate_alloy"
-        },
-        "east": {
-          "uv": [
-            0,
-            0,
-            8,
-            0.29999999999999893
-          ],
-          "texture": "#slate_alloy"
-        },
-        "west": {
-          "uv": [
-            0,
-            0,
-            8,
-            0.29999999999999893
-          ],
-          "texture": "#slate_alloy"
-        },
-        "up": {
-          "uv": [
-            0,
-            0,
-            2.0999999999999996,
-            8
-          ],
-          "texture": "#slate_alloy"
-        },
-        "down": {
-          "uv": [
-            0,
-            0,
-            2.0999999999999996,
-            8
-          ],
-          "texture": "#slate_alloy"
-        }
-      }
-    },
-    {
-      "name": "scope_front_square_collar",
-      "from": [
-        4.9,
-        19.55,
-        -1.45
-      ],
-      "to": [
-        11.1,
-        24.75,
-        0.5
-      ],
-      "faces": {
-        "north": {
-          "uv": [
-            0,
-            0,
-            3.0999999999999996,
-            2.5999999999999996
-          ],
-          "texture": "#charcoal_steel"
-        },
-        "south": {
-          "uv": [
-            0,
-            0,
-            3.0999999999999996,
-            2.5999999999999996
-          ],
-          "texture": "#charcoal_steel"
-        },
-        "east": {
-          "uv": [
-            0,
-            0,
-            0.975,
-            2.5999999999999996
-          ],
-          "texture": "#charcoal_steel"
-        },
-        "west": {
-          "uv": [
-            0,
-            0,
-            0.975,
-            2.5999999999999996
-          ],
-          "texture": "#charcoal_steel"
-        },
-        "up": {
-          "uv": [
-            0,
-            0,
-            3.0999999999999996,
-            0.975
-          ],
-          "texture": "#charcoal_steel"
-        },
-        "down": {
-          "uv": [
-            0,
-            0,
-            3.0999999999999996,
-            0.975
-          ],
-          "texture": "#charcoal_steel"
-        }
-      }
-    },
-    {
-      "name": "scope_front_lens_socket",
-      "from": [
-        5.35,
-        20,
-        -1.65
-      ],
-      "to": [
-        10.65,
-        24.3,
-        -1.45
-      ],
-      "faces": {
-        "north": {
-          "uv": [
-            0,
-            0,
-            5.300000000000001,
-            4.300000000000001
-          ],
-          "texture": "#recessed_carbon"
-        },
-        "south": {
-          "uv": [
-            0,
-            0,
-            5.300000000000001,
-            4.300000000000001
-          ],
-          "texture": "#recessed_carbon"
-        },
-        "east": {
-          "uv": [
-            0,
-            0,
-            0.19999999999999996,
-            4.300000000000001
-          ],
-          "texture": "#recessed_carbon"
-        },
-        "west": {
-          "uv": [
-            0,
-            0,
-            0.19999999999999996,
-            4.300000000000001
-          ],
-          "texture": "#recessed_carbon"
-        },
-        "up": {
-          "uv": [
-            0,
-            0,
-            5.300000000000001,
-            0.19999999999999996
-          ],
-          "texture": "#recessed_carbon"
-        },
-        "down": {
-          "uv": [
-            0,
-            0,
-            5.300000000000001,
-            0.19999999999999996
-          ],
-          "texture": "#recessed_carbon"
-        }
-      }
-    },
-    {
-      "name": "scope_molten_outer_lens",
-      "from": [
-        5.8,
-        20.45,
-        -1.83
-      ],
-      "to": [
-        10.2,
-        23.85,
-        -1.65
-      ],
-      "faces": {
-        "north": {
-          "uv": [
-            0,
-            0,
-            4.3999999999999995,
-            3.400000000000002
-          ],
-          "texture": "#molten_channel"
-        },
-        "south": {
-          "uv": [
-            0,
-            0,
-            4.3999999999999995,
-            3.400000000000002
-          ],
-          "texture": "#molten_channel"
-        },
-        "east": {
-          "uv": [
-            0,
-            0,
-            0.18000000000000016,
-            3.400000000000002
-          ],
-          "texture": "#molten_channel"
-        },
-        "west": {
-          "uv": [
-            0,
-            0,
-            0.18000000000000016,
-            3.400000000000002
-          ],
-          "texture": "#molten_channel"
-        },
-        "up": {
-          "uv": [
-            0,
-            0,
-            4.3999999999999995,
-            0.18000000000000016
-          ],
-          "texture": "#molten_channel"
-        },
-        "down": {
-          "uv": [
-            0,
-            0,
-            4.3999999999999995,
-            0.18000000000000016
-          ],
-          "texture": "#molten_channel"
-        }
-      }
-    },
-    {
-      "name": "scope_amber_inner_lens",
-      "from": [
-        6.45,
-        20.75,
-        -1.97
-      ],
-      "to": [
-        9.55,
-        23.55,
-        -1.83
-      ],
-      "faces": {
-        "north": {
-          "uv": [
-            0,
-            0,
-            3.1000000000000005,
-            2.8000000000000007
-          ],
-          "texture": "#amber_plasma"
-        },
-        "south": {
-          "uv": [
-            0,
-            0,
-            3.1000000000000005,
-            2.8000000000000007
-          ],
-          "texture": "#amber_plasma"
-        },
-        "east": {
-          "uv": [
-            0,
-            0,
-            0.1399999999999999,
-            2.8000000000000007
-          ],
-          "texture": "#amber_plasma"
-        },
-        "west": {
-          "uv": [
-            0,
-            0,
-            0.1399999999999999,
-            2.8000000000000007
-          ],
-          "texture": "#amber_plasma"
-        },
-        "up": {
-          "uv": [
-            0,
-            0,
-            3.1000000000000005,
-            0.1399999999999999
-          ],
-          "texture": "#amber_plasma"
-        },
-        "down": {
-          "uv": [
-            0,
-            0,
-            3.1000000000000005,
-            0.1399999999999999
-          ],
-          "texture": "#amber_plasma"
-        }
-      }
-    },
-    {
-      "name": "scope_white_hot_optical_core",
-      "from": [
-        7.3,
-        21.5,
-        -2.1
-      ],
-      "to": [
-        8.7,
-        22.8,
-        -1.97
-      ],
-      "faces": {
-        "north": {
-          "uv": [
-            0,
-            0,
-            1.3999999999999995,
-            1.3000000000000007
-          ],
-          "texture": "#white_hot_core"
-        },
-        "south": {
-          "uv": [
-            0,
-            0,
-            1.3999999999999995,
-            1.3000000000000007
-          ],
-          "texture": "#white_hot_core"
-        },
-        "east": {
-          "uv": [
-            0,
-            0,
-            0.13000000000000012,
-            1.3000000000000007
-          ],
-          "texture": "#white_hot_core"
-        },
-        "west": {
-          "uv": [
-            0,
-            0,
-            0.13000000000000012,
-            1.3000000000000007
-          ],
-          "texture": "#white_hot_core"
-        },
-        "up": {
-          "uv": [
-            0,
-            0,
-            1.3999999999999995,
-            0.13000000000000012
-          ],
-          "texture": "#white_hot_core"
-        },
-        "down": {
-          "uv": [
-            0,
-            0,
-            1.3999999999999995,
-            0.13000000000000012
-          ],
-          "texture": "#white_hot_core"
-        }
-      }
-    },
-    {
-      "name": "scope_rear_eyepiece_collar",
-      "from": [
-        5.1,
-        19.8,
-        16.25
-      ],
-      "to": [
-        10.9,
-        24.5,
-        18.2
-      ],
-      "faces": {
-        "north": {
-          "uv": [
-            0,
-            0,
-            5.800000000000001,
-            4.699999999999999
-          ],
-          "texture": "#ribbed_grip"
-        },
-        "south": {
-          "uv": [
-            0,
-            0,
-            5.800000000000001,
-            4.699999999999999
-          ],
-          "texture": "#ribbed_grip"
-        },
-        "east": {
-          "uv": [
-            0,
-            0,
-            1.9499999999999993,
-            4.699999999999999
-          ],
-          "texture": "#ribbed_grip"
-        },
-        "west": {
-          "uv": [
-            0,
-            0,
-            1.9499999999999993,
-            4.699999999999999
-          ],
-          "texture": "#ribbed_grip"
-        },
-        "up": {
-          "uv": [
-            0,
-            0,
-            5.800000000000001,
-            1.9499999999999993
-          ],
-          "texture": "#ribbed_grip"
-        },
-        "down": {
-          "uv": [
-            0,
-            0,
-            5.800000000000001,
-            1.9499999999999993
-          ],
-          "texture": "#ribbed_grip"
-        }
-      }
-    },
-    {
-      "name": "scope_rear_dark_optic",
-      "from": [
-        5.8,
-        20.55,
-        18.2
-      ],
-      "to": [
-        10.2,
-        23.75,
-        18.4
-      ],
-      "faces": {
-        "north": {
-          "uv": [
-            0,
-            0,
-            4.3999999999999995,
-            3.1999999999999993
-          ],
-          "texture": "#recessed_carbon"
-        },
-        "south": {
-          "uv": [
-            0,
-            0,
-            4.3999999999999995,
-            3.1999999999999993
-          ],
-          "texture": "#recessed_carbon"
-        },
-        "east": {
-          "uv": [
-            0,
-            0,
-            0.1999999999999993,
-            3.1999999999999993
-          ],
-          "texture": "#recessed_carbon"
-        },
-        "west": {
-          "uv": [
-            0,
-            0,
-            0.1999999999999993,
-            3.1999999999999993
-          ],
-          "texture": "#recessed_carbon"
-        },
-        "up": {
-          "uv": [
-            0,
-            0,
-            4.3999999999999995,
-            0.1999999999999993
-          ],
-          "texture": "#recessed_carbon"
-        },
-        "down": {
-          "uv": [
-            0,
-            0,
-            4.3999999999999995,
-            0.1999999999999993
-          ],
-          "texture": "#recessed_carbon"
-        }
-      }
-    },
-    {
-      "name": "scope_port_channel_bed",
-      "from": [
-        5.25,
-        21.1,
-        1
-      ],
-      "to": [
-        5.5,
-        23.1,
-        15.75
-      ],
-      "faces": {
-        "north": {
-          "uv": [
-            0,
-            0,
-            0.25,
-            2
-          ],
-          "texture": "#recessed_carbon"
-        },
-        "south": {
-          "uv": [
-            0,
-            0,
-            0.25,
-            2
-          ],
-          "texture": "#recessed_carbon"
-        },
-        "east": {
-          "uv": [
-            0,
-            0,
-            14.75,
-            2
-          ],
-          "texture": "#recessed_carbon"
-        },
-        "west": {
-          "uv": [
-            0,
-            0,
-            14.75,
-            2
-          ],
-          "texture": "#recessed_carbon"
-        },
-        "up": {
-          "uv": [
-            0,
-            0,
-            0.25,
-            14.75
-          ],
-          "texture": "#recessed_carbon"
-        },
-        "down": {
-          "uv": [
-            0,
-            0,
-            0.25,
-            14.75
-          ],
-          "texture": "#recessed_carbon"
-        }
-      }
-    },
-    {
-      "name": "scope_starboard_channel_bed",
-      "from": [
-        10.5,
-        21.1,
-        1
-      ],
-      "to": [
-        10.75,
-        23.1,
-        15.75
-      ],
-      "faces": {
-        "north": {
-          "uv": [
-            0,
-            0,
-            0.25,
-            2
-          ],
-          "texture": "#recessed_carbon"
-        },
-        "south": {
-          "uv": [
-            0,
-            0,
-            0.25,
-            2
-          ],
-          "texture": "#recessed_carbon"
-        },
-        "east": {
-          "uv": [
-            0,
-            0,
-            14.75,
-            2
-          ],
-          "texture": "#recessed_carbon"
-        },
-        "west": {
-          "uv": [
-            0,
-            0,
-            14.75,
-            2
-          ],
-          "texture": "#recessed_carbon"
-        },
-        "up": {
-          "uv": [
-            0,
-            0,
-            0.25,
-            14.75
-          ],
-          "texture": "#recessed_carbon"
-        },
-        "down": {
-          "uv": [
-            0,
-            0,
-            0.25,
-            14.75
-          ],
-          "texture": "#recessed_carbon"
-        }
-      }
-    },
-    {
-      "name": "scope_port_ember_strip",
-      "from": [
-        5.08,
-        21.65,
-        1.4
-      ],
-      "to": [
-        5.3,
-        22.35,
-        15.1
-      ],
-      "faces": {
-        "north": {
-          "uv": [
-            0,
-            0,
-            0.21999999999999975,
-            0.7000000000000028
-          ],
-          "texture": "#molten_channel"
-        },
-        "south": {
-          "uv": [
-            0,
-            0,
-            0.21999999999999975,
-            0.7000000000000028
-          ],
-          "texture": "#molten_channel"
-        },
-        "east": {
-          "uv": [
-            0,
-            0,
-            13.7,
-            0.7000000000000028
-          ],
-          "texture": "#molten_channel"
-        },
-        "west": {
-          "uv": [
-            0,
-            0,
-            13.7,
-            0.7000000000000028
-          ],
-          "texture": "#molten_channel"
-        },
-        "up": {
-          "uv": [
-            0,
-            0,
-            0.21999999999999975,
-            13.7
-          ],
-          "texture": "#molten_channel"
-        },
-        "down": {
-          "uv": [
-            0,
-            0,
-            0.21999999999999975,
-            13.7
-          ],
-          "texture": "#molten_channel"
-        }
-      }
-    },
-    {
-      "name": "scope_starboard_ember_strip",
-      "from": [
-        10.7,
-        21.65,
-        1.4
-      ],
-      "to": [
-        10.92,
-        22.35,
-        15.1
-      ],
-      "faces": {
-        "north": {
-          "uv": [
-            0,
-            0,
-            0.22000000000000064,
-            0.7000000000000028
-          ],
-          "texture": "#molten_channel"
-        },
-        "south": {
-          "uv": [
-            0,
-            0,
-            0.22000000000000064,
-            0.7000000000000028
-          ],
-          "texture": "#molten_channel"
-        },
-        "east": {
-          "uv": [
-            0,
-            0,
-            13.7,
-            0.7000000000000028
-          ],
-          "texture": "#molten_channel"
-        },
-        "west": {
-          "uv": [
-            0,
-            0,
-            13.7,
-            0.7000000000000028
-          ],
-          "texture": "#molten_channel"
-        },
-        "up": {
-          "uv": [
-            0,
-            0,
-            0.22000000000000064,
-            13.7
-          ],
-          "texture": "#molten_channel"
-        },
-        "down": {
-          "uv": [
-            0,
-            0,
-            0.22000000000000064,
-            13.7
-          ],
-          "texture": "#molten_channel"
-        }
-      }
-    },
-    {
-      "name": "scope_focus_dial",
-      "from": [
-        6.7,
-        24.9,
-        9.5
-      ],
-      "to": [
-        9.3,
-        26.2,
-        12.1
-      ],
-      "faces": {
-        "north": {
-          "uv": [
-            0,
-            0,
-            1.3000000000000003,
-            0.6500000000000004
-          ],
-          "texture": "#charcoal_steel"
-        },
-        "south": {
-          "uv": [
-            0,
-            0,
-            1.3000000000000003,
-            0.6500000000000004
-          ],
-          "texture": "#charcoal_steel"
-        },
-        "east": {
-          "uv": [
-            0,
-            0,
-            1.2999999999999998,
-            0.6500000000000004
-          ],
-          "texture": "#charcoal_steel"
-        },
-        "west": {
-          "uv": [
-            0,
-            0,
-            1.2999999999999998,
-            0.6500000000000004
-          ],
-          "texture": "#charcoal_steel"
-        },
-        "up": {
-          "uv": [
-            0,
-            0,
-            1.3000000000000003,
-            1.2999999999999998
-          ],
-          "texture": "#charcoal_steel"
-        },
-        "down": {
-          "uv": [
-            0,
-            0,
-            1.3000000000000003,
-            1.2999999999999998
-          ],
-          "texture": "#charcoal_steel"
-        }
-      }
-    },
-    {
-      "name": "scope_focus_amber_indicator",
-      "from": [
-        7.5,
-        26.2,
-        10.3
-      ],
-      "to": [
-        8.5,
-        26.35,
-        11.3
-      ],
-      "faces": {
-        "north": {
-          "uv": [
-            0,
-            0,
-            1,
-            0.15000000000000213
-          ],
-          "texture": "#amber_plasma"
-        },
-        "south": {
-          "uv": [
-            0,
-            0,
-            1,
-            0.15000000000000213
-          ],
-          "texture": "#amber_plasma"
-        },
-        "east": {
-          "uv": [
-            0,
-            0,
-            1,
-            0.15000000000000213
-          ],
-          "texture": "#amber_plasma"
-        },
-        "west": {
-          "uv": [
-            0,
-            0,
-            1,
-            0.15000000000000213
-          ],
-          "texture": "#amber_plasma"
-        },
-        "up": {
-          "uv": [
-            0,
-            0,
-            1,
-            1
-          ],
-          "texture": "#amber_plasma"
-        },
-        "down": {
-          "uv": [
-            0,
-            0,
-            1,
-            1
-          ],
-          "texture": "#amber_plasma"
-        }
-      }
-    },
-    {
-      "name": "stock_recessed_connector",
-      "from": [
-        6.1,
-        13,
-        19.5
-      ],
-      "to": [
-        9.9,
-        16.8,
+        10,
+        19,
         24
       ],
       "faces": {
         "north": {
           "uv": [
-            0,
-            0,
-            3.8000000000000007,
-            3.8000000000000007
+            5.25,
+            5.25,
+            5.75,
+            5.5
           ],
-          "texture": "#recessed_carbon"
+          "texture": "#rifle"
         },
         "south": {
           "uv": [
-            0,
-            0,
-            3.8000000000000007,
-            3.8000000000000007
+            3.75,
+            5.25,
+            4.25,
+            5.5
           ],
-          "texture": "#recessed_carbon"
+          "texture": "#rifle"
         },
         "east": {
           "uv": [
-            0,
-            0,
-            4.5,
-            3.8000000000000007
+            2.75,
+            5.25,
+            3.75,
+            5.5
           ],
-          "texture": "#recessed_carbon"
+          "texture": "#rifle"
         },
         "west": {
           "uv": [
-            0,
-            0,
-            4.5,
-            3.8000000000000007
+            4.25,
+            5.25,
+            5.25,
+            5.5
           ],
-          "texture": "#recessed_carbon"
+          "texture": "#rifle"
         },
         "up": {
           "uv": [
-            0,
-            0,
-            3.8000000000000007,
-            4.5
+            3.75,
+            4.25,
+            4.25,
+            5.25
           ],
-          "texture": "#recessed_carbon"
+          "texture": "#rifle"
         },
         "down": {
           "uv": [
-            0,
-            0,
-            3.8000000000000007,
-            4.5
+            4.25,
+            4.25,
+            4.75,
+            5.25
           ],
-          "texture": "#recessed_carbon"
+          "texture": "#rifle"
         }
       }
     },
     {
-      "name": "shoulder_stock_body",
+      "name": "angled_pistol_grip",
       "from": [
-        5.25,
-        12.9,
-        23
+        6.5,
+        5,
+        8
       ],
       "to": [
-        10.75,
-        18.6,
-        29.4
-      ],
-      "faces": {
-        "north": {
-          "uv": [
-            0,
-            0,
-            2.75,
-            2.8500000000000005
-          ],
-          "texture": "#charcoal_steel"
-        },
-        "south": {
-          "uv": [
-            0,
-            0,
-            2.75,
-            2.8500000000000005
-          ],
-          "texture": "#charcoal_steel"
-        },
-        "east": {
-          "uv": [
-            0,
-            0,
-            3.1999999999999993,
-            2.8500000000000005
-          ],
-          "texture": "#charcoal_steel"
-        },
-        "west": {
-          "uv": [
-            0,
-            0,
-            3.1999999999999993,
-            2.8500000000000005
-          ],
-          "texture": "#charcoal_steel"
-        },
-        "up": {
-          "uv": [
-            0,
-            0,
-            2.75,
-            3.1999999999999993
-          ],
-          "texture": "#charcoal_steel"
-        },
-        "down": {
-          "uv": [
-            0,
-            0,
-            2.75,
-            3.1999999999999993
-          ],
-          "texture": "#charcoal_steel"
-        }
-      }
-    },
-    {
-      "name": "stock_raised_cheek_rest",
-      "from": [
-        5.55,
-        18.25,
-        22.6
-      ],
-      "to": [
-        10.45,
-        19.65,
-        29.2
-      ],
-      "faces": {
-        "north": {
-          "uv": [
-            0,
-            0,
-            4.8999999999999995,
-            1.3999999999999986
-          ],
-          "texture": "#ribbed_grip"
-        },
-        "south": {
-          "uv": [
-            0,
-            0,
-            4.8999999999999995,
-            1.3999999999999986
-          ],
-          "texture": "#ribbed_grip"
-        },
-        "east": {
-          "uv": [
-            0,
-            0,
-            6.599999999999998,
-            1.3999999999999986
-          ],
-          "texture": "#ribbed_grip"
-        },
-        "west": {
-          "uv": [
-            0,
-            0,
-            6.599999999999998,
-            1.3999999999999986
-          ],
-          "texture": "#ribbed_grip"
-        },
-        "up": {
-          "uv": [
-            0,
-            0,
-            4.8999999999999995,
-            6.599999999999998
-          ],
-          "texture": "#ribbed_grip"
-        },
-        "down": {
-          "uv": [
-            0,
-            0,
-            4.8999999999999995,
-            6.599999999999998
-          ],
-          "texture": "#ribbed_grip"
-        }
-      }
-    },
-    {
-      "name": "stock_sloping_lower_brace",
-      "from": [
-        5.7,
-        11.6,
-        25
-      ],
-      "to": [
-        10.3,
-        13.2,
-        29.4
+        9.5,
+        12,
+        12
       ],
       "rotation": {
         "origin": [
           8,
-          13.2,
-          29.4
+          12,
+          10
+        ],
+        "axis": "x",
+        "angle": -22.5,
+        "rescale": false
+      },
+      "faces": {
+        "north": {
+          "uv": [
+            7.125,
+            4.75,
+            7.5,
+            5.625
+          ],
+          "texture": "#rifle"
+        },
+        "south": {
+          "uv": [
+            6.25,
+            4.75,
+            6.625,
+            5.625
+          ],
+          "texture": "#rifle"
+        },
+        "east": {
+          "uv": [
+            5.75,
+            4.75,
+            6.25,
+            5.625
+          ],
+          "texture": "#rifle"
+        },
+        "west": {
+          "uv": [
+            6.625,
+            4.75,
+            7.125,
+            5.625
+          ],
+          "texture": "#rifle"
+        },
+        "up": {
+          "uv": [
+            6.25,
+            4.25,
+            6.625,
+            4.75
+          ],
+          "texture": "#rifle"
+        },
+        "down": {
+          "uv": [
+            6.625,
+            4.25,
+            7,
+            4.75
+          ],
+          "texture": "#rifle"
+        }
+      }
+    },
+    {
+      "name": "compact_scope_housing",
+      "from": [
+        6.5,
+        21,
+        0
+      ],
+      "to": [
+        9.5,
+        24,
+        8
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            9.875,
+            5.25,
+            10.25,
+            5.625
+          ],
+          "texture": "#rifle"
+        },
+        "south": {
+          "uv": [
+            8.5,
+            5.25,
+            8.875,
+            5.625
+          ],
+          "texture": "#rifle"
+        },
+        "east": {
+          "uv": [
+            7.5,
+            5.25,
+            8.5,
+            5.625
+          ],
+          "texture": "#rifle"
+        },
+        "west": {
+          "uv": [
+            8.875,
+            5.25,
+            9.875,
+            5.625
+          ],
+          "texture": "#rifle"
+        },
+        "up": {
+          "uv": [
+            8.5,
+            4.25,
+            8.875,
+            5.25
+          ],
+          "texture": "#rifle"
+        },
+        "down": {
+          "uv": [
+            8.875,
+            4.25,
+            9.25,
+            5.25
+          ],
+          "texture": "#rifle"
+        }
+      }
+    },
+    {
+      "name": "square_furnace_muzzle_body",
+      "from": [
+        4.5,
+        12,
+        -13
+      ],
+      "to": [
+        11.5,
+        18,
+        -10
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            11.875,
+            4.625,
+            12.75,
+            5.375
+          ],
+          "texture": "#rifle"
+        },
+        "south": {
+          "uv": [
+            10.625,
+            4.625,
+            11.5,
+            5.375
+          ],
+          "texture": "#rifle"
+        },
+        "east": {
+          "uv": [
+            10.25,
+            4.625,
+            10.625,
+            5.375
+          ],
+          "texture": "#rifle"
+        },
+        "west": {
+          "uv": [
+            11.5,
+            4.625,
+            11.875,
+            5.375
+          ],
+          "texture": "#rifle"
+        },
+        "up": {
+          "uv": [
+            10.625,
+            4.25,
+            11.5,
+            4.625
+          ],
+          "texture": "#rifle"
+        },
+        "down": {
+          "uv": [
+            11.5,
+            4.25,
+            12.375,
+            4.625
+          ],
+          "texture": "#rifle"
+        }
+      }
+    },
+    {
+      "name": "stock_structural_neck",
+      "from": [
+        6,
+        13,
+        11
+      ],
+      "to": [
+        10,
+        16,
+        16
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            14.5,
+            4.875,
+            15,
+            5.25
+          ],
+          "texture": "#rifle"
+        },
+        "south": {
+          "uv": [
+            13.375,
+            4.875,
+            13.875,
+            5.25
+          ],
+          "texture": "#rifle"
+        },
+        "east": {
+          "uv": [
+            12.75,
+            4.875,
+            13.375,
+            5.25
+          ],
+          "texture": "#rifle"
+        },
+        "west": {
+          "uv": [
+            13.875,
+            4.875,
+            14.5,
+            5.25
+          ],
+          "texture": "#rifle"
+        },
+        "up": {
+          "uv": [
+            13.375,
+            4.25,
+            13.875,
+            4.875
+          ],
+          "texture": "#rifle"
+        },
+        "down": {
+          "uv": [
+            13.875,
+            4.25,
+            14.375,
+            4.875
+          ],
+          "texture": "#rifle"
+        }
+      }
+    },
+    {
+      "name": "trigger_guard_front",
+      "from": [
+        6.5,
+        8,
+        3
+      ],
+      "to": [
+        9.5,
+        11.75,
+        4
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            0.625,
+            5.875,
+            1,
+            6.375
+          ],
+          "texture": "#rifle"
+        },
+        "south": {
+          "uv": [
+            0.125,
+            5.875,
+            0.5,
+            6.375
+          ],
+          "texture": "#rifle"
+        },
+        "east": {
+          "uv": [
+            0,
+            5.875,
+            0.125,
+            6.375
+          ],
+          "texture": "#rifle"
+        },
+        "west": {
+          "uv": [
+            0.5,
+            5.875,
+            0.625,
+            6.375
+          ],
+          "texture": "#rifle"
+        },
+        "up": {
+          "uv": [
+            0.125,
+            5.75,
+            0.5,
+            5.875
+          ],
+          "texture": "#rifle"
+        },
+        "down": {
+          "uv": [
+            0.5,
+            5.75,
+            0.875,
+            5.875
+          ],
+          "texture": "#rifle"
+        }
+      }
+    },
+    {
+      "name": "trigger_guard_lower_bridge",
+      "from": [
+        6.75,
+        7.5,
+        3.25
+      ],
+      "to": [
+        9.25,
+        8.5,
+        9.25
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            2.875,
+            6.5,
+            3.25,
+            6.625
+          ],
+          "texture": "#rifle"
+        },
+        "south": {
+          "uv": [
+            1.75,
+            6.5,
+            2.125,
+            6.625
+          ],
+          "texture": "#rifle"
+        },
+        "east": {
+          "uv": [
+            1,
+            6.5,
+            1.75,
+            6.625
+          ],
+          "texture": "#rifle"
+        },
+        "west": {
+          "uv": [
+            2.125,
+            6.5,
+            2.875,
+            6.625
+          ],
+          "texture": "#rifle"
+        },
+        "up": {
+          "uv": [
+            1.75,
+            5.75,
+            2.125,
+            6.5
+          ],
+          "texture": "#rifle"
+        },
+        "down": {
+          "uv": [
+            2.125,
+            5.75,
+            2.5,
+            6.5
+          ],
+          "texture": "#rifle"
+        }
+      }
+    },
+    {
+      "name": "curved_trigger",
+      "from": [
+        7.5,
+        9.25,
+        5
+      ],
+      "to": [
+        8.5,
+        11.5,
+        6
+      ],
+      "rotation": {
+        "origin": [
+          8,
+          11.5,
+          5.5
         ],
         "axis": "x",
         "angle": 22.5,
@@ -3713,935 +1213,1950 @@
       "faces": {
         "north": {
           "uv": [
-            0,
-            0,
-            2.3000000000000003,
-            0.7999999999999998
+            3.625,
+            5.875,
+            3.75,
+            6.25
           ],
-          "texture": "#charcoal_steel"
+          "texture": "#rifle"
         },
         "south": {
           "uv": [
-            0,
-            0,
-            2.3000000000000003,
-            0.7999999999999998
+            3.375,
+            5.875,
+            3.5,
+            6.25
           ],
-          "texture": "#charcoal_steel"
+          "texture": "#rifle"
         },
         "east": {
           "uv": [
-            0,
-            0,
-            2.1999999999999993,
-            0.7999999999999998
+            3.25,
+            5.875,
+            3.375,
+            6.25
           ],
-          "texture": "#charcoal_steel"
+          "texture": "#rifle"
         },
         "west": {
           "uv": [
-            0,
-            0,
-            2.1999999999999993,
-            0.7999999999999998
+            3.5,
+            5.875,
+            3.625,
+            6.25
           ],
-          "texture": "#charcoal_steel"
+          "texture": "#rifle"
         },
         "up": {
           "uv": [
-            0,
-            0,
-            2.3000000000000003,
-            2.1999999999999993
+            3.375,
+            5.75,
+            3.5,
+            5.875
           ],
-          "texture": "#charcoal_steel"
+          "texture": "#rifle"
         },
         "down": {
           "uv": [
-            0,
-            0,
-            2.3000000000000003,
-            2.1999999999999993
+            3.5,
+            5.75,
+            3.625,
+            5.875
           ],
-          "texture": "#charcoal_steel"
+          "texture": "#rifle"
         }
       }
     },
     {
-      "name": "stock_thick_shoulder_pad",
+      "name": "scope_front_mount",
       "from": [
-        4.95,
-        11.1,
-        29.4
+        7,
+        18,
+        1
       ],
       "to": [
-        11.05,
-        19.3,
-        31
+        9,
+        21,
+        3
       ],
       "faces": {
         "north": {
           "uv": [
-            0,
-            0,
-            6.1000000000000005,
-            8.200000000000001
-          ],
-          "texture": "#ribbed_grip"
-        },
-        "south": {
-          "uv": [
-            0,
-            0,
-            6.1000000000000005,
-            8.200000000000001
-          ],
-          "texture": "#ribbed_grip"
-        },
-        "east": {
-          "uv": [
-            0,
-            0,
-            1.6000000000000014,
-            8.200000000000001
-          ],
-          "texture": "#ribbed_grip"
-        },
-        "west": {
-          "uv": [
-            0,
-            0,
-            1.6000000000000014,
-            8.200000000000001
-          ],
-          "texture": "#ribbed_grip"
-        },
-        "up": {
-          "uv": [
-            0,
-            0,
-            6.1000000000000005,
-            1.6000000000000014
-          ],
-          "texture": "#ribbed_grip"
-        },
-        "down": {
-          "uv": [
-            0,
-            0,
-            6.1000000000000005,
-            1.6000000000000014
-          ],
-          "texture": "#ribbed_grip"
-        }
-      }
-    },
-    {
-      "name": "stock_pad_upper_cap",
-      "from": [
-        5.1,
-        18.65,
-        29.1
-      ],
-      "to": [
-        10.9,
-        19.6,
-        30.9
-      ],
-      "faces": {
-        "north": {
-          "uv": [
-            0,
-            0,
-            2.9000000000000004,
-            0.4750000000000014
-          ],
-          "texture": "#slate_alloy"
-        },
-        "south": {
-          "uv": [
-            0,
-            0,
-            2.9000000000000004,
-            0.4750000000000014
-          ],
-          "texture": "#slate_alloy"
-        },
-        "east": {
-          "uv": [
-            0,
-            0,
-            0.8999999999999986,
-            0.4750000000000014
-          ],
-          "texture": "#slate_alloy"
-        },
-        "west": {
-          "uv": [
-            0,
-            0,
-            0.8999999999999986,
-            0.4750000000000014
-          ],
-          "texture": "#slate_alloy"
-        },
-        "up": {
-          "uv": [
-            0,
-            0,
-            2.9000000000000004,
-            0.8999999999999986
-          ],
-          "texture": "#slate_alloy"
-        },
-        "down": {
-          "uv": [
-            0,
-            0,
-            2.9000000000000004,
-            0.8999999999999986
-          ],
-          "texture": "#slate_alloy"
-        }
-      }
-    },
-    {
-      "name": "stock_port_recessed_plate",
-      "from": [
-        5,
-        14.6,
-        24
-      ],
-      "to": [
-        5.3,
-        17.15,
-        28.75
-      ],
-      "faces": {
-        "north": {
-          "uv": [
-            0,
-            0,
-            0.2999999999999998,
-            2.549999999999999
-          ],
-          "texture": "#recessed_carbon"
-        },
-        "south": {
-          "uv": [
-            0,
-            0,
-            0.2999999999999998,
-            2.549999999999999
-          ],
-          "texture": "#recessed_carbon"
-        },
-        "east": {
-          "uv": [
-            0,
-            0,
+            4.5,
+            6,
             4.75,
-            2.549999999999999
+            6.375
           ],
-          "texture": "#recessed_carbon"
+          "texture": "#rifle"
+        },
+        "south": {
+          "uv": [
+            4,
+            6,
+            4.25,
+            6.375
+          ],
+          "texture": "#rifle"
+        },
+        "east": {
+          "uv": [
+            3.75,
+            6,
+            4,
+            6.375
+          ],
+          "texture": "#rifle"
         },
         "west": {
           "uv": [
-            0,
-            0,
-            4.75,
-            2.549999999999999
+            4.25,
+            6,
+            4.5,
+            6.375
           ],
-          "texture": "#recessed_carbon"
+          "texture": "#rifle"
         },
         "up": {
           "uv": [
-            0,
-            0,
-            0.2999999999999998,
-            4.75
+            4,
+            5.75,
+            4.25,
+            6
           ],
-          "texture": "#recessed_carbon"
+          "texture": "#rifle"
         },
         "down": {
           "uv": [
-            0,
-            0,
-            0.2999999999999998,
-            4.75
+            4.25,
+            5.75,
+            4.5,
+            6
           ],
-          "texture": "#recessed_carbon"
+          "texture": "#rifle"
         }
       }
     },
     {
-      "name": "stock_starboard_recessed_plate",
+      "name": "scope_rear_mount",
       "from": [
-        10.7,
-        14.6,
-        24
+        7,
+        18,
+        6
       ],
       "to": [
-        11,
-        17.15,
-        28.75
+        9,
+        21,
+        8
       ],
       "faces": {
         "north": {
           "uv": [
-            0,
-            0,
-            0.3000000000000007,
-            2.549999999999999
+            5.5,
+            6,
+            5.75,
+            6.375
           ],
-          "texture": "#recessed_carbon"
+          "texture": "#rifle"
         },
         "south": {
           "uv": [
-            0,
-            0,
-            0.3000000000000007,
-            2.549999999999999
+            5,
+            6,
+            5.25,
+            6.375
           ],
-          "texture": "#recessed_carbon"
+          "texture": "#rifle"
         },
         "east": {
           "uv": [
-            0,
-            0,
             4.75,
-            2.549999999999999
+            6,
+            5,
+            6.375
           ],
-          "texture": "#recessed_carbon"
+          "texture": "#rifle"
         },
         "west": {
           "uv": [
-            0,
-            0,
-            4.75,
-            2.549999999999999
+            5.25,
+            6,
+            5.5,
+            6.375
           ],
-          "texture": "#recessed_carbon"
+          "texture": "#rifle"
         },
         "up": {
           "uv": [
-            0,
-            0,
-            0.3000000000000007,
-            4.75
+            5,
+            5.75,
+            5.25,
+            6
           ],
-          "texture": "#recessed_carbon"
+          "texture": "#rifle"
         },
         "down": {
           "uv": [
-            0,
-            0,
-            0.3000000000000007,
-            4.75
+            5.25,
+            5.75,
+            5.5,
+            6
           ],
-          "texture": "#recessed_carbon"
+          "texture": "#rifle"
         }
       }
     },
     {
-      "name": "stock_port_amber_marker",
+      "name": "amber_objective_lens",
       "from": [
-        4.82,
-        15.15,
-        27
+        6.75,
+        21.25,
+        -0.3
       ],
       "to": [
-        5.06,
-        16.45,
-        27.65
-      ],
-      "faces": {
-        "north": {
-          "uv": [
-            0,
-            0,
-            0.23999999999999932,
-            1.299999999999999
-          ],
-          "texture": "#amber_plasma"
-        },
-        "south": {
-          "uv": [
-            0,
-            0,
-            0.23999999999999932,
-            1.299999999999999
-          ],
-          "texture": "#amber_plasma"
-        },
-        "east": {
-          "uv": [
-            0,
-            0,
-            0.6499999999999986,
-            1.299999999999999
-          ],
-          "texture": "#amber_plasma"
-        },
-        "west": {
-          "uv": [
-            0,
-            0,
-            0.6499999999999986,
-            1.299999999999999
-          ],
-          "texture": "#amber_plasma"
-        },
-        "up": {
-          "uv": [
-            0,
-            0,
-            0.23999999999999932,
-            0.6499999999999986
-          ],
-          "texture": "#amber_plasma"
-        },
-        "down": {
-          "uv": [
-            0,
-            0,
-            0.23999999999999932,
-            0.6499999999999986
-          ],
-          "texture": "#amber_plasma"
-        }
-      }
-    },
-    {
-      "name": "stock_starboard_amber_marker",
-      "from": [
-        10.94,
-        15.15,
-        27
-      ],
-      "to": [
-        11.18,
-        16.45,
-        27.65
-      ],
-      "faces": {
-        "north": {
-          "uv": [
-            0,
-            0,
-            0.2400000000000002,
-            1.299999999999999
-          ],
-          "texture": "#amber_plasma"
-        },
-        "south": {
-          "uv": [
-            0,
-            0,
-            0.2400000000000002,
-            1.299999999999999
-          ],
-          "texture": "#amber_plasma"
-        },
-        "east": {
-          "uv": [
-            0,
-            0,
-            0.6499999999999986,
-            1.299999999999999
-          ],
-          "texture": "#amber_plasma"
-        },
-        "west": {
-          "uv": [
-            0,
-            0,
-            0.6499999999999986,
-            1.299999999999999
-          ],
-          "texture": "#amber_plasma"
-        },
-        "up": {
-          "uv": [
-            0,
-            0,
-            0.2400000000000002,
-            0.6499999999999986
-          ],
-          "texture": "#amber_plasma"
-        },
-        "down": {
-          "uv": [
-            0,
-            0,
-            0.2400000000000002,
-            0.6499999999999986
-          ],
-          "texture": "#amber_plasma"
-        }
-      }
-    },
-    {
-      "name": "pistol_grip_receiver_joint",
-      "from": [
-        6.2,
         9.25,
-        14.2
-      ],
-      "to": [
-        9.8,
-        11.7,
-        17.8
+        23.75,
+        0.1
       ],
       "faces": {
         "north": {
           "uv": [
-            0,
-            0,
-            1.8000000000000003,
-            1.2249999999999996
+            6.375,
+            5.875,
+            6.75,
+            6.25
           ],
-          "texture": "#charcoal_steel"
+          "texture": "#rifle"
         },
         "south": {
           "uv": [
-            0,
-            0,
-            1.8000000000000003,
-            1.2249999999999996
+            5.875,
+            5.875,
+            6.25,
+            6.25
           ],
-          "texture": "#charcoal_steel"
+          "texture": "#rifle"
         },
         "east": {
           "uv": [
-            0,
-            0,
-            1.8000000000000007,
-            1.2249999999999996
+            5.75,
+            5.875,
+            5.875,
+            6.25
           ],
-          "texture": "#charcoal_steel"
+          "texture": "#rifle"
         },
         "west": {
           "uv": [
-            0,
-            0,
-            1.8000000000000007,
-            1.2249999999999996
+            6.25,
+            5.875,
+            6.375,
+            6.25
           ],
-          "texture": "#charcoal_steel"
+          "texture": "#rifle"
         },
         "up": {
           "uv": [
-            0,
-            0,
-            1.8000000000000003,
-            1.8000000000000007
+            5.875,
+            5.75,
+            6.25,
+            5.875
           ],
-          "texture": "#charcoal_steel"
+          "texture": "#rifle"
         },
         "down": {
           "uv": [
-            0,
-            0,
-            1.8000000000000003,
-            1.8000000000000007
+            6.25,
+            5.75,
+            6.625,
+            5.875
           ],
-          "texture": "#charcoal_steel"
+          "texture": "#rifle"
         }
       }
     },
     {
-      "name": "angled_pistol_grip",
+      "name": "scope_ocular_collar",
       "from": [
-        6.2,
-        3.9,
-        14.4
+        6.25,
+        20.75,
+        8
       ],
       "to": [
-        9.8,
-        10.8,
-        17.9
+        9.75,
+        24.25,
+        9
       ],
-      "rotation": {
-        "origin": [
-          8,
-          10.8,
-          16.1
-        ],
-        "axis": "x",
-        "angle": -22.5,
-        "rescale": false
-      },
       "faces": {
         "north": {
           "uv": [
-            0,
-            0,
-            3.6000000000000005,
-            6.9
+            7.5,
+            5.875,
+            8,
+            6.375
           ],
-          "texture": "#ribbed_grip"
+          "texture": "#rifle"
         },
         "south": {
           "uv": [
-            0,
-            0,
-            3.6000000000000005,
-            6.9
+            6.875,
+            5.875,
+            7.375,
+            6.375
           ],
-          "texture": "#ribbed_grip"
+          "texture": "#rifle"
         },
         "east": {
           "uv": [
-            0,
-            0,
-            3.4999999999999982,
-            6.9
+            6.75,
+            5.875,
+            6.875,
+            6.375
           ],
-          "texture": "#ribbed_grip"
+          "texture": "#rifle"
         },
         "west": {
           "uv": [
-            0,
-            0,
-            3.4999999999999982,
-            6.9
+            7.375,
+            5.875,
+            7.5,
+            6.375
           ],
-          "texture": "#ribbed_grip"
+          "texture": "#rifle"
         },
         "up": {
           "uv": [
-            0,
-            0,
-            3.6000000000000005,
-            3.4999999999999982
+            6.875,
+            5.75,
+            7.375,
+            5.875
           ],
-          "texture": "#ribbed_grip"
+          "texture": "#rifle"
         },
         "down": {
           "uv": [
-            0,
-            0,
-            3.6000000000000005,
-            3.4999999999999982
+            7.375,
+            5.75,
+            7.875,
+            5.875
           ],
-          "texture": "#ribbed_grip"
+          "texture": "#rifle"
         }
       }
     },
     {
-      "name": "pistol_grip_slate_heel",
-      "from": [
-        5.95,
-        3.4,
-        14.1
-      ],
-      "to": [
-        10.05,
-        4.4,
-        18.2
-      ],
-      "rotation": {
-        "origin": [
-          8,
-          10.8,
-          16.1
-        ],
-        "axis": "x",
-        "angle": -22.5,
-        "rescale": false
-      },
-      "faces": {
-        "north": {
-          "uv": [
-            0,
-            0,
-            2.0500000000000003,
-            0.5000000000000002
-          ],
-          "texture": "#slate_alloy"
-        },
-        "south": {
-          "uv": [
-            0,
-            0,
-            2.0500000000000003,
-            0.5000000000000002
-          ],
-          "texture": "#slate_alloy"
-        },
-        "east": {
-          "uv": [
-            0,
-            0,
-            2.05,
-            0.5000000000000002
-          ],
-          "texture": "#slate_alloy"
-        },
-        "west": {
-          "uv": [
-            0,
-            0,
-            2.05,
-            0.5000000000000002
-          ],
-          "texture": "#slate_alloy"
-        },
-        "up": {
-          "uv": [
-            0,
-            0,
-            2.0500000000000003,
-            2.05
-          ],
-          "texture": "#slate_alloy"
-        },
-        "down": {
-          "uv": [
-            0,
-            0,
-            2.0500000000000003,
-            2.05
-          ],
-          "texture": "#slate_alloy"
-        }
-      }
-    },
-    {
-      "name": "pistol_grip_reinforcing_band",
+      "name": "receiver_horn_ridge",
       "from": [
         6,
-        5.6,
-        14.25
+        18,
+        9
       ],
       "to": [
         10,
-        6.3,
-        18.05
+        20,
+        13
       ],
       "rotation": {
         "origin": [
           8,
-          10.8,
-          16.1
+          18,
+          9
         ],
         "axis": "x",
-        "angle": -22.5,
+        "angle": 22.5,
         "rescale": false
       },
       "faces": {
         "north": {
           "uv": [
-            0,
-            0,
-            4,
-            0.7000000000000002
+            9.5,
+            6.25,
+            10,
+            6.5
           ],
-          "texture": "#recessed_carbon"
+          "texture": "#rifle"
         },
         "south": {
           "uv": [
-            0,
-            0,
-            4,
-            0.7000000000000002
+            8.5,
+            6.25,
+            9,
+            6.5
           ],
-          "texture": "#recessed_carbon"
+          "texture": "#rifle"
         },
         "east": {
           "uv": [
-            0,
-            0,
-            3.8000000000000007,
-            0.7000000000000002
+            8,
+            6.25,
+            8.5,
+            6.5
           ],
-          "texture": "#recessed_carbon"
+          "texture": "#rifle"
         },
         "west": {
           "uv": [
-            0,
-            0,
-            3.8000000000000007,
-            0.7000000000000002
+            9,
+            6.25,
+            9.5,
+            6.5
           ],
-          "texture": "#recessed_carbon"
+          "texture": "#rifle"
         },
         "up": {
           "uv": [
-            0,
-            0,
-            4,
-            3.8000000000000007
+            8.5,
+            5.75,
+            9,
+            6.25
           ],
-          "texture": "#recessed_carbon"
+          "texture": "#rifle"
         },
         "down": {
           "uv": [
-            0,
-            0,
-            4,
-            3.8000000000000007
+            9,
+            5.75,
+            9.5,
+            6.25
           ],
-          "texture": "#recessed_carbon"
+          "texture": "#rifle"
         }
       }
     },
     {
-      "name": "trigger_guard_forward_upright",
+      "name": "barrel_rib_rear",
       "from": [
-        6.6,
-        7.4,
-        7.8
+        5.53125,
+        12.7,
+        -2
       ],
       "to": [
-        9.4,
-        11.7,
-        8.9
+        10.53125,
+        17.3,
+        -1
       ],
       "faces": {
         "north": {
           "uv": [
-            0,
-            0,
-            1.4000000000000004,
-            2.1499999999999995
+            0.875,
+            6.875,
+            1.5,
+            7.5
           ],
-          "texture": "#slate_alloy"
+          "texture": "#rifle"
         },
         "south": {
           "uv": [
-            0,
-            0,
-            1.4000000000000004,
-            2.1499999999999995
+            0.125,
+            6.875,
+            0.75,
+            7.5
           ],
-          "texture": "#slate_alloy"
+          "texture": "#rifle"
         },
         "east": {
           "uv": [
             0,
-            0,
-            0.5500000000000003,
-            2.1499999999999995
+            6.875,
+            0.125,
+            7.5
           ],
-          "texture": "#slate_alloy"
+          "texture": "#rifle"
         },
         "west": {
           "uv": [
-            0,
-            0,
-            0.5500000000000003,
-            2.1499999999999995
+            0.75,
+            6.875,
+            0.875,
+            7.5
           ],
-          "texture": "#slate_alloy"
+          "texture": "#rifle"
         },
         "up": {
           "uv": [
-            0,
-            0,
-            1.4000000000000004,
-            0.5500000000000003
+            0.125,
+            6.75,
+            0.75,
+            6.875
           ],
-          "texture": "#slate_alloy"
+          "texture": "#rifle"
         },
         "down": {
           "uv": [
-            0,
-            0,
-            1.4000000000000004,
-            0.5500000000000003
+            0.75,
+            6.75,
+            1.375,
+            6.875
           ],
-          "texture": "#slate_alloy"
+          "texture": "#rifle"
         }
       }
     },
     {
-      "name": "trigger_guard_lower_bridge",
+      "name": "barrel_rib_middle_rear",
       "from": [
-        6.6,
-        7.1,
-        7.8
+        5.53125,
+        12.7,
+        -4
       ],
       "to": [
-        9.4,
-        8.15,
-        16.5
+        10.53125,
+        17.3,
+        -3
       ],
       "faces": {
         "north": {
           "uv": [
-            0,
-            0,
-            1.4000000000000004,
-            0.5250000000000004
+            2.375,
+            6.875,
+            3,
+            7.5
           ],
-          "texture": "#charcoal_steel"
+          "texture": "#rifle"
         },
         "south": {
           "uv": [
-            0,
-            0,
-            1.4000000000000004,
-            0.5250000000000004
+            1.625,
+            6.875,
+            2.25,
+            7.5
           ],
-          "texture": "#charcoal_steel"
+          "texture": "#rifle"
         },
         "east": {
           "uv": [
-            0,
-            0,
-            4.35,
-            0.5250000000000004
+            1.5,
+            6.875,
+            1.625,
+            7.5
           ],
-          "texture": "#charcoal_steel"
+          "texture": "#rifle"
         },
         "west": {
           "uv": [
-            0,
-            0,
-            4.35,
-            0.5250000000000004
+            2.25,
+            6.875,
+            2.375,
+            7.5
           ],
-          "texture": "#charcoal_steel"
+          "texture": "#rifle"
         },
         "up": {
           "uv": [
-            0,
-            0,
-            1.4000000000000004,
-            4.35
+            1.625,
+            6.75,
+            2.25,
+            6.875
           ],
-          "texture": "#charcoal_steel"
+          "texture": "#rifle"
         },
         "down": {
           "uv": [
-            0,
-            0,
-            1.4000000000000004,
-            4.35
+            2.25,
+            6.75,
+            2.875,
+            6.875
           ],
-          "texture": "#charcoal_steel"
+          "texture": "#rifle"
         }
       }
     },
     {
-      "name": "dragon_ignition_rune",
+      "name": "barrel_rib_middle_front",
       "from": [
-        7.25,
-        9.55,
-        11
+        5.53125,
+        12.7,
+        -5.96875
       ],
       "to": [
-        8.75,
-        11.4,
+        10.53125,
+        17.3,
+        -4.96875
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            3.875,
+            6.875,
+            4.5,
+            7.5
+          ],
+          "texture": "#rifle"
+        },
+        "south": {
+          "uv": [
+            3.125,
+            6.875,
+            3.75,
+            7.5
+          ],
+          "texture": "#rifle"
+        },
+        "east": {
+          "uv": [
+            3,
+            6.875,
+            3.125,
+            7.5
+          ],
+          "texture": "#rifle"
+        },
+        "west": {
+          "uv": [
+            3.75,
+            6.875,
+            3.875,
+            7.5
+          ],
+          "texture": "#rifle"
+        },
+        "up": {
+          "uv": [
+            3.125,
+            6.75,
+            3.75,
+            6.875
+          ],
+          "texture": "#rifle"
+        },
+        "down": {
+          "uv": [
+            3.75,
+            6.75,
+            4.375,
+            6.875
+          ],
+          "texture": "#rifle"
+        }
+      }
+    },
+    {
+      "name": "barrel_rib_front",
+      "from": [
+        5.5,
+        12.7,
+        -8
+      ],
+      "to": [
+        10.5,
+        17.3,
+        -7
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            5.375,
+            6.875,
+            6,
+            7.5
+          ],
+          "texture": "#rifle"
+        },
+        "south": {
+          "uv": [
+            4.625,
+            6.875,
+            5.25,
+            7.5
+          ],
+          "texture": "#rifle"
+        },
+        "east": {
+          "uv": [
+            4.5,
+            6.875,
+            4.625,
+            7.5
+          ],
+          "texture": "#rifle"
+        },
+        "west": {
+          "uv": [
+            5.25,
+            6.875,
+            5.375,
+            7.5
+          ],
+          "texture": "#rifle"
+        },
+        "up": {
+          "uv": [
+            4.625,
+            6.75,
+            5.25,
+            6.875
+          ],
+          "texture": "#rifle"
+        },
+        "down": {
+          "uv": [
+            5.25,
+            6.75,
+            5.875,
+            6.875
+          ],
+          "texture": "#rifle"
+        }
+      }
+    },
+    {
+      "name": "upper_dragon_jaw",
+      "from": [
+        4,
+        18.25,
+        -14
+      ],
+      "to": [
+        12,
+        19.75,
+        -10
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            8,
+            7.25,
+            9,
+            7.5
+          ],
+          "texture": "#rifle"
+        },
+        "south": {
+          "uv": [
+            6.5,
+            7.25,
+            7.5,
+            7.5
+          ],
+          "texture": "#rifle"
+        },
+        "east": {
+          "uv": [
+            6,
+            7.25,
+            6.5,
+            7.5
+          ],
+          "texture": "#rifle"
+        },
+        "west": {
+          "uv": [
+            7.5,
+            7.25,
+            8,
+            7.5
+          ],
+          "texture": "#rifle"
+        },
+        "up": {
+          "uv": [
+            6.5,
+            6.75,
+            7.5,
+            7.25
+          ],
+          "texture": "#rifle"
+        },
+        "down": {
+          "uv": [
+            7.5,
+            6.75,
+            8.5,
+            7.25
+          ],
+          "texture": "#rifle"
+        }
+      }
+    },
+    {
+      "name": "lower_dragon_jaw",
+      "from": [
+        4.5,
+        10,
+        -14
+      ],
+      "to": [
+        11.5,
+        11.75,
+        -10
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            10.875,
+            7.25,
+            11.75,
+            7.5
+          ],
+          "texture": "#rifle"
+        },
+        "south": {
+          "uv": [
+            9.5,
+            7.25,
+            10.375,
+            7.5
+          ],
+          "texture": "#rifle"
+        },
+        "east": {
+          "uv": [
+            9,
+            7.25,
+            9.5,
+            7.5
+          ],
+          "texture": "#rifle"
+        },
+        "west": {
+          "uv": [
+            10.375,
+            7.25,
+            10.875,
+            7.5
+          ],
+          "texture": "#rifle"
+        },
+        "up": {
+          "uv": [
+            9.5,
+            6.75,
+            10.375,
+            7.25
+          ],
+          "texture": "#rifle"
+        },
+        "down": {
+          "uv": [
+            10.375,
+            6.75,
+            11.25,
+            7.25
+          ],
+          "texture": "#rifle"
+        }
+      }
+    },
+    {
+      "name": "recessed_furnace_throat",
+      "from": [
+        5.25,
+        12.75,
+        -13.2
+      ],
+      "to": [
+        10.75,
+        17.25,
+        -12.9
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            12.75,
+            6.875,
+            13.5,
+            7.5
+          ],
+          "texture": "#rifle"
+        },
+        "south": {
+          "uv": [
+            11.875,
+            6.875,
+            12.625,
+            7.5
+          ],
+          "texture": "#rifle"
+        },
+        "east": {
+          "uv": [
+            11.75,
+            6.875,
+            11.875,
+            7.5
+          ],
+          "texture": "#rifle"
+        },
+        "west": {
+          "uv": [
+            12.625,
+            6.875,
+            12.75,
+            7.5
+          ],
+          "texture": "#rifle"
+        },
+        "up": {
+          "uv": [
+            11.875,
+            6.75,
+            12.625,
+            6.875
+          ],
+          "texture": "#rifle"
+        },
+        "down": {
+          "uv": [
+            12.625,
+            6.75,
+            13.375,
+            6.875
+          ],
+          "texture": "#rifle"
+        }
+      }
+    },
+    {
+      "name": "muzzle_left_wall",
+      "from": [
+        4,
+        12.03125,
+        -14
+      ],
+      "to": [
+        5.25,
+        18.03125,
+        -12.5
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            0.75,
+            7.875,
+            1,
+            8.625
+          ],
+          "texture": "#rifle"
+        },
+        "south": {
+          "uv": [
+            0.25,
+            7.875,
+            0.5,
+            8.625
+          ],
+          "texture": "#rifle"
+        },
+        "east": {
+          "uv": [
+            0,
+            7.875,
+            0.25,
+            8.625
+          ],
+          "texture": "#rifle"
+        },
+        "west": {
+          "uv": [
+            0.5,
+            7.875,
+            0.75,
+            8.625
+          ],
+          "texture": "#rifle"
+        },
+        "up": {
+          "uv": [
+            0.25,
+            7.625,
+            0.5,
+            7.875
+          ],
+          "texture": "#rifle"
+        },
+        "down": {
+          "uv": [
+            0.5,
+            7.625,
+            0.75,
+            7.875
+          ],
+          "texture": "#rifle"
+        }
+      }
+    },
+    {
+      "name": "muzzle_right_wall",
+      "from": [
+        10.75,
+        12.03125,
+        -14
+      ],
+      "to": [
+        12,
+        18.03125,
+        -12.5
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            1.75,
+            7.875,
+            2,
+            8.625
+          ],
+          "texture": "#rifle"
+        },
+        "south": {
+          "uv": [
+            1.25,
+            7.875,
+            1.5,
+            8.625
+          ],
+          "texture": "#rifle"
+        },
+        "east": {
+          "uv": [
+            1,
+            7.875,
+            1.25,
+            8.625
+          ],
+          "texture": "#rifle"
+        },
+        "west": {
+          "uv": [
+            1.5,
+            7.875,
+            1.75,
+            8.625
+          ],
+          "texture": "#rifle"
+        },
+        "up": {
+          "uv": [
+            1.25,
+            7.625,
+            1.5,
+            7.875
+          ],
+          "texture": "#rifle"
+        },
+        "down": {
+          "uv": [
+            1.5,
+            7.625,
+            1.75,
+            7.875
+          ],
+          "texture": "#rifle"
+        }
+      }
+    },
+    {
+      "name": "muzzle_upper_lintel",
+      "from": [
+        5.3,
+        17.25,
+        -14
+      ],
+      "to": [
+        10.7,
+        18.2,
+        -13.3
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            3,
+            7.75,
+            3.75,
+            7.875
+          ],
+          "texture": "#rifle"
+        },
+        "south": {
+          "uv": [
+            2.125,
+            7.75,
+            2.875,
+            7.875
+          ],
+          "texture": "#rifle"
+        },
+        "east": {
+          "uv": [
+            2,
+            7.75,
+            2.125,
+            7.875
+          ],
+          "texture": "#rifle"
+        },
+        "west": {
+          "uv": [
+            2.875,
+            7.75,
+            3,
+            7.875
+          ],
+          "texture": "#rifle"
+        },
+        "up": {
+          "uv": [
+            2.125,
+            7.625,
+            2.875,
+            7.75
+          ],
+          "texture": "#rifle"
+        },
+        "down": {
+          "uv": [
+            2.875,
+            7.625,
+            3.625,
+            7.75
+          ],
+          "texture": "#rifle"
+        }
+      }
+    },
+    {
+      "name": "muzzle_lower_lintel",
+      "from": [
+        5.3,
+        11.8,
+        -14
+      ],
+      "to": [
+        10.7,
+        12.75,
+        -13.3
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            4.75,
+            7.75,
+            5.5,
+            7.875
+          ],
+          "texture": "#rifle"
+        },
+        "south": {
+          "uv": [
+            3.875,
+            7.75,
+            4.625,
+            7.875
+          ],
+          "texture": "#rifle"
+        },
+        "east": {
+          "uv": [
+            3.75,
+            7.75,
+            3.875,
+            7.875
+          ],
+          "texture": "#rifle"
+        },
+        "west": {
+          "uv": [
+            4.625,
+            7.75,
+            4.75,
+            7.875
+          ],
+          "texture": "#rifle"
+        },
+        "up": {
+          "uv": [
+            3.875,
+            7.625,
+            4.625,
+            7.75
+          ],
+          "texture": "#rifle"
+        },
+        "down": {
+          "uv": [
+            4.625,
+            7.625,
+            5.375,
+            7.75
+          ],
+          "texture": "#rifle"
+        }
+      }
+    },
+    {
+      "name": "furnace_ignition_core",
+      "from": [
+        6.5,
+        14,
+        -13.35
+      ],
+      "to": [
+        9.5,
+        16,
+        -13.15
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            6.125,
+            7.75,
+            6.5,
+            8
+          ],
+          "texture": "#rifle"
+        },
+        "south": {
+          "uv": [
+            5.625,
+            7.75,
+            6,
+            8
+          ],
+          "texture": "#rifle"
+        },
+        "east": {
+          "uv": [
+            5.5,
+            7.75,
+            5.625,
+            8
+          ],
+          "texture": "#rifle"
+        },
+        "west": {
+          "uv": [
+            6,
+            7.75,
+            6.125,
+            8
+          ],
+          "texture": "#rifle"
+        },
+        "up": {
+          "uv": [
+            5.625,
+            7.625,
+            6,
+            7.75
+          ],
+          "texture": "#rifle"
+        },
+        "down": {
+          "uv": [
+            6,
+            7.625,
+            6.375,
+            7.75
+          ],
+          "texture": "#rifle"
+        }
+      }
+    },
+    {
+      "name": "upper_left_jaw_tooth",
+      "from": [
+        4.1,
+        17.75,
+        -15
+      ],
+      "to": [
+        5.6,
+        19,
+        -13.5
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            7.25,
+            7.875,
+            7.5,
+            8.125
+          ],
+          "texture": "#rifle"
+        },
+        "south": {
+          "uv": [
+            6.75,
+            7.875,
+            7,
+            8.125
+          ],
+          "texture": "#rifle"
+        },
+        "east": {
+          "uv": [
+            6.5,
+            7.875,
+            6.75,
+            8.125
+          ],
+          "texture": "#rifle"
+        },
+        "west": {
+          "uv": [
+            7,
+            7.875,
+            7.25,
+            8.125
+          ],
+          "texture": "#rifle"
+        },
+        "up": {
+          "uv": [
+            6.75,
+            7.625,
+            7,
+            7.875
+          ],
+          "texture": "#rifle"
+        },
+        "down": {
+          "uv": [
+            7,
+            7.625,
+            7.25,
+            7.875
+          ],
+          "texture": "#rifle"
+        }
+      }
+    },
+    {
+      "name": "upper_right_jaw_tooth",
+      "from": [
+        10.4,
+        17.75,
+        -15
+      ],
+      "to": [
+        11.9,
+        19,
+        -13.5
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            8.25,
+            7.875,
+            8.5,
+            8.125
+          ],
+          "texture": "#rifle"
+        },
+        "south": {
+          "uv": [
+            7.75,
+            7.875,
+            8,
+            8.125
+          ],
+          "texture": "#rifle"
+        },
+        "east": {
+          "uv": [
+            7.5,
+            7.875,
+            7.75,
+            8.125
+          ],
+          "texture": "#rifle"
+        },
+        "west": {
+          "uv": [
+            8,
+            7.875,
+            8.25,
+            8.125
+          ],
+          "texture": "#rifle"
+        },
+        "up": {
+          "uv": [
+            7.75,
+            7.625,
+            8,
+            7.875
+          ],
+          "texture": "#rifle"
+        },
+        "down": {
+          "uv": [
+            8,
+            7.625,
+            8.25,
+            7.875
+          ],
+          "texture": "#rifle"
+        }
+      }
+    },
+    {
+      "name": "lower_left_jaw_fang",
+      "from": [
+        4.75,
+        10.75,
+        -14.75
+      ],
+      "to": [
+        6,
+        12,
+        -13.5
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            9.25,
+            7.875,
+            9.5,
+            8.125
+          ],
+          "texture": "#rifle"
+        },
+        "south": {
+          "uv": [
+            8.75,
+            7.875,
+            9,
+            8.125
+          ],
+          "texture": "#rifle"
+        },
+        "east": {
+          "uv": [
+            8.5,
+            7.875,
+            8.75,
+            8.125
+          ],
+          "texture": "#rifle"
+        },
+        "west": {
+          "uv": [
+            9,
+            7.875,
+            9.25,
+            8.125
+          ],
+          "texture": "#rifle"
+        },
+        "up": {
+          "uv": [
+            8.75,
+            7.625,
+            9,
+            7.875
+          ],
+          "texture": "#rifle"
+        },
+        "down": {
+          "uv": [
+            9,
+            7.625,
+            9.25,
+            7.875
+          ],
+          "texture": "#rifle"
+        }
+      }
+    },
+    {
+      "name": "lower_right_jaw_fang",
+      "from": [
+        10,
+        10.75,
+        -14.75
+      ],
+      "to": [
+        11.25,
+        12,
+        -13.5
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            10.25,
+            7.875,
+            10.5,
+            8.125
+          ],
+          "texture": "#rifle"
+        },
+        "south": {
+          "uv": [
+            9.75,
+            7.875,
+            10,
+            8.125
+          ],
+          "texture": "#rifle"
+        },
+        "east": {
+          "uv": [
+            9.5,
+            7.875,
+            9.75,
+            8.125
+          ],
+          "texture": "#rifle"
+        },
+        "west": {
+          "uv": [
+            10,
+            7.875,
+            10.25,
+            8.125
+          ],
+          "texture": "#rifle"
+        },
+        "up": {
+          "uv": [
+            9.75,
+            7.625,
+            10,
+            7.875
+          ],
+          "texture": "#rifle"
+        },
+        "down": {
+          "uv": [
+            10,
+            7.625,
+            10.25,
+            7.875
+          ],
+          "texture": "#rifle"
+        }
+      }
+    },
+    {
+      "name": "left_lower_channel_rail",
+      "from": [
+        4.4,
+        12.7,
+        0.75
+      ],
+      "to": [
+        5.25,
+        13.6,
+        10.25
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            2.625,
+            10,
+            2.75,
+            10.125
+          ],
+          "texture": "#rifle"
+        },
+        "south": {
+          "uv": [
+            1.25,
+            10,
+            1.375,
+            10.125
+          ],
+          "texture": "#rifle"
+        },
+        "east": {
+          "uv": [
+            0,
+            10,
+            1.25,
+            10.125
+          ],
+          "texture": "#rifle"
+        },
+        "west": {
+          "uv": [
+            1.375,
+            10,
+            2.625,
+            10.125
+          ],
+          "texture": "#rifle"
+        },
+        "up": {
+          "uv": [
+            1.25,
+            8.75,
+            1.375,
+            10
+          ],
+          "texture": "#rifle"
+        },
+        "down": {
+          "uv": [
+            1.375,
+            8.75,
+            1.5,
+            10
+          ],
+          "texture": "#rifle"
+        }
+      }
+    },
+    {
+      "name": "right_lower_channel_rail",
+      "from": [
+        10.75,
+        12.7,
+        0.75
+      ],
+      "to": [
+        11.6,
+        13.6,
+        10.25
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            5.375,
+            10,
+            5.5,
+            10.125
+          ],
+          "texture": "#rifle"
+        },
+        "south": {
+          "uv": [
+            4,
+            10,
+            4.125,
+            10.125
+          ],
+          "texture": "#rifle"
+        },
+        "east": {
+          "uv": [
+            2.75,
+            10,
+            4,
+            10.125
+          ],
+          "texture": "#rifle"
+        },
+        "west": {
+          "uv": [
+            4.125,
+            10,
+            5.375,
+            10.125
+          ],
+          "texture": "#rifle"
+        },
+        "up": {
+          "uv": [
+            4,
+            8.75,
+            4.125,
+            10
+          ],
+          "texture": "#rifle"
+        },
+        "down": {
+          "uv": [
+            4.125,
+            8.75,
+            4.25,
+            10
+          ],
+          "texture": "#rifle"
+        }
+      }
+    },
+    {
+      "name": "left_channel_rear_endcap",
+      "from": [
+        4.25,
+        13,
+        10.5
+      ],
+      "to": [
+        5.4,
+        17,
         12
       ],
+      "faces": {
+        "north": {
+          "uv": [
+            6.25,
+            9,
+            6.5,
+            9.5
+          ],
+          "texture": "#rifle"
+        },
+        "south": {
+          "uv": [
+            5.75,
+            9,
+            6,
+            9.5
+          ],
+          "texture": "#rifle"
+        },
+        "east": {
+          "uv": [
+            5.5,
+            9,
+            5.75,
+            9.5
+          ],
+          "texture": "#rifle"
+        },
+        "west": {
+          "uv": [
+            6,
+            9,
+            6.25,
+            9.5
+          ],
+          "texture": "#rifle"
+        },
+        "up": {
+          "uv": [
+            5.75,
+            8.75,
+            6,
+            9
+          ],
+          "texture": "#rifle"
+        },
+        "down": {
+          "uv": [
+            6,
+            8.75,
+            6.25,
+            9
+          ],
+          "texture": "#rifle"
+        }
+      }
+    },
+    {
+      "name": "right_channel_rear_endcap",
+      "from": [
+        10.6,
+        13,
+        10.5
+      ],
+      "to": [
+        11.75,
+        17,
+        12
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            7.25,
+            9,
+            7.5,
+            9.5
+          ],
+          "texture": "#rifle"
+        },
+        "south": {
+          "uv": [
+            6.75,
+            9,
+            7,
+            9.5
+          ],
+          "texture": "#rifle"
+        },
+        "east": {
+          "uv": [
+            6.5,
+            9,
+            6.75,
+            9.5
+          ],
+          "texture": "#rifle"
+        },
+        "west": {
+          "uv": [
+            7,
+            9,
+            7.25,
+            9.5
+          ],
+          "texture": "#rifle"
+        },
+        "up": {
+          "uv": [
+            6.75,
+            8.75,
+            7,
+            9
+          ],
+          "texture": "#rifle"
+        },
+        "down": {
+          "uv": [
+            7,
+            8.75,
+            7.25,
+            9
+          ],
+          "texture": "#rifle"
+        }
+      }
+    },
+    {
+      "name": "left_stock_armor_panel",
+      "from": [
+        4.65,
+        12.75,
+        17
+      ],
+      "to": [
+        5.2,
+        16.25,
+        23
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            9.125,
+            9.5,
+            9.25,
+            10
+          ],
+          "texture": "#rifle"
+        },
+        "south": {
+          "uv": [
+            8.25,
+            9.5,
+            8.375,
+            10
+          ],
+          "texture": "#rifle"
+        },
+        "east": {
+          "uv": [
+            7.5,
+            9.5,
+            8.25,
+            10
+          ],
+          "texture": "#rifle"
+        },
+        "west": {
+          "uv": [
+            8.375,
+            9.5,
+            9.125,
+            10
+          ],
+          "texture": "#rifle"
+        },
+        "up": {
+          "uv": [
+            8.25,
+            8.75,
+            8.375,
+            9.5
+          ],
+          "texture": "#rifle"
+        },
+        "down": {
+          "uv": [
+            8.375,
+            8.75,
+            8.5,
+            9.5
+          ],
+          "texture": "#rifle"
+        }
+      }
+    },
+    {
+      "name": "right_stock_armor_panel",
+      "from": [
+        10.8,
+        12.75,
+        17
+      ],
+      "to": [
+        11.35,
+        16.25,
+        23
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            10.875,
+            9.5,
+            11,
+            10
+          ],
+          "texture": "#rifle"
+        },
+        "south": {
+          "uv": [
+            10,
+            9.5,
+            10.125,
+            10
+          ],
+          "texture": "#rifle"
+        },
+        "east": {
+          "uv": [
+            9.25,
+            9.5,
+            10,
+            10
+          ],
+          "texture": "#rifle"
+        },
+        "west": {
+          "uv": [
+            10.125,
+            9.5,
+            10.875,
+            10
+          ],
+          "texture": "#rifle"
+        },
+        "up": {
+          "uv": [
+            10,
+            8.75,
+            10.125,
+            9.5
+          ],
+          "texture": "#rifle"
+        },
+        "down": {
+          "uv": [
+            10.125,
+            8.75,
+            10.25,
+            9.5
+          ],
+          "texture": "#rifle"
+        }
+      }
+    },
+    {
+      "name": "grip_heel_cap",
+      "from": [
+        6.25,
+        4.5,
+        7.75
+      ],
+      "to": [
+        9.75,
+        5.5,
+        12.25
+      ],
       "rotation": {
         "origin": [
           8,
-          11.4,
-          11.5
+          12,
+          10
         ],
         "axis": "x",
         "angle": -22.5,
@@ -4650,264 +3165,333 @@
       "faces": {
         "north": {
           "uv": [
-            0,
-            0,
-            1.5,
-            1.8499999999999996
+            1.75,
+            10.875,
+            2.25,
+            11
           ],
-          "texture": "#molten_channel"
+          "texture": "#rifle"
         },
         "south": {
           "uv": [
-            0,
-            0,
-            1.5,
-            1.8499999999999996
+            0.625,
+            10.875,
+            1.125,
+            11
           ],
-          "texture": "#molten_channel"
+          "texture": "#rifle"
         },
         "east": {
           "uv": [
             0,
-            0,
-            1,
-            1.8499999999999996
+            10.875,
+            0.625,
+            11
           ],
-          "texture": "#molten_channel"
+          "texture": "#rifle"
         },
         "west": {
           "uv": [
-            0,
-            0,
-            1,
-            1.8499999999999996
+            1.125,
+            10.875,
+            1.75,
+            11
           ],
-          "texture": "#molten_channel"
+          "texture": "#rifle"
         },
         "up": {
           "uv": [
-            0,
-            0,
-            1.5,
-            1
+            0.625,
+            10.25,
+            1.125,
+            10.875
           ],
-          "texture": "#molten_channel"
+          "texture": "#rifle"
         },
         "down": {
           "uv": [
-            0,
-            0,
-            1.5,
-            1
+            1.125,
+            10.25,
+            1.625,
+            10.875
           ],
-          "texture": "#molten_channel"
+          "texture": "#rifle"
         }
       }
     },
     {
-      "name": "receiver_port_amber_sigil",
+      "name": "scope_top_adjuster",
       "from": [
-        4.15,
-        14.2,
-        17.5
+        7,
+        24,
+        3
       ],
       "to": [
-        4.55,
-        15.6,
-        18.2
+        9,
+        25,
+        5
       ],
       "faces": {
         "north": {
           "uv": [
-            0,
-            0,
-            0.39999999999999947,
-            1.4000000000000004
+            3,
+            10.5,
+            3.25,
+            10.625
           ],
-          "texture": "#amber_plasma"
+          "texture": "#rifle"
         },
         "south": {
           "uv": [
-            0,
-            0,
-            0.39999999999999947,
-            1.4000000000000004
+            2.5,
+            10.5,
+            2.75,
+            10.625
           ],
-          "texture": "#amber_plasma"
+          "texture": "#rifle"
         },
         "east": {
           "uv": [
-            0,
-            0,
-            0.6999999999999993,
-            1.4000000000000004
+            2.25,
+            10.5,
+            2.5,
+            10.625
           ],
-          "texture": "#amber_plasma"
+          "texture": "#rifle"
         },
         "west": {
           "uv": [
-            0,
-            0,
-            0.6999999999999993,
-            1.4000000000000004
+            2.75,
+            10.5,
+            3,
+            10.625
           ],
-          "texture": "#amber_plasma"
+          "texture": "#rifle"
         },
         "up": {
           "uv": [
-            0,
-            0,
-            0.39999999999999947,
-            0.6999999999999993
+            2.5,
+            10.25,
+            2.75,
+            10.5
           ],
-          "texture": "#amber_plasma"
+          "texture": "#rifle"
         },
         "down": {
           "uv": [
-            0,
-            0,
-            0.39999999999999947,
-            0.6999999999999993
+            2.75,
+            10.25,
+            3,
+            10.5
           ],
-          "texture": "#amber_plasma"
+          "texture": "#rifle"
         }
       }
     },
     {
-      "name": "receiver_starboard_amber_sigil",
+      "name": "scope_right_adjuster",
       "from": [
-        11.45,
-        14.2,
-        17.5
+        9.5,
+        21.5,
+        3
       ],
       "to": [
-        11.85,
-        15.6,
-        18.2
+        10.5,
+        23.5,
+        5
       ],
       "faces": {
         "north": {
           "uv": [
-            0,
-            0,
-            0.40000000000000036,
-            1.4000000000000004
+            3.875,
+            10.5,
+            4,
+            10.75
           ],
-          "texture": "#amber_plasma"
+          "texture": "#rifle"
         },
         "south": {
           "uv": [
-            0,
-            0,
-            0.40000000000000036,
-            1.4000000000000004
+            3.5,
+            10.5,
+            3.625,
+            10.75
           ],
-          "texture": "#amber_plasma"
+          "texture": "#rifle"
         },
         "east": {
           "uv": [
-            0,
-            0,
-            0.6999999999999993,
-            1.4000000000000004
+            3.25,
+            10.5,
+            3.5,
+            10.75
           ],
-          "texture": "#amber_plasma"
+          "texture": "#rifle"
         },
         "west": {
           "uv": [
-            0,
-            0,
-            0.6999999999999993,
-            1.4000000000000004
+            3.625,
+            10.5,
+            3.875,
+            10.75
           ],
-          "texture": "#amber_plasma"
+          "texture": "#rifle"
         },
         "up": {
           "uv": [
-            0,
-            0,
-            0.40000000000000036,
-            0.6999999999999993
+            3.5,
+            10.25,
+            3.625,
+            10.5
           ],
-          "texture": "#amber_plasma"
+          "texture": "#rifle"
         },
         "down": {
           "uv": [
-            0,
-            0,
-            0.40000000000000036,
-            0.6999999999999993
+            3.625,
+            10.25,
+            3.75,
+            10.5
           ],
-          "texture": "#amber_plasma"
+          "texture": "#rifle"
         }
       }
     },
     {
-      "name": "scope_midsection_reinforcement_band",
+      "name": "left_jaw_structural_cheek",
       "from": [
-        5,
-        19.8,
-        8.25
+        4.2,
+        11.25,
+        -11.75
       ],
       "to": [
-        11,
-        24.65,
-        8.85
+        5.4,
+        18.75,
+        -10.25
       ],
       "faces": {
         "north": {
           "uv": [
-            0,
-            0,
-            3,
-            2.424999999999999
+            4.75,
+            10.5,
+            5,
+            11.5
           ],
-          "texture": "#slate_alloy"
+          "texture": "#rifle"
         },
         "south": {
           "uv": [
-            0,
-            0,
-            3,
-            2.424999999999999
+            4.25,
+            10.5,
+            4.5,
+            11.5
           ],
-          "texture": "#slate_alloy"
+          "texture": "#rifle"
         },
         "east": {
           "uv": [
-            0,
-            0,
-            0.2999999999999998,
-            2.424999999999999
+            4,
+            10.5,
+            4.25,
+            11.5
           ],
-          "texture": "#slate_alloy"
+          "texture": "#rifle"
         },
         "west": {
           "uv": [
-            0,
-            0,
-            0.2999999999999998,
-            2.424999999999999
+            4.5,
+            10.5,
+            4.75,
+            11.5
           ],
-          "texture": "#slate_alloy"
+          "texture": "#rifle"
         },
         "up": {
           "uv": [
-            0,
-            0,
-            3,
-            0.2999999999999998
+            4.25,
+            10.25,
+            4.5,
+            10.5
           ],
-          "texture": "#slate_alloy"
+          "texture": "#rifle"
         },
         "down": {
           "uv": [
-            0,
-            0,
-            3,
-            0.2999999999999998
+            4.5,
+            10.25,
+            4.75,
+            10.5
           ],
-          "texture": "#slate_alloy"
+          "texture": "#rifle"
+        }
+      }
+    },
+    {
+      "name": "right_jaw_structural_cheek",
+      "from": [
+        10.6,
+        11.25,
+        -11.75
+      ],
+      "to": [
+        11.8,
+        18.75,
+        -10.25
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            5.75,
+            10.5,
+            6,
+            11.5
+          ],
+          "texture": "#rifle"
+        },
+        "south": {
+          "uv": [
+            5.25,
+            10.5,
+            5.5,
+            11.5
+          ],
+          "texture": "#rifle"
+        },
+        "east": {
+          "uv": [
+            5,
+            10.5,
+            5.25,
+            11.5
+          ],
+          "texture": "#rifle"
+        },
+        "west": {
+          "uv": [
+            5.5,
+            10.5,
+            5.75,
+            11.5
+          ],
+          "texture": "#rifle"
+        },
+        "up": {
+          "uv": [
+            5.25,
+            10.25,
+            5.5,
+            10.5
+          ],
+          "texture": "#rifle"
+        },
+        "down": {
+          "uv": [
+            5.5,
+            10.25,
+            5.75,
+            10.5
+          ],
+          "texture": "#rifle"
         }
       }
     }
