@@ -1,0 +1,1804 @@
+{
+  "credit": "VoxelForge",
+  "textures": {
+    "particle": "voxelforge:item/furniture_hanging_bat_mobile_7c62c5e7/main",
+    "main": "voxelforge:item/furniture_hanging_bat_mobile_7c62c5e7/main"
+  },
+  "elements": [
+    {
+      "name": "dark_oak_crossbar",
+      "from": [
+        2,
+        13,
+        7
+      ],
+      "to": [
+        30,
+        14,
+        9
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            8,
+            0.5,
+            15,
+            0.75
+          ],
+          "texture": "#main"
+        },
+        "south": {
+          "uv": [
+            0.5,
+            0.5,
+            7.5,
+            0.75
+          ],
+          "texture": "#main"
+        },
+        "east": {
+          "uv": [
+            0,
+            0.5,
+            0.5,
+            0.75
+          ],
+          "texture": "#main"
+        },
+        "west": {
+          "uv": [
+            7.5,
+            0.5,
+            8,
+            0.75
+          ],
+          "texture": "#main"
+        },
+        "up": {
+          "uv": [
+            0.5,
+            0,
+            7.5,
+            0.5
+          ],
+          "texture": "#main"
+        },
+        "down": {
+          "uv": [
+            7.5,
+            0,
+            14.5,
+            0.5
+          ],
+          "texture": "#main"
+        }
+      }
+    },
+    {
+      "name": "left_ceiling_tie",
+      "from": [
+        7.75,
+        14,
+        7.75
+      ],
+      "to": [
+        8.25,
+        15.75,
+        8.25
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            0.75,
+            1.5,
+            1,
+            2
+          ],
+          "texture": "#main"
+        },
+        "south": {
+          "uv": [
+            0.25,
+            1.5,
+            0.5,
+            2
+          ],
+          "texture": "#main"
+        },
+        "east": {
+          "uv": [
+            0,
+            1.5,
+            0.25,
+            2
+          ],
+          "texture": "#main"
+        },
+        "west": {
+          "uv": [
+            0.5,
+            1.5,
+            0.75,
+            2
+          ],
+          "texture": "#main"
+        },
+        "up": {
+          "uv": [
+            0.25,
+            1.25,
+            0.5,
+            1.5
+          ],
+          "texture": "#main"
+        },
+        "down": {
+          "uv": [
+            0.5,
+            1.25,
+            0.75,
+            1.5
+          ],
+          "texture": "#main"
+        }
+      }
+    },
+    {
+      "name": "right_ceiling_tie",
+      "from": [
+        23.75,
+        14,
+        7.75
+      ],
+      "to": [
+        24.25,
+        15.75,
+        8.25
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            2.25,
+            1.5,
+            2.5,
+            2
+          ],
+          "texture": "#main"
+        },
+        "south": {
+          "uv": [
+            1.75,
+            1.5,
+            2,
+            2
+          ],
+          "texture": "#main"
+        },
+        "east": {
+          "uv": [
+            1.5,
+            1.5,
+            1.75,
+            2
+          ],
+          "texture": "#main"
+        },
+        "west": {
+          "uv": [
+            2,
+            1.5,
+            2.25,
+            2
+          ],
+          "texture": "#main"
+        },
+        "up": {
+          "uv": [
+            1.75,
+            1.25,
+            2,
+            1.5
+          ],
+          "texture": "#main"
+        },
+        "down": {
+          "uv": [
+            2,
+            1.25,
+            2.25,
+            1.5
+          ],
+          "texture": "#main"
+        }
+      }
+    },
+    {
+      "name": "left_bat_cord",
+      "from": [
+        4.8125,
+        10,
+        7.8125
+      ],
+      "to": [
+        5.1875,
+        13,
+        8.1875
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            0.75,
+            3.25,
+            1,
+            4
+          ],
+          "texture": "#main"
+        },
+        "south": {
+          "uv": [
+            0.25,
+            3.25,
+            0.5,
+            4
+          ],
+          "texture": "#main"
+        },
+        "east": {
+          "uv": [
+            0,
+            3.25,
+            0.25,
+            4
+          ],
+          "texture": "#main"
+        },
+        "west": {
+          "uv": [
+            0.5,
+            3.25,
+            0.75,
+            4
+          ],
+          "texture": "#main"
+        },
+        "up": {
+          "uv": [
+            0.25,
+            3,
+            0.5,
+            3.25
+          ],
+          "texture": "#main"
+        },
+        "down": {
+          "uv": [
+            0.5,
+            3,
+            0.75,
+            3.25
+          ],
+          "texture": "#main"
+        }
+      }
+    },
+    {
+      "name": "left_bat_body",
+      "from": [
+        4,
+        7,
+        7
+      ],
+      "to": [
+        6,
+        10,
+        9
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            3,
+            3.5,
+            3.5,
+            4.25
+          ],
+          "texture": "#main"
+        },
+        "south": {
+          "uv": [
+            2,
+            3.5,
+            2.5,
+            4.25
+          ],
+          "texture": "#main"
+        },
+        "east": {
+          "uv": [
+            1.5,
+            3.5,
+            2,
+            4.25
+          ],
+          "texture": "#main"
+        },
+        "west": {
+          "uv": [
+            2.5,
+            3.5,
+            3,
+            4.25
+          ],
+          "texture": "#main"
+        },
+        "up": {
+          "uv": [
+            2,
+            3,
+            2.5,
+            3.5
+          ],
+          "texture": "#main"
+        },
+        "down": {
+          "uv": [
+            2.5,
+            3,
+            3,
+            3.5
+          ],
+          "texture": "#main"
+        }
+      }
+    },
+    {
+      "name": "left_bat_head",
+      "from": [
+        3.5,
+        5,
+        7
+      ],
+      "to": [
+        6.5,
+        7,
+        9
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            5.75,
+            3.5,
+            6.5,
+            4
+          ],
+          "texture": "#main"
+        },
+        "south": {
+          "uv": [
+            4.5,
+            3.5,
+            5.25,
+            4
+          ],
+          "texture": "#main"
+        },
+        "east": {
+          "uv": [
+            4,
+            3.5,
+            4.5,
+            4
+          ],
+          "texture": "#main"
+        },
+        "west": {
+          "uv": [
+            5.25,
+            3.5,
+            5.75,
+            4
+          ],
+          "texture": "#main"
+        },
+        "up": {
+          "uv": [
+            4.5,
+            3,
+            5.25,
+            3.5
+          ],
+          "texture": "#main"
+        },
+        "down": {
+          "uv": [
+            5.25,
+            3,
+            6,
+            3.5
+          ],
+          "texture": "#main"
+        }
+      }
+    },
+    {
+      "name": "left_bat_left_folded_wing",
+      "from": [
+        2.75,
+        7.25,
+        6.625
+      ],
+      "to": [
+        4.25,
+        10.25,
+        9.375
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            9,
+            3.75,
+            9.5,
+            4.5
+          ],
+          "texture": "#main"
+        },
+        "south": {
+          "uv": [
+            7.75,
+            3.75,
+            8.25,
+            4.5
+          ],
+          "texture": "#main"
+        },
+        "east": {
+          "uv": [
+            7,
+            3.75,
+            7.75,
+            4.5
+          ],
+          "texture": "#main"
+        },
+        "west": {
+          "uv": [
+            8.25,
+            3.75,
+            9,
+            4.5
+          ],
+          "texture": "#main"
+        },
+        "up": {
+          "uv": [
+            7.75,
+            3,
+            8.25,
+            3.75
+          ],
+          "texture": "#main"
+        },
+        "down": {
+          "uv": [
+            8.25,
+            3,
+            8.75,
+            3.75
+          ],
+          "texture": "#main"
+        }
+      }
+    },
+    {
+      "name": "left_bat_right_folded_wing",
+      "from": [
+        5.75,
+        7.25,
+        6.625
+      ],
+      "to": [
+        7.25,
+        10.25,
+        9.375
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            12,
+            3.75,
+            12.5,
+            4.5
+          ],
+          "texture": "#main"
+        },
+        "south": {
+          "uv": [
+            10.75,
+            3.75,
+            11.25,
+            4.5
+          ],
+          "texture": "#main"
+        },
+        "east": {
+          "uv": [
+            10,
+            3.75,
+            10.75,
+            4.5
+          ],
+          "texture": "#main"
+        },
+        "west": {
+          "uv": [
+            11.25,
+            3.75,
+            12,
+            4.5
+          ],
+          "texture": "#main"
+        },
+        "up": {
+          "uv": [
+            10.75,
+            3,
+            11.25,
+            3.75
+          ],
+          "texture": "#main"
+        },
+        "down": {
+          "uv": [
+            11.25,
+            3,
+            11.75,
+            3.75
+          ],
+          "texture": "#main"
+        }
+      }
+    },
+    {
+      "name": "left_bat_left_ear",
+      "from": [
+        3.625,
+        4,
+        7.375
+      ],
+      "to": [
+        4.375,
+        5,
+        8.375
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            13.75,
+            3.25,
+            14,
+            3.5
+          ],
+          "texture": "#main"
+        },
+        "south": {
+          "uv": [
+            13.25,
+            3.25,
+            13.5,
+            3.5
+          ],
+          "texture": "#main"
+        },
+        "east": {
+          "uv": [
+            13,
+            3.25,
+            13.25,
+            3.5
+          ],
+          "texture": "#main"
+        },
+        "west": {
+          "uv": [
+            13.5,
+            3.25,
+            13.75,
+            3.5
+          ],
+          "texture": "#main"
+        },
+        "up": {
+          "uv": [
+            13.25,
+            3,
+            13.5,
+            3.25
+          ],
+          "texture": "#main"
+        },
+        "down": {
+          "uv": [
+            13.5,
+            3,
+            13.75,
+            3.25
+          ],
+          "texture": "#main"
+        }
+      }
+    },
+    {
+      "name": "left_bat_right_ear",
+      "from": [
+        5.625,
+        4,
+        7.375
+      ],
+      "to": [
+        6.375,
+        5,
+        8.375
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            15.25,
+            3.25,
+            15.5,
+            3.5
+          ],
+          "texture": "#main"
+        },
+        "south": {
+          "uv": [
+            14.75,
+            3.25,
+            15,
+            3.5
+          ],
+          "texture": "#main"
+        },
+        "east": {
+          "uv": [
+            14.5,
+            3.25,
+            14.75,
+            3.5
+          ],
+          "texture": "#main"
+        },
+        "west": {
+          "uv": [
+            15,
+            3.25,
+            15.25,
+            3.5
+          ],
+          "texture": "#main"
+        },
+        "up": {
+          "uv": [
+            14.75,
+            3,
+            15,
+            3.25
+          ],
+          "texture": "#main"
+        },
+        "down": {
+          "uv": [
+            15,
+            3,
+            15.25,
+            3.25
+          ],
+          "texture": "#main"
+        }
+      }
+    },
+    {
+      "name": "middle_bat_cord",
+      "from": [
+        15.8125,
+        8,
+        7.8125
+      ],
+      "to": [
+        16.1875,
+        13,
+        8.1875
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            0.75,
+            6.25,
+            1,
+            7.5
+          ],
+          "texture": "#main"
+        },
+        "south": {
+          "uv": [
+            0.25,
+            6.25,
+            0.5,
+            7.5
+          ],
+          "texture": "#main"
+        },
+        "east": {
+          "uv": [
+            0,
+            6.25,
+            0.25,
+            7.5
+          ],
+          "texture": "#main"
+        },
+        "west": {
+          "uv": [
+            0.5,
+            6.25,
+            0.75,
+            7.5
+          ],
+          "texture": "#main"
+        },
+        "up": {
+          "uv": [
+            0.25,
+            6,
+            0.5,
+            6.25
+          ],
+          "texture": "#main"
+        },
+        "down": {
+          "uv": [
+            0.5,
+            6,
+            0.75,
+            6.25
+          ],
+          "texture": "#main"
+        }
+      }
+    },
+    {
+      "name": "middle_bat_body",
+      "from": [
+        15,
+        5,
+        7
+      ],
+      "to": [
+        17,
+        8,
+        9
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            3,
+            6.5,
+            3.5,
+            7.25
+          ],
+          "texture": "#main"
+        },
+        "south": {
+          "uv": [
+            2,
+            6.5,
+            2.5,
+            7.25
+          ],
+          "texture": "#main"
+        },
+        "east": {
+          "uv": [
+            1.5,
+            6.5,
+            2,
+            7.25
+          ],
+          "texture": "#main"
+        },
+        "west": {
+          "uv": [
+            2.5,
+            6.5,
+            3,
+            7.25
+          ],
+          "texture": "#main"
+        },
+        "up": {
+          "uv": [
+            2,
+            6,
+            2.5,
+            6.5
+          ],
+          "texture": "#main"
+        },
+        "down": {
+          "uv": [
+            2.5,
+            6,
+            3,
+            6.5
+          ],
+          "texture": "#main"
+        }
+      }
+    },
+    {
+      "name": "middle_bat_head",
+      "from": [
+        14.5,
+        3,
+        7
+      ],
+      "to": [
+        17.5,
+        5,
+        9
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            5.75,
+            6.5,
+            6.5,
+            7
+          ],
+          "texture": "#main"
+        },
+        "south": {
+          "uv": [
+            4.5,
+            6.5,
+            5.25,
+            7
+          ],
+          "texture": "#main"
+        },
+        "east": {
+          "uv": [
+            4,
+            6.5,
+            4.5,
+            7
+          ],
+          "texture": "#main"
+        },
+        "west": {
+          "uv": [
+            5.25,
+            6.5,
+            5.75,
+            7
+          ],
+          "texture": "#main"
+        },
+        "up": {
+          "uv": [
+            4.5,
+            6,
+            5.25,
+            6.5
+          ],
+          "texture": "#main"
+        },
+        "down": {
+          "uv": [
+            5.25,
+            6,
+            6,
+            6.5
+          ],
+          "texture": "#main"
+        }
+      }
+    },
+    {
+      "name": "middle_bat_left_folded_wing",
+      "from": [
+        13.75,
+        5.25,
+        6.625
+      ],
+      "to": [
+        15.25,
+        8.25,
+        9.375
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            9,
+            6.75,
+            9.5,
+            7.5
+          ],
+          "texture": "#main"
+        },
+        "south": {
+          "uv": [
+            7.75,
+            6.75,
+            8.25,
+            7.5
+          ],
+          "texture": "#main"
+        },
+        "east": {
+          "uv": [
+            7,
+            6.75,
+            7.75,
+            7.5
+          ],
+          "texture": "#main"
+        },
+        "west": {
+          "uv": [
+            8.25,
+            6.75,
+            9,
+            7.5
+          ],
+          "texture": "#main"
+        },
+        "up": {
+          "uv": [
+            7.75,
+            6,
+            8.25,
+            6.75
+          ],
+          "texture": "#main"
+        },
+        "down": {
+          "uv": [
+            8.25,
+            6,
+            8.75,
+            6.75
+          ],
+          "texture": "#main"
+        }
+      }
+    },
+    {
+      "name": "middle_bat_right_folded_wing",
+      "from": [
+        16.75,
+        5.25,
+        6.625
+      ],
+      "to": [
+        18.25,
+        8.25,
+        9.375
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            12,
+            6.75,
+            12.5,
+            7.5
+          ],
+          "texture": "#main"
+        },
+        "south": {
+          "uv": [
+            10.75,
+            6.75,
+            11.25,
+            7.5
+          ],
+          "texture": "#main"
+        },
+        "east": {
+          "uv": [
+            10,
+            6.75,
+            10.75,
+            7.5
+          ],
+          "texture": "#main"
+        },
+        "west": {
+          "uv": [
+            11.25,
+            6.75,
+            12,
+            7.5
+          ],
+          "texture": "#main"
+        },
+        "up": {
+          "uv": [
+            10.75,
+            6,
+            11.25,
+            6.75
+          ],
+          "texture": "#main"
+        },
+        "down": {
+          "uv": [
+            11.25,
+            6,
+            11.75,
+            6.75
+          ],
+          "texture": "#main"
+        }
+      }
+    },
+    {
+      "name": "middle_bat_left_ear",
+      "from": [
+        14.625,
+        2,
+        7.375
+      ],
+      "to": [
+        15.375,
+        3,
+        8.375
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            13.75,
+            6.25,
+            14,
+            6.5
+          ],
+          "texture": "#main"
+        },
+        "south": {
+          "uv": [
+            13.25,
+            6.25,
+            13.5,
+            6.5
+          ],
+          "texture": "#main"
+        },
+        "east": {
+          "uv": [
+            13,
+            6.25,
+            13.25,
+            6.5
+          ],
+          "texture": "#main"
+        },
+        "west": {
+          "uv": [
+            13.5,
+            6.25,
+            13.75,
+            6.5
+          ],
+          "texture": "#main"
+        },
+        "up": {
+          "uv": [
+            13.25,
+            6,
+            13.5,
+            6.25
+          ],
+          "texture": "#main"
+        },
+        "down": {
+          "uv": [
+            13.5,
+            6,
+            13.75,
+            6.25
+          ],
+          "texture": "#main"
+        }
+      }
+    },
+    {
+      "name": "middle_bat_right_ear",
+      "from": [
+        16.625,
+        2,
+        7.375
+      ],
+      "to": [
+        17.375,
+        3,
+        8.375
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            15.25,
+            6.25,
+            15.5,
+            6.5
+          ],
+          "texture": "#main"
+        },
+        "south": {
+          "uv": [
+            14.75,
+            6.25,
+            15,
+            6.5
+          ],
+          "texture": "#main"
+        },
+        "east": {
+          "uv": [
+            14.5,
+            6.25,
+            14.75,
+            6.5
+          ],
+          "texture": "#main"
+        },
+        "west": {
+          "uv": [
+            15,
+            6.25,
+            15.25,
+            6.5
+          ],
+          "texture": "#main"
+        },
+        "up": {
+          "uv": [
+            14.75,
+            6,
+            15,
+            6.25
+          ],
+          "texture": "#main"
+        },
+        "down": {
+          "uv": [
+            15,
+            6,
+            15.25,
+            6.25
+          ],
+          "texture": "#main"
+        }
+      }
+    },
+    {
+      "name": "right_bat_cord",
+      "from": [
+        26.8125,
+        9.5,
+        7.8125
+      ],
+      "to": [
+        27.1875,
+        13,
+        8.1875
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            0.75,
+            9.25,
+            1,
+            10.25
+          ],
+          "texture": "#main"
+        },
+        "south": {
+          "uv": [
+            0.25,
+            9.25,
+            0.5,
+            10.25
+          ],
+          "texture": "#main"
+        },
+        "east": {
+          "uv": [
+            0,
+            9.25,
+            0.25,
+            10.25
+          ],
+          "texture": "#main"
+        },
+        "west": {
+          "uv": [
+            0.5,
+            9.25,
+            0.75,
+            10.25
+          ],
+          "texture": "#main"
+        },
+        "up": {
+          "uv": [
+            0.25,
+            9,
+            0.5,
+            9.25
+          ],
+          "texture": "#main"
+        },
+        "down": {
+          "uv": [
+            0.5,
+            9,
+            0.75,
+            9.25
+          ],
+          "texture": "#main"
+        }
+      }
+    },
+    {
+      "name": "right_bat_body",
+      "from": [
+        26,
+        6.5,
+        7
+      ],
+      "to": [
+        28,
+        9.5,
+        9
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            3,
+            9.5,
+            3.5,
+            10.25
+          ],
+          "texture": "#main"
+        },
+        "south": {
+          "uv": [
+            2,
+            9.5,
+            2.5,
+            10.25
+          ],
+          "texture": "#main"
+        },
+        "east": {
+          "uv": [
+            1.5,
+            9.5,
+            2,
+            10.25
+          ],
+          "texture": "#main"
+        },
+        "west": {
+          "uv": [
+            2.5,
+            9.5,
+            3,
+            10.25
+          ],
+          "texture": "#main"
+        },
+        "up": {
+          "uv": [
+            2,
+            9,
+            2.5,
+            9.5
+          ],
+          "texture": "#main"
+        },
+        "down": {
+          "uv": [
+            2.5,
+            9,
+            3,
+            9.5
+          ],
+          "texture": "#main"
+        }
+      }
+    },
+    {
+      "name": "right_bat_head",
+      "from": [
+        25.5,
+        4.5,
+        7
+      ],
+      "to": [
+        28.5,
+        6.5,
+        9
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            5.75,
+            9.5,
+            6.5,
+            10
+          ],
+          "texture": "#main"
+        },
+        "south": {
+          "uv": [
+            4.5,
+            9.5,
+            5.25,
+            10
+          ],
+          "texture": "#main"
+        },
+        "east": {
+          "uv": [
+            4,
+            9.5,
+            4.5,
+            10
+          ],
+          "texture": "#main"
+        },
+        "west": {
+          "uv": [
+            5.25,
+            9.5,
+            5.75,
+            10
+          ],
+          "texture": "#main"
+        },
+        "up": {
+          "uv": [
+            4.5,
+            9,
+            5.25,
+            9.5
+          ],
+          "texture": "#main"
+        },
+        "down": {
+          "uv": [
+            5.25,
+            9,
+            6,
+            9.5
+          ],
+          "texture": "#main"
+        }
+      }
+    },
+    {
+      "name": "right_bat_left_folded_wing",
+      "from": [
+        24.75,
+        6.75,
+        6.625
+      ],
+      "to": [
+        26.25,
+        9.75,
+        9.375
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            9,
+            9.75,
+            9.5,
+            10.5
+          ],
+          "texture": "#main"
+        },
+        "south": {
+          "uv": [
+            7.75,
+            9.75,
+            8.25,
+            10.5
+          ],
+          "texture": "#main"
+        },
+        "east": {
+          "uv": [
+            7,
+            9.75,
+            7.75,
+            10.5
+          ],
+          "texture": "#main"
+        },
+        "west": {
+          "uv": [
+            8.25,
+            9.75,
+            9,
+            10.5
+          ],
+          "texture": "#main"
+        },
+        "up": {
+          "uv": [
+            7.75,
+            9,
+            8.25,
+            9.75
+          ],
+          "texture": "#main"
+        },
+        "down": {
+          "uv": [
+            8.25,
+            9,
+            8.75,
+            9.75
+          ],
+          "texture": "#main"
+        }
+      }
+    },
+    {
+      "name": "right_bat_right_folded_wing",
+      "from": [
+        27.75,
+        6.75,
+        6.625
+      ],
+      "to": [
+        29.25,
+        9.75,
+        9.375
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            12,
+            9.75,
+            12.5,
+            10.5
+          ],
+          "texture": "#main"
+        },
+        "south": {
+          "uv": [
+            10.75,
+            9.75,
+            11.25,
+            10.5
+          ],
+          "texture": "#main"
+        },
+        "east": {
+          "uv": [
+            10,
+            9.75,
+            10.75,
+            10.5
+          ],
+          "texture": "#main"
+        },
+        "west": {
+          "uv": [
+            11.25,
+            9.75,
+            12,
+            10.5
+          ],
+          "texture": "#main"
+        },
+        "up": {
+          "uv": [
+            10.75,
+            9,
+            11.25,
+            9.75
+          ],
+          "texture": "#main"
+        },
+        "down": {
+          "uv": [
+            11.25,
+            9,
+            11.75,
+            9.75
+          ],
+          "texture": "#main"
+        }
+      }
+    },
+    {
+      "name": "right_bat_left_ear",
+      "from": [
+        25.625,
+        3.5,
+        7.375
+      ],
+      "to": [
+        26.375,
+        4.5,
+        8.375
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            13.75,
+            9.25,
+            14,
+            9.5
+          ],
+          "texture": "#main"
+        },
+        "south": {
+          "uv": [
+            13.25,
+            9.25,
+            13.5,
+            9.5
+          ],
+          "texture": "#main"
+        },
+        "east": {
+          "uv": [
+            13,
+            9.25,
+            13.25,
+            9.5
+          ],
+          "texture": "#main"
+        },
+        "west": {
+          "uv": [
+            13.5,
+            9.25,
+            13.75,
+            9.5
+          ],
+          "texture": "#main"
+        },
+        "up": {
+          "uv": [
+            13.25,
+            9,
+            13.5,
+            9.25
+          ],
+          "texture": "#main"
+        },
+        "down": {
+          "uv": [
+            13.5,
+            9,
+            13.75,
+            9.25
+          ],
+          "texture": "#main"
+        }
+      }
+    },
+    {
+      "name": "right_bat_right_ear",
+      "from": [
+        27.625,
+        3.5,
+        7.375
+      ],
+      "to": [
+        28.375,
+        4.5,
+        8.375
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            15.25,
+            9.25,
+            15.5,
+            9.5
+          ],
+          "texture": "#main"
+        },
+        "south": {
+          "uv": [
+            14.75,
+            9.25,
+            15,
+            9.5
+          ],
+          "texture": "#main"
+        },
+        "east": {
+          "uv": [
+            14.5,
+            9.25,
+            14.75,
+            9.5
+          ],
+          "texture": "#main"
+        },
+        "west": {
+          "uv": [
+            15,
+            9.25,
+            15.25,
+            9.5
+          ],
+          "texture": "#main"
+        },
+        "up": {
+          "uv": [
+            14.75,
+            9,
+            15,
+            9.25
+          ],
+          "texture": "#main"
+        },
+        "down": {
+          "uv": [
+            15,
+            9,
+            15.25,
+            9.25
+          ],
+          "texture": "#main"
+        }
+      }
+    }
+  ],
+  "display": {
+    "gui": {
+      "rotation": [
+        30,
+        225,
+        0
+      ],
+      "translation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        0.625,
+        0.625,
+        0.625
+      ]
+    },
+    "ground": {
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "translation": [
+        0,
+        3,
+        0
+      ],
+      "scale": [
+        0.25,
+        0.25,
+        0.25
+      ]
+    },
+    "fixed": {
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "translation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        0.5,
+        0.5,
+        0.5
+      ]
+    },
+    "head": {
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "translation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    "thirdperson_righthand": {
+      "rotation": [
+        75,
+        45,
+        0
+      ],
+      "translation": [
+        0,
+        2.5,
+        0
+      ],
+      "scale": [
+        0.375,
+        0.375,
+        0.375
+      ]
+    },
+    "thirdperson_lefthand": {
+      "rotation": [
+        75,
+        45,
+        0
+      ],
+      "translation": [
+        0,
+        2.5,
+        0
+      ],
+      "scale": [
+        0.375,
+        0.375,
+        0.375
+      ]
+    },
+    "firstperson_righthand": {
+      "rotation": [
+        0,
+        45,
+        0
+      ],
+      "translation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        0.4,
+        0.4,
+        0.4
+      ]
+    },
+    "firstperson_lefthand": {
+      "rotation": [
+        0,
+        45,
+        0
+      ],
+      "translation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        0.4,
+        0.4,
+        0.4
+      ]
+    }
+  },
+  "gui_light": "side"
+}
