@@ -1,0 +1,1528 @@
+{
+  "credit": "VoxelForge",
+  "textures": {
+    "particle": "voxelforge:item/halloween_ghost_camera_f49ab07b/main",
+    "main": "voxelforge:item/halloween_ghost_camera_f49ab07b/main"
+  },
+  "elements": [
+    {
+      "name": "dark_oak_camera_body",
+      "from": [
+        2,
+        4,
+        6
+      ],
+      "to": [
+        14,
+        13,
+        11
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            5.5,
+            1.25,
+            8.5,
+            3.5
+          ],
+          "texture": "#main"
+        },
+        "south": {
+          "uv": [
+            1.25,
+            1.25,
+            4.25,
+            3.5
+          ],
+          "texture": "#main"
+        },
+        "east": {
+          "uv": [
+            0,
+            1.25,
+            1.25,
+            3.5
+          ],
+          "texture": "#main"
+        },
+        "west": {
+          "uv": [
+            4.25,
+            1.25,
+            5.5,
+            3.5
+          ],
+          "texture": "#main"
+        },
+        "up": {
+          "uv": [
+            1.25,
+            0,
+            4.25,
+            1.25
+          ],
+          "texture": "#main"
+        },
+        "down": {
+          "uv": [
+            4.25,
+            0,
+            7.25,
+            1.25
+          ],
+          "texture": "#main"
+        }
+      }
+    },
+    {
+      "name": "left_wood_cheek",
+      "from": [
+        1,
+        4.5,
+        5.5
+      ],
+      "to": [
+        3,
+        12.5,
+        11.5
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            12.5,
+            1.5,
+            13,
+            3.5
+          ],
+          "texture": "#main"
+        },
+        "south": {
+          "uv": [
+            10.5,
+            1.5,
+            11,
+            3.5
+          ],
+          "texture": "#main"
+        },
+        "east": {
+          "uv": [
+            9,
+            1.5,
+            10.5,
+            3.5
+          ],
+          "texture": "#main"
+        },
+        "west": {
+          "uv": [
+            11,
+            1.5,
+            12.5,
+            3.5
+          ],
+          "texture": "#main"
+        },
+        "up": {
+          "uv": [
+            10.5,
+            0,
+            11,
+            1.5
+          ],
+          "texture": "#main"
+        },
+        "down": {
+          "uv": [
+            11,
+            0,
+            11.5,
+            1.5
+          ],
+          "texture": "#main"
+        }
+      }
+    },
+    {
+      "name": "right_wood_grip",
+      "from": [
+        13,
+        4.5,
+        5.5
+      ],
+      "to": [
+        15,
+        12.5,
+        11.5
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            12.5,
+            5.25,
+            13,
+            7.25
+          ],
+          "texture": "#main"
+        },
+        "south": {
+          "uv": [
+            10.5,
+            5.25,
+            11,
+            7.25
+          ],
+          "texture": "#main"
+        },
+        "east": {
+          "uv": [
+            9,
+            5.25,
+            10.5,
+            7.25
+          ],
+          "texture": "#main"
+        },
+        "west": {
+          "uv": [
+            11,
+            5.25,
+            12.5,
+            7.25
+          ],
+          "texture": "#main"
+        },
+        "up": {
+          "uv": [
+            10.5,
+            3.75,
+            11,
+            5.25
+          ],
+          "texture": "#main"
+        },
+        "down": {
+          "uv": [
+            11,
+            3.75,
+            11.5,
+            5.25
+          ],
+          "texture": "#main"
+        }
+      }
+    },
+    {
+      "name": "brass_top_binding",
+      "from": [
+        2,
+        13,
+        6
+      ],
+      "to": [
+        14,
+        13.25,
+        11
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            5.5,
+            5,
+            8.5,
+            5.25
+          ],
+          "texture": "#main"
+        },
+        "south": {
+          "uv": [
+            1.25,
+            5,
+            4.25,
+            5.25
+          ],
+          "texture": "#main"
+        },
+        "east": {
+          "uv": [
+            0,
+            5,
+            1.25,
+            5.25
+          ],
+          "texture": "#main"
+        },
+        "west": {
+          "uv": [
+            4.25,
+            5,
+            5.5,
+            5.25
+          ],
+          "texture": "#main"
+        },
+        "up": {
+          "uv": [
+            1.25,
+            3.75,
+            4.25,
+            5
+          ],
+          "texture": "#main"
+        },
+        "down": {
+          "uv": [
+            4.25,
+            3.75,
+            7.25,
+            5
+          ],
+          "texture": "#main"
+        }
+      }
+    },
+    {
+      "name": "brass_bottom_binding",
+      "from": [
+        2,
+        3.75,
+        6
+      ],
+      "to": [
+        14,
+        4,
+        11
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            5.5,
+            6.5,
+            8.5,
+            6.75
+          ],
+          "texture": "#main"
+        },
+        "south": {
+          "uv": [
+            1.25,
+            6.5,
+            4.25,
+            6.75
+          ],
+          "texture": "#main"
+        },
+        "east": {
+          "uv": [
+            0,
+            6.5,
+            1.25,
+            6.75
+          ],
+          "texture": "#main"
+        },
+        "west": {
+          "uv": [
+            4.25,
+            6.5,
+            5.5,
+            6.75
+          ],
+          "texture": "#main"
+        },
+        "up": {
+          "uv": [
+            1.25,
+            5.25,
+            4.25,
+            6.5
+          ],
+          "texture": "#main"
+        },
+        "down": {
+          "uv": [
+            4.25,
+            5.25,
+            7.25,
+            6.5
+          ],
+          "texture": "#main"
+        }
+      }
+    },
+    {
+      "name": "handle_left_anchor",
+      "from": [
+        4,
+        13.25,
+        7.5
+      ],
+      "to": [
+        5,
+        15.25,
+        9.5
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            1.25,
+            7.5,
+            1.5,
+            8
+          ],
+          "texture": "#main"
+        },
+        "south": {
+          "uv": [
+            0.5,
+            7.5,
+            0.75,
+            8
+          ],
+          "texture": "#main"
+        },
+        "east": {
+          "uv": [
+            0,
+            7.5,
+            0.5,
+            8
+          ],
+          "texture": "#main"
+        },
+        "west": {
+          "uv": [
+            0.75,
+            7.5,
+            1.25,
+            8
+          ],
+          "texture": "#main"
+        },
+        "up": {
+          "uv": [
+            0.5,
+            7,
+            0.75,
+            7.5
+          ],
+          "texture": "#main"
+        },
+        "down": {
+          "uv": [
+            0.75,
+            7,
+            1,
+            7.5
+          ],
+          "texture": "#main"
+        }
+      }
+    },
+    {
+      "name": "handle_right_anchor",
+      "from": [
+        11,
+        13.25,
+        7.5
+      ],
+      "to": [
+        12,
+        15.25,
+        9.5
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            1.25,
+            7.5,
+            1.5,
+            8
+          ],
+          "texture": "#main"
+        },
+        "south": {
+          "uv": [
+            0.5,
+            7.5,
+            0.75,
+            8
+          ],
+          "texture": "#main"
+        },
+        "east": {
+          "uv": [
+            0,
+            7.5,
+            0.5,
+            8
+          ],
+          "texture": "#main"
+        },
+        "west": {
+          "uv": [
+            0.75,
+            7.5,
+            1.25,
+            8
+          ],
+          "texture": "#main"
+        },
+        "up": {
+          "uv": [
+            0.5,
+            7,
+            0.75,
+            7.5
+          ],
+          "texture": "#main"
+        },
+        "down": {
+          "uv": [
+            0.75,
+            7,
+            1,
+            7.5
+          ],
+          "texture": "#main"
+        }
+      }
+    },
+    {
+      "name": "wood_carry_handle",
+      "from": [
+        4,
+        15.25,
+        7.5
+      ],
+      "to": [
+        12,
+        16.25,
+        9.5
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            5,
+            7.5,
+            7,
+            7.75
+          ],
+          "texture": "#main"
+        },
+        "south": {
+          "uv": [
+            2.5,
+            7.5,
+            4.5,
+            7.75
+          ],
+          "texture": "#main"
+        },
+        "east": {
+          "uv": [
+            2,
+            7.5,
+            2.5,
+            7.75
+          ],
+          "texture": "#main"
+        },
+        "west": {
+          "uv": [
+            4.5,
+            7.5,
+            5,
+            7.75
+          ],
+          "texture": "#main"
+        },
+        "up": {
+          "uv": [
+            2.5,
+            7,
+            4.5,
+            7.5
+          ],
+          "texture": "#main"
+        },
+        "down": {
+          "uv": [
+            4.5,
+            7,
+            6.5,
+            7.5
+          ],
+          "texture": "#main"
+        }
+      }
+    },
+    {
+      "name": "shutter_brass_socket",
+      "from": [
+        11,
+        13.25,
+        6
+      ],
+      "to": [
+        14,
+        13.75,
+        7.25
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            1.75,
+            8.75,
+            2.5,
+            9
+          ],
+          "texture": "#main"
+        },
+        "south": {
+          "uv": [
+            0.5,
+            8.75,
+            1.25,
+            9
+          ],
+          "texture": "#main"
+        },
+        "east": {
+          "uv": [
+            0,
+            8.75,
+            0.5,
+            9
+          ],
+          "texture": "#main"
+        },
+        "west": {
+          "uv": [
+            1.25,
+            8.75,
+            1.75,
+            9
+          ],
+          "texture": "#main"
+        },
+        "up": {
+          "uv": [
+            0.5,
+            8.25,
+            1.25,
+            8.75
+          ],
+          "texture": "#main"
+        },
+        "down": {
+          "uv": [
+            1.25,
+            8.25,
+            2,
+            8.75
+          ],
+          "texture": "#main"
+        }
+      }
+    },
+    {
+      "name": "orange_shutter_button",
+      "from": [
+        11.5,
+        13.75,
+        6.125
+      ],
+      "to": [
+        13.5,
+        14.5,
+        7.125
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            4.5,
+            8.5,
+            5,
+            8.75
+          ],
+          "texture": "#main"
+        },
+        "south": {
+          "uv": [
+            3.75,
+            8.5,
+            4.25,
+            8.75
+          ],
+          "texture": "#main"
+        },
+        "east": {
+          "uv": [
+            3.5,
+            8.5,
+            3.75,
+            8.75
+          ],
+          "texture": "#main"
+        },
+        "west": {
+          "uv": [
+            4.25,
+            8.5,
+            4.5,
+            8.75
+          ],
+          "texture": "#main"
+        },
+        "up": {
+          "uv": [
+            3.75,
+            8.25,
+            4.25,
+            8.5
+          ],
+          "texture": "#main"
+        },
+        "down": {
+          "uv": [
+            4.25,
+            8.25,
+            4.75,
+            8.5
+          ],
+          "texture": "#main"
+        }
+      }
+    },
+    {
+      "name": "iron_winding_knob",
+      "from": [
+        2.5,
+        13.25,
+        8
+      ],
+      "to": [
+        3.75,
+        14,
+        10
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            8.5,
+            8.75,
+            9,
+            9
+          ],
+          "texture": "#main"
+        },
+        "south": {
+          "uv": [
+            7.5,
+            8.75,
+            8,
+            9
+          ],
+          "texture": "#main"
+        },
+        "east": {
+          "uv": [
+            7,
+            8.75,
+            7.5,
+            9
+          ],
+          "texture": "#main"
+        },
+        "west": {
+          "uv": [
+            8,
+            8.75,
+            8.5,
+            9
+          ],
+          "texture": "#main"
+        },
+        "up": {
+          "uv": [
+            7.5,
+            8.25,
+            8,
+            8.75
+          ],
+          "texture": "#main"
+        },
+        "down": {
+          "uv": [
+            8,
+            8.25,
+            8.5,
+            8.75
+          ],
+          "texture": "#main"
+        }
+      }
+    },
+    {
+      "name": "spectral_window_brass_mount",
+      "from": [
+        5,
+        7,
+        11
+      ],
+      "to": [
+        11,
+        11,
+        11.375
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            2,
+            10,
+            3.5,
+            11
+          ],
+          "texture": "#main"
+        },
+        "south": {
+          "uv": [
+            0.25,
+            10,
+            1.75,
+            11
+          ],
+          "texture": "#main"
+        },
+        "east": {
+          "uv": [
+            0,
+            10,
+            0.25,
+            11
+          ],
+          "texture": "#main"
+        },
+        "west": {
+          "uv": [
+            1.75,
+            10,
+            2,
+            11
+          ],
+          "texture": "#main"
+        },
+        "up": {
+          "uv": [
+            0.25,
+            9.75,
+            1.75,
+            10
+          ],
+          "texture": "#main"
+        },
+        "down": {
+          "uv": [
+            1.75,
+            9.75,
+            3.25,
+            10
+          ],
+          "texture": "#main"
+        }
+      }
+    },
+    {
+      "name": "violet_spectral_window",
+      "from": [
+        6,
+        8,
+        11.375
+      ],
+      "to": [
+        10,
+        10,
+        11.625
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            5.5,
+            10,
+            6.5,
+            10.5
+          ],
+          "texture": "#main"
+        },
+        "south": {
+          "uv": [
+            4.25,
+            10,
+            5.25,
+            10.5
+          ],
+          "texture": "#main"
+        },
+        "east": {
+          "uv": [
+            4,
+            10,
+            4.25,
+            10.5
+          ],
+          "texture": "#main"
+        },
+        "west": {
+          "uv": [
+            5.25,
+            10,
+            5.5,
+            10.5
+          ],
+          "texture": "#main"
+        },
+        "up": {
+          "uv": [
+            4.25,
+            9.75,
+            5.25,
+            10
+          ],
+          "texture": "#main"
+        },
+        "down": {
+          "uv": [
+            5.25,
+            9.75,
+            6.25,
+            10
+          ],
+          "texture": "#main"
+        }
+      }
+    },
+    {
+      "name": "dark_lens_mount",
+      "from": [
+        4,
+        5,
+        4.5
+      ],
+      "to": [
+        12,
+        12,
+        6
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            3,
+            11.75,
+            5,
+            13.5
+          ],
+          "texture": "#main"
+        },
+        "south": {
+          "uv": [
+            0.5,
+            11.75,
+            2.5,
+            13.5
+          ],
+          "texture": "#main"
+        },
+        "east": {
+          "uv": [
+            0,
+            11.75,
+            0.5,
+            13.5
+          ],
+          "texture": "#main"
+        },
+        "west": {
+          "uv": [
+            2.5,
+            11.75,
+            3,
+            13.5
+          ],
+          "texture": "#main"
+        },
+        "up": {
+          "uv": [
+            0.5,
+            11.25,
+            2.5,
+            11.75
+          ],
+          "texture": "#main"
+        },
+        "down": {
+          "uv": [
+            2.5,
+            11.25,
+            4.5,
+            11.75
+          ],
+          "texture": "#main"
+        }
+      }
+    },
+    {
+      "name": "brass_focus_barrel",
+      "from": [
+        5,
+        5.5,
+        3
+      ],
+      "to": [
+        11,
+        11.5,
+        4.5
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            8,
+            11.75,
+            9.5,
+            13.25
+          ],
+          "texture": "#main"
+        },
+        "south": {
+          "uv": [
+            6,
+            11.75,
+            7.5,
+            13.25
+          ],
+          "texture": "#main"
+        },
+        "east": {
+          "uv": [
+            5.5,
+            11.75,
+            6,
+            13.25
+          ],
+          "texture": "#main"
+        },
+        "west": {
+          "uv": [
+            7.5,
+            11.75,
+            8,
+            13.25
+          ],
+          "texture": "#main"
+        },
+        "up": {
+          "uv": [
+            6,
+            11.25,
+            7.5,
+            11.75
+          ],
+          "texture": "#main"
+        },
+        "down": {
+          "uv": [
+            7.5,
+            11.25,
+            9,
+            11.75
+          ],
+          "texture": "#main"
+        }
+      }
+    },
+    {
+      "name": "lens_rim_left",
+      "from": [
+        5,
+        5.5,
+        2
+      ],
+      "to": [
+        6,
+        11.5,
+        3
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            10.75,
+            11.5,
+            11,
+            13
+          ],
+          "texture": "#main"
+        },
+        "south": {
+          "uv": [
+            10.25,
+            11.5,
+            10.5,
+            13
+          ],
+          "texture": "#main"
+        },
+        "east": {
+          "uv": [
+            10,
+            11.5,
+            10.25,
+            13
+          ],
+          "texture": "#main"
+        },
+        "west": {
+          "uv": [
+            10.5,
+            11.5,
+            10.75,
+            13
+          ],
+          "texture": "#main"
+        },
+        "up": {
+          "uv": [
+            10.25,
+            11.25,
+            10.5,
+            11.5
+          ],
+          "texture": "#main"
+        },
+        "down": {
+          "uv": [
+            10.5,
+            11.25,
+            10.75,
+            11.5
+          ],
+          "texture": "#main"
+        }
+      }
+    },
+    {
+      "name": "lens_rim_right",
+      "from": [
+        10,
+        5.5,
+        2
+      ],
+      "to": [
+        11,
+        11.5,
+        3
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            12.25,
+            11.5,
+            12.5,
+            13
+          ],
+          "texture": "#main"
+        },
+        "south": {
+          "uv": [
+            11.75,
+            11.5,
+            12,
+            13
+          ],
+          "texture": "#main"
+        },
+        "east": {
+          "uv": [
+            11.5,
+            11.5,
+            11.75,
+            13
+          ],
+          "texture": "#main"
+        },
+        "west": {
+          "uv": [
+            12,
+            11.5,
+            12.25,
+            13
+          ],
+          "texture": "#main"
+        },
+        "up": {
+          "uv": [
+            11.75,
+            11.25,
+            12,
+            11.5
+          ],
+          "texture": "#main"
+        },
+        "down": {
+          "uv": [
+            12,
+            11.25,
+            12.25,
+            11.5
+          ],
+          "texture": "#main"
+        }
+      }
+    },
+    {
+      "name": "lens_rim_top",
+      "from": [
+        6,
+        10.5,
+        2
+      ],
+      "to": [
+        10,
+        11.5,
+        3
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            11.5,
+            13.75,
+            12.5,
+            14
+          ],
+          "texture": "#main"
+        },
+        "south": {
+          "uv": [
+            10.25,
+            13.75,
+            11.25,
+            14
+          ],
+          "texture": "#main"
+        },
+        "east": {
+          "uv": [
+            10,
+            13.75,
+            10.25,
+            14
+          ],
+          "texture": "#main"
+        },
+        "west": {
+          "uv": [
+            11.25,
+            13.75,
+            11.5,
+            14
+          ],
+          "texture": "#main"
+        },
+        "up": {
+          "uv": [
+            10.25,
+            13.5,
+            11.25,
+            13.75
+          ],
+          "texture": "#main"
+        },
+        "down": {
+          "uv": [
+            11.25,
+            13.5,
+            12.25,
+            13.75
+          ],
+          "texture": "#main"
+        }
+      }
+    },
+    {
+      "name": "lens_rim_bottom",
+      "from": [
+        6,
+        5.5,
+        2
+      ],
+      "to": [
+        10,
+        6.5,
+        3
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            11.5,
+            14.75,
+            12.5,
+            15
+          ],
+          "texture": "#main"
+        },
+        "south": {
+          "uv": [
+            10.25,
+            14.75,
+            11.25,
+            15
+          ],
+          "texture": "#main"
+        },
+        "east": {
+          "uv": [
+            10,
+            14.75,
+            10.25,
+            15
+          ],
+          "texture": "#main"
+        },
+        "west": {
+          "uv": [
+            11.25,
+            14.75,
+            11.5,
+            15
+          ],
+          "texture": "#main"
+        },
+        "up": {
+          "uv": [
+            10.25,
+            14.5,
+            11.25,
+            14.75
+          ],
+          "texture": "#main"
+        },
+        "down": {
+          "uv": [
+            11.25,
+            14.5,
+            12.25,
+            14.75
+          ],
+          "texture": "#main"
+        }
+      }
+    },
+    {
+      "name": "recessed_violet_lens",
+      "from": [
+        6,
+        6.5,
+        2.125
+      ],
+      "to": [
+        10,
+        10.5,
+        3
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            7,
+            14,
+            8,
+            15
+          ],
+          "texture": "#main"
+        },
+        "south": {
+          "uv": [
+            5.75,
+            14,
+            6.75,
+            15
+          ],
+          "texture": "#main"
+        },
+        "east": {
+          "uv": [
+            5.5,
+            14,
+            5.75,
+            15
+          ],
+          "texture": "#main"
+        },
+        "west": {
+          "uv": [
+            6.75,
+            14,
+            7,
+            15
+          ],
+          "texture": "#main"
+        },
+        "up": {
+          "uv": [
+            5.75,
+            13.75,
+            6.75,
+            14
+          ],
+          "texture": "#main"
+        },
+        "down": {
+          "uv": [
+            6.75,
+            13.75,
+            7.75,
+            14
+          ],
+          "texture": "#main"
+        }
+      }
+    }
+  ],
+  "display": {
+    "gui": {
+      "rotation": [
+        30,
+        225,
+        0
+      ],
+      "translation": [
+        0.29466,
+        -1.075209,
+        0.046827
+      ],
+      "scale": [
+        0.833425,
+        0.833425,
+        0.833425
+      ]
+    },
+    "ground": {
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "translation": [
+        0,
+        2.59375,
+        0.445313
+      ],
+      "scale": [
+        0.375,
+        0.375,
+        0.375
+      ]
+    },
+    "fixed": {
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "translation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        0.5,
+        0.5,
+        0.5
+      ]
+    },
+    "head": {
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "translation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    "thirdperson_righthand": {
+      "rotation": [
+        75,
+        45,
+        0
+      ],
+      "translation": [
+        -0.179802,
+        3.107863,
+        -0.866115
+      ],
+      "scale": [
+        0.508556,
+        0.508556,
+        0.508556
+      ]
+    },
+    "thirdperson_lefthand": {
+      "rotation": [
+        75,
+        45,
+        0
+      ],
+      "translation": [
+        -0.179802,
+        3.107863,
+        -0.866115
+      ],
+      "scale": [
+        0.508556,
+        0.508556,
+        0.508556
+      ]
+    },
+    "firstperson_righthand": {
+      "rotation": [
+        0,
+        45,
+        0
+      ],
+      "translation": [
+        -0.25,
+        0.585786,
+        -0.25
+      ],
+      "scale": [
+        0.707107,
+        0.707107,
+        0.707107
+      ]
+    },
+    "firstperson_lefthand": {
+      "rotation": [
+        0,
+        45,
+        0
+      ],
+      "translation": [
+        -0.25,
+        0.585786,
+        -0.25
+      ],
+      "scale": [
+        0.707107,
+        0.707107,
+        0.707107
+      ]
+    }
+  },
+  "gui_light": "side"
+}

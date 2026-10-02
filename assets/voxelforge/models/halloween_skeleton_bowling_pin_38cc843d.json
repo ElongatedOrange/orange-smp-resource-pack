@@ -1,0 +1,976 @@
+{
+  "credit": "VoxelForge",
+  "textures": {
+    "particle": "voxelforge:item/halloween_skeleton_bowling_pin_38cc843d/main",
+    "main": "voxelforge:item/halloween_skeleton_bowling_pin_38cc843d/main"
+  },
+  "elements": [
+    {
+      "name": "Flat weighted heel",
+      "from": [
+        6,
+        0,
+        6
+      ],
+      "to": [
+        10,
+        1,
+        10
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            3,
+            5.75,
+            4,
+            6
+          ],
+          "texture": "#main"
+        },
+        "south": {
+          "uv": [
+            1,
+            5.75,
+            2,
+            6
+          ],
+          "texture": "#main"
+        },
+        "east": {
+          "uv": [
+            0,
+            5.75,
+            1,
+            6
+          ],
+          "texture": "#main"
+        },
+        "west": {
+          "uv": [
+            2,
+            5.75,
+            3,
+            6
+          ],
+          "texture": "#main"
+        },
+        "up": {
+          "uv": [
+            1,
+            4.75,
+            2,
+            5.75
+          ],
+          "texture": "#main"
+        },
+        "down": {
+          "uv": [
+            2,
+            4.75,
+            3,
+            5.75
+          ],
+          "texture": "#main"
+        }
+      }
+    },
+    {
+      "name": "Lower base flare",
+      "from": [
+        5,
+        1,
+        5
+      ],
+      "to": [
+        11,
+        2,
+        11
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            12.5,
+            1.5,
+            14,
+            1.75
+          ],
+          "texture": "#main"
+        },
+        "south": {
+          "uv": [
+            9.5,
+            1.5,
+            11,
+            1.75
+          ],
+          "texture": "#main"
+        },
+        "east": {
+          "uv": [
+            8,
+            1.5,
+            9.5,
+            1.75
+          ],
+          "texture": "#main"
+        },
+        "west": {
+          "uv": [
+            11,
+            1.5,
+            12.5,
+            1.75
+          ],
+          "texture": "#main"
+        },
+        "up": {
+          "uv": [
+            9.5,
+            0,
+            11,
+            1.5
+          ],
+          "texture": "#main"
+        },
+        "down": {
+          "uv": [
+            11,
+            0,
+            12.5,
+            1.5
+          ],
+          "texture": "#main"
+        }
+      }
+    },
+    {
+      "name": "Broad weighted belly",
+      "from": [
+        4,
+        2,
+        4
+      ],
+      "to": [
+        12,
+        5,
+        12
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            6,
+            2,
+            8,
+            2.75
+          ],
+          "texture": "#main"
+        },
+        "south": {
+          "uv": [
+            2,
+            2,
+            4,
+            2.75
+          ],
+          "texture": "#main"
+        },
+        "east": {
+          "uv": [
+            0,
+            2,
+            2,
+            2.75
+          ],
+          "texture": "#main"
+        },
+        "west": {
+          "uv": [
+            4,
+            2,
+            6,
+            2.75
+          ],
+          "texture": "#main"
+        },
+        "up": {
+          "uv": [
+            2,
+            0,
+            4,
+            2
+          ],
+          "texture": "#main"
+        },
+        "down": {
+          "uv": [
+            4,
+            0,
+            6,
+            2
+          ],
+          "texture": "#main"
+        }
+      }
+    },
+    {
+      "name": "Rounded upper belly",
+      "from": [
+        4.5,
+        5,
+        4.5
+      ],
+      "to": [
+        11.5,
+        6,
+        11.5
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            5.25,
+            4.5,
+            7,
+            4.75
+          ],
+          "texture": "#main"
+        },
+        "south": {
+          "uv": [
+            1.75,
+            4.5,
+            3.5,
+            4.75
+          ],
+          "texture": "#main"
+        },
+        "east": {
+          "uv": [
+            0,
+            4.5,
+            1.75,
+            4.75
+          ],
+          "texture": "#main"
+        },
+        "west": {
+          "uv": [
+            3.5,
+            4.5,
+            5.25,
+            4.75
+          ],
+          "texture": "#main"
+        },
+        "up": {
+          "uv": [
+            1.75,
+            2.75,
+            3.5,
+            4.5
+          ],
+          "texture": "#main"
+        },
+        "down": {
+          "uv": [
+            3.5,
+            2.75,
+            5.25,
+            4.5
+          ],
+          "texture": "#main"
+        }
+      }
+    },
+    {
+      "name": "Sloping base shoulder",
+      "from": [
+        5,
+        6,
+        5
+      ],
+      "to": [
+        11,
+        7,
+        11
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            11.5,
+            4.25,
+            13,
+            4.5
+          ],
+          "texture": "#main"
+        },
+        "south": {
+          "uv": [
+            8.5,
+            4.25,
+            10,
+            4.5
+          ],
+          "texture": "#main"
+        },
+        "east": {
+          "uv": [
+            7,
+            4.25,
+            8.5,
+            4.5
+          ],
+          "texture": "#main"
+        },
+        "west": {
+          "uv": [
+            10,
+            4.25,
+            11.5,
+            4.5
+          ],
+          "texture": "#main"
+        },
+        "up": {
+          "uv": [
+            8.5,
+            2.75,
+            10,
+            4.25
+          ],
+          "texture": "#main"
+        },
+        "down": {
+          "uv": [
+            10,
+            2.75,
+            11.5,
+            4.25
+          ],
+          "texture": "#main"
+        }
+      }
+    },
+    {
+      "name": "Upper shoulder",
+      "from": [
+        6,
+        7,
+        6
+      ],
+      "to": [
+        10,
+        8,
+        10
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            7,
+            5.75,
+            8,
+            6
+          ],
+          "texture": "#main"
+        },
+        "south": {
+          "uv": [
+            5,
+            5.75,
+            6,
+            6
+          ],
+          "texture": "#main"
+        },
+        "east": {
+          "uv": [
+            4,
+            5.75,
+            5,
+            6
+          ],
+          "texture": "#main"
+        },
+        "west": {
+          "uv": [
+            6,
+            5.75,
+            7,
+            6
+          ],
+          "texture": "#main"
+        },
+        "up": {
+          "uv": [
+            5,
+            4.75,
+            6,
+            5.75
+          ],
+          "texture": "#main"
+        },
+        "down": {
+          "uv": [
+            6,
+            4.75,
+            7,
+            5.75
+          ],
+          "texture": "#main"
+        }
+      }
+    },
+    {
+      "name": "Neck transition",
+      "from": [
+        6.5,
+        8,
+        6.5
+      ],
+      "to": [
+        9.5,
+        9,
+        9.5
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            10.25,
+            5.5,
+            11,
+            5.75
+          ],
+          "texture": "#main"
+        },
+        "south": {
+          "uv": [
+            8.75,
+            5.5,
+            9.5,
+            5.75
+          ],
+          "texture": "#main"
+        },
+        "east": {
+          "uv": [
+            8,
+            5.5,
+            8.75,
+            5.75
+          ],
+          "texture": "#main"
+        },
+        "west": {
+          "uv": [
+            9.5,
+            5.5,
+            10.25,
+            5.75
+          ],
+          "texture": "#main"
+        },
+        "up": {
+          "uv": [
+            8.75,
+            4.75,
+            9.5,
+            5.5
+          ],
+          "texture": "#main"
+        },
+        "down": {
+          "uv": [
+            9.5,
+            4.75,
+            10.25,
+            5.5
+          ],
+          "texture": "#main"
+        }
+      }
+    },
+    {
+      "name": "Narrow ivory neck",
+      "from": [
+        7,
+        9,
+        7
+      ],
+      "to": [
+        9,
+        11,
+        9
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            12.5,
+            5.25,
+            13,
+            5.75
+          ],
+          "texture": "#main"
+        },
+        "south": {
+          "uv": [
+            11.5,
+            5.25,
+            12,
+            5.75
+          ],
+          "texture": "#main"
+        },
+        "east": {
+          "uv": [
+            11,
+            5.25,
+            11.5,
+            5.75
+          ],
+          "texture": "#main"
+        },
+        "west": {
+          "uv": [
+            12,
+            5.25,
+            12.5,
+            5.75
+          ],
+          "texture": "#main"
+        },
+        "up": {
+          "uv": [
+            11.5,
+            4.75,
+            12,
+            5.25
+          ],
+          "texture": "#main"
+        },
+        "down": {
+          "uv": [
+            12,
+            4.75,
+            12.5,
+            5.25
+          ],
+          "texture": "#main"
+        }
+      }
+    },
+    {
+      "name": "Small toothy jaw",
+      "from": [
+        6,
+        11,
+        6
+      ],
+      "to": [
+        10,
+        12,
+        10
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            3,
+            7,
+            4,
+            7.25
+          ],
+          "texture": "#main"
+        },
+        "south": {
+          "uv": [
+            1,
+            7,
+            2,
+            7.25
+          ],
+          "texture": "#main"
+        },
+        "east": {
+          "uv": [
+            0,
+            7,
+            1,
+            7.25
+          ],
+          "texture": "#main"
+        },
+        "west": {
+          "uv": [
+            2,
+            7,
+            3,
+            7.25
+          ],
+          "texture": "#main"
+        },
+        "up": {
+          "uv": [
+            1,
+            6,
+            2,
+            7
+          ],
+          "texture": "#main"
+        },
+        "down": {
+          "uv": [
+            2,
+            6,
+            3,
+            7
+          ],
+          "texture": "#main"
+        }
+      }
+    },
+    {
+      "name": "Skull with painted sockets",
+      "from": [
+        5,
+        12,
+        5.5
+      ],
+      "to": [
+        11,
+        15,
+        10.5
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            8,
+            7.25,
+            9.5,
+            8
+          ],
+          "texture": "#main"
+        },
+        "south": {
+          "uv": [
+            5.25,
+            7.25,
+            6.75,
+            8
+          ],
+          "texture": "#main"
+        },
+        "east": {
+          "uv": [
+            4,
+            7.25,
+            5.25,
+            8
+          ],
+          "texture": "#main"
+        },
+        "west": {
+          "uv": [
+            6.75,
+            7.25,
+            8,
+            8
+          ],
+          "texture": "#main"
+        },
+        "up": {
+          "uv": [
+            5.25,
+            6,
+            6.75,
+            7.25
+          ],
+          "texture": "#main"
+        },
+        "down": {
+          "uv": [
+            6.75,
+            6,
+            8.25,
+            7.25
+          ],
+          "texture": "#main"
+        }
+      }
+    },
+    {
+      "name": "Rounded skull crown",
+      "from": [
+        5.5,
+        15,
+        6
+      ],
+      "to": [
+        10.5,
+        15.5,
+        10
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            12.75,
+            7,
+            14,
+            7.25
+          ],
+          "texture": "#main"
+        },
+        "south": {
+          "uv": [
+            10.5,
+            7,
+            11.75,
+            7.25
+          ],
+          "texture": "#main"
+        },
+        "east": {
+          "uv": [
+            9.5,
+            7,
+            10.5,
+            7.25
+          ],
+          "texture": "#main"
+        },
+        "west": {
+          "uv": [
+            11.75,
+            7,
+            12.75,
+            7.25
+          ],
+          "texture": "#main"
+        },
+        "up": {
+          "uv": [
+            10.5,
+            6,
+            11.75,
+            7
+          ],
+          "texture": "#main"
+        },
+        "down": {
+          "uv": [
+            11.75,
+            6,
+            13,
+            7
+          ],
+          "texture": "#main"
+        }
+      }
+    },
+    {
+      "name": "Skull crown cap",
+      "from": [
+        6,
+        15.5,
+        6.5
+      ],
+      "to": [
+        10,
+        16,
+        9.5
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            2.5,
+            9,
+            3.5,
+            9.25
+          ],
+          "texture": "#main"
+        },
+        "south": {
+          "uv": [
+            0.75,
+            9,
+            1.75,
+            9.25
+          ],
+          "texture": "#main"
+        },
+        "east": {
+          "uv": [
+            0,
+            9,
+            0.75,
+            9.25
+          ],
+          "texture": "#main"
+        },
+        "west": {
+          "uv": [
+            1.75,
+            9,
+            2.5,
+            9.25
+          ],
+          "texture": "#main"
+        },
+        "up": {
+          "uv": [
+            0.75,
+            8.25,
+            1.75,
+            9
+          ],
+          "texture": "#main"
+        },
+        "down": {
+          "uv": [
+            1.75,
+            8.25,
+            2.75,
+            9
+          ],
+          "texture": "#main"
+        }
+      }
+    }
+  ],
+  "display": {
+    "gui": {
+      "rotation": [
+        30,
+        225,
+        0
+      ],
+      "translation": [
+        0,
+        0.069605,
+        0.405926
+      ],
+      "scale": [
+        0.787494,
+        0.787494,
+        0.787494
+      ]
+    },
+    "ground": {
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "translation": [
+        0,
+        4,
+        0
+      ],
+      "scale": [
+        0.375,
+        0.375,
+        0.375
+      ]
+    },
+    "fixed": {
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "translation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        0.5,
+        0.5,
+        0.5
+      ]
+    },
+    "head": {
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "translation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    "thirdperson_righthand": {
+      "rotation": [
+        75,
+        45,
+        0
+      ],
+      "translation": [
+        0,
+        3.34437,
+        0.021752
+      ],
+      "scale": [
+        0.475415,
+        0.475415,
+        0.475415
+      ]
+    },
+    "thirdperson_lefthand": {
+      "rotation": [
+        75,
+        45,
+        0
+      ],
+      "translation": [
+        0,
+        3.34437,
+        0.021752
+      ],
+      "scale": [
+        0.475415,
+        0.475415,
+        0.475415
+      ]
+    },
+    "firstperson_righthand": {
+      "rotation": [
+        0,
+        45,
+        0
+      ],
+      "translation": [
+        0,
+        2,
+        0
+      ],
+      "scale": [
+        0.625,
+        0.625,
+        0.625
+      ]
+    },
+    "firstperson_lefthand": {
+      "rotation": [
+        0,
+        45,
+        0
+      ],
+      "translation": [
+        0,
+        2,
+        0
+      ],
+      "scale": [
+        0.625,
+        0.625,
+        0.625
+      ]
+    }
+  },
+  "gui_light": "side"
+}

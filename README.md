@@ -4,6 +4,14 @@
 
 Minecraft Java 26.3 resource pack, maintained by Elongated_Orange.
 
+## Halloween festival (v0.23.0)
+
+Adds the eight-day Orange SMP Halloween festival artwork: physical carnival stations, four story ghosts, camera and portraits, a shared cauldron, seasonal Kitchen ingredients and treats, fishing collectibles and wearable rewards. Every new design is an actual Voxel Forge generation. Provenance and recorded derivatives are in `provenance/halloween`.
+
+The carving pumpkin keeps its generated geometry and texture coordinates while being partitioned into editable cells. Custom model flags render a saved sculpture in one display entity. Kitchen's existing HUD gains item projections and recipe silhouettes while retaining its previous font characters.
+
+Pair with the Events, Halloween, Kitchen and Furniture bundle. Halloween furniture uses Candy only during the active event; earned rewards remain usable afterward. Operator setup and the eight-day calendar are documented in `orange-smp-halloween/README.md` in the master project.
+
 ## Paintball HUD redesign (v0.18.1)
 
 Paintball now uses the existing **Barlow Condensed** Medium/Bold typeface under the SIL Open Font License 1.1. The original TTFs and license are included in `assets/orangesmp/font/source`, with source links and rasterization provenance in `provenance/paintball-font`. The user explicitly requested an existing font rather than Voxel Forge font generation.

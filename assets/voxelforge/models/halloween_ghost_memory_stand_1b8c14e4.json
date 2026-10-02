@@ -1,0 +1,2771 @@
+{
+  "credit": "VoxelForge",
+  "textures": {
+    "particle": "voxelforge:item/halloween_ghost_memory_stand_1b8c14e4/altar",
+    "altar": "voxelforge:item/halloween_ghost_memory_stand_1b8c14e4/altar",
+    "candles": "voxelforge:item/halloween_ghost_memory_stand_1b8c14e4/candles"
+  },
+  "elements": [
+    {
+      "name": "left_front_altar",
+      "from": [
+        1,
+        0,
+        8
+      ],
+      "to": [
+        6,
+        4,
+        16
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            2.625,
+            1,
+            3.25,
+            1.5
+          ],
+          "texture": "#altar"
+        },
+        "south": {
+          "uv": [
+            1,
+            1,
+            1.625,
+            1.5
+          ],
+          "texture": "#altar"
+        },
+        "east": {
+          "uv": [
+            0,
+            1,
+            1,
+            1.5
+          ],
+          "texture": "#altar"
+        },
+        "west": {
+          "uv": [
+            1.625,
+            1,
+            2.625,
+            1.5
+          ],
+          "texture": "#altar"
+        },
+        "up": {
+          "uv": [
+            1,
+            0,
+            1.625,
+            1
+          ],
+          "texture": "#altar"
+        },
+        "down": {
+          "uv": [
+            1.625,
+            0,
+            2.25,
+            1
+          ],
+          "texture": "#altar"
+        }
+      }
+    },
+    {
+      "name": "left_front_cap",
+      "from": [
+        1,
+        4,
+        8
+      ],
+      "to": [
+        6,
+        5,
+        16
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            2.625,
+            2.5,
+            3.25,
+            2.625
+          ],
+          "texture": "#altar"
+        },
+        "south": {
+          "uv": [
+            1,
+            2.5,
+            1.625,
+            2.625
+          ],
+          "texture": "#altar"
+        },
+        "east": {
+          "uv": [
+            0,
+            2.5,
+            1,
+            2.625
+          ],
+          "texture": "#altar"
+        },
+        "west": {
+          "uv": [
+            1.625,
+            2.5,
+            2.625,
+            2.625
+          ],
+          "texture": "#altar"
+        },
+        "up": {
+          "uv": [
+            1,
+            1.5,
+            1.625,
+            2.5
+          ],
+          "texture": "#altar"
+        },
+        "down": {
+          "uv": [
+            1.625,
+            1.5,
+            2.25,
+            2.5
+          ],
+          "texture": "#altar"
+        }
+      }
+    },
+    {
+      "name": "left_middle_altar",
+      "from": [
+        3,
+        0,
+        16
+      ],
+      "to": [
+        9,
+        4,
+        22
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            5.75,
+            0.75,
+            6.5,
+            1.25
+          ],
+          "texture": "#altar"
+        },
+        "south": {
+          "uv": [
+            4.25,
+            0.75,
+            5,
+            1.25
+          ],
+          "texture": "#altar"
+        },
+        "east": {
+          "uv": [
+            3.5,
+            0.75,
+            4.25,
+            1.25
+          ],
+          "texture": "#altar"
+        },
+        "west": {
+          "uv": [
+            5,
+            0.75,
+            5.75,
+            1.25
+          ],
+          "texture": "#altar"
+        },
+        "up": {
+          "uv": [
+            4.25,
+            0,
+            5,
+            0.75
+          ],
+          "texture": "#altar"
+        },
+        "down": {
+          "uv": [
+            5,
+            0,
+            5.75,
+            0.75
+          ],
+          "texture": "#altar"
+        }
+      }
+    },
+    {
+      "name": "left_middle_cap",
+      "from": [
+        3,
+        4,
+        16
+      ],
+      "to": [
+        9,
+        5,
+        22
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            5.75,
+            2,
+            6.5,
+            2.125
+          ],
+          "texture": "#altar"
+        },
+        "south": {
+          "uv": [
+            4.25,
+            2,
+            5,
+            2.125
+          ],
+          "texture": "#altar"
+        },
+        "east": {
+          "uv": [
+            3.5,
+            2,
+            4.25,
+            2.125
+          ],
+          "texture": "#altar"
+        },
+        "west": {
+          "uv": [
+            5,
+            2,
+            5.75,
+            2.125
+          ],
+          "texture": "#altar"
+        },
+        "up": {
+          "uv": [
+            4.25,
+            1.25,
+            5,
+            2
+          ],
+          "texture": "#altar"
+        },
+        "down": {
+          "uv": [
+            5,
+            1.25,
+            5.75,
+            2
+          ],
+          "texture": "#altar"
+        }
+      }
+    },
+    {
+      "name": "left_rear_altar",
+      "from": [
+        7,
+        0,
+        22
+      ],
+      "to": [
+        13,
+        4,
+        27
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            8.75,
+            0.625,
+            9.5,
+            1.125
+          ],
+          "texture": "#altar"
+        },
+        "south": {
+          "uv": [
+            7.375,
+            0.625,
+            8.125,
+            1.125
+          ],
+          "texture": "#altar"
+        },
+        "east": {
+          "uv": [
+            6.75,
+            0.625,
+            7.375,
+            1.125
+          ],
+          "texture": "#altar"
+        },
+        "west": {
+          "uv": [
+            8.125,
+            0.625,
+            8.75,
+            1.125
+          ],
+          "texture": "#altar"
+        },
+        "up": {
+          "uv": [
+            7.375,
+            0,
+            8.125,
+            0.625
+          ],
+          "texture": "#altar"
+        },
+        "down": {
+          "uv": [
+            8.125,
+            0,
+            8.875,
+            0.625
+          ],
+          "texture": "#altar"
+        }
+      }
+    },
+    {
+      "name": "left_rear_cap",
+      "from": [
+        7,
+        4,
+        22
+      ],
+      "to": [
+        13,
+        5,
+        27
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            8.75,
+            1.75,
+            9.5,
+            1.875
+          ],
+          "texture": "#altar"
+        },
+        "south": {
+          "uv": [
+            7.375,
+            1.75,
+            8.125,
+            1.875
+          ],
+          "texture": "#altar"
+        },
+        "east": {
+          "uv": [
+            6.75,
+            1.75,
+            7.375,
+            1.875
+          ],
+          "texture": "#altar"
+        },
+        "west": {
+          "uv": [
+            8.125,
+            1.75,
+            8.75,
+            1.875
+          ],
+          "texture": "#altar"
+        },
+        "up": {
+          "uv": [
+            7.375,
+            1.125,
+            8.125,
+            1.75
+          ],
+          "texture": "#altar"
+        },
+        "down": {
+          "uv": [
+            8.125,
+            1.125,
+            8.875,
+            1.75
+          ],
+          "texture": "#altar"
+        }
+      }
+    },
+    {
+      "name": "center_rear_altar",
+      "from": [
+        13,
+        0,
+        24
+      ],
+      "to": [
+        19,
+        4,
+        29
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            11.75,
+            0.625,
+            12.5,
+            1.125
+          ],
+          "texture": "#altar"
+        },
+        "south": {
+          "uv": [
+            10.375,
+            0.625,
+            11.125,
+            1.125
+          ],
+          "texture": "#altar"
+        },
+        "east": {
+          "uv": [
+            9.75,
+            0.625,
+            10.375,
+            1.125
+          ],
+          "texture": "#altar"
+        },
+        "west": {
+          "uv": [
+            11.125,
+            0.625,
+            11.75,
+            1.125
+          ],
+          "texture": "#altar"
+        },
+        "up": {
+          "uv": [
+            10.375,
+            0,
+            11.125,
+            0.625
+          ],
+          "texture": "#altar"
+        },
+        "down": {
+          "uv": [
+            11.125,
+            0,
+            11.875,
+            0.625
+          ],
+          "texture": "#altar"
+        }
+      }
+    },
+    {
+      "name": "center_rear_cap",
+      "from": [
+        13,
+        4,
+        24
+      ],
+      "to": [
+        19,
+        5,
+        29
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            11.75,
+            1.75,
+            12.5,
+            1.875
+          ],
+          "texture": "#altar"
+        },
+        "south": {
+          "uv": [
+            10.375,
+            1.75,
+            11.125,
+            1.875
+          ],
+          "texture": "#altar"
+        },
+        "east": {
+          "uv": [
+            9.75,
+            1.75,
+            10.375,
+            1.875
+          ],
+          "texture": "#altar"
+        },
+        "west": {
+          "uv": [
+            11.125,
+            1.75,
+            11.75,
+            1.875
+          ],
+          "texture": "#altar"
+        },
+        "up": {
+          "uv": [
+            10.375,
+            1.125,
+            11.125,
+            1.75
+          ],
+          "texture": "#altar"
+        },
+        "down": {
+          "uv": [
+            11.125,
+            1.125,
+            11.875,
+            1.75
+          ],
+          "texture": "#altar"
+        }
+      }
+    },
+    {
+      "name": "right_rear_altar",
+      "from": [
+        19,
+        0,
+        22
+      ],
+      "to": [
+        25,
+        4,
+        27
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            8.75,
+            3.625,
+            9.5,
+            4.125
+          ],
+          "texture": "#altar"
+        },
+        "south": {
+          "uv": [
+            7.375,
+            3.625,
+            8.125,
+            4.125
+          ],
+          "texture": "#altar"
+        },
+        "east": {
+          "uv": [
+            6.75,
+            3.625,
+            7.375,
+            4.125
+          ],
+          "texture": "#altar"
+        },
+        "west": {
+          "uv": [
+            8.125,
+            3.625,
+            8.75,
+            4.125
+          ],
+          "texture": "#altar"
+        },
+        "up": {
+          "uv": [
+            7.375,
+            3,
+            8.125,
+            3.625
+          ],
+          "texture": "#altar"
+        },
+        "down": {
+          "uv": [
+            8.125,
+            3,
+            8.875,
+            3.625
+          ],
+          "texture": "#altar"
+        }
+      }
+    },
+    {
+      "name": "right_rear_cap",
+      "from": [
+        19,
+        4,
+        22
+      ],
+      "to": [
+        25,
+        5,
+        27
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            8.75,
+            4.75,
+            9.5,
+            4.875
+          ],
+          "texture": "#altar"
+        },
+        "south": {
+          "uv": [
+            7.375,
+            4.75,
+            8.125,
+            4.875
+          ],
+          "texture": "#altar"
+        },
+        "east": {
+          "uv": [
+            6.75,
+            4.75,
+            7.375,
+            4.875
+          ],
+          "texture": "#altar"
+        },
+        "west": {
+          "uv": [
+            8.125,
+            4.75,
+            8.75,
+            4.875
+          ],
+          "texture": "#altar"
+        },
+        "up": {
+          "uv": [
+            7.375,
+            4.125,
+            8.125,
+            4.75
+          ],
+          "texture": "#altar"
+        },
+        "down": {
+          "uv": [
+            8.125,
+            4.125,
+            8.875,
+            4.75
+          ],
+          "texture": "#altar"
+        }
+      }
+    },
+    {
+      "name": "right_middle_altar",
+      "from": [
+        23,
+        0,
+        16
+      ],
+      "to": [
+        29,
+        4,
+        22
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            5.75,
+            3.75,
+            6.5,
+            4.25
+          ],
+          "texture": "#altar"
+        },
+        "south": {
+          "uv": [
+            4.25,
+            3.75,
+            5,
+            4.25
+          ],
+          "texture": "#altar"
+        },
+        "east": {
+          "uv": [
+            3.5,
+            3.75,
+            4.25,
+            4.25
+          ],
+          "texture": "#altar"
+        },
+        "west": {
+          "uv": [
+            5,
+            3.75,
+            5.75,
+            4.25
+          ],
+          "texture": "#altar"
+        },
+        "up": {
+          "uv": [
+            4.25,
+            3,
+            5,
+            3.75
+          ],
+          "texture": "#altar"
+        },
+        "down": {
+          "uv": [
+            5,
+            3,
+            5.75,
+            3.75
+          ],
+          "texture": "#altar"
+        }
+      }
+    },
+    {
+      "name": "right_middle_cap",
+      "from": [
+        23,
+        4,
+        16
+      ],
+      "to": [
+        29,
+        5,
+        22
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            5.75,
+            5,
+            6.5,
+            5.125
+          ],
+          "texture": "#altar"
+        },
+        "south": {
+          "uv": [
+            4.25,
+            5,
+            5,
+            5.125
+          ],
+          "texture": "#altar"
+        },
+        "east": {
+          "uv": [
+            3.5,
+            5,
+            4.25,
+            5.125
+          ],
+          "texture": "#altar"
+        },
+        "west": {
+          "uv": [
+            5,
+            5,
+            5.75,
+            5.125
+          ],
+          "texture": "#altar"
+        },
+        "up": {
+          "uv": [
+            4.25,
+            4.25,
+            5,
+            5
+          ],
+          "texture": "#altar"
+        },
+        "down": {
+          "uv": [
+            5,
+            4.25,
+            5.75,
+            5
+          ],
+          "texture": "#altar"
+        }
+      }
+    },
+    {
+      "name": "right_front_altar",
+      "from": [
+        26,
+        0,
+        8
+      ],
+      "to": [
+        31,
+        4,
+        16
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            2.625,
+            4,
+            3.25,
+            4.5
+          ],
+          "texture": "#altar"
+        },
+        "south": {
+          "uv": [
+            1,
+            4,
+            1.625,
+            4.5
+          ],
+          "texture": "#altar"
+        },
+        "east": {
+          "uv": [
+            0,
+            4,
+            1,
+            4.5
+          ],
+          "texture": "#altar"
+        },
+        "west": {
+          "uv": [
+            1.625,
+            4,
+            2.625,
+            4.5
+          ],
+          "texture": "#altar"
+        },
+        "up": {
+          "uv": [
+            1,
+            3,
+            1.625,
+            4
+          ],
+          "texture": "#altar"
+        },
+        "down": {
+          "uv": [
+            1.625,
+            3,
+            2.25,
+            4
+          ],
+          "texture": "#altar"
+        }
+      }
+    },
+    {
+      "name": "right_front_cap",
+      "from": [
+        26,
+        4,
+        8
+      ],
+      "to": [
+        31,
+        5,
+        16
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            2.625,
+            5.5,
+            3.25,
+            5.625
+          ],
+          "texture": "#altar"
+        },
+        "south": {
+          "uv": [
+            1,
+            5.5,
+            1.625,
+            5.625
+          ],
+          "texture": "#altar"
+        },
+        "east": {
+          "uv": [
+            0,
+            5.5,
+            1,
+            5.625
+          ],
+          "texture": "#altar"
+        },
+        "west": {
+          "uv": [
+            1.625,
+            5.5,
+            2.625,
+            5.625
+          ],
+          "texture": "#altar"
+        },
+        "up": {
+          "uv": [
+            1,
+            4.5,
+            1.625,
+            5.5
+          ],
+          "texture": "#altar"
+        },
+        "down": {
+          "uv": [
+            1.625,
+            4.5,
+            2.25,
+            5.5
+          ],
+          "texture": "#altar"
+        }
+      }
+    },
+    {
+      "name": "purple_pedestal_foot",
+      "from": [
+        4,
+        5,
+        17
+      ],
+      "to": [
+        8,
+        6,
+        21
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            11.5,
+            3.5,
+            12,
+            3.625
+          ],
+          "texture": "#altar"
+        },
+        "south": {
+          "uv": [
+            10.5,
+            3.5,
+            11,
+            3.625
+          ],
+          "texture": "#altar"
+        },
+        "east": {
+          "uv": [
+            10,
+            3.5,
+            10.5,
+            3.625
+          ],
+          "texture": "#altar"
+        },
+        "west": {
+          "uv": [
+            11,
+            3.5,
+            11.5,
+            3.625
+          ],
+          "texture": "#altar"
+        },
+        "up": {
+          "uv": [
+            10.5,
+            3,
+            11,
+            3.5
+          ],
+          "texture": "#altar"
+        },
+        "down": {
+          "uv": [
+            11,
+            3,
+            11.5,
+            3.5
+          ],
+          "texture": "#altar"
+        }
+      }
+    },
+    {
+      "name": "purple_pedestal",
+      "from": [
+        4.5,
+        6,
+        17.5
+      ],
+      "to": [
+        7.5,
+        8,
+        20.5
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            2.25,
+            0.75,
+            3,
+            1.25
+          ],
+          "texture": "#candles"
+        },
+        "south": {
+          "uv": [
+            0.75,
+            0.75,
+            1.5,
+            1.25
+          ],
+          "texture": "#candles"
+        },
+        "east": {
+          "uv": [
+            0,
+            0.75,
+            0.75,
+            1.25
+          ],
+          "texture": "#candles"
+        },
+        "west": {
+          "uv": [
+            1.5,
+            0.75,
+            2.25,
+            1.25
+          ],
+          "texture": "#candles"
+        },
+        "up": {
+          "uv": [
+            0.75,
+            0,
+            1.5,
+            0.75
+          ],
+          "texture": "#candles"
+        },
+        "down": {
+          "uv": [
+            1.5,
+            0,
+            2.25,
+            0.75
+          ],
+          "texture": "#candles"
+        }
+      }
+    },
+    {
+      "name": "purple_candle_tray",
+      "from": [
+        4,
+        8,
+        17
+      ],
+      "to": [
+        8,
+        8.5,
+        21
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            11.5,
+            4.25,
+            12,
+            4.375
+          ],
+          "texture": "#altar"
+        },
+        "south": {
+          "uv": [
+            10.5,
+            4.25,
+            11,
+            4.375
+          ],
+          "texture": "#altar"
+        },
+        "east": {
+          "uv": [
+            10,
+            4.25,
+            10.5,
+            4.375
+          ],
+          "texture": "#altar"
+        },
+        "west": {
+          "uv": [
+            11,
+            4.25,
+            11.5,
+            4.375
+          ],
+          "texture": "#altar"
+        },
+        "up": {
+          "uv": [
+            10.5,
+            3.75,
+            11,
+            4.25
+          ],
+          "texture": "#altar"
+        },
+        "down": {
+          "uv": [
+            11,
+            3.75,
+            11.5,
+            4.25
+          ],
+          "texture": "#altar"
+        }
+      }
+    },
+    {
+      "name": "purple_candle",
+      "from": [
+        5,
+        8.5,
+        18
+      ],
+      "to": [
+        7,
+        11,
+        20
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            5.5,
+            0.5,
+            6,
+            1.25
+          ],
+          "texture": "#candles"
+        },
+        "south": {
+          "uv": [
+            4.5,
+            0.5,
+            5,
+            1.25
+          ],
+          "texture": "#candles"
+        },
+        "east": {
+          "uv": [
+            4,
+            0.5,
+            4.5,
+            1.25
+          ],
+          "texture": "#candles"
+        },
+        "west": {
+          "uv": [
+            5,
+            0.5,
+            5.5,
+            1.25
+          ],
+          "texture": "#candles"
+        },
+        "up": {
+          "uv": [
+            4.5,
+            0,
+            5,
+            0.5
+          ],
+          "texture": "#candles"
+        },
+        "down": {
+          "uv": [
+            5,
+            0,
+            5.5,
+            0.5
+          ],
+          "texture": "#candles"
+        }
+      }
+    },
+    {
+      "name": "purple_wick",
+      "from": [
+        5.75,
+        11,
+        18.75
+      ],
+      "to": [
+        6.25,
+        11.5,
+        19.25
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            8.75,
+            0.25,
+            9,
+            0.5
+          ],
+          "texture": "#candles"
+        },
+        "south": {
+          "uv": [
+            8.25,
+            0.25,
+            8.5,
+            0.5
+          ],
+          "texture": "#candles"
+        },
+        "east": {
+          "uv": [
+            8,
+            0.25,
+            8.25,
+            0.5
+          ],
+          "texture": "#candles"
+        },
+        "west": {
+          "uv": [
+            8.5,
+            0.25,
+            8.75,
+            0.5
+          ],
+          "texture": "#candles"
+        },
+        "up": {
+          "uv": [
+            8.25,
+            0,
+            8.5,
+            0.25
+          ],
+          "texture": "#candles"
+        },
+        "down": {
+          "uv": [
+            8.5,
+            0,
+            8.75,
+            0.25
+          ],
+          "texture": "#candles"
+        }
+      }
+    },
+    {
+      "name": "purple_flame",
+      "from": [
+        5.5,
+        11.5,
+        18.5
+      ],
+      "to": [
+        6.5,
+        12,
+        19.5
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            10.25,
+            0.25,
+            10.5,
+            0.5
+          ],
+          "texture": "#candles"
+        },
+        "south": {
+          "uv": [
+            9.75,
+            0.25,
+            10,
+            0.5
+          ],
+          "texture": "#candles"
+        },
+        "east": {
+          "uv": [
+            9.5,
+            0.25,
+            9.75,
+            0.5
+          ],
+          "texture": "#candles"
+        },
+        "west": {
+          "uv": [
+            10,
+            0.25,
+            10.25,
+            0.5
+          ],
+          "texture": "#candles"
+        },
+        "up": {
+          "uv": [
+            9.75,
+            0,
+            10,
+            0.25
+          ],
+          "texture": "#candles"
+        },
+        "down": {
+          "uv": [
+            10,
+            0,
+            10.25,
+            0.25
+          ],
+          "texture": "#candles"
+        }
+      }
+    },
+    {
+      "name": "orange_pedestal_foot",
+      "from": [
+        8,
+        5,
+        23
+      ],
+      "to": [
+        12,
+        6,
+        27
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            11.5,
+            3.5,
+            12,
+            3.625
+          ],
+          "texture": "#altar"
+        },
+        "south": {
+          "uv": [
+            10.5,
+            3.5,
+            11,
+            3.625
+          ],
+          "texture": "#altar"
+        },
+        "east": {
+          "uv": [
+            10,
+            3.5,
+            10.5,
+            3.625
+          ],
+          "texture": "#altar"
+        },
+        "west": {
+          "uv": [
+            11,
+            3.5,
+            11.5,
+            3.625
+          ],
+          "texture": "#altar"
+        },
+        "up": {
+          "uv": [
+            10.5,
+            3,
+            11,
+            3.5
+          ],
+          "texture": "#altar"
+        },
+        "down": {
+          "uv": [
+            11,
+            3,
+            11.5,
+            3.5
+          ],
+          "texture": "#altar"
+        }
+      }
+    },
+    {
+      "name": "orange_pedestal",
+      "from": [
+        8.5,
+        6,
+        23.5
+      ],
+      "to": [
+        11.5,
+        8,
+        26.5
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            2.25,
+            2.75,
+            3,
+            3.25
+          ],
+          "texture": "#candles"
+        },
+        "south": {
+          "uv": [
+            0.75,
+            2.75,
+            1.5,
+            3.25
+          ],
+          "texture": "#candles"
+        },
+        "east": {
+          "uv": [
+            0,
+            2.75,
+            0.75,
+            3.25
+          ],
+          "texture": "#candles"
+        },
+        "west": {
+          "uv": [
+            1.5,
+            2.75,
+            2.25,
+            3.25
+          ],
+          "texture": "#candles"
+        },
+        "up": {
+          "uv": [
+            0.75,
+            2,
+            1.5,
+            2.75
+          ],
+          "texture": "#candles"
+        },
+        "down": {
+          "uv": [
+            1.5,
+            2,
+            2.25,
+            2.75
+          ],
+          "texture": "#candles"
+        }
+      }
+    },
+    {
+      "name": "orange_candle_tray",
+      "from": [
+        8,
+        8,
+        23
+      ],
+      "to": [
+        12,
+        8.5,
+        27
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            11.5,
+            4.25,
+            12,
+            4.375
+          ],
+          "texture": "#altar"
+        },
+        "south": {
+          "uv": [
+            10.5,
+            4.25,
+            11,
+            4.375
+          ],
+          "texture": "#altar"
+        },
+        "east": {
+          "uv": [
+            10,
+            4.25,
+            10.5,
+            4.375
+          ],
+          "texture": "#altar"
+        },
+        "west": {
+          "uv": [
+            11,
+            4.25,
+            11.5,
+            4.375
+          ],
+          "texture": "#altar"
+        },
+        "up": {
+          "uv": [
+            10.5,
+            3.75,
+            11,
+            4.25
+          ],
+          "texture": "#altar"
+        },
+        "down": {
+          "uv": [
+            11,
+            3.75,
+            11.5,
+            4.25
+          ],
+          "texture": "#altar"
+        }
+      }
+    },
+    {
+      "name": "orange_candle",
+      "from": [
+        9,
+        8.5,
+        24
+      ],
+      "to": [
+        11,
+        11,
+        26
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            5.5,
+            2.5,
+            6,
+            3.25
+          ],
+          "texture": "#candles"
+        },
+        "south": {
+          "uv": [
+            4.5,
+            2.5,
+            5,
+            3.25
+          ],
+          "texture": "#candles"
+        },
+        "east": {
+          "uv": [
+            4,
+            2.5,
+            4.5,
+            3.25
+          ],
+          "texture": "#candles"
+        },
+        "west": {
+          "uv": [
+            5,
+            2.5,
+            5.5,
+            3.25
+          ],
+          "texture": "#candles"
+        },
+        "up": {
+          "uv": [
+            4.5,
+            2,
+            5,
+            2.5
+          ],
+          "texture": "#candles"
+        },
+        "down": {
+          "uv": [
+            5,
+            2,
+            5.5,
+            2.5
+          ],
+          "texture": "#candles"
+        }
+      }
+    },
+    {
+      "name": "orange_wick",
+      "from": [
+        9.75,
+        11,
+        24.75
+      ],
+      "to": [
+        10.25,
+        11.5,
+        25.25
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            8.75,
+            0.25,
+            9,
+            0.5
+          ],
+          "texture": "#candles"
+        },
+        "south": {
+          "uv": [
+            8.25,
+            0.25,
+            8.5,
+            0.5
+          ],
+          "texture": "#candles"
+        },
+        "east": {
+          "uv": [
+            8,
+            0.25,
+            8.25,
+            0.5
+          ],
+          "texture": "#candles"
+        },
+        "west": {
+          "uv": [
+            8.5,
+            0.25,
+            8.75,
+            0.5
+          ],
+          "texture": "#candles"
+        },
+        "up": {
+          "uv": [
+            8.25,
+            0,
+            8.5,
+            0.25
+          ],
+          "texture": "#candles"
+        },
+        "down": {
+          "uv": [
+            8.5,
+            0,
+            8.75,
+            0.25
+          ],
+          "texture": "#candles"
+        }
+      }
+    },
+    {
+      "name": "orange_flame",
+      "from": [
+        9.5,
+        11.5,
+        24.5
+      ],
+      "to": [
+        10.5,
+        12,
+        25.5
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            10.25,
+            0.25,
+            10.5,
+            0.5
+          ],
+          "texture": "#candles"
+        },
+        "south": {
+          "uv": [
+            9.75,
+            0.25,
+            10,
+            0.5
+          ],
+          "texture": "#candles"
+        },
+        "east": {
+          "uv": [
+            9.5,
+            0.25,
+            9.75,
+            0.5
+          ],
+          "texture": "#candles"
+        },
+        "west": {
+          "uv": [
+            10,
+            0.25,
+            10.25,
+            0.5
+          ],
+          "texture": "#candles"
+        },
+        "up": {
+          "uv": [
+            9.75,
+            0,
+            10,
+            0.25
+          ],
+          "texture": "#candles"
+        },
+        "down": {
+          "uv": [
+            10,
+            0,
+            10.25,
+            0.25
+          ],
+          "texture": "#candles"
+        }
+      }
+    },
+    {
+      "name": "teal_pedestal_foot",
+      "from": [
+        20,
+        5,
+        23
+      ],
+      "to": [
+        24,
+        6,
+        27
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            11.5,
+            3.5,
+            12,
+            3.625
+          ],
+          "texture": "#altar"
+        },
+        "south": {
+          "uv": [
+            10.5,
+            3.5,
+            11,
+            3.625
+          ],
+          "texture": "#altar"
+        },
+        "east": {
+          "uv": [
+            10,
+            3.5,
+            10.5,
+            3.625
+          ],
+          "texture": "#altar"
+        },
+        "west": {
+          "uv": [
+            11,
+            3.5,
+            11.5,
+            3.625
+          ],
+          "texture": "#altar"
+        },
+        "up": {
+          "uv": [
+            10.5,
+            3,
+            11,
+            3.5
+          ],
+          "texture": "#altar"
+        },
+        "down": {
+          "uv": [
+            11,
+            3,
+            11.5,
+            3.5
+          ],
+          "texture": "#altar"
+        }
+      }
+    },
+    {
+      "name": "teal_pedestal",
+      "from": [
+        20.5,
+        6,
+        23.5
+      ],
+      "to": [
+        23.5,
+        8,
+        26.5
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            2.25,
+            4.75,
+            3,
+            5.25
+          ],
+          "texture": "#candles"
+        },
+        "south": {
+          "uv": [
+            0.75,
+            4.75,
+            1.5,
+            5.25
+          ],
+          "texture": "#candles"
+        },
+        "east": {
+          "uv": [
+            0,
+            4.75,
+            0.75,
+            5.25
+          ],
+          "texture": "#candles"
+        },
+        "west": {
+          "uv": [
+            1.5,
+            4.75,
+            2.25,
+            5.25
+          ],
+          "texture": "#candles"
+        },
+        "up": {
+          "uv": [
+            0.75,
+            4,
+            1.5,
+            4.75
+          ],
+          "texture": "#candles"
+        },
+        "down": {
+          "uv": [
+            1.5,
+            4,
+            2.25,
+            4.75
+          ],
+          "texture": "#candles"
+        }
+      }
+    },
+    {
+      "name": "teal_candle_tray",
+      "from": [
+        20,
+        8,
+        23
+      ],
+      "to": [
+        24,
+        8.5,
+        27
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            11.5,
+            4.25,
+            12,
+            4.375
+          ],
+          "texture": "#altar"
+        },
+        "south": {
+          "uv": [
+            10.5,
+            4.25,
+            11,
+            4.375
+          ],
+          "texture": "#altar"
+        },
+        "east": {
+          "uv": [
+            10,
+            4.25,
+            10.5,
+            4.375
+          ],
+          "texture": "#altar"
+        },
+        "west": {
+          "uv": [
+            11,
+            4.25,
+            11.5,
+            4.375
+          ],
+          "texture": "#altar"
+        },
+        "up": {
+          "uv": [
+            10.5,
+            3.75,
+            11,
+            4.25
+          ],
+          "texture": "#altar"
+        },
+        "down": {
+          "uv": [
+            11,
+            3.75,
+            11.5,
+            4.25
+          ],
+          "texture": "#altar"
+        }
+      }
+    },
+    {
+      "name": "teal_candle",
+      "from": [
+        21,
+        8.5,
+        24
+      ],
+      "to": [
+        23,
+        11,
+        26
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            5.5,
+            4.5,
+            6,
+            5.25
+          ],
+          "texture": "#candles"
+        },
+        "south": {
+          "uv": [
+            4.5,
+            4.5,
+            5,
+            5.25
+          ],
+          "texture": "#candles"
+        },
+        "east": {
+          "uv": [
+            4,
+            4.5,
+            4.5,
+            5.25
+          ],
+          "texture": "#candles"
+        },
+        "west": {
+          "uv": [
+            5,
+            4.5,
+            5.5,
+            5.25
+          ],
+          "texture": "#candles"
+        },
+        "up": {
+          "uv": [
+            4.5,
+            4,
+            5,
+            4.5
+          ],
+          "texture": "#candles"
+        },
+        "down": {
+          "uv": [
+            5,
+            4,
+            5.5,
+            4.5
+          ],
+          "texture": "#candles"
+        }
+      }
+    },
+    {
+      "name": "teal_wick",
+      "from": [
+        21.75,
+        11,
+        24.75
+      ],
+      "to": [
+        22.25,
+        11.5,
+        25.25
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            8.75,
+            0.25,
+            9,
+            0.5
+          ],
+          "texture": "#candles"
+        },
+        "south": {
+          "uv": [
+            8.25,
+            0.25,
+            8.5,
+            0.5
+          ],
+          "texture": "#candles"
+        },
+        "east": {
+          "uv": [
+            8,
+            0.25,
+            8.25,
+            0.5
+          ],
+          "texture": "#candles"
+        },
+        "west": {
+          "uv": [
+            8.5,
+            0.25,
+            8.75,
+            0.5
+          ],
+          "texture": "#candles"
+        },
+        "up": {
+          "uv": [
+            8.25,
+            0,
+            8.5,
+            0.25
+          ],
+          "texture": "#candles"
+        },
+        "down": {
+          "uv": [
+            8.5,
+            0,
+            8.75,
+            0.25
+          ],
+          "texture": "#candles"
+        }
+      }
+    },
+    {
+      "name": "teal_flame",
+      "from": [
+        21.5,
+        11.5,
+        24.5
+      ],
+      "to": [
+        22.5,
+        12,
+        25.5
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            10.25,
+            0.25,
+            10.5,
+            0.5
+          ],
+          "texture": "#candles"
+        },
+        "south": {
+          "uv": [
+            9.75,
+            0.25,
+            10,
+            0.5
+          ],
+          "texture": "#candles"
+        },
+        "east": {
+          "uv": [
+            9.5,
+            0.25,
+            9.75,
+            0.5
+          ],
+          "texture": "#candles"
+        },
+        "west": {
+          "uv": [
+            10,
+            0.25,
+            10.25,
+            0.5
+          ],
+          "texture": "#candles"
+        },
+        "up": {
+          "uv": [
+            9.75,
+            0,
+            10,
+            0.25
+          ],
+          "texture": "#candles"
+        },
+        "down": {
+          "uv": [
+            10,
+            0,
+            10.25,
+            0.25
+          ],
+          "texture": "#candles"
+        }
+      }
+    },
+    {
+      "name": "green_pedestal_foot",
+      "from": [
+        24,
+        5,
+        17
+      ],
+      "to": [
+        28,
+        6,
+        21
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            11.5,
+            3.5,
+            12,
+            3.625
+          ],
+          "texture": "#altar"
+        },
+        "south": {
+          "uv": [
+            10.5,
+            3.5,
+            11,
+            3.625
+          ],
+          "texture": "#altar"
+        },
+        "east": {
+          "uv": [
+            10,
+            3.5,
+            10.5,
+            3.625
+          ],
+          "texture": "#altar"
+        },
+        "west": {
+          "uv": [
+            11,
+            3.5,
+            11.5,
+            3.625
+          ],
+          "texture": "#altar"
+        },
+        "up": {
+          "uv": [
+            10.5,
+            3,
+            11,
+            3.5
+          ],
+          "texture": "#altar"
+        },
+        "down": {
+          "uv": [
+            11,
+            3,
+            11.5,
+            3.5
+          ],
+          "texture": "#altar"
+        }
+      }
+    },
+    {
+      "name": "green_pedestal",
+      "from": [
+        24.5,
+        6,
+        17.5
+      ],
+      "to": [
+        27.5,
+        8,
+        20.5
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            2.25,
+            6.75,
+            3,
+            7.25
+          ],
+          "texture": "#candles"
+        },
+        "south": {
+          "uv": [
+            0.75,
+            6.75,
+            1.5,
+            7.25
+          ],
+          "texture": "#candles"
+        },
+        "east": {
+          "uv": [
+            0,
+            6.75,
+            0.75,
+            7.25
+          ],
+          "texture": "#candles"
+        },
+        "west": {
+          "uv": [
+            1.5,
+            6.75,
+            2.25,
+            7.25
+          ],
+          "texture": "#candles"
+        },
+        "up": {
+          "uv": [
+            0.75,
+            6,
+            1.5,
+            6.75
+          ],
+          "texture": "#candles"
+        },
+        "down": {
+          "uv": [
+            1.5,
+            6,
+            2.25,
+            6.75
+          ],
+          "texture": "#candles"
+        }
+      }
+    },
+    {
+      "name": "green_candle_tray",
+      "from": [
+        24,
+        8,
+        17
+      ],
+      "to": [
+        28,
+        8.5,
+        21
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            11.5,
+            4.25,
+            12,
+            4.375
+          ],
+          "texture": "#altar"
+        },
+        "south": {
+          "uv": [
+            10.5,
+            4.25,
+            11,
+            4.375
+          ],
+          "texture": "#altar"
+        },
+        "east": {
+          "uv": [
+            10,
+            4.25,
+            10.5,
+            4.375
+          ],
+          "texture": "#altar"
+        },
+        "west": {
+          "uv": [
+            11,
+            4.25,
+            11.5,
+            4.375
+          ],
+          "texture": "#altar"
+        },
+        "up": {
+          "uv": [
+            10.5,
+            3.75,
+            11,
+            4.25
+          ],
+          "texture": "#altar"
+        },
+        "down": {
+          "uv": [
+            11,
+            3.75,
+            11.5,
+            4.25
+          ],
+          "texture": "#altar"
+        }
+      }
+    },
+    {
+      "name": "green_candle",
+      "from": [
+        25,
+        8.5,
+        18
+      ],
+      "to": [
+        27,
+        11,
+        20
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            5.5,
+            6.5,
+            6,
+            7.25
+          ],
+          "texture": "#candles"
+        },
+        "south": {
+          "uv": [
+            4.5,
+            6.5,
+            5,
+            7.25
+          ],
+          "texture": "#candles"
+        },
+        "east": {
+          "uv": [
+            4,
+            6.5,
+            4.5,
+            7.25
+          ],
+          "texture": "#candles"
+        },
+        "west": {
+          "uv": [
+            5,
+            6.5,
+            5.5,
+            7.25
+          ],
+          "texture": "#candles"
+        },
+        "up": {
+          "uv": [
+            4.5,
+            6,
+            5,
+            6.5
+          ],
+          "texture": "#candles"
+        },
+        "down": {
+          "uv": [
+            5,
+            6,
+            5.5,
+            6.5
+          ],
+          "texture": "#candles"
+        }
+      }
+    },
+    {
+      "name": "green_wick",
+      "from": [
+        25.75,
+        11,
+        18.75
+      ],
+      "to": [
+        26.25,
+        11.5,
+        19.25
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            8.75,
+            0.25,
+            9,
+            0.5
+          ],
+          "texture": "#candles"
+        },
+        "south": {
+          "uv": [
+            8.25,
+            0.25,
+            8.5,
+            0.5
+          ],
+          "texture": "#candles"
+        },
+        "east": {
+          "uv": [
+            8,
+            0.25,
+            8.25,
+            0.5
+          ],
+          "texture": "#candles"
+        },
+        "west": {
+          "uv": [
+            8.5,
+            0.25,
+            8.75,
+            0.5
+          ],
+          "texture": "#candles"
+        },
+        "up": {
+          "uv": [
+            8.25,
+            0,
+            8.5,
+            0.25
+          ],
+          "texture": "#candles"
+        },
+        "down": {
+          "uv": [
+            8.5,
+            0,
+            8.75,
+            0.25
+          ],
+          "texture": "#candles"
+        }
+      }
+    },
+    {
+      "name": "green_flame",
+      "from": [
+        25.5,
+        11.5,
+        18.5
+      ],
+      "to": [
+        26.5,
+        12,
+        19.5
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            10.25,
+            0.25,
+            10.5,
+            0.5
+          ],
+          "texture": "#candles"
+        },
+        "south": {
+          "uv": [
+            9.75,
+            0.25,
+            10,
+            0.5
+          ],
+          "texture": "#candles"
+        },
+        "east": {
+          "uv": [
+            9.5,
+            0.25,
+            9.75,
+            0.5
+          ],
+          "texture": "#candles"
+        },
+        "west": {
+          "uv": [
+            10,
+            0.25,
+            10.25,
+            0.5
+          ],
+          "texture": "#candles"
+        },
+        "up": {
+          "uv": [
+            9.75,
+            0,
+            10,
+            0.25
+          ],
+          "texture": "#candles"
+        },
+        "down": {
+          "uv": [
+            10,
+            0,
+            10.25,
+            0.25
+          ],
+          "texture": "#candles"
+        }
+      }
+    }
+  ],
+  "display": {
+    "gui": {
+      "rotation": [
+        30,
+        225,
+        0
+      ],
+      "translation": [
+        4.383721,
+        1.269613,
+        0.783038
+      ],
+      "scale": [
+        0.427553,
+        0.427553,
+        0.427553
+      ]
+    },
+    "ground": {
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "translation": [
+        -3,
+        4,
+        -3.9375
+      ],
+      "scale": [
+        0.375,
+        0.375,
+        0.375
+      ]
+    },
+    "fixed": {
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "translation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        0.5,
+        0.5,
+        0.5
+      ]
+    },
+    "head": {
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "translation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    "thirdperson_righthand": {
+      "rotation": [
+        75,
+        45,
+        0
+      ],
+      "translation": [
+        -2.674972,
+        3.104093,
+        0.671126
+      ],
+      "scale": [
+        0.260895,
+        0.260895,
+        0.260895
+      ]
+    },
+    "thirdperson_lefthand": {
+      "rotation": [
+        75,
+        45,
+        0
+      ],
+      "translation": [
+        0.276721,
+        5.95521,
+        -0.092828
+      ],
+      "scale": [
+        0.260895,
+        0.260895,
+        0.260895
+      ]
+    },
+    "firstperson_righthand": {
+      "rotation": [
+        0,
+        45,
+        0
+      ],
+      "translation": [
+        -3.372093,
+        2.657774,
+        0.348837
+      ],
+      "scale": [
+        0.328887,
+        0.328887,
+        0.328887
+      ]
+    },
+    "firstperson_lefthand": {
+      "rotation": [
+        0,
+        45,
+        0
+      ],
+      "translation": [
+        0.348837,
+        2.657774,
+        -3.372093
+      ],
+      "scale": [
+        0.328887,
+        0.328887,
+        0.328887
+      ]
+    }
+  },
+  "gui_light": "side"
+}

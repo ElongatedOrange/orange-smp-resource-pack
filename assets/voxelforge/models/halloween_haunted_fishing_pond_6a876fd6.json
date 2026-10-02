@@ -1,0 +1,2081 @@
+{
+  "credit": "VoxelForge",
+  "textures": {
+    "particle": "voxelforge:item/halloween_haunted_fishing_pond_6a876fd6/basin",
+    "basin": "voxelforge:item/halloween_haunted_fishing_pond_6a876fd6/basin",
+    "ornaments": "voxelforge:item/halloween_haunted_fishing_pond_6a876fd6/ornaments"
+  },
+  "elements": [
+    {
+      "name": "Stone basin foundation",
+      "from": [
+        0,
+        0,
+        0
+      ],
+      "to": [
+        32,
+        1,
+        32
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            12,
+            4,
+            16,
+            4.125
+          ],
+          "texture": "#basin"
+        },
+        "south": {
+          "uv": [
+            4,
+            4,
+            8,
+            4.125
+          ],
+          "texture": "#basin"
+        },
+        "east": {
+          "uv": [
+            0,
+            4,
+            4,
+            4.125
+          ],
+          "texture": "#basin"
+        },
+        "west": {
+          "uv": [
+            8,
+            4,
+            12,
+            4.125
+          ],
+          "texture": "#basin"
+        },
+        "up": {
+          "uv": [
+            4,
+            0,
+            8,
+            4
+          ],
+          "texture": "#basin"
+        },
+        "down": {
+          "uv": [
+            8,
+            0,
+            12,
+            4
+          ],
+          "texture": "#basin"
+        }
+      }
+    },
+    {
+      "name": "Shallow midnight teal water",
+      "from": [
+        3,
+        1,
+        3
+      ],
+      "to": [
+        29,
+        2.25,
+        29
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            9.75,
+            7.5,
+            13,
+            7.75
+          ],
+          "texture": "#basin"
+        },
+        "south": {
+          "uv": [
+            3.25,
+            7.5,
+            6.5,
+            7.75
+          ],
+          "texture": "#basin"
+        },
+        "east": {
+          "uv": [
+            0,
+            7.5,
+            3.25,
+            7.75
+          ],
+          "texture": "#basin"
+        },
+        "west": {
+          "uv": [
+            6.5,
+            7.5,
+            9.75,
+            7.75
+          ],
+          "texture": "#basin"
+        },
+        "up": {
+          "uv": [
+            3.25,
+            4.25,
+            6.5,
+            7.5
+          ],
+          "texture": "#basin"
+        },
+        "down": {
+          "uv": [
+            6.5,
+            4.25,
+            9.75,
+            7.5
+          ],
+          "texture": "#basin"
+        }
+      }
+    },
+    {
+      "name": "Front stone rim",
+      "from": [
+        0,
+        1,
+        0
+      ],
+      "to": [
+        32,
+        4,
+        3
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            4.75,
+            8.25,
+            8.75,
+            8.625
+          ],
+          "texture": "#basin"
+        },
+        "south": {
+          "uv": [
+            0.375,
+            8.25,
+            4.375,
+            8.625
+          ],
+          "texture": "#basin"
+        },
+        "east": {
+          "uv": [
+            0,
+            8.25,
+            0.375,
+            8.625
+          ],
+          "texture": "#basin"
+        },
+        "west": {
+          "uv": [
+            4.375,
+            8.25,
+            4.75,
+            8.625
+          ],
+          "texture": "#basin"
+        },
+        "up": {
+          "uv": [
+            0.375,
+            7.875,
+            4.375,
+            8.25
+          ],
+          "texture": "#basin"
+        },
+        "down": {
+          "uv": [
+            4.375,
+            7.875,
+            8.375,
+            8.25
+          ],
+          "texture": "#basin"
+        }
+      }
+    },
+    {
+      "name": "Rear stone rim",
+      "from": [
+        0,
+        1,
+        29
+      ],
+      "to": [
+        32,
+        4,
+        32
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            4.75,
+            9.125,
+            8.75,
+            9.5
+          ],
+          "texture": "#basin"
+        },
+        "south": {
+          "uv": [
+            0.375,
+            9.125,
+            4.375,
+            9.5
+          ],
+          "texture": "#basin"
+        },
+        "east": {
+          "uv": [
+            0,
+            9.125,
+            0.375,
+            9.5
+          ],
+          "texture": "#basin"
+        },
+        "west": {
+          "uv": [
+            4.375,
+            9.125,
+            4.75,
+            9.5
+          ],
+          "texture": "#basin"
+        },
+        "up": {
+          "uv": [
+            0.375,
+            8.75,
+            4.375,
+            9.125
+          ],
+          "texture": "#basin"
+        },
+        "down": {
+          "uv": [
+            4.375,
+            8.75,
+            8.375,
+            9.125
+          ],
+          "texture": "#basin"
+        }
+      }
+    },
+    {
+      "name": "Left stone rim",
+      "from": [
+        0,
+        1,
+        3
+      ],
+      "to": [
+        3,
+        4,
+        29
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            6.875,
+            12.875,
+            7.25,
+            13.25
+          ],
+          "texture": "#basin"
+        },
+        "south": {
+          "uv": [
+            3.25,
+            12.875,
+            3.625,
+            13.25
+          ],
+          "texture": "#basin"
+        },
+        "east": {
+          "uv": [
+            0,
+            12.875,
+            3.25,
+            13.25
+          ],
+          "texture": "#basin"
+        },
+        "west": {
+          "uv": [
+            3.625,
+            12.875,
+            6.875,
+            13.25
+          ],
+          "texture": "#basin"
+        },
+        "up": {
+          "uv": [
+            3.25,
+            9.625,
+            3.625,
+            12.875
+          ],
+          "texture": "#basin"
+        },
+        "down": {
+          "uv": [
+            3.625,
+            9.625,
+            4,
+            12.875
+          ],
+          "texture": "#basin"
+        }
+      }
+    },
+    {
+      "name": "Right stone rim",
+      "from": [
+        29,
+        1,
+        3
+      ],
+      "to": [
+        32,
+        4,
+        29
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            14.375,
+            12.875,
+            14.75,
+            13.25
+          ],
+          "texture": "#basin"
+        },
+        "south": {
+          "uv": [
+            10.75,
+            12.875,
+            11.125,
+            13.25
+          ],
+          "texture": "#basin"
+        },
+        "east": {
+          "uv": [
+            7.5,
+            12.875,
+            10.75,
+            13.25
+          ],
+          "texture": "#basin"
+        },
+        "west": {
+          "uv": [
+            11.125,
+            12.875,
+            14.375,
+            13.25
+          ],
+          "texture": "#basin"
+        },
+        "up": {
+          "uv": [
+            10.75,
+            9.625,
+            11.125,
+            12.875
+          ],
+          "texture": "#basin"
+        },
+        "down": {
+          "uv": [
+            11.125,
+            9.625,
+            11.5,
+            12.875
+          ],
+          "texture": "#basin"
+        }
+      }
+    },
+    {
+      "name": "Skull cranium",
+      "from": [
+        13,
+        5,
+        26
+      ],
+      "to": [
+        19,
+        8,
+        30
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            3.5,
+            4,
+            5,
+            4.75
+          ],
+          "texture": "#ornaments"
+        },
+        "south": {
+          "uv": [
+            1,
+            4,
+            2.5,
+            4.75
+          ],
+          "texture": "#ornaments"
+        },
+        "east": {
+          "uv": [
+            0,
+            4,
+            1,
+            4.75
+          ],
+          "texture": "#ornaments"
+        },
+        "west": {
+          "uv": [
+            2.5,
+            4,
+            3.5,
+            4.75
+          ],
+          "texture": "#ornaments"
+        },
+        "up": {
+          "uv": [
+            1,
+            3,
+            2.5,
+            4
+          ],
+          "texture": "#ornaments"
+        },
+        "down": {
+          "uv": [
+            2.5,
+            3,
+            4,
+            4
+          ],
+          "texture": "#ornaments"
+        }
+      }
+    },
+    {
+      "name": "Skull jaw and rear support",
+      "from": [
+        14,
+        4,
+        26
+      ],
+      "to": [
+        18,
+        5,
+        30
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            8.5,
+            4,
+            9.5,
+            4.25
+          ],
+          "texture": "#ornaments"
+        },
+        "south": {
+          "uv": [
+            6.5,
+            4,
+            7.5,
+            4.25
+          ],
+          "texture": "#ornaments"
+        },
+        "east": {
+          "uv": [
+            5.5,
+            4,
+            6.5,
+            4.25
+          ],
+          "texture": "#ornaments"
+        },
+        "west": {
+          "uv": [
+            7.5,
+            4,
+            8.5,
+            4.25
+          ],
+          "texture": "#ornaments"
+        },
+        "up": {
+          "uv": [
+            6.5,
+            3,
+            7.5,
+            4
+          ],
+          "texture": "#ornaments"
+        },
+        "down": {
+          "uv": [
+            7.5,
+            3,
+            8.5,
+            4
+          ],
+          "texture": "#ornaments"
+        }
+      }
+    },
+    {
+      "name": "Front left root clump",
+      "from": [
+        4,
+        1.5,
+        4
+      ],
+      "to": [
+        6,
+        2.75,
+        6
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            1.5,
+            6.5,
+            2,
+            7
+          ],
+          "texture": "#ornaments"
+        },
+        "south": {
+          "uv": [
+            0.5,
+            6.5,
+            1,
+            7
+          ],
+          "texture": "#ornaments"
+        },
+        "east": {
+          "uv": [
+            0,
+            6.5,
+            0.5,
+            7
+          ],
+          "texture": "#ornaments"
+        },
+        "west": {
+          "uv": [
+            1,
+            6.5,
+            1.5,
+            7
+          ],
+          "texture": "#ornaments"
+        },
+        "up": {
+          "uv": [
+            0.5,
+            6,
+            1,
+            6.5
+          ],
+          "texture": "#ornaments"
+        },
+        "down": {
+          "uv": [
+            1,
+            6,
+            1.5,
+            6.5
+          ],
+          "texture": "#ornaments"
+        }
+      }
+    },
+    {
+      "name": "Front left cattail stem",
+      "from": [
+        4.75,
+        2.5,
+        4.75
+      ],
+      "to": [
+        5.25,
+        6,
+        5.25
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            0.75,
+            0.25,
+            1,
+            1.25
+          ],
+          "texture": "#ornaments"
+        },
+        "south": {
+          "uv": [
+            0.25,
+            0.25,
+            0.5,
+            1.25
+          ],
+          "texture": "#ornaments"
+        },
+        "east": {
+          "uv": [
+            0,
+            0.25,
+            0.25,
+            1.25
+          ],
+          "texture": "#ornaments"
+        },
+        "west": {
+          "uv": [
+            0.5,
+            0.25,
+            0.75,
+            1.25
+          ],
+          "texture": "#ornaments"
+        },
+        "up": {
+          "uv": [
+            0.25,
+            0,
+            0.5,
+            0.25
+          ],
+          "texture": "#ornaments"
+        },
+        "down": {
+          "uv": [
+            0.5,
+            0,
+            0.75,
+            0.25
+          ],
+          "texture": "#ornaments"
+        }
+      }
+    },
+    {
+      "name": "Front left cattail seed head",
+      "from": [
+        4.5,
+        6,
+        4.5
+      ],
+      "to": [
+        5.5,
+        8,
+        5.5
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            1.75,
+            0.25,
+            2,
+            0.75
+          ],
+          "texture": "#ornaments"
+        },
+        "south": {
+          "uv": [
+            1.25,
+            0.25,
+            1.5,
+            0.75
+          ],
+          "texture": "#ornaments"
+        },
+        "east": {
+          "uv": [
+            1,
+            0.25,
+            1.25,
+            0.75
+          ],
+          "texture": "#ornaments"
+        },
+        "west": {
+          "uv": [
+            1.5,
+            0.25,
+            1.75,
+            0.75
+          ],
+          "texture": "#ornaments"
+        },
+        "up": {
+          "uv": [
+            1.25,
+            0,
+            1.5,
+            0.25
+          ],
+          "texture": "#ornaments"
+        },
+        "down": {
+          "uv": [
+            1.5,
+            0,
+            1.75,
+            0.25
+          ],
+          "texture": "#ornaments"
+        }
+      }
+    },
+    {
+      "name": "Front left outer leaf",
+      "from": [
+        4.03125,
+        2.5,
+        5.5
+      ],
+      "to": [
+        4.53125,
+        5,
+        6.5
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            2.75,
+            0.25,
+            3,
+            1
+          ],
+          "texture": "#ornaments"
+        },
+        "south": {
+          "uv": [
+            2.25,
+            0.25,
+            2.5,
+            1
+          ],
+          "texture": "#ornaments"
+        },
+        "east": {
+          "uv": [
+            2,
+            0.25,
+            2.25,
+            1
+          ],
+          "texture": "#ornaments"
+        },
+        "west": {
+          "uv": [
+            2.5,
+            0.25,
+            2.75,
+            1
+          ],
+          "texture": "#ornaments"
+        },
+        "up": {
+          "uv": [
+            2.25,
+            0,
+            2.5,
+            0.25
+          ],
+          "texture": "#ornaments"
+        },
+        "down": {
+          "uv": [
+            2.5,
+            0,
+            2.75,
+            0.25
+          ],
+          "texture": "#ornaments"
+        }
+      }
+    },
+    {
+      "name": "Front left inner leaf",
+      "from": [
+        5.5,
+        2.5,
+        4.5
+      ],
+      "to": [
+        6.5,
+        4.5,
+        5
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            3.75,
+            0.25,
+            4,
+            0.75
+          ],
+          "texture": "#ornaments"
+        },
+        "south": {
+          "uv": [
+            3.25,
+            0.25,
+            3.5,
+            0.75
+          ],
+          "texture": "#ornaments"
+        },
+        "east": {
+          "uv": [
+            3,
+            0.25,
+            3.25,
+            0.75
+          ],
+          "texture": "#ornaments"
+        },
+        "west": {
+          "uv": [
+            3.5,
+            0.25,
+            3.75,
+            0.75
+          ],
+          "texture": "#ornaments"
+        },
+        "up": {
+          "uv": [
+            3.25,
+            0,
+            3.5,
+            0.25
+          ],
+          "texture": "#ornaments"
+        },
+        "down": {
+          "uv": [
+            3.5,
+            0,
+            3.75,
+            0.25
+          ],
+          "texture": "#ornaments"
+        }
+      }
+    },
+    {
+      "name": "Front right root clump",
+      "from": [
+        26,
+        1.5,
+        4
+      ],
+      "to": [
+        28,
+        2.75,
+        6
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            4,
+            6.5,
+            4.5,
+            7
+          ],
+          "texture": "#ornaments"
+        },
+        "south": {
+          "uv": [
+            3,
+            6.5,
+            3.5,
+            7
+          ],
+          "texture": "#ornaments"
+        },
+        "east": {
+          "uv": [
+            2.5,
+            6.5,
+            3,
+            7
+          ],
+          "texture": "#ornaments"
+        },
+        "west": {
+          "uv": [
+            3.5,
+            6.5,
+            4,
+            7
+          ],
+          "texture": "#ornaments"
+        },
+        "up": {
+          "uv": [
+            3,
+            6,
+            3.5,
+            6.5
+          ],
+          "texture": "#ornaments"
+        },
+        "down": {
+          "uv": [
+            3.5,
+            6,
+            4,
+            6.5
+          ],
+          "texture": "#ornaments"
+        }
+      }
+    },
+    {
+      "name": "Front right cattail stem",
+      "from": [
+        26.75,
+        2.5,
+        4.75
+      ],
+      "to": [
+        27.25,
+        5.5,
+        5.25
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            4.75,
+            0.25,
+            5,
+            1
+          ],
+          "texture": "#ornaments"
+        },
+        "south": {
+          "uv": [
+            4.25,
+            0.25,
+            4.5,
+            1
+          ],
+          "texture": "#ornaments"
+        },
+        "east": {
+          "uv": [
+            4,
+            0.25,
+            4.25,
+            1
+          ],
+          "texture": "#ornaments"
+        },
+        "west": {
+          "uv": [
+            4.5,
+            0.25,
+            4.75,
+            1
+          ],
+          "texture": "#ornaments"
+        },
+        "up": {
+          "uv": [
+            4.25,
+            0,
+            4.5,
+            0.25
+          ],
+          "texture": "#ornaments"
+        },
+        "down": {
+          "uv": [
+            4.5,
+            0,
+            4.75,
+            0.25
+          ],
+          "texture": "#ornaments"
+        }
+      }
+    },
+    {
+      "name": "Front right cattail seed head",
+      "from": [
+        26.5,
+        5.5,
+        4.5
+      ],
+      "to": [
+        27.5,
+        7.5,
+        5.5
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            5.75,
+            0.25,
+            6,
+            0.75
+          ],
+          "texture": "#ornaments"
+        },
+        "south": {
+          "uv": [
+            5.25,
+            0.25,
+            5.5,
+            0.75
+          ],
+          "texture": "#ornaments"
+        },
+        "east": {
+          "uv": [
+            5,
+            0.25,
+            5.25,
+            0.75
+          ],
+          "texture": "#ornaments"
+        },
+        "west": {
+          "uv": [
+            5.5,
+            0.25,
+            5.75,
+            0.75
+          ],
+          "texture": "#ornaments"
+        },
+        "up": {
+          "uv": [
+            5.25,
+            0,
+            5.5,
+            0.25
+          ],
+          "texture": "#ornaments"
+        },
+        "down": {
+          "uv": [
+            5.5,
+            0,
+            5.75,
+            0.25
+          ],
+          "texture": "#ornaments"
+        }
+      }
+    },
+    {
+      "name": "Front right outer leaf",
+      "from": [
+        27.53125,
+        2.5,
+        5.5
+      ],
+      "to": [
+        28.03125,
+        5,
+        6.5
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            6.75,
+            0.25,
+            7,
+            1
+          ],
+          "texture": "#ornaments"
+        },
+        "south": {
+          "uv": [
+            6.25,
+            0.25,
+            6.5,
+            1
+          ],
+          "texture": "#ornaments"
+        },
+        "east": {
+          "uv": [
+            6,
+            0.25,
+            6.25,
+            1
+          ],
+          "texture": "#ornaments"
+        },
+        "west": {
+          "uv": [
+            6.5,
+            0.25,
+            6.75,
+            1
+          ],
+          "texture": "#ornaments"
+        },
+        "up": {
+          "uv": [
+            6.25,
+            0,
+            6.5,
+            0.25
+          ],
+          "texture": "#ornaments"
+        },
+        "down": {
+          "uv": [
+            6.5,
+            0,
+            6.75,
+            0.25
+          ],
+          "texture": "#ornaments"
+        }
+      }
+    },
+    {
+      "name": "Front right inner leaf",
+      "from": [
+        25.5,
+        2.5,
+        4.5
+      ],
+      "to": [
+        26.5,
+        4.5,
+        5
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            7.75,
+            0.25,
+            8,
+            0.75
+          ],
+          "texture": "#ornaments"
+        },
+        "south": {
+          "uv": [
+            7.25,
+            0.25,
+            7.5,
+            0.75
+          ],
+          "texture": "#ornaments"
+        },
+        "east": {
+          "uv": [
+            7,
+            0.25,
+            7.25,
+            0.75
+          ],
+          "texture": "#ornaments"
+        },
+        "west": {
+          "uv": [
+            7.5,
+            0.25,
+            7.75,
+            0.75
+          ],
+          "texture": "#ornaments"
+        },
+        "up": {
+          "uv": [
+            7.25,
+            0,
+            7.5,
+            0.25
+          ],
+          "texture": "#ornaments"
+        },
+        "down": {
+          "uv": [
+            7.5,
+            0,
+            7.75,
+            0.25
+          ],
+          "texture": "#ornaments"
+        }
+      }
+    },
+    {
+      "name": "Rear left root clump",
+      "from": [
+        4,
+        1.5,
+        26
+      ],
+      "to": [
+        6,
+        2.75,
+        28
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            6.5,
+            6.5,
+            7,
+            7
+          ],
+          "texture": "#ornaments"
+        },
+        "south": {
+          "uv": [
+            5.5,
+            6.5,
+            6,
+            7
+          ],
+          "texture": "#ornaments"
+        },
+        "east": {
+          "uv": [
+            5,
+            6.5,
+            5.5,
+            7
+          ],
+          "texture": "#ornaments"
+        },
+        "west": {
+          "uv": [
+            6,
+            6.5,
+            6.5,
+            7
+          ],
+          "texture": "#ornaments"
+        },
+        "up": {
+          "uv": [
+            5.5,
+            6,
+            6,
+            6.5
+          ],
+          "texture": "#ornaments"
+        },
+        "down": {
+          "uv": [
+            6,
+            6,
+            6.5,
+            6.5
+          ],
+          "texture": "#ornaments"
+        }
+      }
+    },
+    {
+      "name": "Rear left cattail stem",
+      "from": [
+        4.75,
+        2.5,
+        26.75
+      ],
+      "to": [
+        5.25,
+        6,
+        27.25
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            0.75,
+            0.25,
+            1,
+            1.25
+          ],
+          "texture": "#ornaments"
+        },
+        "south": {
+          "uv": [
+            0.25,
+            0.25,
+            0.5,
+            1.25
+          ],
+          "texture": "#ornaments"
+        },
+        "east": {
+          "uv": [
+            0,
+            0.25,
+            0.25,
+            1.25
+          ],
+          "texture": "#ornaments"
+        },
+        "west": {
+          "uv": [
+            0.5,
+            0.25,
+            0.75,
+            1.25
+          ],
+          "texture": "#ornaments"
+        },
+        "up": {
+          "uv": [
+            0.25,
+            0,
+            0.5,
+            0.25
+          ],
+          "texture": "#ornaments"
+        },
+        "down": {
+          "uv": [
+            0.5,
+            0,
+            0.75,
+            0.25
+          ],
+          "texture": "#ornaments"
+        }
+      }
+    },
+    {
+      "name": "Rear left cattail seed head",
+      "from": [
+        4.5,
+        6,
+        26.5
+      ],
+      "to": [
+        5.5,
+        8,
+        27.5
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            1.75,
+            0.25,
+            2,
+            0.75
+          ],
+          "texture": "#ornaments"
+        },
+        "south": {
+          "uv": [
+            1.25,
+            0.25,
+            1.5,
+            0.75
+          ],
+          "texture": "#ornaments"
+        },
+        "east": {
+          "uv": [
+            1,
+            0.25,
+            1.25,
+            0.75
+          ],
+          "texture": "#ornaments"
+        },
+        "west": {
+          "uv": [
+            1.5,
+            0.25,
+            1.75,
+            0.75
+          ],
+          "texture": "#ornaments"
+        },
+        "up": {
+          "uv": [
+            1.25,
+            0,
+            1.5,
+            0.25
+          ],
+          "texture": "#ornaments"
+        },
+        "down": {
+          "uv": [
+            1.5,
+            0,
+            1.75,
+            0.25
+          ],
+          "texture": "#ornaments"
+        }
+      }
+    },
+    {
+      "name": "Rear left outer leaf",
+      "from": [
+        4.03125,
+        2.5,
+        25.5
+      ],
+      "to": [
+        4.53125,
+        5,
+        26.5
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            2.75,
+            0.25,
+            3,
+            1
+          ],
+          "texture": "#ornaments"
+        },
+        "south": {
+          "uv": [
+            2.25,
+            0.25,
+            2.5,
+            1
+          ],
+          "texture": "#ornaments"
+        },
+        "east": {
+          "uv": [
+            2,
+            0.25,
+            2.25,
+            1
+          ],
+          "texture": "#ornaments"
+        },
+        "west": {
+          "uv": [
+            2.5,
+            0.25,
+            2.75,
+            1
+          ],
+          "texture": "#ornaments"
+        },
+        "up": {
+          "uv": [
+            2.25,
+            0,
+            2.5,
+            0.25
+          ],
+          "texture": "#ornaments"
+        },
+        "down": {
+          "uv": [
+            2.5,
+            0,
+            2.75,
+            0.25
+          ],
+          "texture": "#ornaments"
+        }
+      }
+    },
+    {
+      "name": "Rear left inner leaf",
+      "from": [
+        5.5,
+        2.5,
+        27
+      ],
+      "to": [
+        6.5,
+        4.5,
+        27.5
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            3.75,
+            0.25,
+            4,
+            0.75
+          ],
+          "texture": "#ornaments"
+        },
+        "south": {
+          "uv": [
+            3.25,
+            0.25,
+            3.5,
+            0.75
+          ],
+          "texture": "#ornaments"
+        },
+        "east": {
+          "uv": [
+            3,
+            0.25,
+            3.25,
+            0.75
+          ],
+          "texture": "#ornaments"
+        },
+        "west": {
+          "uv": [
+            3.5,
+            0.25,
+            3.75,
+            0.75
+          ],
+          "texture": "#ornaments"
+        },
+        "up": {
+          "uv": [
+            3.25,
+            0,
+            3.5,
+            0.25
+          ],
+          "texture": "#ornaments"
+        },
+        "down": {
+          "uv": [
+            3.5,
+            0,
+            3.75,
+            0.25
+          ],
+          "texture": "#ornaments"
+        }
+      }
+    },
+    {
+      "name": "Rear right root clump",
+      "from": [
+        26,
+        1.5,
+        26
+      ],
+      "to": [
+        28,
+        2.75,
+        28
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            9,
+            6.5,
+            9.5,
+            7
+          ],
+          "texture": "#ornaments"
+        },
+        "south": {
+          "uv": [
+            8,
+            6.5,
+            8.5,
+            7
+          ],
+          "texture": "#ornaments"
+        },
+        "east": {
+          "uv": [
+            7.5,
+            6.5,
+            8,
+            7
+          ],
+          "texture": "#ornaments"
+        },
+        "west": {
+          "uv": [
+            8.5,
+            6.5,
+            9,
+            7
+          ],
+          "texture": "#ornaments"
+        },
+        "up": {
+          "uv": [
+            8,
+            6,
+            8.5,
+            6.5
+          ],
+          "texture": "#ornaments"
+        },
+        "down": {
+          "uv": [
+            8.5,
+            6,
+            9,
+            6.5
+          ],
+          "texture": "#ornaments"
+        }
+      }
+    },
+    {
+      "name": "Rear right cattail stem",
+      "from": [
+        26.75,
+        2.5,
+        26.75
+      ],
+      "to": [
+        27.25,
+        5.5,
+        27.25
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            4.75,
+            0.25,
+            5,
+            1
+          ],
+          "texture": "#ornaments"
+        },
+        "south": {
+          "uv": [
+            4.25,
+            0.25,
+            4.5,
+            1
+          ],
+          "texture": "#ornaments"
+        },
+        "east": {
+          "uv": [
+            4,
+            0.25,
+            4.25,
+            1
+          ],
+          "texture": "#ornaments"
+        },
+        "west": {
+          "uv": [
+            4.5,
+            0.25,
+            4.75,
+            1
+          ],
+          "texture": "#ornaments"
+        },
+        "up": {
+          "uv": [
+            4.25,
+            0,
+            4.5,
+            0.25
+          ],
+          "texture": "#ornaments"
+        },
+        "down": {
+          "uv": [
+            4.5,
+            0,
+            4.75,
+            0.25
+          ],
+          "texture": "#ornaments"
+        }
+      }
+    },
+    {
+      "name": "Rear right cattail seed head",
+      "from": [
+        26.5,
+        5.5,
+        26.5
+      ],
+      "to": [
+        27.5,
+        7.5,
+        27.5
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            5.75,
+            0.25,
+            6,
+            0.75
+          ],
+          "texture": "#ornaments"
+        },
+        "south": {
+          "uv": [
+            5.25,
+            0.25,
+            5.5,
+            0.75
+          ],
+          "texture": "#ornaments"
+        },
+        "east": {
+          "uv": [
+            5,
+            0.25,
+            5.25,
+            0.75
+          ],
+          "texture": "#ornaments"
+        },
+        "west": {
+          "uv": [
+            5.5,
+            0.25,
+            5.75,
+            0.75
+          ],
+          "texture": "#ornaments"
+        },
+        "up": {
+          "uv": [
+            5.25,
+            0,
+            5.5,
+            0.25
+          ],
+          "texture": "#ornaments"
+        },
+        "down": {
+          "uv": [
+            5.5,
+            0,
+            5.75,
+            0.25
+          ],
+          "texture": "#ornaments"
+        }
+      }
+    },
+    {
+      "name": "Rear right outer leaf",
+      "from": [
+        27.53125,
+        2.5,
+        25.5
+      ],
+      "to": [
+        28.03125,
+        5,
+        26.5
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            6.75,
+            0.25,
+            7,
+            1
+          ],
+          "texture": "#ornaments"
+        },
+        "south": {
+          "uv": [
+            6.25,
+            0.25,
+            6.5,
+            1
+          ],
+          "texture": "#ornaments"
+        },
+        "east": {
+          "uv": [
+            6,
+            0.25,
+            6.25,
+            1
+          ],
+          "texture": "#ornaments"
+        },
+        "west": {
+          "uv": [
+            6.5,
+            0.25,
+            6.75,
+            1
+          ],
+          "texture": "#ornaments"
+        },
+        "up": {
+          "uv": [
+            6.25,
+            0,
+            6.5,
+            0.25
+          ],
+          "texture": "#ornaments"
+        },
+        "down": {
+          "uv": [
+            6.5,
+            0,
+            6.75,
+            0.25
+          ],
+          "texture": "#ornaments"
+        }
+      }
+    },
+    {
+      "name": "Rear right inner leaf",
+      "from": [
+        25.5,
+        2.5,
+        27
+      ],
+      "to": [
+        26.5,
+        4.5,
+        27.5
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            7.75,
+            0.25,
+            8,
+            0.75
+          ],
+          "texture": "#ornaments"
+        },
+        "south": {
+          "uv": [
+            7.25,
+            0.25,
+            7.5,
+            0.75
+          ],
+          "texture": "#ornaments"
+        },
+        "east": {
+          "uv": [
+            7,
+            0.25,
+            7.25,
+            0.75
+          ],
+          "texture": "#ornaments"
+        },
+        "west": {
+          "uv": [
+            7.5,
+            0.25,
+            7.75,
+            0.75
+          ],
+          "texture": "#ornaments"
+        },
+        "up": {
+          "uv": [
+            7.25,
+            0,
+            7.5,
+            0.25
+          ],
+          "texture": "#ornaments"
+        },
+        "down": {
+          "uv": [
+            7.5,
+            0,
+            7.75,
+            0.25
+          ],
+          "texture": "#ornaments"
+        }
+      }
+    }
+  ],
+  "display": {
+    "gui": {
+      "rotation": [
+        30,
+        225,
+        0
+      ],
+      "translation": [
+        3.25,
+        1.452136,
+        0.861786
+      ],
+      "scale": [
+        0.287262,
+        0.287262,
+        0.287262
+      ]
+    },
+    "ground": {
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "translation": [
+        -3,
+        4,
+        -3
+      ],
+      "scale": [
+        0.375,
+        0.375,
+        0.375
+      ]
+    },
+    "fixed": {
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "translation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        0.5,
+        0.5,
+        0.5
+      ]
+    },
+    "head": {
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "translation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    "thirdperson_righthand": {
+      "rotation": [
+        75,
+        45,
+        0
+      ],
+      "translation": [
+        -2,
+        3.274519,
+        0.828598
+      ],
+      "scale": [
+        0.176777,
+        0.176777,
+        0.176777
+      ]
+    },
+    "thirdperson_lefthand": {
+      "rotation": [
+        75,
+        45,
+        0
+      ],
+      "translation": [
+        0,
+        5.206371,
+        0.353649
+      ],
+      "scale": [
+        0.176777,
+        0.176777,
+        0.176777
+      ]
+    },
+    "firstperson_righthand": {
+      "rotation": [
+        0,
+        45,
+        0
+      ],
+      "translation": [
+        -2.5,
+        2.883883,
+        0
+      ],
+      "scale": [
+        0.220971,
+        0.220971,
+        0.220971
+      ]
+    },
+    "firstperson_lefthand": {
+      "rotation": [
+        0,
+        45,
+        0
+      ],
+      "translation": [
+        0,
+        2.883883,
+        -2.5
+      ],
+      "scale": [
+        0.220971,
+        0.220971,
+        0.220971
+      ]
+    }
+  },
+  "gui_light": "side"
+}
