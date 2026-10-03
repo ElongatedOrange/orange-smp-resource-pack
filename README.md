@@ -4,6 +4,10 @@
 
 Minecraft Java 26.3 resource pack, maintained by Elongated_Orange.
 
+## Cubic pumpkin carving (v0.24.0)
+
+Adds a Voxel Forge generated solid pumpkin cube for carving. The Halloween plugin displays it at 2×2×2 blocks, with an 8×8×8 grid of removable quarter-block cells. Existing saved cut indices are retained. The rounded pumpkin used by bowling and cosmetics is unchanged. Generation and UV-preserving partition provenance are recorded in `provenance/halloween`.
+
 ## Halloween festival (v0.23.0)
 
 Adds the eight-day Orange SMP Halloween festival artwork: physical carnival stations, four story ghosts, camera and portraits, a shared cauldron, seasonal Kitchen ingredients and treats, fishing collectibles and wearable rewards. Every new design is an actual Voxel Forge generation. Provenance and recorded derivatives are in `provenance/halloween`.
