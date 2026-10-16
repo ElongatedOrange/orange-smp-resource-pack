@@ -1,9 +1,9 @@
 {
-  "id": "08bfcc10-8648-44dc-92c2-b3ceebc486e9",
+  "id": "87bbd513-82b2-4fde-8216-170fd8b76972",
   "kind": "item2d",
   "spec": {
     "name": "flour_silhouette",
-    "description": "A small open kraft-paper packet of wheat flour, with a soft ivory mound, folded golden paper and a simple wheat-ear motif. Painted at 32×32 with upper-left lighting and a clean transparent silhouette.",
+    "description": "A small open kraft-paper packet of wheat flour, repainted as a native 16x16 vanilla-style item sprite. It has a soft ivory flour mound, a folded golden paper rim with a contact shadow, a tiny dark wheat-ear motif, a clean dark outline, upper-left lighting and a transparent background.",
     "palette": [
       "#33303b"
     ],
@@ -29,16 +29,16 @@
     "textures": [
       {
         "id": "main",
-        "width": 32,
-        "height": 32,
+        "width": 16,
+        "height": 16,
         "background": "#33303b00",
         "commands": [
           {
             "op": "rect",
-            "x": 7,
-            "y": 9,
-            "w": 18,
-            "h": 3,
+            "x": 6,
+            "y": 2,
+            "w": 4,
+            "h": 1,
             "color": "#33303b",
             "seed": 0,
             "density": 1
@@ -46,9 +46,49 @@
           {
             "op": "rect",
             "x": 5,
-            "y": 12,
-            "w": 22,
-            "h": 7,
+            "y": 3,
+            "w": 6,
+            "h": 1,
+            "color": "#33303b",
+            "seed": 0,
+            "density": 1
+          },
+          {
+            "op": "rect",
+            "x": 3,
+            "y": 4,
+            "w": 10,
+            "h": 1,
+            "color": "#33303b",
+            "seed": 0,
+            "density": 1
+          },
+          {
+            "op": "rect",
+            "x": 2,
+            "y": 5,
+            "w": 12,
+            "h": 9,
+            "color": "#33303b",
+            "seed": 0,
+            "density": 1
+          },
+          {
+            "op": "rect",
+            "x": 3,
+            "y": 14,
+            "w": 10,
+            "h": 1,
+            "color": "#33303b",
+            "seed": 0,
+            "density": 1
+          },
+          {
+            "op": "rect",
+            "x": 4,
+            "y": 15,
+            "w": 8,
+            "h": 1,
             "color": "#33303b",
             "seed": 0,
             "density": 1
@@ -56,9 +96,9 @@
           {
             "op": "rect",
             "x": 6,
-            "y": 19,
-            "w": 20,
-            "h": 8,
+            "y": 3,
+            "w": 2,
+            "h": 1,
             "color": "#33303b",
             "seed": 0,
             "density": 1
@@ -66,49 +106,29 @@
           {
             "op": "rect",
             "x": 8,
-            "y": 27,
-            "w": 16,
-            "h": 3,
+            "y": 3,
+            "w": 2,
+            "h": 1,
             "color": "#33303b",
             "seed": 0,
             "density": 1
           },
           {
             "op": "rect",
-            "x": 8,
-            "y": 9,
-            "w": 16,
-            "h": 4,
+            "x": 5,
+            "y": 4,
+            "w": 1,
+            "h": 1,
             "color": "#33303b",
             "seed": 0,
             "density": 1
           },
           {
             "op": "rect",
-            "x": 9,
-            "y": 8,
-            "w": 6,
-            "h": 3,
-            "color": "#33303b",
-            "seed": 0,
-            "density": 1
-          },
-          {
-            "op": "rect",
-            "x": 15,
-            "y": 9,
-            "w": 8,
-            "h": 2,
-            "color": "#33303b",
-            "seed": 0,
-            "density": 1
-          },
-          {
-            "op": "rect",
-            "x": 7,
-            "y": 12,
-            "w": 18,
-            "h": 6,
+            "x": 6,
+            "y": 4,
+            "w": 4,
+            "h": 1,
             "color": "#33303b",
             "seed": 0,
             "density": 1
@@ -116,9 +136,69 @@
           {
             "op": "rect",
             "x": 10,
-            "y": 9,
-            "w": 12,
-            "h": 7,
+            "y": 4,
+            "w": 1,
+            "h": 1,
+            "color": "#33303b",
+            "seed": 0,
+            "density": 1
+          },
+          {
+            "op": "rect",
+            "x": 3,
+            "y": 5,
+            "w": 1,
+            "h": 1,
+            "color": "#33303b",
+            "seed": 0,
+            "density": 1
+          },
+          {
+            "op": "rect",
+            "x": 4,
+            "y": 5,
+            "w": 1,
+            "h": 1,
+            "color": "#33303b",
+            "seed": 0,
+            "density": 1
+          },
+          {
+            "op": "rect",
+            "x": 5,
+            "y": 5,
+            "w": 3,
+            "h": 1,
+            "color": "#33303b",
+            "seed": 0,
+            "density": 1
+          },
+          {
+            "op": "rect",
+            "x": 8,
+            "y": 5,
+            "w": 2,
+            "h": 1,
+            "color": "#33303b",
+            "seed": 0,
+            "density": 1
+          },
+          {
+            "op": "rect",
+            "x": 10,
+            "y": 5,
+            "w": 1,
+            "h": 1,
+            "color": "#33303b",
+            "seed": 0,
+            "density": 1
+          },
+          {
+            "op": "rect",
+            "x": 11,
+            "y": 5,
+            "w": 1,
+            "h": 1,
             "color": "#33303b",
             "seed": 0,
             "density": 1
@@ -126,19 +206,29 @@
           {
             "op": "rect",
             "x": 12,
-            "y": 7,
-            "w": 8,
-            "h": 2,
+            "y": 5,
+            "w": 1,
+            "h": 1,
             "color": "#33303b",
             "seed": 0,
             "density": 1
           },
           {
             "op": "rect",
-            "x": 14,
+            "x": 3,
+            "y": 6,
+            "w": 3,
+            "h": 1,
+            "color": "#33303b",
+            "seed": 0,
+            "density": 1
+          },
+          {
+            "op": "rect",
+            "x": 6,
             "y": 6,
             "w": 4,
-            "h": 2,
+            "h": 1,
             "color": "#33303b",
             "seed": 0,
             "density": 1
@@ -146,8 +236,88 @@
           {
             "op": "rect",
             "x": 10,
-            "y": 10,
-            "w": 13,
+            "y": 6,
+            "w": 2,
+            "h": 1,
+            "color": "#33303b",
+            "seed": 0,
+            "density": 1
+          },
+          {
+            "op": "rect",
+            "x": 12,
+            "y": 6,
+            "w": 1,
+            "h": 1,
+            "color": "#33303b",
+            "seed": 0,
+            "density": 1
+          },
+          {
+            "op": "rect",
+            "x": 3,
+            "y": 7,
+            "w": 10,
+            "h": 1,
+            "color": "#33303b",
+            "seed": 0,
+            "density": 1
+          },
+          {
+            "op": "rect",
+            "x": 3,
+            "y": 8,
+            "w": 10,
+            "h": 6,
+            "color": "#33303b",
+            "seed": 0,
+            "density": 1
+          },
+          {
+            "op": "rect",
+            "x": 3,
+            "y": 8,
+            "w": 1,
+            "h": 3,
+            "color": "#33303b",
+            "seed": 0,
+            "density": 1
+          },
+          {
+            "op": "rect",
+            "x": 3,
+            "y": 11,
+            "w": 1,
+            "h": 3,
+            "color": "#33303b",
+            "seed": 0,
+            "density": 1
+          },
+          {
+            "op": "rect",
+            "x": 4,
+            "y": 8,
+            "w": 1,
+            "h": 4,
+            "color": "#33303b",
+            "seed": 0,
+            "density": 1
+          },
+          {
+            "op": "rect",
+            "x": 5,
+            "y": 8,
+            "w": 1,
+            "h": 1,
+            "color": "#33303b",
+            "seed": 0,
+            "density": 1
+          },
+          {
+            "op": "rect",
+            "x": 12,
+            "y": 8,
+            "w": 1,
             "h": 5,
             "color": "#33303b",
             "seed": 0,
@@ -156,9 +326,69 @@
           {
             "op": "rect",
             "x": 12,
-            "y": 8,
-            "w": 8,
-            "h": 4,
+            "y": 13,
+            "w": 1,
+            "h": 1,
+            "color": "#33303b",
+            "seed": 0,
+            "density": 1
+          },
+          {
+            "op": "rect",
+            "x": 11,
+            "y": 11,
+            "w": 1,
+            "h": 2,
+            "color": "#33303b",
+            "seed": 0,
+            "density": 1
+          },
+          {
+            "op": "rect",
+            "x": 10,
+            "y": 13,
+            "w": 2,
+            "h": 1,
+            "color": "#33303b",
+            "seed": 0,
+            "density": 1
+          },
+          {
+            "op": "rect",
+            "x": 8,
+            "y": 9,
+            "w": 1,
+            "h": 1,
+            "color": "#33303b",
+            "seed": 0,
+            "density": 1
+          },
+          {
+            "op": "rect",
+            "x": 7,
+            "y": 10,
+            "w": 1,
+            "h": 2,
+            "color": "#33303b",
+            "seed": 0,
+            "density": 1
+          },
+          {
+            "op": "rect",
+            "x": 9,
+            "y": 10,
+            "w": 1,
+            "h": 2,
+            "color": "#33303b",
+            "seed": 0,
+            "density": 1
+          },
+          {
+            "op": "rect",
+            "x": 8,
+            "y": 10,
+            "w": 1,
+            "h": 2,
             "color": "#33303b",
             "seed": 0,
             "density": 1
@@ -167,28 +397,18 @@
             "op": "rect",
             "x": 8,
             "y": 12,
-            "w": 16,
-            "h": 3,
+            "w": 1,
+            "h": 1,
             "color": "#33303b",
             "seed": 0,
             "density": 1
           },
           {
             "op": "rect",
-            "x": 10,
-            "y": 11,
-            "w": 10,
-            "h": 3,
-            "color": "#33303b",
-            "seed": 0,
-            "density": 1
-          },
-          {
-            "op": "rect",
-            "x": 13,
-            "y": 8,
-            "w": 4,
-            "h": 2,
+            "x": 4,
+            "y": 14,
+            "w": 7,
+            "h": 1,
             "color": "#33303b",
             "seed": 0,
             "density": 1
@@ -196,268 +416,8 @@
           {
             "op": "rect",
             "x": 11,
-            "y": 10,
-            "w": 4,
-            "h": 2,
-            "color": "#33303b",
-            "seed": 0,
-            "density": 1
-          },
-          {
-            "op": "rect",
-            "x": 20,
-            "y": 11,
-            "w": 2,
-            "h": 3,
-            "color": "#33303b",
-            "seed": 0,
-            "density": 1
-          },
-          {
-            "op": "rect",
-            "x": 6,
-            "y": 13,
-            "w": 3,
-            "h": 6,
-            "color": "#33303b",
-            "seed": 0,
-            "density": 1
-          },
-          {
-            "op": "rect",
-            "x": 7,
-            "y": 17,
-            "w": 18,
-            "h": 9,
-            "color": "#33303b",
-            "seed": 0,
-            "density": 1
-          },
-          {
-            "op": "rect",
-            "x": 9,
-            "y": 26,
-            "w": 14,
-            "h": 3,
-            "color": "#33303b",
-            "seed": 0,
-            "density": 1
-          },
-          {
-            "op": "rect",
-            "x": 9,
-            "y": 15,
-            "w": 14,
-            "h": 3,
-            "color": "#33303b",
-            "seed": 0,
-            "density": 1
-          },
-          {
-            "op": "rect",
-            "x": 9,
             "y": 14,
-            "w": 5,
-            "h": 2,
-            "color": "#33303b",
-            "seed": 0,
-            "density": 1
-          },
-          {
-            "op": "rect",
-            "x": 14,
-            "y": 15,
-            "w": 8,
-            "h": 2,
-            "color": "#33303b",
-            "seed": 0,
-            "density": 1
-          },
-          {
-            "op": "rect",
-            "x": 22,
-            "y": 13,
-            "w": 4,
-            "h": 3,
-            "color": "#33303b",
-            "seed": 0,
-            "density": 1
-          },
-          {
-            "op": "rect",
-            "x": 24,
-            "y": 16,
-            "w": 2,
-            "h": 3,
-            "color": "#33303b",
-            "seed": 0,
-            "density": 1
-          },
-          {
-            "op": "rect",
-            "x": 22,
-            "y": 17,
-            "w": 3,
-            "h": 9,
-            "color": "#33303b",
-            "seed": 0,
-            "density": 1
-          },
-          {
-            "op": "rect",
-            "x": 21,
-            "y": 25,
-            "w": 3,
-            "h": 2,
-            "color": "#33303b",
-            "seed": 0,
-            "density": 1
-          },
-          {
-            "op": "rect",
-            "x": 19,
-            "y": 27,
-            "w": 4,
-            "h": 2,
-            "color": "#33303b",
-            "seed": 0,
-            "density": 1
-          },
-          {
-            "op": "rect",
-            "x": 8,
-            "y": 18,
-            "w": 4,
-            "h": 7,
-            "color": "#33303b",
-            "seed": 0,
-            "density": 1
-          },
-          {
-            "op": "rect",
-            "x": 9,
-            "y": 25,
-            "w": 3,
-            "h": 2,
-            "color": "#33303b",
-            "seed": 0,
-            "density": 1
-          },
-          {
-            "op": "rect",
-            "x": 7,
-            "y": 14,
-            "w": 2,
-            "h": 3,
-            "color": "#33303b",
-            "seed": 0,
-            "density": 1
-          },
-          {
-            "op": "rect",
-            "x": 10,
-            "y": 27,
-            "w": 8,
-            "h": 1,
-            "color": "#33303b",
-            "seed": 0,
-            "density": 1
-          },
-          {
-            "op": "rect",
-            "x": 17,
-            "y": 19,
             "w": 1,
-            "h": 7,
-            "color": "#33303b",
-            "seed": 0,
-            "density": 1
-          },
-          {
-            "op": "rect",
-            "x": 16,
-            "y": 18,
-            "w": 2,
-            "h": 3,
-            "color": "#33303b",
-            "seed": 0,
-            "density": 1
-          },
-          {
-            "op": "rect",
-            "x": 13,
-            "y": 20,
-            "w": 3,
-            "h": 2,
-            "color": "#33303b",
-            "seed": 0,
-            "density": 1
-          },
-          {
-            "op": "rect",
-            "x": 14,
-            "y": 22,
-            "w": 3,
-            "h": 1,
-            "color": "#33303b",
-            "seed": 0,
-            "density": 1
-          },
-          {
-            "op": "rect",
-            "x": 18,
-            "y": 21,
-            "w": 3,
-            "h": 2,
-            "color": "#33303b",
-            "seed": 0,
-            "density": 1
-          },
-          {
-            "op": "rect",
-            "x": 13,
-            "y": 23,
-            "w": 3,
-            "h": 2,
-            "color": "#33303b",
-            "seed": 0,
-            "density": 1
-          },
-          {
-            "op": "rect",
-            "x": 18,
-            "y": 24,
-            "w": 2,
-            "h": 1,
-            "color": "#33303b",
-            "seed": 0,
-            "density": 1
-          },
-          {
-            "op": "rect",
-            "x": 16,
-            "y": 18,
-            "w": 1,
-            "h": 2,
-            "color": "#33303b",
-            "seed": 0,
-            "density": 1
-          },
-          {
-            "op": "rect",
-            "x": 13,
-            "y": 20,
-            "w": 2,
-            "h": 1,
-            "color": "#33303b",
-            "seed": 0,
-            "density": 1
-          },
-          {
-            "op": "rect",
-            "x": 18,
-            "y": 21,
-            "w": 2,
             "h": 1,
             "color": "#33303b",
             "seed": 0,
@@ -474,8 +434,8 @@
   "prompt": "",
   "style": "Vanilla",
   "resolution": 32,
-  "createdAt": "2026-09-22T18:52:28.686Z",
-  "updatedAt": "2026-09-22T18:52:28.686Z",
+  "createdAt": "2026-10-16T18:15:34.933Z",
+  "updatedAt": "2026-10-16T18:15:34.933Z",
   "revision": 1,
   "source": "manual",
   "bindings": {

@@ -4,6 +4,10 @@
 
 Minecraft Java 26.3 resource pack, maintained by Elongated_Orange.
 
+## Native 16x16 Kitchen sprites (v0.25.0)
+
+All 28 flat Kitchen items are now native 16x16 sprites matching vanilla item density: 17 Kitchen items (seed packets, flour, salt, nori, coffee grounds) and the 11 seasonal Halloween ingredients and treats. Each is an actual Voxel Forge generation refined from its 32x32 original, which is recorded as its parent (`provenance/kitchen/generated-assets.json` `parentAssetId`; `provenance/halloween/assets.json` `refinedFrom`). Recipe silhouettes and cooking-HUD icons were re-derived from the new art on their existing glyphs. Z-fighting is fixed across 230 Kitchen models (dishes, stations, silhouettes and crop stages): they were re-exported through Voxel Forge's current surface cleanup, which moves parts with coplanar faces apart by at most 3/32 of a model pixel while keeping every size, UV and pixel. The audit (`orange-smp-kitchen/scripts/audit-surfaces.mjs`) now finds no coplanar faces in any of the 313 Kitchen models; details are in `provenance/kitchen/surface-repair-export.json`. Pair with the Kitchen update that gives every cook 2.5x more time.
+
 ## Cubic pumpkin carving (v0.24.0)
 
 Adds a Voxel Forge generated solid pumpkin cube for carving. The Halloween plugin displays it at 2×2×2 blocks, with an 8×8×8 grid of removable quarter-block cells. Existing saved cut indices are retained. The rounded pumpkin used by bowling and cosmetics is unchanged. Generation and UV-preserving partition provenance are recorded in `provenance/halloween`.
